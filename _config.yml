@@ -1,0 +1,25 @@
+# Site settings. GitHub Pages builds this site with Jekyll on its own: no build step is needed.
+title: Valkyrie Profile in Italiano
+description: >-
+  Aggiornamenti su una traduzione amatoriale in italiano di Valkyrie Profile (PlayStation).
+lang: it
+
+# Before publishing, set these to where the site will live:
+# - a repository named USERNAME.github.io → url: "https://USERNAME.github.io", baseurl: ""
+# - any other repository name REPO        → url: "https://USERNAME.github.io", baseurl: "/REPO"
+url: "https://theimplementer.github.io"
+baseurl: "/valkyrie-profile-ita"
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+minima:
+  date_format: "%d/%m/%Y"
+
+# Files that are part of the repository but not of the site.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
