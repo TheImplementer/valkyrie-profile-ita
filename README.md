@@ -2,6 +2,13 @@
 
 A Jekyll blog (minima theme) for updates on the Italian fan translation. The posts are in Italian.
 
+## What the blog is for
+
+The blog should be as educational as possible. Beyond translation progress, posts look at the
+challenges Valkyrie Profile poses and explain how the game works: how its data is stored and
+compressed, how its fonts and text work, why some text is hard to find or to change, and so on.
+They are written for a curious reader who is not an expert, and kept short.
+
 ## Writing a post
 
 Add a Markdown file to `_posts/` named `YYYY-MM-DD-title.md`, with front matter like the first post:
