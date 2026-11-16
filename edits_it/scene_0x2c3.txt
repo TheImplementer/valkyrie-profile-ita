@@ -62,7 +62,7 @@ un Artefatto rotto.
 <19:0000>Valkyrie
 「Esatto.<3:1e>
 <3:ff>Voglio che ripari questa
-"Accursed Flame Gem"
+"Gemma Fiamma Maledetta"
 @@ 27
 <19:0100>Elfo
 「Riparare<3:0c>...<3:ff>questa, dunque?
@@ -90,8 +90,8 @@ necessari per ripararla.
 「Eh?
 @@ 34
 <19:0100>Elfo
-「La "Accursed Flame Gem" ha ricevuto
-i suoi poteri da Fafnir,
+「La "Gemma Fiamma Maledetta"
+ha ricevuto i suoi poteri da Fafnir,
 il possente Drago di Fuoco.
 Per ora
 il cristallo ha solo una crepa.<page>
@@ -109,12 +109,12 @@ per il rito di ricristallizzazione.
 <19:0100>Elfo
 「Per la cerimonia di
 ricristallizzazione serve
-un "Golden Candlestick".<page>
-Un "Silver Thread" serve a
+un "Candeliere d'Oro".<page>
+Un "Filo d'Argento" serve a
 ricostruire la matrice magica.<page>
-Le "Polar Drops" servono
+Le "Gocce Polari" servono
 a purificare lo spazio.<page>
-Infine una "Charm Feather" serve
+Infine una "Piuma Incantata" serve
 a fissare la magia nello spazio.<page>
 Questi sono i quattro strumenti.
 @@ 37
@@ -122,12 +122,12 @@ Questi sono i quattro strumenti.
 「Dove posso trovarli?
 @@ 38
 <19:0100>Elfo
-「Le "Polar Drops" sono in
+「Le "Gocce Polari" sono in
 una fonte della foresta, a sud.
-Potrete avere il "Silver Thread" se
+Potrete avere il "Filo d'Argento" se
 sconfiggete il Grande Ragno che abita
 le scogliere a nordest.
-Il "Golden Candlestick" è stato rubato
+Il "Candeliere d'Oro" è stato rubato
 dalla scimmia gigante che vive
 nel profondo della foresta.
 Procurarsi questi oggetti
@@ -149,7 +149,7 @@ di pietrificare?
 <19:0100>Elfo
 「Esatto.
 L'oggetto più importante, la
-"Charm Feather", è
+"Piuma Incantata", è
 una piuma del Cockatrice.
 Per ottenerne una
 dovrete prima, naturalmente,
@@ -180,7 +180,7 @@ all'ingresso della foresta.
 <3:0c>・・・<3:ff>A quanto pare, sì.
 Attendete un momento, prego.
 @@ 49
-<5>Hai trovato Accursed Flame Gem.
+<5>Hai trovato Gemma Fiamma Maledetta.
 @@ 50
 <19:0100>Elfo
 「Ecco fatto.
@@ -202,7 +202,7 @@ Prendetelo, prego.
 Dopotutto, avete liberato la foresta
 da quelle bestie moleste.
 Se avete portato qui la
-Accursed Flame Gem,
+Gemma Fiamma Maledetta,
 allora Asgard stessa deve essere
 in grave pericolo.
 @@ 56
@@ -215,30 +215,30 @@ dove si trovano?
 @@ 57
 <3:00><19:ffff>Di quale vuoi
 sapere di più?
-・Polar Drops
-・Silver Thread
-・Golden Candlestick
-・Charm Feather
+・Gocce Polari
+・Filo d'Argento
+・Candeliere d'Oro
+・Piuma Incantata
 ・Niente
 @@ 58
 <6:570d><19:0100>Elfo
-「Le "Polar Drops" sono
+「Le "Gocce Polari" sono
 in una fonte della foresta, a sud.
 @@ 59
 <6:570d><19:0100>Elfo
-「Per ottenere il "Silver Thread",
+「Per ottenere il "Filo d'Argento",
 dovete sconfiggere il Grande Ragno
 che dimora sulle scogliere
 a nordest.
 @@ 60
 <6:570d><19:0100>Elfo
-「Il "Golden Candlestick" è
+「Il "Candeliere d'Oro" è
 in mano alla scimmia gigante
 nel cuore della foresta.
 @@ 61
 <6:570d><19:0100>Elfo
 「Il nido del Cockatrice
-che porta la "Charm Feather"
+che porta la "Piuma Incantata"
 è a nordovest.
 @@ 62
-<5>Hai trovato "Accursed Flame Gem".
+<5>Hai trovato "Gemma Fiamma Maledetta".

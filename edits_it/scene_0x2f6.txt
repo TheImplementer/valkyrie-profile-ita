@@ -3,11 +3,11 @@
 @@ 14
 <5>Hai ottenuto <14:05> punti esp. evento.
 @@ 15
-<5>Hai trovato Holy Grail.
+<5>Hai trovato Santo Graal.
 @@ 16
 <5>Hai trovato Faim Fenn.
 @@ 17
-<5>Hai trovato Tiara of the Holy Empress.
+<5>Hai trovato Tiara della Pia Imperatrice.
 @@ 18
 Valkyrie
 「Un'arpia,

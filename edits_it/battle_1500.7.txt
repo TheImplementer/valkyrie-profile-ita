@@ -36,3 +36,17 @@ Oscurità
 Nessuno
 @@ 0x001c
 Punti esp.
+@@ 0x012d
+Elisir
+@@ 0x012e
+Rimedio
+@@ 0x012f
+Piuma dell'Unione
+@@ 0x0130
+Elisir Primo
+@@ 0x0131
+Rimedio Primo
+@@ 0x0132
+Elisir Nobile
+@@ 0x0133
+Rimedio Nobile

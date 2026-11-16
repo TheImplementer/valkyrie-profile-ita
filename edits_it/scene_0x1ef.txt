@@ -3,6 +3,6 @@
 @@ 14
 <5>Hai trovato Slanting Rain.
 @@ 15
-<5>Hai trovato Aconite.
+<5>Hai trovato Aconito.
 @@ 16
-<5>Hai trovato Foxglove.
+<5>Hai trovato Digitale.

@@ -33,6 +33,6 @@ soddisfarmi!
 @@ 21
 <5>Hai trovato Shadzard.
 @@ 22
-<5>Hai trovato Secrets of Zolon.
+<5>Hai trovato Segreti di Zolon.
 @@ 23
 <5>Hai trovato Unicorn's Horn.

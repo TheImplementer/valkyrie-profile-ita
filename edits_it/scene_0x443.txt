@@ -2,11 +2,11 @@
 
 @@ 14
 Credo che si possa usare
-la Flame Jewel.<page>
-Vuoi usare la Flame Jewel?
+il Gioiello di Fiamma.<page>
+Vuoi usare il Gioiello di Fiamma?
 ・Sì
 ・No
 @@ 15
 La porta è ben chiusa.
 @@ 16
-<5>Hai trovato Golden Egg.
+<5>Hai trovato Uovo d'Oro.

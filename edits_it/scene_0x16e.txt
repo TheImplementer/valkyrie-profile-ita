@@ -131,11 +131,11 @@ amici<3:0c>・・・<3:ff>
 Pensavo che il viaggio sarebbe finito,
 che saremmo stati tutti felici!
 @@ 44
-<5>Hai trovato Star Guard.
+<5>Hai trovato Manopola Stellare.
 @@ 45
 <5>Hai trovato Holy Wand 'Adventia'.
 @@ 46
-<5>Hai trovato Robe of Bryttain.
+<5>Hai trovato Tunica di Bryttain.
 @@ 47
 Valkyrie
 「Sei un servitore della regina Hel<3:28><3:ff>
@@ -155,4 +155,4 @@ I miei poteri saranno scarsi rispetto
 ai Sovrani degli Dei<3:1e>, <3:ff>ma bastano
 comunque per vedermela con quelli come te!!
 @@ 50
-<5>Hai trovato Mighty Check.
+<5>Hai trovato Talismano Totale.

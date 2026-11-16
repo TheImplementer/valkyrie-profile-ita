@@ -1,6 +1,6 @@
 # Valkyrie Profile scene 0x198 (-): 16 records, directory word 4018, package sectors 201431..201604 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Foxglove.
+<5>Hai trovato Digitale.
 @@ 15
 <5>Hai trovato Ether Scepter.

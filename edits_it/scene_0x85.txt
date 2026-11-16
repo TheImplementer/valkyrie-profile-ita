@@ -65,6 +65,6 @@ Per il momento
 ti consiglio di andartene
 il più in fretta possibile.
 @@ 27
-<5>Hai trovato Vegetable Seed.
+<5>Hai trovato Seme di Ortaggio.
 @@ 28
-<5>Hai trovato Book of Everlasting Life.
+<5>Hai trovato Libro della Vita Eterna.

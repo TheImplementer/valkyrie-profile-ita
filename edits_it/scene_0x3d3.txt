@@ -5,4 +5,4 @@ Sembra un cuore.<page>
 Forse, se lo attacco,
 succederà qualcosa.
 @@ 15
-<5>Hai trovato Invisibility Potion.
+<5>Hai trovato Pozione dell'Invisibilità.

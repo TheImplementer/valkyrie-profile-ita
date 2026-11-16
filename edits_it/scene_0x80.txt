@@ -18,4 +18,4 @@ di utilizzabile all'interno.
 <3:00><5>Apri il forziere・・・
 <5>Davanti al forziere, tasto direzionale ↓+tasto □
 @@ 19
-<5>Hai trovato Eye of Heaven.
+<5>Hai trovato Occhio del Cielo.

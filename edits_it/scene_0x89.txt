@@ -31,6 +31,6 @@ dall'esperienza al fronte.
 @@ 19
 <5>Hai trovato Fire Lance.
 @@ 20
-<5>Hai trovato Foxglove.
+<5>Hai trovato Digitale.
 @@ 21
-<5>Hai trovato Lapis Lazuli.
+<5>Hai trovato Lapislazzuli.

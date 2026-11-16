@@ -1,4 +1,4 @@
 # Valkyrie Profile scene 0x40d (-): 15 records, directory word 4647, package sectors 283081..283121 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Golden Egg.
+<5>Hai trovato Uovo d'Oro.

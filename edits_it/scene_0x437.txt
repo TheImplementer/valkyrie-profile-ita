@@ -3,6 +3,6 @@
 @@ 14
 <5>Hai trovato Frigid Damsel.
 @@ 15
-<5>Hai trovato Mighty Check.
+<5>Hai trovato Talismano Totale.
 @@ 16
-<5>Hai trovato Golden Egg.
+<5>Hai trovato Uovo d'Oro.

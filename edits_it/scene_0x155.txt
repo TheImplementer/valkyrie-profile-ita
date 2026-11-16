@@ -1,4 +1,4 @@
 # Valkyrie Profile scene 0x155 (-): 15 records, directory word 3951, package sectors 193811..193913 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Teachings of Asa.
+<5>Hai trovato Insegnamenti di Asa.

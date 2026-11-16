@@ -1,6 +1,6 @@
 # Valkyrie Profile scene 0x3fc (-): 16 records, directory word 4630, package sectors 281345..281446 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Quartz Gem.
+<5>Hai trovato Gemma di Quarzo.
 @@ 15
-<5>Hai trovato Wand of Exchange.
+<5>Hai trovato Bacchetta dello Scambio.

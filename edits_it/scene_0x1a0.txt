@@ -1,6 +1,6 @@
 # Valkyrie Profile scene 0x1a0 (-): 16 records, directory word 4026, package sectors 202274..202446 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Eye of Heaven.
+<5>Hai trovato Occhio del Cielo.
 @@ 15
-<5>Hai trovato Foxglove.
+<5>Hai trovato Digitale.

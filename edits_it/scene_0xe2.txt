@@ -1,11 +1,11 @@
 # Valkyrie Profile scene 0xe2 (-): 22 records, directory word 3836, package sectors 180566..180724 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Emerald Necklace.
+<5>Hai trovato Collana di Smeraldi.
 @@ 15
-<5>Hai trovato Crown of Felmar.
+<5>Hai trovato Corona di Felmar.
 @@ 16
-<5>Hai trovato Secret of Damascus.
+<5>Hai trovato Segreto di Damasco.
 @@ 17
 Valkyrie
 「Miserabile<3:0c>・・・<3:32><3:ff>

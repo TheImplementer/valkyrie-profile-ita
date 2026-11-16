@@ -1,4 +1,4 @@
 # Valkyrie Profile scene 0x409 (-): 15 records, directory word 4643, package sectors 282614..282734 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Golden Egg.
+<5>Hai trovato Uovo d'Oro.

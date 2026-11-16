@@ -3,6 +3,6 @@
 @@ 14
 <5>Al piano inferiore
 @@ 15
-<5>Hai trovato Vegetable Seed.
+<5>Hai trovato Seme di Ortaggio.
 @@ 16
-<5>Hai trovato Treasure Search.
+<5>Hai trovato Rileva Tesori.

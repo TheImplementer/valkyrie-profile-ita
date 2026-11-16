@@ -46,7 +46,7 @@ here, so this file is never built into the disc.)
 | All-Father; Lord of the Gods | il Padre di Tutti; Signore degli Dei | |
 | Dragon Orb | Sfera del Drago | A story object, so translated ("la Sfera"). |
 | the Four Treasures; Divine / Sacred Treasures | i Quattro Tesori; Tesori Divini / Tesori Sacri | Not "Reliquie", the menu word for Divine Items. |
-| Spear of Gungnir; the Demon's Sword, Levantine; the Wolf, Fenrir | la lancia Gungnir; la Spada Demoniaca, Levantine; il lupo Fenrir | Sylvan Bow stays English (an item). |
+| Spear of Gungnir; the Demon's Sword, Levantine; the Wolf, Fenrir | la lancia Gungnir; la Spada Demoniaca, Levantine; il lupo Fenrir | Sylvan Bow stays English (a weapon: see Item names). |
 | Aesir, Vanir, giants | Asi, Vani, giganti | |
 | World Tree; Twilight of the Gods; Circle of Life | Albero del Mondo; Crepuscolo degli Dei; Ciclo della Vita | Yggdrasil, Bifrost (ponte arcobaleno), Surt, Hrist unchanged. |
 | Water Mirror | Specchio d'Acqua | Lucian's call to Valkyrie (scene 0x1D). |
@@ -57,10 +57,10 @@ here, so this file is never built into the disc.)
 | Master Lezard; Headmistress Lorenta; Lady Lorenta | maestro Lezard; preside Lorenta; la signora Lorenta | Lezard to Valkyrie: "mia amata", "dama del mio cuore". |
 | Student, Graduate Student, Elf (labels) | Allievo / Allieva, Allievo anziano, Elfo / Elfa | Feminine when the speaker is a woman: the birthday student (0x50 #14) and the captive elf (0x11E). |
 | Lady Lyseria, Lady Valkyrie | signora Lyseria, signora Valkyrie | Celia and Grey's storyline. Lady Freya (Loki, mocking) → la signora Freya. |
-| Cerulean Lapis | Lapislazzuli Ceruleo | "il Lapislazzuli" alone, never "Lapis". Fragment of Lapis Gem stays English (an item). |
+| Cerulean Lapis | Lapislazzuli Ceruleo | "il Lapislazzuli" alone, never "Lapis". The items: Fragment of Lapis Gem → Frammento di Lapislazzuli, Lapis Lazuli → Lapislazzuli. |
 | song-maiden; songstress | fanciulla del canto; cantatrice | Hai-Lan. Merfolk → sirene; Oouzu unchanged; Shogun Koh → lo shogun Koh. |
 | Ogre | Orco | Both Ogre storylines (scenes 0x39, 0x1E5). |
-| Pleiades Shrine; Shinto priest; ritual of ascension | Santuario delle Pleiadi; Sacerdote shintoista; rito dell'ascensione | Sacred Sword → Spada Sacra (Dragonbane stays English). Soul Stone → Pietra dell'Anima. |
+| Pleiades Shrine; Shinto priest; ritual of ascension | Santuario delle Pleiadi; Sacerdote shintoista; rito dell'ascensione | Sacred Sword → Spada Sacra (Dragonbane, a weapon, stays English). Soul Stone → Pietra dell'Anima. |
 | Thieves' Guild | Gilda dei Ladri | Villnore Castle → Castello di Villnore; slavers → mercanti di schiavi. |
 | Madam Dolce; Auntie Dolce | signora Dolce; zia Dolce | Lucian gives Dolce *voi*. |
 | Sprite (the tutorial guide) | Spiritello | Artolian Mountain Ruins; gives Lenneth *voi*. Hints with no speaker use the infinitive ("premere il pulsante ○"). |
@@ -72,7 +72,7 @@ here, so this file is never built into the disc.)
 | Goddess of Fools (Barbarossa's mages); Goddess Valkyrie (Lezard) | Dea degli Sciocchi; Dea Valkyrie | |
 | Vampire Brahms; Noble Vampire; Elder Vampire | il Vampiro Brahms; Vampiro nobile; Vampiro anziano | Brahms gives Valkyrie *tu* (he knew her). |
 | the tarot paintings | "IV" L'IMPERATORE, "O" IL MATTO, "VII" IL CARRO, "X" LA RUOTA DELLA FORTUNA, "XII" L'APPESO, "XIII" LA MORTE, "XVI" LA TORRE, "XXI" IL MONDO | |
-| Red / Green / Blue / Daisy Fire | Fuoco Rosso / Verde / Blu / Margherita | Puzzle flags, not items. The moon and eclipse stones are items and stay English. |
+| Red / Green / Blue / Daisy Fire | Fuoco Rosso / Verde / Blu / Margherita | Puzzle flags, not items. The stones of the statue puzzle are items: see Item names. |
 | operating panel; transfer equipment; switch; Sluice Gate; Slab | pannello di controllo; dispositivo di trasferimento; interruttore; paratoia; Lastra | |
 | strong acid; the Fires of Purgatory | acido forte; le Fiamme del Purgatorio | |
 | Research Journal; Page N | Diario di ricerca; Pagina N | Its clues are kept so the plant puzzle can still be solved. |
@@ -165,9 +165,66 @@ Seen in TinyPSX: `docs/notes/edit_proof/italian_title_screens.png`.
 | DME | DME | Kept, explained once as "(energia divina)". |
 | Fire, Ice, Lightning, Poison, Holy, Dark | Fuoco, Ghiaccio, Fulmine, Veleno, Sacro, Oscurità | Elements. |
 | None | Nessuno | |
-| Elixir, Remedy, Union Plume | Elisir, Rimedio, Piuma dell'Unione | Item names (battle 1806.1); "Primo"/"Nobile" for the higher grades. |
-| item help lines | battle and camp versions | The camp menus (`menu_2179.txt`) have their own, longer help lines; translate both, and keep the battle wording where the English matches. |
+| Elixir, Banish, Union Plume | Elisir, Rimedio, Piuma dell'Unione | Item names (battle 1806.1); "Primo"/"Nobile" for the higher grades. All item names: see Item names. |
+| item help lines | battle and camp versions | The camp menus (`menu_2179.txt`) have their own, longer help lines; translate both. Where the two English lines are the same, only the camp one is listed and the build copies it. |
 | place names (world map) | generic part translated, proper name kept | e.g. Rovine di Monte Artolia, Grotte di Oddrock, Torre del Sogno Nero. |
+
+## Item names
+
+The rule follows the official Italian release of Final Fantasy VIII, which translated its potions and
+materials and kept every weapon name in English (Final Fantasy IX mixed the two). The full list is in
+`battle_1806.1.txt`, messages `0x7D1`-`0xA34`; a name listed unchanged stays English on purpose.
+
+* **Italian:** consumables, materials, gems and crystals, accessories, armour, artifacts and quest
+  items. A proper name inside one stays: Perla di Karula, Arpa di Atrasia, Insegnamenti di Bethanus.
+* **English:** every weapon, generic ones too (Long Sword, Short Bow, Crossbow), and the named swords,
+  spears, bows and wands; Freya's and Brahms' named gear (Dragoon Faith, Ether Freeze, Eternal Shine,
+  Brisingal, Ether Laser, Bloody-Knuckle, Bloody-Duster); the spell scrolls, whose names are the
+  spells'. The skill books keep their skill's name until the skills are named.
+* **Dialogue follows the menus:** "Hai trovato Long Sword." but "Hai trovato Occhio del Cielo.".
+
+| English | Italian | Note |
+|---|---|---|
+| X Potion | Pozione X: Forza, Nettare, Scudo, Limpida, Combo, Tecnica, Materia | Lucid Potion makes the user transparent: Limpida. |
+| Charm; X Check | Amuleto Difesa / Magia / Tutela; Talismano Veleno / Paralisi / Pietra / Gelo / Maledizione / Svenimento / Totale | |
+| Jewel, Earring, Ring, Bangle | Gioiello, Orecchino, Anello, Bracciale | Fairy → Fatato, Healing → Curativo, Material → Materia, Learning → del Sapere. |
+| Flare / Ice / Thunder / Poison / Holy / Shadow Gem (Crystal) | Gemma (Cristallo) di Fuoco, di Ghiaccio, del Tuono, del Veleno, Sacra (Sacro), d'Ombra | |
+| Sallet, Helm, Tiara, Garland, Cuirass, Armor, Plate, Mail, Cloak, Garb, Robe | Celata, Elmo, Tiara, Ghirlanda, Corazza, Armatura, Armatura, Cotta, Mantello, Veste, Tunica | Breastplate → Pettorale, Chainmail → Cotta di Maglia. |
+| Gauntlet; X Guard (gauntlets); Greaves; Boots | Manopola; Manopola Ardente / Glaciale / Abbagliante / Stellare / Estrema; Schinieri; Stivali | |
+| Silver, Duel, Valor, Valiant, Anointed, Supreme | d'Argento, da Duello, del Valore, Valoroso, Consacrato, Supremo | Adjectives agree: Armatura Valorosa, Schinieri Valorosi. |
+| Malice / Enemy / Treasure / Trap Search | Rileva Malvagi / Nemici / Tesori / Trappole | Rings. Timer Ring → Anello del Tempo, Dimension Slip → Salto Dimensionale. |
+| Orihalcon; Mithril | Oricalco; Mithril | |
+| Book of Riddles N | Libro degli Enigmi N | |
+
+Names longer than the item list allows were shortened. The list leaves room for the 155 pixels of
+the longest English weapon name:
+
+| English | Longer version | Used |
+|---|---|---|
+| Accursed Flame Gem | Gemma della Fiamma Maledetta (164 px) | Gemma Fiamma Maledetta, also in scenes 0x2C3 and 0x7D |
+| Coffin of the Lost Princess | Bara della Principessa Perduta (158 px) | Bara della Principessa |
+| Tiara of the Holy Empress | Tiara della Santa Imperatrice (148 px) | Tiara della Pia Imperatrice |
+| Manual of Resurrection | Manuale della Resurrezione (140 px) | Manuale di Resurrezione |
+
+Items that appear only in dialogue follow the same rule:
+
+| English | Italian | Note |
+|---|---|---|
+| Charm Feather, Silver Thread, Polar Drops, Golden Candlestick | Piuma Incantata, Filo d'Argento, Gocce Polari, Candeliere d'Oro | The elf's four ingredients (scene 0x2C3); the articles already agreed. |
+| Full / New / Crescent Moon Stone; Eclipse, Darkspot, Darkpath, Blood-Red Stone | Pietra della Luna Piena / della Luna Nuova / della Mezzaluna; Pietra dell'Eclissi, della Macchia Scura, del Sentiero Oscuro, Rosso Sangue | The statue puzzle's choices, in nine scenes. |
+| Flame Jewel; Blue Gem, Red Gem | il Gioiello di Fiamma; Gemma Blu, Gemma Rossa | The Seraphic Gate doors' "la Flame Jewel" became "il Gioiello di Fiamma". |
+
+Help-line wording:
+
+| English | Italian | Note |
+|---|---|---|
+| Chance of breaking=30%; 5% chance of breaking | Probabilità di rottura: 30% | |
+| the skill "X"; memorize "X" | la tecnica "X"; memorizzare "X" | Skill and spell names stay English, in quotes. |
+| Lightning-based magic attacks | attacchi magici di tipo fulmine | Elements are lower case in a sentence. |
+| rapier, saber, greatsword, two-handed sword | stocco, sciabola, spadone, spada a due mani | |
+| ether coating; level goes up | rivestimento d'etere; sale di livello | |
+| HP; 100,000 | HP; 100.000 | HP only in Soul Slayer's help. |
+| a mistake in the English | translated by meaning | Ice Coffin's help says "light" (copied from Radiance Sword) and Ether Mail's battle line is Ether Freeze's: the Italian describes the item. |
 
 ## Lines shortened to fit a fixed box
 

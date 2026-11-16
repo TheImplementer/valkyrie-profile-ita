@@ -18,4 +18,4 @@ di utilizzabile all'interno.
 <3:00><5>Apri il forziere・・・
 <5>Davanti al forziere, tasto direzionale ↓+tasto □
 @@ 19
-<5>Hai trovato Iron-Barred Key.
+<5>Hai trovato Chiave di Ferro.

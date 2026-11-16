@@ -1,6 +1,6 @@
 # Valkyrie Profile scene 0x3d9 (-): 16 records, directory word 4595, package sectors 277074..277177 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Vegetable Seed.
+<5>Hai trovato Seme di Ortaggio.
 @@ 15
-<5>Hai trovato Lapis Lazuli.
+<5>Hai trovato Lapislazzuli.

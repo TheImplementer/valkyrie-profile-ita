@@ -3,4 +3,4 @@
 @@ 14
 <5>Grotta dell'Oblio
 @@ 15
-<5>Hai trovato Golden Egg.
+<5>Hai trovato Uovo d'Oro.

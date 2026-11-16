@@ -1,7 +1,7 @@
 # Valkyrie Profile scene 0x2fd (-): 19 records, directory word 4375, package sectors 244447..244570 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Flame Jewel.
+<5>Hai trovato Gioiello di Fiamma.
 @@ 15
 Come sale su
 una ferita aperta.

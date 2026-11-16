@@ -3,6 +3,6 @@
 @@ 14
 <5>Hai trovato Hit.
 @@ 15
-<5>Hai trovato Quartz Gem.
+<5>Hai trovato Gemma di Quarzo.
 @@ 16
 <5>Hai trovato Splash.

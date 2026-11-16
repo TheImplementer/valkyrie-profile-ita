@@ -1,6 +1,6 @@
 # Valkyrie Profile scene 0x177 (-): 16 records, directory word 3985, package sectors 197397..197529 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Lapis Lazuli.
+<5>Hai trovato Lapislazzuli.
 @@ 15
-<5>Hai trovato Freeze Check.
+<5>Hai trovato Talismano Gelo.

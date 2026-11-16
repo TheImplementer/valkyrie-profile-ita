@@ -1,8 +1,8 @@
 # Valkyrie Profile scene 0x2e1 (-): 17 records, directory word 4347, package sectors 240600..240783 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Golden Egg.
+<5>Hai trovato Uovo d'Oro.
 @@ 15
 <5>Hai trovato Invoke Feather.
 @@ 16
-<5>Hai trovato Lapis Lazuli.
+<5>Hai trovato Lapislazzuli.

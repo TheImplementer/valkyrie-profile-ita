@@ -3,13 +3,13 @@
 @@ 14
 <5>Hai trovato Richebourg.
 @@ 15
-<5>Hai trovato Mask of the Dead King.
+<5>Hai trovato Maschera del Re Morto.
 @@ 16
 <5>Hai trovato Ambrosia.
 @@ 17
-<5>Hai trovato Ruby Music Box.
+<5>Hai trovato Carillon di Rubino.
 @@ 18
-<5>Hai trovato Bracelet of Basilisk.
+<5>Hai trovato Bracciale del Basilisco.
 @@ 19
 Akhetamen
 「Quasi tutto il destino è ripetizione<3:32>.<3:ff> Il nostro regno è

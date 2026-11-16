@@ -8,6 +8,6 @@
 <19:ffff>Belenus
 「Asaka<3:0c>・・・
 @@ 15
-<5><3:00>Hai trovato Pressed Flower.
+<5><3:00>Hai trovato Fiore Pressato.
 @@ 16
 <5>Salone principale

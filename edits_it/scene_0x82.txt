@@ -3,7 +3,7 @@
 @@ 14
 <5>Hai scoperto Jewelled Blade "Grimrist".
 @@ 15
-<5>Hai scoperto Sealed Box.
+<5>Hai scoperto Scatola Sigillata.
 @@ 16
 Valkyrie
 「<3:0c>・・・<3:ff>Eccoli!!

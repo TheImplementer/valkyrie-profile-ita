@@ -1,9 +1,9 @@
 # Valkyrie Profile scene 0xcc (-): 28 records, directory word 3814, package sectors 177849..178001 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Bewitching Statue.
+<5>Hai trovato Statua Ammaliante.
 @@ 15
-<5>Hai trovato Fairy Bottle.
+<5>Hai trovato Bottiglia Fatata.
 @@ 16
 Fanatico
 「La Vergine della Battaglia, Valkyrie!?

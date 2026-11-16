@@ -7,19 +7,19 @@ nella cornice. C'è un foro.
 @@ 15
 <3:00>Quale pietra vuoi inserire?
 @@ 16
-・Eclipse Stone
+・Pietra dell'Eclissi
 @@ 17
-・Darkspot Stone
+・Pietra della Macchia Scura
 @@ 18
-・Darkpath Stone
+・Pietra del Sentiero Oscuro
 @@ 19
-・Blood-Red Stone
+・Pietra Rosso Sangue
 @@ 20
-・Full Moon Stone
+・Pietra della Luna Piena
 @@ 21
-・Crescent Moon Stone
+・Pietra della Mezzaluna
 @@ 22
-・New Moon Stone
+・Pietra della Luna Nuova
 @@ 23
 Non hai nessuna pietra
 adatta.

@@ -7,4 +7,4 @@ Vuoi azionarlo?
 ・Sì
 ・No
 @@ 15
-<5>Hai trovato Eye of Heaven.
+<5>Hai trovato Occhio del Cielo.

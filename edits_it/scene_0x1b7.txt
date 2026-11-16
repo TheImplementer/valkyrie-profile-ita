@@ -1,4 +1,4 @@
 # Valkyrie Profile scene 0x1b7 (-): 15 records, directory word 4049, package sectors 205114..205303 of VALKYRIE.BIN
 
 @@ 14
-Hai trovato Red Gem.
+Hai trovato Gemma Rossa.

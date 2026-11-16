@@ -3,6 +3,6 @@
 @@ 14
 <5>Al piano inferiore
 @@ 15
-<5>Hai trovato Nightshade.
+<5>Hai trovato Belladonna.
 @@ 16
 <5>Hai trovato Combo Counter.

@@ -359,24 +359,18 @@ class MenuText:
                                      if c in self.added)
 
     def build(self):
-        """The new table. Unchanged strings keep their bytes and offsets; a changed one is written
-        over the old one when it fits there (the rest of the old bytes are zeroed), otherwise
-        appended after the last string. The table is padded to 4 bytes as on the disc."""
+        """The new table: the index, then every string again in table order (the order the disc
+        stores them in), each ending with a 0 byte; the bytes before the first string are kept.
+        Writing them all again keeps the table as small as its text: appending the longer strings
+        and zeroing their old places cost the Skill table 12 KB of compressed room once all the
+        item help lines were translated. The table is padded to 4 bytes as on the disc."""
         if self.strings == self.orig:
             return self.raw
-        out = bytearray(self.raw)
-        end = max(self.text_offset + o + len(s) + 1 for (_, o), s in zip(self.pairs, self.orig))
-        del out[end:]
-        for k, ((mid, off), old, new) in enumerate(zip(self.pairs, self.orig, self.strings)):
-            if new == old:
-                continue
-            a = self.text_offset + off
-            if len(new) <= len(old):
-                out[a:a + len(old)] = new + bytes(len(old) - len(new))
-            else:
-                off = len(out) - self.text_offset
-                out += new + b'\0'
-            struct.pack_into('<2I', out, 4 + 8 * k, mid, off)
+        first = min(o for _, o in self.pairs)
+        out = bytearray(self.raw[:self.text_offset + first])
+        for k, ((mid, _), s) in enumerate(zip(self.pairs, self.strings)):
+            struct.pack_into('<2I', out, 4 + 8 * k, mid, len(out) - self.text_offset)
+            out += s + b'\0'
         out += bytes(-len(out) % 4)
         return bytes(out)
 

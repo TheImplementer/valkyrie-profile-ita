@@ -1,6 +1,6 @@
 # Valkyrie Profile scene 0x118 (-): 16 records, directory word 3890, package sectors 186357..186406 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Unicorn Horn.
+<5>Hai trovato Corno di Unicorno.
 @@ 15
 <5>Hai trovato Moonflax.

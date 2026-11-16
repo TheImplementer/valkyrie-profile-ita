@@ -1,4 +1,4 @@
 # Valkyrie Profile scene 0x1db (-): 15 records, directory word 4085, package sectors 209205..209238 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Lapis Lazuli.
+<5>Hai trovato Lapislazzuli.

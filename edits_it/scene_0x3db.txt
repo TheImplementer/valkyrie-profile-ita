@@ -16,7 +16,7 @@ Valkyrie è arrivata!<page>
 Informate la Regina!
 Sarà felicissima!
 @@ 17
-<5>Hai trovato Manual of Resurrection.
+<5>Hai trovato Manuale di Resurrezione.
 @@ 18
 <5>Hai trovato Holy Sword "Seraphy".
 @@ 19

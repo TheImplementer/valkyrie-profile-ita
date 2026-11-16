@@ -35,4 +35,4 @@ Morirete tutti e tre!!
 @@ 21
 <5>Hai trovato Dragoon Tyrant.
 @@ 22
-<5>Hai trovato Rust-Red Circlet.
+<5>Hai trovato Diadema Rosso Ruggine.

@@ -8,11 +8,11 @@ Avete capito?
 <19:ffff>Spiritello
 「C'è un'altra cosa.
 Lenneth<3:1e>,<3:ff> vi era stato chiesto di far
-riparare l'Accursed Flame Gem, giusto?
+riparare la Gemma Fiamma Maledetta, no?
 L'avete riparata e inviata ad Asgard<3:1e>?<3:ff>
 Se non l'avete ancora fatto,
 fareste bene a farlo presto.<page>
-Potete far riparare l'Accursed Flame Gem
+Potete farla riparare
 nella Foresta degli Spiriti.
 @@ 16
 <19:ffff>Spiritello

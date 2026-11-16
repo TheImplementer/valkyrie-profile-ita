@@ -658,8 +658,8 @@ python3 vp_text_editor.py check  ~/Documents/vp.cue --menus [--compress]
   (raw hex bytes) is a command or extra glyph.
 * **Linked copies:** `build` also changes every other table that holds the same id with the same
   original text, unless `--no-link`.
-* **Rebuilding:** an unchanged string keeps its bytes and offset. A changed one is written over the
-  old one if it fits there, or appended after the last string.
+* **Rebuilding:** a table with no edits keeps its bytes. An edited one is written again, every string
+  in table order, so it stays as small as its text (`MENU_AND_BATTLE_TEXT.md`).
 * **Width warnings:** `build` warns when an edit makes a string wider, measured with the font's
   widths.
 * **Search:** `find` searches the menus too.

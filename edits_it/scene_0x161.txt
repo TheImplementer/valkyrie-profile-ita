@@ -5,4 +5,4 @@
 @@ 15
 <5>Hai trovato Ether Scepter.
 @@ 16
-<5>Hai trovato Lapis Lazuli.
+<5>Hai trovato Lapislazzuli.

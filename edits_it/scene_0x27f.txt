@@ -6,6 +6,6 @@
 @@ 15
 <3:08>・・・<3:ff>C'è qualcosa dietro
 il quadro.<page>
-Hai trovato Darkspot Stone.
+Hai trovato Pietra della Macchia Scura.
 @@ 16
-<5>Hai trovato Burgundy Flask.
+<5>Hai trovato Fiasca di Borgogna.

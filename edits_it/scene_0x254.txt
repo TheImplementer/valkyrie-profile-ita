@@ -1,6 +1,6 @@
 # Valkyrie Profile scene 0x254 (-): 16 records, directory word 4206, package sectors 221605..221761 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Nightshade.
+<5>Hai trovato Belladonna.
 @@ 15
 <5>Hai trovato Ether Scepter.

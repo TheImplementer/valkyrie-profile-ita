@@ -1,4 +1,4 @@
 # Valkyrie Profile scene 0x1ca (-): 15 records, directory word 4068, package sectors 207255..207416 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Unicorn Horn.
+<5>Hai trovato Corno di Unicorno.

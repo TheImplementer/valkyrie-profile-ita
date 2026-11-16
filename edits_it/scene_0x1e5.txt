@@ -116,6 +116,6 @@ a essersi offuscati<3:0c>...
 @@ 42
 <5>Hai trovato Long Sword.
 @@ 43
-<5>Hai trovato Vegetable Seed.
+<5>Hai trovato Seme di Ortaggio.
 @@ 44
-<5>Hai trovato Quartz Gem.
+<5>Hai trovato Gemma di Quarzo.

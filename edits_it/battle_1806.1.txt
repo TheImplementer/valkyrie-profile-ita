@@ -33,7 +33,7 @@ Pozione Nettare
 @@ 0x07e4
 Pozione Scudo
 @@ 0x07e5
-Pozione Vigile
+Pozione Limpida
 @@ 0x07ef
 Carica Rapida
 @@ 0x07f0
@@ -46,6 +46,874 @@ Amuleto Difesa
 Amuleto Magia
 @@ 0x07f4
 Amuleto Tutela
+@@ 0x07f8
+Throwing Dagger
+@@ 0x07fa
+Silver Dagger
+@@ 0x07fc
+Cross Dagger
+@@ 0x07fd
+Orecchino Fatato
+@@ 0x07fe
+Anello Fatato
+@@ 0x07ff
+Bracciale Forza
+@@ 0x0800
+Bracciale Magia
+@@ 0x0801
+Gioiello Difesa
+@@ 0x0802
+Gioiello Tutela
+@@ 0x0803
+Gioiello Combo
+@@ 0x0804
+Orecchino Materia
+@@ 0x0805
+Gemma Materia
+@@ 0x0806
+Nebbia Magica
+@@ 0x0807
+Talismano Veleno
+@@ 0x0808
+Talismano Paralisi
+@@ 0x0809
+Talismano Pietra
+@@ 0x080a
+Talismano Gelo
+@@ 0x080b
+Talismano Maledizione
+@@ 0x080c
+Talismano Svenimento
+@@ 0x080d
+Talismano Totale
+@@ 0x080e
+Simbolo Serafico
+@@ 0x0819
+Antler Sword
+@@ 0x081a
+Viking Sword
+@@ 0x081b
+Walloon Sword
+@@ 0x081c
+Colichemarde
+@@ 0x081d
+Sinclair Saber
+@@ 0x081e
+Pallasch
+@@ 0x081f
+Reiter Pallasch
+@@ 0x0820
+Schweizer-Sword
+@@ 0x0821
+Wa-to
+@@ 0x0822
+Tachi
+@@ 0x0823
+Seventh Sword
+@@ 0x0824
+No-Dachi
+@@ 0x0825
+Shisen-To
+@@ 0x0826
+Kongou-To
+@@ 0x0827
+Masamune
+@@ 0x0828
+Muramasa
+@@ 0x0829
+Two-Handed-Sword
+@@ 0x082a
+Hack-Blade
+@@ 0x082b
+Zweihander
+@@ 0x082c
+Striking-Sword
+@@ 0x082d
+Claymore
+@@ 0x082e
+Flamberge
+@@ 0x082f
+Brandish-Sword
+@@ 0x0830
+Brutish-Edge
+@@ 0x0831
+Awl-Pike
+@@ 0x0832
+Winged-Spear
+@@ 0x0833
+Boarding-Pike
+@@ 0x0834
+Corsesca
+@@ 0x0835
+Halberd
+@@ 0x0836
+Pole-Axe
+@@ 0x0837
+Ahlspiess
+@@ 0x0838
+Saber-Halberd
+@@ 0x0841
+Crossbow
+@@ 0x0842
+Bolt-Crossbow
+@@ 0x0843
+Rapid-Crossbow
+@@ 0x0844
+Windlass-Crossbow
+@@ 0x0845
+Fire-Crossbow
+@@ 0x0846
+Arbalest
+@@ 0x0847
+Serstine-lock-Gun
+@@ 0x0848
+Bolt-Aqqar
+@@ 0x0851
+Ruby Mace
+@@ 0x0852
+Formula Wand
+@@ 0x0853
+Crystal Wand
+@@ 0x0854
+Silver Mace
+@@ 0x0855
+Alchemy Wand
+@@ 0x0856
+Worship Mace
+@@ 0x0857
+Deluge Scepter
+@@ 0x0858
+Shining Scepter
+@@ 0x0859
+Lightning Edge
+@@ 0x085a
+Radiance Sword
+@@ 0x085b
+Ice Coffin
+@@ 0x085c
+Scarlet Forge
+@@ 0x085d
+Go-Shorai Blade
+@@ 0x085e
+Ten-Horin Blade
+@@ 0x085f
+Ama-no-Murakumo Blade
+@@ 0x0860
+Demon Blade
+@@ 0x0861
+Elemental Edge
+@@ 0x0862
+Ignite Sword
+@@ 0x0863
+Bahamut Tear
+@@ 0x0864
+Violet Forge
+@@ 0x0865
+Spinning Spear
+@@ 0x0866
+Heart Piercer
+@@ 0x0867
+Arc Wind
+@@ 0x0868
+Holy Halberd
+@@ 0x086d
+Supreme Crossbow
+@@ 0x086e
+Crescent Arrow
+@@ 0x086f
+Last Avenger
+@@ 0x0870
+Shiny Rupture
+@@ 0x0875
+Holy Prayer
+@@ 0x0876
+Accepter Rod
+@@ 0x0877
+Noble Desire
+@@ 0x0878
+Absolute Force
+@@ 0x0879
+Valkyrie-Favor
+@@ 0x087a
+Celata
+@@ 0x087b
+Celata d'Argento
+@@ 0x087c
+Elmo da Duello
+@@ 0x087d
+Elmo del Valore
+@@ 0x087e
+Elmo Valoroso
+@@ 0x087f
+Tiara
+@@ 0x0880
+Tiara d'Argento
+@@ 0x0881
+Tiara Consacrata
+@@ 0x0882
+Ghirlanda Consacrata
+@@ 0x0883
+Ghirlanda Suprema
+@@ 0x0884
+Corazza
+@@ 0x0885
+Corazza d'Argento
+@@ 0x0886
+Armatura da Duello
+@@ 0x0887
+Armatura del Valore
+@@ 0x0888
+Armatura Valorosa
+@@ 0x0889
+Mantello
+@@ 0x088a
+Mantello d'Argento
+@@ 0x088b
+Mantello Consacrato
+@@ 0x088c
+Veste Consacrata
+@@ 0x088d
+Veste Suprema
+@@ 0x088e
+Manopola
+@@ 0x088f
+Manopola d'Argento
+@@ 0x0890
+Manopola da Duello
+@@ 0x0891
+Manopola del Valore
+@@ 0x0892
+Manopola Valorosa
+@@ 0x0893
+Schinieri
+@@ 0x0894
+Schinieri d'Argento
+@@ 0x0895
+Schinieri da Duello
+@@ 0x0896
+Schinieri del Valore
+@@ 0x0897
+Schinieri Valorosi
+@@ 0x0898
+Hand A
+@@ 0x0899
+Hand B
+@@ 0x089a
+Hand C
+@@ 0x089b
+Stivali di Cuoio
+@@ 0x089c
+Stivali Scamosciati
+@@ 0x089d
+Stivali Elfici
+@@ 0x08a4
+Perla di Karula
+@@ 0x08a5
+Insegnamenti di Bethanus
+@@ 0x08a6
+Incenso del Dharma
+@@ 0x08a7
+Ambra della Felicità
+@@ 0x08a8
+Zampa di Coniglio
+@@ 0x08a9
+Labbra d'Angelo
+@@ 0x08aa
+Tomo dei Mostri
+@@ 0x08ab
+Tomo Demoniaco
+@@ 0x08ac
+Teschio di Devone
+@@ 0x08ad
+Conchiglia di Laliu
+@@ 0x08ae
+Criniera di Sleipnir
+@@ 0x08af
+Bandana di Fuoco
+@@ 0x08b7
+Collana di Smeraldi
+@@ 0x08b8
+Segreti di Zolon
+@@ 0x08b9
+Occhio del Cielo
+@@ 0x08ba
+Piuma di Fenice
+@@ 0x08bb
+Acqua Santa di Mithra
+@@ 0x08c0
+Pergamena del Golem
+@@ 0x08c1
+Amuleto di Arectaris
+@@ 0x08c2
+Arpa di Atrasia
+@@ 0x08c3
+Scatola Sigillata
+@@ 0x08c4
+Maschera del Re Morto
+@@ 0x08c5
+Bara della Principessa
+@@ 0x08c6
+Ambrosia
+@@ 0x08c7
+Enchanted sword "Murasame"
+@@ 0x08c8
+Scarlet Lotus Sword
+@@ 0x08c9
+Soul Sword "Kusanagi"
+@@ 0x08ca
+Sword of Silvans
+@@ 0x08cb
+Magic blade "Cromrea"
+@@ 0x08cc
+Slashing sword "Farewell"
+@@ 0x08cd
+Grand Sting
+@@ 0x08ce
+Holy sword "Seraphy"
+@@ 0x08cf
+Faim Fenn
+@@ 0x08d0
+Demon Sword "Levantine"
+@@ 0x08d1
+Spear "Basilisk"
+@@ 0x08d2
+Holy Spear "Gungnir"
+@@ 0x08d3
+Spear "Dark Angel"
+@@ 0x08d4
+Dragoon Tyrant
+@@ 0x08d5
+Sylvan Bow
+@@ 0x08d6
+Elven Bow
+@@ 0x08d7
+Foul Slayer
+@@ 0x08d8
+Berserker Bow
+@@ 0x08d9
+Infernas
+@@ 0x08da
+Arectaris
+@@ 0x08db
+Shadzard
+@@ 0x08dc
+Dragon's Fang
+@@ 0x08dd
+Phoenix Blade
+@@ 0x08de
+Great Spear "Dinosaur"
+@@ 0x08df
+Crimson Edge
+@@ 0x08e0
+Holy wand "Adventia"
+@@ 0x08e1
+Eternal Fault
+@@ 0x08e9
+Unicorn's Horn
+@@ 0x08ea
+Wand of Apocalypse
+@@ 0x08eb
+Holy wand of Telos
+@@ 0x08ec
+Lumiferous Wand
+@@ 0x08ed
+Armatura Riflettente
+@@ 0x08ee
+Armatura di Aleph
+@@ 0x08ef
+Armatura dell'Abisso
+@@ 0x08f0
+Armatura Demoniaca
+@@ 0x08f1
+Tunica di Bryttain
+@@ 0x08f2
+Tunica delle Silfidi
+@@ 0x08f3
+Tunica di Elberreth
+@@ 0x08f4
+Tunica del Miraggio
+@@ 0x08f5
+Dragoon Faith
+@@ 0x08f6
+(Elmo)
+@@ 0x08f7
+(Elmo)
+@@ 0x08f8
+(Elmo)
+@@ 0x08f9
+(Elmo)
+@@ 0x08fa
+Corona di Felmar
+@@ 0x08fb
+Tiara della Pia Imperatrice
+@@ 0x08fc
+(Corona Sacra)
+@@ 0x08fd
+(Corona Incantata)
+@@ 0x08fe
+Diadema Rosso Ruggine
+@@ 0x08ff
+Ether Freeze
+@@ 0x0900
+Ghirlanda dell'Imperatrice
+@@ 0x0901
+Eternal Shine
+@@ 0x0902
+Brisingal
+@@ 0x0903
+Stivali di Oricalco
+@@ 0x0904
+Cotta d'Etere
+@@ 0x0905
+Clessidra degli Dei
+@@ 0x0906
+Tomo dell'Alchimia
+@@ 0x0907
+Frammento Inciso
+@@ 0x0908
+Manopola Stellare
+@@ 0x0909
+Segreto di Damasco
+@@ 0x090a
+Segreto delle Rune
+@@ 0x090b
+Manopola Estrema
+@@ 0x090c
+Bracciale di Zoe
+@@ 0x090d
+Corteccia della Driade
+@@ 0x090e
+Pietra del Saggio
+@@ 0x090f
+Statua Ammaliante
+@@ 0x0910
+Statua Artistica
+@@ 0x0911
+Bottiglia Fatata
+@@ 0x0912
+Bottiglia Mano d'Orco
+@@ 0x0913
+Oricalco
+@@ 0x0914
+Gallina d'Oro
+@@ 0x0915
+Statua del Gargoyle
+@@ 0x0916
+Moneta della Fortuna
+@@ 0x0917
+Carillon di Rubino
+@@ 0x0918
+Mithril
+@@ 0x0919
+Cuoio Demoniaco
+@@ 0x091a
+Amuleto della Dea
+@@ 0x091b
+Uovo d'Oro
+@@ 0x091c
+Sfera Fluttuante
+@@ 0x091d
+Idromele degli Dei
+@@ 0x091e
+Bacchetta dello Scambio
+@@ 0x091f
+Specchio delle Pleiadi
+@@ 0x0920
+Richebourg
+@@ 0x0921
+Bracciale del Basilisco
+@@ 0x0922
+Grimstyk
+@@ 0x0923
+Lama Spezzata
+@@ 0x0924
+Libro dei Doni
+@@ 0x0925
+Sarcofago dell'Incubo
+@@ 0x0926
+Santo Graal
+@@ 0x0927
+Lampada Eterna
+@@ 0x092c
+Automa
+@@ 0x092d
+Incensiere di Darlis
+@@ 0x092e
+Manuale di Resurrezione
+@@ 0x092f
+Lacrima del Cosmo
+@@ 0x0930
+Tiara Piumata
+@@ 0x0931
+Elmo Piumato
+@@ 0x0932
+Elmo Alato
+@@ 0x0933
+Ghirlanda Aerea
+@@ 0x0934
+Ghirlanda Serafica
+@@ 0x0935
+Veste Egea
+@@ 0x0936
+Veste Araldica
+@@ 0x0937
+Veste Radiosa
+@@ 0x0938
+Veste Divina
+@@ 0x0939
+Veste Serafica
+@@ 0x093a
+Glance Reviver
+@@ 0x093b
+Jewelled Blade "Grimrist"
+@@ 0x093c
+Demon Sword "Nefarious"
+@@ 0x093d
+Pitiful Promise
+@@ 0x093e
+Ethereal Divide
+@@ 0x093f
+Razor Shaft
+@@ 0x0940
+Wand "Mystic Sage"
+@@ 0x0944
+Bambola Senza Testa
+@@ 0x0945
+Lama Spezzata
+@@ 0x0946
+Abito Insanguinato
+@@ 0x0947
+Squama di Basilisco
+@@ 0x0948
+Seme di Ortaggio
+@@ 0x0949
+Digitale
+@@ 0x094a
+Aconito
+@@ 0x094b
+Belladonna
+@@ 0x094c
+Polvere di Ghoul
+@@ 0x094d
+Santoreggia
+@@ 0x094e
+Mandragola
+@@ 0x094f
+Libro della Vita Eterna
+@@ 0x0950
+Pozione dell'Invisibilità
+@@ 0x0951
+Acqua Santa
+@@ 0x0952
+Acquavite
+@@ 0x0953
+Santa Reliquia
+@@ 0x0954
+Insegnamenti di Asa
+@@ 0x0955
+Minerale di Mithril
+@@ 0x0956
+Minerale di Ferro
+@@ 0x0957
+Piuma
+@@ 0x0958
+Carne Cruda
+@@ 0x0959
+Citrino
+@@ 0x095a
+Corno di Unicorno
+@@ 0x095b
+Salvia
+@@ 0x095c
+Polvere d'Ebano
+@@ 0x095d
+Artiglio di Rapace
+@@ 0x095e
+Zanne di Bestia
+@@ 0x095f
+Fiasca di Borgogna
+@@ 0x0960
+Lancia Spezzata
+@@ 0x0961
+Arco Spezzato
+@@ 0x0962
+Carne Fresca
+@@ 0x0963
+Metallo Vile
+@@ 0x0964
+Armatura Spezzata
+@@ 0x0965
+Gemma di Fuoco
+@@ 0x0966
+Gemma di Ghiaccio
+@@ 0x0967
+Gemma del Tuono
+@@ 0x0968
+Gemma del Veleno
+@@ 0x0969
+Gemma Sacra
+@@ 0x096a
+Gemma d'Ombra
+@@ 0x096b
+Cristallo di Fuoco
+@@ 0x096c
+Cristallo di Ghiaccio
+@@ 0x096d
+Cristallo del Tuono
+@@ 0x096e
+Cristallo del Veleno
+@@ 0x096f
+Cristallo Sacro
+@@ 0x0970
+Cristallo d'Ombra
+@@ 0x0976
+Long Sword
+@@ 0x0977
+Broad Sword
+@@ 0x0978
+Bastard Sword
+@@ 0x0979
+Falchion
+@@ 0x097a
+Estoc
+@@ 0x097b
+Flamberg
+@@ 0x097c
+Wassail-Rapier
+@@ 0x097d
+Damascus Sword
+@@ 0x097e
+Short Spear
+@@ 0x097f
+Glaive
+@@ 0x0980
+Warhammer
+@@ 0x0981
+Long Flail
+@@ 0x0982
+Ranseur
+@@ 0x0983
+Footman's Axe
+@@ 0x0984
+Lucerne Hammer
+@@ 0x0985
+Fine Halberd
+@@ 0x0986
+Short Bow
+@@ 0x0987
+Long Bow
+@@ 0x0988
+Rapid Bow
+@@ 0x0989
+Composite Bow
+@@ 0x098a
+Cranequin-Crossbow
+@@ 0x098b
+Bow
+@@ 0x098c
+Bow
+@@ 0x098d
+Bow
+@@ 0x098e
+Dragon Slayer
+@@ 0x098f
+Daemon Slayer
+@@ 0x0990
+Beast Slayer
+@@ 0x0991
+Mage Slayer
+@@ 0x0992
+Raven Slayer
+@@ 0x0993
+Soul Slayer
+@@ 0x099e
+Vainslayer
+@@ 0x099f
+Moonflax
+@@ 0x09a0
+Ruin's Fate
+@@ 0x09a1
+Flare Baselard
+@@ 0x09a2
+Dragonbane
+@@ 0x09a3
+Armatura di Cuoio
+@@ 0x09a4
+Cotta di Maglia
+@@ 0x09a5
+Armatura Lamellare
+@@ 0x09a6
+Pettorale
+@@ 0x09a7
+Cotta d'Argento
+@@ 0x09a8
+Armatura Completa
+@@ 0x09a9
+Armatura d'Argento
+@@ 0x09aa
+Armatura di Mithril
+@@ 0x09b5
+Pozione Mente
+@@ 0x09b6
+Pozione Tecnica
+@@ 0x09b7
+Pozione Materia
+@@ 0x09b8
+Anello Rapidità
+@@ 0x09b9
+Anello Energia
+@@ 0x09ba
+Anello Frantumante
+@@ 0x09bc
+Manopola Ardente
+@@ 0x09bd
+Manopola Glaciale
+@@ 0x09be
+Manopola Abbagliante
+@@ 0x09c0
+Gemma della Creazione
+@@ 0x09c1
+Gemma dell'Attività
+@@ 0x09c2
+Gemma dell'Illusione
+@@ 0x09c4
+Icicle Sword
+@@ 0x09c5
+Glare Sword
+@@ 0x09c7
+Lapislazzuli
+@@ 0x09c8
+Gemma di Quarzo
+@@ 0x09c9
+Orecchino Curativo
+@@ 0x09ca
+Anello Curativo
+@@ 0x09cb
+Anello del Sapere
+@@ 0x09cc
+Sfera Esploratrice
+@@ 0x09d0
+Anello dei Nibelunghi
+@@ 0x09f1
+Fire Lance
+@@ 0x09f2
+Fire Storm
+@@ 0x09f3
+Icicle Edge
+@@ 0x09f4
+Frigid Damsel
+@@ 0x09f5
+Lightning Bolt
+@@ 0x09f6
+Prismatic Missile
+@@ 0x09f7
+Shadow Servant
+@@ 0x09f8
+Dark Savior
+@@ 0x09f9
+Poison Blow
+@@ 0x09fa
+Stone Torch
+@@ 0x09fb
+Mystic Cross
+@@ 0x09fc
+Sacred Javelin
+@@ 0x09fd
+Invoke Feather
+@@ 0x09fe
+Heal
+@@ 0x09ff
+Normalize
+@@ 0x0a00
+Enchanted Weapon
+@@ 0x0a01
+Might Reinforce
+@@ 0x0a02
+Guard Reinforce
+@@ 0x0a03
+Spell Reinforce
+@@ 0x0a04
+Sap Power
+@@ 0x0a05
+Sap Guard
+@@ 0x0a06
+Dampen Magic
+@@ 0x0a07
+Reflect Sorcery
+@@ 0x0a08
+Shield Critical
+@@ 0x0a0a
+Anello del Tempo
+@@ 0x0a0b
+Salto Dimensionale
+@@ 0x0a0c
+Rileva Malvagi
+@@ 0x0a0d
+Rileva Nemici
+@@ 0x0a0e
+Rileva Tesori
+@@ 0x0a0f
+Rileva Trappole
+@@ 0x0a17
+Angel Slayer
+@@ 0x0a18
+Emblema Triplice
+@@ 0x0a19
+Libro degli Enigmi 8
+@@ 0x0a1a
+Libro degli Enigmi 7
+@@ 0x0a1b
+Libro degli Enigmi 6
+@@ 0x0a1c
+Libro degli Enigmi 5
+@@ 0x0a1d
+Libro degli Enigmi 4
+@@ 0x0a1e
+Libro degli Enigmi 3
+@@ 0x0a1f
+Libro degli Enigmi 2
+@@ 0x0a20
+Libro degli Enigmi 1
+@@ 0x0a21
+Gram
+@@ 0x0a22
+Dainslef
+@@ 0x0a23
+Veste Eterna
+@@ 0x0a24
+Bloody-Knuckle
+@@ 0x0a25
+Bloody-Duster
+@@ 0x0a26
+Ether Laser
+@@ 0x0a27
+Chiave di Ferro
+@@ 0x0a28
+Element Scepter
+@@ 0x0a29
+Ether Scepter
+@@ 0x0a2a
+Gemma Fiamma Maledetta
+@@ 0x0a2b
+Gemma Fiamma Maledetta
+@@ 0x0a2c
+Bandana Fatta a Mano
+@@ 0x0a2d
+Frammento di Lapislazzuli
+@@ 0x0a2e
+Infinity Rod
+@@ 0x0a2f
+Ciondolo della Dea
+@@ 0x0a30
+Fiore Pressato
+@@ 0x0a31
+Goccia Sacra
+@@ 0x0a32
+Pergamena dell'Oblio
+@@ 0x0a33
+Gioiello di Fiamma
+@@ 0x0a34
+Orologio Piumato
 @@ 0x0bb9
 Pozione che ripristina i DME (energia divina).
 
@@ -113,20 +981,534 @@ speciale. L'effetto dura 2 turni.
 @@ 0x0bd9
 Statuetta d'angelo che rianima chi la possiede
 
- se perde i sensi. Probabilità di rompersi=30%.
+ se perde i sensi. Probabilità di rottura: 30%.
 @@ 0x0bda
 Amuleto che rende immuni ai danni fisici. 
 
-Probabilità di rompersi=30%. I danni fisici includono 
+Probabilità di rottura: 30%. I danni fisici includono 
 
 anche gli attacchi di stato alterato.
 @@ 0x0bdb
 Amuleto che rende immuni ai danni magici. 
 
-Probabilità di rompersi=25%.
+Probabilità di rottura: 25%.
 @@ 0x0bdc
 Amuleto che rende immuni agli stati alterati. 
 
-Probabilità di rompersi=25%. Contro attacchi sconosciuti 
+Probabilità di rottura: 25%. Contro attacchi sconosciuti 
 
 potrebbe non funzionare come previsto.
+@@ 0x0be2
+Prima di attaccare, lancia 2 pugnali magici. Precisione: 60%.
+
+Particolarmente efficace sui non morti, con alta probabilità
+
+di causare svenimento. Inutile senza la tecnica "Throw".
+@@ 0x0be9
+Gioiello che aumenta del 30% la RID (riduzione danni) di base.
+@@ 0x0c01
+Evocando le corna di un cervo, ha un rivestimento d'etere
+
+che la rende infrangibile.
+@@ 0x0c02
+Grande spada del tipo impugnato dai leggendari berserker.
+@@ 0x0c08
+Spada dal design unico: 1/3 è a doppia lama,
+
+il resto a lama singola.
+@@ 0x0c09
+Il tipo di spada più comune del paese di Hai-Lan.
+@@ 0x0c0a
+Spada lunga 3 piedi con un'ampia curvatura.
+@@ 0x0c0d
+Spada enorme come la No-Dachi, ma leggerissima.
+
+Il suo nome significa "Spada Guizzante".
+@@ 0x0c0e
+Spada massiccia, più potente e più grande della No-Dachi.
+@@ 0x0c12
+Spada a due mani di fabbricazione tedesca.
+@@ 0x0c18
+Una varietà di spada a due mani. Con la sua lama dall'aspetto
+
+macabro, è una vera spada da assassino.
+@@ 0x0c1a
+Lancia con "ali" che sporgono da entrambi i lati della lama.
+@@ 0x0c1b
+Lancia con l'asta leggermente accorciata, che permette di
+
+impugnarla in vari modi.
+@@ 0x0c1d
+Lancia con una lama a forma d'ascia da un lato e una punta
+
+acuminata dall'altro. Adatta a tagliare o a colpire di punta.
+@@ 0x0c29
+Balestra facile da usare che scaglia a velocità elevatissima
+
+un corto dardo di legno.
+@@ 0x0c2b
+Questa balestra a tiro rapido non sacrifica la potenza
+
+per la velocità.
+@@ 0x0c2c
+Balestra migliorata che scocca a velocità maggiore
+
+di una balestra standard.
+@@ 0x0c2d
+Balestra migliorata che scocca frecce con la punta esplosiva.
+@@ 0x0c39
+Bacchetta con un rubino incastonato in punta.
+@@ 0x0c3e
+Bacchetta scolpita a forma della Dea della Morte.
+@@ 0x0c40
+Bacchetta che contiene il potere concentrato del sole.
+@@ 0x0c41
+Spada intrisa del potere del fulmine. Assorbe gli attacchi
+
+di Fulmine e trasferisce DME a chi la impugna.
+@@ 0x0c42
+Intrisa del potere della luce, questa spada assorbe gli
+
+attacchi magici di tipo sacro e trasferisce DME
+
+a chi la impugna.
+@@ 0x0c43
+Intrisa del potere del ghiaccio, questa spada assorbe gli
+
+attacchi magici di tipo ghiaccio e trasferisce DME
+
+a chi la impugna.
+@@ 0x0c44
+Questa spada rosso sangue è intrisa del potere del fuoco.
+
+Assorbe gli attacchi di Fuoco e trasferisce DME
+
+a chi la impugna.
+@@ 0x0c45
+Spada con il potere di richiamare fulmini.
+
+Riduce anche di 1 i CT dell'attacco speciale di chi la impugna.
+@@ 0x0c46
+Con l'emblema della Fenice, questa spada riduce di 1
+
+i CT dell'attacco speciale di chi la impugna.
+@@ 0x0c48
+Spada che si dice sia stata usata per combattere i demoni.
+
+Riduce di 1 i CT dell'attacco speciale di chi la impugna.
+@@ 0x0c4d
+Lancia della tempesta di fuoco.
+
+Aggiunge altri 20 CP quando chi la usa sale di livello.
+@@ 0x0c4e
+Lancia guizzante.
+
+Aggiunge altri 20 CP quando chi la usa sale di livello.
+@@ 0x0c4f
+Lancia il cui nome significa grande vento.
+
+Aggiunge altri 20 CP quando chi la usa sale di livello.
+@@ 0x0c50
+Lancia benedetta dagli dei.
+
+Aggiunge altri 20 CP quando chi la usa sale di livello.
+@@ 0x0c5e
+Verga che comunica con gli esseri invisibili del mondo
+
+naturale e ne trasmette il potere a chi la impugna.
+@@ 0x0c67
+Corona riccamente ingioiellata.
+
+È coperta da un rivestimento d'etere che la rende
+
+indistruttibile.
+@@ 0x0c6f
+Valore da decidere
+@@ 0x0c70
+Valoroso da decidere
+@@ 0x0c79
+Valore
+@@ 0x0c7a
+Valoroso
+@@ 0x0c7b
+Armatura di ferro per le gambe. È coperta da un rivestimento
+
+d'etere che la rende indistruttibile.
+@@ 0x0c7e
+Valore
+@@ 0x0c7f
+Valoroso
+@@ 0x0c8c
+Gioiello bianco latte creato come amuleto protettivo
+
+per i pescatori. Si dice che chi lo porta possa nuotare
+
+come i leggendari tritoni.
+@@ 0x0c95
+Appoggiata all'orecchio, questa conchiglia trasmette il suono
+
+delle onde che si infrangono. Per qualche ragione, ascoltarlo
+
+migliora la percezione di chi ascolta.
+@@ 0x0ca1
+Gemma che permette di vedere le aree del dungeon attuale
+
+non ancora visitate. Premi R2 per usarla.
+@@ 0x0cae
+Frutto del leggendario Albero della Vita.
+
+Aumenta di 6.000 i DME massimi.
+@@ 0x0caf
+Spada posseduta dallo spirito di una fata.
+@@ 0x0cb0
+La sua lama rosso vivido fa risaltare questa spada.
+
+È intrisa del potere del fuoco.
+@@ 0x0cb1
+Spada della leggendaria terra di Hai-Lan.
+
+Si dice che il suo colore cambi a seconda di chi la impugna.
+@@ 0x0cb2
+Spada lunga forgiata con un metallo misterioso che
+
+in combattimento lampeggia di un bianco brillante.
+@@ 0x0cb3
+Spada con cristalli incastonati che riduce del 70% i danni
+
+normali ma aumenta del 50% quelli degli attacchi speciali.
+@@ 0x0cb4
+Spada i cui danni aumentano del 5% a ogni colpo messo
+
+a segno, fino a un massimo di +200%.
+@@ 0x0cb6
+Spada con il 10% di probabilità di raddoppiare il numero
+
+di Gemme Magiche che appaiono.
+@@ 0x0cb7
+Un tempo spada di un eroe leggendario, è un capolavoro
+
+riccamente decorato e perfettamente bilanciato.
+@@ 0x0cb8
+Spada nera magica custodita nello stomaco di Bloodbane.
+
+Il suo potere cresce quando chi la impugna si indebolisce.
+@@ 0x0cbb
+Lancia leggendaria con un potere sia negativo che positivo.
+
+Si dice che il suo potere dipenda da chi la impugna.
+@@ 0x0cc0
+Arco reso famoso per aver abbattuto un berserker
+
+con un solo colpo.
+@@ 0x0cc1
+Spadone intriso del potere delle fiamme di Muspelheim.
+
+A ogni uso, i DME di chi lo impugna calano del 3%.
+@@ 0x0cc2
+Spadone che prende il nome da un Re delle Fate che guidò
+
+migliaia di fate nella loro guerra contro i demoni.
+@@ 0x0cc3
+Spadone che brilla della luce dei cieli.
+
+Il suo creatore diede la vita per infondergli potere.
+@@ 0x0cc4
+Spada forgiata da una mano ignota, in grado di perforare
+
+l'armatura persino del temibile mostro "Taki".
+@@ 0x0cc5
+Spadone forgiato da un leggendario fabbro.
+@@ 0x0cc6
+Lunga e pesante lancia dal nome terrificante.
+@@ 0x0cc7
+Lancia con una grande lama cremisi.
+@@ 0x0cc8
+Bacchetta sacra portata un tempo da un grande santo.
+@@ 0x0cc9
+Lancia a forma di spirale che arde di una luce nera.
+@@ 0x0cd1
+Bacchetta ricavata dal corno di un unicorno.
+
+Permette a chi la impugna di eseguire la Grande Magia.
+@@ 0x0cd2
+Bacchetta a forma di grande serpente. Estremamente
+
+malvagia, ma conferisce grande potere a chi la impugna.
+@@ 0x0cd4
+Luminifera.
+@@ 0x0cd5
+Armatura Riflettente
+@@ 0x0cd7
+Armatura dell'Abisso
+@@ 0x0cd8
+Armatura Demoniaca
+@@ 0x0cd9
+Tunica di Bryttain
+@@ 0x0cda
+Tunica delle Silfidi
+@@ 0x0cdb
+Tunica di Elbereth
+@@ 0x0cdc
+Tunica che crea un miraggio per aiutare chi la indossa a
+
+schivare gli attacchi. La percentuale di evasione
+
+aumenta enormemente.
+@@ 0x0ce3
+Tiara indossata da una Pia Imperatrice molto venerata
+
+dal popolo. Un oggetto davvero bellissimo.
+@@ 0x0ce7
+Arma creata da Freya con materia invisibile.
+
+Potenzia la magia, ma la sua vera forma è ignota.
+@@ 0x0ce9
+Veste che brilla di una luce ultraterrena.
+@@ 0x0cec
+Armatura creata da Freya con materia invisibile.
+
+Protegge quasi del tutto dagli attacchi,
+
+ma la sua vera forma è ignota.
+@@ 0x0cee
+Antico tomo che svela i segreti dell'alchimia.
+
+Può trasformare tutti i nemici in Gemme Magiche.
+@@ 0x0cf4
+Bracciale che prende il nome da una bella fanciulla: potenzia
+
+la forza vitale. Aumenta di 300 i DME quando chi lo
+
+indossa sale di livello.
+@@ 0x0cf6
+Numero mancante
+@@ 0x0cf9
+Esemplare di fata.
+
+È stato creato da un mago di pessimo gusto.
+@@ 0x0cfa
+Esemplare della mano di un mostro.
+
+È stato creato da un mago di pessimo gusto.
+@@ 0x0cfc
+Statua di uccello che depone alcune uova d'oro
+
+in ogni Capitolo.
+@@ 0x0d00
+Minerale di Mithril incantato.
+@@ 0x0d03
+Uovo d'oro che aumenta a caso
+
+FOR, INT, DES o AGI (+10).
+@@ 0x0d0d
+Bara che un tempo conteneva il cadavere di una profetessa,
+
+chiamata strega in Oriente.
+@@ 0x0d0e
+Si può bere da esso una sola volta per Capitolo e aumenta
+
+FOR, INT, DES e AGI di chi lo beve (+20).
+@@ 0x0d15
+Usando questo incensiere e meditando, i DME massimi di
+
+tutto il gruppo aumentano di 100. Tuttavia la meditazione
+
+richiede 2 Periodi interi.
+@@ 0x0d22
+Spada degli Dei intrisa del potere della creazione.
+@@ 0x0d23
+Una spada vistosa e dall'aspetto sinistro.
+@@ 0x0d24
+Spadone che prende il nome da un demone.
+@@ 0x0d4d
+Quando viene usata, questa gemma scatena un attacco
+
+magico di fuoco.
+@@ 0x0d52
+Quando viene usata, questa gemma scatena un attacco
+
+magico oscuro.
+@@ 0x0d58
+Questo cristallo scatena un attacco oscuro
+
+su tutti i nemici.
+@@ 0x0d5e
+Lunga spada d'acciaio. Probabilità di rottura: 5%.
+
+Opera di umani, non è affidabile in uno scontro duro.
+@@ 0x0d5f
+Tipo di spada lunga. Probabilità di rottura: 6%.
+@@ 0x0d60
+Spada che si può impugnare con una mano o con due.
+
+Probabilità di rottura: 6%.
+@@ 0x0d66
+Lancia corta e maneggevole. Probabilità di rottura: 5%.
+
+Non è affidabile in uno scontro duro.
+@@ 0x0d67
+Lama curva fissata in cima a una robusta asta di lancia.
+
+Probabilità di rottura: 5%.
+@@ 0x0d68
+Martello pensato per avere la meglio anche sulle armature
+
+più solide. Probabilità di rottura: 5%.
+@@ 0x0d6b
+Lunga ascia versatile. Probabilità di rottura: 5%.
+@@ 0x0d6e
+Arco piccolo. Probabilità di rottura: 5%.
+
+Opera di umani, non è affidabile in uno scontro duro.
+@@ 0x0d6f
+Più lungo dello Short Bow. Probabilità di rottura: 5%.
+@@ 0x0d71
+Arco fatto con vari materiali per una maggiore potenza.
+
+Probabilità di rottura: 5%.
+@@ 0x0d76
+Spada dal potere incredibile contro i draghi.
+
+Probabilità di rottura: 5%.
+@@ 0x0d77
+Spada dal potere incredibile contro i demoni.
+
+Probabilità di rottura: 5%.
+@@ 0x0d78
+Spada dal potere incredibile contro le bestie.
+
+Probabilità di rottura: 5%.
+@@ 0x0d79
+Arco dal potere incredibile contro i maghi.
+
+Probabilità di rottura: 5%.
+@@ 0x0d7a
+Arco dal potere incredibile contro gli uccelli.
+
+Probabilità di rottura: 5%.
+@@ 0x0d7b
+Arco che converte gli HP dei nemici in DME.
+
+Probabilità di rottura: 5%.
+@@ 0x0d86
+Spada che taglia la carne come gli spiriti corrotti.
+
+Probabilità di rottura: 5%.
+@@ 0x0d8a
+Spada corta forgiata da un potente alleato degli dei.
+
+Poca potenza d'attacco, ma potenzia la magia di chi la usa.
+@@ 0x0dff
+Spada nata per far pendere l'equilibrio cosmico,
+
+ha preso l'anima di molti angeli.
+@@ 0x0e09
+La Spada Senza Pari. Forgiata da umani.
+@@ 0x0e0a
+Spada il cui nome significa uccisore di dei.
+@@ 0x0e0e
+Strumento che potenzia ulteriormente il potere di Freya.
+
+È invisibile, quindi la sua vera forma è ignota.
+@@ 0x0e10
+Bacchetta intrisa di potere elementale. Permette di
+
+lanciare la Grande Magia. Probabilità di rottura: 50%.
+@@ 0x0e11
+Bacchetta intrisa di potere elementale. Permette di
+
+lanciare la Grande Magia. Probabilità di rottura: 50%.
+@@ 0x0e16
+Bacchetta magica di Mystina incastonata di gemme.
+
+Permette di lanciare la Grande Magia.
+@@ 0x0fa0
+Incantesimo che lancia un dardo di fiamme ardenti sul nemico.
+
+Se ne lanciano al massimo 4, in base al livello magico.
+@@ 0x0fa1
+Incantesimo che crea un'esplosione di fuoco
+
+che scaglia i nemici in aria.
+@@ 0x0fa2
+Ghiaccioli affilati come rasoi piombano sul nemico.
+
+Ogni ghiacciolo ha 1 probabilità su 8 di congelarlo.
+@@ 0x0fa3
+Evoca uno Spirito di Ghiaccio che attacca il nemico.
+
+Ogni colpo ha 1 probabilità su 8 di congelarlo.
+@@ 0x0fa4
+Incantesimo che lancia contro i nemici un fulmine sfrigolante.
+@@ 0x0fa5
+Questo incantesimo crea una luce che danneggia
+
+e cura vari stati alterati.
+@@ 0x0fa6
+Incantesimo che evoca una creatura dell'oscurità
+
+che combatte per te.
+@@ 0x0fa7
+Questo incantesimo fa materializzare una spada enorme
+
+che colpisce i nemici.
+@@ 0x0fa8
+Crea una nube di veleno che toglie al nemico il 10%
+
+della sua forza vitale a ogni turno.
+@@ 0x0fa9
+Incantesimo che può trasformare il nemico in pietra.
+
+Dura fino a 4 turni, ma alcune magie non si possono usare.
+@@ 0x0faa
+Croci sacre si materializzano e vengono scagliate sul nemico.
+@@ 0x0fab
+Crea una lancia che arde di fiamma sacra
+
+e si abbatte sui nemici.
+@@ 0x0fac
+Rianima i personaggi privi di sensi (DME=0).
+
+I personaggi rianimati tornano con l'80% dei DME massimi.
+@@ 0x0fad
+Incantesimo che ripristina i DME di un alleato.
+
+Ripristina l'80% dei DME massimi dell'alleato.
+@@ 0x0fae
+Cura gli stati alterati.
+@@ 0x0faf
+Gelo
+@@ 0x0fb0
+Incantesimo che moltiplica per 1,5 l'ATT di un alleato.
+
+Si può lanciare una sola volta per battaglia. Dura 10 turni.
+@@ 0x0fb1
+Incantesimo che moltiplica per 1,5 la RID di un alleato.
+
+Si può lanciare una sola volta per battaglia. Dura 10 turni.
+@@ 0x0fb2
+Incantesimo che moltiplica per 1,5 i danni magici di un alleato.
+
+Si può lanciare una sola volta per battaglia. Dura 10 turni.
+@@ 0x0fb3
+Incantesimo che riduce l'ATT del nemico. La riduzione
+
+dipende dalla resistenza del nemico. Dura 5 turni.
+@@ 0x0fb4
+Incantesimo che riduce la RID del nemico. La riduzione
+
+dipende dalla resistenza del nemico. Dura 5 turni.
+@@ 0x0fb5
+Incantesimo che sigilla la magia del nemico. La probabilità
+
+di successo dipende dalla resistenza del nemico. Dura 5 turni.
+@@ 0x0fb6
+Incantesimo che fa rimbalzare gli incantesimi del nemico
+
+contro di lui. Dura 3 turni.
+@@ 0x0fb7
+Incantesimo che sigilla l'attacco speciale del nemico. La
+
+probabilità di successo dipende dalla resistenza del nemico.
+
+Dura 3 turni.

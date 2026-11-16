@@ -1,4 +1,4 @@
 # Valkyrie Profile scene 0xdd (-): 15 records, directory word 3831, package sectors 179966..180028 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Holy Crystal.
+<5>Hai trovato Cristallo Sacro.

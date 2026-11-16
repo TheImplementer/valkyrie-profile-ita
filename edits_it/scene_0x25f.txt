@@ -1,10 +1,10 @@
 # Valkyrie Profile scene 0x25f (-): 18 records, directory word 4217, package sectors 223071..223235 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Iron Ore.
+<5>Hai trovato Minerale di Ferro.
 @@ 15
-<5>Hai trovato Ebony Powder.
+<5>Hai trovato Polvere d'Ebano.
 @@ 16
 <5>Hai trovato Ruin's Fate.
 @@ 17
-<5>Hai trovato Ring of Learning.
+<5>Hai trovato Anello del Sapere.

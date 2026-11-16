@@ -1,4 +1,4 @@
 # Valkyrie Profile scene 0x44f (-): 15 records, directory word 4713, package sectors 289498..289622 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Golden Egg.
+<5>Hai trovato Uovo d'Oro.

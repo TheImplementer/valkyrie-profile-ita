@@ -3,10 +3,10 @@
 @@ 14
 <5>Hai trovato Reflect Sorcery.
 @@ 15
-<5>Hai trovato Ghoul Powder.
+<5>Hai trovato Polvere di Ghoul.
 @@ 16
 <5>Hai trovato Lucerne Hammer.
 @@ 17
-<5>Hai trovato Aqua Vitae.
+<5>Hai trovato Acquavite.
 @@ 18
 <5>Hai trovato Concentration.

@@ -116,9 +116,10 @@ typeface:
   size. A longer table just gets a bigger block. In a camp-menu memory dump, table 2175 is at
   `0x80102BC4`. Mid-battle, the 1806 item table is at `0x801197DC`, with 720 KB of heap free.
 * **The disc is the limit:** a file can't outgrow its sectors (`docs/VALKYRIE_BIN_TABLE.md`). After
-  the tools re-compress, the menu files have room for 92 bytes (Configure) up to 2.6 KB (Divine Item)
-  more of compressed text. The battle files have 0.7 KB (1988) to 2.1 KB (1501). Text compresses
-  about 2:1.
+  the tools re-compress, the English menu files have room for 92 bytes (Configure) up to 2.6 KB
+  (Divine Item) more of compressed text. The battle files have 0.7 KB (1988) to 2.1 KB (1501). Text
+  compresses about 2:1. With every item name and help line in Italian, the camp tables still have
+  0.5 to 2.1 KB of room, and the item file 1806 1 KB.
 
 ## Editing them
 
@@ -145,8 +146,10 @@ Abilità
   Equipment share them) are longer than the battle ones. 263 of the 444 differ in their English, so
   linking can't carry them over, and both sets have to be translated. The camp help box fits lines up
   to the widest English one, 326 pixels, on three lines.
-* **Rebuilding:** an unchanged string keeps its bytes. A changed one goes in its old place if it fits,
-  or after the last string.
+* **Rebuilding:** a table with no edits keeps its bytes. An edited table is written again: the index,
+  then every string in table order, the order the disc stores them in. The first tools wrote a
+  longer string after the last one and zeroed its old place; once all 612 item help lines were
+  translated, that layout made the Skill table 12 KB too big for its sectors, and the item file 8 KB.
 * **Width:** menu text is drawn at fixed places, so a longer label can run into the next one. `build`
   warns when an edit makes a string wider than the original, measured with the font's widths.
   `docs/GLOSSARY.md` lists the lines shortened for this.
@@ -174,7 +177,7 @@ opens the Sort menu, strings `0x33` to `0x37`. Top to bottom: Use Item, Equipmen
 The Equipment screen (table 2183): the action popup, the weapon list with both tabs, the Sort menu
 and the Ottimizza (best equipment) screen, with three weapons granted by the script. Its 67 interface
 strings are Italian. The weapon and armour names
-and their help lines are item text, still in English. The slot names (Arma, Capo, Corp. …) are shared with the
+and their help lines are item text, translated since (next section). The slot names (Arma, Capo, Corp. …) are shared with the
 Status screen through the link, and fit there too.
 
 ![The Status screen in Italian](notes/edit_proof/italian_status.png)
@@ -226,6 +229,35 @@ At 111 pixels the Sort tab's right edge falls on the Info tab's left edge in Equ
 share one border line. "Ordina" needs about 108. Any wider and the tabs overlap. Divine Item also shows a Sort tab, presumably from the same
 record, since the program has only one. It couldn't be opened this early in a test game, so it
 hasn't been seen.
+
+## Item names
+
+The policy follows the official Italian Final Fantasy VIII: everything you use up, craft with, wear or
+carry gets an Italian name, and every weapon keeps its English name (`docs/GLOSSARY.md`, "Item
+names"). 258 names are Italian, 196 stay English, and the 32 skill books keep their skill's name
+until the skills are named. All 612 camp help lines and the battle ones are Italian.
+
+![Item names and help lines in the camp menu](notes/edit_proof/italian_item_names.png)
+
+Use Item, Equipment and Equipment's weapon list on the Italian disc, with items granted by the
+script. Top: the help lines of Cristallo del Tuono, Gemma Fiamma Maledetta, Pozione
+dell'Invisibilità and Armatura del Valore. Bottom: Tiara della Pia Imperatrice (the Equip. page and
+the Artifacts page), Long Sword (a weapon, so English) and Celata on Valkyrie's head. The longest
+Italian names are 136 pixels; the list leaves room for the 155 of the longest English weapon.
+
+**Where a name appears.** An item `n` (the number the script's grant op `E6` takes) has its name at
+message `2000 + n` and its help line at `3000 + n`:
+
+* **Table 1806.1** (battle) and the nine camp sub-menus: the names, by the link. The battle copy of
+  the help lines is shorter: 263 of them have English of their own, and the rest are copies.
+* **Table 1500.7,** messages `0x12D` to `0x133`: the seven healing items' names again, shown when one
+  is used in battle. They have no link, so `battle_1500.7.txt` lists them.
+* **Scenes:** 248 "Hai trovato …" lines, the 60 choices of the moon-stone puzzle and a few sentences
+  name items, so the dialogue changes with the tables. The quest items that appear only in dialogue
+  (the elf's four ingredients, the moon stones) follow the same rule.
+* **Not used:** Use Item and Divine Item (2179, 2180) also hold a second list of short names,
+  `0x1A8E` on (`Prime-Elixir`, `Silver-Sallet`, `Conversion-Gem` …). No camp program loads a message
+  id near it: the code only adds item numbers to `0x7D0` and `0xBB8`. It is left in English.
 
 ## Not known yet
 

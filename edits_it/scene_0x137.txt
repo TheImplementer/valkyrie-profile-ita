@@ -8,6 +8,6 @@ Vuoi trasferirti?
 @@ 15
 <5>Hai trovato Dancing Sword.
 @@ 16
-<5>Hai trovato Lapis Lazuli.
+<5>Hai trovato Lapislazzuli.
 @@ 17
-<5>Hai trovato Citrine.
+<5>Hai trovato Citrino.

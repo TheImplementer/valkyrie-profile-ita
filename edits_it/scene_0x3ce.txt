@@ -1,6 +1,6 @@
 # Valkyrie Profile scene 0x3ce (-): 16 records, directory word 4584, package sectors 275307..275555 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Quartz Gem.
+<5>Hai trovato Gemma di Quarzo.
 @@ 15
-<5>Hai trovato Mandrake.
+<5>Hai trovato Mandragola.

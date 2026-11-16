@@ -14,7 +14,7 @@ Quella sfera pare il pannello di controllo<3:0c>...<3:ff>
 @@ 17
 <5>Labirinto di Arianrod
 @@ 18
-<5>Hai trovato Eye of Heaven.
+<5>Hai trovato Occhio del Cielo.
 @@ 19
 È una specie di
 pannello di controllo.<page>

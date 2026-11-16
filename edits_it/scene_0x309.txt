@@ -11,6 +11,6 @@ Valkyrie
 Non c'è<3:0c>・・・<3:ff>
 nessuna speranza per lui.
 @@ 16
-<5>Hai trovato Mirage Robe.
+<5>Hai trovato Tunica del Miraggio.
 @@ 17
-<5>Hai trovato Mirror of Pleiades.
+<5>Hai trovato Specchio delle Pleiadi.

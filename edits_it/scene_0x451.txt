@@ -1,6 +1,6 @@
 # Valkyrie Profile scene 0x451 (-): 16 records, directory word 4715, package sectors 289744..289783 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Eternal Garb.
+<5>Hai trovato Veste Eterna.
 @@ 15
 <5>Hai trovato Razor Shaft.

@@ -1,6 +1,6 @@
 # Valkyrie Profile scene 0x2c8 (-): 16 records, directory word 4322, package sectors 236613..236788 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Sylphan Robe.
+<5>Hai trovato Tunica delle Silfidi.
 @@ 15
 <5>Hai trovato Heal.

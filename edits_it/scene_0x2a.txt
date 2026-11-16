@@ -97,7 +97,7 @@ Valkyrie
 「Nemmeno tu sei una persona, ma
 la gente è cattiva, vero?
 @@ 41
-<5><3:00>Hai trovato Handwoven Bandanna.
+<5><3:00>Hai trovato Bandana Fatta a Mano.
 @@ 42
 <5>Chiesa
 @@ 43

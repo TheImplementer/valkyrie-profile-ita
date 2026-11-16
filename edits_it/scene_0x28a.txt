@@ -6,7 +6,7 @@ C'è scritto qualcosa.<page>
 <5>"Occorre il sonno,"
 <5>"quando il Guardiano si stanca."
 @@ 15
-Hai trovato Blood-Red Stone.
+Hai trovato Pietra Rosso Sangue.
 @@ 16
 <3:08>・・・<3:ff>Sembra stanco.
 @@ 17

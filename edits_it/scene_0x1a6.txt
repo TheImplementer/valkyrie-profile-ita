@@ -1,4 +1,4 @@
 # Valkyrie Profile scene 0x1a6 (-): 15 records, directory word 4032, package sectors 202942..203127 of VALKYRIE.BIN
 
 @@ 14
-Hai trovato Blue Gem.
+Hai trovato Gemma Blu.

@@ -2,8 +2,8 @@
 
 @@ 14
 Credo che si possa usare
-la Flame Jewel.<page>
-Vuoi usare la Flame Jewel?
+il Gioiello di Fiamma.<page>
+Vuoi usare il Gioiello di Fiamma?
 ・Sì
 ・No
 @@ 15

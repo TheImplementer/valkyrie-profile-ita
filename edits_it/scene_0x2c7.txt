@@ -1,7 +1,7 @@
 # Valkyrie Profile scene 0x2c7 (-): 18 records, directory word 4321, package sectors 236498..236612 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato "Polar Drops".
+<5>Hai trovato "Gocce Polari".
 @@ 15
 <5>Hai già "Polar Drops".
 @@ 16

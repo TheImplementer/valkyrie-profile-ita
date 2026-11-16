@@ -3,6 +3,6 @@
 @@ 14
 <5>Hai trovato Ether Scepter.
 @@ 15
-<5>Hai trovato Timer Ring.
+<5>Hai trovato Anello del Tempo.
 @@ 16
-<5>Hai trovato Creation Gem.
+<5>Hai trovato Gemma Creatrice.

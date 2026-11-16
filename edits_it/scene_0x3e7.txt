@@ -26,8 +26,8 @@ Valkyrie
 「Non sopravvalutare il tuo valore,
 profanatore di anime!!
 @@ 19
-<5>Hai trovato Holy Water of Mithra.
+<5>Hai trovato Acqua Santa di Mithra.
 @@ 20
 <5>Hai trovato Infernas.
 @@ 21
-<5>Hai trovato Eternal Lamp.
+<5>Hai trovato Lampada Eterna.

@@ -154,4 +154,4 @@ di nuovo con i suoi genitori<7:0b>-<7:01><17:7800>
 <19:ffff>Yumei
 「Chi<3:0c>...?
 @@ 50
-<5><3:00>Hai trovato Fragment of Lapis Gem.
+<5><3:00>Hai trovato Frammento di Lapislazzuli.

@@ -331,23 +331,17 @@ class BattleText:
         return [self.pairs[k][0] for k in range(len(self.pairs)) if self.strings[k] != self.orig[k]]
 
     def build(self):
-        """The new table: an edited string is written over the old one when it fits (the rest of
-        the old bytes zeroed), otherwise appended. No padding (the disc tables have none)."""
+        """The new table: the index, then every string again in table order (the order the disc
+        stores them in), each ending with a 0 byte; the bytes before the first string are kept.
+        As in vp_menu_text, writing them all again keeps the table as small as its text. No padding
+        (the disc tables have none)."""
         if self.strings == self.orig:
             return self.raw
-        out = bytearray(self.raw)
-        end = max(self.text_offset + o + len(s) + 1 for (_, o), s in zip(self.pairs, self.orig))
-        del out[end:]
-        for k, ((mid, off), old, new) in enumerate(zip(self.pairs, self.orig, self.strings)):
-            if new == old:
-                continue
-            a = self.text_offset + off
-            if len(new) <= len(old):
-                out[a:a + len(old)] = new + bytes(len(old) - len(new))
-            else:
-                off = len(out) - self.text_offset
-                out += new + b'\0'
-            struct.pack_into('<2I', out, 4 + 8 * k, mid, off)
+        first = min(o for _, o in self.pairs)
+        out = bytearray(self.raw[:self.text_offset + first])
+        for k, ((mid, _), s) in enumerate(zip(self.pairs, self.strings)):
+            struct.pack_into('<2I', out, 4 + 8 * k, mid, len(out) - self.text_offset)
+            out += s + b'\0'
         return bytes(out)
 
     def build_font(self):

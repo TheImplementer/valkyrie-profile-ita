@@ -3,9 +3,9 @@
 @@ 14
 <5>Hai trovato Berserker Bow.
 @@ 15
-<5>Hai trovato Armor of Aleph.
+<5>Hai trovato Armatura di Aleph.
 @@ 16
-<5>Hai trovato Harp of Atrasia.
+<5>Hai trovato Arpa di Atrasia.
 @@ 17
 Genevieve
 「Ah<3:32>!<3:ff>

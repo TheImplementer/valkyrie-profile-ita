@@ -5,6 +5,6 @@
 @@ 15
 <5>Hai trovato Dark Savior.
 @@ 16
-<5>Hai trovato Ghoul Powder.
+<5>Hai trovato Polvere di Ghoul.
 @@ 17
 <5>Hai trovato Stone Torch.

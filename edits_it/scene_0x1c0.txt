@@ -1,4 +1,4 @@
 # Valkyrie Profile scene 0x1c0 (-): 15 records, directory word 4058, package sectors 206069..206194 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Base Metal.
+<5>Hai trovato Metallo Vile.

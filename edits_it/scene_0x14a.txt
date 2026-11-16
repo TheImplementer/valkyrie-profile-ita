@@ -1,4 +1,4 @@
 # Valkyrie Profile scene 0x14a (-): 15 records, directory word 3940, package sectors 192668..192772 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Book of Everlasting Life.
+<5>Hai trovato Libro della Vita Eterna.

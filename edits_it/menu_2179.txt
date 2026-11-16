@@ -37,7 +37,6 @@ Info
 Attacco speciale
 @@ 0x0161
 {81 80 07}Nome
-
 @@ 0x0bb9
 Pozione che ripristina i DME (energia divina).
 
@@ -121,18 +120,1554 @@ Statuetta d'angelo che rianima automaticamente
 
 chi la possiede se perde i sensi. 
 
-Probabilità di rompersi=30%.
+Probabilità di rottura: 30%.
 @@ 0x0bda
 Amuleto che rende immuni ai danni fisici. 
 
-Probabilità di rompersi=30%. I danni fisici includono 
+Probabilità di rottura: 30%. I danni fisici includono 
 
 anche gli attacchi di stato alterato.
 @@ 0x0bdb
 Amuleto che rende immuni ai danni magici. 
 
-Probabilità di rompersi=25%.
+Probabilità di rottura: 25%.
 @@ 0x0bdc
 Amuleto che rende immuni agli stati alterati. 
 
-Probabilità di rompersi=25%.
+Probabilità di rottura: 25%.
+@@ 0x0be0
+Prima di attaccare, lancia 2 pugnali magici.
+
+Precisione: 60%.
+
+Inutile senza la tecnica "Throw".
+@@ 0x0be2
+Prima di attaccare, lancia 2 pugnali magici. Precisione: 60%.
+
+Particolarmente efficace sui non morti, con alta probabilità
+
+di causare svenimento. Inutile senza la tecnica "Throw".
+@@ 0x0be4
+2 pugnali magici che volano ad arco e inseguono
+
+automaticamente il nemico. Precisione: 80%.
+
+Inutile senza la tecnica "Throw".
+@@ 0x0be5
+Orecchino che riduce di 1 i CT (turni di carica).
+
+Tuttavia i CT non scendono sotto 1.
+@@ 0x0be6
+Anello che riduce di 2 i CT (turni di carica).
+
+Tuttavia i CT non scendono sotto 1.
+@@ 0x0be7
+Bracciale che aumenta del 30% l'attacco fisico di base.
+
+L'attacco fisico è il danno inflitto con il corpo o un'arma.
+@@ 0x0be8
+Bracciale che aumenta del 30% l'attacco magico di base.
+@@ 0x0be9
+Gioiello che aumenta la RID (riduzione danni)
+
+del 30% del valore base.
+@@ 0x0bea
+Gioiello che aumenta la RES (resistenza magica)
+
+del 30% del valore base.
+@@ 0x0beb
+Gioiello che aumenta di 2 l'indicatore dell'attacco speciale.
+@@ 0x0bec
+Orecchino che aumenta del 15% i DME massimi.
+@@ 0x0bed
+Gemma che aumenta del 30% i DME massimi.
+@@ 0x0bee
+Numero mancante
+@@ 0x0bef
+Talismano che rende immuni al veleno.
+@@ 0x0bf0
+Talismano che rende immuni alla paralisi.
+@@ 0x0bf1
+Talismano che rende immuni alla pietrificazione.
+@@ 0x0bf2
+Talismano che rende immuni al gelo.
+@@ 0x0bf3
+Talismano che rende immuni alla maledizione.
+@@ 0x0bf4
+Talismano che rende immuni allo svenimento.
+@@ 0x0bf5
+Talismano che rende immuni agli stati alterati.
+@@ 0x0c01
+Spada che evoca l'immagine delle grandi corna di un cervo.
+
+Ha uno speciale rivestimento d'etere che la rende
+
+infrangibile.
+@@ 0x0c02
+Grande spada del tipo impugnato dai leggendari berserker.
+@@ 0x0c03
+Munita di un'ampia guardia per le nocche, rafforza la
+
+difesa di chi la impugna.
+@@ 0x0c04
+Un tipo di stocco dalla lama stretta.
+@@ 0x0c05
+Una sciabola a lama dritta.
+@@ 0x0c06
+Spada eccellente sia per tagliare che per colpire di punta.
+@@ 0x0c07
+Questo Pallasch, dotato di un'ampia guardia per le nocche,
+
+offre a chi lo impugna una difesa maggiore.
+@@ 0x0c08
+Spada dal design unico: 1/3 è a doppia lama,
+
+il resto a lama singola.
+@@ 0x0c09
+Il tipo di spada più comune del leggendario paese di Yamato.
+@@ 0x0c0a
+Spada lunga 3 piedi con un'ampia curvatura.
+@@ 0x0c0b
+Spada singolare con 7 lame più piccole che sporgono dalla
+
+lama principale come i rami di un albero.
+@@ 0x0c0c
+Enorme spada a due mani, lunga ben più di 4 piedi.
+
+Potente ma difficile da maneggiare.
+@@ 0x0c0d
+Spada enorme come la No-Dachi, ma leggerissima.
+
+Il suo nome significa "Spada Guizzante".
+@@ 0x0c0e
+Spada massiccia, più potente e più grande della No-Dachi.
+@@ 0x0c0f
+Spada senza rivali per leggerezza e facilità d'uso.
+@@ 0x0c10
+Spada che supera tutte le altre in potenza.
+@@ 0x0c11
+Spadone progettato per essere impugnato a due mani.
+@@ 0x0c12
+Spada a due mani di fabbricazione tedesca.
+@@ 0x0c13
+Un tipo di spada a due mani.
+@@ 0x0c14
+Un tipo di spada a due mani.
+@@ 0x0c15
+Una spada a due mani scozzese.
+@@ 0x0c16
+Spadone dal filo seghettato a forma di fiamma.
+
+Una spada tanto letale quanto decorativa.
+@@ 0x0c17
+Spada fatta di una lega di oricalco.
+
+Uno spadone insolitamente leggero e maneggevole.
+@@ 0x0c18
+Una varietà di spada a due mani. Con la sua lama dall'aspetto
+
+macabro, è una vera spada da assassino.
+@@ 0x0c19
+Una lunga e stretta lama di spada fissata a un'asta di lancia.
+@@ 0x0c1a
+Lancia con "ali" che sporgono da entrambi i lati della lama.
+
+In origine servivano a impedire che la lancia affondasse troppo,
+
+ma sono poi diventate decorazioni stilizzate.
+@@ 0x0c1b
+Lancia con l'asta leggermente accorciata, che permette di
+
+impugnarla in vari modi.
+@@ 0x0c1c
+Un'evoluzione della Winged-Spear.
+
+Ha grandi lame a forma d'ala che si aprono ai lati.
+@@ 0x0c1d
+Lancia con una lama a forma d'ascia da un lato e una punta
+
+acuminata dall'altro. Adatta a tagliare o a colpire di punta.
+@@ 0x0c1e
+Ascia con un lungo manico come una lancia.
+
+Ha una potenza distruttiva insuperata.
+@@ 0x0c1f
+Lancia con una punta acuminata insolitamente lunga,
+
+che copre quasi metà della sua lunghezza.
+@@ 0x0c20
+Alabarda con una lunga sciabola fissata a un'estremità,
+
+adatta sia a colpire di punta che a tagliare.
+@@ 0x0c29
+Balestra facile da usare che scaglia a velocità elevatissima
+
+un corto dardo di legno.
+
+Il suo punto debole è la lenta ricarica.
+@@ 0x0c2a
+Una variante migliorata di balestra.
+@@ 0x0c2b
+Questa balestra a tiro rapido non sacrifica la potenza
+
+per la velocità.
+@@ 0x0c2c
+Balestra migliorata con un meccanismo di caricamento a
+
+manovella che le permette di scoccare a velocità maggiore
+
+di una balestra standard.
+@@ 0x0c2d
+Balestra migliorata che scocca frecce con la punta esplosiva.
+@@ 0x0c2e
+Un tipo di Windlass-Crossbow.
+@@ 0x0c2f
+Una variante della Fire-Crossbow.
+@@ 0x0c30
+Una balestra che unisce velocità e potenza.
+@@ 0x0c39
+Bacchetta con una gemma rosso rubino pulsante
+
+incastonata in punta.
+@@ 0x0c3a
+Bacchetta incisa con antiche rune.
+
+Un capolavoro finemente lavorato.
+@@ 0x0c3b
+Bacchetta con un cristallo incastonato in punta.
+
+Pulsa di 7 colori diversi ed è molto bella.
+@@ 0x0c3c
+Bacchetta d'argento, lavorata con amore.
+
+Si dice che l'argento abbia il potere di respingere i non morti.
+@@ 0x0c3d
+Bacchetta modellata a immagine di una fata.
+@@ 0x0c3e
+Bacchetta scolpita a forma della Dea della Morte.
+@@ 0x0c3f
+Bacchetta incisa con l'emblema di un'onda che si infrange.
+@@ 0x0c40
+Bacchetta che contiene il potere concentrato del sole.
+@@ 0x0c41
+Spada dal filo affilatissimo, intrisa del potere del fulmine.
+
+Assorbe gli attacchi magici di tipo fulmine e trasferisce
+
+DME a chi la impugna.
+@@ 0x0c42
+Intrisa del potere della luce, questa spada assorbe gli
+
+attacchi magici di tipo sacro e trasferisce DME
+
+a chi la impugna.
+@@ 0x0c43
+Intrisa del potere del ghiaccio, questa spada assorbe gli
+
+attacchi magici di tipo ghiaccio e trasferisce DME
+
+a chi la impugna.
+@@ 0x0c44
+Questa spada rosso sangue è intrisa del potere del fuoco.
+
+Assorbe gli attacchi magici di tipo fuoco e trasferisce
+
+DME a chi la impugna.
+@@ 0x0c45
+Spada che si dice abbia il potere di far cadere fulmini.
+
+Riduce anche di 1 i CT dell'attacco speciale di chi la
+
+impugna. Sull'elsa ha una gemma blu.
+@@ 0x0c46
+Spada con l'emblema della Fenice.
+
+Riduce anche di 1 i CT dell'attacco speciale di chi la impugna.
+
+L'elsa evoca le ali fiammeggianti della Fenice.
+@@ 0x0c47
+Spada delle Nuvole Celesti.
+
+Riduce di 1 i CT dell'attacco speciale di chi la impugna.
+@@ 0x0c48
+Spada che si dice sia stata usata per combattere i demoni.
+
+Riduce di 1 i CT dell'attacco speciale di chi la impugna.
+
+Ha la lama nera e l'elsa rossa.
+@@ 0x0c49
+Spadone intriso del potere degli elementi.
+
+Aumenta del 30% il danno dell'attacco speciale.
+@@ 0x0c4a
+Spadone intriso del potere di un'esplosione di fuoco.
+
+Aumenta del 30% il danno dell'attacco speciale.
+@@ 0x0c4b
+Spadone il cui nome allude al potere di sconfiggere i draghi.
+
+Aumenta del 30% il danno dell'attacco speciale.
+@@ 0x0c4c
+Spadone dalla lama che brilla di un viola intenso.
+
+Aumenta del 30% il danno dell'attacco speciale.
+@@ 0x0c4d
+Lancia della tempesta di fuoco.
+
+Aggiunge altri 20 CP (punti capacità) quando chi la usa
+
+sale di livello.
+@@ 0x0c4e
+Lancia guizzante.
+
+Aggiunge altri 20 CP (punti capacità) quando chi la usa
+
+sale di livello.
+@@ 0x0c4f
+Lancia il cui nome significa grande vento.
+
+Aggiunge altri 20 CP (punti capacità) quando chi la usa
+
+sale di livello.
+@@ 0x0c50
+Lancia benedetta dagli dei.
+
+Aggiunge altri 20 CP (punti capacità) quando chi la usa
+
+sale di livello.
+@@ 0x0c55
+Balestra costruita con i materiali più pregiati
+
+e con la massima maestria.
+@@ 0x0c56
+Arco progettato per scoccare frecce con la punta
+
+di magici cristalli lunari.
+@@ 0x0c57
+Arco che scocca frecce con precisione infallibile.
+@@ 0x0c58
+Arco che scocca frecce luminose
+
+di tremenda forza distruttiva.
+@@ 0x0c5d
+Bacchetta che amplifica le preghiere di chi la impugna
+
+e le trasmette agli dei.
+@@ 0x0c5e
+Verga che comunica con gli esseri invisibili del mondo naturale
+
+e ne trasmette il potere a chi la impugna.
+@@ 0x0c5f
+Bacchetta che potenzia enormemente il potere magico di
+
+chi la impugna, sincronizzandosi con la sua essenza spirituale.
+@@ 0x0c60
+Bacchetta potente quanto promette il suo nome.
+@@ 0x0c61
+Spada che sprigiona un potere enorme
+
+in presenza di Valkyrie.
+@@ 0x0c62
+Elmo che protegge chi lo indossa con paranaso e mentoniera.
+
+È coperto da un rivestimento d'etere che lo rende
+
+indistruttibile.
+@@ 0x0c63
+Celata forgiata in argento.
+@@ 0x0c64
+Elmo integrale che copre interamente la testa.
+
+Reca incisa l'immagine della Dea della Morte.
+@@ 0x0c65
+Un tipo di elmo integrale.
+
+Un possente elmo degno dei più grandi eroi.
+@@ 0x0c66
+Un tipo di elmo integrale.
+
+Il più forte tra tutti gli elmi che si possano creare.
+@@ 0x0c67
+Corona riccamente ingioiellata.
+
+È coperta da un rivestimento d'etere che la rende
+
+indistruttibile.
+@@ 0x0c68
+Tiara ingioiellata fatta d'argento.
+@@ 0x0c69
+Tiara ingioiellata consacrata con acqua santa.
+@@ 0x0c6a
+Ornamento per capelli benedetto dagli dei.
+@@ 0x0c6b
+Ornamento per capelli finemente lavorato,
+
+intriso di potente magia.
+@@ 0x0c6c
+Pettorale di ferro.
+
+È coperto da un rivestimento d'etere che lo rende
+
+indistruttibile.
+@@ 0x0c6d
+Pettorale d'argento.
+@@ 0x0c6e
+Pettorale d'acciaio.
+@@ 0x0c6f
+Pettorale splendidamente lavorato, degno dei più grandi
+
+eroi.
+@@ 0x0c70
+Un'armatura di incredibile forza.
+
+Permette di affrontare anche i nemici più potenti.
+@@ 0x0c71
+Mantello di stoffa con un rivestimento d'etere che lo rende
+
+indistruttibile.
+@@ 0x0c72
+Mantello con fili d'argento intessuti per aumentarne
+
+la robustezza.
+@@ 0x0c73
+Mantello consacrato con acqua santa.
+@@ 0x0c74
+Veste di stoffa purificata dal potere degli dei.
+@@ 0x0c75
+Veste di stoffa intrisa di magia.
+@@ 0x0c76
+Pesante guanto di ferro progettato per proteggere la mano.
+
+È coperto da un rivestimento d'etere che lo rende
+
+indistruttibile.
+@@ 0x0c77
+Manopola forgiata in argento.
+@@ 0x0c78
+Manopola forgiata in acciaio.
+@@ 0x0c79
+Manopola finemente lavorata, adatta a un eroe.
+@@ 0x0c7a
+Manopole dal potere protettivo ineguagliato.
+
+Permettono di affrontare anche i nemici più temibili.
+@@ 0x0c7b
+Armatura di ferro per le gambe. È coperta da un rivestimento
+
+d'etere che la rende indistruttibile.
+@@ 0x0c7c
+Armatura d'argento per le gambe.
+@@ 0x0c7d
+Armatura d'acciaio per le gambe.
+@@ 0x0c7e
+Armatura per le gambe finemente lavorata, adatta a un eroe.
+@@ 0x0c7f
+Armatura per le gambe dal potere protettivo ineguagliato.
+
+Permette di affrontare anche i nemici più temibili.
+@@ 0x0c83
+Stivali di cuoio rigido.
+@@ 0x0c84
+Stivali morbidi e comodi di cuoio scamosciato.
+@@ 0x0c85
+Stivali leggeri che si dice siano opera degli elfi.
+@@ 0x0c8c
+Gioiello bianco latte creato come amuleto protettivo per i
+
+pescatori. Si dice che protegga chi lo porta dall'annegamento.
+@@ 0x0c8d
+Libro di insegnamenti del grande profeta Bethanus.
+
+Insegna a chiunque lo legga il valore della vita.
+@@ 0x0c8e
+Incenso la cui fragranza lenisce il cuore e l'anima.
+@@ 0x0c8f
+Un dolce pezzo d'ambra. Basta una piccola leccata e chi lo
+
+assaggia è pervaso da un senso di felicità.
+@@ 0x0c90
+Amuleto che si dice porti buona fortuna a chi lo possiede.
+@@ 0x0c91
+Rossetto rosso che migliora la capacità di negoziare
+
+con gli altri.
+@@ 0x0c92
+Un'enciclopedia con informazioni su tutti i mostri
+
+esistenti.
+@@ 0x0c93
+Un tomo illustrato con informazioni sui demoni.
+@@ 0x0c94
+Teschio ornamentale creato da una strega con le ossa di una
+
+creatura non morta. Si dice che dia conoscenza sui non morti.
+@@ 0x0c95
+Appoggiata all'orecchio, questa conchiglia trasmette il suono
+
+delle onde che si infrangono. Per qualche ragione, ascoltarlo
+
+migliora la percezione di chi ascolta.
+@@ 0x0c96
+Si dice sia stata tagliata dalla criniera di Sleipnir,
+
+il destriero a 8 zampe di Odino.
+@@ 0x0c97
+Bandana con il simbolo del fuoco.
+
+Infonde coraggio a chi la indossa.
+@@ 0x0c9f
+Collana di smeraldi che brilla di una splendida luce blu.
+
+Aumenta di 100 i CP quando chi la porta sale di livello.
+@@ 0x0ca0
+Scritti segreti di Zolon il Saggio.
+@@ 0x0ca1
+Gemma che permette di vedere le aree del dungeon attuale
+
+non ancora visitate.
+@@ 0x0ca2
+Piuma della leggendaria Fenice.
+
+Rianima automaticamente chi la possiede se perde i sensi.
+
+Probabilità di rottura: 10%.
+@@ 0x0ca3
+Acqua santa che infligge 100.000 punti di danno
+
+ai non morti.
+@@ 0x0ca8
+Istruzioni per creare un Golem.
+@@ 0x0ca9
+Arectaris.
+@@ 0x0caa
+Arpa portata dalla santa Atrasia.
+@@ 0x0cab
+Piccola scatola sigillata in modo misterioso.
+
+Impossibile da aprire: il suo contenuto resta un mistero.
+@@ 0x0cac
+Maschera indossata dal re folle Akhetamen.
+@@ 0x0cad
+Feretro.
+@@ 0x0cae
+Frutto del leggendario Albero della Vita.
+
+Aumenta di 6.000 i DME massimi.
+@@ 0x0caf
+Spada posseduta dallo spirito di una fata. A volte sembra
+
+che l'aura della fata emani dalla lama stessa.
+@@ 0x0cb0
+La sua lama rosso vivido fa risaltare questa spada.
+
+È intrisa del potere del fuoco.
+@@ 0x0cb1
+Spada della leggendaria terra di Yamato.
+
+Si dice che il suo colore cambi a seconda di chi la impugna.
+@@ 0x0cb2
+Spada lunga forgiata con un metallo misterioso che in
+
+combattimento lampeggia di un bianco brillante.
+
+Ha il 10% di probabilità di paralizzare i non morti.
+@@ 0x0cb3
+La lama viola contiene cristalli magici che le conferiscono
+
+un potere unico. I danni degli attacchi normali calano del
+
+70%, ma quelli degli attacchi speciali salgono del 50%.
+@@ 0x0cb4
+Spada i cui danni aumentano del 5% a ogni colpo messo
+
+a segno, fino a un massimo di +200%.
+@@ 0x0cb5
+Fiamme blu si accendono e si spengono sulla lama di questo
+
+spadone incantato, quasi come se respirasse.
+@@ 0x0cb6
+Spada intrisa del dolore dell'umanità per il destino di un
+
+angelo caduto. Ha il 10% di probabilità di raddoppiare
+
+il numero di Gemme Magiche che appaiono.
+@@ 0x0cb7
+Un tempo spada di un eroe leggendario, è un capolavoro
+
+riccamente decorato e perfettamente bilanciato.
+@@ 0x0cb8
+Spada nera magica che si dice si trovi nello stomaco del
+
+drago Bloodbane. Il suo potere cresce al diminuire della
+
+forza vitale di chi la impugna.
+@@ 0x0cb9
+Lancia con il 10% di probabilità di pietrificare il nemico.
+@@ 0x0cba
+Numero mancante
+@@ 0x0cbb
+Lancia leggendaria con un potere sia negativo che positivo.
+
+Si dice che il suo potere dipenda da chi la impugna.
+@@ 0x0cbc
+Lancia dotata di un potere speciale contro i draghi.
+@@ 0x0cbd
+Arco appartenuto un tempo a un re degli elfi della luce.
+@@ 0x0cbe
+Arco che si dice sia stato fabbricato dagli elfi.
+@@ 0x0cbf
+Arco in grado di abbattere i nemici.
+@@ 0x0cc0
+Arco reso famoso per aver abbattuto un berserker
+
+con un solo colpo.
+@@ 0x0cc1
+Spadone intriso del potere delle fiamme di Muspelheim.
+
+Il suo potere consuma persino chi lo impugna: i suoi DME
+
+calano del 3% a ogni uso.
+@@ 0x0cc2
+Spadone che prende il nome da un Re delle Fate che guidò
+
+migliaia di fate nella loro guerra contro i demoni.
+@@ 0x0cc3
+Spadone che brilla della luce dei cieli. Il suo creatore
+
+sacrificò la vita per infondergli questo potere.
+@@ 0x0cc4
+Spada forgiata da una mano ignota. Si dice che possa
+
+perforare l'armatura persino del temibile mostro "Ryu".
+@@ 0x0cc5
+Forgiato da un leggendario fabbro, ha il potere di creare
+
+un turbine capace di abbattere la leggendaria Fenice.
+@@ 0x0cc6
+Lunga e pesante lancia con un dente di dinosauro
+
+fissato all'estremità.
+@@ 0x0cc7
+Lancia con una grande lama cremisi. Si dice che sia stata
+
+creata dagli dei per dare la caccia ai demoni.
+@@ 0x0cc8
+Bacchetta che si dice portata da un santo durante la
+
+venuta del Messia. Priva di decorazioni, ha una semplice
+
+dignità.
+@@ 0x0cc9
+Lancia a forma di spirale che arde di una luce nera.
+
+È così potente da squarciare il terreno.
+@@ 0x0cd1
+Corno di unicorno trasformato in bacchetta da mago.
+
+Permette a chi lo impugna di compiere grandi prodigi magici.
+@@ 0x0cd2
+Bacchetta a forma di grande serpente. Estremamente
+
+malvagia, ma conferisce grande potere a chi la impugna.
+@@ 0x0cd3
+Bacchetta che si dice conceda un potere magico
+
+illimitato a chi la impugna.
+@@ 0x0cd4
+Luminifera.
+@@ 0x0cd5
+Armatura che ha già perso il suo vero potere, ma è
+
+ancora bellissima da vedere.
+@@ 0x0cd6
+Flagello della non morta Genevieve, questa armatura può
+
+bloccare quasi del tutto gli attacchi a base di veleno.
+@@ 0x0cd9
+Veste proveniente dall'isola incantata di Bryttain, porta
+
+nella sua trama le preghiere di migliaia di anime.
+@@ 0x0cda
+Veste benedetta dagli spiriti della foresta.
+
+Ha il potere di proteggere dagli attacchi dell'oscurità.
+@@ 0x0cdb
+Tunica della Dea delle Stelle, Elbereth.
+@@ 0x0cdc
+Tunica che crea un miraggio per aiutare chi la indossa
+
+a schivare gli attacchi.
+@@ 0x0cdd
+Elmo a forma di drago. Sembra essere stato fatto per scopi
+
+cerimoniali, ma i dettagli non sono chiari.
+@@ 0x0ce2
+Corona che prende il nome dal suo proprietario. Non ha
+
+altre qualità particolarmente uniche.
+@@ 0x0ce3
+Tiara indossata da una Pia Imperatrice molto venerata
+
+dal popolo. Un oggetto davvero bellissimo.
+@@ 0x0ce6
+Un diadema di ferro rosso ruggine.
+@@ 0x0ce7
+Arma creata dalla dea Freya con un materiale invisibile.
+
+Sembra potenziare la magia, ma la sua vera forma è ignota.
+@@ 0x0ce8
+Tiara donata alla dea Freya da Odino, il Padre di Tutti.
+
+Indica il suo status di dea di rango 2.
+@@ 0x0ce9
+Veste che brilla di una luce ultraterrena.
+@@ 0x0cea
+Collana che porta sventura a chi la indossa. Tuttavia la dea
+
+Freya vi ha infuso il proprio potere per compensarne
+
+l'energia negativa.
+@@ 0x0ceb
+Stivali creati dalla dea Freya per uso personale. Sono fatti
+
+di Oricalco, una misteriosa lega che dà loro la capacità
+
+di levitare.
+@@ 0x0cec
+Armatura creata dalla dea Freya con un materiale invisibile.
+
+Sembra proteggere quasi del tutto chi la indossa dagli
+
+attacchi, ma la sua vera forma è ignota.
+@@ 0x0ced
+Clessidra forgiata dagli dei, ha il potere di far tornare
+
+indietro il tempo fino a 5 Periodi.
+@@ 0x0cee
+Libro che svela i segreti dell'Alchimia. Ha il potere di
+
+eliminare tutti i nemici e trasformarli in Gemme Magiche.
+@@ 0x0cef
+Frammento su cui è inciso qualcosa di importante.
+@@ 0x0cf0
+Manopole tempestate di gioielli che racchiudono il potere
+
+delle stelle. Contrattaccano sparando più raggi di luce
+
+contro i nemici.
+@@ 0x0cf1
+Libro che contiene i segreti per forgiare l'acciaio di Damasco.
+@@ 0x0cf3
+Manopole tempestate di Gemme di Fuoco.
+
+Contrattaccano sparando fiamme contro i nemici.
+@@ 0x0cf4
+Bracciale che prende il nome da una bella fanciulla: potenzia
+
+la forza vitale. Aumenta di 300 i DME quando chi lo
+
+indossa sale di livello.
+@@ 0x0cf5
+Corteccia di un albero abitato dalle driadi.
+@@ 0x0cf7
+Statua di una donna bellissima e seducente.
+@@ 0x0cf8
+Statua artistica.
+@@ 0x0cf9
+Bottiglia creata da una maga di pessimo gusto.
+@@ 0x0cfa
+Bottiglia ricavata dalla mano di un mostro.
+
+È stata creata da una maga di pessimo gusto.
+@@ 0x0cfb
+Lega magica dal potere difensivo ineguagliato.
+@@ 0x0cfc
+Uccello singolare che depone alcune uova d'oro
+
+in ogni Capitolo.
+@@ 0x0cfd
+Statua di un gargoyle dall'aspetto estremamente sgradevole.
+@@ 0x0cfe
+Moneta d'oro che porta fortuna a chi la possiede.
+@@ 0x0cff
+Carillon scolpito in un unico rubino.
+
+Basta guardarci dentro per sentirsi bene.
+@@ 0x0d00
+Minerale di Mithril incantato.
+@@ 0x0d03
+Uovo d'oro che aumenta a caso FOR, INT, DES e AGI.
+@@ 0x0d05
+Leggendaria bevanda degli dei, dal meraviglioso retrogusto.
+@@ 0x0d06
+Misteriosa bacchetta che permette a chi la impugna
+
+di cambiare la formazione del gruppo.
+@@ 0x0d07
+Specchio che respinse il potere delle streghe durante la
+
+Guerra delle Pleiadi. Ha il 50% di probabilità di riflettere
+
+e raddoppiare il danno di un incantesimo sul suo lanciatore.
+@@ 0x0d08
+Bevanda preparata da Bacco, il dio dell'uva.
+
+Ristora lo spirito oltre che il palato.
+@@ 0x0d09
+Bracciale con inciso il mitico Basilisco.
+
+Non ha poteri speciali.
+@@ 0x0d0a
+Numero mancante
+@@ 0x0d0b
+Spada spezzata in due, ma che non ha perso tutto il suo potere.
+
+Si crede facilmente che un tempo avesse grandi
+
+poteri magici.
+@@ 0x0d0d
+Bara contenente il cadavere di una demonessa.
+@@ 0x0d0e
+Si può bere da esso una sola volta per Capitolo e aumenta
+
+FOR, INT, DES e AGI di chi lo beve.
+@@ 0x0d0f
+Piccola fiamma che arde per l'eternità. Anche se non
+
+equipaggiata, impedisce a tutti gli alleati di congelarsi.
+@@ 0x0d15
+Usando questo incensiere e meditando, i DME massimi di
+
+tutto il gruppo aumentano di 100. Tuttavia la meditazione
+
+richiede 2 Periodi interi.
+@@ 0x0d16
+Antico tomo che contiene il Segreto della Vita. Tuttavia è
+
+scritto in codice, il che lo rende difficile da capire.
+@@ 0x0d17
+Cristallo che scintilla come le innumerevoli stelle
+
+del cielo notturno.
+@@ 0x0d18
+Tiara decorata con piume bianche.
+@@ 0x0d19
+Elmo decorato con piume bianche.
+@@ 0x0d1a
+Elmo a forma di ali d'angelo.
+@@ 0x0d1b
+Cappello che prende il nome dagli spiriti dell'aria.
+@@ 0x0d1c
+Cappello decorato con bellissime piume.
+@@ 0x0d1d
+Armatura da battaglia di un blu brillante.
+@@ 0x0d1e
+Armatura da battaglia ornata di emblemi.
+@@ 0x0d1f
+Armatura da battaglia intrisa del potere della luce.
+@@ 0x0d20
+Armatura da battaglia che racchiude il potere degli dei.
+@@ 0x0d21
+Armatura da battaglia benedetta dalla fortuna degli dei.
+@@ 0x0d22
+Spada degli Dei intrisa del potere della creazione. Ha l'8%
+
+di probabilità di rubare il potere del nemico e di cederlo
+
+a chi la impugna.
+@@ 0x0d23
+Come suggerisce il nome, è una spada vistosa e tempestata
+
+di gioielli, la cui ferocia contrasta con la sua bellezza.
+@@ 0x0d24
+Spadone a cui è stato dato un nome malvagio.
+
+Gli è stato dato questo nome disonorevole per tenere
+
+a freno il suo grande potere.
+@@ 0x0d25
+Tutto
+@@ 0x0d26
+Lancia che può tagliare l'invisibile etere.
+
+Risplende di un'aura brillante.
+@@ 0x0d27
+Il nemico non riuscirà a schivare le frecce affilate
+
+come rasoi di quest'arco.
+@@ 0x0d28
+Bacchetta che dona saggezza a chi la impugna.
+@@ 0x0d29
+Brandello di stoffa intriso di fango e sudore.
+
+Si esita a toccarlo.
+@@ 0x0d2a
+Frammento d'osso.
+@@ 0x0d2b
+Brandello di carne grondante sangue.
+@@ 0x0d2c
+Bambola con la testa completamente distrutta.
+
+Forse chi la possedeva ha fatto una fine simile.
+@@ 0x0d2d
+Spada lunga spezzata da un uso brutale. Arrugginita
+
+e macchiata dal troppo sangue in cui è stata intrisa.
+@@ 0x0d2e
+Scurito dalle macchie di sangue, chi lo indossava deve aver
+
+subito una morte orribile.
+@@ 0x0d2f
+Una singola squama di Basilisco.
+@@ 0x0d30
+Il seme di una qualche pianta.
+@@ 0x0d31
+Erba che infonde coraggio a chi la usa.
+
+In eccesso può essere velenosa.
+@@ 0x0d32
+Erba estremamente velenosa.
+
+Pare che venga usata nelle cerimonie magiche.
+@@ 0x0d33
+Erba che provoca illusioni.
+
+Pare che venga usata nelle cerimonie magiche.
+@@ 0x0d34
+Droga nata dalla ricerca sulla magia oscura.
+
+Priva chi la usa dell'anima e lo trasforma in un mostro.
+@@ 0x0d35
+Erba dal profumo rinfrescante.
+
+Ha il potere di purificare il corpo di chi la usa.
+@@ 0x0d36
+Pianta che somiglia al volto di una vecchia. Se si colgono
+
+i suoi bei fiori, emette un orribile grido lamentoso
+
+che fa impazzire chiunque lo senta.
+@@ 0x0d37
+Un libro volgare scritto da un uomo piccolo e sciocco.
+
+Non ha alcun valore.
+@@ 0x0d38
+Una droga immonda e malvagia creata da un uomo piccolo
+
+e sciocco. Non ha alcun valore.
+@@ 0x0d39
+Acqua consacrata e purificata in una cerimonia sacra.
+
+Utile per scacciare i demoni.
+@@ 0x0d3a
+Pozione che si dice creata da un saggio. In realtà il saggio
+
+era un impostore e la pozione non ha alcun effetto.
+@@ 0x0d3b
+Degli sciocchi hanno scambiato un semplice cadavere per un
+
+dio e hanno così "creato" questa falsa reliquia.
+@@ 0x0d3c
+Un libro che parla di quanto sia debole e impotente la vita
+
+di una singola persona. Sono solo chiacchiere moraleggianti.
+@@ 0x0d3d
+Un metallo magico insuperato per resistenza e leggerezza.
+@@ 0x0d3e
+Una grossa pepita di minerale di ferro.
+@@ 0x0d3f
+Una piuma di un uccello sconosciuto.
+@@ 0x0d40
+Un brandello di carne cruda. Mangiarlo sarebbe pericoloso.
+@@ 0x0d41
+Un cristallo normalmente trasparente, diventato giallo per
+
+qualche impurità. Per qualche motivo è molto apprezzato
+
+negli Inferi.
+@@ 0x0d42
+Il corno di un unicorno.
+@@ 0x0d43
+Un tipo di erba. Da tempo viene usata come medicinale
+
+nella convinzione che contribuisca alla longevità.
+@@ 0x0d44
+Bella polvere nera ottenuta macinando perle nere.
+@@ 0x0d45
+Artiglio di un qualche uccello rapace.
+@@ 0x0d46
+Zanna di un qualche tipo di mostro.
+@@ 0x0d47
+Bevanda color borgogna. I suoi ingredienti sono un mistero,
+
+ma il sapore è un successo assoluto.
+
+Un piacere per i sensi.
+@@ 0x0d48
+Lancia spezzata che ha visto fin troppe battaglie.
+
+Completamente rotta e inutile.
+@@ 0x0d49
+Arco spezzato che ha visto fin troppe battaglie.
+
+Completamente rotto e inutile.
+@@ 0x0d4a
+Una specie di pesce crudo.
+@@ 0x0d4b
+Metallo che a contatto con l'aria arrugginisce facilmente.
+
+Forse piombo o zinco.
+@@ 0x0d4c
+Nel corso della sua vita, questa armatura ha salvato chi la
+
+indossava innumerevoli volte. Ora è rotta e non si può
+
+più riparare.
+@@ 0x0d4d
+Quando viene usata, questa gemma scatena un attacco
+
+magico di fuoco.
+@@ 0x0d4e
+Quando viene usata, questa gemma scatena un attacco
+
+magico di ghiaccio.
+@@ 0x0d4f
+Quando viene usata, questa gemma scatena un attacco
+
+magico di fulmine.
+@@ 0x0d50
+Quando viene usata, questa gemma scatena un attacco
+
+magico di veleno.
+@@ 0x0d51
+Quando viene usata, questa gemma scatena un attacco
+
+magico sacro.
+@@ 0x0d52
+Quando viene usata, questa gemma scatena un attacco
+
+magico di oscurità.
+@@ 0x0d53
+Questo cristallo scatena un attacco di fuoco
+
+su tutti i nemici.
+@@ 0x0d54
+Questo cristallo scatena un attacco di ghiaccio
+
+su tutti i nemici.
+@@ 0x0d55
+Questo cristallo scatena un attacco di fulmine
+
+su tutti i nemici.
+@@ 0x0d56
+Questo cristallo scatena un attacco di veleno
+
+su tutti i nemici.
+@@ 0x0d57
+Questo cristallo scatena un attacco sacro
+
+su tutti i nemici.
+@@ 0x0d58
+Questo cristallo scatena un attacco di oscurità
+
+su tutti i nemici.
+@@ 0x0d5e
+Lunga spada d'acciaio. Probabilità di rottura: 5%.
+
+Opera di un semplice fabbro, non è un'arma su cui contare
+
+in uno scontro difficile.
+@@ 0x0d5f
+Tipo di spada lunga. Probabilità di rottura: 6%.
+@@ 0x0d60
+Spada che si può impugnare con una mano o con due.
+
+Probabilità di rottura: 6%.
+@@ 0x0d61
+Spada curva dalla lama larga.
+
+Probabilità di rottura: 5%.
+@@ 0x0d62
+Spada lunga pensata per colpire di punta.
+
+Probabilità di rottura: 8%.
+@@ 0x0d63
+Spada sottile con il filo seghettato a forma di fiamma.
+
+Probabilità di rottura: 4%.
+@@ 0x0d64
+Spada dalla lama sottile. Probabilità di rottura: 7%.
+@@ 0x0d65
+Spada d'acciaio forgiata con un metodo speciale.
+
+Probabilità di rottura: 3%.
+@@ 0x0d66
+Lancia dall'asta accorciata per renderla più maneggevole.
+
+Opera di un semplice fabbro, non è un'arma su cui contare
+
+in uno scontro difficile. Probabilità di rottura: 5%.
+@@ 0x0d67
+Lama curva fissata in cima a una robusta asta di lancia.
+
+Probabilità di rottura: 5%.
+@@ 0x0d68
+Martello pensato per avere la meglio anche sulle armature
+
+più solide. Probabilità di rottura: 5%.
+@@ 0x0d69
+Mazzafrusto con diverse sfere di metallo chiodate
+
+attaccate a delle catene. Probabilità di rottura: 5%.
+@@ 0x0d6a
+Tipo di lancia con una lama a forma di croce.
+
+Probabilità di rottura: 5%.
+@@ 0x0d6b
+Lunga ascia versatile. Probabilità di rottura: 2%.
+@@ 0x0d6c
+Tipo di martello da guerra. Probabilità di rottura: 2%.
+@@ 0x0d6d
+Alabarda di fine fattura. Probabilità di rottura: 1%.
+@@ 0x0d6e
+Arco piccolo. Opera di semplici umani, non è affidabile
+
+contro nemici potenti.
+
+Probabilità di rottura: 5%.
+@@ 0x0d6f
+Più lungo dello Short Bow. Probabilità di rottura: 5%.
+@@ 0x0d70
+Arco che permette di ricaricare rapidamente.
+
+Probabilità di rottura: 5%.
+@@ 0x0d71
+Arco fatto con vari materiali per una maggiore potenza.
+
+Probabilità di rottura: 5%.
+@@ 0x0d72
+Balestra che si carica da sola. Probabilità di rottura: 5%.
+@@ 0x0d76
+Spada dal potere incredibile contro i draghi.
+
+Non ha rivestimento d'etere, quindi deve essere stata
+
+forgiata da umani. Probabilità di rottura: 5%.
+@@ 0x0d77
+Spada dal potere incredibile contro i demoni.
+
+Non ha rivestimento d'etere, quindi deve essere stata
+
+forgiata da umani. Probabilità di rottura: 5%.
+@@ 0x0d78
+Spada dal potere incredibile contro le bestie.
+
+Non ha rivestimento d'etere, quindi deve essere stata
+
+forgiata da umani. Probabilità di rottura: 5%.
+@@ 0x0d79
+Arco dal potere incredibile contro i maghi.
+
+Non ha rivestimento d'etere, quindi deve essere stato
+
+forgiato da umani. Probabilità di rottura: 5%.
+@@ 0x0d7a
+Arco dal potere incredibile contro gli uccelli.
+
+Non ha rivestimento d'etere, quindi deve essere stato
+
+forgiato da umani. Probabilità di rottura: 5%.
+@@ 0x0d7b
+Arco che converte gli HP dei nemici in DME.
+
+Non ha rivestimento d'etere, quindi deve essere stato
+
+forgiato da umani. Probabilità di rottura: 5%.
+@@ 0x0d86
+Spada che taglia la carne come gli spiriti corrotti.
+
+Probabilità di rottura: 5%.
+@@ 0x0d87
+Spada forgiata con un meteorite caduto.
+
+Probabilità di rottura: 5%.
+@@ 0x0d88
+Spada dal nome inquietante.
+
+Probabilità di rottura: 5%.
+@@ 0x0d89
+Spada intrisa del potere del fuoco.
+
+Probabilità di rottura: 5%.
+@@ 0x0d8a
+Spada corta forgiata da un potente alleato degli dei.
+
+Ha poca potenza distruttiva, ma migliora la capacità
+
+magica di chi la impugna.
+@@ 0x0d8b
+Semplice armatura di cuoio.
+@@ 0x0d8c
+Armatura fatta di maglie di metallo intrecciate.
+@@ 0x0d8d
+Armatura di piastre di metallo cucite su cuoio.
+@@ 0x0d8e
+Armatura di metallo che copre il petto.
+@@ 0x0d8f
+Cotta di maglia forgiata in argento.
+@@ 0x0d90
+Armatura di metallo che copre tutto il corpo.
+@@ 0x0d91
+Armatura d'argento che copre tutto il corpo.
+@@ 0x0d92
+Armatura di mithril che copre tutto il corpo.
+@@ 0x0d9e
+Pozione che aumenta di 20 i CP (punti capacità).
+@@ 0x0d9f
+Pozione che rafforza l'essenza materiale.
+
+Aumenta i DME di 100.
+@@ 0x0da0
+Anello che riduce di 1 il CT (turni di carica).
+
+Il CT però non scende mai sotto 1.
+@@ 0x0da1
+Anello che aumenta di 2 l'indicatore dell'attacco speciale.
+@@ 0x0da2
+Anello che aumenta la potenza dei colpi e rende più facile
+
+lo sfondamento della guardia.
+@@ 0x0da4
+Manopole che riducono i danni da fuoco.
+
+Contrattaccano sparando fuoco contro il nemico.
+@@ 0x0da5
+Manopole che riducono i danni da ghiaccio.
+
+Contrattaccano sparando ghiaccio contro il nemico,
+
+con una certa probabilità di congelarlo.
+@@ 0x0da6
+Manopole che riducono i danni da oscurità.
+
+Contrattaccano sparando luce oscura, con una certa
+
+probabilità di pietrificare il nemico.
+@@ 0x0da8
+Gemma che aumenta del 50% la probabilità che appaiano
+
+Gemme Magiche e ne aumenta il numero di 3.
+@@ 0x0da9
+Gemma che aumenta del 50% la probabilità che appaiano
+
+pietre di fuoco e ne aumenta il numero di 3.
+@@ 0x0daa
+Gemma che permette di usare gli Occhiali senza limiti.
+@@ 0x0dac
+Spada con una certa probabilità di congelare chi colpisce.
+@@ 0x0dad
+Spada con una certa probabilità di pietrificare chi colpisce.
+@@ 0x0daf
+Aumenta gli MP di 200.
+@@ 0x0db0
+Aumenta i CP di 20.
+@@ 0x0db1
+Orecchino che ripristina il 10% dei DME a ogni turno.
+@@ 0x0db2
+Anello che ripristina il 5% dei DME a ogni turno.
+@@ 0x0db3
+Anello che aumenta del 30% i punti esp. guadagnati.
+@@ 0x0db4
+Sfera che dimezza la probabilità che un nemico attacchi
+
+per primo.
+@@ 0x0db8
+Anello donato a Valkyrie da Odino come segno della sua
+
+fiducia. Se viene tolto, la valutazione di Valkyrie
+
+diminuisce. Potrebbe avere altri poteri (contropartite?).
+@@ 0x0db9
+Permette ai personaggi di imparare la tecnica "Auto Item".
+@@ 0x0dba
+Permette ai personaggi di imparare la tecnica "Throw".
+@@ 0x0dbb
+Permette ai personaggi di imparare
+
+la tecnica "Cure Condition".
+@@ 0x0dbc
+Permette ai personaggi di imparare la tecnica "Guts".
+@@ 0x0dbd
+Permette ai personaggi di imparare la tecnica "Adept Illusion".
+@@ 0x0dbe
+Permette ai personaggi di imparare
+
+la tecnica "Dancing Sword".
+@@ 0x0dbf
+Permette ai personaggi di imparare la tecnica "Last Trial".
+@@ 0x0dc0
+Permette ai personaggi di imparare la tecnica "Splash".
+@@ 0x0dc1
+Permette ai personaggi di imparare la tecnica "Reverie".
+@@ 0x0dc2
+Permette ai personaggi di imparare
+
+la tecnica "Combo Counter".
+@@ 0x0dc3
+Permette ai personaggi di imparare la tecnica "Noise Arrow".
+@@ 0x0dc4
+Permette ai personaggi di imparare
+
+la tecnica "Triple Distress".
+@@ 0x0dc5
+Permette ai personaggi di imparare la tecnica "Steal Magic".
+@@ 0x0dc6
+Permette ai personaggi di imparare la tecnica "Stun Magic".
+@@ 0x0dc7
+Permette ai personaggi di imparare la tecnica "Concentration".
+@@ 0x0dc8
+Permette ai personaggi di imparare la tecnica "Scarlet Edge".
+@@ 0x0dc9
+Permette ai personaggi di imparare la tecnica "Charge".
+@@ 0x0dca
+Permette ai personaggi di imparare la tecnica "Strike Edge".
+@@ 0x0dcb
+Permette ai personaggi di imparare la tecnica "Dark".
+@@ 0x0dcc
+Permette ai personaggi di imparare la tecnica "Trick Step".
+@@ 0x0dcd
+Permette ai personaggi di imparare
+
+la tecnica "Mental Reaction".
+@@ 0x0dce
+Permette ai personaggi di imparare la tecnica "Wait Reaction".
+@@ 0x0dcf
+Permette ai personaggi di imparare la tecnica "Slanting Rain".
+@@ 0x0dd0
+Permette ai personaggi di imparare
+
+la tecnica "Darkness Arrow".
+@@ 0x0dd1
+Permette ai personaggi di imparare la tecnica "False Arrow".
+@@ 0x0dd2
+Permette ai personaggi di imparare la tecnica "Attack Pow".
+@@ 0x0dd3
+Permette ai personaggi di imparare la tecnica "Defend".
+@@ 0x0dd4
+Permette ai personaggi di imparare la tecnica "Avoid".
+@@ 0x0dd5
+Permette ai personaggi di imparare la tecnica "Hit".
+@@ 0x0dd6
+Permette ai personaggi di imparare
+
+la tecnica "Resist Damage".
+@@ 0x0dd7
+Permette ai personaggi di imparare la tecnica "Magic Pow".
+@@ 0x0dd8
+Permette ai personaggi di imparare la tecnica "Resist Magic".
+@@ 0x0dd9
+Pergamena che permette di memorizzare "Fire Lance".
+@@ 0x0dda
+Pergamena che permette di memorizzare "Fire Storm".
+@@ 0x0ddb
+Pergamena che permette di memorizzare "Icicle Edge".
+@@ 0x0ddc
+Pergamena che permette di memorizzare "Frigid Damsel".
+@@ 0x0ddd
+Pergamena che permette di memorizzare "Lightning Bolt".
+@@ 0x0dde
+Pergamena che permette di memorizzare "Prismatic Missile".
+@@ 0x0ddf
+Pergamena che permette di memorizzare "Shadow Servant".
+@@ 0x0de0
+Pergamena che permette di memorizzare "Dark Savior".
+@@ 0x0de1
+Pergamena che permette di memorizzare "Poison Blow".
+@@ 0x0de2
+Pergamena che permette di memorizzare "Stone Torch".
+@@ 0x0de3
+Pergamena che permette di memorizzare "Mystic Cross".
+@@ 0x0de4
+Pergamena che permette di memorizzare "Sacred Javelin".
+@@ 0x0de5
+Pergamena che permette di memorizzare "Invoke Feather".
+@@ 0x0de6
+Pergamena che permette di memorizzare "Heal".
+@@ 0x0de7
+Pergamena che permette di memorizzare "Normalize".
+@@ 0x0de8
+Incantata (numero mancante)
+@@ 0x0de9
+Pergamena che permette di memorizzare "Might Reinforce".
+@@ 0x0dea
+Pergamena che permette di memorizzare "Guard Reinforce".
+@@ 0x0deb
+Pergamena che permette di memorizzare "Spell Reinforce".
+@@ 0x0dec
+Pergamena che permette di memorizzare "Sap Power".
+@@ 0x0ded
+Pergamena che permette di memorizzare "Sap Guard".
+@@ 0x0dee
+Pergamena che permette di memorizzare "Dampen Magic".
+@@ 0x0def
+Pergamena che permette di memorizzare "Reflect Sorcery".
+@@ 0x0df0
+Pergamena che permette di memorizzare "Shield Critical".
+@@ 0x0df2
+Anello con impresso il simbolo del tempo.
+
+Se equipaggiato, dimezza la velocità del nemico.
+
+Solo Valkyrie può equipaggiarlo.
+@@ 0x0df3
+Anello che sposta chi lo indossa in un'altra dimensione.
+
+Se equipaggiato, non si verificano incontri con i nemici.
+
+Solo Valkyrie può equipaggiarlo.
+@@ 0x0df4
+Anello che avverte chi lo indossa del pericolo. Se equipaggiato,
+
+i nemici con intenzioni malvagie lampeggiano di rosso.
+
+Solo Valkyrie può equipaggiarlo.
+@@ 0x0df5
+Anello che avverte chi lo indossa della presenza di nemici.
+
+Se equipaggiato, compare un segno rosso.
+
+Solo Valkyrie può equipaggiarlo.
+@@ 0x0df6
+Anello che avverte chi lo indossa della presenza di tesori.
+
+Se equipaggiato, compare un segno blu.
+
+Solo Valkyrie può equipaggiarlo.
+@@ 0x0df7
+Se equipaggiato, indica a chi lo indossa lo stato dei forzieri.
+
+Rosso = trappola. Giallo = si rompe facilmente.
+
+Solo Valkyrie può equipaggiarlo.
+@@ 0x0dff
+Spada nata per far pendere l'equilibrio cosmico, ha preso
+
+l'anima di molti angeli.
+
+Nessuna esistenza è più grande della tua in questo mondo...
+@@ 0x0e00
+Emblema con incisi 3 triangoli.
+@@ 0x0e01
+...Eccomi di nuovo. Non ci credo che devo rifarlo 9 volte...
+
+Comunque, me ne manca solo uno.
+
+Se finisco anche quello...
+@@ 0x0e02
+Forse il prossimo sarà STAR OCEAN The T???d Story...
+@@ 0x0e03
+A quale gioco dovrei giocare dopo...
+@@ 0x0e04
+Hai ancora voglia di giocare?!
+
+Non c'è nessun premio, lo sai?
+
+Perché non fai finalmente qualcos'altro?
+@@ 0x0e05
+Ne hai già abbastanza?
+
+A differenza di Star Ocean, qui puoi arrivare solo al
+
+livello 99...
+@@ 0x0e06
+Hai finito di nuovo il gioco?
+
+Mi fa tanto piacere che ti piaccia così tanto.
+
+Ma davvero, non c'è nessun premio...
+@@ 0x0e07
+Wow, hai superato la Porta Serafica 3 volte...
+
+Cos'altro speri di ottenere?
+@@ 0x0e08
+Congratulazioni per averlo completato!
+
+Ti ringrazio di aver giocato così tanto.
+@@ 0x0e09
+Una spada senza pari. Ma è così potente
+
+che chi la impugna cadrà nell'oscurità.
+@@ 0x0e0a
+Il suo nome significa uccisore di dei, ma in realtà
+
+il suo potere va nella direzione opposta.
+@@ 0x0e0b
+Veste divina che protegge chi la indossa dai pericoli
+
+con rune di protezione incise.
+@@ 0x0e0c
+Tirapugni prediletto dal Vampiro Brahms.
+@@ 0x0e0d
+Strumento che potenzia ulteriormente il potere del
+
+Vampiro Brahms.
+@@ 0x0e0e
+Strumento che potenzia ulteriormente il potere della dea Freya.
+
+Ma è invisibile, quindi la sua vera forma è ignota.
+@@ 0x0e0f
+Chiave di ferro.
+
+Deve pur aprire una porta da qualche parte...
+@@ 0x0e10
+Bacchetta intrisa del potere degli elementi.
+
+Probabilità di rottura: 50%. Permette di lanciare grandi
+
+incantesimi, ma non regge a lungo i poteri che sprigiona.
+@@ 0x0e11
+Bacchetta intrisa del potere dell'etere.
+
+Probabilità di rottura: 30%. Permette di lanciare grandi
+
+incantesimi, ma non regge a lungo i poteri che sprigiona.
+@@ 0x0e12
+Gemma creata dal grande drago Fafnir.
+
+Infusa del suo potere con una cerimonia magica,
+
+ma il suo cristallo sembra in parte danneggiato.
+@@ 0x0e13
+Gemma creata dal grande drago Fafnir.
+
+Infusa del suo potere con una cerimonia magica.
+
+All'interno si vede tremolare una fiamma.
+@@ 0x0e14
+Bandana che Badrach ha ricevuto da sua sorella.
+@@ 0x0e15
+Frammento di un cristallo che contiene la lacrima di una sirena.
+@@ 0x0e16
+L'amata bacchetta magica di Mystina.
+
+Decorata con diverse gemme sulla punta, permette di
+
+lanciare grandi incantesimi. Probabilità di rottura: 10%.
+@@ 0x0e17
+Ciondolo decorato con l'immagine della Vergine della Battaglia.
+@@ 0x0e18
+Fiore pressato preparato da Asaka.
+@@ 0x0e19
+Bevanda che potenzia le capacità di chi la beve.
+
+Aumenta FOR, INT, DES e AGI.
+@@ 0x0e1a
+Incantesimo dimenticato (non ancora usato)
+@@ 0x0e1b
+Gioiello con una fiamma che arde al suo interno.
+
+A volte, nella fiamma, si può vedere un angelo.
+@@ 0x0e1c
+Orologio che permette di tornare indietro nel tempo in battaglia.
+
+Gli oggetti già usati, però, non vengono restituiti.

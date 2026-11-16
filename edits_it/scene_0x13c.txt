@@ -1,6 +1,6 @@
 # Valkyrie Profile scene 0x13c (-): 16 records, directory word 3926, package sectors 190992..191100 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Eye of Heaven.
+<5>Hai trovato Occhio del Cielo.
 @@ 15
 <5>Hai trovato Warhammer.

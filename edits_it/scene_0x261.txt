@@ -1,8 +1,8 @@
 # Valkyrie Profile scene 0x261 (-): 17 records, directory word 4219, package sectors 223375..223411 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Broken Blade.
+<5>Hai trovato Lama Spezzata.
 @@ 15
-<5>Hai trovato Mithril Ore.
+<5>Hai trovato Minerale di Mithril.
 @@ 16
-<5>Hai trovato Neckless Doll.
+<5>Hai trovato Bambola Senza Testa.

@@ -1,6 +1,6 @@
 # Valkyrie Profile scene 0x28c (-): 16 records, directory word 4262, package sectors 228922..228967 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Quartz Gem.
+<5>Hai trovato Gemma di Quarzo.
 @@ 15
 <5>Hai trovato Lightning Bolt.

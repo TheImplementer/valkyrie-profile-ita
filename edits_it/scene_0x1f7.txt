@@ -1,6 +1,6 @@
 # Valkyrie Profile scene 0x1f7 (-): 16 records, directory word 4113, package sectors 212255..212289 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Lapis Lazuli.
+<5>Hai trovato Lapislazzuli.
 @@ 15
-<5>Hai trovato Nightshade.
+<5>Hai trovato Belladonna.

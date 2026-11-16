@@ -79,9 +79,9 @@ Vergine della Battaglia<3:0c>...<3:03><12:330b><3:3c>
 <3:04><18>Vi avverto<3:0c>・・・<3:14>
 <3:04>Guardatevi le spalle, Valkyrie!<17:7800>
 @@ 29
-<5>Hai trovato Hourglass of the Gods.
+<5>Hai trovato Clessidra degli Dei.
 @@ 30
-<5>Hai trovato Scroll of Golem.
+<5>Hai trovato Pergamena del Golem.
 @@ 31
 <5>Hai trovato Dragoon Faith.
 @@ 32

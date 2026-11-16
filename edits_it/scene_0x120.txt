@@ -25,6 +25,6 @@ Vuoi trasferirti?
 ・Sì
 ・No
 @@ 19
-<5>Hai trovato Base Metal.
+<5>Hai trovato Metallo Vile.
 @@ 20
 <5>Hai trovato Normalize.

@@ -1,7 +1,7 @@
 # Valkyrie Profile scene 0xa6 (-): 20 records, directory word 3776, package sectors 172892..173023 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Golden Fowl.
+<5>Hai trovato Gallina d'Oro.
 @@ 15
 <5>Hai trovato Grand Sting.
 @@ 16

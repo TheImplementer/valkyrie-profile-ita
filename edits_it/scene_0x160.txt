@@ -1,4 +1,4 @@
 # Valkyrie Profile scene 0x160 (-): 15 records, directory word 3962, package sectors 194851..194960 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Stun Check.
+<5>Hai trovato Talismano Svenimento.

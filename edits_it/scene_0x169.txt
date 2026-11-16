@@ -5,4 +5,4 @@
 @@ 15
 <5>Hai trovato Estoc.
 @@ 16
-<5>Hai trovato Vegetable Seed.
+<5>Hai trovato Seme di Ortaggio.

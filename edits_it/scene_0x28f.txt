@@ -4,4 +4,4 @@
 <5>"XXI"
 <5>"IL MONDO"
 @@ 15
-<5>Hai trovato Lapis Lazuli.
+<5>Hai trovato Lapislazzuli.
