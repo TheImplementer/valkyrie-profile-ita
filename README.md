@@ -21,6 +21,7 @@ BIN/CUE, the Redump dumps of the USA discs.
 | [`docs/SCENE_TEXT_FORMAT.md`](docs/SCENE_TEXT_FORMAT.md) | How a scene's text is stored: the scene block, records, text commands and per-scene fonts, with one line taken apart byte by byte. |
 | [`docs/FONTS_AND_GLYPHS.md`](docs/FONTS_AND_GLYPHS.md) | The game's many small fonts (scene, menu, battle, italic titles, title-screen pictures), how a byte becomes a letter, and how accented letters are added. |
 | [`docs/EVENT_SCRIPT.md`](docs/EVENT_SCRIPT.md) | The program in every scene that runs its events: the virtual machine, its instructions and built-ins, the story counters, and the game's first line traced through the code. |
+| [`docs/MENU_AND_BATTLE_TEXT.md`](docs/MENU_AND_BATTLE_TEXT.md) | The 17 string tables behind the menus and battles: their layout, the two text encodings, and how edits are linked across tables. |
 | [`docs/VP_DIALOGUE_LOAD_PATH.md`](docs/VP_DIALOGUE_LOAD_PATH.md) | The main write-up: how the game finds, decompresses, decodes and draws its text, from disc sector to message box, and everything learned while changing it. |
 | [`docs/VP_DIALOGUE_FORMAT.md`](docs/VP_DIALOGUE_FORMAT.md), [`docs/DIALOGUE_SEARCH.md`](docs/DIALOGUE_SEARCH.md) | The earlier notes: the archive, its encryption and compression, and the search for the dialogue. They mention exploration tools that aren't in this repository. |
 | [`docs/notes/`](docs/notes/) | Shorter notes (scene package parts, the script's built-in commands, voice clips, sound labels) and the screenshots taken to check each change in the game. |

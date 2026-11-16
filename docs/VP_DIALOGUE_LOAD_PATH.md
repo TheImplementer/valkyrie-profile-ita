@@ -592,6 +592,8 @@ scroll hold the conversation back by about 400 frames. Screenshots and the two e
 
 ## Editing menu and other non-dialogue text: `vp_menu_text.py`
 
+`docs/MENU_AND_BATTLE_TEXT.md` explains the menu and battle tables from the start.
+
 Everything the player reads in English that is not scene dialogue is in **13 string tables**, one per
 menu module. A scan of every non-scene file in VALKYRIE.BIN for this table layout found exactly
 these. The other hit, word 2294, is the debug text.
@@ -624,8 +626,9 @@ zero-terminated strings.
   "Scheme A" rule in `codepage.py` (−1 above 0x40) read lower case as upper case.
 * `0x80`: new line.
 * `0x81 0x80 nn`: colour nn for what follows. Seen on screen: 07 the blue labels (LV, DME,
-  Play time), 02 red ("Empty"), 01 orange ("Eval."), 03 black. 568 uses; the middle byte is always
-  0x80.
+  Play time), 02 red ("Empty"), 01 orange ("Eval."), 03 black. 478 uses. *Corrected later:* 0x81
+  appears 568 times, but 85 of those are `81 01` at the end of skill help lines in table 2179, not a
+  colour (`docs/MENU_AND_BATTLE_TEXT.md`).
 * `0x60-0x7F`, `0x82-0x85`: extra glyphs (icons, rules, the strips in the skill help). The fonts
   have 100 glyphs (112 on the title screen), so what these show differs between modules.
 
