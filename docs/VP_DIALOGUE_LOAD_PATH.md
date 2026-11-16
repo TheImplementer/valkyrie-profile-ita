@@ -213,6 +213,9 @@ with it (images, the "block" index) should be re-checked. `vp_scene_text.py` has
 
 ## The scene block
 
+`docs/SCENE_TEXT_FORMAT.md` explains the block, records, commands and fonts from the start, with a
+worked example.
+
 ```
 +0x00  u32 hdr[7]   (offsets count from +0x1C, the end of the header)
          hdr[0] = text index offset = size of the event script in bytes
