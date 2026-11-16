@@ -121,7 +121,8 @@ below `0xA55` exists. Above it the directory is sparse (non-zero runs 2722-2819,
 | 0x1C, 0x54, 0x6E, 0x6F | 0x958-0xC3F | partly (18/27, 8/12, 30/34, 2/6) |
 | 0x18, 0x19, 0x1D, 0x38, 0x15C, 0x16E, 0x286, 0x3EC-0x3EE, 0x458, 0x459 | 0xA5A-0xC2F | **zero**: no clip on this disc |
 
-Hypothesis (not verified): the directory is shared by the two discs and an entry is only filled on the disc that
+*Confirmed later (`docs/VOICE_CLIPS.md`): all 147 cues with no file on disc 1 have one on disc 2.*
+Hypothesis: the directory is shared by the two discs and an entry is only filled on the disc that
 holds the file (the late-story Valhalla scenes 0x18/0x19/0x1D and the 0x3EC+ / 0x458+ scenes are late chapters).
 The task code does not test for a zero entry (it would `malloc(0)` and `Setloc 00:00:00`); I did not try what the
 game does then.

@@ -173,6 +173,8 @@ between some of them. `docs/VALKYRIE_BIN_TABLE.md` explains the table in full. T
 
 ### Voice
 
+`docs/VOICE_CLIPS.md` explains the voice clips from the start.
+
 Text command 12 and built-in **0xAB (`load_voice_clip`)** both call `0x8005A74C(cue)`. The cue is a header
 word: a small file with a 0x48-byte header followed by raw SPU-ADPCM speech. It is read with
 `Setloc`/`ReadN` into a heap buffer and played through the sound engine. There is no XA streaming:
@@ -182,7 +184,8 @@ live, the only CD commands were `Setloc 20:55:22` (cue `0x94F`), `ReadN`, `Pause
   the speaker's portrait (0xA8) before nearly every spoken line. Four round-robin slots hold the
   queue, and the message box plays them in order at `<18>` (tested: see the command table).
 * **154 of the 297 command-12 cues point at empty directory words** on this disc (scenes 0x18, 0x19,
-  0x1D, 0x3EC …). Possibly they're on disc 2; not checked.
+  0x1D, 0x3EC …). *Checked later:* all 147 such cues have their file on disc 2
+  (`docs/VOICE_CLIPS.md`).
 * **Streaming.** The clip goes through a 256-byte double buffer at SPU address `0x70000`. Voice 0
   loops over it, and the IRQ address alternates between its halves (`0xE000` / `0xE010`). On each SPU
   IRQ, the driver refills the half just played by DMA and moves the IRQ address. TinyPSX didn't raise
