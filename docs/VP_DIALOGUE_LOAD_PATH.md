@@ -1032,6 +1032,8 @@ and "Avanti" are 38 and 33 px wide in 192-px boxes.
 
 ## Title screen menu: `vp_title_menu.py`
 
+`docs/TITLE_SCREEN_MENU.md` explains the title menu from the start, with the label table.
+
 The title menu (New Game, Continue, Configuration, Sound Mode, Prologue, Opening Movie and the
 hidden Seraphic Gate) is pictures of text, so it is redrawn, not edited.
 

@@ -24,6 +24,7 @@ BIN/CUE, the Redump dumps of the USA discs.
 | [`docs/MENU_AND_BATTLE_TEXT.md`](docs/MENU_AND_BATTLE_TEXT.md) | The 17 string tables behind the menus and battles: their layout, the two text encodings, and how edits are linked across tables. |
 | [`docs/WORLD_MAP_TEXT.md`](docs/WORLD_MAP_TEXT.md) | The world map's own text (Freya's lessons, place descriptions) in file 4797: its streams, font and string table. |
 | [`docs/VOICE_CLIPS.md`](docs/VOICE_CLIPS.md) | How a spoken line finds, loads and plays its recording, and how the clips are split between the two discs. |
+| [`docs/TITLE_SCREEN_MENU.md`](docs/TITLE_SCREEN_MENU.md) | Why the title menu is pictures, where its labels and their positions are, and how the Italian labels are drawn in. |
 | [`docs/VP_DIALOGUE_LOAD_PATH.md`](docs/VP_DIALOGUE_LOAD_PATH.md) | The main write-up: how the game finds, decompresses, decodes and draws its text, from disc sector to message box, and everything learned while changing it. |
 | [`docs/VP_DIALOGUE_FORMAT.md`](docs/VP_DIALOGUE_FORMAT.md) | The earlier notes on the dialogue format. They mention exploration tools that aren't in this repository. |
 | [`docs/notes/`](docs/notes/) | Shorter notes (scene package parts, the script's built-in commands, voice clips, sound labels) and the screenshots taken to check each change in the game. |
