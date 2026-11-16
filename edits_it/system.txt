@@ -3,7 +3,7 @@
 # A scene edit file that also lists one of these records wins for its scene.
 # The engine draws them in boxes of a fixed size (none grows): a line must be narrower than
 #   2: 280 px  7: 280 (probably)   3: 236 x 5 lines   4: 172 x 4   5: 224 x 3   6: 204 x 3   8: 240
-#   9, 10: 92 (centred in 192 px, but at x 178 the box runs off the screen)   11: 140 x 3   13: 96
+#   9, 10: about 130 (centred in 192 px, beside the D-pad arrow)   11: 140 x 3   13: 96
 #   (a <14:..> number needs about 35 px more)
 # Same syntax as a scene edit file.
 

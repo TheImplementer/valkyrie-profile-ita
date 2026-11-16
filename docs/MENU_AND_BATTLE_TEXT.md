@@ -162,8 +162,14 @@ Abilità
 
 The camp menu's Use Item screen, on the Italian disc, with eight items granted by the script (built-in
 `E6`). Triangle ("Topic") shows each item's help line. The item names, the headers and all eight help
-lines are Italian, and none runs out of its box. "Topic" and "Sort" (menu strings `0xD5` and `0x32`)
-aren't translated yet.
+lines are Italian, and none runs out of its box.
+
+![The Info and Ord. tabs, and the Sort menu](notes/edit_proof/italian_camp_sort.png)
+
+The tabs above the list are "Info" (Topic, string `0xD5`) and "Ord." (Sort, `0x32`, on Start). The tab
+draws its label in a large italic, about 1.8 times the font's width, so "Ordina" ran past the tab's
+right edge, though `build` only measures 12 pixels more than "Sort". Start opens the Sort menu,
+strings `0x33` to `0x37`.
 
 ## Not known yet
 

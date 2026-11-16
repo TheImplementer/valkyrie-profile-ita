@@ -21,7 +21,7 @@ all 1,013 of disc 2.
 | 6 | You gained an Artifact. Evaluation Level -5. You earned N Event EXP. | by the field engine |
 | 7 | You can't hold any more items. | probably by the field engine |
 | 8 | You earned N Event EXP. | by the script library |
-| 9, 10 | To the rear / To the front | by the script library, when a door changes the dungeon room |
+| 9, 10 | To the rear / To the front | by the script library, while the player stands at a door |
 | 11 | Exit to World Map? ・Yes ・No | by the script library |
 | 12 | Scenario Error 1 | by the script library, a debug message |
 | 13 | Battle | by the script library |
@@ -66,23 +66,28 @@ about 35 pixels.
 
 ### "To the rear" and "To the front"
 
-These two are captions shown when the player moves from one room to another, mostly in dungeons.
-The scene script calls `func_0059` during the fade to the next room:
+![The door captions in English (left) and Italian (middle and right)](notes/edit_proof/italian_door_captions.png)
 
-* **`func_0059(1)`** shows "To the rear". All 219 such calls come right after a test of controller
-  bit `0x1000`.
-* **`func_0059(2)`** shows "To the front". All 209 come right after a test of bit `0x4000`.
-* **`func_0059(3)`** shows both at once, at (32, 24) and (96, 52). It's used 29 times, after either
-  test; what the double caption is for hasn't been seen.
+These two are hints shown while the player stands at a door, mostly in dungeons. Each is a bar with
+an "Enter" label and a D-pad arrow, telling the player where the door leads. A door is a trigger zone
+(built-in `80`, `register_trigger_zone`) whose handler runs again and again while the player is in
+it. The handler tests the D-pad: if the button is pressed it changes the room, otherwise it calls
+`func_0059` to show the hint. One call shows it only for a moment, so it stays up only while the
+calls go on:
 
-In Sony's standard controller layout, `0x1000` is Up and `0x4000` is Down on the D-pad. So "To the
-rear" means going into the background (pressing Up at a door), and "To the front" coming back toward
-the camera (pressing Down). A single caption goes at y 64, on the half of the screen the player isn't
-on (x 32 or 178).
+* **`func_0059(1)`** shows "To the rear", with an Up arrow. All 219 such calls come right after a
+  test of controller bit `0x1000`, Up.
+* **`func_0059(2)`** shows "To the front", with a Down arrow. All 209 come right after a test of bit
+  `0x4000`, Down.
+* **`func_0059(3)`** shows both, stacked, at (32, 24) and (96, 52): a door that leads both ways. It's
+  used 29 times.
 
-**A width limit.** The caption is centred (`<5>`) in its 192-pixel box. At x 178 that box runs past
-the 320-pixel screen, so centred text wider than 92 pixels would lose its last letters. The English
-captions are 57 and 61 pixels.
+So "To the rear" means going into the background (Up at a door), and "To the front" coming back
+toward the camera (Down). A single hint goes at x 64, at the top of the screen (y 32) when the
+player's actor property `0x33` is above 140, otherwise near the bottom (y 178).
+
+**Room.** The text is centred (`<5>`) in a 192-pixel box, and the arrow takes the box's left end, so a
+line up to about 130 pixels fits. The English hints are 57 and 61 pixels.
 
 ## Translating them: `system.txt`
 
@@ -110,8 +115,8 @@ The Italian file translates records 2 to 11 and 13. It keeps "Scenario Error 1",
 English, and leaves records 0 and 1 alone. One line was shortened to fit its box:
 "Tornare alla mappa del mondo?" became "Tornare alla mappa?" (140 pixels). "To the rear" and "To the
 front" are "Verso il fondo" and "In primo piano", 72 pixels each. They replaced "Indietro" and
-"Avanti" ("back", "forward"), which were chosen before the context above was known. "Verso il primo
-piano" was too long: see the width limit above (`docs/GLOSSARY.md`).
+"Avanti" ("back", "forward"), which were chosen before the context above was known
+(`docs/GLOSSARY.md`).
 
 ## The cost: every scene changes
 
@@ -124,13 +129,12 @@ package's text has to be compressed again:
 * **Room:** every package still fits. The tightest, scene `0xD6`, keeps 188 bytes free.
 
 **Checked in the emulator.** Records 2-8, 11 and 13 were shown in their boxes on an Italian disc,
-by having a script open each one in turn. No line wrapped. Records 9 and 10 weren't reached;
-"Verso il fondo" and "In primo piano" are 72 pixels each, inside the 92-pixel limit above.
+by having a script open each one in turn. No line wrapped. Records 9 and 10 were shown by a script
+calling `func_0059` every frame in a dungeon room (scene `0x83`), in all three modes and at both
+heights, on the English and the Italian disc (the picture above).
 
 ## Not known yet
 
-* **The door captions on screen:** the meaning above comes from the scripts. They haven't been seen
-  in the emulator, and neither has the double caption.
 * **Record 7:** which code shows it hasn't been confirmed.
 * **Records 0-7 in the library:** `func_0001` shows records 0 to 7 in 16 × 16 boxes, but nothing calls
   it. It may be left over from development.

@@ -673,7 +673,8 @@ def system_edit_file_text(s):
              '# A scene edit file that also lists one of these records wins for its scene.',
              '# The engine draws them in boxes of a fixed size (none grows): a line must be narrower than',
              '#   2, 7: 280 px   3: 236 x 5 lines   4: 172 x 4   5: 224 x 3   6: 204 x 3   8: 240',
-             '#   9, 10: 192   11: 140 x 3   13: 96   (a <14:..> number needs about 35 px more)',
+             '#   9, 10: about 130 (centred in 192, beside the D-pad arrow)   11: 140 x 3   13: 96',
+             '#   (a <14:..> number needs about 35 px more)',
              '# Same syntax as a scene edit file.', '']
     for k in range(min(SYSTEM_RECORDS, len(s.orig_records))):
         lines += [f'@@ {k}', s.text(k)]

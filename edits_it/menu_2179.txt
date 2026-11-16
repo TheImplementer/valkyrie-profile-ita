@@ -7,6 +7,18 @@
 # (and the battle item table 1806.1) that has the same id with the same original text
 # (an item name is in several), unless --no-link is given.
 
+@@ 0x0032
+Ord.
+@@ 0x0033
+{81 80 07}Ordina per
+@@ 0x0034
+Per tipo
+@@ 0x0035
+Ordine alfabetico
+@@ 0x0036
+Prima i più recenti
+@@ 0x0037
+Per capitolo
 @@ 0x0041
 {81 80 07}Oggetti usabili
 @@ 0x0043
@@ -19,6 +31,8 @@
 Usa
 @@ 0x0058
 Converti MP
+@@ 0x00d5
+Info
 @@ 0x0141
 Attacco speciale
 @@ 0x0161
