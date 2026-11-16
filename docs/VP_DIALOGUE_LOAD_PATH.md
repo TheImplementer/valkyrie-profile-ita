@@ -988,6 +988,8 @@ an event gated on a flag may not start this way.
 
 ## System messages: `system.txt`
 
+`docs/SYSTEM_MESSAGES.md` explains the system messages from the start, with every box.
+
 **Records 0-13 of every scene are the same 14 system messages,** byte for byte in all 1,118 scenes
 on disc 1 (and the 1,013 on disc 2): "The item has broken.", the Artifact prompts, "You can't hold
 any more items.", "You earned N Event EXP.", "To the rear" / "To the front", "Exit to World Map?",
