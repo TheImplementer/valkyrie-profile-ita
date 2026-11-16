@@ -1,8 +1,21 @@
-_site/
-.jekyll-cache/
-.jekyll-metadata
-.sass-cache/
-Gemfile.lock
+# Game data must never be committed: disc images, the executable, patches built from them,
+# screenshots and anything dumped from the disc.
+*.bin
+*.BIN
+*.cue
+*.iso
+*.ppf
+*.xdelta
+*.zip
+*.png
+SLUS_*
+*.asm
+release/
+
+# Files the tools build from a disc on first use (they hold game data)
+vp_glyph_db.json
+vp_scene_map.*
+
+# Python and OS noise
+__pycache__/
 .DS_Store
-vendor/
-.bundle/
