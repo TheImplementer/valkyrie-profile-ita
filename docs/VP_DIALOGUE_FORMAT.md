@@ -5,7 +5,8 @@ Reverse‑engineered 2026‑06; this is the format the romhacking scene historic
 
 > **Note on two different text systems.** The game has **two** text encodings:
 > - **UI / menu / item / skill text** ("Scheme A") — a *value‑based* rule
->   (`ascii = raw+0x1F if raw<0x40 else raw‑1`). Documented in `docs/DIALOGUE_SEARCH.md`.
+>   (`ascii = raw+0x1F if raw<0x40 else raw‑1`). *Corrected later:* it's
+>   simply byte + 0x1F; see `docs/MENU_AND_BATTLE_TEXT.md`.
 > - **Story dialogue** — the *glyph‑index* format described in this document. Different and
 >   unrelated to Scheme A. This is why dialogue never showed up in Scheme‑A scans.
 
@@ -258,7 +259,7 @@ This is the same substitution‑crib that originally cracked the format (§5.2),
    the full dialogue region.
 
 Tools: `vpram*.bin` (RAM dumps), `vp_codepage.json`, `script_dump/` (decoded per‑sector text),
-and the crib/rip scripts in the repo. See `docs/DIALOGUE_SEARCH.md` "★ CRACKED" for the play‑by‑play.
+and the crib/rip scripts. These early tools aren't in this repository.
 
 ---
 

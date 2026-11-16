@@ -182,7 +182,6 @@ The first decoder (`bin_navigator.py`, not in this repository) decoded type 2 li
 copy, and offset 0 as the end. Every type-2 stream with a fill came out wrong from its first fill
 on. A 19-byte fill of zeros is `00 F0 xx`. Read the old way, that's an end marker, so the old tools
 saw one stream end and a new one begin, and called the data "multi-stream". There are no such streams.
-`docs/DIALOGUE_SEARCH.md` was written with that decoder, so its notes on images and blocks may be off.
 
 ## Not known yet
 

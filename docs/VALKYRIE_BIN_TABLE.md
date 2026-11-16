@@ -140,7 +140,7 @@ What's inside a scene package, and how its text is found and drawn, is in `VP_DI
 
 ## An early misreading
 
-The first tools (`DIALOGUE_SEARCH.md`) decrypted only sector 0 and read each word as a "type" byte
+The first tools decrypted only sector 0 and read each word as a "type" byte
 followed by a 24-bit sector number. On disc 1, byte 0 of words 9 to `0x1FF` is 2, 3 or 4, so it looked
 like a file type, and the scan stopped at the first word where it wasn't. That gave the "503-entry file
 table". Those bytes are the minutes of each file's position: the files in those words sit between

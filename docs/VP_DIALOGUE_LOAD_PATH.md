@@ -771,6 +771,8 @@ screen.
 
 ## World-map text: `vp_worldmap_text.py`
 
+`docs/WORLD_MAP_TEXT.md` explains the world-map file and its text from the start.
+
 Freya's lesson in the sky ("Do you hear something?", the first world-map visit) is in neither the
 scenes nor the 13 menu tables. `find` didn't see it, and all 1,118 scenes parse, so nothing was
 being skipped.

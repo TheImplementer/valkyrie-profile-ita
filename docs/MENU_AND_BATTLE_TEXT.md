@@ -90,8 +90,7 @@ Menu text is one byte per character, close to ASCII:
 | `60`-`7F`, `82`-`85` | extra glyphs: icons, rules and the strips in skill help. They differ between menus. |
 
 The colour code appears 478 times, mostly as colour 7. The encoding was first misread as "Scheme A",
-which subtracted 1 above `0x40` and read lower case as upper case. `docs/DIALOGUE_SEARCH.md` still
-describes that.
+which subtracted 1 above `0x40` and read lower case as upper case.
 
 ## Encoding: battle text
 
