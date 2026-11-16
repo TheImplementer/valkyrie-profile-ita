@@ -23,3 +23,102 @@ Converti MP
 Attacco speciale
 @@ 0x0161
 {81 80 07}Nome
+
+@@ 0x0bb9
+Pozione che ripristina i DME (energia divina).
+
+Ripristina il 50% dei DME massimi.
+@@ 0x0bba
+Pozione che cura gli stati alterati (Veleno, Svenuto, 
+
+Congelato, Paralizzato). Questa è la più debole del suo tipo 
+
+e non cura Pietra e Maledizione.
+@@ 0x0bbb
+Piuma che fa rinvenire i personaggi privi di sensi. 
+
+In realtà raccoglie da Valkyrie i 3 elementi vitali 
+
+(Materiale, Astrale e Mentale) e li ricompone.
+@@ 0x0bbc
+Pozione che ripristina i DME perduti.
+
+Ripristina il 99% dei DME massimi.
+@@ 0x0bbd
+Pozione che cura gli stati Pietra e Maledizione. 
+
+Agisce solo su questi stati e non cura 
+
+veleno, svenimento, gelo e paralisi. 
+@@ 0x0bbe
+Pozione che ripristina i DME di tutti e 4 i membri 
+
+del gruppo, Valkyrie compresa. Ripristina il 99% 
+
+dei DME massimi.
+@@ 0x0bbf
+Pozione che cura gli stati alterati di tutto il gruppo, 
+
+Valkyrie compresa. Cura veleno, paralisi, svenimento, 
+
+gelo, pietra e maledizione.
+@@ 0x0bc0
+Occhiali di cristallo che permettono di "vedere" abilità 
+
+e punti deboli del nemico. Le sue dimensioni materiale 
+
+e astrale vengono analizzate e trasmesse a Valkyrie.
+@@ 0x0bc1
+Gemma usata per trasmutare oggetti di creazione divina.
+
+Può essere equipaggiata e usata da Valkyrie. 
+@@ 0x0bc2
+Gemma usata per trasmutare oggetti di creazione divina.
+
+Permette di creare oggetti più grandi e potenti. 
+
+Può essere equipaggiata e usata da Valkyrie.
+@@ 0x0bcb
+Pozione che protegge dagli stati alterati. 
+
+Dura 2 turni. Protegge soltanto, non cura. 
+@@ 0x0bcc
+Pozione che impedisce di svenire. 
+
+Dura 2 turni.
+
+Non cura lo svenimento, lo previene soltanto.
+@@ 0x0bcd
+Pozione che rende trasparenti e quindi impossibili
+
+da prendere di mira. Dura 5 turni. Qualsiasi attacco
+
+da parte di chi la usa ne annulla subito l'effetto.
+@@ 0x0bd7
+Pozione che consuma il 30% dei DME per azzerare il CT 
+
+(turni di carica). Utile quando serve agire subito.
+@@ 0x0bd8
+Pozione che aumenta di 5 l'indicatore dell'attacco 
+
+speciale. L'effetto dura 2 turni.
+@@ 0x0bd9
+Statuetta d'angelo che rianima automaticamente
+
+chi la possiede se perde i sensi. 
+
+Probabilità di rompersi=30%.
+@@ 0x0bda
+Amuleto che rende immuni ai danni fisici. 
+
+Probabilità di rompersi=30%. I danni fisici includono 
+
+anche gli attacchi di stato alterato.
+@@ 0x0bdb
+Amuleto che rende immuni ai danni magici. 
+
+Probabilità di rompersi=25%.
+@@ 0x0bdc
+Amuleto che rende immuni agli stati alterati. 
+
+Probabilità di rompersi=25%.

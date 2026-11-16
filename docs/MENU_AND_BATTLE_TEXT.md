@@ -141,6 +141,10 @@ Abilità
   original text. Renaming an item in one table renames it in the battle table and every camp
   sub-menu. 662 of the battle item table's strings are also in the camp menus. `--no-link` turns this
   off.
+* **Two sets of help lines:** the item help lines in the camp menus (Skill, Use Item, Divine Item and
+  Equipment share them) are longer than the battle ones. 263 of the 444 differ in their English, so
+  linking can't carry them over, and both sets have to be translated. The camp help box fits lines up
+  to the widest English one, 326 pixels, on three lines.
 * **Rebuilding:** an unchanged string keeps its bytes. A changed one goes in its old place if it fits,
   or after the last string.
 * **Width:** menu text is drawn at fixed places, so a longer label can run into the next one. `build`
@@ -152,7 +156,20 @@ Abilità
 * **Checks:** `check --menus` decodes and re-encodes all 10,674 menu and 1,848 battle strings, and
   rebuilds every table and font byte for byte.
 
+## Checked on screen
+
+![The camp menu's item list with the Italian help line of each item](notes/edit_proof/italian_camp_items.png)
+
+The camp menu's Use Item screen, on the Italian disc, with eight items granted by the script (built-in
+`E6`). Triangle ("Topic") shows each item's help line. The item names, the headers and all eight help
+lines are Italian, and none runs out of its box. "Topic" and "Sort" (menu strings `0xD5` and `0x32`)
+aren't translated yet.
+
 ## Not known yet
 
-* **The 1806 and 1988 tables on screen:** they were checked by reading the built disc back. The item
-  list and the battle hints haven't been seen in the emulator yet.
+* **The battle item list on screen:** in the TinyPSX emulator, choosing Use Item in a battle started
+  by a script freezes the game, on the English disc as well. So the battle versions of the item
+  names and help lines were only checked by reading the disc back. The camp menu shows the same item
+  names, and its own help lines, on screen (`notes/edit_proof/italian_camp_items.png`).
+* **What triggers a battle hint:** the hints (table 1988) are loaded only when a battle needs one.
+  None of the encounters `0x3FF` to `0x40F`, the battle tutorial's, loads it.

@@ -944,8 +944,9 @@ What the test taught:
   now draws the accents into it too, and the title shows "Abilità".
 * **The first button press after opening the camp menu is dropped,** and LEFT / RIGHT wrap within a
   row of five: a capture script needs a dummy press first.
-* **Not on screen:** the world map, the item help lines (a new game has no items), the battle hints,
-  and "Usa oggetto" in battle. These were checked by reading the disc back. The title screen's own
+* **Not on screen:** the world map, the battle versions of the item help lines, the battle hints,
+  and "Usa oggetto" in battle. *Later:* the camp menu's item list and help lines were seen
+  (`docs/MENU_AND_BATTLE_TEXT.md`, "Checked on screen"). These were checked by reading the disc back. The title screen's own
   menu is pictures, not table text; it is redrawn separately (see Title screen menu).
 * **Not translated:** stat abbreviations (ATK, RDM, ...) and "Back Console" are left as they are.
   (The shared system strings, records 0-13 of every scene, are now edited once in `system.txt`.)

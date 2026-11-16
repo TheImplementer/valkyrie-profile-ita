@@ -88,6 +88,7 @@ Seen in TinyPSX: `docs/notes/edit_proof/italian_title_screens.png`.
 | Fire, Ice, Lightning, Poison, Holy, Dark | Fuoco, Ghiaccio, Fulmine, Veleno, Sacro, Oscurità | Elements. |
 | None | Nessuno | |
 | Elixir, Remedy, Union Plume | Elisir, Rimedio, Piuma dell'Unione | Item names (battle 1806.1); "Primo"/"Nobile" for the higher grades. |
+| item help lines | battle and camp versions | The camp menus (`menu_2179.txt`) have their own, longer help lines; translate both, and keep the battle wording where the English matches. |
 | place names (world map) | generic part translated, proper name kept | e.g. Rovine di Monte Artolia, Grotte di Oddrock, Torre del Sogno Nero. |
 
 ## Lines shortened to fit a fixed box
