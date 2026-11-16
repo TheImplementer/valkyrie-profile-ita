@@ -305,9 +305,10 @@ Each scene ships its own font as entry 1 of the text container:
 * `n` width bytes;
 * `n` × 12 × u16 row bitmaps (MSB = leftmost pixel).
 
-The game builds the font from the glyphs the scene uses, so **the same code can be a different
-character in another scene**. Only codes `0x75-0x7C` never change. Most of the lowercase plane happens
-to stay put, which is why font A seemed "mostly right".
+The game builds the font from the glyphs the scene uses, in order of first use, so **the same code
+can be a different character in another scene**. *Corrected later:* codes 1-96 never change, because
+records 0-13 (the system messages, the same in every scene) come first and use 96 glyphs. Only codes
+from 97 up vary; see `docs/FONTS_AND_GLYPHS.md`.
 
 Across the 1,118 English scene fonts there are only **158 distinct glyph bitmaps**:
 

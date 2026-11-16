@@ -130,7 +130,7 @@ The voice clip is loaded before the line: by the script for the first line of a 
 Stream 1 of the text part is the scene's font:
 
 ```
-u32 n          number of glyphs (96 to 124; 352 in scene 0)
+u32 n          number of glyphs, a multiple of 4 (96 to 124; 352 in scene 0)
 u32 12         rows per glyph
 n bytes        the width of each glyph in pixels (0 to 12)
 n × 24 bytes   the bitmaps: 12 rows of 16 bits each, little-endian, highest bit = leftmost pixel
@@ -139,10 +139,10 @@ n × 24 bytes   the bitmaps: 12 rows of 16 bits each, little-endian, highest bit
 Glyph number *c* is entry *c* − 1. So in scene `0x16`, code `62` is glyph 98, which is `H`, 8 pixels
 wide.
 
-**Each scene has its own font, so a code means different things in different scenes.** The fonts
-were built from the characters each scene uses, in its own order. `0x62` is `H` in Valhalla but may
-be another letter elsewhere. To read a line, the tools find each glyph's character by its **bitmap**.
-The English fonts hold only 158 different bitmaps in all: letters, punctuation, two sets of digits,
+**Each scene has its own font, numbered in the order its records first use each glyph.** Records 0-13
+are the same in every scene and use 96 glyphs, so codes 1 to 96 are the same everywhere. Codes from 97
+up depend on the scene: `0x62` is `H` in Valhalla but may be another letter elsewhere. To read a line, the tools find each glyph's character by its **bitmap**.
+`docs/FONTS_AND_GLYPHS.md` explains the fonts in more detail. The tools name 158 bitmaps in all: letters, punctuation, two sets of digits,
 the button symbols, arrows, `♪`, `▼`, and a few Japanese characters in debug text.
 `vp_glyph_names.json` maps each one (by a hash of its bitmap) to its character.
 
@@ -175,5 +175,3 @@ and writes the package back in place. The files in `edits_it/` are in this forma
 
 * **hdr[5] and hdr[6]:** they point into the shared library (most often instructions 492 and 2120).
   What the game uses them for hasn't been traced.
-* **Widths of 0:** some glyphs have width 0. Whether these are padding or something else hasn't been
-  checked.

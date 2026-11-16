@@ -19,6 +19,7 @@ BIN/CUE, the Redump dumps of the USA discs.
 | [`docs/VALKYRIE_BIN_TABLE.md`](docs/VALKYRIE_BIN_TABLE.md) | How the encrypted table at the start of `VALKYRIE.BIN` lists the game's 4,472 files: where each one is on the disc and how big it is. |
 | [`docs/SLZ_COMPRESSION.md`](docs/SLZ_COMPRESSION.md) | How the game's two compression formats (SLZ types 1 and 2) work, with worked examples and a decoder. |
 | [`docs/SCENE_TEXT_FORMAT.md`](docs/SCENE_TEXT_FORMAT.md) | How a scene's text is stored: the scene block, records, text commands and per-scene fonts, with one line taken apart byte by byte. |
+| [`docs/FONTS_AND_GLYPHS.md`](docs/FONTS_AND_GLYPHS.md) | The game's many small fonts (scene, menu, battle, italic titles, title-screen pictures), how a byte becomes a letter, and how accented letters are added. |
 | [`docs/VP_DIALOGUE_LOAD_PATH.md`](docs/VP_DIALOGUE_LOAD_PATH.md) | The main write-up: how the game finds, decompresses, decodes and draws its text, from disc sector to message box, and everything learned while changing it. |
 | [`docs/VP_DIALOGUE_FORMAT.md`](docs/VP_DIALOGUE_FORMAT.md), [`docs/DIALOGUE_SEARCH.md`](docs/DIALOGUE_SEARCH.md) | The earlier notes: the archive, its encryption and compression, and the search for the dialogue. They mention exploration tools that aren't in this repository. |
 | [`docs/notes/`](docs/notes/) | Shorter notes (scene package parts, the script's built-in commands, voice clips, sound labels) and the screenshots taken to check each change in the game. |
