@@ -82,6 +82,10 @@ Seen in TinyPSX: `docs/notes/edit_proof/italian_title_screens.png`.
 | Equip / Equipment | Equipaggia / Equip. | "Equipaggiamento" was cut off in its column. |
 | Topic (camp menus, Triangle) | Info | Shows the selected item's help line. On the world map the same word is "Notizie" (news). |
 | Sort, Sort Menu | Ordina, Ordina per | The Sort tab is widened to 111 px for it (`camp_tabs.txt`). The choices: Per tipo, Ordine alfabetico, Prima i più recenti, Per capitolo. |
+| ATK, RDM, DEF, AVD, HIT, RST, MAG | kept | Stat abbreviations stay in English, like DME: the Status screen explains each one in English beside it, so they change together when Status is translated. |
+| Wpn., Head, Body, Arm, Leg, Dec.1/2, Pos.1-3 | Arma, Capo, Corp., Brac., Piedi, Acc.1/2, Pos.1-3 | Equipment slots, also on the Status and Party screens. A slot name must stay within about 28 px or its item icon covers it. |
+| Chng / Remove / Best (Equipment) | Metti / Togli / Auto | "Cambia" ran into "Togli". Best is "Ottimizza" in its own screen's title. |
+| Attack Trust, Hit Trust, Defend Trust | Affid. attacco, Affid. colpo, Affid. difesa | Sort orders: Per potenza, Per affidabilità, Per precisione, Per difesa, Prima i più recenti. |
 | Text Speed | Vel. testo | "Velocità testo" touched its value. |
 | Materialize Points | Punti materia | |
 | Evaluation | Valut. | |
@@ -109,6 +113,8 @@ shortened until they fit on screen:
 | system record 11 | Tornare alla mappa del mondo? | Tornare alla mappa? (its box is 140 px) |
 | Party menu (2182) | Modifica, Schiera | Forma |
 | Use Item | Equipaggiamento | Equip. |
+| Equipment slots (2183) | Testa, Corpo, Gambe | Capo, Corp., Piedi (the item icons covered the end) |
+| Equipment popup (2183) | Equipaggiamento; Cambia | Equipaggia; Metti |
 | Options | Velocità testo | Vel. testo |
 | Options | the Dash help line | shortened to fit its box |
 

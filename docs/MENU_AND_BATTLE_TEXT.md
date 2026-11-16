@@ -169,6 +169,14 @@ lines are Italian, and none runs out of its box.
 The tabs above the list are "Info" (Topic, string `0xD5`) and "Ordina" (Sort, `0x32`, on Start). Start
 opens the Sort menu, strings `0x33` to `0x37`. Top to bottom: Use Item, Equipment, and the Sort menu.
 
+![The Equipment screen in Italian](notes/edit_proof/italian_equipment.png)
+
+The Equipment screen (table 2183): the action popup, the weapon list with both tabs, the Sort menu
+and the Ottimizza (best equipment) screen, with three weapons granted by the script. Its 67 interface
+strings are Italian. The stat abbreviations stay in English, and so do the weapon and armour names
+and their help lines, which are item text. The slot names (Arma, Capo, Corp. …) are shared with the
+Status screen through the link, and fit there too.
+
 ## The camp menu's tabs
 
 A tab draws its label in a large italic, about 1.8 times the label's width in the menu font. So

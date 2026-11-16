@@ -1,0 +1,158 @@
+# Valkyrie Profile menu text 2183 (camp menu: Equipment): 1329 messages, package sectors 84641..84659 of VALKYRIE.BIN
+# Edit the text under any "@@ 0x.." line (a message id); delete the entries you do not change.
+# A line break is a new line (0x80). {xx ...} are raw bytes: {81 80 07} and the like are
+# commands, {60}-{7f} and {82}-{85} extra glyphs; { and } themselves are {5c} and {5e}.
+# Printable ASCII is in the menu font; accented letters (à è é ì ò ù È ...) are drawn over
+# the { } \ ^ _ ` | @ < > glyphs, up to 10 per table. `build` also changes every other menu table
+# (and the battle item table 1806.1) that has the same id with the same original text
+# (an item name is in several), unless --no-link is given. A "# no-link" line up here
+# keeps this file's edits to this table, and they win over a linked copy.
+
+@@ 0x0060
+{81 80 07}ATK
+@@ 0x0061
+{81 80 07}RDM
+@@ 0x0062
+{81 80 07}DEF
+@@ 0x0063
+{81 80 07}AVD
+@@ 0x0064
+{81 80 07}HIT
+@@ 0x0065
+{81 80 07}RST
+@@ 0x0066
+{81 80 07}Arma
+@@ 0x0067
+{81 80 07}Capo
+@@ 0x0068
+{81 80 07}Corp.
+@@ 0x0069
+{81 80 07}Brac.
+@@ 0x006a
+{81 80 07}Piedi
+@@ 0x006b
+{81 80 07}Acc.1
+@@ 0x006c
+{81 80 07}Acc.2
+@@ 0x006d
+{81 80 07}Pos.1
+@@ 0x006e
+{81 80 07}Pos.2
+@@ 0x006f
+{81 80 07}Pos.3
+@@ 0x0070
+{81 80 07}Equipaggia
+@@ 0x0071
+Metti
+@@ 0x0073
+{81 80 07}Cambia equip.
+@@ 0x0074
+Scegli cosa
+
+cambiare.
+@@ 0x0075
+{81 80 07}Togli equip.
+@@ 0x0076
+Scegli cosa
+
+togliere.
+@@ 0x0077
+Scegli il
+
+personaggio.
+@@ 0x0078
+Scegli il
+
+personaggio.
+@@ 0x0079
+{81 80 07}Ordina per
+@@ 0x007a
+Per potenza
+@@ 0x007b
+Per affidabilità
+@@ 0x007c
+Per precisione
+@@ 0x007d
+Prima i più recenti
+@@ 0x007e
+{81 80 07}MAG
+@@ 0x00ba
+Fuoco
+@@ 0x00bb
+Fulmine
+@@ 0x00bc
+Oscurità
+@@ 0x00bd
+Ghiaccio
+@@ 0x00be
+Veleno
+@@ 0x00bf
+Sacro
+@@ 0x00c0
+Cambiando l'equipaggiamento, alcune
+
+tecniche impostate sono cambiate.
+@@ 0x016e
+Togli
+@@ 0x0190
+{81 80 07}Attacco
+@@ 0x0191
+{81 80 07}Affid. attacco
+@@ 0x0192
+{81 80 07}Affid. colpo
+@@ 0x0193
+{81 80 07}Tipo magia
+@@ 0x0199
+{81 80 07}Riduzione danni
+@@ 0x019a
+{81 80 07}Affid. difesa
+@@ 0x019b
+/Danni+50%
+@@ 0x019c
+/Danni+90%
+@@ 0x019d
+/Morte
+@@ 0x019e
+/Debolezza
+@@ 0x019f
+/Danni-50%
+@@ 0x01a0
+/Danni-90%
+@@ 0x01a1
+/Morte
+@@ 0x01a2
+/Debolezza
+@@ 0x01a9
+Nessuno
+@@ 0x01c2
+Per difesa
+@@ 0x01c3
+Per affidabilità
+@@ 0x01c4
+Prima i più recenti
+@@ 0x01c5
+Prima i più recenti
+@@ 0x01c6
+Prima i più recenti
+@@ 0x01c7
+Ordina per
+@@ 0x01c8
+Prima i più recenti
+@@ 0x01c9
+Auto
+@@ 0x01ca
+{81 80 07} Ottimizza 
+@@ 0x01cb
+Scegli il criterio.
+@@ 0x01cc
+Priorità attacco/difesa
+@@ 0x01cd
+Priorità affidabilità
+@@ 0x01ce
+Scegli chi
+
+ottimizzare.
+@@ 0x022c
+Il personaggio è maledetto.
+
+Impossibile cambiare equip.
