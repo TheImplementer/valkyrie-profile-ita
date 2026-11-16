@@ -1,0 +1,38 @@
+# Valkyrie Profile scene 0x70 (-): 22 records, directory word 3722, package sectors 167337..167405 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:0100>Lombert
+「Principessa.<page>
+Non si addice a una principessa
+così graziosa, che un giorno
+regnerà sul paese, perdere
+la calma in modo così indecoroso.
+@@ 15
+<19:0000>Jelanda
+「Silenzio, Lombert!!<page>
+Non starò qui zitta ad accettare
+le prediche di uno come te!
+@@ 16
+<19:0000>Jelanda
+「Non possiamo tollerare una cosa
+simile da un mercenario zotico <7:0b>-<7:01>
+@@ 17
+<19:0100>Lombert
+「Principessa Jelanda!!
+@@ 18
+<19:0100>Lombert
+「Non dovete darvi pensiero
+di questa faccenda, Principessa.
+Penserò io a tutto.
+@@ 20
+<19:0000>Jelanda
+「Quel bifolco arrogante,
+dev'esserci un modo per fargliela pagare.
+Vediamo<7:0b>-<7:01>
+@@ 21
+<19:0000>Jelanda
+「Trovato♪

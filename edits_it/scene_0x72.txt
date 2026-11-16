@@ -1,0 +1,99 @@
+# Valkyrie Profile scene 0x72 (-): 41 records, directory word 3724, package sectors 167514..167647 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:0000>Re
+「Grazie ai vostri valorosi sforzi,
+i barbari sono stati respinti.
+Vi rendo onore!
+@@ 15
+<19:0000>Re
+「E tra voi, credo<3:28>,<3:ff>
+c'è il più grande guerriero di tutti,
+ser Arngrim!
+@@ 16
+<19:0100>Arngrim
+「Hmpf.
+@@ 17
+<19:0000>Re
+「A voi dono un premio
+in denaro e questa statua.
+@@ 18
+Re
+<3:05>「Anche se il gusto di un mercenario<17:b400>
+@@ 19
+Re
+<3:05>「non sarà diverso da quello di un barbaro.<17:b400>
+@@ 20
+<19:0100>Arngrim
+「Che meraviglia<3:28>.<3:ff>
+Vi ringrazio dal profondo
+del vuoto che ho nell'anima.
+@@ 21
+Arngrim
+<3:05>「Credete che questo
+sistemi tutto?<17:b400>
+@@ 22
+Arngrim
+<3:05>「Questa statuetta da quattro soldi
+non è che una menzogna.<17:b400>
+@@ 23
+<5><3:03><18>Insultai il padre di quella ragazza
+<5>proprio davanti a lei.<12:7b09><17:7800>
+@@ 24
+<5><3:03><18>Certo,
+<5>non era mia intenzione.<12:7c09><17:7800>
+@@ 25
+<19:0100>Arngrim
+「Ah ah ah<3:0c>・・・<3:ff>
+Siete proprio un re da poco.
+@@ 26
+<19:0000>Re
+「Cosa<3:0c>・・・<3:ff>
+Cosa state<3:0c>・・・<3:ff>
+@@ 27
+<19:0100>Arngrim
+「Non ho tempo per questa farsa!!
+@@ 28
+<19:0100>Arngrim
+「Questa statua vi somiglia<3:1e>, <3:ff>
+non trovate?
+@@ 29
+<5><3:03><18>Volevo solo mostrare
+<5>che codardo senza fegato fosse il Re.<17:7800>
+@@ 31
+<19:0100>Jelanda
+「Padre!!
+@@ 32
+<5><3:03><18>Ciò che feci non era sbagliato.<17:7800>
+@@ 33
+<19:0100>Arngrim
+「Non fatemi perdere tempo
+con queste idiozie.
+@@ 34
+<19:0000>Jelanda
+「Bruto ingrato!
+@@ 35
+<3:03><18>Ma <7:0b>-<7:01><17:7800>
+@@ 36
+<19:0000>Jelanda
+「Infliggere a mio padre
+una simile barbarie!
+Diecimila morti
+non ti basterebbero!!
+@@ 37
+<5><3:03><18>Ma una figlia non può fare a meno
+<5>di amare e onorare suo padre.<17:7800>
+@@ 38
+<19:0000>Jelanda
+「Guardie! Prendetelo!<17:a000>
+@@ 39
+<19:0000>Jelanda
+「Cosa state facendo!?<17:6400>
+@@ 40
+<5><3:03><18>Quale figlio non proverebbe rabbia
+<5>vedendo il proprio padre
+<5>messo in ridicolo<3:0c>・・・<3:ff><17:7800>

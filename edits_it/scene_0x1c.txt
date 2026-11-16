@@ -1,0 +1,131 @@
+# Valkyrie Profile scene 0x1c (-): 44 records, directory word 3638, package sectors 158456..158623 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+Valkyrie
+<3:04>「<18>Eccomi, sommo Odino<3:0c>,<3:03>
+al vostro servizio. <12:5809><17:7800>
+@@ 15
+<19:0100>Freya
+<3:04>「<18>Alzati,<3:0f> <3:04>Lenneth.<12:5909><17:7800><page>
+<3:03><18>Non hai bisogno di inginocchiarti
+davanti a noi come chi vive a Midgard.<12:5a09><17:7800>
+@@ 16
+Valkyrie
+<3:05>「<18>Capisco.<12:5b09><17:7800>
+@@ 17
+<19:0100>Freya
+<3:04>「<18>Sono felice<3:0a> <3:03>di rivederti<3:1e>!<3:03>
+Ci sei m<3:02>ancata mol<3:03>to.<12:5c09><17:7800>
+@@ 18
+Valkyrie
+<3:04>「<18>Anche tu.<12:5d09><17:7800>
+@@ 19
+<19:0100>Odin
+<3:04>「<18>Lenneth <3:03>Valkyrie.<12:5e09><17:7800><page>
+<3:03><18>Non ti avrei convocata,<3:0f>
+<3:03>te, la più grande delle tre dee del fato,
+<3:04>senza una valida ragione.<12:5f09><17:7800>
+@@ 20
+Valkyrie
+<3:04>「<18>Sì,<3:0a> <3:04>mio signore. <12:6009><17:7800>
+@@ 21
+<19:0100>Odin
+<3:03>「<18>La testa di Mimir<3:0a> <3:03>mi ha rivelato
+che il <3:04>Ragnarok,<3:1e> <3:03>la fine del mondo,<3:0f>
+<3:04>è vicino.<12:6109><17:7800>
+@@ 22
+Valkyrie
+<3:04>「<18>Il Ragnarok<3:0c>!<12:6209><17:7800>
+@@ 23
+<19:0100>Odin
+<3:03>「<18>Di recente ci sono stati <3:04>segni<3:0a>
+<3:04>di inquietudine tra i Vani.<12:6309><17:7800><page>
+<3:03><18>Sembra che noi,<3:0f> <3:04>gli Asi,<3:28>
+<3:03>non potremo evitare
+la guerra<3:0f> <3:03>con loro.<12:6409><17:7800>
+@@ 24
+<19:0100>Odin
+<3:06>「<18>Ci servono<3:0f> <3:06>dei<3:0f> <3:06>guerrieri.<12:6509><17:7800><page>
+<3:03><18>Viaggerai<3:14> <3:03>fino a Midgard,<3:1e>
+<3:03>il mondo di sotto,<3:1e> <3:03>e cercherai<3:0f>
+<3:03>anime umane <3:04>degne.<12:6609><17:7800>
+@@ 25
+Valkyrie
+<3:03>「<18>È un onore, mio signore,<3:07>・・・<3:03>
+servirvi.<12:6709><17:7800>
+@@ 26
+<19:0100>Odin
+<18><3:05>「Mi aspetto grandi cose <3:04>da te.<3:5a>
+<3:03>Molto bene.<3:3c> <3:03>Freya<3:0c>・・・<3:ff><12:6809><17:7800>
+@@ 27
+<19:0000>Freya
+<3:03>「<18>Sì, mio signore.<17:7800>
+@@ 28
+<19:0100>Freya
+<3:02>「<18>Verrò <3:03>con te<3:02> nella <3:03>discesa,<3:0f>
+<3:03>ma dovrò tornare presto<3:0c>...<3:03><12:6b09><17:7800><page>
+<3:03><18>Ti sei risvegliata da poco<3:1e>
+<3:03>e sarebbe crudele <3:02>da parte mia
+mandarti<3:03> da sola.<17:7800>
+@@ 29
+<19:0100>Odin
+「La Sfera del Drago <7:0b>-<7:01>?!
+@@ 30
+<19:0000>Freya
+「Sì, mio signore.
+@@ 31
+<19:0000>Freya
+<3:03>「<18>Il sigillo!<12:900b><17:7800>
+@@ 32
+<19:0100>Odin
+<3:03>「<18>Cosa<3:32>?<3:04>
+Ha recuperato i suoi ricordi?<12:910b><17:7800>
+@@ 33
+<19:0000>Freya
+<3:03>「<18>Sì<12:920b><3:32>.<3:03>
+<18>Però<3:0c>・・・<3:ff><12:930b><17:7800>
+@@ 34
+<19:0100>Odin
+<3:04>「<18>Proprio come previsto,<3:14> <3:03>eh.<12:940b><17:7800>
+@@ 35
+<19:0000>Freya
+<3:03>「<18>Sì.<12:960b><17:7800>
+@@ 36
+<19:0000>Freya
+「<18><3:03>La protezione funziona normalmente.<12:950b><17:7800>
+@@ 37
+<19:0100>Odin
+<3:05>「<18>Oh oh oh.<12:970b><3:28>
+<3:03><3:05><18>Ah<3:1e>, <3:05>capisco.<12:980b><17:7800>
+@@ 38
+Freya
+<3:03>「<18>Il sigillo non si spezzerà.<17:7800>
+@@ 39
+<19:0000>Freya
+<3:03>「<18>L'<3:04>ego primario,<3:14>
+<3:03>Lenneth,<3:0f> <3:03>è stato sigillato<12:3b0c>.<17:7800><3:03><page>
+<18>L'ego secondario,
+Hrist,<3:14> <3:03>è stato posto
+nel corpo astrale di Valkyrie<3:28> <3:03>ed
+è pronto per essere risvegliato.<12:3c0c><17:b400>
+@@ 40
+<19:0100>Odin
+<3:04>「<18>Capisco<3:5a>.<3:04>
+Immagino non ci fosse altra scelta.<12:3d0c><17:7800>
+@@ 41
+<19:0000>Freya
+<3:03>「<18>Mi preoccupa
+il suo passato con Brahms.<12:3e0c><17:7800>
+@@ 42
+<19:0100>Odin
+<3:03>「<18>Ti riferisci a Silmeria<3:14>,<3:03> eh<3:78>.<3:03>
+Potrebbe davvero creare problemi,<3:14> <3:03>ma
+ora<3:1e> <3:04>non è<3:0f> <3:03>il momento di preoccuparsene.<12:3f0c><17:7800>
+@@ 43
+Freya
+<3:03>「<18>Molto bene<3:28>.<3:03>
+Darò inizio alla <3:04>Cerimonia del Risveglio.<17:c800>

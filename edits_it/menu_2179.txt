@@ -1,0 +1,25 @@
+# Valkyrie Profile menu text 2179 (camp menu: Use Item): 2276 messages, package sectors 84563..84592 of VALKYRIE.BIN
+# Edit the text under any "@@ 0x.." line (a message id); delete the entries you do not change.
+# A line break is a new line (0x80). {xx ...} are raw bytes: {81 80 07} and the like are
+# commands, {60}-{7f} and {82}-{85} extra glyphs; { and } themselves are {5c} and {5e}.
+# Printable ASCII is in the menu font; accented letters (à è é ì ò ù È ...) are drawn over
+# the { } \ ^ _ ` | @ < > glyphs, up to 10 per table. `build` also changes every other menu table
+# (and the battle item table 1806.1) that has the same id with the same original text
+# (an item name is in several), unless --no-link is given.
+
+@@ 0x0041
+{81 80 07}Oggetti usabili
+@@ 0x0043
+{81 80 07}Nome oggetto
+@@ 0x0048
+{81 80 07}Numero
+@@ 0x0052
+{81 80 07}Equip.
+@@ 0x0056
+Usa
+@@ 0x0058
+Converti MP
+@@ 0x0141
+Attacco speciale
+@@ 0x0161
+{81 80 07}Nome

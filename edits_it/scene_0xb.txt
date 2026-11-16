@@ -1,0 +1,79 @@
+# Valkyrie Profile scene 0xb (-): 39 records, directory word 3621, package sectors 156429..156529 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:ffff>Lawfer
+「Non c'è nessun altro che possa
+fare questo lavoro.
+Ti prego, abbi cura di Roland.<page>
+A più tardi.
+@@ 15
+<19:ffff>Celia
+「Fermati lì.
+@@ 16
+<19:ffff>Celia
+「Credi davvero che i tuoi amici
+se ne staranno buoni mentre
+vai incontro alla morte?
+@@ 18
+<19:ffff>Celia
+「Morire per la giustizia e i nobili
+ideali non ha senso!
+@@ 19
+<19:ffff>Lawfer
+「Molti sarebbero
+d'accordo.
+@@ 20
+<19:ffff>Lawfer
+「Ma molti altri
+no.
+@@ 21
+<19:ffff>Kashell
+「Parli ancora di Arngrim,
+eh? Del fatto che
+è <3:ff>"speciale"?
+@@ 22
+<19:ffff>Lawfer
+「Ti sbagli!
+@@ 23
+<19:ffff>Lawfer
+「Non è così<3:0c>...
+@@ 24
+<19:ffff>Celia
+「Lawfer<3:0c>・・・
+@@ 25
+<19:ffff>Kashell
+「In questo mestiere, a volte
+bisogna stringere i denti
+e affrontare la morte.
+@@ 26
+<19:ffff>Kashell
+「Ma non vuol dire che
+devi gettare via la vita!
+@@ 27
+<19:ffff>Celia
+「Ehi<3:1e>, <3:ff>andiamo tutti insieme<3:1e>.<3:ff>
+Non c'è motivo di andare da solo!
+Se andiamo tutti, allora<7:0b>-<7:01>
+@@ 28
+<19:ffff>Lawfer
+「No.<3:ff>
+Non vi siete mai chiesti
+perché Arngrim l'abbia fatto?
+Pur sapendo cosa
+avrebbe voluto dire per Roland?
+@@ 29
+<19:ffff>Lawfer
+「Non è solo questo<3:1e>.<3:ff>
+Non voleva sguainare la spada
+contro mio padre.
+E così<7:0b>-<7:01>
+@@ 31
+<19:ffff>Lawfer
+「Quando penso a come
+deve essersi sentito<7:0b>-<7:01>
+@@ 32
+<18><5><3:04>Non scapperò.<17:7800>

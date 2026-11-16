@@ -1,0 +1,158 @@
+# Valkyrie Profile scene 0x71 (-): 52 records, directory word 3723, package sectors 167406..167513 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:0000> Lombert
+「Ah, immaginavo che prima o poi
+ti saresti fatto vivo.<page>
+ Avresti fatto meglio a scappare<3:0c>...<3:ff>
+Non ti servirà a nulla
+fare scompiglio qui, giovanotto.
+@@ 15
+<19:0100>Arngrim
+「Forse no, ma<3:1e>!<3:ff>
+Mi "servirà" eccome
+a spaccarti la faccia!!
+@@ 16
+<19:0000> Lombert
+「Capisco<3:0c>・・・<3:ff><page>
+Arngrim, sarai anche un genio
+in battaglia, ma delle arti
+superiori sai ben poco.
+@@ 17
+<19:0000> Lombert
+「Ti rendi conto<3:0c>...<3:ff>
+che sei già morto?
+@@ 18
+<19:0100>Arngrim
+「Cosa?
+@@ 19
+<19:0000> Lombert
+「Magia, Arngrim.<page>
+Eh eh eh<3:0c>・・・<3:ff>
+Lascia che ti mostri.
+@@ 20
+<19:0100>Arngrim
+「Aaaargh!!<17:6400>
+@@ 21
+<19:0000>Lombert
+「Eppure una cosa mi pare strana.<page>
+Avrei creduto alla tua fuga,
+ ma<3:0c>...<3:ff> può davvero un umano
+aver sconfitto un ghoul?
+@@ 22
+<19:0000>Lombert
+「Non riesco a immaginare<3:0c>...<3:ff>
+@@ 23
+<3:04><18>È lui!
+<3:03>È l'uomo che mi ha tradita!!<17:7800>
+@@ 24
+<19:0000>Lombert
+「Cosa<3:0c>...<3:ff>!?
+@@ 25
+<19:0000>Lombert
+「Ah, ora capisco.<page>
+Abbiamo una piccola congiura,
+non è vero?
+@@ 26
+<19:0100>Arngrim
+「Congiura? Ah!
+Sento che sei tu l'esperto in materia!
+@@ 27
+<19:0100>Valkyrie
+「Profanatore di anime<3:0c>...<3:ff>
+I tuoi peccati ti pesano addosso!
+@@ 28
+<19:0100>Soldato
+「Preparati,
+feccia ribelle!!
+@@ 29
+<5>Questi soldati da strapazzo
+<5>osano chiamarmi "feccia ribelle"?<17:7800>
+@@ 30
+<19:0000>Arngrim
+「Senti, amica, non aspettarti
+che ti faccia dei favori<3:32>.<3:ff>
+Non ho intenzione di morire.
+@@ 31
+<19:0000>Arngrim
+「Lassù ad Asgard non sanno
+che farsene degli eroi
+davvero forti, eh?
+Ah ah ah!!
+@@ 32
+<19:0000>Valkyrie
+「Umano vanaglorioso<3:0c>...<3:ff>
+La forza non è tutto.
+@@ 33
+<19:0100>Arngrim
+「Hmpf<3:28>.<3:ff>
+Senti chi parla, dea della morte!!
+@@ 34
+???
+「Sciocco impudente!<3:28>!<3:ff>
+Valkyrie non è una dea delle tenebre.<page>
+Parole simili ti porteranno
+a morte certa!!
+@@ 35
+<19:0100>Arngrim
+「A<3:0c>・・・<3:ff>Angela<3:0c>・・・<3:ff>?
+@@ 36
+<19:0000>Jelanda
+「Eh<3:28>?<3:ff>
+Tu<3:0c>・・・<3:ff>tu lo sapevi?
+@@ 37
+<19:0100>Arngrim
+「Eh eh eh<3:0c>・・・<3:1e>
+<3:ff>Capisco<3:0c>・・・<3:ff>
+Allora sei salva, piccola.
+@@ 38
+<19:0100>Arngrim
+「Ho una domanda.
+@@ 39
+<19:0100>Arngrim
+「Non sei solo una dea della morte?
+@@ 40
+<19:0000>Valkyrie
+「Un dio della morte si limita
+a spegnere le vite.<page>
+Io, invece,
+posso mostrarti la via<3:0c>...<3:ff>
+@@ 41
+<19:0100>Arngrim
+「La via?
+@@ 42
+<19:0000>Valkyrie
+「Sì<3:28>.<3:ff> Tuttavia,
+dovrai percorrerla da solo.
+@@ 43
+???
+「Basta con questo inutile massacro!!
+@@ 44
+<19:0000>Arngrim
+「Vecchio<3:0c>・・・<3:ff>
+@@ 45
+<19:0100>Capitano
+「Arngrim<3:0c>...<3:ff> alzerai davvero
+le armi contro di me?
+@@ 46
+<5>Ho dei rimpianti<3:0c>...<3:ff>?<17:7800>
+@@ 47
+<5>...No.<17:7800>
+@@ 48
+<19:0000>Arngrim
+「<3:04><18>Perché<3:14> <3:05>mi hai salvato?<12:b309><17:7800>
+@@ 49
+<19:0100>Valkyrie
+「<3:03><18>Consideralo<3:28> <3:04>un dono.<12:b409><17:7800>
+@@ 50
+<19:0100>Jelanda
+「<3:03><18>Sembra che passeremo parecchio
+<3:02>tempo insieme.<12:b509><17:7800>
+@@ 51
+<19:0000>Arngrim
+「<3:0c>・・・<3:03><18>Così pare<3:1e>,<3:03> piccola<3:5a>.<3:ff>
+Parecchio davvero<3:0c>...<3:ff><17:7800>

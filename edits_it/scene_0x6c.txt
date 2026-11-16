@@ -1,0 +1,123 @@
+# Valkyrie Profile scene 0x6c (To outside): 46 records, directory word 3718, package sectors 166674..166760 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<5>Uscita
+@@ 15
+<19:0100>Cameriera
+「Cosa desiderate ordinare?
+@@ 16
+<5>Non ne ho idea.<17:7800>
+@@ 17
+<19:0000>Angela
+「Vediamo<3:0c>・・・<3:ff>
+Prendo questo, questo e questo<3:0c>・・・<3:ff>
+@@ 18
+<19:0100>Cameriera
+「E da bere cosa desiderate?
+@@ 19
+<19:0000>Angela
+「Ehm<3:0c>・・・<3:ff>
+Questo, questo e uno di questi<3:0c>・・・<3:ff>
+@@ 20
+<19:0000>Arngrim
+「Ehi!<3:14>!<3:ff>
+Volete davvero mangiare tutto?!
+@@ 21
+<19:0100>Angela
+「Ma figuratevi<3:1e>!<3:ff>
+Mangerò quello che mi va
+e lascerò il resto.
+@@ 23
+<19:0000>Arngrim
+「Allora, ehm<3:1e>,<3:ff>
+per cosa volevate assumermi?
+@@ 24
+<19:0100>Angela
+「Perché non ne parliamo
+mentre mangiamo?
+@@ 25
+<3:00><7:0b>-<7:01>30 minuti dopo <7:0b>-<7:01><17:f000>
+@@ 26
+<19:0000>Angela
+「Chiama il padrone!!
+@@ 27
+<19:0100>Cameriera
+「Eh?
+@@ 28
+<19:0000>Angela
+「Ho detto,
+chiama il padrone!!
+@@ 29
+<19:0000>Arngrim
+「Non fate la<3:0c>・・・<3:ff>
+principessina viziata<3:0c>・・・<3:ff>
+@@ 30
+<19:0100>Capocuoco
+「Qualcosa non è di vostro gradimento?
+@@ 31
+<19:0000>Angela
+「"Non di mio gradimento", dici<3:1e>!<3:ff>
+Cos'è questa carne<3:1e>?<3:ff>
+È cruda!!
+@@ 32
+<19:0100>Capocuoco
+「Ma signorina<3:0c>・・・<3:ff>
+Si chiama "sashimi".
+È un classico della cucina Yamato<3:0c>・・・<3:ff>
+@@ 33
+<19:0000>Angela
+「E cos'è questa zuppa torbida?
+Ha un odore orribile!<3:14>!<3:ff>
+Dev'essere andata a male!
+@@ 34
+<19:0100>Capocuoco
+「Signorina<3:0c>・・・<3:ff>
+È un pilastro della cucina
+ Yamato, la "zuppa di miso"<3:0c>・・・<3:ff>
+@@ 35
+<19:0000>Angela
+「E questo cos'è<3:14>!<3:ff>
+È un mostro!!
+Vuoi farmi mangiare
+dei cuccioli di kraken!?
+@@ 36
+<19:0100>Capocuoco
+「Ma signorina<3:0c>・・・<3:ff>
+È un semplice polpo<3:0c>・・・<3:ff>!
+@@ 37
+<19:0000>Angela
+「Qui servite mostri?
+@@ 38
+<19:0100>Capocuoco
+「Vi assicuro, signorina<3:0c>...<3:ff>
+@@ 39
+<19:0000>Angela
+「<3:0c>・・・<3:ff>Non sono mai stata
+così insultata in vita mia!<page>
+Aaah!
+Ora ho la gola secca!
+@@ 40
+<19:0000>Angela
+「Coff!! Bleah!!
+Che razza di acqua è QUESTA!?
+@@ 41
+<19:0000>Angela
+「Volete avvelenarmi?<3:32>!<3:ff>
+Come osate<3:0c>・・・<3:ff>!
+<3:05>Diecimila morti<3:14>
+<3:05><3:05>non vi basterebbero<3:0c>・・・<3:ff>!!
+@@ 42
+<19:0000>Angela
+「Zzzzzz<3:0c>・・・<3:ff>
+@@ 43
+<19:0100>Cameriera
+「Il conto, signore.
+@@ 44
+<5><3:03><18>Era quella principessa <3:06>maschiaccio<3:04><3:0c>...<3:ff><17:2c01>
+@@ 45
+<19:ffff>Cameriera
+「Salve.

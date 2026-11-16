@@ -1,0 +1,62 @@
+# Valkyrie Profile scene 0x66 (-): 30 records, directory word 3712, package sectors 166371..166442 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:0100>Roland
+「Che succede?
+@@ 15
+<19:0000>Arngrim
+「Beh,<page>
+so che è venuta qui travestita
+per offrirmi un lavoro.
+@@ 16
+<19:0100>Angela
+「Mmmmhhh<3:0c>・・・<3:ff>
+@@ 17
+<19:0000>Arngrim
+「È molto orgogliosa.
+@@ 18
+<19:0100>Angela
+「Pa<3:0c>・・・<3:ff>
+@@ 19
+<19:0000>Arngrim
+「Eh<3:28>?<3:ff>
+Parla nel sonno.
+@@ 21
+<19:0100>Angela
+「<3:05>Infame spergiuro<3:0c>・・・<3:ff>!<page>
+<3:05>Diecimila morti<3:14>
+<3:05>non ti basterebbero!!
+@@ 22
+<19:0000>Arngrim
+「Ecco cos'è<3:28>,<3:ff>
+ora capisco.
+@@ 23
+<19:0100>Angela
+「Dove sono<3:32>?<3:ff>
+È già sera!!
+@@ 24
+<19:0000>Arngrim
+「Sì, è sera.
+@@ 25
+<19:0100>Angela
+「Devo andare!<page>
+Oh<3:1e>! <3:ff>Posso tornare domani
+a farvi la mia offerta?
+@@ 26
+<19:0000>Arngrim
+「Sì, certo.
+@@ 27
+<19:0000>Arngrim
+「Un'offerta di lavoro<3:28>, <3:ff>eh<3:28>?<3:ff>
+Sarà una vendetta per quello
+che ho fatto a suo padre<3:0c>・・・<3:ff>
+@@ 28
+<19:0000>Arngrim
+「Quando verrà domani,
+le chiederò scusa.
+@@ 29
+<5><3:03><18>Jelanda<3:0c>・・・<3:ff><17:f401>

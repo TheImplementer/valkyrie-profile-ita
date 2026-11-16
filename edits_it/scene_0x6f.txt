@@ -1,0 +1,77 @@
+# Valkyrie Profile scene 0x6f (-): 46 records, directory word 3721, package sectors 167152..167336 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:0000>Lawfer
+「Arngrim, dai loro una mano,
+ti va?
+@@ 15
+<19:0100>Cavaliere
+「Questa bestia è tosta!
+@@ 16
+<19:0000>Soldato
+「Ah<3:0c>...
+@@ 17
+<19:0100>Arngrim
+「Che seccatura<3:1e>.<3:ff>
+Fuori dai piedi!
+@@ 18
+<19:0100>Lawfer
+「Lascia che ti aiuti.
+@@ 19
+<19:0100>Badrach
+「Toccherà aspettare la notte
+e poi scappare.
+@@ 21
+<19:0100>Badrach
+「Hmpf! Maledetto Lombert<3:1e>!<3:ff>
+Ha mandato tutto all'aria!
+@@ 22
+<19:0000>Arngrim
+「Lurido<3:0c>...<3:ff>!
+Lo sapevi?!
+@@ 23
+<19:0100>Badrach
+「No<3:32>,<3:ff>
+ non sapevo cosa c'era DENTRO quel coso!<page>
+È che il mio, ehm,
+cliente era Lombert come sempre,
+ e<3:0c>...<3:ff>
+@@ 24
+<19:0000>Arngrim
+「Quei soldati sapevano
+che Lombert<3:0c>...<3:ff>?
+@@ 25
+<19:0100>Badrach
+「Eh<3:1e>?<3:ff> Ma no, impossibile<3:1e>.<3:ff>
+Quello è una spia di Villnore, sai.
+@@ 26
+<19:0000>Arngrim
+「Cosa?!
+@@ 27
+<19:0100>Badrach
+「Nessuno doveva sapere cosa c'era
+in quel coso, amico!<page>
+Con la principessa in mano loro,
+Villnore avrebbe avuto
+Artolia in pugno.
+@@ 28
+<5><18><3:03>Avrei ucciso volentieri
+<5>quel <3:05>lurido furfante<12:8e09><3:32>.<3:03>
+<3:03><5><18>Ma avevo cose più importanti da fare<3:0c>...<3:ff><12:6d09><17:7800>
+@@ 29
+<18><5><3:04>Ah<3:1e>,<3:04> Arngrim<3:0c>・・・<3:1e>
+<3:04><5>Che dolore<3:0c>・・・<3:14> <3:04>Aiutami<3:0c>・・・<3:32>
+<3:03><5>Salvami!!<17:7800>
+@@ 30
+Uomo
+「Iiiiiaaah!
+@@ 31
+Uomo
+「Aaaaargh!
+@@ 32
+<19:0100>Badrach
+「Che<3:0c>・・・<3:ff>?

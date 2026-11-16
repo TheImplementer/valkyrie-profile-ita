@@ -1,0 +1,179 @@
+# Valkyrie Profile menu text 6 (title screen and New Game menu): 305 messages, package sectors 119..245 of VALKYRIE.BIN
+# Edit the text under any "@@ 0x.." line (a message id); delete the entries you do not change.
+# A line break is a new line (0x80). {xx ...} are raw bytes: {81 80 07} and the like are
+# commands, {60}-{7f} and {82}-{85} extra glyphs; { and } themselves are {5c} and {5e}.
+# Printable ASCII is in the menu font; accented letters (à è é ì ò ù È ...) are drawn over
+# the { } \ ^ _ ` | @ < > glyphs, up to 10 per table. `build` also changes every other menu table
+# (and the battle item table 1806.1) that has the same id with the same original text
+# (an item name is in several), unless --no-link is given.
+
+@@ 0x0064
+Nuova Partita
+@@ 0x0065
+Continua
+@@ 0x0066
+Colonna Sonora
+@@ 0x0067
+{81 80 07}Nuova Partita
+@@ 0x0068
+{81 80 07}Continua
+@@ 0x0069
+{81 80 07}Colonna Sonora
+@@ 0x006a
+Opzioni
+@@ 0x006b
+{81 80 07}Opzioni
+@@ 0x006c
+{81 80 07}Porta Serafica
+@@ 0x0096
+{81 80 07}Livello di difficoltà
+@@ 0x0097
+Facile
+@@ 0x0098
+Normale
+@@ 0x0099
+Difficile
+@@ 0x009a
+Consigliato ai principianti o a chi non è molto esperto.
+
+È anche un'ottima scelta per dare un'occhiata al gioco. 
+@@ 0x009b
+Consigliato a chi vuole godersi una partita normale.
+
+Il gioco include tutti gli elementi di base.
+@@ 0x009c
+Consigliato a chi vuole scoprire il gioco fino in fondo. 
+
+Attenzione: questa scelta non è pensata per divertirsi, 
+
+ma come una vera sfida!
+@@ 0x00a0
+Punti esp.
+@@ 0x00a1
+Oggetti
+@@ 0x00a2
+Durata capitoli 
+@@ 0x00a4
+Personaggi
+@@ 0x00a5
+Livello iniziale
+@@ 0x00a6
+Finali possibili
+@@ 0x00a7
+Molti
+@@ 0x00a8
+Pochi
+@@ 0x00a9
+Breve
+@@ 0x00aa
+Fisso per ognuno
+@@ 0x00ac
+Normale
+@@ 0x00ae
+illimitati
+@@ 0x00af
+Tutti al LV1
+@@ 0x00b0
+{81 80 06}Facile
+@@ 0x00b1
+{81 80 06}Difficile
+@@ 0x00c9
+Capitolo
+@@ 0x00ca
+Periodo
+@@ 0x0121
+Facile
+@@ 0x0122
+Normale
+@@ 0x0123
+Difficile
+@@ 0x014b
+Stereo
+@@ 0x0192
+Valhalla
+@@ 0x0475
+ON
+@@ 0x0476
+OFF
+@@ 0x0fa0
+Valkyrie
+@@ 0x0fa1
+Freya
+@@ 0x0fa2
+Arngrim
+@@ 0x0fa3
+Jelanda
+@@ 0x0fa4
+Lawfer
+@@ 0x0fa5
+Belenus
+@@ 0x0fa6
+Llewelyn
+@@ 0x0fa7
+Kashell
+@@ 0x0fa8
+Janus
+@@ 0x0fa9
+Nanami
+@@ 0x0faa
+Yumei
+@@ 0x0fab
+Aelia
+@@ 0x0fac
+Jun
+@@ 0x0fad
+Lyseria
+@@ 0x0fae
+Badrach
+@@ 0x0faf
+Grey
+@@ 0x0fb0
+Lorenta
+@@ 0x0fb1
+Mystina
+@@ 0x0fb2
+Shiho
+@@ 0x0fb3
+Jayle
+@@ 0x0fb4
+Suo
+@@ 0x0fb5
+Gandar
+@@ 0x0fb6
+Lucian
+@@ 0x0fb7
+Lezard Valeth
+@@ 0x0fb8
+Brahms
+@@ 0x0fba
+Gabriel Celeste
+@@ 0x0fbb
+Akhetamen
+@@ 0x0fbc
+Barbarossa
+@@ 0x0fbd
+Genevieve
+@@ 0x0fbe
+Bloodbane
+@@ 0x0fc0
+Surt
+@@ 0x0fc1
+Loki
+@@ 0x0fc2
+Hrist
+@@ 0x1f43
+Valhalla
+@@ 0x1f44
+Gerabellum
+@@ 0x1f46
+Villnore
+@@ 0x1f47
+Hai-Lan
+@@ 0x1f48
+Flenceburg
+@@ 0x1f49
+Crell Monferaigne
+@@ 0x1f4a
+Artolia
+@@ 0x1f4c
+Lassen

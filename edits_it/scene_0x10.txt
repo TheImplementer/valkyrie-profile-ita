@@ -1,0 +1,53 @@
+# Valkyrie Profile scene 0x10 (-): 49 records, directory word 3626, package sectors 157003..157162 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:0000>Lucian
+「<18><3:03>Dove<3:0c>...<3:ff>?<17:3c00>
+@@ 15
+<19:0100>Platina
+「<18><3:05>Che meraviglia! <3:3c>
+<3:04>Pensi che questo sia<3:0c>...<17:7800>
+@@ 16
+<19:0100>Platina
+「<3:0a>...<18><3:04>il Cielo?<17:5a00>
+@@ 17
+<19:0000>Lucian<12:3c09>
+「<18><3:03>Porta sfortuna dire certe cose!<17:5a00>
+@@ 18
+<19:0100>Platina
+「<18><3:03>Ih ih.<3:28>
+<3:04>Scusa.<17:3c00>
+@@ 19
+<19:0000>Lucian
+「<18><3:03>Questi fiori<3:08>... <3:03>Sono<3:0c>...<3:ff>!<17:3c00>
+@@ 20
+<19:0000>Lucian
+「<18><3:03>Platina!<3:0a> <3:03>Dobbiamo andarcene!<3:07>
+<3:03>Questi fiori, tutti quanti, sono<3:0c>...<17:7800>
+@@ 21
+<19:0000>Lucian
+「<18><3:03>Gigli del Pianto!<17:3c00>
+@@ 22
+<19:0100>Platina
+「<18><3:08>Gigli...<3:04>del Pianto?<17:3c00>
+@@ 23
+<19:0100>Lucian
+「<18><3:03>Proprio così<3:19>!<3:03> Se restiamo qui,
+il loro <3:02>veleno ci ucciderà!<17:7800>
+@@ 25
+<19:0000>Platina
+「<18><3:04>Se mi addormentassi qui<3:0a>,<3:04>
+potrei semplicemente<3:08>...<3:04>svanire?<17:7800>
+@@ 39
+<5><3:0c>Lucian<3:0c>...<17:5a00>
+@@ 40
+<5><3:0c>Lucian?<17:5a00>
+@@ 41
+<5>Lucian?!<17:5a00>
+@@ 45
+<19:0100>Valkyrie
+「<3:0c>・・・<3:ff>Lucian<3:0c>・・・<3:ff>

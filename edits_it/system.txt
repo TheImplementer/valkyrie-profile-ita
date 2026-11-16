@@ -1,0 +1,45 @@
+# Valkyrie Profile system messages: records 0-13, the same in every scene's text block
+# `build` writes each edited message into every scene that has the original (1,118 on disc 1).
+# A scene edit file that also lists one of these records wins for its scene.
+# The engine draws them in boxes of a fixed size (none grows): a line must be narrower than
+#   2: 280 px  7: 280 (probably)   3: 236 x 5 lines   4: 172 x 4   5: 224 x 3   6: 204 x 3   8: 240
+#   9, 10: 192   11: 140 x 3   13: 96   (a <14:..> number needs about 35 px more)
+# Same syntax as a scene edit file.
+
+@@ 2
+<5>L'oggetto si è rotto.
+@@ 3
+<5>▼<4:02>Attenzione!!<4:00>▼
+<5>Questo oggetto è un "Artefatto".
+<5>Tutti gli Artefatti appartengono
+<5>di diritto al sommo Odino.
+<5>Restituiscilo o la Valutazione calerà.
+@@ 4
+Vuoi offrire l'Artefatto
+al sommo Odino?
+・Sì
+・No
+@@ 5
+<5>L'Artefatto è stato inviato nel Valhalla.
+<5>Valutazione +1
+<5>Hai ottenuto <14:00> punti esp. evento.
+@@ 6
+<5>Hai ottenuto un Artefatto.
+<5><4:02> Valutazione -5<4:00>
+<5>Hai ottenuto <14:00> punti esp. evento.
+@@ 7
+<5>Non puoi portare altri oggetti.
+@@ 8
+<5>Hai ottenuto <14:05> punti esp. evento.
+@@ 9
+<5>Indietro
+@@ 10
+<5>Avanti
+@@ 11
+Tornare alla mappa?
+・Sì
+・No
+@@ 12
+Scenario Error 1
+@@ 13
+<5>Battaglia

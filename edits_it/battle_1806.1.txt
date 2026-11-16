@@ -1,0 +1,132 @@
+# Valkyrie Profile battle text 1806.1 (items, equipment and spells: names and help lines): 1080 messages, file 1806 sectors 44303..44317 of VALKYRIE.BIN
+# Edit the text under any "@@ 0x.." line (a message id); delete the entries you do not change.
+# A line break is a new line (0x80). {xx} is a raw glyph number in hex (a glyph without a
+# character). Printable ASCII, accented letters (à è é ì ò ù È ...) and
+# … 「 · ’; a character the font lacks is added to it.
+# `build` also changes the camp-menu tables that have the same id with the same original
+# text (item names), unless --no-link.
+
+@@ 0x07d1
+Elisir
+@@ 0x07d2
+Rimedio
+@@ 0x07d3
+Piuma dell'Unione
+@@ 0x07d4
+Elisir Primo
+@@ 0x07d5
+Rimedio Primo
+@@ 0x07d6
+Elisir Nobile
+@@ 0x07d7
+Rimedio Nobile
+@@ 0x07d8
+Occhiali
+@@ 0x07d9
+Gemma Creatrice
+@@ 0x07da
+Gioiello Creatore
+@@ 0x07e2
+Pozione Forza
+@@ 0x07e3
+Pozione Nettare
+@@ 0x07e4
+Pozione Scudo
+@@ 0x07e5
+Pozione Vigile
+@@ 0x07ef
+Carica Rapida
+@@ 0x07f0
+Pozione Combo
+@@ 0x07f1
+Angioletto
+@@ 0x07f2
+Amuleto Difesa
+@@ 0x07f3
+Amuleto Magia
+@@ 0x07f4
+Amuleto Tutela
+@@ 0x0bb9
+Pozione che ripristina i DME (energia divina).
+
+Ripristina il 50% dei DME massimi.
+@@ 0x0bba
+Pozione che cura gli stati alterati (Veleno, Svenuto, 
+
+Congelato, Paralizzato). Non cura Pietra e Maledizione.
+@@ 0x0bbb
+Piuma che fa rinvenire i personaggi 
+
+privi di sensi.
+@@ 0x0bbc
+Pozione che ripristina i DME perduti. 
+
+Ripristina il 99% dei DME massimi.
+@@ 0x0bbd
+Pozione che cura gli stati Pietra e Maledizione. 
+
+Non cura veleno, svenimento, gelo o paralisi.
+@@ 0x0bbe
+Pozione che ripristina i DME di tutti e 4 i membri 
+
+Ripristina il 99% dei DME massimi.
+@@ 0x0bbf
+Cura gli stati alterati di tutto il gruppo: veleno,
+
+paralisi, svenimento, gelo, pietra e maledizione.
+@@ 0x0bc0
+Permette di "vedere" abilità e punti deboli del nemico.
+@@ 0x0bc1
+Gemma usata per trasmutare oggetti di creazione divina.
+
+Può essere equipaggiata e usata da Valkyrie.
+@@ 0x0bc2
+Gemma usata per trasmutare oggetti di creazione divina.
+
+Permette di creare oggetti più grandi e potenti. 
+
+Può essere equipaggiata e usata da Valkyrie.
+@@ 0x0bca
+Pozione che aumenta l'attacco del 50% del valore base. 
+
+L'effetto dura 2 turni.
+@@ 0x0bcb
+Pozione che protegge dagli stati alterati. 
+
+Dura 2 turni. Protegge soltanto, non cura.
+@@ 0x0bcc
+Pozione che impedisce di svenire. 
+
+Non cura lo svenimento, lo previene soltanto.
+@@ 0x0bcd
+Rende invisibili ai nemici. Dura 5 turni.
+
+L'effetto svanisce se si compie un attacco. 
+@@ 0x0bd7
+Usa il 30% dei DME dell'utente per azzerare il CT
+
+(turni di carica). Utile quando serve agire subito.
+@@ 0x0bd8
+Pozione che aumenta di 5 l'indicatore dell'attacco 
+
+speciale. L'effetto dura 2 turni.
+@@ 0x0bd9
+Statuetta d'angelo che rianima chi la possiede
+
+ se perde i sensi. Probabilità di rompersi=30%.
+@@ 0x0bda
+Amuleto che rende immuni ai danni fisici. 
+
+Probabilità di rompersi=30%. I danni fisici includono 
+
+anche gli attacchi di stato alterato.
+@@ 0x0bdb
+Amuleto che rende immuni ai danni magici. 
+
+Probabilità di rompersi=25%.
+@@ 0x0bdc
+Amuleto che rende immuni agli stati alterati. 
+
+Probabilità di rompersi=25%. Contro attacchi sconosciuti 
+
+potrebbe non funzionare come previsto.

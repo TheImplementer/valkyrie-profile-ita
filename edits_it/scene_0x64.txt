@@ -1,0 +1,188 @@
+# Valkyrie Profile scene 0x64 (To outside): 68 records, directory word 3710, package sectors 166199..166298 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<5>Uscita
+@@ 15
+<19:0100>Roland
+「Bentornato, fratello.
+@@ 16
+<19:0100>Roland
+「Ehi<3:28>, <3:ff>stai bene?
+@@ 17
+<19:0000>Arngrim
+「Sì. Tu siediti.
+@@ 18
+<19:0000>Arngrim
+「Disegni ancora
+quella roba?
+@@ 19
+<19:0100>Roland
+「L'arte è più di
+"quella roba"<3:0c>・・・<3:ff>
+@@ 20
+<19:0000>Arngrim
+「Se non la puoi vendere,
+a che serve?
+@@ 21
+<19:0100>Roland
+「Non lo faccio per soldi.
+@@ 22
+<19:0000>Arngrim
+「Mmh.
+@@ 23
+<19:0000>Arngrim
+「Come ti pare.
+@@ 24
+<19:0100>Roland
+「Fratello<3:0c>・・・<3:ff><page>
+È diverso.
+Diverso dalla guerra, dove
+non fai che uccidere.
+@@ 25
+<19:0000>Arngrim
+「Cosa!?
+@@ 26
+<19:0000>Arngrim
+「Io non combatto per soldi.
+Faccio il mercenario perché
+mi diverte.
+Proprio come te, no!?
+@@ 27
+<19:0100>Arngrim
+「Non me ne frega niente di
+"esprimere me stesso" e roba simile.
+@@ 28
+<19:0100>Arngrim
+「Dimmi, Roland<3:28>,<3:ff>
+cosa c'è di divertente nell'arte?
+@@ 29
+<19:0000>Roland
+「Ti sembra stupido, fratello, perché
+ti accontenti di quello che hai.
+@@ 31
+<19:0000>Roland
+「Per me, disegnare è sempre stato<3:28> <3:ff>
+un modo per sfuggire ai limiti
+di questo mio corpo fragile.
+@@ 32
+<19:0000>Roland
+「Scusami, fratello<3:28>.<3:ff>
+So che combatti anche
+per mantenere me <7:0b>-<7:01>
+@@ 33
+<19:0100>Arngrim
+「Ti lascio qui i soldi.
+@@ 34
+<19:0000>Roland
+「Quella statua?
+@@ 35
+<19:0100>Arngrim
+「È un regalo di Sua Altezza<3:3c>.<3:ff>
+La danno a chi uccide più
+gente in battaglia.
+@@ 36
+<19:0000>Arngrim
+「Siediti e riposati.
+@@ 37
+<19:0100>Arngrim
+「Ti <3:1e><3:ff>serve qualcosa?
+@@ 38
+<19:0000>Ragazza
+「Voi non siete<3:0c>・・・<3:ff>
+cioè<3:1e>, <3:ff>non sarete per caso ser Arngrim?
+@@ 39
+<19:0100>Arngrim
+「Sì<3:1e>,<3:ff>
+sono io・・・
+@@ 40
+<19:0000>Ragazza
+「Io sono<3:0c>・・・<3:ff>cioè<3:28>,
+<3:ff>il mio nome è<3:0c>・・・<3:ff>
+Ehm<3:0c>・・・<3:ff>Jela<3:0c>・・・<3:ff>
+@@ 41
+<19:0100>Arngrim
+「Jela?
+@@ 42
+<19:0000>Ragazza
+「Sì<3:1e>! <3:ff>Cioè<3:14>,<3:ff> no
+Jela<3:0c>・・・<3:ff>Ehm<3:0c>・・・<3:ff>
+@@ 43
+<19:0000>Ragazza
+「Mi chiamo Angela.
+@@ 46
+<19:0100>Arngrim
+「E<3:0c>・・・<3:ff>
+cosa volete da me,
+madamigella Angela?
+@@ 47
+<19:0000>Angela
+「Sono venuta<3:0c>・・・<3:28> <3:ff>
+a offrirvi un lavoro.
+@@ 48
+<19:0100>Arngrim
+「<3:0c>・・・<3:ff>Dite sul serio?
+@@ 49
+<19:0100>Roland
+「Hai tempo.
+Perché non la ascolti?
+@@ 51
+<19:ffff>Roland
+「Fratello<3:1e>,<3:ff> c'è una visita per te.
+@@ 52
+<19:0100>Agente
+「Devo parlarti<3:0c>・・・<3:ff>
+@@ 53
+<19:0100>Roland
+「È per un lavoro?
+@@ 54
+<19:0000>Arngrim
+「Sì.
+@@ 55
+<19:0100>Roland
+「L'hai accettato?
+@@ 56
+<19:0000>Arngrim
+「Parto domani mattina.
+Resterai di nuovo solo
+per qualche giorno.
+@@ 57
+<19:0100>Roland
+「E la Principessa?
+@@ 58
+<19:0000>Arngrim
+「Salterà, credo<3:0c>・・・<3:ff>
+@@ 59
+<5><3:03><18>Il nostro<3:04> pacco?<17:c800>
+@@ 60
+<19:ffff>Roland
+「Era da tanto che non
+stavi in casa tutto
+il giorno, eh?
+@@ 61
+<19:ffff>Roland
+「La Principessa non viene,
+vero?
+@@ 62
+<19:ffff>Arngrim
+「Credo di no.
+@@ 63
+<19:ffff>Roland
+「Ma a pensarci, la principessa
+fuori dal castello<3:0c>...<3:ff>
+@@ 64
+<19:ffff>Arngrim
+「Sì, immagino.
+@@ 65
+<19:ffff>Roland
+「Se continua a scappare, finirà
+per far giustiziare i servitori <7:0b>-<7:01>
+@@ 66
+<19:ffff>Arngrim
+「Già.
+@@ 67
+<19:ffff>Roland
+「Che chiacchierone<3:0c>・・・<3:ff>

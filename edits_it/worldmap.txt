@@ -1,0 +1,92 @@
+# Valkyrie Profile world map text: 136 messages, directory word 4797 streams 38 (font) and 39 (strings), sectors 295367..295555 of VALKYRIE.BIN
+# Edit the text under any "@@ 0x.." line (a message id); delete the entries you do not change.
+# The text is written as in a scene edit file: a line break is a new line, <page> a new box page,
+# <N> / <N:hex> the other commands (2 waits for a button), {xx} a raw glyph code. A character the
+# font lacks (an accented letter too) is added to it.
+
+@@ 0x0007
+Premi START per avviare
+la concentrazione spirituale.
+@@ 0x012c
+Freya
+「Senti qualcosa?<2>
+@@ 0x012d
+Valkyrie
+「Cosa intendi?<2>
+@@ 0x012e
+Freya
+「Possiedi un potere
+che appartiene solo a te.<2><page>
+Chiudi gli occhi e apri il tuo cuore.<2>
+Concentrati e ascolta.<2>
+Capirai.<2>
+@@ 0x0136
+Valkyrie
+「<3:02>・・・Sì・・・・・・<2>
+@@ 0x0137
+Freya
+「Lo senti?<2>
+@@ 0x0138
+Valkyrie
+「Che cos'è・・・?<2>
+@@ 0x0139
+Freya
+「È il tuo potere.<2>
+Sentire il dolore, la rabbia e
+le speranze di chi sta per morire.<2><page>
+Sentire il grido
+delle loro anime.<2><page>
+Il tuo compito è accogliere
+in te le anime dei defunti
+che sono stati prescelti.<2>
+@@ 0x013a
+Valkyrie
+「Devo cercare tra le anime
+dei defunti quelle degne
+di diventare eroi?<2>
+@@ 0x013b
+Freya
+「Sì. Ed è per questo・・・<2>
+@@ 0x013c
+Valkyrie
+「Per questo cosa?<2>
+@@ 0x013d
+Freya
+「Andiamo.<2><page>
+Se ci avviciniamo ancora, potrai
+sincronizzare la tua anima
+con la loro.<2>
+Allora capirai di più.<2>
+@@ 0x0140
+<3:14><3:04>Anime umane?<3:14> <3:04>Accoglierle dentro di me?<3:3c>
+@@ 0x014a
+Freya
+(Il destino sa essere
+davvero crudele・・・)<2>
+@@ 0x014b
+Valkyrie
+「Che succede?<2>
+@@ 0x014c
+Freya
+「Niente.
+Andiamocene da qui.<2>
+@@ 0x014d
+Valkyrie
+「E adesso?<2>
+@@ 0x014e
+Freya
+「Sì.<2><page>
+Anche l'acciaio più duro va
+prima temprato, non credi?<2>
+Mandarli subito ad Asgard
+sarebbe una condanna a morte.<2><page>
+Concentrati di nuovo.<2>
+Dovresti riuscire a percepire
+anche la presenza dei non morti.<2>
+@@ 0x0154
+Valkyrie
+「<3:02>Sì・・・li percepisco・・・
+<3:01>Sono vicini!<2>
+@@ 0x0155
+Freya
+「Andiamo a vedere!<2>

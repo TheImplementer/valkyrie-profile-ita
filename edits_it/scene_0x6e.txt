@@ -1,0 +1,207 @@
+# Valkyrie Profile scene 0x6e (-): 74 records, directory word 3720, package sectors 166914..167151 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:0100>Badrach
+「Per questo lavoro mi pagano
+un sacco, quindi chi se ne frega
+di cosa c'è dentro?<17:b800>
+Eh, signor guardia del corpo?<17:b800>
+@@ 16
+<19:0100>Badrach
+「Grrr<3:14>,<3:ff>
+Quel Lombert<3:0c>・・・<3:ff><17:b800>
+@@ 17
+<19:0000>Arngrim
+「Lombert<3:28>?<3:ff>
+Il Gran Consigliere di Artolia?<17:b800><page>
+Non è stato l'agente
+ad assumerci? <17:b800>
+@@ 18
+<19:0100>Badrach
+「Ehi, guardia del corpo<3:1e>.<3:ff>
+Arriva qualcosa alle tue spalle!
+@@ 19
+<19:0000>Arngrim
+「Cosa?
+@@ 20
+<19:0100>Badrach
+「Cavalieri!<3:28>!<3:ff>
+E un sacco!
+@@ 21
+<19:0000>Arngrim
+「Cavalieri!?
+@@ 22
+<5><3:03><18>A sollevare la polvere sembrava
+<5>un drappello della cavalleria di Artolia<12:8509><3:5a>.<3:03>
+<18><5>Pareva che inseguissero qualcosa, ma<12:8609><3:1e>
+<3:04><18><5>non avrei mai immaginato che fossimo noi<3:0c>・・・<3:ff><17:7800>
+@@ 23
+<19:0100>Cavaliere di Artolia
+「Alt<3:1e>!<3:ff>
+Consegnate il carico per l'ispezione.
+@@ 24
+<19:0000>Badrach
+「Ehi<3:1e>,<3:ff> un momento!
+@@ 25
+<5><3:03><18>Se ci ripenso adesso<3:0c>・・・<12:8809><3:32>
+<3:03><18><5>non avrei mai dovuto accettare quel pacco
+<5>senza sapere cosa contenesse<12:8909><3:5a>.<3:03>
+<18><5>Non era da me<3:0c>・・・<3:ff> <17:7800>
+@@ 26
+<19:0100>Cavaliere di Artolia
+「Sono loro!!
+@@ 27
+<19:0000>Arngrim
+「Andiamocene!
+@@ 28
+<19:0100>Badrach
+「Ehi<3:1e>,<3:ff> aspetta un attimo!!
+@@ 29
+<19:0000>Badrach
+「Che!?
+@@ 30
+<19:0100>Badrach
+「Ehi<3:28>,<3:ff> che diavolo è quello!?
+@@ 31
+<19:0000>Cavaliere
+「A<3:28>,<3:ff> AIUTATECI<3:0c>・・・<3:ff>!
+@@ 32
+<19:0100>Arngrim
+「Ehi<3:28>, <3:ff>
+che succede?
+Jelanda?
+@@ 33
+<19:0000>Cavaliere
+「Ehm<3:28>,<3:ff>
+La principessa era svenuta, e
+il capitano ci ha detto<3:28><3:ff>
+di darle questa medicina
+avuta da Lombert<3:0c>・・・<3:ff>
+@@ 34
+<19:0100>Badrach
+「Ma quella è<3:0c>・・・<3:ff>
+la principessa!?
+@@ 35
+<3:03><5><18>Lombert faceva il doppio gioco.<12:9009><17:7800>
+@@ 36
+<3:03><5><18>Sapeva che il rapimento sarebbe stato scoperto,<12:9109><3:1e>
+<3:03><18><5>così mandò della "medicina"
+<5>insieme alla squadra di ricerca <7:0b>-<7:01><12:9209><17:7800>
+@@ 37
+<3:03><5><18>Se fossimo arrivati fino a Villnore,
+<5>nessun problema<12:9309><3:3c>.<3:03>
+<18><5>Ma se ci avessero scoperti,
+<5>i cavalieri <3:04>avrebbero usato la "medicina"<3:0c>・・・<3:ff><12:9409><17:7800>
+@@ 38
+<3:03><5><18>Sapeva che la principessa sarebbe stata
+<5>priva di sensi<3:02> quando l'avessero trovata.<12:9509><17:7800>
+@@ 39
+<3:03><5><18>L'<3:06>effetto<3:0f> <3:03>della medicina, lo vedi da te.<12:9609><17:7800>
+@@ 40
+<3:03><5><18>La principessa divenne un mostro<3:1e>,<3:03>
+<5>e poi <3:04>morirono tutti.<12:9709><17:7800>
+@@ 41
+<3:03><5><18>Forse<3:1e> <3:03>anche la principessa<3:0c>...<3:ff><17:7800>
+@@ 42
+<19:0000>Badrach
+「Ecco cosa succede
+quando uno beve
+la Polvere di Ghoul!
+@@ 43
+<19:0100>Arngrim
+「Polvere di Ghoul?
+@@ 44
+<19:0000>Badrach
+「Già<3:28>. <3:ff>
+Trasforma la gente in demoni urlanti.<page>
+I negromanti la usano
+di continuo.
+@@ 45
+<19:0100>Arngrim
+「Lombert è<3:0c>・・・<3:ff>
+un negromante?
+@@ 46
+<19:0100>Arngrim
+「Angela<3:0c>・・・<3:ff>
+@@ 47
+<19:0000>Badrach
+「Angela<3:28>?<3:ff>
+Vuoi dire Jelanda?
+Ma di che parli?
+@@ 48
+<19:0000>Badrach
+「È ora di tornare ad Artolia<3:3c>.<3:ff>
+Io me ne vado<3:28>.<3:ff> Ci si vede!
+@@ 49
+<3:02><5><18>Forse la sua fu la scelta giusta<3:28>,<3:04> non so.<12:9909><3:5a>
+<3:03><5><18>Ma <3:14>io<3:03> non sarei scappato.<12:9a09><17:7800>
+@@ 50
+<3:03><5><18>Nemmeno sul campo di battaglia<3:0f>,<3:04>
+<5>mi ero mai sentito così.<12:9b09><17:7800>
+@@ 51
+<3:03><5><18>Lombert<3:0c>・・・<12:9c09><3:3c>
+<3:04><5><18>Io <3:04>ti<3:0f> <3:05>ucciderò.<12:9d09><17:7800>
+@@ 52
+<3:08><5><18>Ma<12:9e09> <3:3c><7:0b>-<7:01><3:03>
+<5><18>che ne <3:04>sarà di Jelanda<3:0c>・・・<3:ff><17:b400>
+@@ 53
+<19:0100>Arngrim
+「Fermati!<3:28>!<3:ff>
+Quella è<3:0c>・・・<3:ff>!!
+@@ 54
+<19:0000>Valkyrie
+「Umano<3:28>,<3:ff>
+la vita non va gettata via.<page>
+Se sei un vero guerriero,
+troverai la tua strada
+nel vortice della battaglia.
+@@ 55
+<19:0100>Arngrim
+「La Vergine della Battaglia,
+Valkyrie?
+@@ 56
+<3:03><5><18>Chi non conosceva quelle leggende?<12:a009><17:7800>
+@@ 57
+<3:04><5><18>La guerra senza fine che gli dèi combattono
+<3:03><5>contro le creature delle tenebre.<17:7800>
+@@ 58
+<3:04><5><18>La battaglia è il mio <3:05>più grande piacere<12:a209><3:0c>・・・<3:5a>
+<3:04><5><18>Ma questa volta era diverso.<12:7409><17:7800>
+@@ 59
+<5><3:02><18>Ti sembra stupido, fratello,<3:1e>
+<3:02><5>perché ti accontenti di quello che hai.<12:a309><17:7800>
+@@ 60
+<3:03><5><18>Ti sbagli!!<17:7800>
+@@ 61
+<5><3:03><18>Era attraverso le disgrazie altrui
+<5>che mi sentivo forte.<12:a509><17:7800>
+@@ 62
+<3:03><5><18>Proprio così<12:a609><3:0c>・・・<3:46>
+<3:04><5><18>Anch'io ero un uomo senza morale<12:a709><3:5a>.<3:03>
+<5><18>Chi ero <3:14>io<3:03> per giudicare gli altri?<12:a809><17:7800>
+@@ 63
+<3:03><5><18>Chi ero <3:14>io<3:03> per disprezzarli<12:a909><3:3c>?<3:06>
+<5><18>Ingiustizia.<12:aa09><17:7800>
+@@ 64
+<5><3:04><18>Cominciai a capire che il Re e io<12:ab09><3:3c>
+<3:04><5><18>eravamo molto<3:0f> <3:03>simili <7:0b>-<7:01><17:7800>
+@@ 65
+<19:0000>Jelanda
+<3:04>「<18>Vi supplico!<12:ad09><3:32>!<3:03>
+<18>Dovete salvare<3:0f> <3:04>Arngrim<3:19>,<3:03> vi prego!<17:7800>
+@@ 66
+<19:0100>Valkyrie
+<3:04>「<18>Salvarlo<3:3c>?<3:03>
+E come pensi che potrebbe salvarsi?<17:7800>
+@@ 67
+<19:0000>Jelanda
+<3:03>「<18>Eh<3:0c>・・・<3:08>
+Io<3:0c>・・<3:1e>・<3:08> Io<3:0c>・・・<17:7800>
+@@ 68
+<19:0100>Valkyrie
+<3:03>「<18>Lasciandolo vivere ancora<3:28>?<3:03>
+O venendo <3:05>scelto<3:04> da me?<17:7800>

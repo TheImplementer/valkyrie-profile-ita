@@ -1,0 +1,13 @@
+# Valkyrie Profile scene 0x3 (-): 17 records, directory word 3613, package sectors 155679..155809 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:ffff>Platina
+<18>「<3:04>Devo sbrigarmi!<17:5a00>
+@@ 15
+<19:ffff>Platina
+「<18><3:03>Non voglio che la mamma
+mi sgridi di nuovo<3:0c>...<3:ff><17:7800>

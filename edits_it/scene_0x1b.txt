@@ -1,0 +1,36 @@
+# Valkyrie Profile scene 0x1b (-): 22 records, directory word 3637, package sectors 158303..158455 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:0100>Frei
+<3:04>「<18>Bentornata nel Valhalla!<12:5109><17:7800>
+@@ 15
+Valkyrie
+<3:04>「<18>Sembra <3:03>che tu
+stia aspettando qualcuno.<12:5209><17:7800>
+@@ 16
+<19:0100>Frei
+<3:03>「<18>Certo!<3:3c> <3:03>Ti stavo aspettando,<3:1e><3:03>
+Lenneth!<3:1e> <3:03>Ti aspetto da quando mia
+sorella <3:04>Freya<3:0f> <3:03>mi ha detto<3:0a> <3:03>che saresti<3:02> tornata!<12:5309><17:7800>
+@@ 17
+Valkyrie
+<3:03>「<18>È passato così tanto<3:0c>...<3:03>?
+Stai bene?<12:5409><17:7800>
+@@ 18
+<19:0100>Frei
+<18><3:05>「Sì.<12:5509><17:7800>
+@@ 19
+<19:0100>Frei
+<3:04>「<18>Oh<3:1e>!<3:03>
+Il sommo Odino ti attende all'interno.<12:5609><17:7800>
+@@ 20
+Valkyrie
+<3:03>「<18>Certo<3:1e>.<3:03>
+Ne parleremo più tardi, Frei.<17:7800>
+@@ 21
+Valkyrie
+「Io vado avanti.

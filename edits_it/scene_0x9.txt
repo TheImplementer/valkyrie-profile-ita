@@ -1,0 +1,58 @@
+# Valkyrie Profile scene 0x9 (-): 27 records, directory word 3619, package sectors 156228..156321 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:0000>Platina
+「<18><3:04>Lucian, io<3:0c>...
+<3:04>voglio tornare a casa.<17:7800>
+@@ 15
+<19:0100>Lucian
+「<18><3:03>Come puoi dire così!?<17:7800>
+@@ 16
+<19:0000>Platina
+「<18><3:04>La mamma non mi ha detto
+niente di tutto questo<3:0c>...<17:7800>
+<18><3:04>Sei sicuro che non sia un malinteso?
+Che mi abbiano venduta<3:0c>...<3:ff>?<17:b400>
+@@ 17
+<19:0000>Platina
+「<18><3:04>Sarà così in pensiero per me
+in questo momento<3:0c>...<17:7800>
+@@ 18
+<19:0000>Platina
+「<18><3:08>Lucian?<17:5a00>
+@@ 19
+<19:0100>Lucian
+「<18><3:04>Li hai visti gli uomini in nero,<3:1e>
+<3:04>vero?<17:2800>
+<18><3:03>Sono venuti anche a casa mia!<17:b400> 
+@@ 20
+<19:0100>Lucian
+「<18><3:03>E il giorno dopo<3:14>,
+<3:03>la mia sorellina era sparita<3:28>...<3:ff><17:5000>
+<18><3:03>Mamma e papà
+non mi hanno detto niente.<17:7800>
+@@ 21
+<19:0000>Platina
+「<18><3:05>Cosa?<3:1e> <3:03>Ma tutti dicevano<3:14>
+<3:03>che si era ammalata...<17:7800>
+@@ 22
+<19:0100>Lucian
+「<18><3:05>Ah sì?<3:28> <3:03>Hai mai sentito di una malattia che fa sparire?<17:3c00>
+<18><3:03>E poi,<3:14> <3:03>la mia famiglia non ha soldi 
+per i dottori!<17:7800>
+@@ 24
+<19:0100>Lucian
+「<18><3:04>È solo che<3:0c>...
+<3:02>non voglio perderti.<17:7800>
+@@ 25
+<19:0000>Platina
+「<18><3:05>Lucian<3:0a>...<3:ff><17:5a00>
+@@ 26
+<19:0000>Platina
+「<18><3:03>Allora scappiamo...<3:08>
+<3:03>Lontano!<17:5a00>
+<18>Verrò ovunque con te, Lucian<3:0c>...<17:7800>

@@ -1,0 +1,169 @@
+# Valkyrie Profile menu text 2185 (camp menu: Data (save / load)): 87 messages, package sectors 84663..84670 of VALKYRIE.BIN
+# Edit the text under any "@@ 0x.." line (a message id); delete the entries you do not change.
+# A line break is a new line (0x80). {xx ...} are raw bytes: {81 80 07} and the like are
+# commands, {60}-{7f} and {82}-{85} extra glyphs; { and } themselves are {5c} and {5e}.
+# Printable ASCII is in the menu font; accented letters (à è é ì ò ù È ...) are drawn over
+# the { } \ ^ _ ` | @ < > glyphs, up to 10 per table. `build` also changes every other menu table
+# (and the battle item table 1806.1) that has the same id with the same original text
+# (an item name is in several), unless --no-link is given.
+
+@@ 0x00f2
+Salva
+@@ 0x00f3
+Carica
+@@ 0x00f4
+Salvataggio fallito.  Riprovare?
+@@ 0x00f5
+Dati già presenti. Sovrascrivere?
+@@ 0x00f6
+Salvataggio riuscito.
+@@ 0x00f7
+Salvataggio in corso. Non rimuovere 
+
+MEMORY CARD o controller.
+
+Non premere RESET e non spegnere.
+
+I dati potrebbero danneggiarsi.
+@@ 0x00f8
+Lo spazio libero su questa MEMORY CARD
+
+è insufficiente. Impossibile salvare.
+
+Usa una MEMORY CARD
+
+con due blocchi liberi.
+@@ 0x00f9
+MEMORY CARD non formattata 
+
+Formattarla?
+@@ 0x00fd
+Nessun dato
+@@ 0x00fe
+{81 80 01}Spazio insufficiente.
+@@ 0x00ff
+Controllo MEMORY CARD...
+@@ 0x0100
+MEMORY CARD non inserita.
+
+
+@@ 0x0102
+Sì
+@@ 0x0108
+Dati 1
+@@ 0x0109
+Dati 2
+@@ 0x010a
+Dati 3
+@@ 0x010b
+Dati 4
+@@ 0x010c
+Dati 5
+@@ 0x010d
+Dati 6
+@@ 0x010e
+Dati 7
+@@ 0x010f
+Errore durante la
+
+lettura della MEMORY CARD.
+@@ 0x0111
+Errore durante l'accesso
+
+ai dati della MEMORY CARD.
+
+Operazione interrotta.
+@@ 0x0113
+Caricamento...
+@@ 0x0114
+{81 80 07}Capitolo
+@@ 0x0115
+{81 80 07}Periodo
+@@ 0x0116
+Caricamento fallito.  Riprovare?
+@@ 0x011a
+Caricare questi dati. Confermi?
+@@ 0x011b
+Dati danneggiati.
+
+Impossibile caricare.
+@@ 0x011c
+MEMORY CARD non formattata.
+@@ 0x011d
+{81 80 02}Non sono dati di Valkyrie Profile.
+@@ 0x011e
+{81 80 07}Tempo di gioco
+@@ 0x011f
+{81 80 07}Grado
+@@ 0x0120
+{81 80 07}Livello
+@@ 0x0124
+Formattazione fallita.
+@@ 0x0125
+Formattazione...
+@@ 0x0126
+Interrompere il salvataggio?
+@@ 0x1f41
+Villaggio di Coriander
+@@ 0x1f42
+Prato dei Gigli Piangenti
+@@ 0x1f45
+Villaggio di Camille
+@@ 0x1f4b
+Castello di Artolia
+@@ 0x1f72
+Rovine di Monte Artolia
+@@ 0x1f73
+Covo di Gorhla
+@@ 0x1f74
+Grotte di Oddrock
+@@ 0x1f75
+Torre del Sogno Nero
+@@ 0x1f76
+Palude di Nethov
+@@ 0x1f77
+Catacombe di Solde
+@@ 0x1f78
+Grotta di Thackus
+@@ 0x1f79
+Castello di Brahms
+@@ 0x1f7a
+Torre di Lezard Valeth
+@@ 0x1f7b
+Rovine di Arkdain
+@@ 0x1f7c
+Palazzo di Jotunheim
+@@ 0x1f7d
+Tombe di Amenti
+@@ 0x1f7e
+Grotte di Dragoncastle
+@@ 0x1f7f
+Labirinto di Arianrod
+@@ 0x1f80
+Santuario Sommerso
+@@ 0x1f81
+Foresta del Dolore
+@@ 0x1f82
+Formicaio
+@@ 0x1f83
+Palazzo del Drago
+@@ 0x1f84
+Castello Celeste
+@@ 0x1f85
+Foresta degli Spiriti
+@@ 0x1f86
+Accademia di Salerno
+@@ 0x1f87
+Villa degli Ingranaggi
+@@ 0x1f88
+Castello di Dipan
+@@ 0x1f89
+Mappa del mondo
+@@ 0x1f8a
+Torre Oscura di Xervah
+@@ 0x1f8b
+Cittadella di Fuoco
+@@ 0x1f8c
+Collina di Asgard
+@@ 0x1f8d
+Porta Serafica

@@ -1,0 +1,37 @@
+# Valkyrie Profile scene 0x5 (-): 22 records, directory word 3615, package sectors 155843..155914 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:0100>Platina
+「<18><3:08>Lucian<3:0c>...<3:3c>
+<18><3:04>Che succede<3:0a>?
+<3:02>Sai che ore sono?<17:7800>
+@@ 15
+<19:0000>Lucian
+「<18><3:03>Ssh<3:0f>!
+<3:04>Fai piano<3:0c>...<17:7800>
+@@ 16
+<19:0000>Lucian
+「<18><3:04>Platina<3:0a>...<3:03>Dobbiamo scappare!<3:38>
+<18><3:04>Vieni, presto!<17:7800>
+@@ 17
+<19:0100>Platina
+「<18><3:03>Di cosa stai
+parlando, Lucian?<17:7800>
+@@ 18
+<19:0000>Lucian
+「<18><3:03>Ascoltami.<3:28>
+<3:03>Tua madre e tuo padre,
+<3:03>loro<3:0c>...<17:7800>
+@@ 19
+<19:0000>Lucian
+「<18><3:04>Ti hanno venduta<7:0a>-<7:01><17:3c00>
+@@ 20
+<19:0100>Madre Laia
+<18><3:14>「<3:03>Piccolo ladro!<3:1e> <3:03> Che fai a mia figlia?!<17:7800>
+@@ 21
+<19:0000>Lucian
+「<18><3:03>Andiamo!!<17:3c00>

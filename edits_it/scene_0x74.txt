@@ -1,0 +1,55 @@
+# Valkyrie Profile scene 0x74 (-): 37 records, directory word 3726, package sectors 167697..167881 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:0000>Lawfer
+「Arngrim ha fatto cosa<3:28>?<3:ff>
+Dev'essere un errore!!
+Vi prego, controllate ancora.
+@@ 15
+<19:0100>Capitano
+「Ha ucciso la principessa Jelanda<3:1e>,<3:ff>
+il nobile Lombert<3:1e>, <3:ff>
+e trenta soldati della guardia!!
+La situazione è chiara.
+@@ 16
+<19:0000>Lawfer
+「Padre!
+@@ 17
+<19:0100>Capitano
+「Cerca di capire.
+@@ 18
+<19:0000>Lawfer
+<18><3:03>「Ti prego, fermiamoci<3:0f>,<3:03> Arngrim<3:1e>.<3:04>
+Non sono un genio come te.<12:bd09><17:7800>
+@@ 19
+<19:0100>Arngrim
+<18><3:04>「"Genio"<12:be09><3:32>?<3:03>
+<18>Lo dicono i perdenti.<12:bf09><17:7800>
+<18><3:04>Lui è "diverso",<3:03>
+Lui è "speciale".<12:c009><17:7800>
+@@ 20
+<19:0100>Arngrim
+<18><3:03>「Raccogli la lancia<3:19>.<3:03>
+Puoi solo fare del tuo meglio.<17:7800>
+@@ 21
+<19:0100>Soldato
+「<3:03>Così il famoso 'genio della
+battaglia' è impazzito!<17:7800>
+@@ 22
+<19:0000>Soldato
+「Già, sembra che sia
+uscito di senno.<17:b400>
+@@ 23
+<19:0100>Arngrim
+<18><3:03>「Se questo mondo è l'inferno<3:1e>,<3:03> allora・・・
+gli dèi devono essere più buoni
+di<3:05> quanto si creda.<17:7800>
+@@ 24
+<19:0000>Capitano
+「Oh oh<3:1e>.<3:ff>
+Devi essere un uomo appagato,
+se la pensi così.

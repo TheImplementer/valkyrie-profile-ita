@@ -1,0 +1,76 @@
+# Valkyrie Profile scene 0x13 (-): 35 records, directory word 3629, package sectors 157360..157474 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:ffff>Valkyrie
+「Questo è...
+Il mondo degli umani<3:0c>...?
+@@ 15
+<19:ffff>Freya
+「Sì, il mondo inferiore di Midgard.<3:ff>
+Dove le anime vagano・・・
+rinchiuse in gabbie di carne.
+@@ 16
+<19:ffff>Freya
+「Ti ricorda qualcosa?
+@@ 17
+<19:ffff>Valkyrie
+「Non particolarmente.<3:ff>
+Non ho mai visto questo mondo.
+@@ 18
+<19:ffff>Freya
+「<3:0c>・・・<3:ff>Capisco.
+@@ 19
+<19:ffff>Freya
+「Allora andiamo.
+@@ 20
+<19:ffff>Valkyrie
+「Dove?
+@@ 21
+<19:ffff>Freya
+「È tempo che io ti insegni chi sei
+e qual è il tuo compito.
+@@ 22
+<19:ffff>Arngrim
+「<18><3:04>Sei solo un filo d'erba
+che si piega<3:03> al vento?<17:b400>
+@@ 23
+<18><5><3:06>Aaaaaaahhhh<3:0c>!<17:3c00>
+@@ 24
+<18><5><3:04>Mamma<3:0c>!<17:3c00>
+@@ 25
+<18><5><3:05>Fa male...!<17:3c00>
+@@ 26
+<18><5><3:05>Ahh<3:0c>...<3:05>Aaarghhh<3:0c>...<17:3c00>
+@@ 27
+<19:ffff>Valkyrie
+「Hmmm<3:14>.
+<3:ff>Tutti questi bambini<3:0c>...
+@@ 28
+<19:ffff>Lucian
+「<18><3:04>Chi sei?<17:3c00>
+@@ 29
+<19:ffff>Valkyrie
+「<18><3:04>Sono colei che sceglie le anime.<17:7800>
+@@ 30
+<19:ffff>Lucian
+「<18><3:05>Tu sei... <3:04>Una Valchiria<3:19>!?<3:03>
+Ma...<3:04>Sei identica a<3:0c>...<17:7800>
+@@ 31
+<19:ffff>Valkyrie
+「<18><3:03>Non desideri venire
+con me?<17:3c00>
+@@ 32
+<19:ffff>Valkyrie
+「<18><3:04>Ti sei guadagnato il diritto
+<3:03>di unirti agli Einherjar.<17:7800>
+@@ 33
+<19:ffff>Lucian
+「<18><3:04>Ma<3:0c>...<3:03> E Claire<3:0a>?<3:03>
+ Non posso abbandonarla.<17:7800>
+@@ 34
+<19:ffff>Valkyrie
+「<18><3:04>Se è così che la pensi<7:0a>-<7:01><17:5a00>

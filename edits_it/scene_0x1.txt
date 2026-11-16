@@ -1,0 +1,30 @@
+# Valkyrie Profile scene 0x1 (Platina's House | Mayor's House | Lucian's House | Freshwater Spring): 47 records, directory word 3611, package sectors 155331..155583 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:0100>Platina
+「<18>Ah!<17:3c00>
+@@ 15
+<19:0100>Platina
+「<18><3:06>M<3:0c>...<3:03>Mi dispiace tanto<3:14>!
+<3:03>I vostri vestiti, sono<3:0c>...<3:ff>?<17:7800>
+@@ 16
+<19:0000>Madre Laia
+「<18><3:04>Guarda dove vai, ragazzina!<3:0f>
+<3:03>Come osi schizzare d'acqua
+un ospite!<17:b400>
+@@ 17
+<19:0100>Platina
+「<18><3:05>Perdonatemi<3:0c>...<17:7800>
+@@ 18
+<19:0100>Platina
+「<18><3:03>Mamma<3:0a>,
+<3:04>chi erano quegli uomini?<17:7800>
+@@ 19
+<19:0000>Madre Laia
+「<18><12:1809><3:03>Non sono affari tuoi<3:19>.
+<18><3:03>Hai del lavoro da fare<3:1e>!<3:03>
+Sbrigati a prendere il secchio!<17:d200>

@@ -1,0 +1,76 @@
+# Valkyrie Profile scene 0x6b (To outside | Tavern): 32 records, directory word 3717, package sectors 166614..166673 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<5>Uscita
+@@ 15
+<19:0100>Badrach
+「Sei in ritardo!!<17:7800>
+@@ 16
+<19:0100>Badrach
+「Allora<3:1e>, <3:ff>
+cos'hai da offrirmi stavolta?
+@@ 17
+<19:0000>Agente
+「Il preavviso è breve, ma devi
+aiutare un altro uomo a consegnare.
+@@ 18
+<19:0100>Badrach
+「Cosa<3:1e>? <3:ff>Ma fammi il piacere<3:3c>!<3:ff>
+Mi fai perdere tempo per questo?
+@@ 19
+<19:0000>Agente
+「Dai<3:19>, <3:ff>la paga è altissima<3:28>.<3:ff>
+Allora, accetti?
+@@ 20
+<19:0100>Badrach
+「Carico pericoloso, eh?
+@@ 21
+<19:0100>Badrach
+「Beh<3:1e>,<3:ff> accetto<3:1e>.<3:ff>
+Ma voglio 5.000<3:1e>.<3:ff>
+Il mio prezzo è raddoppiato.
+@@ 22
+<19:0000>Agente
+「D'accordo. Affare fatto.
+@@ 23
+<19:0100>Badrach
+「Dici sul serio<3:1e>?<3:ff>
+Beh, se lo dici tu.
+@@ 24
+<19:0100>Badrach
+「A proposito,
+chi è l'altro tizio con cui
+mi fai lavorare?
+@@ 25
+<19:0000>Agente
+「Lo conoscerai presto.
+@@ 26
+<19:0100>Badrach
+「Hmpf.
+@@ 27
+Badrach
+<3:02>「<18>Non so <3:03>cosa <3:02>abbia in mente <3:03>quel tizio,<3:28>
+<3:02>ma finché mi pagano,<3:0f>
+<3:02>non<3:0a> <3:02>me ne importa niente.<17:7800>
+@@ 28
+<19:ffff>Avventuriero
+「L'altro giorno ho aperto
+uno scrigno ed è uscito
+del gas velenoso!<page>
+Per fortuna ero chinato,
+così mi sono solo preso
+un bello spavento.
+@@ 29
+<19:0000>Celia
+「Kashell,
+che facciamo?
+@@ 30
+<19:0100>Kashell
+「È una richiesta di Lawfer,
+certo che accettiamo.
+@@ 31
+<5>Taverna

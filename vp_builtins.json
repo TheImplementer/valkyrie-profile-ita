@@ -1,0 +1,866 @@
+{
+ "0x70": {
+  "name": "actor_wait_anim_end",
+  "confidence": "high",
+  "args": "operand low16 = actor index (0xFFFF = current actor ctx+0x20C); 0 inline words; queued command type 10",
+  "evidence": "Shared handler 0x80076964 = enqueue into the per-actor command queue (actor array [0x8007F0E4], 0x108 bytes/actor; slot = first free of 16 found by 0x8003A414; type byte at actor+0x80+slot, 8-byte entry at actor+slot*8; written only if actor+0xBC != 0). Consumer = 0x8003A4FC (type table 0x8007FDEC), called each frame from the per-actor object 0x8003B814. Type-10 handler 0x8003B15C: if actor+0xE4 bit 0x08000000 is set (set by the animation-script player when the anim hits its end marker, see 0x80038038) it clears it and the queue advances, else sets actor wait counter and retries. Scripts use it as '71 set-anim; 70 wait-anim-end; 89 despawn' / '71..; 70; 76'."
+ },
+ "0x71": {
+  "name": "actor_set_anim",
+  "confidence": "high",
+  "args": "operand = actor; 2 inline words: (resource-set id or 0xFFFFFFFF = keep, animation index or 0xFFFFFFFF = default/idle); queued type 9",
+  "evidence": "Shared handler 0x80076964 = enqueue into the per-actor command queue (actor array [0x8007F0E4], 0x108 bytes/actor; slot = first free of 16 found by 0x8003A414; type byte at actor+0x80+slot, 8-byte entry at actor+slot*8; written only if actor+0xBC != 0). Consumer = 0x8003A4FC (type table 0x8007FDEC), called each frame from the per-actor object 0x8003B814. Type-9 handler 0x8003B054: looks the first word up in the table at 0x8007EFD8 (stride 8) to set actor+0xCC (anim data), then calls 0x80039998(actor, anim, 1) which sets actor+0xF3 (anim index), resets frame counters and anim script pointer +0xC8; sets flag 0x400000 (anim locked) when an explicit index is given. 2640 uses, typical '71 <actor> ffffffff N' with N in 0..0x3d."
+ },
+ "0x72": {
+  "name": "actor_set_facing",
+  "confidence": "high",
+  "args": "operand = actor; 1 inline word: 0 = face left, 1 = face right; queued type 8",
+  "evidence": "Shared handler 0x80076964 = enqueue into the per-actor command queue (actor array [0x8007F0E4], 0x108 bytes/actor; slot = first free of 16 found by 0x8003A414; type byte at actor+0x80+slot, 8-byte entry at actor+slot*8; written only if actor+0xBC != 0). Consumer = 0x8003A4FC (type table 0x8007FDEC), called each frame from the per-actor object 0x8003B814. Type-8 handler 0x8003B030 stores the word into actor+0xF6. +0xF6 is the facing byte: 0x8003C334 sets it from sign of movement (dx>=0 -> 1), the interaction hit-rectangle code (0x8003C11C) extends the box to x-128..x when 0 and x..x+128 when 1, sprite code (0x80035EC4) mirrors x offsets on it. Scripts use it after an NPC talk ('72 8 1; 81 4')."
+ },
+ "0x73": {
+  "name": "actor_walk_by",
+  "confidence": "high",
+  "args": "operand = actor; 2 inline words: (dx | dy<<16, signed 16-bit; 0 = do not move on that axis), speed (8.8 fixed, 0x80/0x100 typical); queued type 1",
+  "evidence": "Shared handler 0x80076964 = enqueue into the per-actor command queue (actor array [0x8007F0E4], 0x108 bytes/actor; slot = first free of 16 found by 0x8003A414; type byte at actor+0x80+slot, 8-byte entry at actor+slot*8; written only if actor+0xBC != 0). Consumer = 0x8003A4FC (type table 0x8007FDEC), called each frame from the per-actor object 0x8003B814. Handler converts non-zero dx/dy to absolute targets (adds actor+0x94>>8 / +0x98>>8, 0x80076CE0-D18) and queues type 1 = walk (0x8003ADC8: sets motion object +0x90 state 3 with per-axis delta, actor+0xB0 = speed). Same queue type as 0x8a but relative. Only 50 uses (e.g. '73 0 fff8 80' = 8 px left). Follow with 74 to wait for arrival."
+ },
+ "0x74": {
+  "name": "actor_wait_move_end",
+  "confidence": "high",
+  "args": "operand = actor; 0 inline; queued type 6",
+  "evidence": "Shared handler 0x80076964 = enqueue into the per-actor command queue (actor array [0x8007F0E4], 0x108 bytes/actor; slot = first free of 16 found by 0x8003A414; type byte at actor+0x80+slot, 8-byte entry at actor+slot*8; written only if actor+0xBC != 0). Consumer = 0x8003A4FC (type table 0x8007FDEC), called each frame from the per-actor object 0x8003B814. Type-6 handler 0x8003AFEC: while the actor's motion object (actor+0x90) +0x45 state is 3 (walking) or 6 (jump) it sets wait counter 1 and does not consume the entry. Always appears right after 8a/73 walk commands."
+ },
+ "0x75": {
+  "name": "actor_wait_frames",
+  "confidence": "high",
+  "args": "operand = actor; 1 inline word: frame count; queued type 5",
+  "evidence": "Shared handler 0x80076964 = enqueue into the per-actor command queue (actor array [0x8007F0E4], 0x108 bytes/actor; slot = first free of 16 found by 0x8003A414; type byte at actor+0x80+slot, 8-byte entry at actor+slot*8; written only if actor+0xBC != 0). Consumer = 0x8003A4FC (type table 0x8007FDEC), called each frame from the per-actor object 0x8003B814. Type-5 handler 0x8003ADA4 sets actor+0xB4 (per-actor wait counter, decremented at the top of 0x8003A4FC) to the word. Delays only that actor's queue; the script itself does not block (use 76 to wait). Typical 0x1e/0x3c/0x78."
+ },
+ "0x76": {
+  "name": "wait_actor_queue_idle",
+  "confidence": "high",
+  "args": "operand low16 = actor index (stack variant pops it); 0 inline",
+  "evidence": "Handler 0x800772B8: if the actor exists (+0xBC!=0) and (wait counter +0xB4 != 0 or current queue slot actor+0x80+actor[0xC5] is non-zero) it sets ctx+0x310 = 1 and rewinds ip by 4 (retry next frame). I.e. blocks the script until that actor has finished everything queued by 70..75/89/8a/a1/a3/b0.. 1258 uses, usually right after walk/anim commands."
+ },
+ "0x77": {
+  "name": "player_set_landed",
+  "confidence": "medium",
+  "args": "no args (0 inline words)",
+  "evidence": "Handler 0x80070868: actor[0].flags(+0xE4) = (flags & ~0x8) | 0x100. That is exactly the pair of writes the player motion code makes on landing (0x8003141C: clear airborne bit 0x8, set 0x100, then [0x800995D0] |= 0xA). Bit 0x100 is also tested at 0x80061828 (damage/hurt routine: if set, clear it, set airborne 0x8 again, play sfx 0xCB/0xCC at the player) and at 0x80068CE4/0x80068DB8 (facing-byte +0xF6 is not updated while it is set and [0x8007FD7E]==1). 91 uses in 63 dungeon scenes, nearly all in scene entry functions as 'a2 (actor 0, prop 1 = y); if y > 0xB4: 77' (player starts low on the screen -> treat as landed) or at the start of a pit/ledge trigger right after 'sys_81 7'. The meaning of 0x100 ('landed / hold') is inferred from the landing code, not observed; nothing run live (no reachable scene uses it)."
+ },
+ "0x78": {
+  "name": "clear_monster_fight_counts",
+  "confidence": "high",
+  "args": "no args (0 inline words); used only by library func_07FA",
+  "evidence": "Handler 0x8007088C: memset(G+0x16C, 0, 128) and ctx+0x3C0 &= 0xC7. Op 0x86 start_battle (handler 0x800786E8) does G[0x16C + monster_index]++ on exactly that block, and library func_086B tests G[0x16C+index].b < 1 before letting a monster trigger an encounter, so the block is a per-monster 'fought' counter. Only user is library func_07FA (called 33x from scenes; in the two I read, scenes 0x29 and 0x7D, it comes right before a caption2 area-name call, e.g. scene 0x29 'x < 200 -> caption 3'), i.e. an area change resets the encounter counters. Never used in scene code directly (1 library use)."
+ },
+ "0x79": {
+  "name": "wait_event_image_ready",
+  "confidence": "medium",
+  "args": "stack form pops one handle (the value 0xA5 returned); 0 or 1 inline words; 4 uses in 2 scenes (0x10, 0x38)",
+  "evidence": "Core handler 0x8006F0D4 only calls the hook [0x8007F250]. In the ram6440 snapshot the hook is 0x8008A3CC (installed together with the 0xA5/0xA6 hooks 0x8008A16C/0x8008A284): it scans the 144 task slots for the 0xA5 task (function 0x800899E0) whose handle byte (+0x68) equals the argument and, if that task is still loading (state +4 != 4) or still fading (flags +0x5E bit 1), sets ctx+0x310 = 1 and rewinds ip (wait); no such task = no wait. Used right after a5/a6 with the same handle (then '8c 0x42'). Not run live (scenes 0x10/0x38 are not reachable early)."
+ },
+ "0x7a": {
+  "name": "wait_palette_crossfade_done",
+  "confidence": "medium",
+  "args": "operand low16 (or popped) = crossfade id returned in G0 by 0xA4; NEVER used in scene code",
+  "evidence": "Handler 0x80071414 scans the 144 task slots for one whose function is 0x8005B130 with id byte +0x3A == arg and, if found, sets ctx+0x310 = 1 and rewinds ip. 0x8005B130 tasks are created only by op 0xA4 (handler 0x80071184, 3 references to the pointer, all in 0xA4/0x7A): it picks the first unused id (+0x3A), stores 8 halfwords and the update function blends 15-bit colours over N frames. So this is the per-id wait for 0xA4 (0x7B is the any-task wait for the 0xA0 tint tween 0x8004B618). Mechanism clear; both ops unused in scripts."
+ },
+ "0x7b": {
+  "name": "wait_palette_fade",
+  "confidence": "high",
+  "args": "no args; 0 inline",
+  "evidence": "Handler 0x80076420: if an object with function pointer 0x8004B618 exists (func_8002FD10 object-by-function lookup) -> ctx+0x310=1 and ip-=4 (wait). 0x8004B618 is the palette/CLUT colour tween object that op 0xA0 creates (frame counter +0xE vs duration +0xC, RGB target +0x18..0x1A, palette range +0x16/+0x17, tweens the entries of the [0x8007F100] layer table). Used after 'a0 0x9600 RGB frames' and 'a3 .. tint' lines."
+ },
+ "0x7c": {
+  "name": "wait_screen_transition",
+  "confidence": "high",
+  "args": "no args; 0 inline; 3503 uses",
+  "evidence": "Handler 0x800788F0: while [0x8007F25C] bit 0x4 is set and bit 0x8000 is clear it sets ctx+0x310=1 and rewinds ip. Bit 0x4 is set by 0x87 (fade/transition start, 0x8004539C) and cleared when the transition object finishes. Idiom: '87 0x1e01 (fade out); 7c; 9f (change scene)' and '87 0x7800 (fade in); 7c'."
+ },
+ "0x7d": {
+  "name": "wait_zoom_tween",
+  "confidence": "medium",
+  "args": "no args; 0 inline",
+  "evidence": "Handler 0x80076060 waits (ctx+0x310=1, ip-=4) while an object with function 0x8004B5BC exists. That object is created by 0x9c (scalar tween of word 0x8007FC80: +0xC += +0x10 each frame until +0x8 reached). Used as '9c frames value; 7d' pairs (e.g. '9c 0x3c 0x11000; 7d; 9c 0x46 0x12000; 7d'). 'zoom' name rests on 0x8007FC80 being the layer scale factor (0x10000 = 1.0) in the layer scroller 0x80048434."
+ },
+ "0x7e": {
+  "name": "wait_message_dismissed",
+  "confidence": "high",
+  "args": "operand low byte = message-box index (normally 0); 0 inline; 384 uses. DIALOGUE-RELEVANT",
+  "evidence": "Handler 0x800758A4: box = [0x8007F120 + idx*4]; if box != 0 and box+0x4E7 (box state byte) != 4 it sets ctx+0x310=1 and rewinds ip. State 4 is entered from state 6 (waiting for button) when the box is dismissed (0x8004DA28), so this blocks until the player has closed the text box created by 0x92 (or 0x94/0x98). 382 of 384 uses are directly after 'message'/'call func_03e2'. Checked: box = msgbox_table[n]; while its state byte (+0x4E7) != 4 it sets the wait counter and rewinds ip."
+ },
+ "0x7f": {
+  "name": "camera_follow_actor",
+  "confidence": "high",
+  "args": "operand low16 signed = actor index (0xFFFF = current actor, 0xFFFE = stop following); 0 inline; 64 uses",
+  "evidence": "Handler 0x8006F100: -2 clears [0x8007F25C] bit 0x2000; otherwise (if the actor exists) sets bit 0x2000 and ctx+0x3C5 = actor. The camera routine 0x80047794 reads ctx+0x3C5 and scrolls to that actor's position; 0x83 clears bit 0x2000 when it starts a manual pan; 0x81 sets it for actor 0. Typical '85 spawn actor 9; 7f 9' and '81 5; 7f fffe; 83 pan'."
+ },
+ "0x80": {
+  "name": "register_trigger_zone",
+  "confidence": "high",
+  "args": "operand low byte: 1 = slot range 40..79, 0 = slots 80..127 (stack variant pops one extra byte stored at slot+14); 3 inline words: script function offset, (x0 | y0<<16), (x1 | y1<<16); 9380 uses",
+  "evidence": "Handler 0x80074040 finds the first free (word0 == -1) 16-byte slot in the table at [0x8007F1C8]+640 (or +1280) and stores handler offset at +0, x0 +4, y0 +6, x1 +8, y1 +10. The offsets are script function entry points (e.g. exit/door functions that start with '81 5 ... 87 fade 8a walk 7c 9f'), the rectangles are map coordinates: area trigger registration at scene setup, most common op in the game."
+ },
+ "0x81": {
+  "name": "set_script_mode",
+  "confidence": "medium",
+  "args": "bitmask in operand low 16 bits (stack variant pops it): 5 (2826 uses) / 7 / 3 / 1 = enter, 4 (492 uses) = leave; bit1 = keep VM globals 8..0x1C (else cleared), bit2 = skip [0x8007F260] |= 0x800; 0 inline. DIALOGUE-RELEVANT as an event bracket",
+  "evidence": "Handler 0x8007444C, bit0 set: unless [0x8007F25C] bit 0x8 already set, allocates a 236-byte motion object (function 0x8003B814, state +0x45 = 2) for actor 0, sets F25C |= 0x8 (script mode; 0xB3 queues its jump instead of running it when this bit is set), and unless bit1 also sets F25C |= 0x2000 + ctx+0x3C5 = 0 (camera follows player), then waits (ip-=4) while actor 0 is still airborne. Bit0 clear: clears F25C 0x2208, F260 0x800, kills the object, restores actor-0 flags |=0x8001. Scenes: every event function starts with 81 5 and talk events end with 81 4."
+ },
+ "0x82": {
+  "name": "set_camera_pos",
+  "confidence": "high",
+  "args": "1 inline word: (x | y<<16) = camera centre; stack variant pops x then y; 384 uses",
+  "evidence": "Handler 0x800785EC: subtracts 160 from x (half screen), subtracts [0x8007FD42] from y, clamps both to 0..mapsize-320/224 using the current layer entry ([0x8007F100]+360+idx*60: +4/+6 limits) and writes layer +0x10/+0x14 (scroll) and +0x18/+0x1C (scroll<<8). Immediate camera placement, used right after the first '85 spawn actor' in scene intros."
+ },
+ "0x83": {
+  "name": "camera_pan_to",
+  "confidence": "high",
+  "args": "operand low16 = x; 2 inline words: (y | speed<<16), ease/accel parameter; stack variant pops 4 values; 248 uses",
+  "evidence": "Handler 0x80078420 -> 0x80077FD4: clamps the target like 0x82 into 0x8007FC90/92, computes direction with atan2 (0x8007944C) and cos/sin (0x800793B8/0x80079324) and speed, stores velocities at 0x8007FCAC..B6, clears [0x8007F25C] bit 0x2000 (stop camera-follow) and sets bit 0x200. Op 0x99 waits for bit 0x200 to clear. e.g. '83 0x55 0x00300192 1' pans to (0x55,0x192) at speed 0x30."
+ },
+ "0x84": {
+  "name": "camera_pan_to_axiswise",
+  "confidence": "medium",
+  "args": "like 0x83 (x in operand low16; word0 = y | speed<<16; word1 = low16: mode, high16: last param) but with 5 stack values; NEVER used in scene code",
+  "evidence": "Handler 0x800784D8 calls the same pan routine 0x80077FD4 as 0x83, but passes a3 = (mode<<1)|1 instead of 0. a3 is stored in byte [0x8007FCB8] and read by the camera update at 0x800474D4..: bit0 set = axis-wise motion (all four speed fields get the same constant speed, 0x800783A0 branch, no atan2 direction vector), bit1 (the low bit of 'mode') chooses which axis is driven first - the code drives one axis until it reaches the target, flips bit1 (xori 2) and then does the other, so the camera travels an L-shaped path; bit2 = decelerating. 0x83 passes 0 = straight-line pan with eased speed. Mechanism read from code only (op unused)."
+ },
+ "0x85": {
+  "name": "spawn_actor",
+  "confidence": "high",
+  "args": "operand low 20 bits = model/sprite id (stored in actor+0xBC); 4 inline words: w0 = script handler offset (talk/interact function, 0 = none), w1 = x | y<<16, w2 = speed | state<<16 | slot<<24, w3 = facing | behaviour<<8; stack variant pops the same fields; 2025 uses",
+  "evidence": "Handler 0x8007646C allocates a 236-byte object (0x8002FC18) and a 264-byte actor (malloc+memset), fills actor+0xD8 (w0), +0x94/+0x98 = x<<8,y<<8, +0xB0 speed, +0xF6 facing, +0xC6 behaviour, object +0x44 = slot, +0x45 = state, then installs it into the actor array via 0x800365DC. Slot 0 = player, 8/9/10.. = NPCs; the same slot numbers are the operand of the 70..75/89/8a/a1 queue ops. Sample: '85 0x3e9 0 0x01920055 0x00020080 0x100'."
+ },
+ "0x86": {
+  "name": "start_battle",
+  "confidence": "medium",
+  "args": "operand low16 = enemy group/encounter id (0x3ff..0x4ac seen); 1 inline word = monster index 1..15 (stack variant pops both); 638 uses",
+  "evidence": "Handler 0x800786E8: if the index >= 0 increments byte G(vars)[0x16C + index] (the block cleared by 0x78), then calls 0x8004227C(id): sets [0x8007F25C] |= 0x200000, allocates a state object (function 0x800434D4, waits on cd_is_active), walks the 4 party slots (ctx+0x39C) building character records, uses rng_next, CD sector lookups (cd_get_track_sector_info) and malloc_from_end buffers. Scene usage: the touch handler of a monster actor is always '86 <id> <n>; b6 <0x20+n>' (b6 removes the monster actor) - encounter on touch. Medium because the CD/battle-load interpretation is inferred."
+ },
+ "0x87": {
+  "name": "fade_screen",
+  "confidence": "high",
+  "args": "1 inline word: type (low byte) | frames<<8; 0xFF in low byte = query (writes 1/0 to G[0] = transition running); 4690 uses",
+  "evidence": "Handler 0x8007881C -> 0x8004539C(type, frames): creates/reuses the transition object (function 0x80045638), sets [0x8007F25C] bit 0x4 (waited on by 7c), types 0 = fade in (0x1e00, 0x7800), 1 = fade out (0x1e01, 0x7801), 9/10/11/0x20 = other wipes (0xb sets bit 0x8000). Idiom '87 0x1e01; 7c; 9f'."
+ },
+ "0x88": {
+  "name": "spawn_effect",
+  "confidence": "medium",
+  "args": "operand low15 = effect id (table at 0x8008014C: {function, flags} per id); 1 inline word: parameter (stored at obj+8), bit 15 set = kill the instance with that parameter instead; the 4 parameter words are read from VM vars G[10..13] (G0x28..0x34); 1467 uses",
+  "evidence": "Handler 0x80077E68: id -> function pointer; with bit15 it zeroes every object slot with that function and obj+8 == param; otherwise allocates an object, stores function +0, param +8 and copies VM words 10..13 to obj+12..24 (scripts do 'set G0x28/2c/30/34 ...; 88 0x14 0' just before), and if the table flag byte is 1 (ids 0x1e,0x1f,0x20, used 272x each at scene start) calls the function once immediately. Generic scene-effect/overlay-object spawner; exact visual meaning per id unknown."
+ },
+ "0x89": {
+  "name": "actor_despawn",
+  "confidence": "high",
+  "args": "operand = actor; 0 inline; queued type 3",
+  "evidence": "Shared handler 0x80076964 = enqueue into the per-actor command queue (actor array [0x8007F0E4], 0x108 bytes/actor; slot = first free of 16 found by 0x8003A414; type byte at actor+0x80+slot, 8-byte entry at actor+slot*8; written only if actor+0xBC != 0). Consumer = 0x8003A4FC (type table 0x8007FDEC), called each frame from the per-actor object 0x8003B814. Type-3 handler 0x8003B528 sets actor flags +0xE4 |= 4, +0xE8 |= 0xD, rewrites its own slot type to 18 which runs 0x8003B560: actor+0xBC = 0 (slot free), motion object +0x90 function cleared, +0x90 = 0. Idiom '71 a 1; 70; 76; 89 a' after a character walks off / dies."
+ },
+ "0x8a": {
+  "name": "actor_walk_to",
+  "confidence": "high",
+  "args": "operand = actor; 2 inline words: (x | y<<16 absolute map coords, 0 = leave that axis, e.g. 0xfff0 = walk off screen left), speed (8.8 fixed, 0x100 typical); stack variant pops x,y,speed; 2850 uses",
+  "evidence": "Shared handler 0x80076964 = enqueue into the per-actor command queue (actor array [0x8007F0E4], 0x108 bytes/actor; slot = first free of 16 found by 0x8003A414; type byte at actor+0x80+slot, 8-byte entry at actor+slot*8; written only if actor+0xBC != 0). Consumer = 0x8003A4FC (type table 0x8007FDEC), called each frame from the per-actor object 0x8003B814. Queued type 1 (walk) = 0x8003ADC8: computes delta to target from actor+0x94/0x98 (<<8 positions) into the motion object (+0x45 = 3 walking, +0x0C/+0x10 deltas), actor+0xB0 = speed. Always followed by 74 (wait arrival) and/or 76."
+ },
+ "0x8b": {
+  "name": "remove_map_sprite",
+  "confidence": "medium",
+  "args": "operand low16 = instance id (stack variant pops it); 0 inline",
+  "evidence": "Handler 0x80077CD4 -> 0x8004BB48: finds the 48-byte entry whose id (hw +0x2C) matches in the list at [0x8007F10C] (count ctx+0x316), copies the last entry over it and decrements the count. Entries are created by 0x90. Scenes call '8b 0; 8b 1; 8b 2' to drop the sprites placed by '90 0..2'."
+ },
+ "0x8c": {
+  "name": "wait_frames",
+  "confidence": "high",
+  "args": "",
+  "evidence": "sets the wait counter ctx+0x310 to its argument (1, 5, 0x3C, 0x78 ... frames)"
+ },
+ "0x8d": {
+  "name": "bgm_start_loaded",
+  "confidence": "high",
+  "args": "operand low16 = N: 0 = start the loaded BGM at once, N > 0 = fade it in over N frames (0, 0x1e, 0x3c, 0x78, 0xf0 seen), N < 0 = variant at 0x8005A544; 0 inline words; 34 uses",
+  "evidence": "LIVE (frame 6592, scene 0x16 start): handler 0x80078934 hit with N=0 right after 'play_bgm 0x8d5'; it allocates a task with function 0x8005A4C8 (+8 = N). Same frame the task ran and called 0x8001A5F8(sound manager 0x800964B4, sequence) = start the music sequence (bt: func_8005a4c8+0xd4 -> func_8001a5f8). The task first looks up the 0xBB loader task (type 0x800597B0) and waits until its state is >= 5 / 255 (load finished), then N>0: 0x8001A67C(mgr, seq, N, 0) which stores 30720/N as the per-tick volume step (mgr+0x16) and restarts the sequence; N==0: 0x8001A5F8; finally 0x80059F88(ctx+0x38C). If [0x8007F260] bit31 is set the handler instead resets the sound manager at once (0x8001A5F8 + 0x80059F88) and spawns nothing. So 0xBB = 'load music', 0x8D = 'start it (with fade-in)', 0x8E = fade out. Old name bgm_fade_in was right about N but missed the 'start' role."
+ },
+ "0x8e": {
+  "name": "bgm_fade_out",
+  "confidence": "medium",
+  "args": "operand low byte = frames (0x3c, 0x78, 0xf0, 0xb4 ...) ; 0 inline; 220 uses",
+  "evidence": "Handler 0x80078AB0 calls the sound-manager routine 0x8001A7E0([0x8007FD9C], N) which sets mgr+9 = 1 and mgr+0x16 = 30720/N (a per-frame volume decrement from 0x7800). Always in exit sequences '8e N; 87 0x1e01 (screen fade out); 7c; 9f (change scene)'."
+ },
+ "0x8f": {
+  "name": "play_sfx_at",
+  "confidence": "high",
+  "args": "operand low16 = sound-effect id; 2 inline words: (x | y<<16 world position), (volume | extra<<16); stack variant pops 5; result handle byte stored in G[0]; 1242 uses",
+  "evidence": "Handler 0x80078B7C calls 0x80059180(id, x, y, vol, extra) = positional SFX: 0x80059084 derives pan/volume from the position relative to the camera, then 0x8003E0D0 -> 0x80019B70 (sound manager [0x8007FD9C]); the returned handle is written to G[0]. The same routine is used by actor queue command 0xDA. Samples '8f 0x54 pos 0x7f' (door/stairs), '8f 0x53'."
+ },
+ "0x90": {
+  "name": "add_map_sprite",
+  "confidence": "medium",
+  "args": "operand low16 = instance id (matched by 0x8b); 2 inline words: (x | y<<16), (sprite record index | param<<16; param 0x46 always seen); 607 uses",
+  "evidence": "Handler 0x80077BF8 -> 0x8004B760: appends a 48-byte entry (max 32, count ctx+0x316) to the list at [0x8007F10C]: x +0, y +2, id +0x2C, param byte +0x2E, instance counter +0x2F, and resolves the sprite record index against the 12-byte table [0x8007F0F0] (clamped to [0x8007FD48]). Used in batches '90 0..3' at scene start with consecutive record numbers at nearby positions (map decoration sprites), removed with 0x8b. Name is a guess at the content (static animated map sprites)."
+ },
+ "0x91": {
+  "name": "close_message_box",
+  "confidence": "high",
+  "args": "operand low byte = message-box index; 0 inline. DIALOGUE-RELEVANT",
+  "evidence": "Handler 0x8007583C: box = [0x8007F120 + idx*4]; if non-null calls 0x80053100(box, 3) (destroy) and zeroes the slot, then clears [0x8007F25C] bit 0x10 (message-box-active flag). Used after choices ('93 choice; 9d wait_choice; set L0 = pop; 91') and at the end of cutscene dialogue."
+ },
+ "0x92": {
+  "name": "message",
+  "confidence": "high",
+  "args": "",
+  "evidence": "traced live: the record (low 16 bits inline, or 6th value on the stack) is looked up and drawn in a message box"
+ },
+ "0x93": {
+  "name": "choice",
+  "confidence": "high",
+  "args": "",
+  "evidence": "calls the 0x92 handler; record points at a \u30fb choice in 72 of 72 inline uses; dynamic menus add one option per call"
+ },
+ "0x94": {
+  "name": "message_style3",
+  "confidence": "medium",
+  "args": "operand low16 = text record; 3 inline words: (x | y<<16), (w | h<<16), word with box index in byte 1; stack variant pops them; 5 uses. DIALOGUE-RELEVANT",
+  "evidence": "Handler 0x80074C78 is a sibling of 0x92: same box allocation (0x8001FCE4, 0x80052EB0), same text setup 0x800532C4(box, record), geometry written to box+0x4C8..0x4CE, but box style byte +0x4E6 = 3 (0x92 uses 1) and extra camera-edge flags 0x400/0x401/0x2 in box+0x338 depending on [camera layer +0x10/+0x14]. Text shown carries no <19:> speaker tag, e.g. 'How horrible.' / 'Who is the one that remains?' / '\\nValkyrie\\n\u300cWhy\u30fb\u30fb\u30fb?'; followed by 7e in the sampled uses. Meaning of style 3 unknown (monologue/caption box?). Checked: all 8 inline uses in scene code point at valid scene text (records otherwise referenced nowhere)."
+ },
+ "0x95": {
+  "name": "random",
+  "confidence": "high",
+  "args": "1 inline word: N; result in G[0]; 179 uses",
+  "evidence": "Handler 0x8007878C: G[0] = rng_next() % N (divu, mfhi). Typical 'random 2' (125x), 0x2bc, 0x40. Checked: calls rng_next (0x8001034C), result % N into the accumulator."
+ },
+ "0x96": {
+  "name": "screen_shake",
+  "confidence": "high",
+  "args": "operand low byte = intensity (amplitude = intensity*256; 0xFF = stop) ; 1 inline word: duration in frames (0xFFFFFFFF = until stopped); 33 uses",
+  "evidence": "Handler 0x80077D20 creates/reuses an object (function 0x8005AFD0) whose update advances a phase by +0xE (384 for intensity 9, else 1024), writes sin(phase)*amplitude>>12 into word 0x8007FC8C and decays amplitude after the duration; sets [0x8007F25C] bit 0x80 so the camera routine (0x80047BAC) adds 0x8007FC8C>>8 to the layer scroll Y. Scenes pair it with big sfx ('8f 0x30/0x61')."
+ },
+ "0x97": {
+  "name": "caption2",
+  "confidence": "medium",
+  "args": "",
+  "evidence": "record = low 16 bits; a one-line <5> place name in 44 of 45 uses"
+ },
+ "0x98": {
+  "name": "message_style4",
+  "confidence": "medium",
+  "args": "operand low16 = text record; 3 inline words as 0x94 (x|y, w|h, word with box index and extra bytes e.g. 0x602/0x601); 4 uses (5 in library). DIALOGUE-RELEVANT",
+  "evidence": "Handler 0x8007549C builds a message box like 0x92/0x94 (0x800532C4 text, +0x4C8..0x4CE geometry) but with style byte +0x4E6 = 4, +0x4F0 = 2 and extra bytes from the third word. Texts seen: '<5>To outside' (exit label, right after a '9f' in 3 scenes) and the multi-line description '[- Nan-Lou Garden -] The only gourmet Yamato-style restaurant...' (stack variant). Looks like a sign/label popup variant. Checked: all 8 inline uses in scene code point at valid scene text (records otherwise referenced nowhere)."
+ },
+ "0x99": {
+  "name": "wait_camera_pan_done",
+  "confidence": "high",
+  "args": "no args; 0 inline; 143 uses",
+  "evidence": "Handler 0x800785B0: while [0x8007F25C] bit 0x200 is set it sets ctx+0x310 = 1 and rewinds ip. Bit 0x200 is set by the 0x83 camera pan (0x80077FD4) and cleared by the camera code when the target is reached. Always right after '83 ...' or after a chain of '8a/74' walks."
+ },
+ "0x9a": {
+  "name": "get_message_box_state",
+  "confidence": "medium",
+  "args": "operand low byte = message-box index; result in G[0]; NEVER used in scene code",
+  "evidence": "Handler 0x800757AC: G[0] = 0 if box slot is empty, else maps box+0x4E7 state: 4 -> 3, 1/2 (state-1 < 2) or 3 -> 2, others -> 1. A polling counterpart of 0x7e, unused."
+ },
+ "0x9b": {
+  "name": "get_zoom_tween_value",
+  "confidence": "medium",
+  "args": "no args; result in G[0]; NEVER used in scene code",
+  "evidence": "Handler 0x8007600C: finds the tween object with function 0x8004B5BC (the scalar tween created by 0x9C, which animates word 0x8007FC80, the layer scale factor 0x10000 = 1.0) and returns its current value (+0xC) in G[0]; if no tween is running it stores 0 (NOT the current scale). So it is 'current value of the running zoom tween'. Mechanism read from code; unused."
+ },
+ "0x9c": {
+  "name": "tween_zoom",
+  "confidence": "medium",
+  "args": "operand low16 = frames (0 = set immediately); 1 inline word: target value 16.16 fixed (0x10000 = 1.0; 0xc000, 0x8000, 0x11000..0x14000 seen); 250 uses",
+  "evidence": "Handler 0x80075F00: frames == 0 stores the value into word 0x8007FC80; else allocates a tween object (function 0x8004B5BC) with current value +0xC = old 0x8007FC80, target +8, step +0x10 = (target-current)/frames. 0x8007FC80 is read in the layer scroller 0x80048434 (compared to 0x10000, applied to type-30 layers), so it is the background/layer scale factor. Op 0x7d waits for the tween."
+ },
+ "0x9d": {
+  "name": "wait_choice",
+  "confidence": "high",
+  "args": "operand low byte = number of non-option header lines in the box, second byte = cursor style (0x201 2 options, 0x202, 0x203 seen); 1 inline word: message-box index; stack variant pops 3; result index in G[0]; 87 uses. DIALOGUE-RELEVANT",
+  "evidence": "Handler 0x800758F8: first call sets up the selection in box (flag +0x338 |= 0x2000, +0x4ED = cursor style, selection +0x4E2 = 0, state +0x4E7 = 5, adjusts per-line bytes at +0x377 by the header count) and rewinds ip; later calls wait until flag 0x4000 (confirmed) is set, then store selection halfword +0x4E2 into G[0]. Idiom: '93 choice 0x..; 9d 0x201 0; set L0 = pop; 91'. Answer 0 is the first option."
+ },
+ "0x9e": {
+  "name": "select_scene",
+  "confidence": "high",
+  "args": "operand low16 = scene id (0x000-0x45D; 0x800 = world map); 1 inline word: package override (0 = the scene table default); stack form pops id, then package",
+  "evidence": "Traced live: handler 0x80075CC8 -> 0x8006C270(id, pkg) looks up the 10-byte scene table at 0x80080618 and stores directory word 3610 + id in the loader object, which then reads that package (Valhalla: id 0x16 -> word 0xE30). 1,720 of 2,104 0x9E links between scenes are matched by a link back. 0x9F then performs the switch."
+ },
+ "0x9f": {
+  "name": "change_scene",
+  "confidence": "medium",
+  "args": "operand low byte = exit/entry index (0 or 1); 2 inline words: (x | y<<16 arrival position), flag; stack variant pops 4; 3024 uses",
+  "evidence": "Handler 0x80075D94 sets [0x8007F260] |= 0x80000, returns/waits while [0x8007F25C] & 0x200040 or [0x8007F260] & 8, otherwise finds the loader object (0x8006C49C) and calls 0x8006C9DC(obj, index, x, y, flag): CD sector lookup (cd_get_track_sector_info), malloc_from_end for the new scene data and 0x80047EF0 to load it. Always the last instruction of an exit sequence ('87 0x1e01; 7c; 9f ...; return')."
+ },
+ "0xa0": {
+  "name": "fade_layer_tint",
+  "confidence": "medium",
+  "args": "inline 2 words (stack: 6 words popped lo,hi,r,g,b,frames): ins low16 = idlo | idhi<<8 (id range), word0 = 0xBBGGRR target tint (0x80 = neutral), word1 = frames",
+  "evidence": "Handler allocates a task (func_8002fc18) whose update fn (0x8004B618) linearly interpolates, over [12] frames, the RGB bytes (+49..+51) of every 60-byte entry of the table at [0x8007F100] (7+[0x8007FD77] entries; entry id byte at +48) whose id lies in [lo,hi] toward the target; duration 0 sets it at once. Scripts use 0x9f00/0x9600 (all ids) with 0x808080 to reset, 0xe0e0e0 for 1 frame as a flash, and 0x8080c0/0x80c080/0xc08080 colour casts. The table entries look like BG layers / sprite groups (idx 0-2 hold scroll x/y at +16/+20), so 'layer tint' is a guess at what the entries are."
+ },
+ "0xa1": {
+  "name": "actor_set_prop",
+  "confidence": "high",
+  "args": "inline 2 words (stack: actor idx popped first, then 2 words): operand low16 = actor idx (-1 = self ctx+0x20C, actor table [0x8007F0E4] stride 264), word0 = property id (<56), word1 = value",
+  "evidence": "Shared actor-command handler 0x80076964: appends command type 2 with (s1=word0, s2=word1) to the actor's 16-slot command queue (type byte at actor+0x80+i, args at actor+i*8); the queue consumer (func_8003a4fc via the table at 0x8007FDEC) runs type 2 = func 0x8003A5C8, a switch over property ids <56 (id 0 = x<<8 into +148, 1 = y into +152, 2 = packed x,y). Heavy use right after spawns (8324 uses): (0xa,1), (6,4), (0x11,0x84), (0,-100) = move off-screen, (0x1d..0x1f,0x800) = scale. It is queued, so it executes in order with 70-75/89/8a/a3/b0/b3/b4 on the same actor."
+ },
+ "0xa2": {
+  "name": "actor_get_prop",
+  "confidence": "high",
+  "args": "inline 1 word (stack: actor idx popped first then prop id): operand low16 = actor idx (-1 self, -2 = ctx+0x20F other), word0 = property id; result in G[0]",
+  "evidence": "Handler 0x80077414 picks actor = table[idx]*264, switches on the property id through two jump tables and stores the value into [0x8007F1B0] (G0): id 0 = x ([actor+148]>>8), 1 = y ([actor+152]>>8), 2 = packed x|y<<16, 4 = halfword +188 (resource id), 12 = byte +246, etc. Scripts use it as 'a2; push G0; pop Lx' then compare (e.g. read an actor's x/y/state: (0,0) 1068x, (0,1) 467x, (0,0xc), (0,0x2e)). Immediate (not queued) counterpart of a1."
+ },
+ "0xa3": {
+  "name": "actor_fade_tint",
+  "confidence": "high",
+  "args": "inline 2 words (stack: actor idx, r,g,b,frames lo,hi): operand low16 = actor idx; word0 = 0xBBGGRR target colour (0x808080 = neutral), word1 = frames",
+  "evidence": "Shared handler: queues command type 4 (r,g,b packed in s1, frames in s2). Type-4 handler 0x8003B1F4 allocates a task (update fn 0x8003A2C0) holding the actor's current tint bytes (+249..+251) as start and the target as end, with the actor ptr at +8 and duration at +12; it blends the actor's tint over time. Scripts: 'a3 actor 808080 N' to restore, 'a3 actor 404040 0xa' to darken, almost always followed by b0 (wait for the fade) in the same actor's queue."
+ },
+ "0xa4": {
+  "name": "start_palette_crossfade",
+  "confidence": "medium",
+  "args": "inline 4 words (stack: 8 values) = 8 halfwords: src x,y, src2 x,y, dst x,y, count, frames; returns slot id in G0",
+  "evidence": "Never used in scenes (0 uses). Handler allocates a task of type 0x8005B130 in the 236-byte task pool, picks the first unused id (byte +58) among live tasks of that type, stores 8 halfwords at +40..+56 and returns the id in G0. The update fn 0x8005B130 blends 15-bit colours (5-5-5 fields, mult/div by elapsed/duration) between two halfword arrays ([0x8007F114] source pair, [0x8007F110] destination; y has 496 subtracted, i.e. VRAM CLUT rows at y>=496) over [56] frames: a CLUT/palette cross-fade. Name is from mechanism; meaning (CLUT vs. image) is not certain."
+ },
+ "0xa5": {
+  "name": "load_event_image",
+  "confidence": "high",
+  "args": "inline 2 words (stack 3): word0 = resource id (CD directory word 0x8F8..0x902 = 2296..2306), word1 = x | y<<16 screen offset (x 0x18/0x40/0x60/0x68, y usually 0); returns a handle in G[0]",
+  "evidence": "Core handler 0x8006F07C calls hook [0x8007F248]; in the ram6440 snapshot that is 0x8008A16C, which creates the task 0x800899E0 (+0x30 = resource id, +0x44/+0x48 = x/y, handle counter [0x8007FD87] stored in +0x68, returned in G0). Task states: 0 read the CD directory word into a malloc'd buffer, 1 decompress_resource (entry 0 -> +0x10 table, entry 1 -> +0xC TIM), upload via 0x8001AB48/0x800563B4, 4 draw. The draw routine 0x80089DD4 reads the table as: header (w, h, tile 16x16), records kind 0 = row y, kind 1 = texture page word, kind 2 = n tiles of (x, clut, u, v), and emits GPU textured rectangles (cmd 0x64/0x66) with a brightness level. I decoded the resources myself: 0x8F8 (329x240, 129 tiles), 0x8FA (320x240, 256 tiles), 0x902 (216x240) rebuild into full-screen story illustrations (e.g. a crying blond boy; a blue-haired figure with raised arms), so this is a CG/event picture, not a sprite. Not run live (used in scenes 0xF 0x10 0x14 0x1F 0x38 0x123 only)."
+ },
+ "0xa6": {
+  "name": "fade_event_image",
+  "confidence": "medium",
+  "args": "stack only, 5 values popped (top first): handle, ignored, frames, level, ignored; typical '0,0x80,0x3c,0,L0' = fade in over 60 frames to level 0x80, '0,0,0x3c,0,L0' = fade to 0 (image removed)",
+  "evidence": "Core handler 0x8006F0A8 -> hook 0x8008A284 (ram6440): finds the 0xA5 task by handle byte; if its state != 4 (still loading) it rewinds ip and bumps the wait counter, else stores frames (halfword) into +0x62, level (byte) into +0x64, sets +0x5E |= 3. The task's per-frame code (0x80089CA0) steps +0x60 up to +0x62 and interpolates the brightness (+0x66) from the old to the new level; level 0x80 = normal brightness; when it reaches 0 the task goes to state 255 and frees itself. All 28 uses are stack-mode with the 0xA5 handle on top. Brightness/fade reading is from the code, not run live."
+ },
+ "0xa7": {
+  "name": "get_layer_tint",
+  "confidence": "medium",
+  "args": "inline: operand low byte = layer id (stack: id popped); result 0xBBGGRR in G0, -1 if none",
+  "evidence": "Never used. Handler scans the same 60-byte entry table as a0 ([0x8007F100], 7+[0x8007FD77] entries) for entry id byte (+48) == arg and returns bytes +49,+50,+51 packed as R|G<<8|B<<16 in G0, else -1: the getter counterpart of a0."
+ },
+ "0xa8": {
+  "name": "msgbox_load_portrait",
+  "confidence": "high",
+  "args": "operand low16 = face resource id (CD directory words 3299..3480; e.g. 0xD7D = Frei, 0xD39 = a young man), message-box index in the second value/word (always 0); stack form pops id then box index; called by library func_031F",
+  "evidence": "LIVE: scene 0x1B (Frei's first line) executes library func_0331(0x950, 0xD7D, 0x50) -> func_031F -> 'push 0; push 0xD7D; a8 (stack)' (breakpoint at the handler 0x80075BB0, frame 7055) and 'ab' for the voice; by frame 7225 the box 'Frei / Welcome to Valha...' is on screen with a 112x136 portrait of Frei (winged tiara) at the bottom left. The resource is SLZ type 2 with a tile table (w,h,16x16 tiles) and an 8bpp TIM - decoded and re-assembled it is the portrait. Handler allocates the pool task 0x80055000 (+0x28 = id, +0x2C = box index) which streams the resource and copies it into the box at +0x32C; the box renderer 0x8004E6F4 draws it with 0x8004E334 (textured quads) or 0x8004DFEC (rects). Library func_0331(L0 voice id or -1, L4 face id or -1, L8 wait frames) is the wrapper scenes use before almost every spoken line (3,300+ calls)."
+ },
+ "0xa9": {
+  "name": "bgm_is_loading",
+  "confidence": "medium",
+  "args": "no args; result in G0 (1 = music task still starting/loading, 0 = ready)",
+  "evidence": "Handler looks up the pool task of type 0x800597B0 (the BGM task created by bb) and writes 1 to G0 if it exists with state byte (+4) < 5 or == 10, else 0. All 34 uses are 'bb id,1; loop { a9; push G0; jump if !pop out; 8c 1 }' i.e. wait for the track to be ready. The 0x800597B0 task drives cd_set_play_location, open_resource_stream, is_sequence_playing, sequence_track_tick, so it is the music loader/player."
+ },
+ "0xaa": {
+  "name": "unimplemented_aa",
+  "confidence": "high",
+  "args": "none (no handler)",
+  "evidence": "Table entry at 0x800831D0+4*0xaa is 0 (no handler, no dossier); never occurs in scripts."
+ },
+ "0xab": {
+  "name": "load_voice_clip",
+  "confidence": "high",
+  "args": "operand low16 = clip resource id (CD directory words 0x912..~0xBB8 = 2322..3000: SPU ADPCM clips, 4-39 sectors); 0 inline words; also called by library func_031F with the first argument of func_0331 and by text command 12",
+  "evidence": "LIVE: scene 0x16 'ab 0x94F' executes at frame 7512 (handler 0x80070814); it calls 0x8005A74C(0x94F) (hit the same frame), which picks one of 4 round-robin slots ([0x8007FD85] & 3) and creates the task 0x8005A864: read the directory word into a malloc'd buffer (slot table 0x8007F208, 8 bytes per slot, flag byte +5 = 5), no sin/cos (the dossier's reading came from a different callee). At frame 7658, when the message box 'Valkyrie / How nostalgic...' is on screen, the box code (return address 0x8004D854) calls 0x8003E204(buffer 0x800FE9D0, 0x7F40, 2, 0): a twin of 0x8003E134 (the sfx starter) that scales the volume byte by ctx+0x3C3 instead of ctx+0x3C2 (two separate volume settings, presumably SE and voice) and calls 0x80019834 = start a sound sequence from the memory buffer (0x7F40 = volume 0x7F / pan 0x40, as in op 0xDE); from then on 0x8001A100 (sound-engine poll) is called every frame (the clip is playing). The box state machine (0x8004D7B8..0x8004DBD0) uses the box flag +0x338 bits 0x04000000 (voice pending) / 0x08000000 (voice playing). Resource 0x94F occupies 9 sectors (<= 18 KB, header 0x1C then ADPCM-looking data: at most about 1.5 s at 22 kHz). So: queue/preload a voice clip that the next message box plays; text command 12 (u16 cue) calls the same 0x8005A74C. Name change: start_cd_effect -> load_voice_clip. 'Voice' rests on association with message boxes, ADPCM size and Lenneth's line timing; the audio itself was not listened to. Also confirmed independently: the cue is a package-directory word (cue 0x94F -> Setloc 20:55:22), a 0x48-byte header + SPU-ADPCM speech read with ReadN; the same loader serves text command 12."
+ },
+ "0xac": {
+  "name": "spawn_hotspot_marker",
+  "confidence": "medium",
+  "args": "inline 1 word: operand low16 = x, word0 = y (map position); 46 uses, one per hotspot scene",
+  "evidence": "Handler 0x8006F1D0 creates the task 0x800582F8 (+0x40 = x, +0x42 = y) bound to the first template whose first halfword is 2. Each frame the task tests actor 0's bounding box (+0x94/+0x98 plus the sprite box from its resource) against the rectangle (x-16..x+16, y-64..y); when the player overlaps it sets ctx+0x398 |= 1 (the flag is cleared again when the player leaves), plays sfx 8 at the player and grows the marker sprite (size fields +0x4C/+0x4E up to 24/36); leaving shrinks it (state 4). Scripts place it right after the 'register_trigger_zone 0x101' hotspot definitions ('ac 0x152 0x174' etc.). So it is the visible interaction marker (icon + blip sound) of a hotspot; the exact icon was not looked at."
+ },
+ "0xad": {
+  "name": "spawn_actor_simple",
+  "confidence": "medium",
+  "args": "inline 2 words: operand low byte = actor idx (stack: 5 words), word0 = template id | (task param)<<16, word1 = x | y<<16 (e.g. '0x8 0x3 0x008c00a0' = actor 8, template 3, x=160,y=140)",
+  "evidence": "Handler memsets actor[idx] (264 bytes, table [0x8007F0E4]), sets +195=1 (active), +194=7, +188=template id, position +148 = x<<8, +152 = y<<8, scales +228/+232/+236 = 0x1000, binds the sprite resource (+200) from the template table [0x8007FB6C] whose first halfword == template id (or a flagged entry of the 36-byte table at 0x8007F26C, count [0x8007FD74], stored at +256), and creates a pool task (type 0x8003C538) that each frame runs the actor's command-queue processor func_8003a4fc. 48 uses (24 scenes x actors 8 and 9), followed by a1 props 5/0x1d-0x1f. A smaller variant of whatever 0x85 does."
+ },
+ "0xae": {
+  "name": "set_anim_loop",
+  "confidence": "medium",
+  "args": "inline 2 words: operand low16 = actor resource id (same id as spawn_actor 0x85), word0 = animation index, word1 = 0 or 1",
+  "evidence": "Handler 0x80077B10 finds the loaded actor resource whose id equals the operand (table [0x8007EFD8]/hw 0x8007EFDC, 8 bytes per resource) and writes resource[8 + idx*8 + 6] = value. That byte is the end-of-animation behaviour of the 8-byte animation record [u32 offset][u16 frame count][u8 flags][u8 next]: the animation player (0x80037FB4) reads it when the frame counter reaches the count: bit0 clear (value 0) = play once, hold the last frame and raise the 'ended' flag 0x08000000 (what op 0x70 waits for), bit0 set and bit1 clear (value 1) = restart at frame 0 (loop) and raise the same flag each cycle, bit2 = chain to the animation in byte +7. Scripts use it right after the matching spawn and before 'set_anim; wait_anim_end' (e.g. 'ae 0x271B 4 0; 71; 70; 76'). Read from code; not run live."
+ },
+ "0xaf": {
+  "name": "get_trigger_kind",
+  "confidence": "medium",
+  "args": "no args; result in G[0] = byte ctx+0x20E",
+  "evidence": "Handler 0x80070A00 returns the byte at ctx+0x20E, byte 2 of the per-call word ctx+0x20C that the engine writes before calling an actor/trigger script. Writers: actor-vs-actor overlap (caller 0x800306CC/0x800309B0, a2 = 0) -> 0x80045294 stores (this_actor | other<<24 | 0x1000 | 0x30000) = kind 3; the action-button interaction (caller 0x80044C30, a2 = 1) stores 0x40000 = kind 4; b4 callbacks store 0x60200|actor = 6; bf calls or in 0x70800 = 7. So af tells a script why it was run: 3 = touched, 4 = talked to / action button, 6 = b4 actor callback, 7 = bf call. Scripts compare it to 3/4 in per-frame actor functions. Mechanism read from code; the touch/talk wording is inferred from the two callers."
+ },
+ "0xb0": {
+  "name": "actor_wait_fade_done",
+  "confidence": "high",
+  "args": "none: operand low16 = actor idx (stack: idx)",
+  "evidence": "Shared handler queues command type 7. Type-7 handler 0x8003B198 scans the 144-slot pool for a task of type 0x8003A2C0 (the a3 tint-fade task) with +8 == this actor; if found it sets actor+180 (queue wait counter) = 1 and returns 0 (command not complete, stays at the head of the queue), otherwise returns 1. Scripts: 'a3 actor col N; b0 actor' (and 76/70 afterwards)."
+ },
+ "0xb1": {
+  "name": "unimplemented_b1",
+  "confidence": "high",
+  "args": "none (no handler)",
+  "evidence": "Table entry at 0x800831D0+4*0xb1 is 0 (no handler, no dossier); never occurs in scripts."
+ },
+ "0xb2": {
+  "name": "party_roster_state_op",
+  "confidence": "medium",
+  "args": "operand byte0 = roster index (1-based, up to 25), byte1 = mode (0 set, 1 clear, 2 get); stack form pops index then mode; get result in G[0]",
+  "evidence": "Handler 0x800708D4 operates on the 25-entry table of 236-byte records [0x8007F1E4] (new-game init 0x8003C80C..0x8003C820 loops i = 0..24 calling 0x8003C33C(i) on it; records hold stats, e.g. entry 0 = 1000, 15, 10...). Byte +217: 0 = absent, 1 = acquired, 2 = in an active slot (set by e1). Mode 0 stores 1 into it, mode 1 stores 0 and also clears any of the four active-slot bytes ctx+0x39C..0x39F equal to the index, mode 2 returns it. Library func_030A(index) = 'party member joins': it is called at chapter ends before the jump to the world map (scene 0x800) with indexes 2, 4, 6, 7, 9-11, 13, 14, 16-25 or a variable (index 3 is followed by index 4 and 'e1 0x301 0x402' in scene 0x1D), adds G0x68.b*300 to ctx+0xA4 (not for 3/4) and then runs b2(index, 0). Cutscenes use b2 idx,1 after 'e2; e1 0 0' to hide a member and restore with e3. So the table is the character/party roster, not map entries. 'Roster of 25 = Lenneth + einherjar' is an inference from the structure; names of the characters were not checked."
+ },
+ "0xb3": {
+  "name": "actor_jump",
+  "confidence": "medium",
+  "args": "inline 2 words (stack 2 + actor): operand low16 = actor idx, word0 = vertical speed (2,3,4,8), word1 = horizontal speed (signed 8.8, e.g. +-0x400, 0, -0x328); 198 uses",
+  "evidence": "Shared queue handler 0x80076964: [0x8007F25C]&8 (script mode) -> queued command type 11 (0x8003B3C0), else 0x8003B3F8(actor, s1, s2) immediately: clears actor flags 0x4000400|0x800, sets 0x8 (the airborne bit the player landing code clears again, see 0x77), +0xAC (vertical velocity) = -s1<<8, +0xE0 = 0, stores s2 as the horizontal speed in the render task, puts it in state 6 and starts an animation. Used after 71/74/76 for hops and knock-backs. The velocity writes and the airborne flag make 'jump / launch' safe; not run live (first use is scene 0x1D, later story)."
+ },
+ "0xb4": {
+  "name": "actor_queue_call_script",
+  "confidence": "high",
+  "args": "inline 1 word (stack: actor idx then address): operand low16 = actor idx, word0 = script address (function entry in the scene code)",
+  "evidence": "Shared handler queues command type 12. Type-12 handler 0x8003B4AC runs func_80071c70 (vm_call: pushes ip/frame regs/ctx+0x20C on the call stack and jumps to codebase+addr*4) and sets ctx+0x20C = actor idx | 0x60200. So when the actor's queue reaches it, that script function runs with self = actor. Scripts end per-actor behaviour functions with 'b4 actor addr; return' (463 uses), usually re-queueing their own frame function (a self-repeating AI loop); scene 0x183100dc also sets a1 prop 0x2b to a script address."
+ },
+ "0xb5": {
+  "name": "actor_clear_cmd_queue",
+  "confidence": "high",
+  "args": "inline 0 extra words: operand low16 = actor idx (-1 = self; stack: idx)",
+  "evidence": "Handler 0x80077388 zeroes the 16 command-type bytes at actor+0x80..0x8F and sets actor+197 (queue head) = 0, discarding everything queued by 70-75/a1/a3/b0/b3/b4. Used at the start of a behaviour reset: 'b5 -1; a1 -1 ...; da -1...' (12 uses)."
+ },
+ "0xb6": {
+  "name": "despawn_actor",
+  "confidence": "high",
+  "args": "inline 0 extra words: operand low16 = actor idx (-1 = self; stack: idx)",
+  "evidence": "Handler 0x80077A78: if actor[idx]+188 (resource id) != 0 then sets +188 = 0 and, if +144 (render task pointer) != 0, writes 0 to its first word, which frees that slot in the task pool (a free slot is word0 == 0). Used 722 times, typically 'b6 8; b6 9' after a cutscene to remove the actors it spawned."
+ },
+ "0xb7": {
+  "name": "remove_trigger_zone",
+  "confidence": "medium",
+  "args": "stack: 1 word (zone slot idx; inline form: operand low16 = idx)",
+  "evidence": "Handler 0x80074400 writes -1 into word0 of 16-byte record idx of the zone table [0x8007F1C8]. Sys_80 (add hotspot rect, slots 40-79 / 80-127) and bc (slots 0-39) fill those records (callback script address, rect x0,y0,x1,y1, type) and return the slot idx in G0; scripts keep it ('push G0; pop G0x1ec') and later do 'push G0x1ec; b7' (61 uses, e.g. after 'You found Dragonbane.')."
+ },
+ "0xb8": {
+  "name": "sin_deg",
+  "confidence": "high",
+  "args": "stack: 1 word (angle in degrees, 16-bit); result in G0 (fixed point, +-4096 = 1.0)",
+  "evidence": "Handler 0x80078DD8 converts the 16-bit angle to the 4096-per-turn unit (x*4096/360 via the 0xB60B60B7 reciprocal) and returns func_80079324(angle) in G0; func_80079324 is a quarter-wave table lookup (table at 0x80083588, 1024/2048/3072 quadrant logic) = sine. Scripts: 'push G0x1f0 (angle, wrapped at 0x168=360); b8; push G0; pop L4; mul L4,3' i.e. circular motion. Checked: scales the angle by ~4096/360 and calls the sine routine 0x80079324; result in the accumulator."
+ },
+ "0xb9": {
+  "name": "cos_deg",
+  "confidence": "high",
+  "args": "stack: 1 word (angle in degrees, 16-bit); result in G0 (fixed point, +-4096 = 1.0)",
+  "evidence": "Same as b8 but calls func_800793B8, the same table with a 1024 phase shift = cosine. 2 uses in scene 0x143a2b44 together with b8 (x = r*cos, y = r*sin)."
+ },
+ "0xba": {
+  "name": "bgm_set_track_levels_timed",
+  "confidence": "medium",
+  "args": "inline 2 words (stack 4): operand low byte = channel, word0 byte0/byte1 = two level bytes (0x00,0x40 / 0x00,0x80 / 0x01,0x80 / 0x00,0xBE), word1 = frames; 110 uses",
+  "evidence": "Handler calls 0x8005B314(chan, a, b, frames): 0x80013F2C(sound object [0x8007FD8C], chan, a, b) rewrites the per-part level bytes of that channel at 0x8002B6C4+chan*2+k for every part k flagged in the mask table 0x8002B6C0 (mode byte 1: 'a != 0' flag; mode byte 2: the value b / a), then creates/refreshes the task 0x8005B3B0, which after 'frames' ticks calls 0x80013F2C(.., chan, 0, 0) to restore. So it temporarily overrides two level bytes of one music part for N frames. Used 110x in cutscenes at fixed times ('ba 0x4000 0x120', 'ba 0 0 2' to clear). What the two bytes are (volume/pan/mute of layered tracks) is not established; the 'temporary override then restore' part is certain."
+ },
+ "0xbb": {
+  "name": "play_bgm",
+  "confidence": "high",
+  "args": "inline 1 extra word: operand low16 = track id (0x8aa..0x8f3), word0 = mode byte (0 or 1, mostly 1); stack form pops the same two",
+  "evidence": "Handler 0x800789C4: if the id differs from ctx+0x38C it finds (or allocates) the pool task of type 0x800597B0, sets state 0 (or 10 = restart if one exists), +44 = id, +64 = byte param. That task calls cd_set_play_location/cd_set_play_mode, open_resource_stream, is_sequence_playing, sequence_track_tick, sound_restore_voice_snapshot = loads and plays a music sequence from the CD. 479 uses, almost always at scene start ('bb 0x8bc 1'), followed by a9 polling in a few scenes."
+ },
+ "0xbc": {
+  "name": "add_trigger_zone",
+  "confidence": "medium",
+  "args": "inline 3 words (stack 5): operand low16 = flags word (0x401 / 0x800), word0 = callback script address, word1 = x0 | y0<<16, word2 = x1 | y1<<16; returns slot idx in G0",
+  "evidence": "Handler 0x8007426C finds the first free (word0 == -1) 16-byte record among slots 0..39 of [0x8007F1C8] and fills it: word0 = script address, +4/+6/+8/+10 = rect, +12 = operand low16, +14 = 2; stores the slot index in G0. Sibling of sys_80 (same table, slots 40..79/80..127, type from the operand). Scripts store G0 ('push G0; pop G0x1ec') for a later b7 removal, and place it among sys_80 hotspot definitions in clickable scenes (57 uses)."
+ },
+ "0xbd": {
+  "name": "nop_discard_args",
+  "confidence": "high",
+  "args": "stack: pops 2 words (inline: skips 1 word); no effect",
+  "evidence": "Handler 0x80079000 only advances the data-stack pointer by 8 (stack form) or the ip by 4 (inline) and returns. Used 13 times, e.g. 'push 0; af; push G0; bd' in actor AI frame functions (scene 0x183100dc) or 'push 0; push.b G0x9a; bd' (0x17629c00): a stripped-out call whose arguments are discarded."
+ },
+ "0xbe": {
+  "name": "set_msgbox_option",
+  "confidence": "medium",
+  "args": "inline 0 extra words: operand byte0 = option (0..6), byte1 = value (0/1; option 3 takes a frame count)",
+  "evidence": "Handler 0x8006F4C4 switches on the option: 0 = [0x8007F25C] bit24, 1 = [0x8007F260] bit23, 2 = [0x8007F260] bit24, 3 = halfword [0x8007FD70] = value, 4 = [0x8007F260] bit25, 5 = [0x8007F25C] bit23, 6 = [0x8007F264] bit10. The message-box engine reads them: option 3 is the window fade in/out frame count (0x8004CF0C, alpha ramp (frame<<7)/value; scripts use 0x3c = 60 and 0x1e = 30), option 2 gates drawing of the window frame (0x8004E840), option 4 gates the page-advance sound (0x8004D120), option 1 is copied into the message-box flags (+0x338, bit 23) when 0x92 opens a box (0x80074F20), option 5 is tested at 0x80053318 and 0x800751BC (box flag setup), option 0 when a box is created (0x80053018), option 6 at 0x8004DC28. 595 uses: 'be 0x100' (option 0 on) 184x and 'be 0x0' 132x mostly at scene/cutscene init, 'be 0x3c03' 38x (option 3 = 60 frames), 'be 0x101' 106x. Message-box configuration, so it matters for the dialogue analysis."
+ },
+ "0xbf": {
+  "name": "call_script_next_frame",
+  "confidence": "medium",
+  "args": "inline 1 word (stack 1): word0 = script function address (e.g. 0xbe9, 0xc19, 0xbf9, 0xc09, 0xa5a)",
+  "evidence": "Handler 0x8006F634 allocates a pool task (type 0x8006F6C8) with +8 = address. The task frees itself, calls func_80071c70 (vm_call: pushes ip, frame regs and ctx+0x20C on the call stack and sets ip = codebase + addr*4) and ORs 0x70800 into ctx+0x20C. So the main script thread calls that function the next time it runs; several bf in a row chain (the last queued runs first and returns into the previous). 1178 uses; the addresses 0xbe9, 0xbf9, 0xc09, 0xc19 each occur ~207 times (clearly a set used together in 200+ scenes), others like 0xa5a/0xb35/0xb60/0xb71 are scene-specific functions."
+ },
+ "0xc0": {
+  "name": "actor_scale_to",
+  "confidence": "medium",
+  "args": "operand low16 = actor id (negative = current actor); 2 inline words (or 2 stack values): target value (16.16 fixed, 0x10000 = 1.0), duration in frames (0 = set immediately)",
+  "evidence": "Shared handler 0x80076964 does not act: it appends command type 13 to the actor's 16-slot command ring (type byte at actor+0x80+slot, 2 arg words at slot*8) and returns. The type-13 executor 0x8003B2EC either stores the value in actor+0xB8 or spawns a ramp task (0x8003A460) that steps actor+0xB8 linearly over N frames and sets flag 0x40000000 in actor+0xE4 while running. actor+0xB8 is initialised to 0x10000 at actor creation and the sprite renderer (0x80038930..) divides vertex offsets by it, so it is a scale/zoom factor (note: inverse, values below 0x10000 enlarge). Scripts use 0xB000-0x14800 over 90-180 frames, e.g. 'c0 actor 0x10000 0xb4; 8a move; 74; c1'."
+ },
+ "0xc1": {
+  "name": "actor_wait_scale_done",
+  "confidence": "medium",
+  "args": "operand low16 = actor id; no arguments",
+  "evidence": "Shared handler 0x80076964 queues command type 14 on the actor. Its executor 0x8003B39C checks flag 0x40000000 in actor+0xE4 (set by the c0 ramp task, cleared when it finishes); while set it sets the actor wait counter (+0xB4 = 1) and does not advance the command queue. It is a barrier in the ACTOR's queue, not a script wait. Always follows c0 in scripts (c0 ...; 74; c1)."
+ },
+ "0xc2": {
+  "name": "map_anim_control",
+  "confidence": "medium",
+  "args": "operand low16 = animation id; 1 inline word = (mode << 24) | value, or 3 stack values (top = id, then mode, then value). Modes: 0 = loop flag (bit0), 1 = ping-pong flag (bit1), 2 = pause (bit2; value 1 pauses, 0 resumes), 3 = speed/duration scale (halfword, 0x100 = normal, larger = slower), 4 = rewind to frame 0",
+  "evidence": "Finds the 16-byte entry whose halfword id matches in the scene-header table at [0x8007F0FC] (count at halfword 0x8007FD4A) and edits its flag byte (+11), speed halfword (+14) or frame/timer bytes (+12,+13); jump table at 0x8007E08C. The per-frame consumer (0x8004B350..) steps the frame index, reloads the timer as frame_duration*speed>>8 and blits the frame via 0x80023FF0, honouring pause/loop/ping-pong bits. Scripts pause ids 4,5 at scene start (mode 2 value 1) and un-pause them later. Exact visual (map tile/sprite animation) not confirmed."
+ },
+ "0xc3": {
+  "name": "clear_actor_override",
+  "confidence": "medium",
+  "args": "none",
+  "evidence": "Handler clears bit 0x2000 of the global flag word at 0x8007F25C and nothing else. That bit is set by op 0x7F (which also stores an actor index in ctx+0x3C5); op 0x7F with argument 0xFFFE clears it in exactly the same way. The per-frame actor-update function 0x8003B814 skips the normal update of the actor ctx+0x3C5 while the bit is set. So c3 = release the script's hold on that actor (counterpart of 0x7F)."
+ },
+ "0xc4": {
+  "name": "movie_open",
+  "confidence": "high",
+  "args": "operand low byte = number stored in task+58 (observed 10,15,25,30; most likely frames per second); 2 inline words: resource/package id (0xDB3-0xDFA, 0x1300-0x1302), size = width (low16) | height (high16) e.g. 0x00F00140 = 320x240; then the VM waits one frame",
+  "evidence": "Handler is NOT in the field-engine RAM images: it lives in a separately loaded module (scene package part type 22, 78,812 bytes of MIPS, present only in scenes that use these ops; base 0x800BEA00: the handler addresses line up with the blob's function starts at that base and 0x8006C1AC passes the same constant; I read the blob from VALKYRIE.BIN in the scene packages I checked that use these ops). Handler: allocates a task (0x8002FC18) with task function 0x800BF714 and stores width/height (+48,+50), resource id (+52) and the operand byte (+58). The task function waits for cd_is_active() == 0, streams the resource from CD (cd_get_track_sector_info/cd_set_play_*), allocates frame buffers (full-screen 320x224+ gets a special path), decodes frames and builds textured GPU primitives. Used in ending/cut-scene scenes with 320x240 clips and small map overlays."
+ },
+ "0xc5": {
+  "name": "movie_play",
+  "confidence": "high",
+  "args": "operand low byte = byte stored in task+56 (observed 0x3c,0x45,0x46, 0; used as a draw priority/depth value); 1 inline word = x (low16) | y (high16) position (map coordinates minus camera; 0,0 for full-screen); or 3 stack values",
+  "evidence": "Module handler 0x800BFEEC: finds the movie task by its function pointer (0x8002FD10(0x800BF714)); if the task's state byte (+57) is still 0 (not loaded) it rewinds ip by 4 and waits a frame (blocks until loaded); otherwise stores x,y in +44/+46, the byte in +56 and sets flag bit 1 (start playing), which the task function needs to advance from state 1 to 2. Always directly follows c4."
+ },
+ "0xc6": {
+  "name": "movie_stop",
+  "confidence": "high",
+  "args": "none",
+  "evidence": "Module handler 0x800BFFE0: if the movie task exists, sets its flag bit 2 (close request) and rewinds ip with wait=1, so the script blocks until the task has torn itself down. Used when a movie is aborted/ended explicitly, e.g. 'c4 c5 ca-loop c8-loop(until 0) c6' and right before scene transitions."
+ },
+ "0xc7": {
+  "name": "movie_wait_end",
+  "confidence": "high",
+  "args": "none",
+  "evidence": "Module handler 0x800C0044: while the movie task exists it rewinds ip (waits a frame); if the task's 'finished' flag (bit 3) is set it also sets the close flag (bit 2). So it blocks until playback is finished and the task is gone. Typical sequence: c4, c5, loop on c8 until 2 (playing), c7, then sound stop (d7)."
+ },
+ "0xc8": {
+  "name": "movie_status",
+  "confidence": "high",
+  "args": "none; result in accumulator G[0]",
+  "evidence": "Module handler 0x800C00B0: G[0] = -1 if no movie task, 0 if finished (flag bit 3), 2 if playing (flag bit 4), else 1 (loading/preparing). Scripts poll it: 'c8; push G0; ne 2; jump if !pop; 8c 1; jump back' (wait until playing), or loop while it is 1, or wait until 0."
+ },
+ "0xc9": {
+  "name": "engine_set_param",
+  "confidence": "medium",
+  "args": "operand low16 = sub-op 0..11; 1 inline word (stack: sub-op on top, then value) = value. Sub-ops listed in notes.md (0 battle BGM id, 1 second BGM id, 2/8/10/11/6 flag bits in ctx+0x398, 3 scene tileset package, 4/5/7 unused, 9 battle start mode)",
+  "evidence": "Jump table 0x8007E0A4. Sub-op 3 (845 of 1,080 uses, 49 distinct ids 0x59E..0x5CE) is a package id: the preload task 0x80043C4C reads it, together with the fixed packages 1487 (0x5CF) and 1488/1489 (picked by a bit of the active character's item byte), into buffers kept at ctx+4/+0xC/+0x10. I decompressed 0x59E and 0x5C9: each is a 5-part package: a small table, an SLZ block that decompresses to MIPS code (jal targets 0x80081D8C, 0x80082368, 0x80060044, 0x80021C80, i.e. calls into the field engine), a ~200 KB 8bpp TIM (dark wood planks, bookshelves = interior tile textures) and a 4bpp TIM. So sub-op 3 selects the scene's tile graphics/map code module. Sub-op 0 holds a BGM directory word (script values 2249..2282 = the play_bgm id space; reset default 0x8C4): the loader preloads that file when it differs from ctx+0x38C (the id play_bgm last loaded); library func_09E7(battle, bgm, bgm2, flag) sets it (and sub 1) right before start_battle. Sub-op 9 ([0x8007FD89], values 1/3) is read inside start_battle (0x8004227C, 0x800423E8) and selects which of ctx+0x398 bits 4/8 are set (0 = decide from the situation, 2 -> 4, 3 -> 8). Sub-ops 2/8/10/11 (flag bits 2/0x100/0x1000/0x2000 of ctx+0x398) are written in clusters just before start_battle; no reader exists in the field engine, so the battle module reads them. Sub-op 6 (0x200, 156 uses, always 1) is set at scene start of dungeon scenes after 'play_bgm 0x8B3'. 4/5/7 have no uses."
+ },
+ "0xca": {
+  "name": "movie_frame",
+  "confidence": "high",
+  "args": "none; result in accumulator G[0]",
+  "evidence": "Module handler 0x800C013C: if the movie task exists G[0] = the module's current-frame counter (word at 0x800C0C40), else G[0] = 0x7FFFFFFF. Scripts poll it to time effects: 'ca; push G0; lt N; wait' with thresholds 0x34,0x39,0x44,0x49 or 0x95,0x12B,0x172,0x219 followed by ba (screen effect), in the ending cut-scenes."
+ },
+ "0xcb": {
+  "name": "caption",
+  "confidence": "high",
+  "args": "",
+  "evidence": "record = low 16 bits; a one-line <5> place name in 87 of 88 uses"
+ },
+ "0xcc": {
+  "name": "treasure",
+  "confidence": "high",
+  "args": "",
+  "evidence": "6 inline words: position, item id, flags; the 5th is the \"You found ...\" record in 466 of 466 uses"
+ },
+ "0xcd": {
+  "name": "set_light",
+  "confidence": "high",
+  "args": "3 inline words: w0 (+ the instruction's low 16 bits) = three halfwords stored as the light vector (observed (0,0xF000,0) and (0,0x1000,0), i.e. straight down / up in 4.12 fixed); w1 and w2 low half = three halfwords of the light colour column; w2 high half = light index (0..2). Used in pairs (index 0 then 1) in the 3D scenes",
+  "evidence": "Handler 0x8006FE28 stores the values into arrays at 0x8007FCBC (vector) and 0x8007FCDC (3x3 halfword matrix, column = index) and calls 0x8007CDF4, which executes ctc2 into GTE control registers 16-20 = light colour matrix. 48 uses, always the same two calls (0xF000/0x1000 pair) at the start of a handful of scenes."
+ },
+ "0xce": {
+  "name": "set_footstep_sfx",
+  "confidence": "high",
+  "args": "operand low16 = sfx id stored in ctx+0x390 (observed 0x48-0x4E; 0x4B in 670 of 871 uses); 1 inline word = sfx id stored in ctx+0x392 (0x51 or 0x52)",
+  "evidence": "The only consumers of ctx+0x390/0x392 are 0x8006AEEC and the scene-reset code (defaults 0x48 and 0x51). 0x8006AEEC walks a pointer table at 0x80080608 (selected by [0x8007FD7E], e.g. entries at 0x800805D8) of 3-byte entries (animation id, frame A, frame B) and, when the actor's animation id and frame number match, plays that sfx id with the positional-sfx routine 0x80059180 at the actor's position (id 0x392 for animations 0x25/0x26, id 0x390 otherwise, or the floor type from the controlled actor). 871 uses, one per scene as scene set-up."
+ },
+ "0xcf": {
+  "name": "stop_sfx",
+  "confidence": "medium",
+  "args": "1 stack value: sound/voice id (as returned in G[0] by the play ops, e.g. 0x8F, and held in a local)",
+  "evidence": "Pops one value and calls 0x8001A174(sound engine [0x8007FD9C], id). Despite its label (note_on_activate_voice) that routine, when read, zeroes the sequence slot (stride 52 at +0x112C) and keys off every voice (24) belonging to it - the same call op 0xD7 makes with a stopped stream's id. Scripts do 'push L0xc; cf' shortly before a scene change (fade-out, wait, stop, load next scene), where the local came from an earlier play op."
+ },
+ "0xd0": {
+  "name": "set_camera_limits",
+  "confidence": "high",
+  "args": "operand low byte: 0 = also clamp the camera now, nonzero = only store; 2 inline words: (min_x | min_y<<16), (max_x | max_y<<16); negative values mean default (0 for the minima, map width/height [0x8007FC74/76] for the maxima)",
+  "evidence": "Handler 0x8006FF74 stores four halfwords at ctx+200..206 after replacing negatives, and when the operand is 0 clamps the current camera position (camera struct at [0x8007F100]+0x168+idx*60, +16/+20, = +24/+28 >> 8) to the stored limits. Typical call 'd0 1, 0x60ffff, 0xffffffff' = left/top limits only."
+ },
+ "0xd1": {
+  "name": "actor_set_sort_params",
+  "confidence": "low",
+  "args": "operand low16 = actor id (0xFFFF = current actor); 1 inline word: low byte -> actor+0x102, next byte -> actor+0x103 (observed 0x3800, 0x3802, 0x1902, 0x6403, ...)",
+  "evidence": "Handler 0x80070154 stores the two bytes. +0x102 is initialised from [0x8007FD46] at actor creation and its bit 0 selects the depth value in the actor draw routine 0x80038278: bit0 clear -> 0x80038154 result + 0x100, bit0 set -> the plain result (an ordering-table depth bias between the actor and the map layers); script values for +0x102 are 0, 2 or 3. +0x103 (the 0x19..0x64 byte, initialised from [0x8007FD44]) is written at 0x80036770 and 0x800701C4 and read nowhere in this overlay. Meaning of the second byte unknown; first byte = draw depth/priority bias is the best reading. UPDATE 2026-11-12 (live, scene 0x1B, real handler run from a patched script): stores confirmed (0x2803 -> +0x102/+0x103 = 03/28, etc.). Defaults come from the map's control layers 3/4 at load (0x8006B870/0x8006B884: hall 0x28/0, scene 0x16 0x14/2). +0x102 bit 0: in 0x80038278 the occluder baseline depth at the actor's x gets +0x100 (one pixel row) when clear; compared with the actor's bbox bottom at 0x80038400-0x80038478, so it is a one-pixel front/behind tie-break against the wall layer. On the balcony both actors stand ~0.65 px behind the line, so ~100 screenshots over all values showed no change. +0x103: no reader anywhere in resident RAM, the field overlay or the 51 scene code packages; scene 0x38 steps it 0x20..0x50 on a walking actor, so a per-position depth/priority value whose consumer is elsewhere. Still low."
+ },
+ "0xd2": {
+  "name": "update_sfx_position",
+  "confidence": "medium",
+  "args": "operand low byte = voice id (as returned by a positional sfx start); 2 inline words: x | y<<16, volume | param<<16 (or 5 stack values)",
+  "evidence": "Handler 0x800701C8 unpacks the arguments and calls 0x800593EC(voice, x, y, vol, param), the same routine the actor-attached sfx task (0x8003B734, op 0xDB) calls every frame to re-pan and re-attenuate a playing voice from a map position relative to the camera (centre 160,112). Only 12 uses."
+ },
+ "0xd3": {
+  "name": "sound_seq_load",
+  "confidence": "medium",
+  "args": "operand low16 = resource id (0x937, 0xDC4 x27, 0xA98, 0xBBD, 0xDB3-0xDFD...); result = handle (0-127, round robin) in accumulator G[0], scripts store it in a local",
+  "evidence": "Handler 0x800702AC calls 0x8005A014(id), which allocates a task (function 0x8005A098) and returns its handle. The task state machine waits for the CD to be idle, asks cd_get_track_sector_info for the resource, mallocs a buffer (task+8) and starts the CD read (cd_set_play_location/cd_set_play_mode), then in state 2 polls the sound engine (0x8001A100) and clears task+15 when the sequence ends. Ops d4/d6/d7 take this handle; d4 hands the buffer to 0x80019834 (sequence_parse_events), so the loaded data is a music/sound sequence. Ids are adjacent to the movie ids used by c4 (the audio that goes with a movie)."
+ },
+ "0xd4": {
+  "name": "sound_seq_play",
+  "confidence": "medium",
+  "args": "4 stack values (top first): handle (from d3), x (-1 = no positioning), y or pan, volume. Typical: push 0x7f, push 0 or 0x7f, push -1, push handle",
+  "evidence": "Handler 0x80070324 finds the d3 task via 0x800702D4; while its state is < 2 (still loading) it rewinds ip by 4 and restores the stack pointer (waits and retries). Then, if x != -1, derives pan/volume from the position with 0x80059084 (relative to the camera), else uses the given values; calls 0x8003E134 -> 0x80019834 (sequence_parse_events) on the loaded buffer and stores the returned sequence id in task+15. Pairs of calls with pan 0 and pan 0x7F on two handles are used as a stereo pair around movies."
+ },
+ "0xd5": {
+  "name": "sound_seq_set_position",
+  "confidence": "medium",
+  "args": "4 stack values popped (top first): handle (from d3), x, y, volume; NEVER used in scene code",
+  "evidence": "Handler 0x80070460 looks up the d3 task by handle (0x800702D4) and, if its sequence slot byte (+0xF) is not 0xFF, calls 0x800593EC(slot, x, y, volume, 0x2000) - the same routine op 0xD2 (update_sfx_position) uses for plain sfx voices, and the one the actor sfx task 0x8003B734 calls every frame to re-pan/re-attenuate from the map position relative to the camera. So it is the position update for a positional sound sequence started with d3/d4. Mechanism from code; never used."
+ },
+ "0xd6": {
+  "name": "sound_is_playing",
+  "confidence": "medium",
+  "args": "1 stack value: handle from d3; result in accumulator G[0] (0 = finished / unknown handle)",
+  "evidence": "Handler 0x8007050C finds the d3 task and stores 0x8001A100(sound engine, task+15) in G[0]; that routine returns the sequence slot's +0x1130 word (0 for an inactive slot). Scripts use it as a wait loop: 'push handle; d6; push G0; jump if !pop; 8c 1; jump back'."
+ },
+ "0xd7": {
+  "name": "sound_seq_stop",
+  "confidence": "medium",
+  "args": "1 stack value: handle from d3",
+  "evidence": "Handler 0x8007058C finds the d3 task, frees its data buffer (free(task+8)), stops the playing sequence with 0x8001A174(engine, task+15) when it is valid, and zeroes the task function pointer (kills the task). Appears after c7/c6 (movie end) with the two handles from d3, and before scene changes."
+ },
+ "0xd8": {
+  "name": "set_battle_return_scene",
+  "confidence": "medium-high",
+  "args": "operand low16 = scene id; 2 inline words: x | y<<16 (stored raw), facing byte. The position and facing are overwritten by start_battle (0x800364F0 at 0x80042694) with the hero's, so they have no effect",
+  "evidence": "Handler 0x8006FB44 writes ctx+0x318 = scene id, ctx+0x312 = table[id].dir word, ctx+0x314 = 0x8006B228(...), ctx+0x94/+0x98 = x/y, ctx+0x39B = byte (live values at Valhalla: ctx+0x318 = 0x16 = the current scene, +0x312 = 0xE30 = 3632 = 3610+0x16, +0x314 = 0xE16) and sets [0x8007F260] |= 0x2000. That flag is tested in start_battle 0x8004227C (0x800426A8): with it set ctx+0x39A = 4, ctx+0x38C (current BGM id) = -1 and ctx+0x24 = 0, else ctx+0x39A = 2. The single use (scene 0xEB, the sluice-gate/final area) is 'd8 0xEC (0x01A8013B, 0); func_09E7(battle 0x43B, bgm 0x8D2, ...); wait 60; select_scene 0xEC; change_scene 0x01A8013B' i.e. it stages the destination scene and arrival position before a scripted boss battle. Hypothesis, one use only. UPDATE 2026-11-12 (live): it writes the same fields as the normal enter-scene function 0x8006C9DC (ctx+0x318 id, +0x312 dir word, +0x314 shared package, +0x94/+0x98, +0x39B) and sets F260 bit 0x2000, which start_battle (0x800426C0) turns into ctx+0x39A = 4 (fresh scene entry; 2 = resume after battle, 3 = menu, 5 = world map) with ctx+0x38C = -1, ctx+0x24 = 0; the flag is cleared at 0x800427C0 (one-shot). The battle module's exit (0x8005F560..0x8005F884 in a mid-battle RAM image) loads packages ctx+0x314 and ctx+0x312 and restarts the field engine (package 2292). Test: Valhalla intro script patched to 'd8 0xEC' + func_09E7 battle; after winning, scene 0xEC (golden sluice gate) loaded and its cutscene played; with id 0x16 Valhalla restarted fresh. So in scene 0xEB the lines after func_09E7 never run on a win. Defeat not tested (code: 0x8006C85C picks exit code 0/1/2 from ctx+0x398 bits)."
+ },
+ "0xd9": {
+  "name": "spawn_ambient_sound_source",
+  "confidence": "medium",
+  "args": "operand byte0 = first voice index, byte1 = last voice index (0xFF in byte0 = update an existing source: byte1 = the source id that d9 returned in G[0]); 2 inline words (or 5 stack values): word0 = x (low16, 0xFFFF = fixed) | y or fixed-pan/volume (high16), word1 = nonzero starts at full volume (zero fades in from 0); G[0] = source id (counter ctx+0xFF9, 0..127)",
+  "evidence": "Handler 0x80070614 creates a task (function 0x8005A2B4) that keeps a bit mask of sound-engine voices first..last and every frame computes pan and volume from the source position relative to the camera (or fixed volume = y>>8, pan = y&0xFF when x = -1), ramping the volume, and applies it with 0x8001A91C/0x8001A974 (set per-voice volume/pan bytes by mask). 322 uses, typically 3-4 calls in a row at scene start with different voice ranges ('d9 0x1817 0xffff 0' mutes, 'd9 0x1817 0x7f40ffff' = full volume/centre). The 'ambient' reading is an interpretation."
+ },
+ "0xda": {
+  "name": "play_sfx_at_actor",
+  "confidence": "high",
+  "args": "operand low16 = actor id; word0 = sfx id (low16) | byte (bits 16-23, volume-like, e.g. 0x7F); word1 low half = extra param (signed byte passed to the sound call) (2 inline words or 3 stack values)",
+  "evidence": "Shared handler 0x80076964 queues command type 15 on the actor. Executor 0x8003B584 calls 0x80059180(id, actor x, actor y, byte, param). That routine computes pan/volume from the position relative to the camera (0x80059084) and starts the sound via 0x8003E0D0 -> 0x80019B70 with the master sfx volume (ctx+0x3C2). Runs in sequence with the actor's other queued commands."
+ },
+ "0xdb": {
+  "name": "attach_sfx_to_actor",
+  "confidence": "high",
+  "args": "operand low16 = actor id; word0 = sfx id (low16) | volume byte (bits 16-23) | tag byte (bits 24-31); word1 low half = extra param (2 inline words or 4 stack values)",
+  "evidence": "Queues command type 16. Executor 0x8003B5D8 creates a task (function 0x8003B734) bound to the actor (+36) holding id (+44), tag (+46), volume (+48), param (+50). The task starts a positional voice with 0x800591F8, keeps the voice id in +52 and every frame re-pans/re-attenuates it from the actor's position with 0x800593EC; it stops the voice (0x80059370) when the pause/menu flags in 0x8007F25C/F260 are set. Only 4 uses (a sound that follows an actor)."
+ },
+ "0xdc": {
+  "name": "stop_actor_sfx",
+  "confidence": "high",
+  "args": "operand low16 = actor id; 1 word (inline or stack) = tag byte given to db",
+  "evidence": "Queues command type 17. Executor 0x8003B690 scans the 144 task slots (stride 236) for tasks with function 0x8003B734 (the op 0xDB task) bound to this actor whose tag (+46) equals the argument, stops its voice with 0x80059370(task+52) and kills the task. 5 uses."
+ },
+ "0xdd": {
+  "name": "actor_set_prop_or",
+  "confidence": "medium",
+  "args": "stack form (107 uses, all of the same shape): pop actor id, pop property id (e.g. 0x26), then pop four words that are OR-ed together into the value; the inline form takes (property id, value) like op 0xA1",
+  "evidence": "Shared handler 0x80076964 queues command type 2, exactly the type op 0xA1 queues with (id, value). Executor 0x8003A5C8 dispatches on the id through two jump tables (0x8007D8A8 and 0x8007D988 / 0x8007DA78, ~60 property setters: position +0x94/+0x98, byte +0xC2/+0xC6, +0xD8, model lookup +0xCC, flags +0xE4 ...). The four OR-ed words are flag arguments passed by the shared-library actor-spawn wrapper (shared-library function near word 0x968, right after the 0x85 spawn: 'push L0x38..L0x44; push 0x26; push actor; dd'). What property 0x26 is was not determined."
+ },
+ "0xde": {
+  "name": "play_sfx_id",
+  "confidence": "high",
+  "args": "operand low16 = sfx id (11 of 13 uses are id 9; also 7, 0xB); no other arguments",
+  "evidence": "Handler 0x80078DA8 calls 0x80019B70(sound engine [0x8007FD9C], id, 0, 0x7F40), the same sound-trigger routine the positional sfx path ends in, with fixed volume 0x7F and pan 0x40 (centre). Non-positional, fire-and-forget; in scenes it follows actor commands (e.g. after '75/76 actor' waits). 13 uses + 2 in the shared library."
+ },
+ "0xdf": {
+  "name": "bgm_save_state",
+  "confidence": "high",
+  "args": "none",
+  "evidence": "Handler 0x800709DC copies ctx+0x18 into the sound engine structure ([0x8007FD9C]+0x1C) and sets its byte +5 = 1. The BGM preload task does the same thing inline when ctx+0x38E (c9 sub-op 1) == -1 (0x800435D0..0x800435F8), so the pair looks like 'point the sound engine at the preloaded music data'. ctx+0x18 is a heap pointer (zero in the Valhalla snapshot). Dead built-in; purpose still a guess. UPDATE 2026-11-12 (live): sets sound manager +0x1C = ctx+0x18 (a 2,144-byte buffer allocated at New Game, 0x8003C5B4; the pointer is non-zero, only its contents start zero) and +5 = 1. The sound tick 0x80015754 treats +5 as 'save' (0x80015A50: 24 channel records mgr+0x98..0x8D8, the music data pointer mgr+0x30, volumes/pans, 3 bytes, [mgr+0x30]+4) and +4 as 'restore' (0x80015B04). Live: after 'df' the buffer went from 0 to 756 non-zero bytes, 477 of 528 words equal to mgr+0x98.., buf+0x840 = mgr+0x30 = 0x801FB000. The preload task does the same save before battles (0x800435F8) and so does 0x8005F7E4. No code sets +4 (restore) in the EXE, field overlay or battle image: the snapshot appears never restored in this build (title/menu/world-map modules not searched)."
+ },
+ "0xe0": {
+  "name": "set_portrait_default_side",
+  "confidence": "high",
+  "args": "value in instruction low 16 bits (inline, always 0/1 in scripts) or 1 popped; nonzero = set, 0 = clear",
+  "evidence": "Handler 0x80075C5C sets/clears bit 27 (0x08000000) of [0x8007F260]. 2,232 of its 4,499 uses are in library func_033C (message placement): anchor 0 and 3 -> 'e0 1', anchors 1 and 2 -> 'e0 0' right before 0x92/0x93/0x94 (anchors 8-15 pick 1/0 from the facing byte of that actor). The only reader in the field overlay is the text renderer 0x8004BF6C at 0x8004C860: when a line slot (box+0x4A6..) is armed with the mode value -1 it copies that bit into message-box flag bit 0 (box+0x338), otherwise it sets/clears bit 0 from the mode. Box flag bit 0 is tested at 0x8004E6F4 in the portrait drawing routine (the buffer at box+0x32C loaded by 0xA8): set = the portrait is built from textured quads (GPU 0x2C/0x2E, routine 0x8004E334, vertex x = width - tile x, i.e. mirrored), clear = plain sprite rectangles (0x64/0x66, routine 0x8004DFEC). LIVE (scene 0x1B patched into place, Frei's line 'Welcome to Valhalla', box flags +0x338 = 0x08220001 at 0x800FD0F0): (1) forcing the e0 argument 1 -> 0 at the call changed nothing (0 differing pixels 90 frames later); (2) clearing box bit 0 by hand changed nothing in 2 frames; (3) setting it again made Frei's portrait jump from the bottom-left to the bottom-right of the screen, mirrored. So bit 0 does control portrait mirroring/side, but e0's value at the start of the line did not change the picture, so when the renderer re-samples it (only when a slot is re-armed with mode -1) was not pinned down. Name changed from set_msgbox_flag: what it does to the portrait is medium confidence, the exact trigger is not understood. UPDATE 2026-11-12 (edited discs in TinyPSX, scene 0x1B record 14): the bit only matters for lines whose text command 19 has the value ffff; 0000/0100 set the side themselves, which is why (1) showed nothing on Frei's <19:0100> line. With the line changed to <19:ffff>: x anchor 0 (e0 1) -> portrait bottom left; anchor 2 (same x = 24, e0 0) -> bottom right, mirrored, with the box pixel-identical; <19:0100> with anchor 2 -> identical to anchor 0; anchor 1 (box on the right, e0 0) -> bottom right. 1 = left, 0 = right (mirrored): the default portrait side, which func_033C sets to the box's side."
+ },
+ "0xe1": {
+  "name": "set_active_actors",
+  "confidence": "medium",
+  "args": "1 inline word; four actor ids packed as bytes: slot0 = ins bits 0-7, slot1 = ins bits 8-15, slot2 = word bits 0-7, slot3 = word bits 8-15 (0 = empty slot)",
+  "evidence": "Handler 0x80070A1C stores the 4 bytes into ctx+0x39C..0x39F; for each slot whose id changed it sets the old actor's role byte (+217 of the 236-byte actor entry, table [0x8007F1E4], 25 entries) to 1 and the new actor's to 2, clears some motion/flag bits, calls the per-slot func_8001AAE8 and then pokes an object (func_8002FD10 + func_80059568). Uses: 'e1 0x301 0x402' (= actors 1,3,2,4) in 7 scenes, 'e1 0x0 0' (empty) before cutscenes and 'e1 0x503 0' (actors 3,5) after a Lawfer line; paired with e2/e3. 'Party' is a guess for what the slots mean; the mechanism (4 actor-id slots) is certain."
+ },
+ "0xe2": {
+  "name": "save_active_actor_state",
+  "confidence": "medium",
+  "args": "NONE inline (the dossier's '3 inline words' is wrong: the handler never reads the instruction stream; the 3 words after it in call sites are ordinary instructions e1 0 / 0 / b2 N)",
+  "evidence": "Handler 0x80070C1C copies the role byte at +217 of all 25 actor entries (stride 236 from [0x8007F1E4]) into ctx+0x3A4.. (25 bytes) and copies the party-slot word ctx+0x39C to ctx+0x3A0. e3 restores exactly those fields. Script pattern: 'e2; e1 0 0; b2 N; ...cutscene...; b2 N; e1 0 0; e3'. NOTE vp_script.BUILTIN_ARGS[0xe2] = 3 is a bug (should be 0): the sweep skips 'e1 0 0; b2 N' after every e2 and mis-lists the following instructions."
+ },
+ "0xe3": {
+  "name": "restore_active_actor_state",
+  "confidence": "medium",
+  "args": "0 inline words; instruction low byte = flag (always 0 in scripts); nonzero additionally snaps every actor (word +172 <- word +176, halfword +214 <- 0)",
+  "evidence": "Handler 0x80070C64 writes back the 25 role bytes (+217) and the slot word saved by e2 (ctx+0x3A4.. / ctx+0x3A0 -> ctx+0x39C), calling func_8001AAE8(slot,0) for restored non-empty slots. All 5 uses sit at the end of a cutscene right after 'e1 0 0' and are the mirror image of e2 at its start."
+ },
+ "0xe4": {
+  "name": "set_character_weapon",
+  "confidence": "medium-high",
+  "args": "1-based roster index (ins low16 or popped); item id: 1 inline word or popped; -1 = query only; G[0] = previous id",
+  "evidence": "Handler 0x80070D2C: entry = [0x8007F1E4] + 236*(idx-1), i.e. the same 25-record roster table as b2/e1 (not the 264-byte actor table); G[0] = old halfword at entry+20, then (unless -1) stores the new value, looks it up in the 3-byte table [0x8007F204] (also used by e5/e6) and builds 3 'mode' slots at +157..159; for index 1 it also flips movement flag bits at +156. In the roster records the halfword at +20 is the first of a list of ids (e.g. 0x49 0xAA 0xB4 0xBE 0xC3), so it is more likely an equipped weapon/attack id than a generic item. 4 uses (scenes 0x6F, 0x3EC, 0x3EE): 'e4 5 0x61 ... push L0 ... e4' save/restore and 'e4 1 -1' compared with 0x100. UPDATE 2026-11-12 (live): +20 is equipment slot 0 of 10 (+20..+38; 0x8006660C scans them); slot 0 is the weapon: the 3-byte table [0x8007F204] per item id-1 has the item class in byte 0 (1 sword, 2 polearm/axe, 3 axe/rapier, 4 wand, 6 bow). Byte 1 bit 7 (ranged) sets +156 bit 2, else bit 0; bits 4-6 give up to 3 mode ids at +157..159 (current at +155). The battle preload 0x80043490 reads roster[0]+20 and loads package 1489 (bow) instead of 1488. Test: 'e4 1 0x106' (Elven Bow) then a battle started from a patched script: Lenneth holds a bow; with a sword or wand she holds a sword (scratchpad bi/actor/bw_cmp3.png). The field sprite does not change. Uses: Arngrim (5) given item 0x61 for a guest battle then restored (scene 0x6F); scene 0x3EC checks whether Lenneth holds 0x100, the Demon Sword Levantine; scene 0x3EE gives her sword 0x16A."
+ },
+ "0xe5": {
+  "name": "has_item",
+  "confidence": "high",
+  "args": "item id: inline = ins low 16 bits (0 inline words) or 1 popped; result in G[0] (1 = held, 0 = not)",
+  "evidence": "Handler 0x80070F10 scans the 612-slot inventory in the big state struct (halfword ids at ctx+0x3C6, byte counts at ctx+0x88E) for the id and returns 1 if the matching slot's count is nonzero, else 0. Used as 'e5 0x4f; jump if !G0 ...; e6 0x4f -1; loop' (drain all copies) and as a gate ('e5 0x263', 'e5 0x25a')."
+ },
+ "0xe6": {
+  "name": "add_item",
+  "confidence": "high",
+  "args": "item id: inline = ins low 16 bits, stack = top of stack; delta (signed count): 1 inline word / 2nd stack pop (negative removes)",
+  "evidence": "Handler 0x80070FAC calls func_8005EC08(id, delta, maxbyte = item_table[id*3-1], 1): finds the id in the 612-slot inventory (ctx+0x3C6 / ctx+0x88E), inserts it in the first free slot if absent and delta>0, adds delta, and deletes the slot (compacting the 16-entry equipped list at ctx+0x328) when the count reaches <=0. 1116 of 1129 uses are the shared library's item-grant helper ('push 1; push L0; e6' right after a message + sys_7e); scenes use 'e6 0x263 -1', 'e6 0x25a -1' (consume key items before 'You found the Accursed Flame Gem') and 'e6 1 10' (give 10 of item 1)."
+ },
+ "0xe7": {
+  "name": "play_sfx_pos_tracked",
+  "confidence": "high",
+  "args": "inline: 2 words (ins low 16 = sfx id; word1 = x(low16), y(high16); word2 = volume(low16), extra byte (bits 16-23)); stack form pops 5: id, x, y, volume, extra. Returns the voice handle byte in G[0] (0xFF = none)",
+  "evidence": "Handler 0x80078C6C calls func_800591F8, which (unless sound is gated by flags 0x8007F25C&0x84000 / 0x8007F260&0x200) finds a free entry in the 8-byte handle table at 0x80080140, calls func_80059180 (the same positional-sfx routine op 0x8F calls: func_80059084 derives pan/volume from x,y relative to the camera centre 160,112, then func_8003E0D0 -> sound player 0x80019B70) and stores the handle. Scripts pair it with 8F (same args, e.g. 'sys_8f 0x7e ... 7f' / 'sys_e7 0x7d ... 7f'), keep G0 in a variable (G0x1F1.b) and later pass it to e9."
+ },
+ "0xe8": {
+  "name": "add_evaluation_level",
+  "confidence": "high",
+  "args": "signed 16-bit delta: ins low 16 bits, or popped; no clamp",
+  "evidence": "Handler 0x80071044: ctx.halfword[0x388] += arg (no clamp). The only other code touching it is the HUD routine at 0x800601C8..0x80060244: +1 per frame (cap 100) while idle, -5 per frame (floor 0) while the other state is active, with a bar drawn at (58,32) by 0x80060948 in the same routine; the same routine adds G0x68.b*500+100 to G[0x20] (capped at 999,999,999) when it fires. A 0..100 recharge-style gauge; what it is called in game is unknown. Purely mechanical name. UPDATE 2026-11-12 (live): ctx.h[0x388] is the Evaluation Level, the 'Eval.' line of the camp menu (reader lh 0x388 at 0x8005A620 in the menu module); New Game sets 100 (0x8003C6A0). Test: real built-in 'push 50; e8' then 'e8 0xFFFB': Eval 100 -> 145 in the menu. The routine at 0x800601C8 is not a HUD gauge: it is the Artifact prompt in per-actor task 0x8005EDFC (messages 3-6 of the shared records: 'This item is an Artifact...', 'Will you offer up the artifact to Lord Odin?'); Yes = Eval +1 (cap 100), No = -5 (floor 0); both add chapter*500+100 Event EXP to G[0x20] and show it via <14:00>. Run live by hijacking a task slot in the hall: 'The Artifact has been sent to Valhalla. Evaluation Level +1. You earned 1600 Event EXP.' How a real chest reaches that state was not traced."
+ },
+ "0xe9": {
+  "name": "stop_sfx_handle",
+  "confidence": "high",
+  "args": "voice handle (byte): inline = ins low byte, stack = 1 popped (scripts always use the stack form with a handle returned by e7)",
+  "evidence": "Handler 0x80078D5C -> func_80059370: if the handle is not 0xFF, looks it up in the 8-entry handle table at 0x80080140, calls func_8001A174(sound state, handle) (voice release / key-off path: reaches spu_keyon_keyoff and push_voice_event_queue) and marks the entry 0xFF. A sibling routine (0x800592F4) does the same for every entry on scene teardown. Scripts: 'push.b G0x1F1; e9' after an e7 stored its result there, then 'sys_8f' plays the next sound."
+ },
+ "0xea": {
+  "name": "restore_party_after_battle",
+  "confidence": "high",
+  "args": "none",
+  "evidence": "Handler 0x8007109C loops over the 25 roster records [0x8007F1E4] (236 bytes each) and for those with role byte (+217) 1 or 2 clears halfword +214 and copies word +176 to +172 (the reset e3 does when its flag is nonzero). 3 uses (scenes 0x6E, 0x6F, 0x3EC), all at the end of a scripted walk: '... call func_09E7?; ea; c9 8 0; b2 0x103; e1 0 0; e3'. What +172/+176/+214 are (position / target / velocity of the follower) is not established. UPDATE 2026-11-12 (live): for roster records with role 1 or 2 it sets +172 = +176 and clears +214; roles 0 untouched (confirmed with poked values). New Game sets +172 = +176 = the max-HP-like values (1000, 6079, 2000...), and 0xE1 does 'if (+214 & 0x0D) { clear; if (+172 == 0) +172 = 1 }' on joining, a revive pattern, so +172 = current HP, +176 = max HP, +214 = status ailments is the reading. All 3 uses come right after func_09E7 (start_battle). HP was not seen on screen, so the HP/status meaning is medium-low; the mechanism is certain. UPDATE 2026-11-12 (menu test): roster record 0 (Lenneth, 0x801DFE9C) +172 set to 123 at the 0x8D hit -> camp menu shows 'DME 123 / 1000' with 123 in red; the same with the real built-in (ea000000 patched in before the scene change) -> 'DME 1000 / 1000'. +214 set to 0x00FF -> status-ailment icons (skull, purple bubbles, blue sparks, grey stone) on her party panel; with 0xEA the field reads 0 and her normal sprite shows. So +172 = current HP (DME), +176 = max HP, +214 = status ailment bits; single bits 1/2/4/8 showed nothing on the first menu page, which has no sprite until the cursor moves. Scripts: scratchpad bi/eahp."
+ },
+ "0xeb": {
+  "name": "add_materialize_points",
+  "confidence": "high",
+  "args": "signed 32-bit amount: 1 inline word, or popped when bit 20 is set; no clamp",
+  "evidence": "Handler 0x800710E8: ctx.word[0xA4] += arg. LIVE: a watch on 0x801F5F80 shows the field is first written at frame 2055 by the New Game initialisation code (0x8003C77C in the title/new-game module): ctx+0xA4 = 2000 and ctx+0xA8 = 0, in the same routine that clears the 1,176-byte map-exploration bitmap at ctx+0xAF2, sets the party slots ctx+0x39C, and initialises the 25 roster records - so ctx is the persistent game-state block, not just a script context. No code in the field engine reads +0xA4 and a read watch over the first 9,000 frames (title, intro, Valhalla credits) found no reader, so the consumer is another module (menu/shop/battle result). Writers from scripts: library func_030A ('party member joins': G0x68.b*300, except roster entries 3 and 4) and one inline 'eb 0 0x4E20' (+20000) in scene 0x447 (Seraphic Gate) right after its caption. Best guess: a currency or points total (initial 2000); unconfirmed. UPDATE 2026-11-12 (live): ctx+0xA4 is Materialize Points, the 'Materialize point' figure in the camp menu (reader lw 0xA4 at 0x8005A4E8 in menu draw 0x80059EE0). Poking 12345 showed 'Materialize point 12345'; the real built-in ('push 1000; eb' then 'eb 0 0xEA') gave 3234 = 2000 + 1000 + 234. So func_030A's chapter*300 on a party join and scene 0x447's +20000 are MP rewards."
+ },
+ "0xec": {
+  "name": "set_map_exploration_tracking",
+  "confidence": "medium",
+  "args": "value = instruction low byte (always 0 in the 22 uses): 0 = tracking OFF (sets bit 9 of [0x8007F264]), nonzero = on; 0 inline words",
+  "evidence": "Handler 0x8007115C sets (arg == 0) or clears bit 0x200 of halfword [0x8007F264]. Reader: the per-frame routine 0x80055AF4 returns at once when the bit is set, and when the scene-table entry (0x80080618 + id*10, field +2) is non-zero otherwise walks the map cells under the camera rectangle and sets bit (cell tile index + table field +4) in the bitset at ctx+0xAF2. New-game init (0x8003C798) clears exactly that area (0x498 = 1,176 bytes), and scene reset 0x8006D5F0 clears the flag. So ctx+0xAF2 is a per-cell 'visited' bitmap (dungeon auto-map); ec 0 switches the marking off for a room (22 uses, always at the top of a room's entry function: 'ec 0; 81 5; a1 ...'). The bitmap's consumer (map screen) was not located and nothing was run live."
+ },
+ "0xed": {
+  "name": "get_interact_actor_res_id",
+  "confidence": "medium",
+  "args": "no args (0 inline words); result in G[0]",
+  "evidence": "Handler 0x80078F7C: if [0x8007F260] bit 1 or [0x8007F25C] bit 28 is set, G[0] = halfword +188 of the 264-byte actor entry indexed by the byte ctx[0xFFB]; else 0. Halfword +188 is the actor's resource/type id (a2 property 4: 'resource id'); ctx[0xFFB] and F260 bit 1 are set together by the action-button interaction code at 0x80044B54 (the same code that calls 0x8004528C with kind 4, see 0xAF). So it returns the type id of the actor the player is interacting with. One use (scene 0x3E7): 'ed; eq G0, 0x1028' guarding a hit sound."
+ },
+ "0xee": {
+  "name": "invalid_opcode_ee",
+  "confidence": "high",
+  "args": "n/a",
+  "evidence": "Not a built-in. The dispatch table at 0x800831D0 has 0xEE entries (0x00-0xED); the interpreter does no bounds check, so index 0xEE reads 0x00060000, which is a data word (the memory after the table is a cumulative-offset halfword table: 0006 000d 0013 0019 ...), and the 'handler disassembly' in the dossier is garbage. Never used in any scene (0 uses). Executing it would crash."
+ },
+ "0xef": {
+  "name": "invalid_opcode_ef",
+  "confidence": "high",
+  "args": "n/a",
+  "evidence": "Table entry 0x0013000D is data, not code (past the end of the 0xEE-entry dispatch table); 0 uses."
+ },
+ "0xf0": {
+  "name": "invalid_opcode_f0",
+  "confidence": "high",
+  "args": "n/a",
+  "evidence": "Table entry 0x001F0019 is data, not code (past the end of the dispatch table); 0 uses."
+ },
+ "0xf1": {
+  "name": "invalid_opcode_f1",
+  "confidence": "high",
+  "args": "n/a",
+  "evidence": "Table entry 0x002C0026 is data, not code (past the end of the dispatch table); 0 uses."
+ },
+ "0xf2": {
+  "name": "invalid_opcode_f2",
+  "confidence": "high",
+  "args": "n/a",
+  "evidence": "Table entry 0x00390032 is data, not code (past the end of the dispatch table); 0 uses."
+ },
+ "0xf3": {
+  "name": "invalid_opcode_f3",
+  "confidence": "high",
+  "args": "n/a",
+  "evidence": "Table entry 0x0045003F is data, not code (past the end of the dispatch table); 0 uses."
+ },
+ "0xf4": {
+  "name": "invalid_opcode_f4",
+  "confidence": "high",
+  "args": "n/a",
+  "evidence": "Table entry 0x0052004B is data, not code (past the end of the dispatch table); 0 uses."
+ },
+ "0xf5": {
+  "name": "invalid_opcode_f5",
+  "confidence": "high",
+  "args": "n/a",
+  "evidence": "Table entry 0x005E0058 is data, not code (past the end of the dispatch table); 0 uses."
+ },
+ "0xf6": {
+  "name": "invalid_opcode_f6",
+  "confidence": "high",
+  "args": "n/a",
+  "evidence": "Table entry 0x006B0065 is data, not code (past the end of the dispatch table); 0 uses."
+ },
+ "0xf7": {
+  "name": "invalid_opcode_f7",
+  "confidence": "high",
+  "args": "n/a",
+  "evidence": "Table entry 0x00770071 is data, not code (past the end of the dispatch table); 0 uses."
+ },
+ "0xf8": {
+  "name": "invalid_opcode_f8",
+  "confidence": "high",
+  "args": "n/a",
+  "evidence": "Table entry 0x0084007E is data, not code (past the end of the dispatch table); 0 uses."
+ },
+ "0xf9": {
+  "name": "invalid_opcode_f9",
+  "confidence": "high",
+  "args": "n/a",
+  "evidence": "Table entry 0x0090008A is data, not code (past the end of the dispatch table); 0 uses."
+ },
+ "0xfa": {
+  "name": "invalid_opcode_fa",
+  "confidence": "high",
+  "args": "n/a",
+  "evidence": "Table entry 0x009D0097 is data, not code (past the end of the dispatch table); 0 uses."
+ },
+ "0xfb": {
+  "name": "invalid_opcode_fb",
+  "confidence": "high",
+  "args": "n/a",
+  "evidence": "Table entry 0x00AA00A3 is data, not code (past the end of the dispatch table); 0 uses."
+ },
+ "0xfc": {
+  "name": "invalid_opcode_fc",
+  "confidence": "high",
+  "args": "n/a",
+  "evidence": "Table entry 0x00B600B0 is data, not code (past the end of the dispatch table); 0 uses."
+ },
+ "0xfd": {
+  "name": "invalid_opcode_fd",
+  "confidence": "high",
+  "args": "n/a",
+  "evidence": "Table entry 0x00C300BC is data, not code (past the end of the dispatch table); 0 uses."
+ },
+ "0xfe": {
+  "name": "invalid_opcode_fe",
+  "confidence": "high",
+  "args": "n/a",
+  "evidence": "Table entry 0x00CF00C9 is data, not code (past the end of the dispatch table); 0 uses."
+ },
+ "0xff": {
+  "name": "invalid_opcode_ff",
+  "confidence": "high",
+  "args": "n/a",
+  "evidence": "Table entry 0x00DC00D6 is data, not code (past the end of the dispatch table); 0 uses."
+ }
+}

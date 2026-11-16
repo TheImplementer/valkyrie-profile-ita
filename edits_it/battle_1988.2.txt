@@ -1,0 +1,106 @@
+# Valkyrie Profile battle text 1988.2 (battle dialogue: tactical hints and boss lines): 114 messages, file 1988 sectors 81711..81715 of VALKYRIE.BIN
+# Edit the text under any "@@ 0x.." line (a message id); delete the entries you do not change.
+# A line break is a new line (0x80). {xx} is a raw glyph number in hex (a glyph without a
+# character). Printable ASCII, accented letters (à è é ì ò ù È ...) and
+# … 「 · ’; a character the font lacks is added to it.
+# `build` also changes the camp-menu tables that have the same id with the same original
+# text (item names), unless --no-link.
+
+@@ 0x07d0
+Valkyrie
+@@ 0x07d1
+「Servitori del Drago!
+@@ 0x07d2
+Sono maestri della difesa…
+@@ 0x07d3
+Dovremo sfondare la loro 
+@@ 0x07d4
+guardia con attacchi combinati.
+@@ 0x07d5
+Sfonda Guardia
+@@ 0x07d6
+Sfonda la guardia perfetta 
+@@ 0x07d7
+con un attacco combinato
+@@ 0x07d8
+Ma non è garantito, quindi attenzione
+@@ 0x07d9
+a non sprecare troppa energia.
+@@ 0x07e4
+Valkyrie
+@@ 0x07e5
+「Queste bestie sono molto resistenti.
+@@ 0x07e6
+Mentre le combattiamo, siamo
+@@ 0x07e7
+bersagli facili per quegli stregoni.
+@@ 0x07e8
+Dobbiamo colpire gli stregoni…
+@@ 0x07e9
+Comando "Equipaggia"
+@@ 0x07ea
+Oltre alla spada, Valkyrie
+@@ 0x07eb
+può equipaggiare anche l'arco.
+@@ 0x07ec
+Si può anche dividere con la Formazione.
+@@ 0x07ee
+Valkyrie
+@@ 0x07ef
+「Queste bestie sono molto resistenti.
+@@ 0x07f0
+Concentriamo tutti i colpi su un
+@@ 0x07f1
+solo avversario, per efficienza.
+@@ 0x07f2
+Tipo di magia
+@@ 0x07f3
+Alcuni nemici sono vulnerabili a certi
+@@ 0x07f4
+tipi di magia.
+@@ 0x07f5
+Sfrutta i punti deboli del nemico
+@@ 0x07f6
+e potrai infliggere gravi danni.
+@@ 0x07f7
+Qual è il punto debole di chi vive al gelo?
+@@ 0x07f8
+Valkyrie
+@@ 0x07f9
+「Quindi le armi non funzionano, eh.
+@@ 0x07fa
+Dobbiamo sfruttare i loro punti deboli,
+@@ 0x07fb
+ma come, esattamente?
+@@ 0x07fc
+Comando "Oggetto"
+@@ 0x07fd
+Gli Occhiali permettono di "vedere"
+@@ 0x07fe
+le capacità del nemico.
+@@ 0x07ff
+Usando un oggetto d'attacco sui loro punti
+@@ 0x0800
+deboli, batteremo anche i più forti…
+@@ 0x080c
+Valkyrie
+@@ 0x0820
+Valkyrie
+@@ 0x0848
+Valkyrie
+@@ 0x085c
+Valkyrie
+@@ 0x0870
+Valkyrie
+@@ 0x0884
+Valkyrie
+@@ 0x0898
+Lezard
+@@ 0x08ac
+Surt
+@@ 0x08c0
+Valkyrie
+@@ 0x08c2
+Loki
+@@ 0x08c4
+Valkyrie

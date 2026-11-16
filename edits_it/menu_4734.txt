@@ -1,0 +1,87 @@
+# Valkyrie Profile menu text 4734 (world map): 41 messages, package sectors 291073..291080 of VALKYRIE.BIN
+# Edit the text under any "@@ 0x.." line (a message id); delete the entries you do not change.
+# A line break is a new line (0x80). {xx ...} are raw bytes: {81 80 07} and the like are
+# commands, {60}-{7f} and {82}-{85} extra glyphs; { and } themselves are {5c} and {5e}.
+# Printable ASCII is in the menu font; accented letters (à è é ì ò ù È ...) are drawn over
+# the { } \ ^ _ ` | @ < > glyphs, up to 10 per table. `build` also changes every other menu table
+# (and the battle item table 1806.1) that has the same id with the same original text
+# (an item name is in several), unless --no-link is given.
+
+@@ 0x0001
+Notizie
+@@ 0x0002
+Muovi
+@@ 0x0003
+Ruota su/giù
+@@ 0x0004
+Ruota di lato
+@@ 0x0006
+Cambia vista
+@@ 0x0007
+Fine
+@@ 0x0008
+Chiudi notizie
+@@ 0x0009
+Ingrandisci{62}Riduci
+@@ 0x0064
+Rovine di Monte Artolia
+@@ 0x0065
+Covo di Gorhla
+@@ 0x0066
+Grotte di Oddrock
+@@ 0x0067
+Palude di Nethov
+@@ 0x0068
+Torre del Sogno Nero
+@@ 0x0069
+Catacombe di Solde
+@@ 0x006a
+Castello di Brahms
+@@ 0x006b
+Rovine di Arkdain
+@@ 0x006c
+Grotta di Thackus
+@@ 0x006d
+Grotte di Dragoncastle
+@@ 0x006e
+Tombe di Amenti
+@@ 0x006f
+Palazzo di Jotunheim
+@@ 0x0070
+Foresta del Dolore
+@@ 0x0071
+Accademia di Salerno
+@@ 0x0072
+Villa degli Ingranaggi
+@@ 0x0073
+Villa degli Ingranaggi
+@@ 0x0074
+Villa degli Ingranaggi
+@@ 0x0075
+Villa degli Ingranaggi
+@@ 0x0076
+Castello di Dipan
+@@ 0x0077
+Labirinto di Arianrod
+@@ 0x0078
+Santuario Sommerso
+@@ 0x0079
+Palazzo del Drago
+@@ 0x007a
+Palazzo del Drago
+@@ 0x007b
+Torre di Lezard Valeth
+@@ 0x007c
+Castello Celeste
+@@ 0x007d
+Rovine di Monte Artolia
+@@ 0x007e
+Cittadella di Fuoco
+@@ 0x007f
+Porta Serafica
+@@ 0x0080
+Foresta degli Spiriti
+@@ 0x0081
+Torre Oscura di Xervah
+@@ 0x0082
+Castello di Dipan

@@ -1,0 +1,66 @@
+# Valkyrie Profile scene 0x63 (To outside | Chapel | Private Residence | Yamato-Style Restaurant
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<5>Uscita
+@@ 15
+<5>Cappella
+@@ 16
+<5>Casa privata
+@@ 17
+<5><3:00>Ristorante Yamato
+<5><3:00>"Giardino Nan-Lou"
+@@ 18
+<5> Casa privata
+@@ 19
+<5>Via maestra
+@@ 20
+<19:0100>Arngrim
+「Allora<3:1e>, <3:ff>dove andiamo?
+@@ 21
+<19:0000>Angela
+「Andiamo in, ehm,
+uno di quei<3:0c>...<3:ff>ristoranti.<page>
+ Conoscete qualche
+locale raffinato?
+@@ 22
+<19:0100>Arngrim
+「Beh, questo posto qui è quanto
+di più raffinato ci sia ad Artolia.
+@@ 23
+<3:05>[- Giardino Nan-Lou -<3:46>]<3:04>
+ L'unico ristorante di alta cucina
+ Yamato di tutta Artolia<3:46>.<3:04>
+ Promette ai cittadini del Continente
+ un'esperienza di gusto che molti
+ occidentali trovano alquanto bizzarra <7:0b>-<7:01>
+@@ 24
+<19:0100>Badrach
+「Ehi, questa sì che è una
+bella sorpresa! Il mio socio
+saresti tu, eh?
+@@ 26
+<19:0100>Badrach
+「Dai, non fare così<3:32>.<3:ff>
+Mi chiamo Badrach.
+ Piacere, Arngrim.
+Ho sentito parlare di te.
+@@ 27
+<19:0100>Agente
+「Se proprio dovete perdervi in
+chiacchiere inutili, fatelo per strada<3:28>.<3:ff>
+Questo carico va consegnato!
+@@ 28
+<19:0000>Badrach
+「Sissignora.
+@@ 29
+<18><5><3:03>Villnore era a circa una settimana di viaggio
+<5>lungo la grande strada.<12:8309><17:7800><page>
+<18><5><3:03>Ma il viaggio fu tranquillo<3:0f> <3:03>
+<5>e al terzo giorno
+<5>eravamo già a metà strada.<17:9600>
+@@ 30
+<5>Capitale di Artolia

@@ -1,0 +1,739 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>VP Text Editor</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root {
+  --bg: #16171b; --panel: #1e2026; --panel2: #262932; --line: #343844; --text: #e6e6ea;
+  --dim: #9aa0ad; --accent: #e2b54a; --accent2: #f3d27a; --ok: #6fcf8f; --warn: #f0b45a; --bad: #ef6f6f;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
+  font: 13px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { background: var(--panel2); border: 1px solid var(--line); border-radius: 5px; padding: 4px 9px; cursor: pointer; }
+button:hover { border-color: var(--accent); }
+button.primary { background: #4a3a12; border-color: var(--accent); color: var(--accent2); }
+button:disabled { opacity: .45; cursor: default; }
+select { background: var(--panel2); border: 1px solid var(--line); border-radius: 5px; padding: 3px 6px; }
+input[type=text], input[type=search] { background: var(--panel2); border: 1px solid var(--line); border-radius: 5px; padding: 5px 8px; }
+#app { display: grid; grid-template-rows: auto 1fr; height: 100%; }
+header { display: flex; align-items: center; gap: 12px; padding: 8px 12px; background: var(--panel); border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+header h1 { font-size: 14px; margin: 0; color: var(--accent2); letter-spacing: .3px; white-space: nowrap; }
+header .disc { color: var(--dim); font-family: var(--mono); font-size: 11px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 30ch; }
+header .spacer { flex: 1; }
+header #out { width: 30ch; font-family: var(--mono); font-size: 12px; }
+#main { display: grid; grid-template-columns: 270px 300px 1fr; min-height: 0; }
+.col { display: flex; flex-direction: column; min-height: 0; border-right: 1px solid var(--line); }
+.col .head { padding: 8px; border-bottom: 1px solid var(--line); display: flex; gap: 6px; align-items: center; }
+.col .head input { flex: 1; min-width: 0; }
+.list { overflow: auto; flex: 1; }
+.item { padding: 6px 10px; border-bottom: 1px solid #22252c; cursor: pointer; }
+.item:hover { background: #22252d; }
+.item.sel { background: #2d2a1f; box-shadow: inset 3px 0 var(--accent); }
+.item .t { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.item .m { color: var(--dim); font-size: 11px; display: flex; gap: 8px; }
+.grp { color: var(--dim); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; padding: 10px 10px 4px; }
+.id { font-family: var(--mono); color: var(--accent); }
+.dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); margin-left: 4px; vertical-align: middle; }
+#editor { display: flex; flex-direction: column; min-height: 0; overflow: auto; padding: 12px 16px; gap: 10px; }
+#editor .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+#title { font-size: 15px; font-weight: 600; }
+#title small { color: var(--dim); font-weight: 400; margin-left: 6px; }
+textarea#text { width: 100%; min-height: 110px; resize: vertical; background: #121318; border: 1px solid var(--line);
+  border-radius: 6px; padding: 8px 10px; font-family: var(--mono); font-size: 14px; line-height: 1.5; }
+textarea#text:focus { outline: none; border-color: var(--accent); }
+.tools button { font-size: 12px; padding: 2px 7px; font-family: var(--mono); }
+.status { font-size: 12px; color: var(--dim); }
+.status .ok { color: var(--ok); } .status .warn { color: var(--warn); } .status .bad { color: var(--bad); }
+#stage { display: flex; gap: 16px; align-items: flex-start; }
+@media (max-width: 1100px) { #stage { flex-wrap: wrap; } #screen { width: 100%; } }
+#screen { width: min(640px, calc(100% - 236px)); min-width: 320px; aspect-ratio: 4 / 3; height: auto; image-rendering: pixelated; image-rendering: crisp-edges; border: 1px solid var(--line); background: #000; border-radius: 4px; }
+#side { display: flex; flex-direction: column; gap: 8px; width: 220px; flex: none; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; }
+.card h3 { margin: 0 0 6px; font-size: 11px; text-transform: uppercase; letter-spacing: .6px; color: var(--dim); }
+.kv { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; font-size: 12px; }
+.kv span:nth-child(odd) { color: var(--dim); }
+#glyphs { display: flex; flex-wrap: wrap; gap: 3px; }
+#glyphs button { min-width: 24px; padding: 1px 4px; font-family: var(--mono); font-size: 13px; }
+#glyphs button.add { border-style: dashed; color: var(--warn); }
+#log { white-space: pre-wrap; font-family: var(--mono); font-size: 11px; max-height: 180px; overflow: auto; margin: 0; color: var(--dim); }
+.pill { font-size: 11px; padding: 1px 7px; border-radius: 10px; background: var(--panel2); border: 1px solid var(--line); color: var(--dim); }
+label.chk { display: inline-flex; gap: 5px; align-items: center; cursor: pointer; }
+input[type=range] { width: 100%; }
+.empty { color: var(--dim); padding: 30px; text-align: center; }
+.tabs { display: flex; gap: 0; }
+.tabs button { border-radius: 0; padding: 3px 10px; font-size: 12px; }
+.tabs button:first-child { border-radius: 5px 0 0 5px; } .tabs button:last-child { border-radius: 0 5px 5px 0; border-left: none; }
+.tabs button.on { background: #4a3a12; border-color: var(--accent); color: var(--accent2); }
+#mscreen { width: 100%; max-width: 760px; image-rendering: pixelated; image-rendering: crisp-edges; border: 1px solid var(--line); border-radius: 4px; background: #000; }
+#xglyphs { display: flex; flex-wrap: wrap; gap: 3px; }
+#xglyphs button { padding: 2px; line-height: 0; }
+#xglyphs canvas { image-rendering: pixelated; width: 32px; height: 24px; }
+#legend .codes { display: grid; grid-template-columns: max-content 1fr; gap: 3px 12px; font-size: 12px; align-items: baseline; }
+#legend code, #legend .code { font-family: var(--mono); color: var(--accent2); background: #2a2a22; padding: 0 5px; border-radius: 4px; white-space: nowrap; cursor: pointer; }
+#legend .code:hover { outline: 1px solid var(--accent); }
+#legend .src { color: var(--dim); font-size: 11px; }
+#legend details { margin-top: 8px; }
+#legend summary { cursor: pointer; color: var(--dim); font-size: 12px; }
+#legend .hint { color: var(--dim); font-size: 11px; margin-top: 6px; }
+</style>
+</head>
+<body>
+<div id="app">
+<header>
+  <h1>Valkyrie Profile · Text Editor</h1>
+  <span class="disc" id="disc" title=""></span>
+  <span class="pill" id="editcount">0 edits</span>
+  <span class="spacer"></span>
+  <label class="chk" title="A menu or battle edit also changes the other tables that hold the same message with the same text (an item name is in several camp sub-menus and in the battle item table), as build without --no-link"><input type="checkbox" id="link"> Link copies</label>
+  <label class="chk" title="Grow each edited record's box (the script's width/height pushes) to fit the new text, as build --fit-boxes"><input type="checkbox" id="fit"> Fit boxes</label>
+  <input type="text" id="out" title="Output .cue (the .bin is written next to it); the original disc is never written">
+  <button class="primary" id="build">Build disc</button>
+  <button id="run" title="Open the built disc in the TinyPSX window">Run in TinyPSX</button>
+</header>
+<div id="main">
+  <div class="col">
+    <div class="head"><div class="tabs"><button id="m-dlg" class="on">Dialogue</button><button id="m-menu">Menus &amp; battle</button></div>
+      <input type="search" id="search" placeholder="Search all text…"></div>
+    <div class="list" id="scenes"></div>
+  </div>
+  <div class="col">
+    <div class="head"><span id="scenehead" class="status">Pick a scene</span><span class="spacer" style="flex:1"></span>
+      <label class="chk status"><input type="checkbox" id="spoken"> lines only</label></div>
+    <div class="list" id="records"></div>
+  </div>
+  <div id="editor"><div class="empty">Pick a scene and a record to edit. The preview draws the box and text the way the game does.</div></div>
+</div>
+</div>
+
+<template id="edtpl">
+  <div class="row"><div id="title"></div><span class="spacer" style="flex:1"></span>
+    <button id="revert" title="Back to the disc's text">Revert</button></div>
+  <div class="row tools" id="tools"></div>
+  <textarea id="text" spellcheck="false"></textarea>
+  <div class="status" id="status"></div>
+  <div class="card" id="legend"><h3>Codes in this line <span class="status">(click a code to insert it)</span></h3>
+    <div class="codes" id="here"></div>
+    <details id="alllegend"><summary>All codes</summary><div class="codes" id="all"></div>
+      <div class="hint">Arguments are hex bytes as stored; a two-byte value is low byte first, so &lt;17:7800&gt; is 0x0078 = 120.
+      Every code here was checked in the game's code and by running an edited disc in TinyPSX, except &lt;2&gt;, which the disc never uses.</div></details></div>
+  <div id="stage">
+    <canvas id="screen" width="320" height="240"></canvas>
+    <div id="side">
+      <div class="card"><h3>Box</h3><div class="kv" id="boxinfo"></div>
+        <div class="row" style="margin-top:6px"><select id="call"></select></div></div>
+      <div class="card"><h3>Typing</h3>
+        <input type="range" id="reveal" min="0" max="0" value="0">
+        <div class="row"><button id="play">▶ Play</button><select id="page"></select>
+          <select id="bg"><option value="valhalla">Valhalla</option><option value="hall">Valhalla hall</option><option value="dark">Dark</option><option value="grid">Grid</option></select></div>
+        <div class="status" id="notes"></div></div>
+      <div class="card"><h3>Glyphs <span class="status">(dashed: added to the font on build)</span></h3><div id="glyphs"></div></div>
+    </div>
+  </div>
+  <div class="card"><h3>Build log</h3><pre id="log">Edits are saved as you type. Build writes a new cue/bin; the original disc is only read.</pre></div>
+</template>
+
+<template id="menutpl">
+  <div class="row"><div id="title"></div><span class="spacer" style="flex:1"></span>
+    <button id="revert" title="Back to the disc's text">Revert</button></div>
+  <div class="row tools" id="tools"></div>
+  <textarea id="text" spellcheck="false"></textarea>
+  <div class="status" id="status"></div>
+  <canvas id="mscreen" width="380" height="120"></canvas>
+  <div class="card"><h3>About this message</h3><div class="kv" id="minfo"></div></div>
+  <div class="card" id="legend"><h3 id="legendh">Menu text codes</h3>
+    <div class="codes" id="legendcodes">
+      <span class="code" data-ins="&#10;">(new line)</span><span>New line (byte 0x80). Just press Enter.</span>
+      <span class="code" data-ins="{81 80 07}">{81 80 nn}</span><span>Text colour nn for what follows: 07 the blue labels (LV, DME, Play time), 02 red ("Empty"), 01 orange ("Eval."), 03 black; most strings start with one. Colours in the preview are taken from a screenshot and are approximate.</span>
+      <span class="code" data-ins="{60}">{xx}</span><span>Raw bytes in hex: the extra glyphs 60-7f and 82-85 (icons, rules, symbols; shown below when this menu's font has them). { and } themselves are {5c} and {5e}.</span>
+    </div>
+    <div class="hint" id="legendhint">Only printable ASCII is in the menu font. Menu items are drawn at fixed places, so a string wider than the original can run into the next item (tested: "Use an Item" touches "Divine Item").</div>
+    <div id="xglyphs" style="margin-top:8px"></div></div>
+  <div class="card"><h3>Build log</h3><pre id="log">Edits are saved as you type, to edits/menu_N.txt or edits/battle_N.N.txt. Build writes a new cue/bin; the original disc is only read.</pre></div>
+</template>
+
+<script>
+'use strict';
+const $ = (s, r = document) => r.querySelector(s);
+const api = async (path, body) => {
+  const r = await fetch(path, body === undefined ? {} : { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+  return r.json();
+};
+const S = { init: null, scene: null, rec: null, ops: [], added: {}, px: 0, ph: 0, call: 0, playing: false, timer: null, pages: [],
+  mode: 'dialogue', menu: null, msg: null };
+const SPACE = 0x31;
+const TEXT_TOKENS = /<page>|<\d+(?::[0-9a-fA-F]*)?>|\{[0-9a-fA-F]+\}/g;
+
+// ---------------------------------------------------------------- images
+const img = (src) => new Promise((ok) => { const i = new Image(); i.onload = () => ok(i); i.onerror = () => ok(null); i.src = src; });
+let SKIN = null; const BG = {};
+async function loadImages() {
+  const sk = await img('/skin.png');
+  if (sk) {   // magenta (the background outside the chamfered corners) becomes transparent
+    const c = document.createElement('canvas'); c.width = sk.width; c.height = sk.height;
+    const x = c.getContext('2d'); x.drawImage(sk, 0, 0);
+    const d = x.getImageData(0, 0, c.width, c.height);
+    for (let i = 0; i < d.data.length; i += 4)
+      if (d.data[i] === 255 && d.data[i + 1] === 0 && d.data[i + 2] === 255) d.data[i + 3] = 0;
+    x.putImageData(d, 0, 0); SKIN = c;
+  }
+  BG.valhalla = await img('/bg_valhalla.png'); BG.hall = await img('/bg_hall.png');
+}
+
+// ---------------------------------------------------------------- font
+function glyph(code) {
+  const f = S.scene.font;
+  let hex, w;
+  if (code >= 1 && code <= f.n) { hex = f.bitmaps[code - 1]; w = f.widths[code - 1]; }
+  else if (S.added[code]) { [hex, w] = S.added[code]; }
+  else return null;
+  const rows = [];
+  for (let r = 0; r < 12; r++) rows.push(parseInt(hex.substr(r * 4 + 2, 2) + hex.substr(r * 4, 2), 16));
+  return { rows, w };
+}
+const width = (code) => { const g = glyph(code); return g ? g.w : 0; };
+
+// ---------------------------------------------------------------- layout (the game's rules)
+// 0x80052C3C measures a line: each glyph advances by width x width scale (command 7); after each
+// glyph 0x8004DEE4 adds the rest of the word (up to the space glyph 0x31, a line/page command or
+// the end); the line ends before a glyph if the line or that word would reach the box width (the
+// test is "<"). A line is 12 x the largest height scale (command 8) + 2 pixels tall. A space that
+// lands at the start of a wrapped line is not drawn (seen in TinyPSX).
+function restOfWord(ops, j, hs) {
+  let w = 0;
+  for (; j < ops.length; j++) {
+    const op = ops[j];
+    if (op[0] === 'g') { if (op[1] === SPACE) break; w += width(op[1]) * hs; }
+    else if (op[1] === 0 || op[1] === 1) break;
+    else if (op[1] === 7) hs = op[2][0] || 1;
+  }
+  return w;
+}
+function layout(ops, limit) {
+  const pages = []; let page = { lines: [] }; let line = null;
+  let x = 0, color = 0, hs = 1, vs = 1, n = 0;
+  const notes = new Set();
+  const newLine = () => { line = { items: [], h: 0 }; x = 0; };
+  const endLine = () => { if (!line.h) line.h = 12 * vs + 2; line.w = x; page.lines.push(line); newLine(); };
+  newLine();
+  const put = (code, i) => {
+    const w = width(code) * hs, nx = x + w;
+    // an empty line always takes the glyph (a word wider than the box cannot loop forever)
+    if (line.items.length && !(nx < limit && nx + restOfWord(ops, i + 1, hs) < limit)) {
+      endLine(); notes.add('wraps');
+      if (code === SPACE) return;
+    }
+    line.items.push({ code, x, color, hs, vs, n: n++ }); x = nx;
+    line.h = Math.max(line.h, 12 * vs + 2);
+  };
+  for (let i = 0; i < ops.length; i++) {
+    const op = ops[i];
+    if (op[0] === 'g') { put(op[1], i); continue; }
+    const c = op[1], a = op[2];
+    if (c === 0) endLine();
+    else if (c === 1) { endLine(); pages.push(page); page = { lines: [] }; }
+    else if (c === 4) color = a[0] & 3;
+    else if (c === 7) hs = a[0] || 1;
+    else if (c === 8) vs = a[0] || 1;
+    else if (c === 14) {   // inserted value: shown as 000 here (the game draws a number)
+      for (const ch of '000') { const k = S.scene.prefer[ch] ?? S.scene.font.chars.indexOf(ch) + 1; if (k > 0) put(k, i); }
+      notes.add('value');
+    }
+    else if (c === 19) notes.add('portrait ' + (a[0] === 0xff && a[1] === 0xff ? 'on the default side' : a[0] ? 'on the left' : 'on the right'));
+    else if (c === 6) notes.add('portrait 0x' + (a[0] | a[1] << 8).toString(16));
+    else if (c === 18) notes.add('voice starts');
+    else if (c === 12) notes.add('voice clip 0x' + (a[0] | a[1] << 8).toString(16));
+    else if (c === 17) notes.add(`auto-advance ${a[0] | a[1] << 8} frames`);
+    else if (c === 5) line.center = true;   // 0x8004C530: x += (box width - line width) / 2
+  }
+  if (line.items.length || !page.lines.length) endLine();
+  pages.push(page);
+  return { pages, notes: [...notes], glyphs: n };
+}
+
+// ---------------------------------------------------------------- the box
+// The library wrapper func_033c resolves small x/y values before the show-message op 0x92:
+// x 0 / 2 -> 24, 1 / 3 -> 296 - w, 4 -> 160 - w/2, 8-15 -> an actor's side (property 0xC of
+// that actor; drawn on the left here); y 2 -> 16, 3 -> 192 - h, 4 -> 120 - h/2. On screen the
+// frame spans x - 8 .. x + w + 9 and y + 1 .. y + h + 14, and the text starts at (x, y + 8).
+function boxFor() {
+  const calls = S.scene.boxes[S.rec] || [];
+  let b, auto = false;
+  if (calls.length) b = { ...calls[Math.min(S.call, calls.length - 1)] };
+  else { b = { x: 4, y: 4, w: Math.max(32, S.px + 6), h: Math.max(14, S.ph), wait: 0, func: '', word: 0 }; auto = true; }
+  const ow = b.w, oh = b.h;
+  if ($('#fit').checked && !auto) { if (b.w <= S.px) b.w = S.px + 6; if (b.h < S.ph) b.h = S.ph; }
+  let x = b.x, y = b.y, side = '';
+  if (x === 0 || x === 2) x = 24; else if (x === 1 || x === 3) x = 296 - b.w;
+  else if (x === 4) x = 160 - Math.floor(b.w / 2); else if (x >= 8 && x < 16) { x = 24; side = ' (actor side: shown left)'; }
+  if (y === 2) y = 16; else if (y === 3) y = 192 - b.h; else if (y === 4) y = 120 - Math.floor(b.h / 2);
+  return { ...b, sx: x, sy: y, ow, oh, auto, side };
+}
+
+function drawSkin(ctx, dx, dy, W, H) {
+  if (!SKIN) {
+    ctx.fillStyle = '#5a4208'; ctx.fillRect(dx, dy, W, H); ctx.fillStyle = '#d8d2c0'; ctx.fillRect(dx + 3, dy + 3, W - 6, H - 6); return;
+  }
+  const sw = SKIN.width, sh = SKIN.height, c = 8;
+  const cols = [[0, c, dx, c], [c, sw - 2 * c, dx + c, W - 2 * c], [sw - c, c, dx + W - c, c]];
+  const rows = [[0, c, dy, c], [c, sh - 2 * c, dy + c, H - 2 * c], [sh - c, c, dy + H - c, c]];
+  for (const [sx, sw2, tx, tw] of cols) for (const [sy, sh2, ty, th] of rows)
+    if (tw > 0 && th > 0) ctx.drawImage(SKIN, sx, sy, sw2, sh2, tx, ty, tw, th);
+}
+
+// Scaled glyphs (commands 7 / 8) are approximate: the game stretches the glyph sprite with a
+// textured quad whose sampling repeats source columns unevenly; here each pixel is just repeated.
+function drawGlyph(ctx, code, x, y, color, hs, vs) {
+  const g = glyph(code); if (!g) return;
+  const [fg, sh] = S.init.palette[color];
+  for (const [col, off] of [[sh, 1], [fg, 0]]) {
+    ctx.fillStyle = `rgb(${col[0]},${col[1]},${col[2]})`;
+    for (let r = 0; r < 12; r++) {
+      const bits = g.rows[r]; if (!bits) continue;
+      for (let c = 0; c < 16; c++) if (bits & (0x8000 >> c)) ctx.fillRect(x + c * hs + off, y + r * vs + off, hs, vs);
+    }
+  }
+}
+
+function render() {
+  const cv = $('#screen'); if (!cv || !S.scene) return;
+  const ctx = cv.getContext('2d'); ctx.imageSmoothingEnabled = false;
+  const bg = $('#bg').value;
+  if (BG[bg]) ctx.drawImage(BG[bg], 0, 0);
+  else if (bg === 'grid') { for (let y = 0; y < 240; y += 8) for (let x = 0; x < 320; x += 8) { ctx.fillStyle = ((x + y) / 8) % 2 ? '#3a3d46' : '#2c2f37'; ctx.fillRect(x, y, 8, 8); } }
+  else { ctx.fillStyle = '#202228'; ctx.fillRect(0, 0, 320, 240); }
+  const b = boxFor();
+  drawSkin(ctx, b.sx - 8, b.sy + 1, b.w + 18, b.h + 14);
+  const L = layout(S.ops, b.w); S.pages = L.pages;
+  // which page and how far typed
+  const reveal = +$('#reveal').value;
+  let pi = +$('#page').value || 0, upto = Infinity;
+  if (S.playing || $('#reveal').dataset.touched === '1') {
+    let count = 0; pi = L.pages.length - 1;
+    for (let p = 0; p < L.pages.length; p++) {
+      const n = L.pages[p].lines.reduce((a, l) => a + l.items.length, 0);
+      if (reveal < count + n || p === L.pages.length - 1) { pi = p; break; }
+      count += n;
+    }
+    upto = reveal;
+  }
+  const page = L.pages[Math.min(pi, L.pages.length - 1)];
+  // scroll: the box shows h pixels of lines; the last line being typed stays in view
+  let total = 0, lastVisible = 0;
+  page.lines.forEach((l, i) => { if (l.items.length && l.items[0].n <= upto) lastVisible = i; });
+  for (let i = 0; i <= lastVisible; i++) total += page.lines[i].h;
+  const scroll = Math.max(0, total - b.h);
+  ctx.save(); ctx.beginPath(); ctx.rect(b.sx - 4, b.sy + 6, b.w + 10, b.h + 4); ctx.clip();
+  // Each glyph is its own sprite (glyph and shadow, own glyph pixels over own shadow), and the
+  // GPU ordering table draws later sprites FIRST: an earlier glyph's shadow covers the next
+  // glyph's pixels (seen in TinyPSX: the T of "This" shades the top of the h). So draw backwards.
+  const placed = []; let y = b.sy + 8 - scroll;
+  for (const l of page.lines) {
+    const cx = l.center ? Math.trunc((b.w - l.w) / 2) : 0;
+    for (const it of l.items) if (it.n <= upto) placed.push([it, b.sx + cx + it.x, y]);
+    y += l.h;
+  }
+  for (let i = placed.length - 1; i >= 0; i--) { const [it, gx, gy] = placed[i]; drawGlyph(ctx, it.code, gx, gy, it.color, it.hs, it.vs); }
+  ctx.restore();
+  // side panel
+  const pageH = page.lines.reduce((a, l) => a + l.h, 0);
+  const widest = Math.max(0, ...L.pages.flatMap(p => p.lines.map(l => l.items.length ? l.items[l.items.length - 1].x + width(l.items[l.items.length - 1].code) * l.items[l.items.length - 1].hs : 0)));
+  const sel = $('#page'); const want = L.pages.length;
+  if (sel.options.length !== want) { sel.innerHTML = L.pages.map((_, i) => `<option value="${i}">page ${i + 1} / ${want}</option>`).join(''); }
+  $('#reveal').max = L.glyphs;
+  const calls = S.scene.boxes[S.rec] || [];
+  $('#boxinfo').innerHTML = [
+    ['size', `${b.w} × ${b.h}` + (b.w !== b.ow || b.h !== b.oh ? ` <span class="status">(script: ${b.ow} × ${b.oh})</span>` : '')],
+    ['at', `${b.sx}, ${b.sy}` + (b.x !== b.sx || b.y !== b.sy ? ` <span class="status">(pushed ${b.x}, ${b.y})${b.side}</span>` : '')],
+    ['text', `${S.px} × ${S.ph} px, ${L.pages.length} page${L.pages.length > 1 ? 's' : ''}`],
+    ['call', b.auto ? '<span class="warn">no literal call: size chosen at run time; centred box shown</span>' : `${b.func} at word 0x${b.word.toString(16)}` + (b.wait ? `, then waits ${b.wait} frames` : '')],
+  ].map(([k, v]) => `<span>${k}</span><span>${v}</span>`).join('');
+  const callSel = $('#call');
+  callSel.style.display = calls.length > 1 ? '' : 'none';
+  if (calls.length > 1 && callSel.options.length !== calls.length)
+    callSel.innerHTML = calls.map((c, i) => `<option value="${i}">call ${i + 1}: ${c.w}×${c.h} at word 0x${c.word.toString(16)}</option>`).join('');
+  const msgs = [];
+  if (L.notes.includes('wraps')) msgs.push('<span class="warn">wraps at the box edge</span>');
+  if (pageH > b.h) msgs.push('<span class="warn">taller than the box: the game scrolls it</span>');
+  $('#notes').innerHTML = [...msgs, ...L.notes.filter(n => n !== 'wraps').map(n => n === 'value' ? 'a number is inserted (shown as 000)' : n)].join(' · ');
+}
+
+// ---------------------------------------------------------------- data flow
+let previewTimer = null, saveTimer = null;
+async function refreshPreview() {
+  const text = $('#text').value;
+  const r = await api('/api/preview', { scene: S.scene.id, rec: S.rec, text });
+  const st = $('#status');
+  if (!r.ok) { st.innerHTML = `<span class="bad">${escapeHtml(r.error)}</span>`; return; }
+  S.ops = r.ops; S.added = r.added; S.px = r.px; S.ph = r.ph;
+  const rec = S.scene.records[S.rec];
+  const changed = text !== rec.orig;
+  const nAdd = Object.keys(r.added).length;
+  st.innerHTML = (changed ? `<span class="warn">edited</span>` : `<span class="ok">as on the disc</span>`)
+    + ` · ${r.bytes} bytes (disc: ${r.orig_bytes})` + (nAdd ? ` · <span class="warn">${nAdd} glyph${nAdd > 1 ? 's' : ''} will be added to the scene font</span>` : '');
+  if (!S.playing) { $('#reveal').value = $('#reveal').max = 100000; }
+  render();
+}
+function escapeHtml(s) { return s.replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c])); }
+async function save() {
+  const text = $('#text').value;
+  const r = await api('/api/save', { scene: S.scene.id, rec: S.rec, text });
+  if (!r.ok) return;
+  const rec = S.scene.records[S.rec]; rec.text = text; rec.edited = r.edited;
+  const sc = S.init.scenes.find(s => s.id === S.scene.id); if (sc) sc.edited = r.count;
+  renderRecords(); renderScenes(); updateCount();
+}
+function onEdit() {
+  renderLegend();
+  clearTimeout(previewTimer); clearTimeout(saveTimer);
+  previewTimer = setTimeout(refreshPreview, 120); saveTimer = setTimeout(save, 500);
+}
+
+function plain(t) { return t.replace(TEXT_TOKENS, '').replace(/\n/g, ' / '); }
+function renderScenes(hits) {
+  const el = $('#scenes');
+  if (hits) {
+    el.innerHTML = hits.length ? hits.map(h => h.menu !== undefined
+      ? `<div class="item" data-mw="${h.menu}" data-mid="${h.id}"><div class="t">${escapeHtml(h.text)}</div><div class="m"><span class="id">${h.kind} ${h.menu}</span><span>message 0x${h.id.toString(16)}</span></div></div>`
+      : `<div class="item" data-s="${h.scene}" data-r="${h.rec}"><div class="t">${escapeHtml(h.text)}</div><div class="m"><span class="id">0x${h.scene.toString(16)}</span><span>record ${h.rec}</span></div></div>`).join('') : '<div class="empty">no match</div>';
+    return;
+  }
+  if (S.mode === 'menu') {
+    el.innerHTML = S.init.menus.map((m, i) => (i === 0 || S.init.menus[i - 1].kind !== m.kind ? `<div class="grp">${m.kind === 'battle' ? 'Battle text' : 'Menu text'}</div>` : '')
+      + `<div class="item ${S.menu && S.menu.word === m.word ? 'sel' : ''}" data-mw="${m.word}">
+      <div class="t">${escapeHtml(m.name)}</div>
+      <div class="m"><span class="id">${m.word}</span><span>${m.count} messages</span>${m.edited ? `<span class="dot" title="${m.edited} edited"></span>` : ''}</div></div>`).join('');
+    return;
+  }
+  el.innerHTML = S.init.scenes.map(s => `<div class="item ${S.scene && S.scene.id === s.id ? 'sel' : ''}" data-s="${s.id}">
+    <div class="t">${escapeHtml(plain(s.first || '') || '—')}</div>
+    <div class="m"><span class="id">0x${s.id.toString(16).padStart(3, '0')}</span><span>${s.records} lines</span>${s.place ? `<span>${escapeHtml(s.place)}</span>` : ''}${s.edited ? `<span class="dot" title="${s.edited} edited"></span>` : ''}</div></div>`).join('');
+}
+function renderRecords() {
+  if (!S.scene) return;
+  const only = $('#spoken').checked;
+  $('#records').innerHTML = S.scene.records.filter(r => !only || (r.k >= 14 && plain(r.text).trim())).map(r => {
+    const calls = S.scene.boxes[r.k] || [];
+    return `<div class="item ${r.k === S.rec ? 'sel' : ''}" data-r="${r.k}"><div class="t">${escapeHtml(plain(r.text) || '(empty)')}</div>
+      <div class="m"><span class="id">#${r.k}</span>${calls.length ? `<span>box ${calls[0].w}×${calls[0].h}</span>` : ''}${r.k < 14 ? '<span>system string</span>' : ''}${r.edited ? '<span class="dot"></span>' : ''}</div></div>`;
+  }).join('');
+}
+function updateCount() {
+  const n = S.init.scenes.reduce((a, s) => a + (s.edited || 0), 0);
+  const m = S.init.scenes.filter(s => s.edited).length;
+  const mn = S.init.menus.reduce((a, s) => a + (s.edited || 0), 0);
+  const mm = S.init.menus.filter(s => s.edited).length;
+  const parts = [];
+  if (m || !mm) parts.push(`${n} edit${n === 1 ? '' : 's'}` + (m ? ` in ${m} scene${m === 1 ? '' : 's'}` : ''));
+  if (mm) parts.push(`${mn} menu / battle edit${mn === 1 ? '' : 's'} in ${mm} table${mm === 1 ? '' : 's'}`);
+  $('#editcount').textContent = parts.join(' · ');
+}
+
+// ---------------------------------------------------------------- menu text
+// Menu font: the package's type-7 part (u32 n, u32 12, widths, 24-byte bitmaps; glyph b = index b-1).
+// Colours of {81 80 nn}: glyph and shadow sampled from a TinyPSX screenshot of the camp menu.
+const MENU_COLOURS = { 0: [[8, 8, 8], [173, 173, 173]], 1: [[156, 57, 0], [255, 198, 140]], 2: [[82, 0, 0], [189, 123, 123]],
+  3: [[8, 8, 8], [173, 173, 173]], 7: [[0, 41, 66], [74, 115, 132]] };
+// Battle tables use the same layout with glyph numbers into the file's own font (no colour commands).
+function menuGlyph(b, font) {
+  const f = font || S.menu.font; if (b < 1 || b > f.n) return null;
+  const hex = f.bitmaps[b - 1], rows = [];
+  for (let r = 0; r < 12; r++) rows.push(parseInt(hex.substr(r * 4 + 2, 2) + hex.substr(r * 4, 2), 16));
+  return { rows, w: f.widths[b - 1] };
+}
+function menuLines(bytes, font) {   // -> [[{b, x, colour}]], widths
+  const lines = [[]]; const ws = [0]; let x = 0, colour = 0;
+  for (let i = 0; i < bytes.length; i++) {
+    const b = bytes[i];
+    if (b === 0x81 && S.menu.kind !== 'battle') { colour = bytes[i + 2]; i += 2; continue; }
+    if (b === 0x80) { lines.push([]); ws.push(0); x = 0; continue; }
+    const g = menuGlyph(b, font); if (!g) continue;
+    lines[lines.length - 1].push({ b, x, colour }); x += g.w; ws[ws.length - 1] = x;
+  }
+  return { lines, ws };
+}
+function drawMenuText(ctx, bytes, ox, oy, font) {
+  const { lines } = menuLines(bytes, font); let y = oy;
+  for (const line of lines) {
+    for (let k = line.length - 1; k >= 0; k--) {
+      const it = line[k], g = menuGlyph(it.b, font), [fg, sh] = MENU_COLOURS[it.colour] || MENU_COLOURS[0];
+      for (const [col, off] of [[sh, 1], [fg, 0]]) {
+        ctx.fillStyle = `rgb(${col[0]},${col[1]},${col[2]})`;
+        for (let r = 0; r < 12; r++) { const bits = g.rows[r]; if (!bits) continue;
+          for (let c = 0; c < 16; c++) if (bits & (0x8000 >> c)) ctx.fillRect(ox + it.x + c + off, y + r + off, 1, 1); }
+      }
+    }
+    y += 14;
+  }
+  return lines.length;
+}
+function renderMenuPreview(r) {
+  const cv = $('#mscreen'); if (!cv) return;
+  const a = menuLines(r.orig), b = menuLines(r.bytes, r.font);
+  const rows = a.lines.length + b.lines.length;
+  const W = Math.max(200, ...a.ws, ...b.ws) + 70; cv.width = Math.min(W, 640); cv.height = 26 + rows * 14 + 18;
+  const ctx = cv.getContext('2d'); ctx.imageSmoothingEnabled = false;
+  ctx.fillStyle = '#202228'; ctx.fillRect(0, 0, cv.width, cv.height);
+  const panel = (y, h) => { ctx.fillStyle = '#d8d3c3'; ctx.fillRect(4, y, cv.width - 8, h); ctx.fillStyle = '#b8b1a0'; ctx.fillRect(4, y + h - 1, cv.width - 8, 1); };
+  ctx.font = '9px sans-serif';
+  const h1 = a.lines.length * 14 + 4, h2 = b.lines.length * 14 + 4;
+  ctx.fillStyle = '#9aa0ad'; ctx.fillText('disc', 6, 10); panel(13, h1); drawMenuText(ctx, r.orig, 50, 15);
+  const y2 = 13 + h1 + 14; ctx.fillStyle = '#9aa0ad'; ctx.fillText('edited', 6, y2 - 3); panel(y2, h2); drawMenuText(ctx, r.bytes, 50, y2 + 2, r.font);
+  // the original's width: text past this line may run into the next item
+  const ow = Math.max(...a.ws); ctx.fillStyle = r.px > r.orig_px ? '#ef6f6f' : '#6fcf8f';
+  ctx.fillRect(50 + ow, 11, 1, cv.height - 14);
+}
+async function openMenu(word, mid) {
+  S.menu = await api('/api/menu?word=' + word); S.msg = null;
+  $('#scenehead').textContent = `${tableLabel()} ${word} · ${S.menu.messages.length} messages`;
+  renderScenes(); renderMessages();
+  openMessage(mid ?? (S.menu.messages[1] || S.menu.messages[0]).id);
+}
+function renderMessages() {
+  if (!S.menu) return;
+  $('#records').innerHTML = S.menu.messages.map(m => `<div class="item ${m.id === S.msg ? 'sel' : ''}" data-mid="${m.id}"><div class="t">${escapeHtml(plain(m.text).replace(/\{[^}]*\}/g, '') || '(empty)')}</div>
+    <div class="m"><span class="id">0x${m.id.toString(16).padStart(4, '0')}</span>${m.copies.length ? `<span title="same message in tables ${m.copies.join(', ')}">+${m.copies.length} cop${m.copies.length === 1 ? 'y' : 'ies'}</span>` : ''}${m.edited ? '<span class="dot"></span>' : ''}</div></div>`).join('');
+  const sel = $('#records .item.sel'); if (sel) sel.scrollIntoView({ block: 'nearest' });
+}
+function tableLabel() { return S.menu && S.menu.kind === 'battle' ? 'Battle table' : 'Menu table'; }
+const MENU_TOOLS = [['{81 80 07}', 'blue label colour'], ['{81 80 02}', 'red'], ['{81 80 01}', 'orange'], ['{81 80 03}', 'black']];
+function openMessage(mid) {
+  S.msg = mid;
+  const m = S.menu.messages.find(x => x.id === mid); if (!m) return;
+  const ed = $('#editor'); ed.innerHTML = ''; ed.appendChild($('#menutpl').content.cloneNode(true));
+  $('#title').innerHTML = `${tableLabel()} ${S.menu.word} · message 0x${mid.toString(16).padStart(4, '0')}<small>${escapeHtml(S.menu.name)}</small>`;
+  $('#text').value = m.text;
+  $('#text').addEventListener('input', onMenuEdit);
+  $('#revert').onclick = () => { $('#text').value = m.orig; onMenuEdit(); };
+  const battle = S.menu.kind === 'battle';
+  const tools = battle ? S.menu.special.map(c => [c, {'\u2026': 'ellipsis', '\u300c': 'corner quote (starts a hint line)', '\u00b7': 'middle dot', '\u2019': 'curly apostrophe'}[c] || c]) : MENU_TOOLS;
+  $('#tools').innerHTML = tools.map(([t, h]) => `<button data-ins="${t}" title="${h}">${t}</button>`).join('');
+  if (battle) {
+    $('#legendh').textContent = 'Battle text codes';
+    $('#legendcodes').innerHTML = `<span class="code" data-ins="&#10;">(new line)</span><span>New line (byte 0x80; on the disc only the item help lines in 1806.1 use it). Just press Enter.</span>
+      <span class="code">{xx}</span><span>A raw glyph number in hex, for the glyphs of this font that have no character (Japanese placeholders, symbols; shown below, click one to insert it).</span>
+      <span class="code" data-ins="\u2026">\u2026 \u300c \u00b7 \u2019</span><span>Battle-only glyphs written as characters: ellipsis, corner quote (starts a hint line), middle dot, curly apostrophe.</span>`;
+    $('#legendhint').textContent = 'Each battle table has its own font, numbered in order of first use. Any printable ASCII character works: one the font lacks is added from the menu font on build (shown under the preview; at most 127 glyphs). Battle menu labels are drawn centred in a fixed box (tested in TinyPSX: "Quaff Item", "End Turn 9" and "Run away!" fit); a much wider one may not.';
+  }
+  $('#tools').onclick = (e) => { const t = e.target.dataset.ins; if (t) insert(t); };
+  $('#tools').onclick = (e) => { const t = e.target.dataset.ins; if (t) insert(t); };
+  $('#legend').onclick = (e) => { const t = e.target.closest('[data-ins]'); if (t) insert(t.dataset.ins); };
+  const xg = $('#xglyphs'); const f = S.menu.font;
+  const extra = battle ? [...Array(f.n).keys()].map(i => i + 1).filter(b => S.menu.chars[b - 1] == null && f.widths[b - 1] > 0)
+    : [...Array(Math.max(0, Math.min(f.n, 0x7f) - 0x5f)).keys()].map(i => i + 0x60);
+  for (const b of extra) {
+    const btn = document.createElement('button'); btn.dataset.ins = `{${b.toString(16)}}`; btn.title = `{${b.toString(16)}}`;
+    const c = document.createElement('canvas'); c.width = 16; c.height = 12; const x = c.getContext('2d');
+    x.fillStyle = '#d8d3c3'; x.fillRect(0, 0, 16, 12); const g = menuGlyph(b); x.fillStyle = '#000';
+    for (let r = 0; r < 12; r++) for (let k = 0; k < 16; k++) if (g.rows[r] & (0x8000 >> k)) x.fillRect(k, r, 1, 1);
+    c.dataset.ins = btn.dataset.ins; btn.appendChild(c); xg.appendChild(btn);
+  }
+  renderMessages(); refreshMenuPreview();
+}
+async function refreshMenuPreview() {
+  const m = S.menu.messages.find(x => x.id === S.msg);
+  const text = $('#text').value;
+  const r = await api('/api/menu_preview', { word: S.menu.word, id: S.msg, text });
+  const st = $('#status');
+  if (!r.ok) { st.innerHTML = `<span class="bad">${escapeHtml(r.error)}</span>`; return; }
+  const changed = text !== m.orig;
+  st.innerHTML = (changed ? '<span class="warn">edited</span>' : '<span class="ok">as on the disc</span>')
+    + ` · ${r.bytes.length} bytes (disc: ${r.orig.length}) · ${r.px} px wide (disc: ${r.orig_px})`
+    + (r.added ? (S.menu.kind === 'battle' ? ` · adds <b>${escapeHtml(r.added)}</b> to the battle font (${r.font.n} glyphs)` : ` · draws <b>${escapeHtml(r.added)}</b> over unused glyphs of the menu font`) : '')
+    + (r.px > r.orig_px ? ' · <span class="warn">wider than the original: it may run into the next item</span>' : '');
+  const link = $('#link').checked;
+  $('#minfo').innerHTML = [
+    ['table', `${S.menu.word} (${escapeHtml(S.menu.name)}), ${S.menu.kind === 'battle' ? `battle file ${S.menu.file}${S.menu.word.startsWith('1500.') ? ' (and its copy in 1501)' : ''}, ` : ''}sectors ${S.menu.sectors[0]}..${S.menu.sectors[1]}`],
+    ['copies', m.copies.length ? `the same message with the same text is in table${m.copies.length > 1 ? 's' : ''} ${m.copies.join(', ')}: `
+      + (link ? 'an edit here changes those too' : '<span class="warn">"Link copies" is off: only this table changes</span>') : 'none'],
+  ].map(([k, v]) => `<span>${k}</span><span>${v}</span>`).join('');
+  renderMenuPreview(r);
+}
+async function saveMenu() {
+  const text = $('#text').value;
+  const r = await api('/api/menu_save', { word: S.menu.word, id: S.msg, text });
+  if (!r.ok) return;
+  const m = S.menu.messages.find(x => x.id === S.msg); m.text = text; m.edited = r.edited;
+  const t = S.init.menus.find(x => x.word === S.menu.word); if (t) t.edited = r.count;
+  renderMessages(); if (!$('#search').value.trim()) renderScenes(); updateCount();
+}
+function onMenuEdit() {
+  clearTimeout(previewTimer); clearTimeout(saveTimer);
+  previewTimer = setTimeout(refreshMenuPreview, 120); saveTimer = setTimeout(saveMenu, 500);
+}
+function setMode(mode) {
+  S.mode = mode; localSet('mode', mode);
+  $('#m-dlg').classList.toggle('on', mode === 'dialogue'); $('#m-menu').classList.toggle('on', mode === 'menu');
+  $('#spoken').parentElement.style.display = mode === 'menu' ? 'none' : '';
+  $('#fit').parentElement.style.display = mode === 'menu' ? 'none' : '';
+  if (!$('#search').value.trim()) renderScenes();
+  if (mode === 'menu') { if (S.menu) { $('#scenehead').textContent = `${tableLabel()} ${S.menu.word} · ${S.menu.messages.length} messages`; renderMessages(); openMessage(S.msg); } else openMenu('2175'); }
+  else if (S.scene) { openScene(S.scene.id, S.rec); } else { const first = S.init.scenes.find(s => s.id === 0x16) || S.init.scenes[0]; openScene(first.id); }
+}
+
+async function openScene(id, rec) {
+  S.scene = await api('/api/scene?id=' + id); S.rec = null;
+  $('#scenehead').textContent = `Scene 0x${id.toString(16)} · ${S.scene.records.length} records` + (S.scene.place ? ` · ${S.scene.place}` : '');
+  renderScenes(); renderRecords();
+  const first = rec ?? (S.scene.records.find(r => r.k >= 14 && plain(r.text).trim()) || S.scene.records[0]).k;
+  openRecord(first);
+}
+
+const TOOLS = [['<page>', 'new page: waits for a button, then clears the box'], ['<4:01>', 'brown text'], ['<4:02>', 'red text'], ['<4:03>', 'green text'], ['<4:00>', 'normal (black) text'],
+  ['<7:02>', 'double-width characters'], ['<7:01>', 'normal width'], ['<3:0c>', 'slow typing: 12 frames per character'], ['<3:ff>', 'normal typing speed'], ['・・・', 'the game\'s ellipsis dots']];
+function openRecord(k) {
+  S.rec = k; S.call = 0; stopPlay();
+  const ed = $('#editor'); ed.innerHTML = ''; ed.appendChild($('#edtpl').content.cloneNode(true));
+  const r = S.scene.records[k];
+  $('#title').innerHTML = `Scene 0x${S.scene.id.toString(16)} · record ${k}<small>${r.k < 14 ? 'shared system string' : ''}</small>`;
+  $('#text').value = r.text;
+  $('#text').addEventListener('input', onEdit);
+  $('#revert').onclick = () => { $('#text').value = r.orig; onEdit(); };
+  $('#tools').innerHTML = TOOLS.map(([t, h]) => `<button data-ins="${escapeHtml(t)}" title="${h}">${escapeHtml(t)}</button>`).join('');
+  $('#tools').onclick = (e) => { const t = e.target.dataset.ins; if (t) insert(t); };
+  // glyph palette: the scene font, then what can be added
+  const have = [...new Set(S.scene.font.chars.filter(c => c))];
+  const extra = Object.keys(S.init.glyphdb).filter(c => !have.includes(c));
+  $('#glyphs').innerHTML = have.map(c => `<button data-ins="${escapeHtml(c)}" title="in this scene's font">${c === ' ' ? '␠' : escapeHtml(c)}</button>`).join('')
+    + extra.map(c => `<button class="add" data-ins="${escapeHtml(c)}" title="added to the font on build">${escapeHtml(c)}</button>`).join('');
+  $('#glyphs').onclick = (e) => { const t = e.target.dataset.ins; if (t !== undefined) insert(t); };
+  $('#bg').value = localGet('bg') || 'valhalla';
+  $('#bg').onchange = () => { localSet('bg', $('#bg').value); render(); };
+  $('#call').onchange = () => { S.call = +$('#call').value; render(); };
+  $('#page').onchange = () => { $('#reveal').dataset.touched = '0'; render(); };
+  $('#reveal').oninput = () => { $('#reveal').dataset.touched = '1'; render(); };
+  $('#play').onclick = () => S.playing ? stopPlay() : startPlay();
+  renderAllCodes(); renderLegend();
+  $('#alllegend').open = localGet('legend') === '1';
+  $('#alllegend').ontoggle = () => localSet('legend', $('#alllegend').open ? '1' : '0');
+  $('#legend').onclick = (e) => { const t = e.target.closest('.code'); if (t && !t.textContent.includes(',')) insert(t.dataset.ins); };
+  renderRecords(); refreshPreview();
+}
+function insert(t) {
+  const ta = $('#text'); const a = ta.selectionStart, b = ta.selectionEnd;
+  ta.setRangeText(t, a, b, 'end'); ta.focus(); onEdit();
+}
+function startPlay() {
+  S.playing = true; $('#play').textContent = '■ Stop'; $('#reveal').value = 0; $('#reveal').dataset.touched = '1';
+  S.timer = setInterval(() => {
+    const r = $('#reveal'); if (+r.value >= +r.max) { stopPlay(); return; }
+    r.value = +r.value + 1; render();
+  }, 50);
+}
+function stopPlay() { S.playing = false; clearInterval(S.timer); const p = $('#play'); if (p) p.textContent = '▶ Play'; }
+function localGet(k) { try { return localStorage.getItem('vpgui.' + k); } catch (e) { return null; } }
+function localSet(k, v) { try { localStorage.setItem('vpgui.' + k, v); } catch (e) {} }
+
+// ---------------------------------------------------------------- legend
+// What each code does. Sources: the renderer's command handlers (table 0x8007DC6C), the layout
+// pass, and live TinyPSX tests of edited lines (scene 0x1b for <6>, <18>, <19>).
+const u16 = (a) => a[0] | a[1] << 8;
+const COLOURS = ['normal (black)', 'brown', 'red', 'green'];
+const CODES = [
+  { t: '(new line)', ins: '\n', d: () => 'Line break (command 0). Just press Enter in the text.' },
+  { t: '<page>', c: 1, d: () => 'New page: the box waits for a button press, then clears and carries on.' },
+  { t: '<3:nn>', c: 3, ins: '<3:0c>', d: (a) => a ? (a[0] === 0xff ? 'Typing speed back to normal (the player\'s message-speed option).'
+      : `Typing delay: ${a[0]} frame${a[0] === 1 ? '' : 's'} per character from here on (${(a[0] / 60).toFixed(2)} s each). A short burst of it before ff works as a pause.`)
+      : 'Typing delay: nn frames per character until changed; ff = normal (the player\'s message-speed option). Lucian<3:28>,<3:ff> waits 40 frames before the comma.' },
+  { t: '<4:nn>', c: 4, ins: '<4:02>', d: (a) => a ? `Text colour ${a[0] & 3}: ${COLOURS[a[0] & 3]}.` : 'Text colour: 00 normal, 01 brown, 02 red, 03 green (until changed).' },
+  { t: '<5>', c: 5, d: () => 'Centres this line in the box (place names, system messages like "The item has broken.").' },
+  { t: '<6:xxxx>', c: 6, ins: '<6:970d>', d: (a) => (a ? `Queues portrait 0x${u16(a).toString(16).padStart(4, '0')}` : 'Queues a portrait by number') + ' for this line; <19> then shows it. Used for speakers the script gives no face, e.g. 970d = a moustached man (the "Man" villagers), 570d = an elf.' },
+  { t: '<7:nn>', c: 7, ins: '<7:02>', d: (a) => a ? (a[0] <= 1 ? 'Normal character width.' : `Characters ${a[0]}× as wide from here on.`) : 'Character width scale: 01 normal, 02 double. <7:0b>-<7:01> draws a long dash. (Preview approximate.)' },
+  { t: '<8:nn>', c: 8, ins: '<8:02>', d: (a) => a ? (a[0] <= 1 ? 'Normal character height.' : `Characters ${a[0]}× as tall: the line becomes ${12 * a[0] + 2} pixels high, so the box must have room for it.`) : 'Character height scale: 01 normal, 02 double (a line is 12 × scale + 2 pixels high). (Preview approximate.)' },
+  { t: '<12:xxxx>', c: 12, ins: '<12:0000>', d: (a) => (a ? `Voice clip cue 0x${u16(a).toString(16)}` : 'Voice clip cue') + ': loads that spoken clip, for the next spoken line (see Voice in the write-up).' },
+  { t: '<14:nn>', c: 14, ins: '<14:00>', d: (a) => 'Inserts a number' + (a && a[0] === 0 ? ': the event EXP earned' : a ? ` (value ${a[0]})` : ' (00 = event EXP earned)') + '. Shown as 000 in the preview.' },
+  { t: '<17:xxxx>', c: 17, ins: '<17:7800>', d: (a) => a ? `Auto-advance: the box closes by itself after ${u16(a)} frames (${(u16(a) / 60).toFixed(1)} s).` : 'Auto-advance: the box closes by itself after N frames (two bytes, low first: 7800 = 120 frames = 2 s).' },
+  { t: '<18>', c: 18, d: () => 'Starts the next queued voice clip when the typing reaches it (clips are queued by <12> and the script). If a clip is still pending, the text waits here. Without it the line is silent and the clip plays at the next <18>.' },
+  { t: '<19:xxxx>', c: 19, ins: '<19:0100>', d: (a) => { const side = !a ? null : a[0] === 0xff && a[1] === 0xff ? 'on the scene\'s default side' : a[0] ? 'bottom left, facing right' : 'bottom right, mirrored to face left';
+      return side ? `Shows the queued speaker portrait ${side}.` : 'Shows the queued speaker portrait: 0100 bottom left, 0000 bottom right (mirrored), ffff the scene\'s default side. No <19>, no portrait.'; } },
+  { t: '<9>-<11>, <13>, <15>, <16>', d: () => 'No effect: the renderer skips them.' },
+  { t: '<2>', c: 2, d: () => 'Never used on the disc. Its handler changes the box state and stops the text; not traced further.' },
+  { t: '{xx}', ins: '{01}', d: () => 'A raw glyph code (hex) from the scene font, for a glyph with no known character.' },
+];
+const CODE_BY_CMD = Object.fromEntries(CODES.filter(c => c.c !== undefined).map(c => [c.c, c]));
+function renderLegend() {
+  const text = $('#text').value;
+  const seen = new Map();
+  for (const m of text.matchAll(/<page>|<(\d+)(?::([0-9a-fA-F]*))?>|\{([0-9a-fA-F]+)\}/g)) {
+    if (seen.has(m[0])) continue;
+    let d;
+    if (m[0] === '<page>') d = CODE_BY_CMD[1].d();
+    else if (m[3] !== undefined) d = CODES[CODES.length - 1].d();
+    else {
+      const c = +m[1], hex = m[2] || '', args = hex.match(/../g)?.map(h => parseInt(h, 16));
+      const info = CODE_BY_CMD[c];
+      const need = S.init.argbytes[c] || 0;
+      d = info ? info.d(args && args.length === need ? args : null) : ([0, 9, 10, 11, 13, 15, 16].includes(c) ? (c === 0 ? 'Line break (same as a new line).' : 'No effect: the renderer skips it.') : 'Unknown command.');
+      if ((args ? args.length : 0) !== need) d = `<span class="bad">Needs ${need} argument byte${need === 1 ? '' : 's'} (${need * 2} hex digits).</span> ` + d;
+    }
+    seen.set(m[0], d);
+  }
+  if (text.includes('\n')) seen.set('(new line)', CODES[0].d());
+  $('#here').innerHTML = seen.size ? [...seen].map(([t, d]) => `<span class="code" data-ins="${escapeHtml(t === '(new line)' ? '\n' : t)}">${escapeHtml(t)}</span><span>${d}</span>`).join('')
+    : '<span class="status">none</span><span></span>';
+}
+function renderAllCodes() {
+  $('#all').innerHTML = CODES.map(c => `<span class="code" data-ins="${escapeHtml(c.ins ?? c.t)}">${escapeHtml(c.t)}</span><span>${c.d()}</span>`).join('');
+}
+
+// ---------------------------------------------------------------- startup
+(async function main() {
+  await loadImages();
+  S.init = await api('/api/init');
+  $('#disc').textContent = S.init.disc; $('#disc').title = S.init.disc;
+  $('#out').value = localGet('out') || S.init.output;
+  $('#fit').checked = localGet('fit') === '1';
+  $('#run').disabled = !S.init.tinypsx;
+  renderScenes(); updateCount();
+  $('#scenes').onclick = (e) => {
+    const it = e.target.closest('.item'); if (!it) return;
+    if (it.dataset.mw !== undefined) {
+      if (S.mode !== 'menu') { S.mode = 'menu'; $('#m-dlg').classList.remove('on'); $('#m-menu').classList.add('on'); localSet('mode', 'menu');
+        $('#spoken').parentElement.style.display = 'none'; $('#fit').parentElement.style.display = 'none'; }
+      return openMenu(it.dataset.mw, it.dataset.mid !== undefined ? +it.dataset.mid : undefined);
+    }
+    if (S.mode !== 'dialogue') { S.mode = 'dialogue'; $('#m-dlg').classList.add('on'); $('#m-menu').classList.remove('on'); localSet('mode', 'dialogue');
+      $('#spoken').parentElement.style.display = ''; $('#fit').parentElement.style.display = ''; }
+    openScene(+it.dataset.s, it.dataset.r !== undefined ? +it.dataset.r : undefined);
+  };
+  $('#records').onclick = (e) => { const it = e.target.closest('.item'); if (!it) return;
+    if (it.dataset.mid !== undefined) openMessage(+it.dataset.mid); else openRecord(+it.dataset.r); };
+  $('#m-dlg').onclick = () => setMode('dialogue'); $('#m-menu').onclick = () => setMode('menu');
+  $('#link').checked = localGet('link') !== '0';
+  $('#link').onchange = () => { localSet('link', $('#link').checked ? '1' : '0'); if (S.mode === 'menu' && S.msg !== null) refreshMenuPreview(); };
+  $('#spoken').checked = localGet('spoken') !== '0';
+  $('#spoken').onchange = () => { localSet('spoken', $('#spoken').checked ? '1' : '0'); renderRecords(); };
+  $('#fit').onchange = () => { localSet('fit', $('#fit').checked ? '1' : '0'); render(); };
+  $('#out').onchange = () => localSet('out', $('#out').value);
+  let st = null;
+  $('#search').oninput = () => {
+    clearTimeout(st);
+    st = setTimeout(async () => {
+      const q = $('#search').value.trim();
+      if (!q) return renderScenes();
+      const r = await api('/api/search?q=' + encodeURIComponent(q));
+      renderScenes(r.ready ? r.hits : []);
+      if (!r.ready) $('#scenes').innerHTML = '<div class="empty">indexing all scenes… try again in a moment</div>';
+    }, 200);
+  };
+  $('#build').onclick = async () => {
+    const log = $('#log'); $('#build').disabled = true;
+    if (log) log.textContent = 'building…';
+    const r = await api('/api/build', { output: $('#out').value, fit: $('#fit').checked, link: $('#link').checked });
+    $('#build').disabled = false;
+    if (log) log.textContent = r.log || r.error; else alert(r.log || r.error);
+  };
+  $('#run').onclick = async () => {
+    const r = await api('/api/run', { cue: $('#out').value });
+    const log = $('#log'); const msg = r.ok ? `TinyPSX started (pid ${r.pid}) with ${$('#out').value}` : r.error;
+    if (log) log.textContent = msg; else alert(msg);
+  };
+  setMode(localGet('mode') === 'menu' ? 'menu' : 'dialogue');
+})();
+</script>
+</body>
+</html>

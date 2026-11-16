@@ -1,0 +1,18 @@
+# Valkyrie Profile title menu (pictures in file 7, drawn by file 1): one label per item.
+# The labels are re-rendered in Times New Roman (macOS fonts), as is any item left out.
+# Their total length is limited by the 256 x 256 sheet (English 73 letters; 79 fit).
+
+@@ 0 New Game
+Nuova Partita
+@@ 1 Continue
+Continua
+@@ 2 Configuration
+Opzioni
+@@ 3 Sound Mode
+Colonna Sonora
+@@ 4 Prologue
+Prologo
+@@ 5 Opening Movie
+Filmato Iniziale
+@@ 6 Seraphic Gate
+Porta Serafica

@@ -1,0 +1,39 @@
+# Valkyrie Profile scene 0x11 (-): 28 records, directory word 3627, package sectors 157163..157316 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:0100>Lucian
+「<18><3:03>No!<3:1e> <3:03>Svegliati!<3:0f> <3:03>Non voglio!<3:14>!
+<3:03>Vuoi dimenticare!<3:14>?
+<3:03>Dimenticheresti anche me,
+Platina<7:0a>-<7:01>?<17:7800>
+@@ 15
+<19:0100>Lucian
+「<18><3:04>Ch...Cosa...<17:5a00>
+@@ 16
+<19:0000>Platina
+「<18><12:4609><3:04>Non ce la faccio più!<3:14>
+<3:03>Per quanto mi sia sforzata<3:0c>...
+<18><3:04>Mamma e papà<3:0a> <3:03>non mi hanno mai
+<3:03>trattata con gentilezza!<17:7800>
+@@ 17
+<19:0000>Platina
+「<18><3:04>Se ci tieni tanto a me,
+<3:03>Lucian<3:0c>,<3:03> pensi che<3:0c>・・・<17:9600>
+@@ 18
+<19:0000>Platina
+「<18><12:4909><3:03>Pensi che potremmo rinascere<3:78>?<3:03>
+<18>Che potremmo rinascere・・・insieme?<17:b400>
+@@ 20
+<19:0000>Platina
+「<18><12:4b09><3:03>Sono felice di averti conosciuto,
+Lucian.<3:3c>
+<18><3:04><12:4c09>Ma ho troppi
+ <3:05>ricordi terribili.
+<18><3:04>Voglio <3:04>solo <3:03>
+dimenticare<3:0c>... <3:03>tutto<3:0c>...<17:7800>
+@@ 21
+<5><3:0c>・・・<3:07><18>Lucian<3:0c>・・・<17:7800>
