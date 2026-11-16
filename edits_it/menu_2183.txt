@@ -9,17 +9,17 @@
 # keeps this file's edits to this table, and they win over a linked copy.
 
 @@ 0x0060
-{81 80 07}ATK
+{81 80 07}ATT
 @@ 0x0061
-{81 80 07}RDM
+{81 80 07}RID
 @@ 0x0062
-{81 80 07}DEF
+{81 80 07}DIF
 @@ 0x0063
-{81 80 07}AVD
+{81 80 07}EVA
 @@ 0x0064
-{81 80 07}HIT
+{81 80 07}PRE
 @@ 0x0065
-{81 80 07}RST
+{81 80 07}RES
 @@ 0x0066
 {81 80 07}Arma
 @@ 0x0067

@@ -103,6 +103,20 @@ font that works like a sprite sheet:
 The game draws a title as one sprite per character. The disc has two identical copies of this font,
 in the title package (file 6) and in package 2173, which the camp menu loads.
 
+## The small italic font
+
+Some camp menu screens draw their labels with a small bold italic: the Status screen's stat names
+(FOR, ATT …) and their grey explanations, and the "Nome oggetto" column headings. It uses the same
+table format as the title font, with its own glyphs:
+
+* **The table:** 96 entries of 10 bytes, in the camp menu program (file 2174, loaded at
+  `0x8002F824`) at offset `0x1E0D0`.
+* **The sheet:** a 256 × 256 4-bit TIM, part 0 of package 2173, put in video memory at (832, 256).
+  The font shares it with the camp menu's icons, buttons and pictures. Lower-case letters are 5 rows
+  tall from line row 2, capitals 7 rows from row 0.
+
+![The Status screen in Italian](notes/edit_proof/italian_status.png)
+
 ## The title-screen menu: pictures
 
 The title menu's labels (New Game, Continue and the rest) aren't text at all. Each is drawn on a
@@ -147,6 +161,7 @@ How each kind of font takes a new letter:
 | battle | a new glyph over a blank padding glyph, up to 127 glyphs |
 | menu | can't grow, because the bytes are fixed ASCII. An accented letter replaces one of ten characters the menus never show, `{ } \ ^ _ ` \| @ < >`, the same one in every menu. So the menus can hold at most ten different accented letters. |
 | italic titles | drawn into the sheet's free rows, from the base letter's italic glyph plus an accent, and the table entry of one of those ten characters points at it |
+| small italic | the same, with 2-row accents, in the sheet's only free room: a strip at (51, 33), 108 × 12, which nothing draws over while the camp menu runs. It holds about nine letters. Without this, "(Agilità)" showed as "(Agilit )". |
 | title screen | the labels are rendered again as pictures |
 
 For scene and world-map fonts, the editor takes each new glyph from `vp_glyph_db.json`: the most

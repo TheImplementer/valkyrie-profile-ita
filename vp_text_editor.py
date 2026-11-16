@@ -862,7 +862,7 @@ def build_tables(arc, dirw, table_edits, link, patches, log=print):
                              f'({len(pkg) - room} too many)')
         log(f'  {u.label}: package {u.used} -> {len(pkg)} bytes of {room}')
         _patch_sectors(arc, u.first, u.end, pkg, room, patches)
-    return len(changed)
+    return len(changed), (dict(t6.italic) if t6 is not None and t6.registry else {})
 
 
 def build_image(disc, arc, dirw, names, edits, output, fit=False, log=print, table_edits=(), link=True,
@@ -905,7 +905,7 @@ def build_image(disc, arc, dirw, names, edits, output, fit=False, log=print, tab
         log(f'system messages: records {", ".join(map(str, sorted(system)))} written into every scene '
             f'({sys_stats["scenes"]} with no other edits'
             + (f'; the least room left is {tightest[0]} bytes, scene {tightest[1]:#x}' if tightest else '') + ')')
-    menus = build_tables(arc, dirw, table_edits, link, patches, log)
+    menus, accents = build_tables(arc, dirw, table_edits, link, patches, log)
     if worldmap:
         done = vwm.build(types.SimpleNamespace(**globals()), arc, dirw, names, worldmap, db_get, log)
         if done:
@@ -915,9 +915,9 @@ def build_image(disc, arc, dirw, names, edits, output, fit=False, log=print, tab
         log('title menu (files 7 and 1):')
         for f, packed, room in vtitle.build_files(types.SimpleNamespace(**globals()), arc, dirw, title, log):
             _patch_sectors(arc, f.first, f.end, packed, room, patches)
-    if camp_tabs:
-        log(f'camp menu tabs (file {vtabs.WORD}):')
-        done = vtabs.build_file(types.SimpleNamespace(**globals()), arc, dirw, camp_tabs, log)
+    if camp_tabs or accents:
+        log(f'camp menu program (file {vtabs.WORD}):')
+        done = vtabs.build_file(types.SimpleNamespace(**globals()), arc, dirw, camp_tabs or {}, log, accents)
         if done:
             f, packed, room = done
             _patch_sectors(arc, f.first, f.end, packed, room, patches)

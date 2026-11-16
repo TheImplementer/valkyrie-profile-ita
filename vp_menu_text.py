@@ -409,9 +409,10 @@ class MenuText:
         return self.pkg.build()
 
 
-def _patch_italic(ed, pkg, orig_parts, word, codes):
+def _patch_italic(ed, pkg, orig_parts, word, codes, small_table=None):
     """Draw the accented letters codes ({character: slot ASCII}) into the italic title font copy
-    in package pkg (directory word word)."""
+    in package pkg (directory word word), and, given the small italic font's table (package 2173
+    holds that font's sheet too), into the small font's sheet."""
     acc = _load('vp_accents')
     si, ti = acc.ITALIC_COPIES[word]
     sub = [list(x) for x in ed.read_container(orig_parts[si])]
@@ -420,6 +421,13 @@ def _patch_italic(ed, pkg, orig_parts, word, codes):
     sub[0] = [sub[0][0], ed.vslz.compress(tim, sub[0][0]), len(tim)]
     pkg.parts[si][1] = ed.write_container(sub)
     pkg.parts[ti][1] = table
+    if small_table is not None:
+        pi = acc.SMALL_SHEET[1]
+        sub = [list(x) for x in ed.read_container(orig_parts[pi])]
+        tim = ed.unpack(*sub[0])
+        tim, _, _ = acc.small_italic_patch(tim, small_table, codes)
+        sub[0] = [sub[0][0], ed.vslz.compress(tim, sub[0][0]), len(tim)]
+        pkg.parts[pi][1] = ed.write_container(sub)
 
 
 class ItalicFont:
@@ -433,6 +441,12 @@ class ItalicFont:
         self.orig_parts = [bytes(d) for _, d in self.pkg.parts]
         self.codes = codes
         self.label = f'italic title font {word}'
+        acc = _load('vp_accents')
+        self.small_table = None         # the small italic font's table, when this package has its sheet
+        if word == acc.SMALL_SHEET[0]:
+            prog = self.ed.vtitle.TitleFile(self.ed, arc, dirw, acc.SMALL_PROGRAM).data
+            self.small_table = prog[acc.SMALL_TABLE_OFFSET:acc.SMALL_TABLE_OFFSET + 960]
+            self.label = f'italic fonts {word}'
         self.first, self.end = self.pkg.first, self.pkg.end
 
     @property
@@ -440,7 +454,7 @@ class ItalicFont:
         return self.pkg.used
 
     def repack(self, recompress_all=False):
-        _patch_italic(self.ed, self.pkg, self.orig_parts, self.word, self.codes)
+        _patch_italic(self.ed, self.pkg, self.orig_parts, self.word, self.codes, self.small_table)
         if recompress_all:
             for i, (kind, data) in enumerate(self.pkg.parts):
                 if data[:3] == b'SLZ':

@@ -1,4 +1,6 @@
 """The camp menu's tabs: the Topic and Sort boxes above the item lists, which can be made wider.
+The same program holds the small italic font's table, which `build_file` also gives the menus'
+accented letters (vp_accents.small_italic_patch).
 
 The camp menu program (file 2174, one SLZ block loaded at 0x8002F824) draws parts of its screens
 from lists of 20-byte layout records, each list ending in a record whose first byte is 0xFF:
@@ -103,14 +105,26 @@ def apply(data, widths, origin=''):
     return bytes(data), changed
 
 
-def build_file(ed, arc, dirw, widths, log=print):
-    """(file, packed bytes, room), or None when nothing changes. `ed` is vp_text_editor's namespace."""
+def build_file(ed, arc, dirw, widths, log=print, accents=None):
+    """(file, packed bytes, room), or None when nothing changes. `ed` is vp_text_editor's namespace.
+    accents: {accented character: slot ASCII}, the letters the menus use, given table entries in the
+    small italic font (its glyphs are drawn into its sheet with the italic title font's)."""
     f = ed.vtitle.TitleFile(ed, arc, dirw, WORD); f.label = f'camp menu file {WORD}'
     data, changed = apply(f.data, widths)
-    if not changed:
-        return None
     for mid, old, w in changed:
         log(f'  tab {mid:#x}: box {old} -> {w} px wide')
+    if accents:
+        acc = ed.vmenu._load('vp_accents')
+        pkg, part = acc.SMALL_SHEET
+        sheet = ed.Package(arc, dirw, pkg).parts[part][1]
+        tim = ed.unpack(*ed.read_container(sheet)[0])
+        o = acc.SMALL_TABLE_OFFSET
+        _, table, skipped = acc.small_italic_patch(tim, data[o:o + 960], accents)
+        data = data[:o] + table + data[o + 960:]
+        log(f'  small italic font: {"".join(c for c in sorted(accents) if c not in skipped)} drawn into package {pkg}'
+            + (f'; no room or no base letter for {"".join(skipped)}' if skipped else ''))
+    if data == f.data:
+        return None
     packed, room = f.pack(data)
     if len(packed) > room:
         raise ValueError(f'{f.label}: needs {len(packed)} bytes, its sectors hold {room}')

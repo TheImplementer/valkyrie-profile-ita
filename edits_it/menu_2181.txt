@@ -1,0 +1,122 @@
+# Valkyrie Profile menu text 2181 (camp menu: Status): 1026 messages, package sectors 84614..84625 of VALKYRIE.BIN
+# Edit the text under any "@@ 0x.." line (a message id); delete the entries you do not change.
+# A line break is a new line (0x80). {xx ...} are raw bytes: {81 80 07} and the like are
+# commands, {60}-{7f} and {82}-{85} extra glyphs; { and } themselves are {5c} and {5e}.
+# Printable ASCII is in the menu font; accented letters (à è é ì ò ù È ...) are drawn over
+# the { } \ ^ _ ` | @ < > glyphs, up to 10 per table. `build` also changes every other menu table
+# (and the battle item table 1806.1) that has the same id with the same original text
+# (an item name is in several), unless --no-link is given. A "# no-link" line up here
+# keeps this file's edits to this table, and they win over a linked copy.
+
+@@ 0x000b
+{81 80 07}LV
+@@ 0x000c
+{81 80 07}DME
+@@ 0x001f
+{81 80 07}CT
+@@ 0x006d
+{81 80 07}Pos.1
+@@ 0x006e
+{81 80 07}Pos.2
+@@ 0x006f
+{81 80 07}Pos.3
+@@ 0x007e
+{81 80 07}MAG
+@@ 0x00a2
+Valore eroico
+@@ 0x00a3
+{81 80 06}(Livello)
+@@ 0x00a4
+{81 80 06}(Energia divina)
+@@ 0x00a5
+{81 80 06}(Forza)
+@@ 0x00a6
+{81 80 06}(Intelligenza)
+@@ 0x00a7
+{81 80 06}(Agilità)
+@@ 0x00a8
+{81 80 06}(Destrezza)
+@@ 0x00a9
+{81 80 06}(Attacco)
+@@ 0x00aa
+{81 80 06}(Riduzione danni)
+@@ 0x00ab
+{81 80 06}(Difesa)
+@@ 0x00ac
+{81 80 06}(Evasione)
+@@ 0x00ad
+{81 80 06}(Precisione)
+@@ 0x00ae
+{81 80 06}(Resistenza)
+@@ 0x00af
+{81 80 06}(Esperienza)
+@@ 0x00b0
+{81 80 03}Valore eroico
+@@ 0x00b1
+{81 80 07}Classe
+@@ 0x00b2
+{81 80 07}Razza
+@@ 0x00b3
+{81 80 07}Età
+@@ 0x00b4
+{81 80 07}Sesso
+@@ 0x00b5
+{81 80 07}Luogo di nascita
+@@ 0x00b6
+{81 80 01}Rimpianti
+@@ 0x00b7
+{81 80 01}Sigillo
+@@ 0x00b8
+{81 80 07}Vita precedente
+@@ 0x00b9
+{81 80 07}Resistenze
+@@ 0x00c0
+Veleno
+@@ 0x00c1
+Paralisi
+@@ 0x00c2
+Pietra
+@@ 0x00c3
+Maledizione
+@@ 0x00cd
+{81 80 07}Tecniche impostate
+@@ 0x00ce
+{81 80 07}Magie impostate 
+@@ 0x00cf
+{81 80 06}(Turni di carica)
+@@ 0x00d0
+Maschio
+@@ 0x00d1
+Femmina
+@@ 0x00d4
+(calendario di Midgard)
+@@ 0x00d6
+sconosciuto
+@@ 0x00da
+{81 80 07}Equipaggiamento
+@@ 0x00db
+{81 80 07}Lista
+
+magie
+@@ 0x00dc
+{81 80 06}(Potere magico)
+@@ 0x0163
+{81 80 07}FOR
+@@ 0x0164
+{81 80 07}INT
+@@ 0x0165
+{81 80 07}AGI
+@@ 0x0166
+{81 80 07}DES
+@@ 0x0167
+{81 80 07}ATT
+@@ 0x0168
+{81 80 07}RID
+@@ 0x0169
+{81 80 07}DIF
+@@ 0x016a
+{81 80 07}EVA
+@@ 0x016b
+{81 80 07}PRE
+@@ 0x016c
+{81 80 07}RES

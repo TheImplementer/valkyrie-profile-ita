@@ -82,7 +82,9 @@ Seen in TinyPSX: `docs/notes/edit_proof/italian_title_screens.png`.
 | Equip / Equipment | Equipaggia / Equip. | "Equipaggiamento" was cut off in its column. |
 | Topic (camp menus, Triangle) | Info | Shows the selected item's help line. On the world map the same word is "Notizie" (news). |
 | Sort, Sort Menu | Ordina, Ordina per | The Sort tab is widened to 111 px for it (`camp_tabs.txt`). The choices: Per tipo, Ordine alfabetico, Prima i più recenti, Per capitolo. |
-| ATK, RDM, DEF, AVD, HIT, RST, MAG | kept | Stat abbreviations stay in English, like DME: the Status screen explains each one in English beside it, so they change together when Status is translated. |
+| STR, INT, AGL, DEX | FOR, INT, AGI, DES | Forza, Intelligenza, Agilità, Destrezza: the Status screen explains each abbreviation beside it. |
+| ATK, RDM, DEF, AVD, HIT, RST | ATT, RID, DIF, EVA, PRE, RES | Attacco, Riduzione danni, Difesa, Evasione, Precisione, Resistenza. RDM is "Reduce Damage". LV, DME, CT and MAG are kept. |
+| Hero Value, Seal Value, Regrets | Valore eroico, Sigillo, Rimpianti | Status screen. Also Classe, Razza, Età, Sesso, Luogo di nascita, Vita precedente, Resistenze. |
 | Wpn., Head, Body, Arm, Leg, Dec.1/2, Pos.1-3 | Arma, Capo, Corp., Brac., Piedi, Acc.1/2, Pos.1-3 | Equipment slots, also on the Status and Party screens. A slot name must stay within about 28 px or its item icon covers it. |
 | Chng / Remove / Best (Equipment) | Metti / Togli / Auto | "Cambia" ran into "Togli". Best is "Ottimizza" in its own screen's title. |
 | Attack Trust, Hit Trust, Defend Trust | Affid. attacco, Affid. colpo, Affid. difesa | Sort orders: Per potenza, Per affidabilità, Per precisione, Per difesa, Prima i più recenti. |
@@ -115,6 +117,7 @@ shortened until they fit on screen:
 | Use Item | Equipaggiamento | Equip. |
 | Equipment slots (2183) | Testa, Corpo, Gambe | Capo, Corp., Piedi (the item icons covered the end) |
 | Equipment popup (2183) | Equipaggiamento; Cambia | Equipaggia; Metti |
+| Status (2181) | Valore sigillo | Sigillo (it ran into its value) |
 | Options | Velocità testo | Vel. testo |
 | Options | the Dash help line | shortened to fit its box |
 

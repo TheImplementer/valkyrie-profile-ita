@@ -197,3 +197,95 @@ def italic_patch(tim, table, codes):
             dy.to_bytes(2, 'little', signed=True) + bytes([adv, u, v, 0])
         u += w; line_h = max(line_h, h)
     return bytes(tim), bytes(table), skipped
+
+
+# ---------------------------------------------------------------- the small italic font
+#
+# The camp menu's screens draw some labels (the Status screen's stat names and their explanations,
+# the "Nome oggetto" column headings) with a small bold italic font in the same table format as the
+# title font: the table, 96 entries of 10 bytes, is in the camp menu program (file 2174, one SLZ
+# block loaded at 0x8002F824) at SMALL_TABLE_OFFSET; the glyphs are on a 256 x 256 4-bit sheet
+# shared with the camp menu's icons and buttons, the TIM in part 0 of package 2173, which the game
+# puts at VRAM (832, 256). Lower-case letters are 5 rows tall from line row 2, capitals 7 rows from
+# row 0; colour 1 is the body, 4, 6 and 8 its edge, b and d the shadow. The sheet's only free room is
+# a strip of SMALL_FREE (u, v, width, height), empty with a 3-pixel margin and never drawn over while
+# the camp menu runs; an accented letter is drawn there and its slot's table entry pointed at it.
+
+SMALL_SHEET = (2173, 0)                 # (package, part) of the sheet's TIM
+SMALL_PROGRAM = 2174
+SMALL_TABLE_OFFSET = 0x1E0D0
+SMALL_FREE = (51, 33, 108, 12)
+
+_SMALL_ACCENT = {                       # 2-row accents, '.' = transparent; centre column 1
+    GRAVE: ['61.', '.1b'],
+    ACUTE: ['.16', '1b.'],
+    CIRC: ['.1.', '1b1'],
+    DIAER: ['...', '1.1'],
+}
+
+
+def _small_tim(tim):
+    """(offset of the pixel rows, bytes per row) in the sheet's TIM (flags 8: with a CLUT)."""
+    clen = int.from_bytes(tim[8:12], 'little')
+    off = 8 + clen
+    w = int.from_bytes(tim[off + 8:off + 10], 'little')
+    return off + 12, w * 2
+
+
+def _small_glyph(tim, table, ch):
+    """(rows of colour indices, dx, dy, advance) of the accented letter ch for the small font, from
+    its base letter's glyph, or None."""
+    base, kind = LETTERS[ch]
+    e = italic_entry(table, ord(base))
+    if not e['w']:
+        return None
+    po, pitch = _small_tim(tim)
+    px = lambda x, y: (tim[po + y * pitch + x // 2] >> 4) if x & 1 else (tim[po + y * pitch + x // 2] & 15)
+    rows = [[px(e['u'] + x, e['v'] + y) for x in range(e['w'])] for y in range(e['h'])]
+    lower = base.islower()
+    body_top = 2 if lower else 0
+    keep = [(e['dy'] + r, row) for r, row in enumerate(rows) if e['dy'] + r >= body_top]   # drops the i's dot
+    first = next((row for _, row in keep if any(row)), None)
+    if first is None:
+        return None
+    cols = [x for x, c in enumerate(first) if c]
+    cx = (min(cols) + max(cols)) // 2 + 1           # the slant puts the top to the right
+    top = body_top - 2 if lower else body_top - 3   # capitals: a gap row between accent and letter
+    grid = {}
+    for r, row in enumerate(_SMALL_ACCENT[kind]):
+        for x, c in enumerate(row):
+            if c != '.':
+                grid[(top + r, cx - 1 + x)] = int(c, 16)
+    for lr, row in keep:
+        for x, c in enumerate(row):
+            if c:
+                grid[(lr, x)] = c
+    w = max(e['w'], max(x for _, x in grid) + 1)
+    w += -w % 4
+    bottom = max(lr for lr, _ in grid)
+    return [[grid.get((lr, x), 0) for x in range(w)] for lr in range(top, bottom + 1)], e['dx'], top, e['adv']
+
+
+def small_italic_patch(tim, table, codes):
+    """Draw the accented letters codes ({character: slot ASCII}) into the free strip of the small
+    italic font's sheet and point their slots' entries at them. Returns (tim, table, skipped)."""
+    tim = bytearray(tim); table = bytearray(table); skipped = []
+    po, pitch = _small_tim(tim)
+    fu, fv, fw, fh = SMALL_FREE
+    u = fu
+    for ch, code in sorted(codes.items(), key=lambda kv: kv[1]):
+        g = _small_glyph(tim, table, ch) if ch in LETTERS else None
+        if g is None:
+            skipped.append(ch); continue
+        rows, dx, dy, adv = g
+        h, w = len(rows), len(rows[0])
+        if u + w > fu + fw or h > fh:
+            skipped.append(ch); continue
+        for y, row in enumerate(rows):
+            for x, c in enumerate(row):
+                i = po + (fv + y) * pitch + (u + x) // 2
+                tim[i] = (tim[i] & 0x0F) | (c << 4) if (u + x) & 1 else (tim[i] & 0xF0) | c
+        table[(code - 0x20) * 10:(code - 0x20) * 10 + 10] = bytes([w, h]) + dx.to_bytes(2, 'little', signed=True) + \
+            dy.to_bytes(2, 'little', signed=True) + bytes([adv, u, fv, 0])
+        u += w
+    return bytes(tim), bytes(table), skipped

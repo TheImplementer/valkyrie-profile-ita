@@ -173,9 +173,18 @@ opens the Sort menu, strings `0x33` to `0x37`. Top to bottom: Use Item, Equipmen
 
 The Equipment screen (table 2183): the action popup, the weapon list with both tabs, the Sort menu
 and the Ottimizza (best equipment) screen, with three weapons granted by the script. Its 67 interface
-strings are Italian. The stat abbreviations stay in English, and so do the weapon and armour names
-and their help lines, which are item text. The slot names (Arma, Capo, Corp. …) are shared with the
+strings are Italian. The weapon and armour names
+and their help lines are item text, still in English. The slot names (Arma, Capo, Corp. …) are shared with the
 Status screen through the link, and fit there too.
+
+![The Status screen in Italian](notes/edit_proof/italian_status.png)
+
+The Status screen (table 2181): 55 interface strings, with the stat abbreviations, which also
+change on the Equipment and Party screens. Its labels and explanations use the small italic font
+(`docs/FONTS_AND_GLYPHS.md`), which had no accented letters until the build drew them in. The
+profile fields (Classe, Razza, Età, Rimpianti …) only show for recruited heroes, and were checked
+by reading the disc back. The characters' biographies (Triangle) and the skill names are still in
+English.
 
 ## The camp menu's tabs
 
