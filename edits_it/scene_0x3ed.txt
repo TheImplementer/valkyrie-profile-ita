@@ -1,0 +1,37 @@
+# Valkyrie Profile scene 0x3ed (-): 24 records, directory word 4615, package sectors 279571..279708 of VALKYRIE.BIN
+
+@@ 14
+<19:0000>Loki
+<3:05>「<18>Ah ah ah<3:3c>!<3:04>
+Che potere!<3:2d> <3:04>Meraviglioso!<12:fe0b><17:7800><page>
+<3:03><18>Sì, Lenneth, sì<3:23>.<3:03>
+È proprio così.<12:ff0b><17:7800><page>
+<3:03><18>Usa tutto il<3:04> potere<3:0f> <3:03>per te stessa<12:000c><3:3c>.<3:04>
+<18>Prova a proteggere <3:03>gli altri e <3:02>non farai<3:03>
+<3:04>che assicurare<3:0f> <3:04>la tua<3:0f> <3:04>morte.<12:010c><17:7800>
+@@ 16
+<19:0000>Loki
+<3:04>「<18>Non piangere<3:14> <3:04>mia bella<12:030c><3:3c>.<3:03>
+<18>Io e te<3:0f> <3:03>siamo<3:0f> <3:03>una cosa sola.<12:040c><17:7800>
+@@ 17
+<19:0100>Valkyrie
+<3:04>「<18>Li sento.<12:050c><17:7800>
+@@ 18
+<19:0000>Loki
+<3:03>「<18>Cosa?<12:060c><17:7800>
+@@ 19
+<19:0100>Valkyrie
+<3:03>「<18>Le voci di <3:05>tutte<3:0c> <3:03>le anime
+<3:04>viventi<3:0a> <3:04>di<3:05> Midgard.<17:7800>
+@@ 21
+<19:0100>Valkyrie
+<3:05>「<18>E le sento<12:080c><3:3c>.<18><3:1e>
+<3:04>Io<3:0f> <3:05>sento <3:04>tutto<3:05> il loro dolore! <12:090c><17:7800>
+@@ 22
+<19:0000>Loki
+<3:03>「<18>Cosa?<3:46>
+<3:03>Che potere è questo!<17:7800>
+@@ 23
+<19:0100>Valkyrie
+<3:03>「<18>Questo<3:0f> <3:05>potere<3:0c>・・・<12:120c><3:3c>
+<3:03><18>Viene da tutti voi.<17:7800>

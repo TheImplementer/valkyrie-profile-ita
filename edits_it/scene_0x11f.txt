@@ -1,0 +1,126 @@
+# Valkyrie Profile scene 0x11f (-): 40 records, directory word 3897, package sectors 187142..187318 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Lezard
+「È passato del tempo<3:1e>,<3:ff>
+cara insegnante.
+@@ 15
+<19:ffff>Lorenta
+「Sei stato l'allievo più
+brillante che io abbia mai avuto.
+@@ 16
+<19:ffff>Lorenta
+「Allora perché, cosa può mai
+spingerti a fare una cosa simile?!
+Sei arrivato a rapire
+mio marito! Perché? Per una
+specie di... vendetta?!
+Se è questo il motivo, allora...
+ti prego! Lascia andare mio marito!
+Lui non c'entra niente con tutto questo!!
+@@ 17
+<19:ffff>Lezard
+「Vendetta?
+@@ 18
+<19:ffff>Lezard
+「Credete che io nutra tanto
+rancore verso di voi perché mi avete
+espulso dall'Accademia?
+@@ 19
+<19:ffff>Lorenta
+「Se non è per questo<3:3c>,<3:ff>
+allora perché?!
+@@ 20
+<19:ffff>Lezard
+「Avevo pensato a una coppia più giovane,
+ma forse non avrebbe ancora conosciuto il
+vero amore. In ogni caso, le coppie
+anziane come voi non hanno futuro.<page>
+Voi due avete alle spalle
+una vita intera d'amore, non è così?<page>
+E ancora adesso<3:0c>...<3:ff>
+@@ 21
+<19:ffff>Lorenta
+「Che<3:0c>...<3:ff> che cosa stai
+cercando di dire?!
+@@ 22
+<19:ffff>Lezard
+「Anch'io bramo l'amore<3:28>.<3:ff>
+E dunque<3:0c>...<3:ff>
+@@ 23
+<19:ffff>Lezard
+「Voi morirete!!
+@@ 24
+<19:ffff>Lorenta
+「Lezaaaaaaard!!
+Ripensaci!!
+@@ 25
+<19:ffff>Lorenta
+「Quello era...
+un incantesimo di teletrasporto<3:0c>...<3:ff>!!
+Con tanto potere a sua
+disposizione, come ha fatto
+quel ragazzo a perdere la retta via...?
+Lezard<3:1e>,<3:ff> Lezard<3:0c>..<3:3c>.<3:ff>Lezard!!
+@@ 26
+<19:ffff>Lorenta
+「Caro?
+@@ 27
+<19:ffff>Marito di Lorenta
+「Lorenta...?
+@@ 28
+<19:ffff>Lorenta
+「Sì, sono io, caro.
+Andrà tutto bene.
+@@ 29
+<19:ffff>Marito di Lorenta
+「Lorenta, io... io... c'è
+qualcosa che non va. Quell'uomo mi ha
+dato una specie di pozione<3:0c>...<3:ff>
+mi sembra quasi di essere
+nel corpo di qualcun altro...
+GAAAAH!!
+@@ 30
+<19:ffff>Marito di Lorenta
+「Io... cosa mi sta
+succedendo?!
+@@ 31
+<19:ffff>Marito di Lorenta
+「Sto<7:0b>-<7:01>
+@@ 32
+<19:ffff>Lorenta
+「Dei, perdonatemi<3:0c>...<3:3c> <3:ff>
+Non c'è nulla
+che io possa fare per te...
+Per quanto i miei allievi mi
+credano potente, non posso
+aiutarti<3:0c>...<3:ff>
+@@ 33
+<19:ffff>Lorenta
+「Perdonami<3:0c>...<3:ff>
+@@ 34
+<19:ffff>Marito di Lorenta
+「Lo<3:0c>...<3:ff> Lorenta<3:14>...<3:ff>
+uccidimi, ti prego...
+Non... non riesco
+a sopportare<3:0c>...<3:ff>
+@@ 35
+<19:ffff>Lorenta
+「Sai che non posso farlo!<page>
+Sei la persona più importante
+per me al mondo, e niente
+potrà cambiarlo<7:0b>-<7:01>
+@@ 36
+<19:0000>Lorenta
+「<3:08>Perché<3:0c>...<3:ff> perché doveva
+finire così<3:0c>...<3:ff>
+Aaah<3:0c>...<3:ff>
+Torna da me<3:0c>...<3:ff>
+@@ 37
+<19:0000>Lorenta
+「<3:08>Ti amo, mio<3:0c>...
+<3:0a>caro<7:0b>-<7:01>
+@@ 38
+<5>Al piano inferiore
+@@ 39
+<5>Al muro esterno

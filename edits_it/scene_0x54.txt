@@ -1,0 +1,141 @@
+# Valkyrie Profile scene 0x54 (-): 43 records, directory word 3694, package sectors 164197..164325 of VALKYRIE.BIN
+
+@@ 14
+Mystina
+「Bene, comincio io<3:1e>...<3:ff>
+Quello che voglio sono informazioni
+su Bifrost.
+@@ 15
+<19:0100>Lezard
+「Bifrost, il ponte
+arcobaleno?
+@@ 16
+<19:0000>Mystina
+「Esatto<3:28>.<3:ff> L'unico collegamento tra
+Asgard e Midgard.
+Vorrei salire in cima a Yggdrasil,
+dove si dice che Odino sia rimasto
+appeso per ricevere la sua saggezza...
+@@ 17
+<19:0100>Lezard
+「L'unica cosa che può
+soddisfare i tuoi desideri
+è la conoscenza<3:1e>,<3:ff> eh?
+Non mi sorprende, Mysty.
+@@ 18
+<19:0000>Mystina
+「Che c'è, vorresti dire
+di essere diverso?
+Almeno io non ho il...
+il... complesso di Lolita!
+@@ 19
+Mystina
+「<18><3:04>La realtà è così noiosa<3:23>.<3:04> Sceglierei
+di dormire per sempre<3:0f>,<3:03> se così
+non smettessi mai di sognare...<17:7800>
+@@ 20
+<19:0000>Mystina
+「Non preoccuparti, dorme
+soltanto.
+Chissà cosa sta
+sognando...?
+@@ 22
+<19:0100>Mystina
+「Certo che è carina.
+Se crescesse,
+sarebbe una bellezza.
+@@ 23
+<19:0100>Lezard
+「Si dice che il ponte arcobaleno
+sia nella foresta dell'Albero del Mondo.
+@@ 24
+<19:0000>Mystina
+「Dove vivono gli elfi?!
+@@ 25
+<19:0100>Lezard
+「<18><3:04>Ora viene la parte
+<3:05>interessante<3:0c>...<12:f30a><17:3c00>
+@@ 26
+<19:0100>Lezard
+「<18><3:04>Gli dei usano i recipienti che
+chiamiamo elfi per attraversare Midgard<3:0a>,<3:03>
+e proteggere<3:08> l'Albero<3:05> del Mondo.<12:f40a><17:3c00>
+@@ 27
+<19:0000>Mystina
+「<18><3:03>Ti stai ripetendo,
+Lezard.<12:f50a><17:3c00>
+@@ 28
+<19:0100>Lezard
+<18>「<3:03><3:08>Ehm.<3:0a><3:03> Ascolta bene<3:08>,<3:02> Mysty<3:16>.<3:03> È possibile
+trasferire anime umane negli elfi<3:32>!<3:03> Ecco<3:0f>,<3:04>
+la prova decisiva che <3:03>dei e anime
+umane<3:04> sono esseri più o meno equivalenti.<12:f60a><17:3c00>
+@@ 29
+<19:0000>Mystina
+「<18><3:03>Quindi parli di spostare
+<3:04>anime da un corpo a un altro?<12:f70a><17:5000>
+@@ 30
+<19:0100>Lezard
+「<18><3:03>Sai di cosa sono
+fatti i miei <3:04>omuncoli?<12:f80a><17:3c00>
+@@ 31
+<19:0000>Mystina
+「<18><3:03>Metà elfi<3:06>,<3:03> metà umani.<12:f90a><17:3c00>
+@@ 32
+<19:0100>Lezard
+「<18><3:04>Esatto<3:1c>.<3:03> I miei omuncoli sono
+<3:04>in sostanza dei mezzelfi.<12:fa0a><17:3c00>
+@@ 33
+<19:0100>Lezard
+「<18><3:03>Se trasferissi<3:04> la mia anima
+nel corpo di un <3:04>omuncolo<3:08>...<3:04>
+non potrei diventare un<3:05> dio?<17:5a00>
+@@ 34
+<19:0100>Lezard
+「Bene... è tutto<3:1e>.<3:ff>
+In ogni caso, sarebbe inutile
+spostare ora l'omuncolo...
+Non ho più un posto
+dove tenerlo.
+@@ 35
+<19:0100>Lezard
+「Tornerò a farti visita
+un altro giorno.
+@@ 36
+<19:ffff>Lezard
+「Mysty, avrai il sonno
+che tanto desideri.
+Sogna i tuoi sogni in un luogo
+diverso da questo piano,
+è tutto ciò che mi importa...
+Non ti soddisfa?
+@@ 37
+<19:ffff>Lezard
+「<18><3:04>Odino<3:14> <3:04>un tempo era un dio piuttosto
+debole<3:06> <3:05>davvero.<12:0c0c><17:7800>
+@@ 38
+<19:ffff>Lezard
+「<18><3:04>In altre parole<3:0f>,<3:04> gli dei non crescono,
+ma restano statici.
+<3:06>Tuttavia<7:0b>-<7:01><12:0d0c><17:7800>
+@@ 39
+<19:ffff>Mystina
+「<18><3:03>Odino era diverso<3:23>,<3:03>
+perché è<3:04> un mezzelfo.<17:7800>
+@@ 40
+<18><3:03>Esatto<3:0f>.
+<3:04>Poiché il sangue divino
+di Odino <3:03>si è mescolato a quello
+mortale<3:10>,<3:03> può crescere<3:18>,<3:04>
+proprio come noi <3:05>umani.<12:0e0c><17:b400>
+@@ 41
+<19:ffff>Lezard
+「<18><3:03>Sai di cosa sono
+fatti i miei <3:04>omuncoli?<12:0f0c><17:7800>
+@@ 42
+<19:ffff>Lezard
+「<18><3:04>Esatto<3:1c>.<3:03> I miei omuncoli sono
+<3:04>in sostanza dei mezzelfi.<17:8c00><page>
+<18><3:03>Se trasferissi<3:04> la mia anima
+nel corpo di un <3:03>omuncolo<3:06>...<3:04>
+non potrei diventare un<3:05> dio?<17:7800>

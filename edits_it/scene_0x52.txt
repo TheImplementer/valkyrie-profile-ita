@@ -1,0 +1,84 @@
+# Valkyrie Profile scene 0x52 (-): 33 records, directory word 3692, package sectors 164057..164105 of VALKYRIE.BIN
+
+@@ 14
+<19:0000>Mystina
+「Lezard<3:1e>...<3:ff> da quando
+sei diventato un sudicio
+guardone?
+@@ 15
+<19:0100>Lezard
+「Scusa tanto<3:1e>.<3:ff>
+Io NON sono affatto
+un guardone.
+@@ 16
+<19:0000>Mystina
+「Da quanto tempo<3:1e>.<3:ff>
+Ti va un drink?
+@@ 17
+<19:0000>Mystina
+「Comunque, come hai fatto
+a diventare così potente?
+@@ 18
+<19:0100>Lezard
+「Una domanda di magia, subito?
+Non sei cambiata affatto.
+@@ 19
+<19:0000>Mystina
+「Lezard<3:0c>, <3:ff>tu...
+l'hai fatta fuori, vero?
+@@ 20
+<19:0100>Lezard
+「Prego?
+@@ 21
+<19:0100>Lezard
+「Va bene<3:1e>,<3:ff> va bene.
+Te lo dirò.
+@@ 22
+<19:0000>Mystina
+「Sei tu quello che
+non è cambiato!
+Lascia stare.
+Vieni al punto.
+@@ 23
+<19:0100>Lezard
+「La Pietra Filosofale<3:1e>.<3:ff>
+L'ho trovata.
+@@ 24
+<19:0000>Mystina
+「COSA?!
+@@ 25
+<19:0100>Lezard
+「Beh, in senso figurato, sì.
+Una descrizione più adatta della Pietra
+sarebbe 'il codice di dieci miliardi di pagine<3:0c>...<3:ff><page>
+Non è che ottenendola tutto il sapere
+del mondo diventi tuo
+all'improvviso... va letta.
+@@ 27
+<19:0100>Lezard
+「A proposito<3:0c>...<3:ff>
+Avrei un favore da chiederti.
+@@ 28
+<19:0000>Mystina
+「Un favore?
+@@ 29
+<19:0100>Lezard
+「Mysty<3:28>,<3:ff> hai preso tu il mio omuncolo,
+vero? Lo rivorrei indietro<3:28>,<3:ff> se
+non ti dispiace troppo.
+Oh<3:1e>,<3:ff> e non voglio dare l'impressione
+di pretenderlo e basta.
+Potrei essere disposto a ricompensarti
+con qualcosa...
+@@ 30
+<19:0000>Mystina
+「Non sapevo che avessi
+feticismi così scandalosi, Lezard.
+@@ 31
+<19:0100>Lezard
+「Ti prego, chiedimi quello
+che vuoi<3:1e>.<3:ff> Per me è una
+cosa molto importante.
+@@ 32
+<19:0000>Mystina
+「Oh<3:28>,<3:ff> e va bene.

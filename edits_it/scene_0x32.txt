@@ -1,0 +1,108 @@
+# Valkyrie Profile scene 0x32 (-): 37 records, directory word 3660, package sectors 160925..160994 of VALKYRIE.BIN
+
+@@ 14
+<19:0000>Aelia
+<18><3:03>「Perdonatemi, amici miei<3:28>.<3:04>
+Non<3:0a> <3:03>ce la faccio<3:0c>・・・<3:ff><17:7800>
+@@ 15
+<19:0000>Aelia
+「<3:0c>・・・<3:ff>Che noia.<page>
+Non mi importa
+quante volte me lo chiedi,
+non ti risponderò.
+@@ 16
+<19:0000>Aelia
+「<3:0c>・・・<3:ff> <3:ff>Chi sei?
+@@ 17
+<19:0100>Valkyrie
+「Sono Colei che sceglie i Caduti,
+una Valchiria.
+@@ 18
+<19:0000>Aelia
+「<3:0c>・・・<3:ff>Hmmm<3:28>.<3:ff>
+E adesso arriva la Dea della Morte.
+Lasciami in pace<3:3c>!<3:ff>
+Peccato,
+ma non ho intenzione di morire!
+@@ 19
+<19:0100>Valkyrie
+「Non sembri la stessa donna
+che poco fa moriva senza forze.
+Ma se lo desideri<3:0c>・・・<3:ff>
+@@ 20
+<19:0100>Soldato
+「Nemmeno l'incantesimo di sottomissione
+del signor Gandar ha effetto.
+@@ 21
+<19:0100>Gandar
+「Si dice che chi ha
+sangue di drago sia forte
+contro la magia.
+Ma resistere fino a questo punto<3:0c>・・・<3:ff>
+@@ 22
+<19:0000>Aelia
+「La Gemma del Drago<3:0c>・・・<3:ff>
+È solo folklore!
+@@ 23
+<19:0100>Gandar
+「Non sei d'accordo con me?
+Hai già scoperto qualcosa da sola?<page>
+Il vero piacere sta nella ricerca,
+non nella scoperta, vero?
+Non sei d'accordo?
+@@ 24
+<19:0000>Aelia
+「<3:0c>・・・<3:05>
+<18>Non<3:14> <3:04>posso<3:0c> <3:04>ancora morire<3:0c>・・・<3:ff><17:7800>
+@@ 25
+<19:0000>Aelia
+<3:03>「<18>Dopo aver finalmente<3:02> scoperto
+dove<3:03> si trovava<3:0c>・・・<3:ff><17:7800>
+@@ 26
+<19:0000>Soldato
+「Rifiuta di mangiare<3:32>.<3:ff>
+È quasi al limite.
+@@ 27
+<19:0100>Gandar
+「Sei pronta a parlare?
+@@ 28
+<19:0000>Aelia
+「<3:0c>・・・<3:ff>Viscida feccia!
+@@ 29
+<19:0100>Gandar
+「Se ne vuoi ancora,
+ne ho in abbondanza!
+@@ 30
+<19:0000>Aelia
+「<18><3:03>Ti sei presa<3:03> tanto <3:02>disturbo<3:03> per me, ma<3:0c>...<3:0a>
+<3:03>Perché agli dei servono anime umane
+che combattano per loro?<12:430a><17:7800>
+@@ 31
+<19:0000>Aelia
+<3:03>「<18>Perché non <3:02>lo fanno da soli<3:1e>?<3:03>
+Siete <3:04>dei<3:02>, no?<12:440a><17:7800>
+@@ 32
+<19:0100>Valkyrie
+<3:03>「<18>Sebbene il tuo corpo sia legato,
+<3:04>nessun vincolo fisico<3:03> può incatenare il tuo<3:02> spirito.<12:450a><17:7800>
+@@ 33
+<19:0100>Valkyrie
+<3:03>「<18>È questa qualità<3:0f> <3:02>che noi<3:03>
+riconosciamo in te.<12:460a><17:7800>
+@@ 34
+<19:0000>Aelia
+<3:03>「<18>Capisco<3:46>.<3:04>
+Quindi tu<3:0f> <3:06>ammiri<3:04> gli umani.<12:470a><17:7800><page>
+<3:02><18>Non hai risposto alla mia domanda<3:32>,<3:03>
+ma sono certa che manterrai la promessa.<12:480a><17:7800>
+@@ 35
+<19:0100>Valkyrie
+<3:03>「<18>Vuoi <3:02>dare<3:03>
+ai tuoi amici <3:02>delle informazioni<3:28>?<3:03>
+È una richiesta semplice.<17:7800>
+@@ 36
+Valkyrie
+<3:03>「<18>Quest'uomo <3:04>chiamato Gandar<3:0c>・・・<3:0f>
+<3:04>Disonora <3:03>il nome degli dei,
+<3:04>perpetuando<3:03> idee<3:04> malvagie<3:0c>・・・<3:14>
+<3:03>Lo ricorderò.<17:7800>

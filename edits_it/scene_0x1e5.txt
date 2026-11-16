@@ -1,0 +1,121 @@
+# Valkyrie Profile scene 0x1e5 (-): 45 records, directory word 4095, package sectors 210380..210475 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Orco
+「Sembra che non ti servano più quegli occhi.
+@@ 15
+<19:ffff>Samurai
+「No!<3:32> <3:ff>NOOO!!!
+@@ 16
+<19:ffff>Orco
+「E cosa proietterà la tua anima
+su questa buia caverna?
+@@ 17
+<19:ffff>Valkyrie
+「L'anima?
+@@ 18
+<19:ffff>Valkyrie
+「Io non possiedo una cosa simile.
+@@ 19
+<19:ffff>Orco
+「Cosa preferirebbe tua sorella:
+che tu muoia perché lei possa vivere,
+o che tu sopravviva per starle accanto
+quando morirà?
+@@ 20
+<19:ffff>Jun
+「Non morirò oggi!<3:32>!<3:ff>
+Né mi porterai via mia sorella!!
+@@ 21
+<19:ffff>Orco
+「In questo mondo non si ottiene
+nulla in cambio di niente.
+Se è la vita che cerchi<3:28>,<3:ff>
+la vita è il prezzo da pagare.
+@@ 23
+<19:ffff>Orco
+「Ti offro la Pietra dell'Anima,
+in cambio della tua vita.
+@@ 24
+<19:ffff>Jun
+「Credevo di essere stato chiaro:
+non morirò oggi.
+Non ho mai avuto intenzione
+di accettare il tuo patto.
+@@ 25
+<19:ffff>Orco
+「Cosa!?
+@@ 26
+<19:ffff>Jun
+「Allora la prenderò con la forza!
+@@ 27
+<19:ffff>Orco
+「<3:0c>・・・
+@@ 28
+<19:ffff>Jun
+「Folle è il demone
+che cerca di trattare con gli uomini.
+@@ 29
+<19:ffff>Orco
+「<3:ff>Ha<3:04> Ha<3:ff> Ha<3:ff> Ha<3:04> Ha<3:14>!<3:03>
+È perché<3:28>
+<3:04>metti il sangue prima di tutto
+che non ti stanchi mai
+di vederlo?
+@@ 30
+<19:ffff>Orco
+「<3:0c>・・・<3:04>È tipico di un'anima umana.
+<3:03>E ora è l'anima di un demone.
+@@ 31
+<19:ffff>Orco
+「Io e te siamo una cosa sola!!
+@@ 32
+<19:ffff>Orco
+「<3:04>E io continuerò a vivere.
+Il mio corpo era solo un recipiente.
+@@ 33
+<19:ffff>Jun
+「Ugh<3:0c>・・・<3:ff>Dov'è・・・
+l'Orco<3:0c>・・・?
+@@ 34
+<19:ffff>Valkyrie
+「Qui non ci sono demoni<3:28>.<3:ff>
+Stavi solo affrontando
+la tua stessa anima.
+@@ 35
+<19:ffff>Jun
+「L'Orco era la mia stessa anima?
+@@ 36
+<19:ffff>Valkyrie
+「La verità spesso inganna gli uomini<3:32>.<3:ff>
+Questa caverna è uno specchio oscuro,
+dove si deve affrontare la propria anima.
+Capisco come ti senti, umano<3:3c>.<3:ff>
+Ma devi capire cosa ha fatto
+la tua anima distorta.
+@@ 37
+<19:ffff>Valkyrie
+「Essendo gemelli, la tua vita e quella
+di tua sorella sono legate per sempre.
+Non potete fare a meno di influenzare
+l'esistenza l'uno dell'altra.
+@@ 38
+<19:ffff>Valkyrie
+「Dunque sono gli occhi di tua sorella
+a essersi offuscati<3:0c>...
+@@ 39
+<19:ffff>Valkyrie
+「O è la tua stessa anima?
+@@ 40
+<19:ffff>Jun
+「La mia<3:32> <3:ff>anima...?
+@@ 41
+<19:ffff>Jun
+「Sono stato io<3:0c>...<3:28>
+<3:ff>a farle questo?
+@@ 42
+<5>Hai trovato Long Sword.
+@@ 43
+<5>Hai trovato Vegetable Seed.
+@@ 44
+<5>Hai trovato Quartz Gem.

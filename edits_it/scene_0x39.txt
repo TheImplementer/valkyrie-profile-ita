@@ -1,0 +1,49 @@
+# Valkyrie Profile scene 0x39 (Inn | Residence | Seashore | Hai-Lan): 27 records, directory word 3667, package sectors 161336..161575 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Shiho
+「Perdonatemi<3:28>.<3:ff>
+Il mio potere non è bastato.
+@@ 15
+<19:ffff>Moglie
+「"Non è bastato", dici<3:32>?<3:ff>
+<3:0c><3:ff>Quanti uomini sono morti, impazziti
+per il tuo canto?
+Staremmo meglio senza di te<3:14>!<3:ff>
+Non lo capisci!?
+@@ 16
+<19:ffff>Moglie
+「Piccola strega!
+@@ 17
+<19:ffff>Esploratore
+「Un Orco?
+@@ 18
+<19:ffff>Viaggiatore
+「Sì, vicino a Hai-Lan è stato visto un demone Orco.
+@@ 19
+<19:ffff>Samurai
+「Allora lo ucciderò io, questo Orco!
+@@ 20
+<19:ffff>Fuyuki
+「Accidenti, com'è veloce!
+Sta andando verso la riva<3:28>?<3:ff>
+Non penserà<3:14>...<3:ff>
+di uccidersi!?
+@@ 21
+<19:ffff>Fuyuki
+「Quel rumore<3:14>...<3:ff>
+È l'Oouzu!
+@@ 22
+<5>Locanda
+@@ 23
+<5>Residenza
+@@ 24
+<5>Spiaggia
+@@ 25
+<19:ffff>Donna
+「Strano<3:0c>...<3:ff> Un viaggiatore d'oltremare<3:1e>!<3:ff>
+Hai-Lan è diventata un posto tranquillo.
+Voglio dire, rispetto ai tempi
+delle guerre con le sirene.
+@@ 26
+<5>Hai-Lan

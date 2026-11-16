@@ -1,0 +1,37 @@
+# Valkyrie Profile scene 0x37 (Thieves' Guild): 22 records, directory word 3665, package sectors 161195..161240 of VALKYRIE.BIN
+
+@@ 14
+<5>Uscita
+@@ 15
+<19:0000>Celia
+<3:03>「<18>Vedi<3:1e>?<3:03>
+Non sei l'unica a essere triste!!<12:f909><17:3c00><page>
+<18>Ma devi essere forte<3:32>!<3:03>
+Kashell non farà che soffrire<3:0a>,<3:03>
+se piangi<3:0c>・・・<17:7800>
+@@ 16
+<19:0000>Badrach
+「Mi serve un lavoro
+che paghi in fretta.
+@@ 17
+<19:0100>Agente
+「Sai dove ti trovi,
+vero?
+@@ 18
+<19:0000>Badrach
+「Sì<3:14>,<3:ff> lo so, lo so<3:28>.<3:ff>
+Vuoi la tua percentuale, giusto?<page>
+Questo è il territorio
+della famosissima
+Gilda dei Ladri di Villnore.<page>
+Nessuno osa sfidarci!
+@@ 19
+<19:0100>Agente
+「Torna domani<3:28>.<3:ff>
+Ne riparleremo.
+@@ 20
+<19:0000>Badrach
+「Sì, certo<3:1e>.<3:ff>
+Ci vediamo domani.
+@@ 21
+<5>Gilda dei Ladri

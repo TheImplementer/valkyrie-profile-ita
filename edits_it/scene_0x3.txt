@@ -11,3 +11,8 @@
 <19:ffff>Platina
 「<18><3:03>Non voglio che la mamma
 mi sgridi di nuovo<3:0c>...<3:ff><17:7800>
+@@ 16
+<19:ffff>Anziano
+「Qui sono rimasti solo i vecchi.
+I bambini sono stati tutti venduti,
+e con loro, il futuro del paese・・・<3:0c>

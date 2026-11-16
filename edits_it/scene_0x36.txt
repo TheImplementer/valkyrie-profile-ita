@@ -1,0 +1,188 @@
+# Valkyrie Profile scene 0x36 (-): 58 records, directory word 3664, package sectors 161133..161194 of VALKYRIE.BIN
+
+@@ 14
+<19:0000>Badrach
+「Se deve finire così,
+tanto meglio.<3:28>
+<3:ff>Me ne vado da qui<3:0c>・・・<3:ff>
+@@ 15
+<19:0000>Badrach
+「Non voglio morire<3:28>,<3:ff>
+non<3:28> <3:ff>voglio morire<3:0c>・・・<3:ff>
+@@ 16
+<19:0000>Badrach
+「Fa male<3:0c>・・<3:28>・<3:ff>
+Qualcuno<3:28>,<3:ff> aiutatemi<3:0c>・・・<3:ff>
+@@ 17
+<19:0000>Badrach
+「Si fa buio<3:0c>・・・<3:28>
+<3:ff>Dannazione<3:0c>・・・<3:ff><page>
+In tutta la mia vita<3:1e>,<3:ff>
+non mi è mai successo
+niente di buono<3:0c>・・・<3:ff>
+@@ 18
+<5><3:00>Non voglio morire.<17:9600>
+@@ 19
+<5><3:00>Fa male・・・<17:9600>
+@@ 20
+<5><3:00>Aiuto <7:0b>-<7:01><17:9600>
+@@ 21
+<5>Chi è<3:32>?<3:ff> Chi mi chiama?<17:9600>
+@@ 22
+<5><3:0c>・・・<3:ff>Cosa?<17:9600>
+@@ 23
+<19:0100>Badrach
+「Sono<3:0c>...<3:ff>Sono vivo?
+@@ 24
+<19:0100>Badrach
+「Sono<3:28> <3:ff>morto?
+@@ 25
+<19:0100>Badrach
+「Tu<3:1e>.<3:ff> Non puoi essere<3:0c>..<3:28>.<3:ff>
+Sei<3:0c>・・・<3:ff>una Valchiria?
+È tutto vero<3:28>?<3:ff><page>
+Ho ragione, vero<3:28>?<3:ff>
+Sto per diventare, come si dice,
+uno di quei guerrieri
+del Valhalla, giusto?
+@@ 26
+<19:0100>Badrach
+「Evvai!!!
+@@ 27
+<19:0000>Valkyrie
+「<3:0c>・・・<3:ff>Ti sbagli.
+@@ 28
+<19:0100>Badrach
+「Eh?
+@@ 29
+<19:0100>Badrach
+「Tu<3:0c>・・・<3:ff>
+Ma non sei una Valchiria?
+Non è compito tuo
+portare i morti
+nell'aldilà?
+@@ 30
+<19:0000>Valkyrie
+「Sì, è vero<3:0c>・・・<3:28> <3:ff>
+Tuttavia <7:0b>-<7:01>
+@@ 31
+<19:0000>Valkyrie
+「Non fraintendere<3:3c>.<3:ff>
+Prova a ricordare le cose
+che hai fatto nella tua vita.<page>
+Io giudico le anime degli uomini.
+E troverai il mio giudizio severo.
+@@ 32
+<19:0100>Badrach
+「E<3:0c>・・・<3:ff>e allora<3:1e>?<3:ff>
+Cosa<3:0c>・・・ <3:ff>cosa mi<3:0c>・・・<3:ff><page>
+Cosa mi succederà?
+Che farai di me<3:28>?<3:ff>
+Ehi!!
+@@ 33
+<19:0000>Valkyrie
+「Non è il Padre di Tutti, Odino,
+ad aver chiesto la tua anima,
+ma Hel, Dea di Nifleheim.<page>
+Vuole che tu ti contorca nel tormento
+per tutta l'eternità!!!
+@@ 34
+<19:0100>Badrach
+「A-a<3:1e>, <3:ff>aspetta!<3:32>!<3:ff>
+Un attimo!!<page>
+Dovrei<3:0c>・・・<3:ff>
+Dovrei almeno avere
+una possibilità, no?<page>
+Non voglio morire<3:1e>.<3:ff>
+Ah, sono morto<3:0c>・・・<3:ff>cioè.
+Non voglio andare a Nifleheim!!
+@@ 35
+<19:0100>Badrach
+「Insomma<3:1e>, <3:ff>
+fammi pensare.<page>
+Non è che tutto quello che ho fatto
+nella vita fosse brutto<3:0c>..<3:32>.<3:ff>
+Credo.
+@@ 36
+<19:0000>Valkyrie
+「Parla, dunque<3:0c>・・・<3:28> <3:ff>
+Non sono una Dea della Morte.
+Hai fatto una sola cosa nella vita
+che ti renda degno di redenzione?
+@@ 37
+<19:0100>Badrach
+「Ehm<3:0c>・・・<3:ff>,
+Sì, fammi pensare<3:0c>・・・<3:ff>
+Ah sì, ci sono <7:0b>-<7:01><page>
+C'era un vecchiaccio<3:0c>・・・<3:28>,<3:ff>
+cioè, un anziano<3:0c>・・・<3:ff>
+@@ 38
+<19:0000>Valkyrie
+「E cosa gli hai fatto?
+@@ 39
+<19:0100>Badrach
+「Io<3:0c>・・・<3:ff>l'ho derubato e ammazzato.
+@@ 40
+<19:0000>Valkyrie
+「Di certo è un motivo più che sufficiente
+per finire a Nifleheim.
+@@ 41
+<19:0100>Badrach
+「No, no<3:28>!<3:ff>
+Non era questo<3:0c>・・・<3:ff>
+Fammi solo pensare,<3:0c>・・・<3:ff> io<3:0c>・・・<3:ff>
+@@ 42
+<19:0100>Badrach
+「Ho aiutato in un rapimento,
+che ne dici?
+@@ 43
+<19:0100>Badrach
+「<3:0c>・・・<3:ff>Ho spiato il mio paese!
+@@ 44
+<19:0100>Badrach
+「<3:0c>・・・<3:ff>Ho rivenduto roba rubata!
+@@ 45
+<19:0100>Badrach
+「<3:0c>・・・<3:ff>Ho venduto donne come schiave!
+@@ 46
+<19:0000>Valkyrie
+「<3:0c>・・・<3:ff>Sei davvero patetico.
+@@ 47
+<19:0100>Badrach
+「No<3:1e>, <3:ff>aspetta un attimo<3:0c>・・・<3:ff>
+@@ 48
+<19:0000>Valkyrie
+「Umano<3:28>,<3:ff>
+è giunta l'ora di separarci<3:0c>・・・<3:ff>
+@@ 49
+<19:0100>Badrach
+「Aspetta<3:1e>!<3:ff>
+Un momento!
+@@ 50
+<19:0000>Valkyrie
+「<3:0c>・・・<3:ff>È una perdita di tempo.
+@@ 51
+<19:0100>Badrach
+「Uh<3:0c>・・・<3:1e> <3:ff>Ci sono<3:28>.<3:ff>
+Ci sono!!
+@@ 52
+<5>Sono uno sciocco?<17:7800>
+@@ 53
+<19:0100>Badrach
+「Non basta?
+@@ 54
+<5><3:03><18>Così<3:3c> <3:03>anche un uomo che vive nell'oscurità<3:1e>
+<3:03><5>può fiorire per un istante fugace<3:0c>...<3:ff><17:a000>
+@@ 55
+<19:0000>Valkyrie
+「Un uomo della tua età
+non dovrebbe piangere.
+@@ 56
+<19:0000>Valkyrie
+「Allora<3:28>,<3:ff>
+vieni o no?
+@@ 57
+<19:0100>Badrach
+「Eh<3:28>?<3:ff>
+Io<3:1e>,<3:ff> io vengo!
+Certo che vengo!!

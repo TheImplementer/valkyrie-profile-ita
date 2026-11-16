@@ -67,7 +67,7 @@ e cogliere un fiore?
 @@ 29
 <19:ffff>Belenus
 「<3:ff>Il destino è la via scelta per noi
-dagli dèi<7:0b>-<7:01>
+dagli dei<7:0b>-<7:01>
 @@ 30
 <5><18><3:05>Il destino<3:2b>? <3:04>È stato il destino a uccidere
 <5><3:03>mia moglie e Maria?<17:b400>

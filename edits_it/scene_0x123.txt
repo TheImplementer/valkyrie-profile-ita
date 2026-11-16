@@ -1,0 +1,54 @@
+# Valkyrie Profile scene 0x123 (-): 27 records, directory word 3901, package sectors 187689..187826 of VALKYRIE.BIN
+
+@@ 14
+<5><18><3:03>Non avete proprio <3:06>idea<3:03>
+<5><3:04>di cosa siate<3:08>, <3:05>vero?<17:7800>
+@@ 15
+<19:0000>Valkyrie
+「Dove<7:0b>-<7:01>?
+@@ 16
+<19:0000>Valkyrie
+「Quell'umano<3:0c>・・・<3:ff>cosa
+ha creato qui?!
+@@ 17
+<19:0000>Valkyrie
+「Qu<3:0c>・・・<3:00>questo è<7:0b>-<7:01>?
+@@ 18
+<3:3c><3:ff>
+Valkyrie
+「Perché<3:0c>・・・<3:ff>?<17:b400>
+@@ 20
+<19:0000>Mystina
+「Una forma di vita
+artificiale...?
+@@ 21
+<19:0000>Mystina
+「Lo è<3:1e>!<3:ff>
+È un <3:1e><3:ff>omuncolo!
+@@ 22
+<19:0000>Mystina
+「Eh<3:1e>・・・<3:ff>
+Non sapevo che gli piacessero
+le bambine<3:1e>.<3:ff>
+Altrimenti perché avrebbe fatto
+questo<3:0c>・・・<3:ff>?
+@@ 23
+<19:0000>Mystina
+「È accurato fin nei
+dettagli più sconci.
+@@ 24
+<19:0100>Mystina
+「Uh, che pervertito<3:1e>!<3:ff> Come ha potuto lasciare
+in giro 'sta roba malata dove la trovano
+le ragazze per bene come me?<3:0c>!<3:ff>
+Non sono venuta fin qui in forma di spirito
+per questo! Sono molte più informazioni
+di quante me ne servissero!
+@@ 25
+<19:0100>Mystina
+「Ma・・・ah, ci sono.
+@@ 26
+Mystina
+「<18><3:06>Beh<3:1e>,<3:03> potrebbe servire
+per fare pratica d'autopsia<3:19>,<3:04>
+almeno.<3:ff>

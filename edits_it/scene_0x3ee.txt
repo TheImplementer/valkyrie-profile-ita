@@ -1,0 +1,36 @@
+# Valkyrie Profile scene 0x3ee (-): 24 records, directory word 4616, package sectors 279709..279859 of VALKYRIE.BIN
+
+@@ 14
+<5><3:05>Effetti collaterali della fusione
+<5>di Valkyrie e dell'omuncolo bambino.<12:130c><17:7800>
+@@ 15
+<19:0000>Loki
+<3:03>「<18>Il<3:04> potere della creazione!<12:140c><3:64>?<3:03>
+<18>Non<3:0a> <3:03>può essere!!<17:7800>
+@@ 16
+<5><3:05>Sei una raccoglitrice di anime<3:1e>!<3:05>
+<5>Il tuo potere non può essere così vasto!<12:150c><17:7800>
+@@ 17
+<19:0100>Valkyrie
+<3:03>「<18>Sì,<3:46>
+<3:04>Ora<3:0a> <3:04>ho il potere totale!<12:160c><17:7800>
+@@ 18
+<5><3:03><18>Buona fortuna<3:02>, <3:03>Platina!<12:170c><17:7800>
+@@ 19
+<19:0100>Valkyrie
+<3:05>「<18>Sì!<17:7800>
+@@ 20
+<5><3:05>Mentre la mia consapevolezza è illimitata,<3:64>
+<3:05><5>non vincolata alla memoria della ragazza.<12:180c><17:7800>
+@@ 21
+<19:0000>Loki
+<3:04>「<18>Cos'è mai il potere della creazione<3:46>!<3:04>
+Mi basta schiacciarti
+e il mondo avrà <3:03>fine!<12:190c><17:7800>
+@@ 22
+<19:0100>Valkyrie
+<3:04>「<18>Impossibile!<3:1e>
+<3:04>Ora <3:03>ho il <3:04>potere <3:03>di<3:0a> <3:05>difendere tutto!<17:7800>
+@@ 23
+<5><3:05>Il suo altro lato sprigiona potere per
+<5>proteggere tutta l'esistenza.<17:7800>

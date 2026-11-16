@@ -1,0 +1,19 @@
+# Valkyrie Profile scene 0x4c (-): 18 records, directory word 3686, package sectors 163347..163432 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Samurai
+「L'esercito di Hai-Lan è persino più forte
+di quanto dicessero le voci.
+@@ 15
+<19:ffff>Samurai
+「Quella cantante ha trasformato i loro guerrieri
+in berserker senza paura!
+Finché quella cantatrice avrà fiato,
+non abbiamo speranza di vittoria.
+@@ 16
+<19:ffff>Samurai
+「Il canto... si è interrotto!?
+@@ 17
+<19:ffff>Soldato
+「Il panico si sta diffondendo tra
+le truppe nemiche!

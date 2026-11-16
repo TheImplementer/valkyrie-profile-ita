@@ -1,0 +1,34 @@
+# Valkyrie Profile scene 0x4e (-): 20 records, directory word 3688, package sectors 163562..163689 of VALKYRIE.BIN
+
+@@ 14
+<19:0100>Lorenta
+「Chissà se sarà ancora
+sveglio...<17:2c01>
+@@ 15
+<3:06>Se non posso andare in un posto
+in carne e ossa, di certo è liberatorio
+staccarsi da tutto e viaggiare
+in forma di spirito...<3:ff>
+@@ 16
+<19:0000>Mystina
+「Poter superare del tutto lo
+spazio è di sicuro il vantaggio
+di questa condizione.
+@@ 17
+<3:00>Lezard<3:ff>
+<3:32>「<3:07>Mysty, mi senti?
+Le mie ambizioni vanno oltre
+il diventare un dio, sai.<17:f000><page>
+Se riuscirò a perfezionare le magie
+che mi permetteranno di sigillare
+un essere divino in un omuncolo,
+potrò sfidare
+persino gli dei stessi.<3:ff><17:2c01>
+@@ 18
+<3:00>Lezard<3:ff>
+<3:32>「<3:07>E allo stesso tempo, farò mia
+la dea che amo. Non è forse
+quasi troppo bello per essere vero?<3:ff><17:f000>
+@@ 19
+<19:0000>Mystina
+「Lezard?!

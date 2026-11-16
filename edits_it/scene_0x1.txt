@@ -28,3 +28,98 @@ un ospite!<17:b400>
 「<18><12:1809><3:03>Non sono affari tuoi<3:19>.
 <18><3:03>Hai del lavoro da fare<3:1e>!<3:03>
 Sbrigati a prendere il secchio!<17:d200>
+@@ 20
+<19:ffff>Lucian
+「<18><3:03>Giocavamo sempre qui<3:0f>.
+<3:03>Noi due<3:0c>... <17:7800>
+@@ 21
+<19:ffff>Lucian
+「<18><3:03>La mia migliore amica<3:14>.
+<3:03>Questa era casa sua<3:0c>...<17:7800>
+@@ 22
+<19:ffff>Lucian
+「<18><3:04>Sono nato in
+<3:03>questo villaggio.<17:7800>
+@@ 24
+<19:ffff>Valkyrie
+「<3:0c>・・・<18><3:04>E questa casa?<17:5a00>
+@@ 25
+<19:ffff>Lucian
+「<18><3:03>Odiavo i suoi genitori<3:1e>.
+<3:03>Erano sempre<3:02>・・・
+<3:03>così crudeli con lei<3:0c>... <17:b400>
+@@ 27
+<19:ffff>Lucian
+「<18><3:03>Ma Platina si arrabbiava quando
+<3:03>ne parlavo male,<3:0a>
+<3:03>quindi cercavo di tacere<3:0c>... <17:b400>
+@@ 28
+<19:ffff>Valkyrie
+「<18><3:04>Si chiamava Platina?<17:5a00>
+@@ 29
+<19:ffff>Lucian
+「<18><3:04>Hmm<3:2d>?<3:03> Sì<3:0c>...<17:3c00>
+@@ 30
+<19:ffff>Lucian
+「<18><3:04>Eravamo molto legati<3:0a>.
+<3:07>Ma<3:3c><7:0b>-<7:01><17:7800>
+@@ 31
+<19:ffff>Valkyrie
+「<18><3:08>Ma?<17:3c00>
+@@ 32
+<19:ffff>Lucian
+「<18><3:04>Un giorno, <3:03>ho scoperto
+che i suoi genitori stavano per venderla<3:0a>.
+<3:03>Siamo scappati insieme.<17:b400>
+@@ 33
+<19:ffff>Lucian
+「<18><3:03>Allora ero solo uno stupido ragazzino<3:0f>.
+<3:03>Non riuscivo a pensare
+a nessun altro modo<3:0c>・・・<17:d200>
+@@ 34
+<19:ffff>Lucian
+「<18><3:03>Non avrei lasciato che le succedesse niente<3:05>.
+<3:03>A qualunque costo<3:0c>...<17:d200>
+@@ 35
+<5><18><3:03>Era un paesino schifoso<3:28>.
+<5><3:03>Al nord non ne mancano.<17:7800>
+@@ 36
+<5><18><3:03>Beh, in posti come quelli<3:19>,<3:03>
+<5>soprattutto a Villnore<3:1e>,<3:03>
+<5>a volte la gente deve vendere
+<5><3:03>le proprie figlie solo per mangiare.<17:b400>
+@@ 37
+<5><18><3:03>Comunque<3:28>,<3:04> mi hanno assunto per scortare
+<5><3:03>un gruppo di mercanti di schiavi
+<5><3:03>e c'era questa bambina
+<5>di sette anni.<17:b400>
+@@ 38
+<5><18><3:04>Una tipica mocciosa di paese<3:28>,<3:03>
+<5>come se ne vedono ovunque<3:1e>.<3:03>
+<5>Il nome non me lo ricordo<3:1e>.
+<5><3:03>Comunque<3:1e>,<3:03> per qualche motivo,
+<5>si era affezionata a me.<17:f000>
+@@ 39
+<5>Casa di Platina
+@@ 40
+<5>Casa del sindaco
+@@ 41
+<5>Casa di Lucian
+@@ 42
+<5>Sorgente d'acqua dolce
+@@ 43
+<19:ffff>Madre
+「<3:0c>・・・
+@@ 44
+<19:ffff>Bambino
+「Mamma,
+perché sei così triste?
+@@ 45
+<19:ffff>Aelia
+「Qui non c'è dove alloggiare,
+e non ho visto bei posti per accamparsi<3:1e>.<3:ff>
+Sono abituata ad arrangiarmi, ma...
+<3:0c>・・・<3:ff>Senti, viaggi anche tu<3:14>?<3:ff>
+Noi ragazze dobbiamo restare unite!
+@@ 46
+<5>Villaggio di Coriander

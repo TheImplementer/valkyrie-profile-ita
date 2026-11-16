@@ -1,0 +1,34 @@
+# Valkyrie Profile scene 0x21 (Main Street): 24 records, directory word 3643, package sectors 159302..159458 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Claire
+「Nessuno di questi sfigati
+vale nemmeno la fatica.
+@@ 15
+<19:ffff>Claire
+「Basta, lasciamo perdere.
+Me ne torno a casa.<3:ff>
+@@ 16
+<19:ffff>Claire
+「Eh<3:14>?<3:ff> Quella è<3:0c>...?
+@@ 17
+<19:ffff>Claire
+「Capelli<3:14>...<3:ff>argentati?
+@@ 18
+<5><18><3:04>È una persona completamente diversa.<17:7800>
+@@ 19
+<5><18><3:03>L'unica cosa in comune è il
+<5><3:02>colore dei capelli.<17:b400>
+@@ 20
+<5><18><3:03>Insomma, la ragazza di cui parlava<3:09>...<3:03>
+<5>  è morta<7:0b>-<7:01><17:b400>
+@@ 21
+Valkyrie
+「Ahi!
+@@ 22
+<18><3:03>Ma che sto facendo<3:05>!?
+<3:03>Non mi metterò a fare la gelosa
+per una perfetta sconosciuta<3:0c>.
+<3:03>Che patetica!<17:d200>
+@@ 23
+<5>Via maestra

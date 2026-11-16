@@ -1,0 +1,16 @@
+# Valkyrie Profile scene 0x45a (-): 17 records, directory word 4724, package sectors 290509..290546 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Lezard
+<18><3:08>「<3:04>Un tempo, in verità, Odino era
+un dio<3:06> <3:05>piuttosto debole.<12:eb0a><17:7800>
+@@ 15
+<19:ffff>Lezard
+「<18><3:04>E allora: come ha fatto
+a diventare Signore degli Dei<3:2a>?<3:03>
+Non te lo sei mai <3:04>chiesto,
+Mysty?<12:ec0a><17:7800>
+@@ 16
+<19:ffff>Mystina
+「<18><3:05>Ehm... beh<3:18>,<3:03> ora che
+me lo fai notare<3:0c>・・・<3:ff><17:7800>

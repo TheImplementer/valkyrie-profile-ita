@@ -962,7 +962,8 @@ file. `build` and the GUI both honour it, and the GUI keeps the line when it sav
 Artolia townsfolk and signposts in those scenes. Lines in the same scenes that belong to later
 storylines are left for their chapters: Badrach's slaver story (0x6E #69-73), Suo (0x6F #33-45),
 Jayle and Fahn (0x74 #25-36) and Kashell's group (0x0B #33-38). The last two were translated with
-Belenus's storyline (below), so 0x74 and 0x0B are complete.
+Belenus's storyline (below), so 0x74 and 0x0B are complete; the first two with the remaining
+storylines (below).
 
 **Box sizes.** Most lines go through literal `func_03e2` calls, which `--fit-boxes` grows; the widest
 grown portrait box is 232 px (0x70 #16), and the game's own go up to 256 (x = 0) and 266 (x = 1).
@@ -993,7 +994,7 @@ an event gated on a flag may not start this way.
 **What is translated** (2026-11-16): storyline D0 = 3 (Belenus, Asaka and Maria: the slave auction
 in Lassen and the vampire's curse on Belenus's mansion), scenes 0x75-0x7C, 87 records. The same
 scenes hold lines of later storylines, translated with them: Suo's monologue (0x79 #21-27) and the
-start of Badrach's slaver story (0x7C #19-25), which continues in 0x6E #69-73 (still English).
+start of Badrach's slaver story (0x7C #19-25), which continues in 0x6E #69-73 (translated with the remaining storylines, below).
 Wording: `docs/GLOSSARY.md`.
 
 **Box sizes.** `--fit-boxes` grew 22 boxes. Lines that would have made a box much wider than any
@@ -1028,6 +1029,48 @@ reworded to stay inside its width. All 168 records read back as written.
 **Seen in TinyPSX**, by jumping to each step (D0 = 4): the forest (D1 = 0x14, scene 0x61) and
 Valkyrie's talk with Llewelyn (0x2A, 0x60), voiced, with both pages of "La morte di una persona
 cara". No line wraps. The rest of the town was checked by read-back only.
+
+## The remaining storylines (D0 = 5 to 30)
+
+**What is translated** (2026-11-16): every storyline left in `story/event_order.txt`. They are
+Celia and Kashell (D0 = 5), Nanami (7), Fuyuki and Yumei (8), Aelia (9), Ai and the Ogre (10),
+Badrach (12), Celia and Grey (13), Lorenta and Lezard (14), Mystina and Lezard (15), Suo and Shiho
+(16), Suo and his Superior (18), Gandar (19), Claire and Dolce (21, 22) and Lucian (23). The
+Valhalla and ending storylines are done too: the Dragon Orb, the seal, Lucian's death, Surt and
+Loki's power (24-27, 29, 30). Storylines 6 and 17 were already done with Crell Monferaigne.
+
+This added 1,258 records in 75 scenes. Every scene they play in is now complete, including the town
+lines and door signs that share those scenes. Item, weapon and monster names stay in English for
+now (e.g. Dragonbane, Sylvan Bow, Cockatrice), as elsewhere. New terms and forms of address are in
+`docs/GLOSSARY.md`.
+
+**Package room.** Italian runs longer than English, and each scene's package has to fit the
+sectors it had. The build recompresses a package that grows, which was enough everywhere. The
+tightest scenes have 284 to 408 bytes left: 0x39 (Hai-Lan) 284, 0x120 312, 0x0F 316, 0x45A 336,
+0x16E 344 and 0x36 408. Longer wording in those scenes may not fit.
+
+**Box sizes.** `--fit-boxes` grew 424 boxes in these scenes. None runs off the screen, and no box
+next to an actor grew. Aelia's line in scene 0x1 #45 sits next to an actor and scrolled in English,
+so it keeps its height and scrolls the same way. All 1,964 records in `edits_it/` read back as written.
+
+![The remaining storylines in Italian](notes/edit_proof/italian_storylines.png)
+
+**Seen in TinyPSX**, by jumping to one step of each storyline group (`SCENE` + `STATE` = D1 << 8 | D0):
+
+* Kashell at the church: 0x2A, 0x1405.
+* Badrach dying: 0x36, 0x040C.
+* Nanami and Minayo: 0x1E6, 0x5007.
+* Yumei at the shore: 0x3D, 0x6408.
+* Bellion and the elf: 0x11E, 0x140E.
+* Mystina and Lezard: 0x54, 0x460F.
+* Dolce: 0x24, 0x2815.
+* Loki and Lucian at the Water Mirror: 0x1D, 0x0218.
+* Celia and Grey: 0x16E, 0x280D.
+* Aelia: 0x32, 0x0109.
+* Odin facing Loki: 0x19, 0x161D.
+
+No line wraps or leaves its box. Odin's event stops after its first line, and the English disc stops
+at the same place, so the rest of 0x19 was checked by read-back only, like the other records.
 
 ## System messages: `system.txt`
 

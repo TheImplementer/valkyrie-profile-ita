@@ -1,0 +1,114 @@
+# Valkyrie Profile scene 0x55 (-): 39 records, directory word 3695, package sectors 164326..164430 of VALKYRIE.BIN
+
+@@ 14
+<19:0100>Mystina
+「Allora<3:28>, <3:ff>qual è il piano?
+@@ 15
+<19:0000>Lezard
+「Quello, ovviamente.
+@@ 16
+<19:0100>Mystina
+「Aspetta<3:1e>! <3:ff>Sei pazzo<3:1e>!<3:ff>
+Vuoi mettere Valkyrie in quel
+minuscolo omuncolo?
+@@ 17
+<19:0000>Lezard
+「L'anima si è degradata troppo.
+Non c'è altra via.
+@@ 18
+<19:0100>Mystina
+「Lezard<3:0c>... <3:ff>Mi sembra troppo
+comodo. Sei sicuro di non farlo
+solo per i tuoi scopi?
+@@ 19
+<19:0100>Mystina
+「E<3:0c>... <3:ff>il tuo scopo<3:32>, <3:ff>non era...
+prendere un dio e un umano,
+e poi<7:0b>-<7:01>
+@@ 20
+<19:0000>Lezard
+「Non mi credi? Suvvia,
+abbiamo davvero tempo
+per litigare tra amici?
+@@ 21
+<19:0100>Arngrim & Mystina
+「MA QUALI AMICI?!
+@@ 22
+<19:0000>Lezard
+「Hmph. Comunque<3:1e>, <3:ff>quest'anima
+è molto degradata.
+I suoi ricordi, la sua personalità...
+Non posso garantire
+che cosa ne sarà.
+Anzi, l'anima è così incompleta
+che temo dovremo agire subito.
+@@ 23
+<19:0100>Mystina
+「Ma<3:0c>...<3:ff> non
+mi dire...
+@@ 24
+<19:0100>Arngrim
+「È chiaro che ha bisogno
+di cure immediate. In effetti
+ha ragione...
+@@ 25
+<19:0100>Mystina
+「<3:0c>...<3:ff>E va bene. Ho capito.
+@@ 26
+<19:0100>Mystina
+「Lezard<3:1e>!<3:ff> Se provi a
+combinare qualche stranezza,
+sei finito!
+@@ 27
+<19:0000>Lezard
+「Ma guarda<3:1e>.<3:ff> Non avrei mai pensato di
+invocare la magia perduta della
+trasfusione dell'anima in un luogo
+simile<3:0c>...<3:ff>
+@@ 28
+<19:0000>Lezard
+「Mysty<3:3c>,<3:ff> hai capito,
+vero?
+Questo incantesimo può
+separare il corpo
+dall'anima in ogni momento...
+@@ 29
+<19:0100>Mystina
+「<3:0c>...<3:ff>Sì, ho capito. E non
+credere che sia la tua
+serva o roba del genere...
+@@ 30
+<19:0000>Lezard
+「Allora cominciamo.
+@@ 31
+<19:0000>Lezard
+「<18><3:03>Corpo<3:0f>,<3:03> mente<3:2a>,<3:03> anima:
+tutto viene <3:05>strappato <3:04>via.<17:7800>
+@@ 32
+<19:0000>Lezard
+「<18><3:03>Se per questo scopo dovrò
+essere disprezzato,<3:28> <3:04>col corpo bruciato e
+annerito,<3:14> <3:03>e<3:14> <3:03>così<3:14> <3:03>sia.<17:7800>
+@@ 33
+<19:0000>Lezard
+「<18><3:04>Se per questo scopo devo evocare
+magie proibite,<3:14> <3:03>e<3:14> <3:03>così<3:0a> <3:03>sia!!<17:7800>
+@@ 34
+<19:0000>Lezard
+「<18><3:03>Benché il mio corpo sia macchiato<3:1e>,<3:03>
+benché la mia anima sia macchiata<3:32>,<3:03>
+io <3:0a>ti infondo<3:03> il pensiero.<17:b400>
+@@ 35
+<19:0000>Lezard
+「<18><3:04>Giuro come giurano <3:05>gli dei<3:2e>,<3:04>
+e soffio la vita nel vuoto!<17:7800>
+@@ 36
+<19:0100>Mystina
+「<3:0c>・・・<3:ff>Non possiamo farci niente.
+Mi fa proprio arrabbiare.
+@@ 37
+<19:0100>Mystina
+「Ecco qua.
+Questo mi serve.
+@@ 38
+<5><3:00>Ottieni Infinity Rod.

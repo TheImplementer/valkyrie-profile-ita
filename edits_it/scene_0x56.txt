@@ -1,0 +1,40 @@
+# Valkyrie Profile scene 0x56 (-): 23 records, directory word 3696, package sectors 164431..164514 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Lezard
+「La vostra esistenza era un po'
+una minaccia per me,
+devo ammetterlo.
+@@ 15
+<19:ffff>Valkyrie
+「<18><3:03>Ti va di
+viaggiare con noi?<12:fc0a><17:5000>
+@@ 16
+<19:ffff>Mystina
+「<18><3:05>Ah ah ah ah ah<3:28>.<3:05>
+Io<3:1e>?<3:03> Con voi?<12:fd0a><17:3200>
+@@ 17
+<19:ffff>Valkyrie
+「<18><3:03>Sì<3:32>.<3:03> Inoltre, se verrai con noi<3:1e>,<3:03>
+potrai forse
+studiare<3:05> Bifrost e Yggdrasil<3:ff>.<12:fe0a><17:5000>
+@@ 18
+<19:ffff>Mystina
+「<18><3:08>Hmph<3:1e>. <3:04>E va bene<3:1e>,<3:03>
+vengo con voi.<12:ff0a><17:5000>
+@@ 19
+<19:ffff>Mystina
+「<18><3:03>Del resto non è che abbia
+molte altre scelte, no?<12:010b><17:5000>
+@@ 20
+<19:ffff>Valkyrie
+「<18><3:03>Proprio così.<12:000b><17:5000>
+@@ 21
+<19:ffff>Mystina
+「<18><3:03>E non c'è bisogno
+di tentarmi con stupide
+promesse<3:0c>,<3:03> comunque.<17:3c00>
+@@ 22
+Mystina
+「<18><3:06>Inoltre,<3:04> potrebbe essere divertente
+perseguitare quel piccolo mostro...<17:5000>

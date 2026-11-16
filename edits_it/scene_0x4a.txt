@@ -1,0 +1,59 @@
+# Valkyrie Profile scene 0x4a (-): 30 records, directory word 3684, package sectors 163209..163313 of VALKYRIE.BIN
+
+@@ 14
+<3:00><18><5>La morte di un eroe
+<5>è il massimo onore che un uomo possa ottenere.<17:0f27>
+@@ 15
+<3:00><18>Shiho, sei la nostra ispirazione.<17:0f27>
+@@ 16
+<3:00><18><5>Il tuo canto rende gli uomini guerrieri
+<5>che non temono la morte.<17:0f27>
+@@ 17
+<3:00><18><5>E porta grande onore alla nostra nazione.<17:0f27>
+@@ 18
+<5><3:00><18>Quindi ti prego, non lasciare che le parole
+<5>di quella donna sciocca ti turbino.<17:0f27>
+@@ 19
+<19:ffff>Shiho
+「Ascoltate!<3:14>!<3:ff>
+Il melodioso pulsare dei
+sacri ritmi della vita!
+@@ 20
+<19:ffff>Guerriero
+「Non ti ho detto di smettere di cantare?!
+Canta!!
+@@ 21
+<19:ffff>Guerriero
+「Ho detto di cantare!!<3:1e> <3:ff>
+Canta, donna!!
+@@ 22
+<19:ffff>Suo
+「Non capisco<3:32>,<3:ff>
+perché hai smesso di cantare?
+@@ 23
+<19:ffff>Shiho
+「<3:0c>・・・<3:ff>Rosso<3:0c>・・・<3:ff>
+Che aspetto ha il rosso?
+@@ 24
+<19:ffff>Suo
+「Allora non vedi?
+@@ 25
+<19:ffff>Shiho
+「Fin dalla nascita,
+sono destinata alla vita di
+fanciulla del canto.
+Gli dei, però,
+non mi hanno donato la luce. <page>
+Forse si sono stancati
+di donarla.
+Eppure, è così terribile
+desiderarla?
+@@ 26
+<19:ffff>Suo
+「Se rinunciassi al canto,
+cosa desidereresti?
+@@ 27
+<19:ffff>Shiho
+「La morte.
+@@ 29
+<5><3:03>Cosa sono<3:28> <3:03>diventato?<17:b400>

@@ -1,0 +1,17 @@
+# Valkyrie Profile scene 0x45c (-): 17 records, directory word 4726, package sectors 290588..290667 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Mystina
+「<18><3:03>Odino era diverso<3:1e>,<3:03>
+perché è<3:04> un mezzelfo.<12:f00a><17:7800>
+@@ 15
+<19:ffff>Lezard
+「<18><3:03>Esatto<3:1e>.<3:04> Poiché il sangue divino
+di Odino si è mescolato a quello
+mortale<3:10>,<3:03> può crescere<3:18>,<3:04>
+proprio come noi <3:05>umani.<12:f10a><17:7800>
+@@ 16
+<19:ffff>Lezard
+「<18><3:04>Unendo i tratti migliori
+di tutti gli esseri<3:14>,<3:04> Odino riuscì infine
+a conquistare il trono.<17:7800>

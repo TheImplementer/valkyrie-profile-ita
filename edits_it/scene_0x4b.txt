@@ -1,0 +1,15 @@
+# Valkyrie Profile scene 0x4b (-): 17 records, directory word 3685, package sectors 163314..163346 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Valkyrie
+「<18><3:04>Perché la ama,
+<3:03>desidera la sua morte?<17:b400>
+@@ 15
+<19:ffff>Valkyrie
+「<18><3:05>Il suo desiderio sarà <3:04>esaudito<3:5a>.<3:ff>
+<18><3:03>Non so se questa ragazza
+si dimostrerà degna del <3:04>Valhalla.<17:f000>
+@@ 16
+<19:ffff>Valkyrie
+「<18><3:04>Ma, come promesso,
+saranno insieme.<17:b400>

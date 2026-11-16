@@ -1,0 +1,61 @@
+# Valkyrie Profile scene 0x3e (-): 28 records, directory word 3672, package sectors 162137..162341 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Fuyuki
+「Io credo nel
+Lapislazzuli Ceruleo.
+@@ 15
+<19:ffff>Yumei
+「Eh?
+@@ 16
+<19:ffff>Fuyuki
+「Ti ho sentita parlare con mio padre<3:1e>.<3:ff>
+Papà sta invecchiando
+e ha perso la capacità
+di sperare e di sognare.
+Ma io credo ancora che il Lapislazzuli esista.
+@@ 17
+<19:ffff>Fuyuki
+「Ti sembro sciocco?
+@@ 18
+<19:ffff>Yumei
+「No<3:1e>. <3:ff>Grazie per l'incoraggiamento<3:1e>.<3:ff>
+Proverò a crederci anch'io.
+@@ 19
+<19:ffff>Fuyuki
+「Bene<3:14>!<3:ff>
+Perché non lo troverai mai
+se non ci credi.
+@@ 20
+<19:ffff>Yumei
+「Fuyuki, se trovassi il
+Lapislazzuli Ceruleo,
+che cosa desidereresti?
+@@ 21
+<19:ffff>Fuyuki
+「Ummm...<page>
+Beh, la nostra barca è messa piuttosto male,
+quindi credo che ne vorrei una nuova,
+la più bella di tutta Hai-Lan.
+@@ 22
+<19:ffff>Fuyuki
+「E tu?
+@@ 23
+<19:ffff>Yumei
+「Io<3:1e>?<3:ff> Ehm<7:0b>-<7:01><3:28> <3:ff>
+Non ci ho mai pensato davvero.
+@@ 24
+<19:ffff>Fuyuki
+「Capisco<3:0c>...
+@@ 25
+<19:ffff>Fuyuki
+「Io credo nel Lapislazzuli Ceruleo.
+@@ 26
+<19:ffff>Yumei
+「Grazie per l'incoraggiamento<3:1e>.<3:ff>
+Proverò a crederci anch'io.
+@@ 27
+<19:ffff>Fuyuki
+「Bene<3:28>!<3:ff>
+Perché non lo troverai mai
+se non ci credi.

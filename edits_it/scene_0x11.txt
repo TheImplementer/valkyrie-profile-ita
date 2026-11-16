@@ -1,8 +1,4 @@
 # Valkyrie Profile scene 0x11 (-): 28 records, directory word 3627, package sectors 157163..157316 of VALKYRIE.BIN
-# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
-# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
-#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
-# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
 
 @@ 14
 <19:0100>Lucian
@@ -37,3 +33,21 @@ Lucian.<3:3c>
 dimenticare<3:0c>... <3:03>tutto<3:0c>...<17:7800>
 @@ 21
 <5><3:0c>・・・<3:07><18>Lucian<3:0c>・・・<17:7800>
+@@ 22
+<5><3:03><18> Che differenza c'è tra scegliere un servo<3:04>
+<5>e cogliere un fiore?<17:b400>
+@@ 23
+<5><3:03><18>Non sei forse soltanto una dea della morte!?<17:7800>
+@@ 24
+<5><3:03><18>Stavo cogliendo anime<3:03>
+<5>come se fossero fiori?<17:b400>
+@@ 25
+<5><3:06><18>Cos'è una Valchiria?<3:1e>
+<5><3:03><18>Sono soltanto<3:0c>... <3:04>una Dea della Morte?<17:7800>
+@@ 26
+<5><18><3:03>Non puoi davvero credere
+<5>che l'amore possa esistere
+<5>tra <3:04>gli umani e gli dei?<17:b400>
+@@ 27
+<5><18><3:04>Non avete proprio idea
+<5>di cosa siate, vero?<17:9600>

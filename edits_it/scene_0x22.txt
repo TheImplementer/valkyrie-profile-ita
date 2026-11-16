@@ -1,0 +1,62 @@
+# Valkyrie Profile scene 0x22 (To outside): 30 records, directory word 3644, package sectors 159459..159500 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Claire
+「<7:0b>-<7:01>Ehi<3:1e>,<3:ff>
+com'era lei<3:1e>?
+<3:ff>Era bella?
+@@ 15
+<19:ffff>Lucian
+「Che sciocca<3:14>. <3:ff>Aveva appena 14 anni<3:1e>!
+<3:ff>Carina lo era, direi...<3:14><3:ff>
+Ma lei<3:0c>...<3:ff>Lei<3:0c>...<3:ff>
+Sarebbe diventata bellissima.
+@@ 16
+<19:ffff>Claire
+「Mmh.
+@@ 17
+<19:ffff>Lucian
+「Non era niente di speciale,
+a vederla... ma<7:0b>-<7:01>
+@@ 18
+<19:ffff>Claire
+「Ma cosa?
+@@ 19
+<19:ffff>Lucian
+「È solo che...
+I suoi capelli erano argentati.
+E quando la luce li colpiva,
+brillavano come uno zaffiro.
+Era così bello<7:0b>-<7:01>
+@@ 21
+<18><3:03>La ami ancora<3:14>.
+<3:03>Dopo tutti questi anni<3:0c>...<17:7800>
+@@ 22
+<19:ffff>Claire
+「Quanto abbiamo
+rimediato oggi?
+@@ 23
+<19:ffff>Lucian
+「220<3:14>, <3:ff>221<3:14>, <3:ff>226<3:0c>...<3:ff> Ehm<3:14>...<3:ff>
+Direi 230 monete.
+@@ 24
+<19:ffff>Barren
+「Wow<3:14>!<3:ff>
+Ma che talento che ho!
+@@ 25
+<19:ffff>Rusty
+「Oh, ma piantala!
+@@ 26
+<19:ffff>Lucian
+「Siete stati tutti bravi oggi<3:1e>.<3:ff>
+Lavorando da soli non si
+guadagna una cifra così.
+@@ 27
+<5>Uscita
+@@ 28
+<19:0000>Barren
+「<3:0c>・・・<3:ff>Dov'è Lucian?
+@@ 29
+<19:0100>Rusty
+「Lui e Claire
+sono appena usciti.

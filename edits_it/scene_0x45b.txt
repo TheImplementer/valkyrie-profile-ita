@@ -1,0 +1,11 @@
+# Valkyrie Profile scene 0x45b (-): 16 records, directory word 4725, package sectors 290547..290587 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Lezard
+<18><3:05>「<3:04>Gli umani sono esseri incompleti<3:26>.<3:04>
+Gli dei allora possono essere <3:03>considerati
+l'evoluzione finale dell'uomo.<12:ee0a><17:7800>
+@@ 15
+<19:ffff>Lezard
+「<3:04><18>In altre parole<3:0f>,<3:04> gli dei non crescono,
+ma restano statici. <3:06>Tuttavia<7:0b>-<7:01><17:7800>

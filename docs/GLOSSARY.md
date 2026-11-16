@@ -40,6 +40,29 @@ here, so this file is never built into the disc.)
 | Lady Goddess (Genevieve, mocking) | Mia signora Dea | |
 | Goddess of Love | Dea dell'Amore | "Non sono la Dea dell'Amore". |
 | Battle-Maiden | Vergine della Battaglia | "La Vergine della Battaglia, Valkyrie?" (scene 0x6E). |
+| the gods | gli dei | Written without an accent everywhere (four earlier "dèi" were aligned). |
+| Chooser of the Slain | Colei che sceglie i Caduti | Capitalised as a title, as the English does (scenes 0x32, 0x15C, 0x16E). |
+| Death Goddess | Dea della Morte | Hel, Goddess of Nifleheim → Hel, Dea di Nifleheim; Queen Hel → regina Hel. Niflheim / Nifleheim follow each scene's English spelling. |
+| All-Father; Lord of the Gods | il Padre di Tutti; Signore degli Dei | |
+| Dragon Orb | Sfera del Drago | A story object, so translated ("la Sfera"). |
+| the Four Treasures; Divine / Sacred Treasures | i Quattro Tesori; Tesori Divini / Tesori Sacri | Not "Reliquie", the menu word for Divine Items. |
+| Spear of Gungnir; the Demon's Sword, Levantine; the Wolf, Fenrir | la lancia Gungnir; la Spada Demoniaca, Levantine; il lupo Fenrir | Sylvan Bow stays English (an item). |
+| Aesir, Vanir, giants | Asi, Vani, giganti | |
+| World Tree; Twilight of the Gods; Circle of Life | Albero del Mondo; Crepuscolo degli Dei; Ciclo della Vita | Yggdrasil, Bifrost (ponte arcobaleno), Surt, Hrist unchanged. |
+| Water Mirror | Specchio d'Acqua | Lucian's call to Valkyrie (scene 0x1D). |
+| the 3 Goddesses of Destiny | le tre dee del fato | As in scene 0x1C. |
+| Philosopher's Stone; homunculus; half-elf | Pietra Filosofale; omuncolo; mezzelfo | Lezard's storylines. |
+| vessel (for a god's soul) | recipiente (Recipiente degli Dei) | "true vessel" (Hrist's own body) is "vero involucro". |
+| man-made lifeform; puppet; soul transfusion | forma di vita artificiale; marionetta; trasfusione dell'anima | |
+| Master Lezard; Headmistress Lorenta; Lady Lorenta | maestro Lezard; preside Lorenta; la signora Lorenta | Lezard to Valkyrie: "mia amata", "dama del mio cuore". |
+| Student, Graduate Student, Elf (labels) | Allievo / Allieva, Allievo anziano, Elfo / Elfa | Feminine when the speaker is a woman: the birthday student (0x50 #14) and the captive elf (0x11E). |
+| Lady Lyseria, Lady Valkyrie | signora Lyseria, signora Valkyrie | Celia and Grey's storyline. Lady Freya (Loki, mocking) → la signora Freya. |
+| Cerulean Lapis | Lapislazzuli Ceruleo | "il Lapislazzuli" alone, never "Lapis". Fragment of Lapis Gem stays English (an item). |
+| song-maiden; songstress | fanciulla del canto; cantatrice | Hai-Lan. Merfolk → sirene; Oouzu unchanged; Shogun Koh → lo shogun Koh. |
+| Ogre | Orco | Both Ogre storylines (scenes 0x39, 0x1E5). |
+| Pleiades Shrine; Shinto priest; ritual of ascension | Santuario delle Pleiadi; Sacerdote shintoista; rito dell'ascensione | Sacred Sword → Spada Sacra (Dragonbane stays English). Soul Stone → Pietra dell'Anima. |
+| Thieves' Guild | Gilda dei Ladri | Villnore Castle → Castello di Villnore; slavers → mercanti di schiavi. |
+| Madam Dolce; Auntie Dolce | signora Dolce; zia Dolce | Lucian gives Dolce *voi*. |
 | Chief Councillor | Gran Consigliere | Lombert's title. |
 | Sir Arngrim | ser Arngrim | Used by Angela and the King. |
 | Lady Angela (Arngrim, mocking) | madamigella Angela | |
@@ -52,7 +75,9 @@ here, so this file is never built into the disc.)
 | Save game? | Salvare? | Kept short. |
 
 Speaker labels that are roles are translated: Agente, Ragazza, Cameriera, Capocuoco, Cavaliere (di Artolia),
-Soldato, Re, Capitano (Knight Captain), Donna, Giovane, Anziano / Anziana, Avventuriero, Uomo.
+Soldato, Re, Capitano (Knight Captain), Donna, Giovane, Anziano / Anziana, Avventuriero, Uomo, Bambino,
+Guardia, Guerriero, Esploratore, Viaggiatore, Superiore, Cittadino, Locandiere, Moglie, Padre / Madre adottiva,
+Padre di Fuyuki, Marito di Lorenta, Assassino. Samurai stays. Monster names used as labels stay English (Raver Lord).
 
 ## Forms of address
 
@@ -71,6 +96,16 @@ Soldato, Re, Capitano (Knight Captain), Donna, Giovane, Anziano / Anziana, Avven
 * **Crell Monferaigne:** Bert gives his superior Ernest *voi*; Lezard's letter gives his old teacher Lorenta
   *voi*; the priest prays to the Battle-Maiden with *tu*, as in a prayer. Llewelyn and Millia use *tu*;
   Millia's "Perché non volete capire?!" is plural, to both parents. Genevieve and Magnus use *tu*.
+* **The gods:** everyone gives Odin *voi* ("Sommo Odino, fermatevi!!") and he uses *tu*. Freya uses *tu*
+  with Valkyrie, Frei and Loki. Loki uses *tu* with Valkyrie, Freya and Surt, and with Odin once he
+  defies him openly (scene 0x19). Valkyrie uses *tu* with everyone except Odin.
+* **Lezard** gives Valkyrie and his old teacher Lorenta a courtly *voi*; he uses *tu* with Mystina
+  ("Mysty"), Lucian, Arngrim, Bellion and the elf. Mystina uses *tu* with everyone, sarcastically;
+  Arngrim too. Servants and students give their master *voi* ("maestro Lezard").
+* **Strangers:** adults meeting for the first time use *voi* (Dolce, Lyseria, Grey and Gandar to
+  Valkyrie); Valkyrie answers with *tu*. Exceptions by character: Aelia and Badrach use *tu*
+  with Valkyrie from the start.
+* **Nanami** gives her foster parents and Valkyrie *voi*; Lucian gives Dolce *voi* ("signora Dolce").
 * **Badrach speaks colloquially** ("un sacco", "chi se ne frega", "Ci si vede!"), without dialect spellings.
 
 ## Title screen (`title_menu.txt`)

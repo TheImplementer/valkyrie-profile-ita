@@ -1,0 +1,17 @@
+# Valkyrie Profile scene 0x48 (-): 18 records, directory word 3682, package sectors 163014..163132 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Yumei
+「Spero che non sia una cattiva idea.
+@@ 15
+<19:ffff>Yumei
+「Ma come faccio a sapere
+che è la nave giusta?
+@@ 16
+<19:ffff>Yumei
+「<7:02><8:02>A<3:1e>・<3:ff>I<3:1e>・<3:ff>U<3:1e>・<3:ff>TO!!<7:01><8:01>
+@@ 17
+<19:ffff>Yumei
+「Co...sa<3:28>!<3:ff>
+Nessuno risponde alle mie grida?
+O è una nave fantasma, con a bordo solo scheletri?

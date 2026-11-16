@@ -1,0 +1,9 @@
+# Valkyrie Profile scene 0x42 (-): 16 records, directory word 3676, package sectors 162549..162601 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Fuyuki
+「Quindi voleva il Lapislazzuli
+per poter vedere suo padre<3:0c>・・・<3:ff>?
+@@ 15
+<19:ffff>Fuyuki
+「Perché Yumei mi ha mentito?

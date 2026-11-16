@@ -166,7 +166,7 @@ Valkyrie?
 @@ 56
 <3:03><5><18>Chi non conosceva quelle leggende?<12:a009><17:7800>
 @@ 57
-<3:04><5><18>La guerra senza fine che gli dèi combattono
+<3:04><5><18>La guerra senza fine che gli dei combattono
 <3:03><5>contro le creature delle tenebre.<17:7800>
 @@ 58
 <3:04><5><18>La battaglia è il mio <3:05>più grande piacere<12:a209><3:0c>・・・<3:5a>
@@ -205,3 +205,20 @@ Io<3:0c>・・<3:1e>・<3:08> Io<3:0c>・・・<17:7800>
 <19:0100>Valkyrie
 <3:03>「<18>Lasciandolo vivere ancora<3:28>?<3:03>
 O venendo <3:05>scelto<3:04> da me?<17:7800>
+@@ 69
+<3:0c>・・・<3:04><18>È una storia triste<3:46>.<3:02>
+Sai dove va a finire, vero<12:780a><3:5a>?<3:03>
+<18>No<3:55>?<3:03> Devo dirtelo io?<17:c800>
+@@ 70
+<3:02><18>Beh, <3:03>quei mercanti di schiavi <3:03>sono<3:0a> <3:04>ladri patentati,<3:14>
+<3:03>e mi hanno pagato solo
+<3:02>la metà di quanto<3:03> avevano promesso.<12:7a0a><17:7800>
+@@ 71
+<3:03><18>E come se non bastasse,<3:14> <3:03>non mi avevano
+detto quanto fosse pericoloso il loro <3:02>percorso<3:03>.<12:7b0a><17:7800>
+@@ 72
+<3:03><18>Così ho mandato al diavolo il lavoro<3:32>.<3:03>
+Ovvio che <3:02>non<3:03> mi hanno pagato nemmeno il resto.<12:7c0a><17:7800>
+@@ 73
+<3:03><18>Comunque, prima di andarmene,<3:1e>
+<3:03>mi sono portato via quella <3:02>piccola<3:03>.<17:7800>

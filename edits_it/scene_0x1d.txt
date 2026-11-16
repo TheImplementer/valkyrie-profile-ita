@@ -1,0 +1,201 @@
+# Valkyrie Profile scene 0x1d (-): 64 records, directory word 3639, package sectors 158624..158861 of VALKYRIE.BIN
+
+@@ 14
+<19:0100>Loki
+「Il sommo Odino è in grado di contattare
+Valkyrie regolarmente.
+@@ 15
+<19:0100>Loki
+「Sai come ci riesce?
+@@ 16
+<19:0100>Loki
+「Il sommo Odino usa lo Specchio d'Acqua
+per comunicare con lei.
+@@ 17
+<19:0000>Lucian
+「Vuoi dire<3:28>...<3:ff> che con lo Specchio d'Acqua
+potrei contattare Valkyrie?
+@@ 18
+<19:0100>Loki
+「Esatto.
+@@ 19
+<19:0000>Lucian
+「Ma<3:28>,<3:ff>
+una cosa simile mi sarà perdonata?
+@@ 20
+<19:0100>Loki
+「Non potrebbe importarmene di meno.<page>
+Ma se ci pensi,
+non crederai davvero che qualcuno
+ti punisca per una cosa come
+usare un piccolo specchio?
+@@ 22
+<19:0000>Lucian
+「È questo?
+@@ 23
+<19:0000>Lucian
+「Che devo fare?
+@@ 24
+<19:0100>Loki
+「Chiudi gli occhi e concentrati<3:32>.<3:ff>
+Pensa a lei.
+È tutto quello che devi fare.
+@@ 25
+<5><3:05><18>Valkyrie・・<3:14>・<3:03>mi senti<3:1e>?<3:03>
+<5>Sono io<3:0a>,<3:03> Lucian<3:0c>・・・<3:ff><12:7c0b><17:7800>
+@@ 26
+<5><3:03><18>Valkyrie・・<3:14>・<3:03>mi senti?<12:7d0b><17:7800>
+@@ 27
+<5><3:03><18>Valkyrie<3:0c>・・・<3:ff><12:7e0b><17:7800>
+@@ 28
+<19:0000>Valkyrie
+<3:03>「<18>Che cosa sta succedendo<3:28>?<3:03>
+Credi che ti <3:02>perdonerò per
+esserti preso<3:03> simili libertà!?<12:7f0b><17:7800>
+@@ 29
+<19:0100>Lucian
+<3:03>「<18>So che non lo farai, ma<3:0c>・・・<3:ff><12:800b><17:7800>
+@@ 30
+<19:0000>Valkyrie
+<3:04>「<18>Lucian<3:0a>・・・<3:03>che cos'è questo?<12:810b><17:7800>
+@@ 31
+<19:0100>Lucian
+<3:02>「<18>Ti mando uno di questi orecchini<3:28>
+<3:02>e voglio che tu lo<3:03> accetti<12:820b>.<17:7800><page>
+<3:01><18>Ma, <3:02>l'altro
+è nascosto da un'altra parte<3:0c>・・・<3:ff><12:830b><17:7800>
+@@ 32
+<19:0000>Valkyrie
+<3:02>「<18>Che vuoi<3:03> dire<3:2d>?<3:04>
+È <3:03>per questo che hai usato lo Specchio<3:02> d'Acqua?!<12:840b><17:7800>
+@@ 33
+<19:0100>Lucian
+<3:03>「<18>Non era<3:02> davvero l'orecchino
+che volevo darti<12:850b><3:0c>・・・<3:03><17:7800><page>
+<3:02><18>Ma pensavo
+che se l'avessi accettato<3:0f>,<3:03> forse<12:860b><3:0c>・・・<3:03><17:7800><page>
+<3:03><18>No<3:23>,<3:03>
+so <3:02>che scoprirai
+dov'è l'altro orecchino<3:0c>・・・<12:870b><17:7800>
+@@ 34
+<19:0000>Valkyrie
+「<3:0c>・・・<3:04><18>E come faccio<3:4b>?<3:03>
+Osi<3:14> <3:03>ordinarmi<3:0f> <3:03>di<3:0f> <3:03>andare a caccia di tesori?<12:880b><17:7800>
+@@ 35
+<19:0000>Valkyrie
+<3:03>「<18>Sei<3:04> uno sciocco<3:0c>・・<3:0f>・<3:03>
+Ora che<3:02> l'hai fatto,<3:03>
+hai <3:04>idea<3:0f> <3:03>delle conseguenze?<12:890b><17:7800>
+@@ 36
+<19:0000>Valkyrie
+<3:03>「<18>Questo è<3:0c>・・・<12:8a0b><3:3c>
+<3:06><3:03><18>Questo è<3:0c>・・・<12:8b0b><17:2800>
+@@ 37
+<5><3:00><18>Imperdonabile!!<17:7800><12:8d0b>
+@@ 38
+<19:0000>Lucian
+<3:03>「<18>Perché<3:0c>・・・<3:03>
+Perché doveva<3:02> finire così?!<17:7800>
+@@ 39
+<19:0100>Loki
+「Hai finito con gli addii?
+@@ 40
+<19:0000>Lucian
+「L<3:1e>,<3:ff> lasciami in pace<3:0c>・・・
+@@ 41
+<19:0100>Loki
+「Non posso farlo.
+@@ 42
+<19:0000>Lucian
+「<3:0c>・・・<3:ff>Cosa!?
+@@ 43
+<19:0000>Lucian
+「Qu<3:28>, <3:ff>quella forma<3:28>,<3:ff>
+Loki<3:0c>・・・<3:ff>?
+@@ 44
+<19:0100>Loki
+「Non dovresti avere rimpianti<3:3c>.<3:ff>
+E io<3:1e>?<3:ff> Sono soddisfatto, ora
+che la Sfera del Drago è mia.<page>
+Ma la colpa di averla rubata<3:28><3:ff>
+dovrà ricadere sulle tue spalle,
+Lucian.
+@@ 45
+<19:0000>Lucian
+「Cosa!?
+@@ 46
+<19:0100>Loki
+「<3:0c>・・・<3:ff>Hi hi hi<3:32>,<3:ff>
+E la parte migliore è che sarò io
+l'eroe per averti ucciso.
+@@ 47
+<19:0000>Lucian
+「Scordatelo<3:3c>!<3:ff>
+Non lascerò mai che finisca così.
+Non sono ancora pronto a morire!
+@@ 48
+<19:0000>Odin
+「Loki<3:28>,<3:ff>
+è andata esattamente come hai detto.
+@@ 49
+<19:0100>Loki
+「Sì<3:32>.<3:ff>
+Le increspature sullo Specchio d'Acqua
+avrebbero dovuto essere ben visibili.
+@@ 50
+<19:0000>Odin
+「Sì<3:0c>・・・<3:ff>
+Ora puoi andare.
+@@ 51
+<19:0000>Freya
+「Credete davvero che sia saggio
+lasciare andare Loki?
+@@ 52
+<19:0100>Odin
+「Sì<3:3c>.<3:ff>
+Non abbiamo prove che la sua
+storia fosse una menzogna.
+@@ 53
+<19:0000>Freya
+「Intendete la sua storia, secondo cui
+Lucian avrebbe usato lo Specchio d'Acqua
+per nascondere la Sfera del Drago da
+qualche parte sulla superficie di Midgard?
+@@ 54
+<19:0100>Odin
+「È così.
+@@ 55
+<19:0000>Freya
+「Eppure, <3:28><3:ff>questo non spiega
+le motivazioni di questo umano, vero?<page>
+E stento a credere che
+sia segretamente in combutta
+con i giganti.
+@@ 56
+<19:0100>Odin
+「Loki stesso non era
+in possesso della Sfera del Drago<3:0c>・・・<3:ff>
+@@ 58
+<19:0100>Odin
+「Tutte le informazioni
+che abbiamo sono incerte e inattendibili.
+Perciò<3:0c>・・・<3:ff>
+@@ 59
+<19:0000>Freya
+「Perciò?
+@@ 60
+<19:0100>Odin
+「Per il momento,
+lasciamo stare Loki.
+@@ 61
+<19:0100>Odin
+「Ma se si scoprirà che mente<3:28>,<3:ff>
+non mi importa se siamo della stessa stirpe,
+non avrà pietà da me!!
+@@ 62
+<5>Lucian ha preso la Sfera del Drago<3:0c>・・・<17:b400>
+@@ 63
+<5><3:02><18>Ti mando uno di questi orecchini<3:28>
+<3:02><5>e voglio che tu lo<3:03> accetti<12:820b>.<17:7800><page>
+<5><3:01><18>Ma, <3:02>l'altro
+<5>è nascosto da un'altra parte<3:0c>・・・<3:ff><12:830b><17:7800>

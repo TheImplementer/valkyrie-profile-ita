@@ -46,7 +46,7 @@ uscito di senno.<17:b400>
 @@ 23
 <19:0100>Arngrim
 <18><3:03>「Se questo mondo è l'inferno<3:1e>,<3:03> allora・・・
-gli dèi devono essere più buoni
+gli dei devono essere più buoni
 di<3:05> quanto si creda.<17:7800>
 @@ 24
 <19:0000>Capitano

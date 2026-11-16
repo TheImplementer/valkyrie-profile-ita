@@ -1,0 +1,32 @@
+# Valkyrie Profile scene 0x49 (-): 22 records, directory word 3683, package sectors 163133..163208 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Suo
+「<3:0c>・・・<3:ff>Abbiamo la fanciulla
+del canto nemica.
+@@ 15
+<19:ffff>Superiore
+「Davvero bella...
+@@ 16
+<19:ffff>Superiore
+「Sì, ma<3:0c>・・・
+@@ 17
+<19:ffff>Shiho
+「S<3:0c>・・・<3:14>U<3:1e>O<3:0c>・・・
+@@ 18
+<19:ffff>Suo
+「Perché<3:28>!<3:ff> Persino i suoi compagni
+hanno abbandonato il suo spirito combattivo
+e tutto il resto<7:0b>-<7:01>!!
+@@ 19
+<19:ffff>Superiore
+「Suo<3:32>.<3:ff>
+Ti ha forse incantato
+il suo fascino?
+Quella donna ha condotto alla morte
+molti dei tuoi compatrioti!
+@@ 20
+<19:ffff>Suo
+「Ma<3:0c>・・・!
+@@ 21
+<5><3:03>Come<3:28> <3:03>è potuto accadere?<17:b400>

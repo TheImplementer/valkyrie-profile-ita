@@ -1,0 +1,10 @@
+# Valkyrie Profile scene 0xa (-): 16 records, directory word 3620, package sectors 156322..156428 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Lucian
+「<18><3:03>Nel cuore della notte<3:0a>,
+<3:03>abbiamo corso fino a sentirci
+scoppiare i polmoni.<17:b400>
+@@ 15
+<19:ffff>Lucian
+「<18><3:03>Proprio come adesso.<17:3c00>

@@ -1,8 +1,4 @@
 # Valkyrie Profile scene 0x10 (-): 49 records, directory word 3626, package sectors 157003..157162 of VALKYRIE.BIN
-# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
-# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
-#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
-# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
 
 @@ 14
 <19:0000>Lucian
@@ -38,16 +34,85 @@
 <19:0100>Lucian
 「<18><3:03>Proprio così<3:19>!<3:03> Se restiamo qui,
 il loro <3:02>veleno ci ucciderà!<17:7800>
+@@ 24
+<19:0100>Lucian
+「<18><3:04>Platina?<17:3c00>
 @@ 25
 <19:0000>Platina
 「<18><3:04>Se mi addormentassi qui<3:0a>,<3:04>
 potrei semplicemente<3:08>...<3:04>svanire?<17:7800>
+@@ 26
+<19:ffff>Valkyrie
+「Questo luogo<3:0c>...
+@@ 27
+<19:ffff>Valkyrie
+「Sono certa di aver percepito la risonanza
+di un pensiero umano...
+@@ 30
+<19:ffff>Valkyrie
+「Quelli della vostra specie non devono essere qui!
+@@ 31
+<19:ffff>Valkyrie
+「<3:0c>・・・<3:ff>Sono fuggiti?
+@@ 32
+<19:ffff>Valkyrie
+「<3:0c>・・・<3:ff>Perché degli spettri dovrebbero
+radunarsi intorno a questa pietra?
+@@ 33
+<19:ffff>Valkyrie
+「Questa è<3:0c>...
+@@ 34
+<19:ffff>Valkyrie
+「Una lapide?
+@@ 35
+<19:ffff>Valkyrie
+「Chi mai farebbe una tomba
+in un posto come questo<3:0c>・・・
+@@ 36
+<5><3:02><18>Non era davvero l'orecchino<3:07> 
+<5><3:02>che volevo darti<3:0c>・・・
+<5><3:03>Ma pensavo che se tu <3:02>l'avessi accettato,
+<5>forse<3:0c>・・・<3:32>
+<5><18><3:03>No<3:0f>, <3:03>so che scoprirai
+<5>dov'è l'altro orecchino<7:0b>-<7:01><17:2c01>
+@@ 37
+<19:ffff>Valkyrie
+「Qui<3:0c>...<3:ff>?
+Come ho fatto a<3:0c>...
+@@ 38
+<19:ffff>Valkyrie
+「Come ha fatto questo orecchino<3:0c>・・・<3:ff>?<page>
+Comunque sia, il suo scintillio
+si offuscherà senza dubbio presto,
+prima di essere di nuovo
+insanguinato<3:0c>・・・
 @@ 39
 <5><3:0c>Lucian<3:0c>...<17:5a00>
 @@ 40
 <5><3:0c>Lucian?<17:5a00>
 @@ 41
 <5>Lucian?!<17:5a00>
+@@ 42
+<19:ffff>Arngrim
+「Calmati!!
+@@ 43
+<19:ffff>Valkyrie
+「No!<3:1e>!<3:ff>
+Lucian mi ha dato quell'orecchino<3:0c>...
+@@ 44
+<19:ffff>Valkyrie
+「L'orecchino è tutto<3:0c>...<3:ff>
+È tutto ciò<3:0c>...<3:ff>
+È tutto ciò che mi resta di Lucian!
 @@ 45
 <19:0100>Valkyrie
 「<3:0c>・・・<3:ff>Lucian<3:0c>・・・<3:ff>
+@@ 46
+<19:ffff>Valkyrie
+「Perché, Lucian?
+Perché dovevi morire in quel modo?
+Cosa posso fare<3:28>?<3:ff>
+Non posso rimediare<3:0c>・・・<3:1e><3:ff>
+Non posso riportarlo tra i vivi<3:0c>・・・<3:ff>!!
+@@ 47
+<5><18><3:04>Lo detesto...<17:1e00>

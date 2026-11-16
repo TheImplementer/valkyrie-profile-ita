@@ -1,0 +1,30 @@
+# Valkyrie Profile scene 0x120 (-): 21 records, directory word 3898, package sectors 187319..187360 of VALKYRIE.BIN
+
+@@ 14
+<19:0100>Mystina
+「Per gli dei<3:0c>・・・<3:ff>
+Che razza di cose spaventose
+combina in queste cupe
+stanze, poi?
+@@ 15
+<19:0100>Mystina
+「Ho ancora tempo, no?
+@@ 16
+<19:0100>Mystina
+「Questa è<3:0c>・・・<3:ff>di Lezard・・・
+@@ 17
+<19:0100>Mystina
+「Hmph<3:1e>.<3:ff>
+La sua calligrafia non è certo
+migliorata.
+Non capisco se scrive in codice
+o se proprio non sa scrivere!
+@@ 18
+Questo è un dispositivo di trasferimento.<page>
+Vuoi trasferirti?
+・Sì
+・No
+@@ 19
+<5>Hai trovato Base Metal.
+@@ 20
+<5>Hai trovato Normalize.

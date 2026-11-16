@@ -81,7 +81,7 @@ semplice come il tuo posto?<17:3c00>
 <19:ffff>Valkyrie
 「<18><3:03>Comunque, sei stato scelto<3:1e>.<3:03>
 Ora la tua<3:05> anima <3:04>appartiene agli
-dèi<3:0c>・・・<3:ff><17:3c00>
+dei<3:0c>・・・<3:ff><17:3c00>
 @@ 33
 <19:ffff>Fahn
 「Cosa?!

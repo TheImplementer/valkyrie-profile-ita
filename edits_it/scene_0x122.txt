@@ -1,0 +1,157 @@
+# Valkyrie Profile scene 0x122 (-): 50 records, directory word 3900, package sectors 187487..187688 of VALKYRIE.BIN
+
+@@ 14
+<19:0000>Lezard
+「<18><3:03>Lo sentite・・・<3:28>?<3:03>
+Il <3:08>brulicare <3:03>dei <3:08>non morti<3:08>・・・<3:ff><12:b60a><17:3c00>
+@@ 15
+<19:0000>Lezard
+「<18><3:03>Non udite...
+Il <3:04>folle lamento!!<3:ff><12:b70a><17:3c00>
+@@ 16
+<19:0000>Lezard
+「<18><3:04>Oh, dea!<3:1e> <3:04>Di certo non potete tollerare
+altre profanazioni・・・<12:b80a><17:3c00>
+@@ 17
+<19:0000>Lezard
+「<18><3:03>Venite a me<3:08>・・・<3:03>
+<3:03>Ardo<3:23>, <3:04>ardo<3:1e>,<3:03>
+ardo di<3:04> passione per voi<3:0c>・・・<12:b90a><17:7800>
+@@ 18
+<19:0000>Lezard
+「<18><3:05>Valkyrie!!!<17:7800>
+@@ 19
+<19:0100>Lezard
+「<18><3:04>Benvenuta, Valkyrie<3:1a>,<3:03>
+<3:06>mia<3:03> amata.<3:ff><12:bd0a><17:3c00>
+@@ 20
+<19:0100>Lezard
+「<18><3:04>Quanto ho atteso questo momento.<12:be0a><17:3c00>
+@@ 21
+<19:0100>Lezard
+「<18><3:04>Il mio cuore ora palpita con la stessa
+esaltazione di quando vi vidi per la
+prima volta<3:04> molti mesi fa<3:08><12:bf0a>・・・<17:3c00>
+@@ 22
+<19:0100>Lezard
+<18><3:04>「<3:03>Valkyrie<3:23>, <3:04>
+dama del mio cuore!!<17:3c00>
+@@ 23
+<19:0000>Valkyrie
+「<18><3:03>Un incantesimo di teletrasporto!<3:3c>!<3:02>
+Com'è possibile che tu padroneggi
+le magie perdute?!<12:c00a><17:6400>
+@@ 24
+<19:0100>Lezard
+<18><3:08>「<3:04>Ci ho riflettuto a lungo
+<3:03>fin dal primo istante in cui vi vidi・・・<12:c10a><17:3c00>
+@@ 25
+<19:0100>Lezard
+「<18><3:03>Gli dei, <3:04>che esistono sullo stesso piano
+delle anime inquiete degli uomini defunti<3:46>.<3:06>
+Che genere <3:03>di esseri sono?<17:3c00>
+@@ 27
+<19:0100>Lezard
+<18>「<3:04>Ho concluso che gli dei somigliano
+molto alle anime<3:32>.<3:03>
+E così<3:14>,<3:03> ho creato <3:06>questo <3:04>recipiente!!<12:c30a><17:3c00>
+@@ 28
+<19:0100>Lezard
+「<18><3:05>Ho, per così dire,<3:04>
+"ricostruito a ritroso" un elfo<3:14>,<3:03>
+il recipiente degli dei<3:0f>, <3:03>
+per plasmare questo <3:05>omuncolo<3:ff>!!<12:c40a><17:3c00>
+@@ 29
+<19:0100>Lezard
+「<18><3:03>Non esistono altre anime degne
+di una <3:05>creazione tanto squisita・・・<3:ff><12:c50a><17:3c00>
+@@ 30
+<19:0100>Lezard
+<18><3:0a>「<3:05>Splendida Valkyrie<3:19>, <3:03>
+l'ho forgiata<3:06> per <3:03>voi!!<12:c60a><17:5a00>
+@@ 31
+<19:0000>Valkyrie
+<18><3:0a>「<3:03>Al solo scopo di <3:05>attirarmi
+qui<3:0c>・・・<3:03> hai <3:04>massacrato
+<3:03>la coppia sul tetto?<3:ff><12:c70a><17:3c00>
+@@ 32
+<19:0100>Lezard
+「<18><3:05>Esatto.<12:c80a><17:3c00>
+@@ 33
+<19:0000>Valkyrie
+<18><3:08>「<3:03>E hai sacrificato innumerevoli vite,
+<3:04>sia elfi che umani<3:0f>,<3:03> per creare
+un recipiente per un solo essere?!<12:c90a><17:3c00>
+@@ 34
+<19:0100>Lezard
+「<18><3:06>Ma sì, in effetti.<12:ca0a><17:3c00>
+@@ 35
+<19:0100>Lezard
+「<18><3:03>Non è la dea che è in voi
+che io bramo<3:0c>, <3:04>Valkyrie<3:14>.<3:04>
+<3:03>Desidero rendervi umana<3:28>!<3:03>
+È per questo che il mio <3:05>cuore <3:06>arde!!<12:cb0a><17:3c00>
+@@ 36
+<19:0000>Valkyrie
+「<18><3:03>Sei folle<3:04><12:cc0a>・・<3:1e>・<3:03>
+Come possono pensieri così futili
+consumarti a tal punto!?<17:3c00>
+@@ 37
+<19:0000>Valkyrie
+<18><3:06>「<3:03>Gli umani che cercano di varcare i limiti
+loro assegnati attirano su di sé più della morte<3:28>.<3:03>
+<3:03>Attirano l'annientamento totale<3:08>!!<17:3200>
+@@ 38
+<19:0100>Lezard
+「<18><3:03>Ah, che peccato・・・ Non importa<3:26>,<3:04>
+posso generare tutti gli omuncoli
+che<3:04> serviranno<3:0c>・・・<3:ff><17:3c00>
+@@ 39
+<19:0100>Lezard
+「<18><3:04>Prego <3:02>che ci sia dato
+incontrarci ancora.<12:d00a><17:3c00>
+@@ 40
+<19:0000>Valkyrie
+「<18><3:06>Dunque ora fuggi!<3:1e>?<3:03>
+Non puoi davvero credere che
+l'amore possa esistere tra
+<3:04>gli umani<3:08> <3:06>e <3:04>gli dei!<12:d10a><17:3c00>
+@@ 41
+<19:0100>Lezard
+「<18><3:05>Che cosa avete detto<3:14>?<3:04>
+Tra uomo <3:04>e<3:0e> <3:03>dio?<3:ff><12:d20a><17:3c00>
+@@ 42
+<19:0100>Lezard
+「<18><3:03>Non avete
+proprio<3:06> idea<3:04> di cosa siate<3:12>,<3:03>
+<3:05>vero?<3:ff><12:d30a><17:3c00>
+@@ 43
+<19:0000>Valkyrie
+「<18><3:04>Cosa sono<3:14>?! <3:03>Non essere ridicolo<3:28>!<3:03>
+Odino<3:0a>, <3:04>signore di tutti gli dei<3:08>・・・<3:04>è mio
+<3:06>padre<3:08>・・・<3:04>il mio creatore!!<12:d40a><17:3c00>
+@@ 44
+<19:0100>Lezard
+「<18><3:03>Credete pure
+ciò che volete.<3:ff><12:d50a><17:3c00>
+@@ 45
+<19:0100>Lezard
+「<18><3:03>Poco mi importa<3:18>.<3:03>
+<3:04>Sappiatelo<3:0a>,<3:04> Valkyrie<3:19>!<3:03>
+Sappiate che siete amata da
+<3:05>Lezard Valeth!!<3:ff><12:d60a><17:3c00>
+@@ 46
+<19:0000>Valkyrie
+<18>「<3:03>Assurdo<3:0c>・・・<3:ff>!!<12:d70a><17:3c00>
+@@ 47
+<19:0100>Lezard
+「<18><3:03>Ci rivedremo<3:0e>, <3:04>
+mia dolce・・・<17:7800>
+@@ 48
+<19:ffff>Valkyrie
+「<18><3:08>Non puoi davvero credere<3:28><3:08>
+che l'amore possa esistere <3:50>tra<3:07>
+gli umani e gli dei!<17:5a00>
+@@ 49
+<5><18><3:08>Non avete <3:09>proprio idea <3:08>
+<5>di cosa siate, vero?<17:7800>

@@ -1,0 +1,124 @@
+# Valkyrie Profile scene 0x124 (-): 44 records, directory word 3902, package sectors 187827..187956 of VALKYRIE.BIN
+
+@@ 14
+<19:0100>Bellion
+「Maestro Lezard, mi
+dispiace... sono troppi
+a darci la caccia.
+@@ 15
+<19:0000>Lezard
+「Niente panico,
+Bellion.
+@@ 16
+<19:0000>Lezard
+「Tu vai avanti. Non lasciare
+che si riprendano la donna!
+@@ 17
+<19:0100>Bellion
+「Sì, maestro!
+@@ 18
+<19:0000>Lezard
+「<18><3:04>Io sono colui che ha affidato la sua anima
+all'eterno vortice del tempo.<12:af0a><17:3c00>
+@@ 19
+<19:0000>Lezard
+「<18><3:03>Voi mi conoscete!<3:1e> <3:04>E se non è così,
+v'insegnerò io a conoscermi!<3:32>!<3:08><3:08><12:b00a><17:3c00>
+@@ 20
+<19:0000>Lezard
+<18><3:0a>「<3:04>Sarà inciso sulla<3:10> <3:05>
+vostra stessa anima.<3:28> <3:05>Lezard Valeth!!<12:b10a><17:3c00>
+@@ 21
+<19:0000>Lezard
+<18><3:0a>「<3:03>Se accetterete il marchio di
+Hel su di voi,<3:14> <3:04>le vostre sanzioni
+saranno a loro volta ridotte.<12:b20a><17:3c00>
+@@ 22
+<19:0000>Lezard
+「<18><3:03>...vi concederò la
+liberazione della vostra anima<3:14>,<3:03> e
+verrete ora<3:0c> <3:05>davanti a me<3:ff>!!<17:3c00>
+@@ 23
+<19:0000>Lezard
+「Che diritto avete voi, burattini,
+di attaccare un umano?
+@@ 24
+<19:0000>Lezard
+「Temo che questo folle
+piccolo intermezzo sia finito.
+@@ 25
+<19:ffff>Elfo
+「Alt!
+@@ 26
+Kashell
+「<18><3:04>Sei forse un filo d'erba<3:28>,<3:03>
+portato dal vento?!<17:7800>
+@@ 27
+Celia
+「<18><3:03>Sembra una frase di Arngrim.<17:4600>
+@@ 28
+Aelia
+「<18><3:03>Io mi vedo più come
+un salice.<17:7800>
+@@ 29
+Kashell
+「<18><3:08>Ah!<3:0a> Figurati!<17:4600>
+@@ 30
+<19:0100>Celia
+「Riuscirò a sconfiggere
+Grey da sola<3:0c>...<3:ff>?
+@@ 31
+<19:ffff>Lezard
+「Proprio così.<17:6400>
+@@ 32
+<19:ffff>Mystina
+「Cosa...? Non può essere!<17:a000>
+@@ 33
+<19:ffff>Lezard
+「Oh<3:28>, <3:ff>davvero?<17:9600>
+@@ 34
+<19:ffff>Mystina
+「<3:0c>Argh, <3:ff>quegli elfi mi fanno incazzare<3:1e>!<3:ff>
+Ma chi si credono di essere<3:14>,<3:ff> poi?<17:c800><page>
+Non escono mai da quella maledetta foresta<3:14>,<3:ff>
+e se ne stanno sempre per conto loro<3:28>.<3:ff>
+Vorrei che tutti quanti<3:14>...<3:ff>
+andassero a strisciare in un buco a crepare!<17:1801>
+@@ 35
+<19:ffff>Lezard
+「Oh cielo, sarebbe
+davvero un guaio.<17:b400>
+@@ 36
+<19:ffff>Mystina
+「Ah sì<3:1e>?<3:ff> Perché?<17:9600>
+@@ 37
+<19:ffff>Lezard
+「Sai di cosa sono
+responsabili gli elfi, vero?<17:0401>
+@@ 38
+<19:ffff>Mystina
+「Sì, sì, proteggono Yggdrasil,<17:5e01><page>
+lo so. Se l'Albero del Mondo
+appassisse e morisse, morirebbe anche il mondo.<17:a401>
+@@ 39
+<19:ffff>Lezard
+「Esatto<3:28>.<3:ff> I più non lo sanno.<17:c800>
+@@ 40
+<19:ffff>Mystina
+「Hmph. Non so tu, ma io
+a teologia ascoltavo.<17:9600>
+@@ 41
+<19:ffff>Lezard
+「Ascoltami e basta, ti prego<3:32>.<3:ff><17:8c00><page>
+Durante lo sviluppo dei miei
+omuncoli ho scoperto qualcosa
+di molto interessante...<17:2c01>
+@@ 42
+<19:ffff>Mystina
+「Qualcosa di...
+interessante?<17:7800>
+@@ 43
+Lezard
+「Gli dei hanno bisogno degli elfi per camminare
+su Midgard. In parole povere,
+sono i recipienti degli dei.<17:cc01>

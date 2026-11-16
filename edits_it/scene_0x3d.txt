@@ -1,0 +1,157 @@
+# Valkyrie Profile scene 0x3d (-): 51 records, directory word 3671, package sectors 161940..162136 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Fuyuki
+「<3:0c>・・・<3:ff>Yumei?
+@@ 15
+<19:ffff>Yumei
+「Sei sorpreso<3:1e>?<3:ff>
+Non sono umana.
+@@ 16
+<19:ffff>Fuyuki
+「Io<3:14>... <3:ff>Io non<3:0c>...
+@@ 17
+<19:ffff>Yumei
+「Dovresti allontanarti dalla riva<3:1e>.<3:ff>
+L'Oouzu sta per arrivare.
+@@ 18
+<19:ffff>Fuyuki
+「E tu?
+@@ 19
+<19:ffff>Fuyuki
+「<3:0c>・・・<3:ff>Volevi il Lapislazzuli Ceruleo
+per poter vedere tuo padre?
+@@ 21
+<19:ffff>Fuyuki
+「Sono un po' deluso<3:1e>. <3:ff>
+Sembra che tu non ti fidassi di me,
+quando volevo solo aiutarti.
+Per questo ho cercato in tutta la città
+notizie sul Lapislazzuli.
+@@ 22
+<19:ffff>Yumei
+「Ti sbagli.
+@@ 23
+<19:ffff>Fuyuki
+「Eh?
+@@ 24
+<19:ffff>Yumei
+「È vero・・・<3:1e>,<3:ff>
+volevo vedere mio padre.
+Ma non è quello
+che avrei desiderato.
+@@ 25
+<19:ffff>Fuyuki
+「Allora... Perché?
+@@ 26
+<19:ffff>Yumei
+「Mia madre<3:0c>... <3:ff>
+È morta da poco.
+@@ 27
+<19:ffff>Yumei
+「Da quando mia madre mi ha dato alla luce<3:1e>, <3:ff>
+figlia di un umano,
+è stata emarginata dalle altre sirene.
+Neanche quando è morta l'ha pianta nessuno<3:28>.<3:ff>
+<3:0c>・・・<3:ff>Io non riuscivo a piangere.<page>
+Ogni volta che volevo piangere,
+tutti mi guardavano con quegli
+occhi gelidi<3:0c>...e non ci riuscivo<3:28>.<3:ff>
+Ma non era solo questo<3:0c>...
+@@ 28
+<19:ffff>Yumei
+「Non sorridevo quando ero felice.
+@@ 29
+<19:ffff>Yumei
+「Non piangevo quando ero triste.
+@@ 30
+<19:ffff>Yumei
+「Non mi rendevo conto che
+avevo rinunciato del tutto a vivere.
+@@ 31
+<19:ffff>Yumei
+「Ero proprio una sciocca.
+@@ 32
+<19:ffff>Yumei
+「Almeno,
+volevo far piangere mio padre.
+@@ 33
+<19:ffff>Yumei
+「Il mio desiderio sarebbe stato<3:14>...<3:ff>
+che mio padre, mia madre e io potessimo
+vivere insieme come una famiglia<3:0c>...
+@@ 34
+<19:ffff>Yumei
+「Ma non è giusto...
+Ora loro stanno insieme
+senza di me<3:0c>...
+@@ 35
+<19:ffff>Fuyuki
+「<3:0c>・・・<3:ff>Yumei<3:14>,<3:ff>
+ti prego, non farlo!
+@@ 36
+<19:ffff>Yumei
+「Addio, Fuyuki<3:28>. <3:ff>
+Mi dispiace averti mentito.
+@@ 37
+<19:ffff>Yumei
+「<3:0c>・・・<3:ff> Non riuscivo a piangere.<3:ff>
+Ogni volta che volevo piangere,
+tutti mi guardavano con odio...
+e non ci riuscivo.
+Ma non era solo questo<3:0c>...
+@@ 38
+<19:ffff>Yumei
+「Ero proprio una sciocca.
+@@ 39
+<19:ffff>Fuyuki
+「Anch'io sono stato uno sciocco.
+Perché non l'ho fermata<3:0c>?
+@@ 40
+<19:ffff>Fuyuki
+「Che<3:14>...<3:ff>Che cos'è<3:0c>!?
+@@ 41
+<5><3:04>Quando una gemma cerulea è nel palmo di un giovane<3:78>
+<5><3:04>Quando due sconosciuti si aprono il cuore<3:3c>
+<5><3:04>E quando due cuori si uniscono in uno<3:3c>
+<5><3:04>Allora la leggenda è davvero rinata<3:b4>
+<5><3:04>  La Leggenda del Lapislazzuli Ceruleo<7:0b>-<7:01>
+@@ 42
+<5><3:14><3:00><18><12:290a>Fuyuki, se trovassi il Lapislazzuli Ceruleo
+<5>che cosa desidereresti<3:fa>?<3:3c>
+<5><3:00><18>Una splendida barca nuova?<12:2a0a><3:b4>
+<5><3:00><18>No!!<12:2b0a><3:78>
+<5><3:00><18>Stare insieme?<12:2c0a><3:d2>
+<5><3:00><18>Dovrei desiderare la salvezza di Yumei?<3:b4>
+<5><3:00><18>Ecco!<12:2d0a><3:b4>
+<5><3:00><18>Ma...<12:2e0a><3:5a>
+<5><3:00><18>Che cosa desiderava Yumei...?<12:2f0a><17:2c01>
+@@ 43
+<19:ffff>Fuyuki
+「<18><3:04>Lapislazzuli<3:14>!
+<3:03>Esaudisci il desiderio del mio cuore!<17:7800>
+@@ 44
+<19:ffff>Fuyuki
+「<18><3:04>Io<3:3c> <3:04>desidero<3:1e> <3:04>che Yumei <3:03>possa stare
+di nuovo con i suoi genitori<7:0b>-<7:01><17:7800>
+@@ 45
+<5><3:05>Il mare non si calmò.<3:78>
+<5><3:05>Yumei non tornò.<3:78>
+<5><3:05> Ma il ragazzo restò seduto, paziente<7:0b>-<7:01><3:78>
+<5><3:05>a fissare l'oceano.<17:6801>
+@@ 46
+<5><3:05>Il suo desiderio fu esaudito.<3:78>
+<5><3:05>Ma non c'era alcuna prova.<17:2c01>
+@@ 47
+<5><3:05>E così<7:0b>-<7:01><3:78>
+<5><3:05>Fuyuki decise di credere ancora una volta.<3:b4>
+<5><3:05>Di credere che Yumei fosse felice,
+<5>insieme alla sua famiglia, per sempre.<17:6801>
+@@ 48
+<19:ffff>Yumei
+「Fuyuki, mi dispiace<3:0c>...
+@@ 49
+<19:ffff>Yumei
+「Chi<3:0c>...?
+@@ 50
+<5><3:00>Hai trovato Fragment of Lapis Gem.

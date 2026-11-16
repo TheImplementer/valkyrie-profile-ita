@@ -1,0 +1,60 @@
+# Valkyrie Profile scene 0x3ec (-): 28 records, directory word 4614, package sectors 279422..279570 of VALKYRIE.BIN
+
+@@ 14
+<19:0100>Valkyrie
+<3:04>「<18>Loki!<12:e90b><17:7800>
+@@ 15
+<19:0000>Loki
+<18><3:14>「<3:04>Alla fine<3:14> <3:03>ti sei fatta viva<3:32>.<3:03>
+Ma è <3:04>trop<3:03>po tardi<3:28>.<3:03>
+<3:05>Odino è caduto, e<3:0c> <3:04>nessuno può più fermarmi.<12:ea0b><17:7800>
+@@ 16
+<19:0000>Loki
+<3:03>「<18>E men che meno<3:04> le<3:14> <3:04>patetiche pedine
+di<3:0f> <3:04>Odino<3:0a> <3:04>come te<3:0c>・・・<3:03>
+Ah ah ah ah ah ah!<12:eb0b><17:7800>
+@@ 17
+<19:0100>Valkyrie
+<3:03>「<18>Maledetto!<12:ec0b><17:7800>
+@@ 18
+<19:0000>Loki
+<3:03>「<18>Ah.<3:3c> <3:04>Perché mi odi tanto<3:3c>?<3:04>
+Solo perché ho ucciso<3:0f> <3:04>quell'umano<3:0c>・・・<12:ed0b><17:7800>
+@@ 19
+<19:0000>Loki
+<3:03>「<18>Pazienza.<3:3c> <3:03>Ora hai<3:03> l'occasione<3:0f> <3:03>di<3:0a> <3:03>combattermi<3:32>.<3:03>
+Forse allora<3:0a> <3:04>ti sentirai<3:0a> <3:04>in pace.<17:7800>
+@@ 20
+<19:0000>Loki
+<3:03>「<18>Dunque<3:0a> <3:03>anche con la spada<3:0f> <3:03>"Levantine"<3:14>,<3:04>
+è tutto<3:0a> <3:03>ciò che sai fare?!<12:f30b><17:7800>
+@@ 21
+<19:0000>Loki
+<3:03>「<18>Ah<3:2d>,<3:04> è il meglio che sai fare?!<12:f30b><17:7800>
+@@ 22
+<19:0100>Valkyrie
+「<3:0c>・・・<3:03><18>Cosa <3:02>hai detto!?<12:f40b><17:7800>
+@@ 23
+<19:0000>Loki
+<3:04>「<18>Non<3:0a> <3:04>puoi usare il tuo<3:0a> <3:05>pieno potere<3:14>
+<3:03>perché i tuoi<3:04> amici sono qui.<12:f50b><17:7800><page>
+<3:04><18>Odino è morto<3:0a> <3:04>per proteggere<3:0f> <3:04>Freya<12:f60b><3:28>.<3:03>
+<18>Lenneth<3:32>!<3:03>
+E tu?<12:f70b><17:7800><page>
+<3:03><18>Se <3:04>usi<3:03> il vero <3:04>potere<3:0a> <3:03>dei
+Tesori Divini,<3:28> <3:03>il sangue degli <3:04>eroi<3:03>
+macchierà<3:0f> <3:06>le tue stesse mani.<12:f80b><17:7800>
+@@ 24
+<19:0000>Loki
+<3:03>「<18>Io<3:19> <3:05>vivo solo per me stesso<12:f90b><3:3c>.<3:03>
+<18>Anche impugnando i <3:04>Tesori Sacri<3:32>,
+<3:04>la tua pietà si rivelerà<3:0a> <3:04>la tua<3:0a> <3:06>rovina.<12:fa0b><17:7800>
+@@ 25
+<19:0100>Valkyrie
+<3:03>「<18>No<3:28>, <3:05>non<3:0a> <3:04>fallirò!<12:fb0b><17:7800>
+@@ 26
+<19:0000>Loki
+<3:04>「<18>Hai<3:0f> <3:05>già<3:0f> <3:04>fallito!<12:fc0b><17:7800>
+@@ 27
+<19:0100>Valkyrie
+<3:04>「<18>Mai!<17:3c00>

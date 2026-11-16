@@ -1,0 +1,27 @@
+# Valkyrie Profile scene 0x3a (Pleiades Shrine): 21 records, directory word 3668, package sectors 161576..161703 of VALKYRIE.BIN
+
+@@ 14
+<5><18><3:05>Minayo, <3:03>ti prego, dammi forza!<3:1e>
+<3:03><5>Per i tuoi genitori, che mi hanno cresciuta<3:14>,
+<3:03><5>voglio dimostrarmi degna
+<3:03><5>del potere che sarebbe spettato
+<3:03><5>a te di diritto!<17:b400>
+@@ 15
+<19:ffff>Padre adottivo
+「Oh!
+@@ 16
+<19:ffff>Madre adottiva
+「Nanami!
+@@ 17
+<19:ffff>Minayo
+「Onorati genitori,
+vi prego, accettate questo.
+@@ 18
+<5><3:00>Hai trovato Dragonbane.
+@@ 19
+<19:ffff>Minayo
+「Non dimenticherò mai quel
+che hai fatto per me, Nanami<3:1e>.<3:ff>
+Prego per un tuo viaggio sicuro.
+@@ 20
+<5>Santuario delle Pleiadi

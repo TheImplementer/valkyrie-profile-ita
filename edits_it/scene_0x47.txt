@@ -1,0 +1,129 @@
+# Valkyrie Profile scene 0x47 (-): 48 records, directory word 3681, package sectors 162916..163013 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Fuyuki
+「È inutile<3:1e>.
+<3:ff>Oggi non prenderemo proprio niente!
+@@ 15
+<19:ffff>Padre
+「I tonnetti sono un
+po' in ritardo quest'anno.
+@@ 16
+<19:ffff>Padre
+「Che c'è?
+@@ 17
+<19:ffff>Fuyuki
+「Papà<3:28>,<3:ff> hai appena sentito
+qualcuno gridare?
+@@ 18
+<19:ffff>Padre
+「Cosa<3:1e>?<3:ff>
+Qui, in mezzo all'oceano?
+@@ 19
+<19:ffff>Fuyuki
+「Ascolta, eccolo di nuovo!
+@@ 20
+Yumei
+「Aiutatemi!
+@@ 21
+<19:ffff>Padre di Fuyuki
+「Stai bene?
+@@ 22
+<19:ffff>Yumei
+「<3:0c>・・・<3:ff>Sì.
+@@ 23
+<19:ffff>Padre di Fuyuki
+「Mi hai spaventato, ragazzina<3:14>. <3:ff>
+Che ci fai qui fuori?
+Potevi annegare!
+@@ 24
+<19:ffff>Yumei
+「La mia nave... è affondata.
+@@ 25
+<19:ffff>Padre di Fuyuki
+「Affondata<3:1e>?<3:ff>
+Che ne è stato degli altri<3:28>!?<3:ff>
+Dove sono gli altri sopravvissuti?
+@@ 26
+<19:ffff>Yumei
+「<3:0c>・・・<3:ff>Non lo so.
+@@ 27
+<19:ffff>Padre di Fuyuki
+「<3:0c>・・・
+@@ 28
+<19:ffff>Padre di Fuyuki
+「Allora<3:0c>...<3:1e> <3:ff>Come ti chiami?
+@@ 29
+<19:ffff>Yumei
+「<3:0c>・・・<3:ff>Yumei.
+Significa "sogno".
+@@ 30
+<19:ffff>Padre di Fuyuki
+「Fuyuki<3:1e>,<3:ff>
+perché sei così silenzioso?
+@@ 31
+<19:ffff>Fuyuki
+「Eh<3:28>?<3:ff> Io<3:0c>...<3:ff> ecco<3:0c>...
+@@ 32
+<19:ffff>Fuyuki
+「Ehm<3:14>, <3:ff>comunque, mi sa che oggi non
+prenderemo niente<3:14>.<3:ff>
+Non sarebbe meglio tornare al porto?
+@@ 33
+<19:ffff>Padre di Fuyuki
+「Mmm<3:14>.
+<3:ff>Eh, probabile che tu abbia ragione.
+@@ 34
+<19:ffff>Yumei
+「Sapete cos'è un lapislazzuli?
+@@ 35
+<19:ffff>Padre
+「Lapislazzuli<3:28>?<3:ff>
+Intendi la pietra preziosa?
+@@ 36
+<19:ffff>Yumei
+「Esatto<3:1e>.<3:ff>
+Ma questo non è uno comune<3:1e>.<3:ff>
+È speciale<7:0b>-<7:01>
+@@ 37
+<19:ffff>Padre
+「Ah<3:14>,<3:ff> parli del Lapislazzuli Ceruleo<3:1e>!<3:ff>
+Sì, lo conosco<3:1e>.<3:ff>
+Ogni marinaio che si rispetti lo conosce.
+@@ 38
+<19:ffff>Yumei
+「Allora è vero che esaudisce i desideri<3:14>?<3:ff>
+Se solo potessi trovarlo<3:0c>・・・
+@@ 39
+<19:ffff>Padre
+「Eh. Mi spiace dirtelo, ragazzina,
+ma non esiste davvero.
+È solo una delle solite storie di comari.
+@@ 41
+<19:ffff>Padre
+「Scusa, piccola...
+non volevo turbarti.
+C'è qualcosa che non va?
+@@ 42
+<19:ffff>Yumei
+「No<3:0c>...<3:ff> Non è niente.
+@@ 43
+<5><3:04>Il Lapislazzuli Ceruleo è solo un mito<3:28>?
+<5><3:04>Ma se è davvero così<3:0c>...<17:f000>
+@@ 44
+<19:ffff>Yumei
+「Cos'è stato!?<3:0c>
+@@ 45
+<19:ffff>Fuyuki
+「Non lo sai<3:14>?
+<3:ff>È l'Oouzu.
+@@ 46
+<19:ffff>Yumei
+「Il<3:0c>...<3:ff> O-o-u-zu?
+@@ 47
+<19:ffff>Fuyuki
+「Quando le correnti cambiano,
+il mare può diventare un enorme vortice.<page>
+Quel tremito che hai sentito
+è solo la barca che cambia rotta<3:14>.<3:ff>
+Non c'è niente di cui preoccuparsi.

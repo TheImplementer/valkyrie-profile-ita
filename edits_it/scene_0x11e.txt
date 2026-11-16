@@ -1,0 +1,126 @@
+# Valkyrie Profile scene 0x11e (-): 39 records, directory word 3896, package sectors 187044..187141 of VALKYRIE.BIN
+
+@@ 14
+<19:0100>Bellion
+「Il maestro Lezard mi ha ordinato
+di tenerti d'occhio.
+@@ 16
+Elfa
+(TOGLIMI LE CATENE.)<17:b400>
+@@ 17
+Elfa
+(Sì, proprio così.)<17:9600>
+@@ 18
+<19:0100>Bellion
+「GHAAAAAH!!!
+@@ 19
+Elfa
+(Argh<3:0c>...<3:08>Qu<3:0c>... <3:ff>
+questo non doveva
+succedere<3:0c>...<3:08>)<17:b400>
+@@ 20
+<19:0100>Lezard
+「Sono arrivato in tempo?
+@@ 21
+<19:0100>Lezard
+「Immaginavo che l'avresti capito.<page>
+Esatto<3:1e>.<3:ff> Questo costrutto è un
+omuncolo... una forma di vita artificiale.
+@@ 22
+<19:0000>Elfa
+「Un omuncolo<3:0c>...<3:08>
+@@ 23
+<19:0100>Lezard
+「Che marionetta impertinente
+sei<3:0c>...<3:ff> Cos'era quello,
+una specie di incantesimo di seduzione?
+Ma, come hai visto, la stessa
+trama della psiche di un omuncolo
+è diversa da quella degli umani.<page>
+Ecco perché il povero
+Bellion è impazzito, temo.
+Eh eh<3:1e>,<3:ff> che sfortuna per te.
+@@ 24
+<19:0100>Lezard
+「Oppure<3:0c>...<3:06> eh eh eh<3:ff>.
+Forse sei ancora più impertinente
+di quanto pensassi.
+Hai usato il tuo incantesimo sperando
+in un po' di... azione?
+@@ 25
+<19:0000>Elfa
+「Co<3:1e>...<3:ff> come osi!!<3:ff>
+@@ 26
+<19:0100>Lezard
+「Come immaginavo. Se provocata,
+sai parlare la lingua degli uomini.
+Beh, pazienza.<page>
+Certo, se un umano si accoppiasse
+con una di voi elfi, non sarebbe
+molto diverso da una tresca
+con una bambola.
+@@ 27
+<19:0100>Lezard
+「Ma allora<3:28>,<3:ff> visto che Bellion è un
+omuncolo, voi due marionette sareste
+perfette l'una per l'altra<3:3c>!<3:ff>
+A<3:08>h<3:ff> h<3:08>a<3:ff> h<3:08>a<3:ff> h<3:08>a<3:ff> h<3:08>a<3:ff> h<3:08>a<3:ff>!
+@@ 28
+<19:0000>Elfa
+「<3:05>Va' all'inferno<3:0c>!<3:ff>
+@@ 29
+<19:0100>Lezard
+「Eh<3:28>.<3:ff> Ti offende
+essere chiamata marionetta<3:32>?<3:ff>
+Allora forse dovrei chiamarti...
+<7:0b>-<7:01>Recipiente degli Dei.
+@@ 30
+<19:0000>Elfa
+「...!!!!
+@@ 31
+<19:0100>Lezard
+「Sorpresa, mia cara?
+Allora ascolta bene.
+Ho trovato la
+"Pietra Filosofale".
+Persino tu devi sapere cos'è.
+@@ 32
+<19:0000>Elfa
+「<3:05>La Pietra... Filo...sofale<3:0c>...<3:ff>!!
+@@ 33
+<19:0100>Lezard
+「Tuttavia, la saggezza sigillata nella
+Pietra non si lascia carpire così
+facilmente. Purtroppo le leggende
+erano un po' imprecise<3:14>...<3:ff>
+la Pietra non trasmette tutto il
+sapere del mondo in un istante.
+@@ 34
+<19:0000>Elfa
+「Come ha fatto un demonio
+come te...!!
+@@ 35
+<19:0100>Lezard
+「Silenzio<3:0c>,<3:ff> marionetta!!
+Smettila di appropriarti
+della lingua degli uomini!
+@@ 36
+<19:0000>Elfa
+「Argh<3:0c>...<3:ff>
+@@ 37
+<19:0100>Lezard
+「Sarà stata forse irriverenza, a suo
+modo, ma la prima cosa che mi disse
+la Pietra fu questa...
+Tutto ciò che pretende di essere "il Tutto"
+non è altro che un inganno<3:1e>, <3:ff>disse.<page>
+Eppure, la mia ricerca della Pietra
+è valsa davvero la pena.<page>
+Diventerai un sacrificio,
+un sacrificio per appagare
+tutti i miei desideri!
+@@ 38
+Lezard
+「<18><3:03>Se uso un elfo come catalizzatore<3:32>,<3:03>
+potrò creare
+il recipiente supremo<3:0c>...<3:ff><17:7800>

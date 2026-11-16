@@ -1,0 +1,58 @@
+# Valkyrie Profile scene 0x18 (-): 28 records, directory word 3634, package sectors 157965..158118 of VALKYRIE.BIN
+
+@@ 14
+<19:0100>Valkyrie
+<3:04>「<18>Il Valhalla è<3:0c>・・・<12:ca0b><17:7800>
+@@ 15
+<19:0000>Frei
+<3:04>「<18>Loki ha rubato<3:03> la Sfera!<12:cb0b><17:7800>
+@@ 16
+<19:0100>Valkyrie
+<3:04>「<18>La Sfera?<12:cc0b><17:7800>
+@@ 17
+<19:0000>Frei
+<3:03>「<18>Sì<3:1e>.<3:03> La Sfera del Drago<3:0a> <3:03>che <3:04>il sommo Odino<3:03>
+ha portato via da Midgard per prepararsi
+all'arrivo del Ragnarok.<3:28>
+<3:03>Ci ha <3:04>traditi!<17:7800>
+@@ 19
+<19:0000>Frei
+<3:04>「<18>Devi andare da Odino<3:3c>.<3:04>
+La guerra non va bene<3:3c>.<3:04>
+Freya è già là.<17:7800>
+@@ 20
+<5><3:00><7:08>-<7:01>I Quattro Tesori <7:08>-<7:01><17:7800>
+@@ 21
+<5><3:05>I Quattro Mondi situati tra i rami
+<5>dell'Albero del Mondo, Yggdrasil:<3:3c>
+<3:00>
+<5>Il mondo degli uomini, Midgard<3:78>
+<3:00><5>Il mondo degli dei, Asgard.<3:78>
+<3:00><5>Il mondo degli elfi, Alfheim.<3:78>
+<3:00><5>Il gelido Oltretomba, Nifleheim.<17:a000>
+@@ 22
+<5><3:05>Ogni regno possiede
+<5>un Tesoro che ne garantisce la pace.<17:7800>
+@@ 23
+<5><3:05>È la Sfera del Drago
+<5>che ha portato
+<5>stabilità al regno degli uomini, Midgard.<12:ce0b><17:7800>
+@@ 24
+<19:0000>Frei
+<3:03>「<18>Credo che il sommo Odino <3:04>mi<3:03>rasse a prendere
+due piccioni <3:02>con<3:03> una fava.<12:cf0b><17:7800><page>
+<3:04><18>La Sfera ha grandi poteri<3:32> <3:03>e senza di essa
+Midgard cadrà nel Caos.<3:28>
+<3:03>E questo renderebbe anche
+il tuo compito più facile,
+Lenneth<3:0c>...<12:d00b><17:7800>
+@@ 25
+<19:0100>Valkyrie
+「<3:0c>・・・<3:04><18>Smettila!<12:d10b><17:7800>
+@@ 26
+<19:0000>Frei
+「<3:0c>・・・<3:28>?<3:03>
+<18>Perché dici così, Lenneth?<12:d20b><17:7800>
+@@ 27
+<19:0100>Valkyrie
+「<3:0c>・・・<3:04><18>Niente<3:32>,<3:03> lascia perdere.<17:7800>

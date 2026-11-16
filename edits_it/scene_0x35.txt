@@ -1,0 +1,86 @@
+# Valkyrie Profile scene 0x35 (-): 33 records, directory word 3663, package sectors 161067..161132 of VALKYRIE.BIN
+
+@@ 14
+<19:0100>Geena
+「Ehi!<3:28>!<3:ff>
+E il tuo lavoro?!
+@@ 15
+<19:0000>Badrach
+「Lavoro<3:28>?<3:ff>
+Credi che non sappia
+quello che faccio?
+Non svegliarmi mai più a quest'ora<3:0c>・・・<3:ff>
+da cani.
+@@ 16
+<19:0100>Geena
+「Ma che fai!!<page>
+Esci a prendere un po' di sole
+o diventerai un fungo.
+E poi, pelandrone che non sei altro,
+io devo fare le pulizie!
+@@ 17
+<19:0000>Badrach
+「Bah<3:1e>, <3:ff>va bene, va bene<3:28>.<3:ff>
+Vecchia guastafeste!
+@@ 18
+<19:0000>Badrach
+「In momenti come questo, non sembra
+neanche che ci sia una guerra in corso.
+@@ 19
+<19:0100>Geena
+「<3:0c>・・・ <3:ff>Non so
+di cosa tu stia parlando.<page>
+Ehi, tu,
+hai visto il fiore che
+cresce davanti a casa?
+@@ 20
+<19:0000>Badrach
+「Fiore<3:32>?<3:ff>
+Intendi quella vecchia cosa verde e brutta?
+Ah già<3:28>,<3:ff>
+volevo chiedertelo.<page>
+Ma quando diavolo
+fiorirà questo coso<3:32>?<3:ff>
+Non credo che succederà mai.
+@@ 21
+<19:0100>Geena
+「Questa è una varietà di cactus.
+@@ 22
+<19:0000>Badrach
+「Eh<3:1e>? <3:ff>Cactus?
+@@ 23
+<19:0100>Geena
+「Fiorisce solo una notte al mese,
+e solo per poche ore.
+@@ 25
+<19:0100>Geena
+「Non lo vedrai se
+dormi, ma
+in compenso,
+se esprimi un desiderio quando i fiori
+sbocciano, si avvererà.
+@@ 26
+<19:0000>Badrach
+「Ah, ho capito<3:0c>・・・<3:ff><page>
+Ecco perché ti prendi cura
+di questo rottame, eh.
+@@ 27
+<19:0100>Geena
+「Rottame!
+@@ 28
+<19:0000>Badrach
+「Ti servono così tanto i soldi?
+@@ 29
+<19:0100>Geena
+「Sciocco<3:32>!<3:ff>
+Io prego che questa orribile guerra
+finisca presto.
+@@ 30
+<5><3:00>Che branco di sciocchi.<17:a000>
+@@ 31
+<19:0000>Badrach
+「Beh<3:1e>, <3:ff>sono distrutto.
+Vado a dormire.
+@@ 32
+<19:0100>Geena
+「Ma tu<3:0c>・・・<3:ff>

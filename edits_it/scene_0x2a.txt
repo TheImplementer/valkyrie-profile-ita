@@ -1,0 +1,117 @@
+# Valkyrie Profile scene 0x2a (Church): 47 records, directory word 3652, package sectors 160099..160323 of VALKYRIE.BIN
+
+@@ 14
+<19:0000>Kashell
+「Usano una spada come catenaccio?
+@@ 15
+<19:0100>Kashell
+「Questa lama<3:0c>...<3:ff>
+@@ 16
+<19:0100>Kashell
+「Ehi, riesci a leggere questa scritta?
+@@ 17
+<19:0000>Celia
+「Sono antiche rune<3:1e>!<3:ff>
+Santo cielo<3:1e>...<3:ff> sono incise lungo
+tutta la lama<3:0c>...<3:ff>
+@@ 18
+<19:0000>Celia
+「"Contempla la Grand Sting, forgiata
+dallo splendore stesso del cielo azzurro.
+Per il suo potere<3:1e> <3:ff>il male assoluto
+di questo luogo è racchiuso."
+@@ 19
+<19:0100>Kashell
+「<3:0c>...<3:ff>Il male assoluto?
+@@ 20
+<18><3:03>Non aveva idea di cosa
+stesse succedendo<3:0d>.<3:03>
+Mi chiedeva sempre di
+suo fratello e roba così.<17:5000>
+@@ 21
+<18><3:03>L'ho salvata solo per far
+incazzare i mercanti di schiavi<3:14>,<3:02>
+ma che rompiscatole
+che era.<17:3c00>
+@@ 22
+<18><3:03>Le ho detto che era casa mia,
+e lei mi ha creduto<3:28>.<3:03>
+Anche se c'era una bella
+croce enorme e tutto il resto.<17:5000>
+@@ 23
+<18><3:06>Ah<3:14>.<3:03>
+Forse dovevo dirti che l'ho
+salvata e l'ho portata fino<3:02> all'orfanotrofio
+perché mi faceva pena<7:0b>-<7:01><17:f000>
+@@ 24
+<19:0000>Kashell
+「Questa è la mia spada<3:0c>・・・<3:ff>
+È stata Celia?
+@@ 25
+Valkyrie
+「Così pare.
+@@ 26
+<19:0000>Kashell
+「Anche se la porto con me,
+non verrò punito?
+@@ 27
+<5><3:00>Hai trovato Vainslayer.
+@@ 28
+<19:0100>Badrach
+「<3:0c>・・・<3:ff>Insomma, perché mi porti
+in un posto come questo?
+@@ 30
+<19:0100>Badrach
+「C'è qualcuno.
+@@ 31
+<19:0100>Badrach
+「Ehi<3:1e>!<3:ff>
+Cosa vuoi fare di me!
+@@ 32
+<19:0100>Badrach
+「Ah<3:0c>・・・<3:ff>
+@@ 33
+<19:0000>Ragazza
+「<3:0c>・・・<3:ff>Siete il
+cappellano?
+@@ 34
+<19:0100>Badrach
+「Beh<3:1e>, <3:ff>ecco, vedi<3:0c>・・・<3:ff>
+@@ 36
+<19:0100>Badrach
+「Comunque・・・
+@@ 37
+<19:0000>Ragazza
+「Aspettate<3:32>!<3:ff>
+Ehm<3:0c>・・・<3:1e>, <3:ff>io, ecco<3:1e>, <3:ff>
+Posso darvi questo?
+@@ 38
+<19:0100>Badrach
+「<3:0c>・・・<3:ff>Tu, tu・・・
+ti sei ricordata di me.
+@@ 39
+Valkyrie
+「Capisco.
+@@ 40
+<19:0100>Badrach
+「Nemmeno tu sei una persona, ma
+la gente è cattiva, vero?
+@@ 41
+<5><3:00>Hai trovato Handwoven Bandanna.
+@@ 42
+<5>Chiesa
+@@ 43
+<5><7:03>-<7:01>VIETATO ENTRARE<7:03>-<7:01>
+@@ 44
+<6:650d><19:0100>Bambino
+「Questa ragazza,
+cosa le succede?
+@@ 45
+<6:a10d><19:0000>Bambino
+「Smettila.
+Il nonno ha detto che non dobbiamo
+mai aprirla!!
+@@ 46
+<6:a10d><19:ffff>Ragazza
+「I pochi sopravvissuti
+si nascondono in chiesa<3:0c>・・・<3:ff>

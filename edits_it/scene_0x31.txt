@@ -1,0 +1,25 @@
+# Valkyrie Profile scene 0x31 (-): 19 records, directory word 3659, package sectors 160757..160924 of VALKYRIE.BIN
+
+@@ 14
+<5><3:08>Cavolo<3:28>,<3:05> non posso credere a 'sta merda!<17:a000>
+@@ 15
+<19:ffff>Uomo
+「I nobili comprano tutti
+spade nuove, ultimamente.
+Dev'esserci una guerra all'orizzonte.
+@@ 16
+<19:ffff>Uomo
+「Le spade forgiate da me sono affilate come
+le armi degli dei!<page>
+Tuttavia<3:0c>・・・<3:32> <3:ff>
+le armi divine non si smussano né si scheggiano,
+e quindi superano il mio lavoro<3:0c>・・・<3:ff><page>
+Cos'altro ci si può aspettare
+dagli dei?
+@@ 17
+<19:ffff>Uomo
+「Mi dispiace<3:1e>,<3:ff>
+non dovrei bestemmiare.
+Perdonatemi, signorina.
+@@ 18
+<5>Fonderia di Villnore

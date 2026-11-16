@@ -1,0 +1,75 @@
+# Valkyrie Profile scene 0x24 (-): 31 records, directory word 3646, package sectors 159544..159689 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Dolce
+「Grazie agli dei<3:1e>!<3:ff>
+Vi rimetterete.
+Vi prego, perdonatela<3:1e>.<3:ff>
+È solo una bambina.
+@@ 15
+Valkyrie
+「Lei...?
+@@ 16
+<19:ffff>Dolce
+「La ragazza che vi ha lanciato
+quel sasso è mia figlia.
+Anche se non abbiamo
+legami di sangue.
+@@ 18
+<19:ffff>Bambino
+「Zia Dolce!
+@@ 19
+<19:ffff>Lucian
+「Come state oggi, <3:ff>signora Dolce<3:1e>?<3:ff>
+Vi abbiamo portato il guadagno di oggi.
+@@ 20
+<19:ffff>Dolce
+「Oh<3:0f>. <3:ff>Sei tu, Lucian<3:1e>?<3:ff>
+Grazie della tua generosità.
+@@ 21
+<19:ffff>Dolce
+「Oh<3:14>, <3:ff>questa signorina è Meril<3:1e>.<3:ff>
+Oggi, poco fa, Claire...
+l'ha colpita con un sasso.
+@@ 22
+<19:ffff>Lucian
+「Claire?<3:1e>!<3:ff> L'ha fatto Claire<3:28>?<3:ff>
+Non è da lei<3:0c>...
+@@ 23
+<19:ffff>Lucian
+「<3:03>Mi dispiace molto, signora<3:1e>.<3:03>
+Claire è solo un po'<3:0c>...
+@@ 24
+<19:ffff>Lucian
+「Cooosa?!
+@@ 25
+<19:ffff>Dolce
+「Che succede?
+@@ 26
+<19:ffff>Lucian
+「Mi<3:14>...<3:ff> Mi dispiace<3:14>.
+<3:ff>Non è niente.
+@@ 27
+Valkyrie
+「È un piacere conoscerti<3:1e>.<3:ff>
+Lucian<3:14>, <3:ff>giusto?
+@@ 28
+<19:ffff>Dolce
+「Una vecchia decrepita come me
+non ce la fa a vivere da sola.
+Ma posso vivere così
+perché Lucian mi porta dei soldi
+ogni singolo giorno.
+Ma ultimamente
+ho sentito voci che mi turbano.<page>
+Mi chiedo se i miei figli adottivi
+facciano qualcosa di poco onesto
+per procurarsi i soldi<3:0c>...
+@@ 29
+<19:ffff>Dolce
+「<3:0c>・・・<3:ff>Posso aiutarvi
+in qualche modo?
+@@ 30
+<19:0000>Bambino
+「Zia,
+vieni a giocare con me!

@@ -1,0 +1,32 @@
+# Valkyrie Profile scene 0x38 (-): 24 records, directory word 3666, package sectors 161241..161335 of VALKYRIE.BIN
+
+@@ 14
+<19:0100>Badrach
+「Tutto questo<3:0c>・・・<3:32>
+<3:ff>È tutto successo per colpa di quel che ho fatto io.
+@@ 15
+<19:0100>Badrach
+「Cosa!<3:1e>!<3:ff>
+Chi diavolo sei!?
+@@ 16
+<5>Sembri confuso, Badrach.<17:9600>
+@@ 18
+<19:0000>Badrach
+「Eccoti qui!
+@@ 19
+<19:0000>Badrach
+「Ugh<3:0c>・・・<3:32><3:ff>
+Ah<3:0c>・・・<3:ff>!!
+@@ 20
+<19:0100>Assassino
+「Hai esagerato.
+@@ 21
+<19:0000>Badrach
+「Unf<3:1e>, <3:ff>Dannazione!
+@@ 22
+<3:03><18>Questa è una <3:04>varietà<3:0f> <3:04>di<3:0a> <3:04>cactus.<12:630a><3:5a><3:03>
+<18>Fiorisce<3:14> <3:03>solo una notte al mese,<3:1e>
+<3:03>e solo<3:0f> <3:03>per poche ore.<12:690a><17:7800>
+@@ 23
+<3:03><18>Se esprimi un desiderio quando i fiori
+sbocciano,<3:1e> <3:03>si avvererà <7:0b>-<7:01><17:7800>

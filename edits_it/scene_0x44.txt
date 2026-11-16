@@ -1,0 +1,34 @@
+# Valkyrie Profile scene 0x44 (-): 26 records, directory word 3678, package sectors 162655..162804 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Superiore
+「Com'è la situazione altrove?
+@@ 15
+<19:ffff>Samurai
+「Signore<3:1e>,<3:ff>
+l'occupazione della città
+è quasi completata, signore.
+@@ 16
+<19:ffff>Superiore
+「Capisco.
+@@ 17
+<19:ffff>Uomo
+「Ind<3:0c>... <3:ff>Indietro!
+@@ 18
+<19:ffff>Uomo
+「Voi tutti, sbrigatevi!
+Andate via di qui<3:0c>・・・
+@@ 20
+<19:ffff>Uomo
+「No! Non lo farò!
+<3:0c>・・・<3:ff>Non ve li lascerò prendere!
+@@ 22
+<5><3:03>Che cos'è<3:28>?<17:b400>
+@@ 23
+<19:ffff>Superiore
+「Sei stato troppo tenero<3:0c>...
+@@ 24
+<19:ffff>Superiore
+「Suo<3:0c>・・・
+@@ 25
+<3:04><18><5>Andiamo.<17:b400>

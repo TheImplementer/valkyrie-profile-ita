@@ -1,0 +1,95 @@
+# Valkyrie Profile scene 0x51 (To outside): 38 records, directory word 3691, package sectors 163973..164056 of VALKYRIE.BIN
+
+@@ 14
+<19:0000>Arngrim
+「Ha funzionato davvero?
+@@ 15
+<19:0000>Lezard
+「Ah, si sta riprendendo<3:28>. <3:ff>Guardate.
+@@ 16
+<19:0000>Mystina
+「Quindi questa<3:0c>... <3:ff>è la magia della
+trasfusione dell'anima<3:0c>..<3:ff>.
+@@ 17
+<19:0000>Arngrim
+「Allora, Valkyrie
+è al sicuro
+per il momento?
+@@ 18
+<19:0100>Lezard
+「Non è altro che un
+rimedio d'emergenza.
+Non so dire che ne sia
+stato davvero della sua anima;
+questo periodo è critico.
+Per prima cosa, dobbiamo
+recuperare il suo vero involucro
+il prima possibile.
+@@ 19
+<19:0000>Arngrim
+「Senz'altro<3:1e>.<3:ff>
+Quella Valchiria
+di nome "Hrist"<3:0c>...<3:ff>
+@@ 20
+<19:0100>Mystina
+「Esatto! Dobbiamo
+andare ad abbatterla<3:1e>!<3:ff>
+Andiamo...
+Sappiamo dove trovarla!
+@@ 21
+<19:0000>Lezard
+「Il castello di Brahms<3:14>,<3:ff>
+re dei vampiri...<3:3c>?<3:ff>
+Molto bene<3:0c>...<3:ff>
+@@ 22
+<19:ffff>Lezard
+「Bene, dunque, il metodo è
+quello che ho appena descritto.
+@@ 23
+<19:ffff>Mystina
+「Capito.
+@@ 24
+<19:ffff>Arngrim
+「Valkyrie!
+@@ 25
+<19:ffff>Mystina
+「Ha... funzionato?
+@@ 26
+<19:ffff>Lezard
+「Sì, senza dubbio.
+@@ 27
+<19:ffff>Mystina
+「Stai bene?
+@@ 28
+<19:ffff>Mystina
+「<3:0c>...<3:ff>Valkyrie?
+@@ 29
+<19:ffff>Lezard
+「<3:0c>...?<3:ff>
+<3:0c>...<3:ff>Qualcosa sembra
+strano<3:0c>...<3:ff>
+@@ 30
+Valkyrie
+「<3:03>NOOOOOO!!<17:3c00>
+@@ 32
+<19:ffff>Valkyrie
+「Cosa<3:0c>...<3:ff>
+cosa ho fatto<3:0c>...<3:ff>!?
+@@ 33
+<19:ffff>Valkyrie
+「Ah<3:0c>... <3:08>Aaaah!!
+@@ 34
+<19:ffff>Arngrim
+「Ah!!
+Valkyrie!
+@@ 35
+<5>Uscita
+@@ 36
+<6:250d><19:0000>Mystina
+「Scusa, ti dispiacerebbe non irrompere
+qui dentro? Grazie.
+@@ 37
+<6:a20d><19:0000>Allievo anziano
+「Mi dispiace, diventa così
+quando stiamo lavorando
+alla ricerca...

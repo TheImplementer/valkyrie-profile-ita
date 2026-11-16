@@ -1,0 +1,45 @@
+# Valkyrie Profile scene 0x14 (-): 25 records, directory word 3630, package sectors 157475..157582 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Valkyrie
+「<18><3:07>Lucian<3:28>.<3:03> Cos'è ciò
+che ha messo radici così a fondo nella tua anima<3:0a>,<3:03>
+da tormentarti ancora?<17:f000>
+@@ 16
+<19:ffff>Valkyrie
+「<18><3:03>Se non desideri rispondere, ti lascerò in pace<3:14>.
+<3:03>Tuttavia devo ricordarti che non puoi
+accettare la tua morte<3:0a>
+<3:03>finché non avrai lasciato i tuoi affanni terreni.<17:d200>
+@@ 17
+<19:ffff>Valkyrie
+「<18><3:03>Allora, <3:04>Lucian?
+<3:03>Hai deciso di parlare?<17:7800>
+@@ 18
+<19:ffff>Lucian
+「<3:03><18>Verresti<3:06>...<3:03>
+con me in quel villaggio?<17:7800>
+@@ 19
+<19:ffff>Valkyrie
+「<18><3:03>Non ho <3:04>obiezioni<3:0c>...<17:3c00>
+@@ 20
+<19:ffff>Valkyrie
+「<18><3:04>In me vedi un'immagine del tuo
+<3:03>primo amore, quando mi guardi<3:0c>...<17:b400>
+@@ 21
+<19:0000>Valkyrie
+「<18><3:03>Ma c'è un abisso
+<3:03>tra gli uomini e gli dei
+<3:04>che non può essere attraversato.<17:b400>
+@@ 22
+<19:0000>Valkyrie
+「<18><3:04>Perciò non può esservi amore
+tra gli uni e gli altri.<17:b400>
+@@ 23
+<19:0000>Valkyrie
+「<18><3:05>Tuttavia<3:0c>...<17:3c00>
+@@ 24
+Valkyrie
+「<18><3:05>Lucian<3:14>・・・<3:1e>
+<3:03>Spero che tu viva,
+così potremo <3:04>incontrarci di nuovo.<17:b400>

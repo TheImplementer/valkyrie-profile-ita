@@ -1,0 +1,67 @@
+# Valkyrie Profile scene 0x3f (To outside): 31 records, directory word 3673, package sectors 162342..162401 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Fuyuki
+「Mi dispiace, Yumei<3:1e>.<3:ff>
+Ma non ho trovato nessuno
+con il nome di "Koh".
+@@ 15
+<19:ffff>Yumei
+「<3:0c>・・・<3:ff>Grazie per averci provato.
+@@ 16
+<19:ffff>Fuyuki
+「Oh, non c'è di che<3:1e>.<3:ff>
+Mi piace aiutare come posso.
+@@ 17
+<19:ffff>Yumei
+「Comunque, è inutile
+cercare ancora.
+@@ 18
+<19:ffff>Fuyuki
+「Perché no?
+@@ 19
+<19:ffff>Fuyuki
+「Non vuoi vedere tuo padre<3:1e>?<3:ff>
+Non arrenderti!
+@@ 20
+<19:ffff>Fuyuki
+「Il Lapislazzuli<3:0c>・・・<3:ff>
+So che esiste<3:28>.<3:ff>
+Hai detto che avresti provato
+a crederci<7:0b>-<7:01>
+@@ 21
+<19:ffff>Yumei
+「Non esiste nessun Lapislazzuli Ceruleo!
+@@ 22
+<19:ffff>Fuyuki
+「Cosa<3:14>?<3:ff>
+Ma<3:14>,<3:ff> Yumei<3:0c>...<3:ff>
+@@ 23
+<19:ffff>Yumei
+「Il Lapislazzuli non esiste<3:1e>,<3:ff>
+e mio padre è morto!
+@@ 24
+<19:ffff>Fuyuki
+「Yumei<3:0c>...
+@@ 25
+<19:ffff>Yumei
+「Ormai non importa più<3:1e>. <3:ff>
+Ti prego, lasciami in pace.
+@@ 26
+<19:ffff>Fuyuki
+「Aspetta<3:1e>!<3:ff>
+Dove vai!?
+<3:1e><3:ff>Yumei!!
+@@ 27
+<5>Uscita
+@@ 28
+<19:ffff>Jun
+「Conoscete una grotta
+detta "specchio oscuro"?
+@@ 29
+<19:ffff>Locandiere
+「<3:0c><3:ff>Hmmm<3:1e>...<3:ff>
+No, non credo.
+@@ 30
+<19:ffff>Locandiere
+「Desiderate una camera?

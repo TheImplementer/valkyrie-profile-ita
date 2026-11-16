@@ -1,0 +1,57 @@
+# Valkyrie Profile scene 0x45 (-): 26 records, directory word 3679, package sectors 162805..162869 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Padre adottivo
+「Nanami<3:1e>, <3:ff>
+stai meglio?
+@@ 15
+<19:ffff>Nanami
+「Sì<3:1e>, <3:ff>grazie, padre<3:28>.<3:ff>
+Non sono degna della vostra premura.
+@@ 16
+<19:ffff>Padre adottivo
+「Sono felice che tu stia bene,<3:1e> <3:ff>Nanami<3:0c>.<3:ff>
+Ma oggi, ti prego, prendila con calma<7:0a>-<7:01>
+@@ 17
+<19:ffff>Nanami
+「Ma non posso.<page>
+Devo andare al santuario
+per il rito dell'ascensione!
+È mio dovere, è il mio destino
+ereditare il potere.
+@@ 18
+<19:ffff>Padre adottivo
+「<3:0c>・・・
+@@ 19
+<19:ffff>Nanami
+「Stavolta andrà tutto liscio<3:28>.<3:ff>
+Non vi darò più motivo
+di preoccuparvi, onorato padre.
+@@ 20
+<19:ffff>Madre adottiva
+「Nanami è già andata?
+@@ 21
+<19:ffff>Padre adottivo
+「Sì<3:0c>・・・
+@@ 22
+<19:ffff>Madre adottiva
+「Perché l'hai lasciata andare?!<page>
+Non avrai dimenticato
+quale sventura la colpirà
+se porterà a termine
+il rito dell'ascensione!
+@@ 23
+<19:ffff>Madre adottiva
+「Sarà un disastro<3:28>.<3:ff>
+Una ragazza che non è del nostro
+sangue non può aspirare a un tale potere...
+@@ 24
+<19:ffff>Padre adottivo
+「Forse non è del nostro sangue<3:28>,<3:ff>
+ma per noi è sempre stata
+una vera figlia.
+@@ 25
+<19:ffff>Madre adottiva
+「Lo so<3:1e>,
+<3:ff>ma ormai dobbiamo guardare in faccia la verità!
+È così crudele<3:0c>...

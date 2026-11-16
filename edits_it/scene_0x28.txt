@@ -1,0 +1,65 @@
+# Valkyrie Profile scene 0x28 (Town Center): 32 records, directory word 3650, package sectors 159792..159906 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Claire
+「Tutto questo per quattro
+miseri borseggiatori?!
+Hanno mandato mezzo esercito!
+@@ 15
+<19:ffff>Claire
+「Non voglio morire<3:0c>...
+@@ 16
+<19:ffff>Lucian
+「Non potete uccidermi<3:0c>・・・
+@@ 17
+<19:ffff>Claire
+「Lu<7:0b>-<7:01>!!
+@@ 18
+<19:ffff>Lucian
+「Dannazione!!
+@@ 19
+<19:ffff>Lucian
+「<3:06>Ce l'ho fatta fin qui.
+Non bastava?
+@@ 20
+<19:ffff>Claire
+「Perché<3:0c>... <3:ff>Perché...?
+@@ 21
+<19:ffff>Lucian
+「<3:06>Non voglio essere lasciato solo di nuovo...
+Io<3:14>, <3:06>io non so più
+cosa devo fare<3:0c>・・・
+@@ 22
+<19:ffff>Claire
+「Ma che stai dicendo!?
+Non ci penso proprio a scappare
+e a lasciarti qui!!
+@@ 23
+<19:ffff>Lucian
+「<3:06>No<3:1e>...<3:06>Tanto tempo fa...
+Lei è morta per prima, lasciandomi solo.
+Se succedesse di nuovo<3:0c>...
+@@ 24
+<19:ffff>Claire
+「Te l'ho detto,
+non ti lascio!
+@@ 25
+<19:ffff>Lucian
+「<3:07>Mi dispiace<3:0c>...
+@@ 26
+<19:ffff>Lucian
+「<3:03><18>Non voglio
+essere lasciato solo <3:04>di nuovo<3:0c>...<17:7800>
+@@ 27
+<19:ffff>Lucian
+「<3:03><18>Tanto tempo fa<3:10>...<3:03>
+Lei è morta e mi ha lasciato solo.<17:7800>
+@@ 28
+<19:ffff>Claire
+「<18><3:03>Non puoi abbandonarmi!!!
+@@ 29
+<5><3:03><18>Questa volta sarai tu a morire?<17:b400>
+@@ 30
+<5><18><3:03>Va davvero bene così?<17:7800>
+@@ 31
+<5>Centro città

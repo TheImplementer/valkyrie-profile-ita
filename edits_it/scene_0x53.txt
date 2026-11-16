@@ -1,0 +1,15 @@
+# Valkyrie Profile scene 0x53 (-): 17 records, directory word 3693, package sectors 164106..164196 of VALKYRIE.BIN
+
+@@ 14
+<19:0100>Mystina
+「Per gli dei, che sollievo!
+La vecchia megera è morta<3:0c>!<3:ff>
+@@ 15
+<19:0100>Mystina
+「Ooh, Lezard, ti mangerei
+di baci<3:1e>!<3:ff> Grazie,
+grazie<3:1e>,<3:ff> grazie♪
+@@ 16
+<19:0100>Mystina
+「Accidenti... oggi fa
+proprio freddino.

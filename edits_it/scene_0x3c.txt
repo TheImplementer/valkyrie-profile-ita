@@ -1,0 +1,19 @@
+# Valkyrie Profile scene 0x3c (Pleiades Shrine): 19 records, directory word 3670, package sectors 161817..161939 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Ai
+「Alla fine mio fratello è riuscito
+in qualche modo a guarirmi.
+@@ 15
+<19:ffff>Ai
+「Ma quello che volevo era<3:0c>...
+@@ 16
+<19:ffff>Sacerdote shintoista
+「Sono certo che va tutto bene,
+perché pensi così?
+@@ 17
+<19:ffff>Ai
+「Non lo so<3:32>,<3:ff>
+so solo che è quello che sento.
+@@ 18
+<5>Santuario delle Pleiadi

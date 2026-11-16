@@ -1,0 +1,98 @@
+# Valkyrie Profile scene 0x23 (-): 37 records, directory word 3645, package sectors 159501..159543 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Claire
+「Che t'importa
+perché l'ho fatto!?
+@@ 15
+<19:ffff>Claire
+「E va bene!
+@@ 16
+<19:ffff>Claire
+「L'ho fatto perché ero gelosa<3:28>!<3:ff>
+<3:0c><3:ff>L'ho fatto perché lei era
+bella<7:0b>-<7:01>
+@@ 17
+<19:ffff>Claire
+「L'ho fatto per via
+dei suoi capelli argentati!
+@@ 18
+<19:ffff>Lucian
+「Claire<3:0c>...
+@@ 19
+<19:ffff>Claire
+「Non sai
+come mi fa sentire?
+Dover dividerti con
+il suo fantasma<7:0b>-<7:01>
+@@ 20
+<19:ffff>Claire
+「Siete in ritardo<3:1e>, <3:ff>ragazzi.
+@@ 21
+<19:ffff>Cittadino
+「Dovete andarvene da qui<3:1e>!<3:ff>
+Non avete sentito cos'è successo
+a Barren?
+@@ 22
+<19:ffff>Lucian
+「Eh?
+@@ 23
+<19:ffff>Cittadino
+「Quell'idiota ha borseggiato un nobile<3:1e>!<3:ff>
+L'hanno preso・・・ E poi・・・
+L'hanno torturato a morte<7:0b>-<7:01>
+@@ 24
+<19:ffff>Claire
+「Non è possibile<3:0c>...
+@@ 25
+<19:ffff>Cittadino
+「Mi dispiace, ragazzina, ma è la verità<3:1e>.<3:ff>
+Il suo corpo è appeso a un palo in città<3:1e>!<3:ff>
+È orribile.
+Ma non è tutto. Il peggio è che
+dato che ha pestato i piedi ai nobili,
+hanno mandato tutto l'esercito a sterminare
+tutti i ladri dei bassifondi.
+@@ 27
+<19:ffff>Cittadino
+「Dovete andarvene<3:1e>!<3:ff>
+La caccia ai ladri è solo un pretesto
+per sterminare gli abitanti dei bassifondi.
+Uccidono la gente a destra e a manca<3:1e>.<3:ff>
+È pura follia!
+@@ 28
+<19:ffff>Claire
+「Cosa facciamo<3:1e>?<3:ff>
+E Rusty?
+È appena uscito!
+@@ 29
+<19:ffff>Cittadino
+「Se è ancora vivo<3:1e>,<3:ff>
+lo troverete.
+Io me la do a gambe.
+Ho sentito che vengono da questa parte!
+@@ 30
+<19:ffff>Lucian
+「Usiamo la porta sul retro.
+@@ 31
+<19:ffff>Claire
+「E i bambini, allora?
+@@ 32
+<19:ffff>Lucian
+「Ci penso io a loro<3:1e>.<3:ff>
+Tu intanto vai avanti.
+@@ 33
+<19:ffff>Claire
+「Ma...!!
+@@ 34
+<19:ffff>Lucian
+「Ci ritroviamo nel bosco fuori città.
+Sarà più pericoloso
+se andiamo insieme<3:1e>. <3:ff>
+Ti prego, vai!
+@@ 35
+<19:ffff>Claire
+「Ma i bambini si fidano di più di me!
+@@ 36
+<19:ffff>Lucian
+「Non possiamo farci niente, ormai.

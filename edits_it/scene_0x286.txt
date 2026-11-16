@@ -1,0 +1,88 @@
+# Valkyrie Profile scene 0x286 (-): 33 records, directory word 4256, package sectors 228219..228422 of VALKYRIE.BIN
+
+@@ 14
+<19:0100>Gandar
+「La Sfera del Drago è sparita!<3:3c>?<3:ff>
+Impensabile!<page>
+Chi può mai essere arrivato
+prima di me?
+@@ 15
+<19:0100>Gandar
+「Cos'è questa forza schiacciante?<3:3c>!<3:ff>
+Un simile potere è quasi inconcepibile!<page>
+Qualcuno<3:0c>...<3:ff> o qualcosa<3:0c>...<3:ff>
+ha sconfitto un Guardiano di tale
+potenza e ha rubato la Sfera?!<page>
+Ma chi<3:0c>...<3:ff> e come?!
+@@ 16
+<19:0100>Gandar
+「Ma guarda, ma guarda.
+@@ 17
+<19:0000>Valkyrie
+「Freya<3:0c>・・・<3:32> <3:ff>
+Perché sei qui?!
+@@ 18
+<19:0100>Freya
+「Ho ricevuto ordini dal sommo Odino.<page>
+Questo umano ha messo piede
+in regni mai destinati
+ai suoi simili.<page>
+Pertanto<3:0c>・・・<3:ff>
+@@ 19
+<19:0100>Freya
+「Lo giustizierai.
+@@ 21
+<19:0100>Freya
+「Tuttavia<3:0c>・・・<3:ff>
+Assicurati di non distruggere la sua anima.
+@@ 22
+<19:0100>Freya
+「Anche questo è un ordine
+del sommo Odino.
+@@ 23
+<19:0100>Gandar
+「D<3:0c>・・・<3:ff>
+Dannazione!
+@@ 24
+<19:0100>Gandar
+<3:04>「<18>Voi<3:0a> <3:04>mi rendete vostro schiavo?!<12:2b0b><17:7800>
+@@ 25
+<19:0000>Valkyrie
+「<3:03><18>Hai <3:04>un'alternativa<3:1e>,<3:03> anche se
+dubito che troveresti Niflheim<3:0f>
+<3:03>molto accogliente.<12:2c0b><17:7800>
+@@ 26
+<19:0100>Gandar
+<3:03>「M<3:0c>・・・<3:03>
+<18>Maledetta<3:0c>・・・<3:03>!<12:2d0b><17:7800>
+@@ 27
+<19:0000>Valkyrie
+<3:03>「<18>Allora, cosa decidi<12:2e0b>?<17:7800><page>
+<18>Il mio signore <3:04>desidera
+usare il tuo potere.<12:2f0b><17:7800><page>
+<3:03><18>Sarebbe un peccato
+consegnarti a Hel<3:14>,<3:03>
+la <3:05>Regina Oscura.<12:300b><17:7800><page>
+<3:03><18>Perciò, <3:02>sarai accettato<3:0a>,
+<3:03>per quanto <3:04>depravata e<3:03>
+contorta sia la tua anima.<12:310b><17:7800>
+@@ 28
+<19:0100>Gandar
+<3:03>「<18>Heh<3:1e>!<3:03>
+Ha ha ha ha ha<12:320b>!<17:7800><page>
+<18>Imponete <3:04>dure <3:03>condizioni<3:14>.<3:03>
+Vergine della Battaglia<3:0c>...<3:03><12:330b><3:3c>
+<3:03><18>Molto bene.<12:340b><17:7800><page>
+<18>Però sappiate<3:0a> <3:04>che io sono<3:0f>
+<3:03>molto <3:04>diverso<3:03> da quegli <3:04>altri
+<3:05>cani <3:04>ammaestrati.<12:350b><17:7800><page>
+<3:04><18>Vi avverto<3:0c>・・・<3:14>
+<3:04>Guardatevi le spalle, Valkyrie!<17:7800>
+@@ 29
+<5>Hai trovato Hourglass of the Gods.
+@@ 30
+<5>Hai trovato Scroll of Golem.
+@@ 31
+<5>Hai trovato Dragoon Faith.
+@@ 32
+<5>Hai trovato Great Spear "Dinosaur".

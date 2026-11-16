@@ -1,0 +1,244 @@
+# Valkyrie Profile scene 0x2c3 (-): 63 records, directory word 4317, package sectors 236023..236177 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Mystina
+「<3:0c>・・・<3:ff>Sì, e quindi?<17:9600>
+@@ 15
+<19:ffff>Lezard
+「Per arrivare al punto,
+gli elfi stessi possono
+essere considerati dei.<17:1801><page>
+Inoltre ho dimostrato che
+possono nascere figli
+tra umani ed elfi<7:0b>-<7:01><17:9001>
+@@ 16
+<19:ffff>Mystina
+「Impossibile.<17:6400>
+@@ 17
+<19:ffff>Lezard
+「No, è la verità. Anzi,
+lo stesso Odino
+è un mezzelfo.<17:5401>
+@@ 18
+<19:ffff>Mystina
+「E che prove hai?<17:9600>
+@@ 19
+<19:ffff>Lezard
+「Conosci <3:1e><3:ff>la storia di come Odino
+ottenne il trono degli dei, no?<17:5e01>
+@@ 20
+<19:ffff>Mystina
+「Intendi il
+Mito della Creazione?<17:f000>
+@@ 21
+<19:ffff>Lezard
+「Sì, direi di sì.
+Dopo la grande guerra, Odino salì
+al Trono degli Dei.<17:1801><page>
+Ma<3:14><3:ff> il mondo era un guscio
+annerito e non vi restava vita.
+Così Odino creò
+la seconda razza di uomini.<page>
+<17:b801>Per questo lo chiamano
+il Padre di Tutti.<17:0401>
+@@ 22
+<19:ffff>Mystina
+「Mi stai annoiando a morte,
+Lezard.<17:a000>
+@@ 23
+<19:0100>Elfo
+「Ah, che piacevole sorpresa.
+Cosa vi porta qui,
+Vergine della Battaglia?
+@@ 24
+<19:0000>Valkyrie
+「Ho un ordine di Odino.
+Ti chiedo di riparare
+un Artefatto rotto.
+@@ 25
+<19:0100>Elfo
+「Un Artefatto rotto?
+@@ 26
+<19:0000>Valkyrie
+「Esatto.<3:1e>
+<3:ff>Voglio che ripari questa
+"Accursed Flame Gem"
+@@ 27
+<19:0100>Elfo
+「Riparare<3:0c>...<3:ff>questa, dunque?
+Hmm. Sembra che la gemma
+si sia incrinata.
+@@ 28
+<19:0100>Elfo
+「<3:0c>・・・<3:ff>
+@@ 29
+<19:0000>Valkyrie
+「Puoi ripararla?
+@@ 30
+<19:0100>Elfo
+「No. <3:0c>・・・<3:ff>Anzi.
+Dovrei dire: non adesso.
+@@ 31
+<19:0000>Valkyrie
+「Cosa intendi?
+@@ 32
+<19:0100>Elfo
+「Non ho gli strumenti
+necessari per ripararla.
+@@ 33
+<19:0000>Valkyrie
+「Eh?
+@@ 34
+<19:0100>Elfo
+「La "Accursed Flame Gem" ha ricevuto
+i suoi poteri da Fafnir,
+il possente Drago di Fuoco.
+Per ora
+il cristallo ha solo una crepa.<page>
+Non sarebbe possibile ricreare
+questa gemma, ma per ripararla
+si deve prima liberarne il potere
+e poi cristallizzarla di nuovo.
+Tuttavia
+mi mancano gli strumenti
+per il rito di ricristallizzazione.
+@@ 35
+<19:0000>Valkyrie
+「Quali sono?
+@@ 36
+<19:0100>Elfo
+「Per la cerimonia di
+ricristallizzazione serve
+un "Golden Candlestick".<page>
+Un "Silver Thread" serve a
+ricostruire la matrice magica.<page>
+Le "Polar Drops" servono
+a purificare lo spazio.<page>
+Infine una "Charm Feather" serve
+a fissare la magia nello spazio.<page>
+Questi sono i quattro strumenti.
+@@ 37
+<19:0000>Valkyrie
+「Dove posso trovarli?
+@@ 38
+<19:0100>Elfo
+「Le "Polar Drops" sono in
+una fonte della foresta, a sud.
+Potrete avere il "Silver Thread" se
+sconfiggete il Grande Ragno che abita
+le scogliere a nordest.
+Il "Golden Candlestick" è stato rubato
+dalla scimmia gigante che vive
+nel profondo della foresta.
+Procurarsi questi oggetti
+sarà certo facile
+per una come voi,
+Vergine della Battaglia<3:0c>...<3:ff>
+@@ 39
+<19:0000>Valkyrie
+「Che c'è?
+C'è un problema?
+@@ 40
+<19:0100>Elfo
+「Cockatrice<7:0b>-<7:01>
+@@ 41
+<19:0000>Valkyrie
+「Una bestia con il potere
+di pietrificare?
+@@ 42
+<19:0100>Elfo
+「Esatto.
+L'oggetto più importante, la
+"Charm Feather", è
+una piuma del Cockatrice.
+Per ottenerne una
+dovrete prima, naturalmente,
+sconfiggerne uno<7:0b>-<7:01>
+@@ 43
+<19:0000>Valkyrie
+「<3:0c>...<3:ff>Quindi se raccolgo quegli oggetti,
+la ripari tu, eh.
+@@ 44
+<19:0100>Elfo
+「Ve ne andate?
+@@ 45
+<19:0000>Valkyrie
+「Sì.
+@@ 46
+<19:0100>Elfo
+「Il nido del Cockatrice è
+a nordovest.
+Fate attenzione,
+Vergine della Battaglia.
+@@ 47
+<19:0100>Elfo
+「Vi accompagnerò fino
+all'ingresso della foresta.
+@@ 48
+<19:0100>Elfo
+「Avete raccolto tutti gli oggetti?
+<3:0c>・・・<3:ff>A quanto pare, sì.
+Attendete un momento, prego.
+@@ 49
+<5>Hai trovato Accursed Flame Gem.
+@@ 50
+<19:0100>Elfo
+「Ecco fatto.
+@@ 51
+<19:0000>Valkyrie
+「È stato riparato?
+@@ 52
+<19:0100>Elfo
+「Sì,
+l'Artefatto è stato riparato.
+È dentro quello scrigno.
+Prendetelo, prego.
+@@ 53
+<19:0000>Valkyrie
+「Ti sono debitrice, elfo.
+@@ 54
+<19:0100>Elfo
+「Non c'è di che.
+Dopotutto, avete liberato la foresta
+da quelle bestie moleste.
+Se avete portato qui la
+Accursed Flame Gem,
+allora Asgard stessa deve essere
+in grave pericolo.
+@@ 56
+<19:0100>Elfo
+「Avete raccolto tutti gli oggetti?
+Senza tutti gli oggetti
+non posso ripararla.
+Devo ripetervi
+dove si trovano?
+@@ 57
+<3:00><19:ffff>Di quale vuoi
+sapere di più?
+・Polar Drops
+・Silver Thread
+・Golden Candlestick
+・Charm Feather
+・Niente
+@@ 58
+<6:570d><19:0100>Elfo
+「Le "Polar Drops" sono
+in una fonte della foresta, a sud.
+@@ 59
+<6:570d><19:0100>Elfo
+「Per ottenere il "Silver Thread",
+dovete sconfiggere il Grande Ragno
+che dimora sulle scogliere
+a nordest.
+@@ 60
+<6:570d><19:0100>Elfo
+「Il "Golden Candlestick" è
+in mano alla scimmia gigante
+nel cuore della foresta.
+@@ 61
+<6:570d><19:0100>Elfo
+「Il nido del Cockatrice
+che porta la "Charm Feather"
+è a nordovest.
+@@ 62
+<5>Hai trovato "Accursed Flame Gem".

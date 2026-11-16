@@ -1,0 +1,67 @@
+# Valkyrie Profile scene 0xf (-): 30 records, directory word 3625, package sectors 156843..157002 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Lucian
+「<18><3:03>Lo sapevo<3:14>.
+<3:03>Sei identica a lei.<17:7800>
+@@ 15
+<19:ffff>Lucian
+「<18><3:03>È stata colpa mia<3:05>...
+<3:03>Se non l'avessi portata
+con me<3:0c>・・・<17:b400>
+@@ 16
+<18><5><3:03>E poi<3:1e>,<3:03> siamo capitati in questo posto.<17:b400>
+@@ 17
+<19:ffff>Lucian
+「<18><3:04>Il tuo elmo・・・<3:0a>
+<3:03>potresti toglierlo?<17:7800>
+@@ 18
+Valkyrie
+「<18><3:03>Come quella ragazza?<17:7800>
+@@ 19
+<19:ffff>Lucian
+「<18><3:08>Sì.<17:3c00>
+@@ 20
+<19:ffff>Lucian
+「<18><3:04>Quella ragazza...<3:0f> <3:04>Platina<3:14>,
+<3:03>ha respirato il polline
+dei Gigli del Pianto ed è morta.<17:d200>
+@@ 21
+Valkyrie
+「<18><3:04>E io somiglio
+a quella ragazza?<17:7800>
+@@ 22
+<19:ffff>Lucian
+「<18><3:04>Ed è per questo<3:0c>...<17:3c00>
+@@ 23
+<19:ffff>Lucian
+「<18><3:03>So che è sbagliato sentirsi così
+per una sconosciuta
+solo perché somiglia
+a un'altra.<17:d200>
+@@ 24
+<19:ffff>Lucian
+「<18><3:03>Ma non è cambiato nulla.<17:7800>
+@@ 25
+<19:ffff>Lucian
+「<18><3:06>La amo ancora.<17:7800>
+@@ 26
+<5><3:02><18>Non era davvero l'orecchino<3:07>
+<5><3:02>che volevo darti<3:0c>・・・
+<5><3:03>Ma pensavo che se tu <3:02>l'avessi accettato,
+<5>forse<7:0b>-<7:01><17:f000>
+@@ 27
+Platina
+「<3:04><18>Tutto questo è un'illusione<3:14>.
+<3:03>Ma nelle illusioni c'è una verità.<3:28>
+<3:03>E quando l'illusione svanirà<3:14>,
+<3:03>la verità risuonerà ancora in te.<17:d200>
+@@ 28
+Platina
+「<3:03><18>Quando tornerai alla realtà,
+cosa dovrai fare<3:1e>?
+<3:03>Cerca di ricordare chi eri prima.<3:32>
+<3:03>Ricorda come ti sentivi.<3:28>
+<3:03>Ricorda quello che volevi<7:09>-<7:01><17:6400>
+@@ 29
+<5><18><3:03>Questo è<3:0c>・・・<18><3:03>Questo è<3:14>・・・<3:04>imperdonabile!!<17:2800>

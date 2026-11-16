@@ -1,0 +1,27 @@
+# Valkyrie Profile scene 0x2f (To outside | Villnore Castle | Thieves' Guild | Private home | Kingdom of Villnore): 22 records, directory word 3657, package sectors 160461..160656 of VALKYRIE.BIN
+
+@@ 14
+<5>Uscita
+@@ 15
+<5>Castello di Villnore
+@@ 16
+<5>Gilda dei Ladri
+@@ 17
+<5>Casa privata
+@@ 18
+<19:0100>Badrach
+「Maledetti<3:1e>!<3:ff>
+Inutile Gilda dei Ladri
+e le sue commissioni!
+Io lavoro per conto mio.
+Che vadano al diavolo!!
+@@ 19
+<19:0100>Badrach
+「Che schifo!
+Non posso ancora morire<3:0c>...<17:f000>
+@@ 20
+<19:ffff>Giovane
+「Non è saggio che una donna
+se ne vada in giro tutta sola.
+@@ 21
+<5>Regno di Villnore

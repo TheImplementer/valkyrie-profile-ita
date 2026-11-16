@@ -1,0 +1,104 @@
+# Valkyrie Profile scene 0xb1 (-): 41 records, directory word 3787, package sectors 173932..174078 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Celia
+「È un miracolo!
+Questa l'hanno lasciata intatta!
+Kashell<3:0c>・・・<3:ff>
+Portami la pozione!
+@@ 15
+<19:ffff>Kashell
+「<3:0c>・・・<3:ff>Quindi è andata così.
+@@ 16
+<19:ffff>Celia
+「Eh?
+@@ 17
+<19:ffff>Kashell
+「<3:0c>・・・<3:ff>È stata questa bambina a liberare
+il male. Probabilmente stava solo
+giocando...
+Non ti sembra strano trovare
+una bambina qui?
+@@ 19
+<19:ffff>Kashell
+「Comunque, non c'è bisogno di curarla
+dalla pietrificazione proprio adesso.
+@@ 20
+<19:ffff>Kashell
+「Non sopporto di sentire
+piangere i bambini...
+@@ 21
+<19:ffff>Celia
+「<3:0c>・・・<3:ff>Forse hai ragione<3:1e>.<3:ff>
+Magari dovremmo curarla una volta
+fuori città<7:0b>-<7:01>
+@@ 22
+<3:00>???<3:ff>
+「<3:06>Avevo in mente di risvegliare quella
+ragazza tra cent'anni...<3:ff><17:b400>
+@@ 23
+<3:00>???<3:ff>
+「<3:06>come ricompensa per avermi liberato.<3:ff><17:b400>
+@@ 24
+<3:00>???<3:ff>
+「<3:06>Non sarebbe stato
+piacevole...?<3:ff><17:b400>
+@@ 25
+<19:ffff>Kashell
+「Bastardo<3:32>! <3:ff>Fatti avanti
+e mostra la faccia!
+@@ 26
+<19:ffff>Celia
+「<3:0c>・・・<3:ff>Creatura immonda, ti compiaci di
+compiere atti di bene avvolti
+nel male?
+@@ 27
+<19:ffff>Celia
+「Nascondere le tue vere intenzioni
+ti rende solo ancora più odioso!!
+@@ 28
+<19:ffff>Kashell
+「Ah<3:0c>・・・<3:ff><17:7800>
+@@ 29
+<19:ffff>Kashell
+「La fiala<3:0c>...<3:ff>
+Devo proteggerla<7:0b>-<7:01><17:7800>
+@@ 30
+<19:ffff>Valkyrie
+「<18><3:03>Questa<3:08>・・・<3:03>
+è la cosa più importante per te?<17:8c00>
+@@ 31
+<19:ffff>Kashell
+「<18><3:03>U<3:09>・・・<3:03>
+una Valchiria?<17:3200>
+@@ 32
+<19:ffff>Kashell
+「<18><3:03>Non saprei<3:09>・・・<3:04>
+ne ero così ossessionato.<17:3200>
+@@ 33
+<19:ffff>Kashell
+「<18><3:03>Posso solo dire<3:1e> <3:03>
+che credo fosse<3:04>・・・<3:ff><17:3c00>
+@@ 34
+<19:ffff>Valkyrie
+「<18><3:03>Ti sei guadagnato
+il diritto di vivere.<17:3200>
+@@ 35
+<19:ffff>Kashell
+「<18><3:03>Di vivere?<17:3c00>
+@@ 36
+<19:ffff>Valkyrie
+「<18><3:03>Sì<3:19>.<3:04>
+Il diritto alla vita.<17:5a00>
+@@ 37
+<19:ffff>Celia
+「Non si è rotta.
+@@ 38
+<19:ffff>Celia
+「Un altro<3:0c>・・・<3:ff>
+miracolo<3:0c>・・・<3:ff>?
+@@ 39
+<19:ffff>Celia
+「Kashell<3:0c>...<3:ff>
+@@ 40
+<5>Hai trovato Flare Baselard.

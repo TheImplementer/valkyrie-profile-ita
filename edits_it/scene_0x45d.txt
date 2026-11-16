@@ -1,0 +1,200 @@
+# Valkyrie Profile scene 0x45d (-): 55 records, directory word 4727, package sectors 290668..290834 of VALKYRIE.BIN
+
+@@ 14
+<5>Che cos'è questo<3:0c>...<3:ff>Un dolore improvviso<3:0c>...?<17:7800>
+@@ 15
+<19:ffff>Valkyrie
+「Sei<3:0c>... <3:ff>Sei tu!<3:ff>
+Aiutatemi<3:0c>!<3:ff>
+Mystina<3:0a>, <3:ff>Arngrim, aiutatemi!!
+@@ 16
+<19:ffff>Arngrim
+「Che sta succedendo?
+@@ 17
+<19:ffff>Mystina
+「Stai indietro, Arngrim<3:14>.<3:ff>
+C'è qualcosa che non va<3:0c>...
+@@ 18
+<19:ffff>Arngrim
+「Mystina<3:14>...<3:ff>
+Chi è quella?!
+@@ 19
+<19:0100>???
+「Io sono la Valchiria<3:28>.<3:ff>
+D'ora in poi, voi due mi obbedirete.
+@@ 20
+<19:ffff>Arngrim
+「Stai scherzando<3:0c>...<3:ff>
+Io non...
+Non so nemmeno chi sei!
+@@ 21
+<19:0100>???
+「Ah ah ah<3:1e>!<3:ff>
+Sono delusa, Arngrim.<page>
+Dopo tutto quello che abbiamo passato
+nella lotta contro il Vampiro Brahms.
+Come hai potuto dimenticarmi
+così facilmente?
+@@ 22
+<19:ffff>Arngrim
+「Cosa!?
+@@ 23
+<19:0100>???
+「La nostra lunga battaglia con Brahms<3:0c>・・・<3:ff>
+Non è ancora finita.<page>
+Silmeria<3:0c>・・・<3:ff>
+La più giovane delle mie sorelle.
+Brahms ne tiene ancora prigioniera l'anima.
+Non lo sapevi?
+La battaglia che ora infuria
+tra Asi e Vani<3:1e>.<3:ff>
+Un tempo, tu e io l'abbiamo combattuta
+come una battaglia contro i non morti<3:0c>・・・
+@@ 24
+<19:ffff>Arngrim
+「Stammi lontana!<3:ff>
+La vera Valkyrie・・・
+Che cosa le hai fatto!!
+@@ 25
+<19:0100>???
+「Non mi hai sentito<3:1e>?<3:ff>
+Non costringermi a dirtelo una terza volta.
+Giurami obbedienza, subito.
+Sono la figlia maggiore, Hrist<3:28>.<3:ff>
+Mia sorella Lenneth, che conosci così bene,
+non tornerà in questo mondo!
+@@ 26
+<19:ffff>Mystina
+「<3:0c>・・・<3:ff>Lenneth<3:3c>?<3:ff>
+È il nome di Valkyrie<3:1e>...<3:ff>
+quello vero?
+@@ 27
+<19:0100>Hrist
+「Esatto.<page>
+Sono una delle tre dee del fato.
+Io e le mie sorelle governiamo
+la trasmigrazione delle anime.
+Odino scelse mia sorella Lenneth
+per occuparsi di questo regno・・・<page>
+Ma ora l'ha giudicata inadatta
+al compito.
+@@ 28
+<19:ffff>Mystina
+「No<3:0c>... <3:1e> <3:ff>Non può essere<3:0c>...
+@@ 29
+<19:ffff>Arngrim
+「Non posso accettarlo<3:0c>...
+@@ 30
+<19:0100>Hrist
+「E<3:1e>, <3:ff>che cosa intendete fare?
+@@ 31
+<19:ffff>Arngrim
+「Mi rifiuto di obbedirti!
+@@ 32
+<19:ffff>Mystina
+「Anch'io<3:1e>!<3:ff>
+Anche se me l'avessi chiesto tu,
+non mi sarei mai unita a te!
+Obbedirti<3:1e>?!<3:ff>
+Ma stai SCHERZANDO!!
+@@ 33
+<19:0100>Hrist
+「Capisco.
+@@ 34
+<19:0100>Hrist
+「Un orecchino<3:1e>?<3:ff>
+Non so che farmene di sciocchi ninnoli.
+@@ 35
+Lenneth
+「NO!!<17:5a00>
+@@ 36
+<19:0100>Hrist
+「Lenneth<3:0c>...<3:ff>Dunque non dormi
+ancora del tutto<3:0c>・・・?
+@@ 37
+<19:0100>Hrist
+「Hmm<3:1e>.<3:ff>
+Immagino che vi lascerò vivere.
+Dopotutto,
+se morite non avete davvero
+nessun posto dove andare.
+@@ 38
+<19:ffff>Mystina
+「Questi bagliori<3:0c>... <3:ff>Possibile<3:0c>?<3:ff>
+Non ci credo<3:0c>...<3:ff>!!
+@@ 39
+<19:ffff>Arngrim
+「Che cosa c'è<3:1e>?<3:ff>
+Cosa sono queste luci?
+@@ 40
+<19:ffff>Mystina
+「Sono frammenti dell'anima
+di Lenneth!
+Ma stanno cominciando a dissolversi!!
+@@ 41
+<19:ffff>Arngrim
+「Cosa<3:1e>?<3:ff>
+Non possiamo fare qualcosa?!
+@@ 42
+???
+「<3:03>Mysty<3:1e>,<3:03> congela l'atmosfera
+attorno a loro.<17:7800>
+@@ 43
+<19:ffff>Mystina
+「Quella voce<3:0c>...<3:ff>!
+@@ 44
+<19:ffff>Mystina
+「Spiriti dell'aria e del gelo<3:1e>!<3:ff>
+Per questo rito di congiunzione,
+io vi ordino di unirvi e
+di congelare le quattro dimensioni dello spazio!!
+@@ 45
+???
+「<3:06>Notevole.<17:b400>
+@@ 46
+<19:ffff>Mystina
+「Lezard<3:1e>!<3:ff> Che cosa vuoi!?
+Fatti vedere<3:1e>!<3:ff>
+Facciamola finita!!
+@@ 47
+<19:ffff>Lezard
+「Le antiche magie sono difficili
+da dominare.<page>
+Questi incantesimi di teletrasporto sono
+ridicolmente lenti da lanciare.
+Ecco fatto<3:14>...<3:ff>
+Ora, immagino che accetterai una tregua?<page>
+Quel che conta adesso
+è salvare Valkyrie.
+Su questo almeno possiamo essere d'accordo.
+@@ 48
+<19:ffff>Mystina
+「<3:0c>・・・・・・<3:ff>Bastardo!
+@@ 49
+<19:ffff>Mystina
+「Ma<3:14>...<3:ff>
+Se conosci un modo per salvarla...?
+@@ 50
+<19:ffff>Lezard
+「Ma certo che lo conosco.
+@@ 51
+<19:ffff>Lezard
+「Per ora<3:1e>, <3:ff>dovremmo tornare
+al tuo laboratorio<3:1e>.<3:ff>
+Parleremo là.
+@@ 52
+<19:ffff>Mystina
+「<3:0c>・・・<3:ff>E va bene<3:1e>.<3:ff>
+Ma... ora che ti vedo・・・
+Che cosa ti è successo?
+@@ 53
+<19:ffff>Lezard
+「Ah<3:1e>, <3:ff>ti piace la mia forma spirituale<3:28>?<3:ff>
+Il mio corpo fisico era
+d'intralcio,
+quindi me ne sono sbarazzato.
+Proprio come te.
+@@ 54
+<19:ffff>Mystina
+「Non mi sono fatta uccidere apposta!
+Sei pazzo<7:0b>-<7:01>!!

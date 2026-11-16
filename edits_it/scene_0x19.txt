@@ -1,0 +1,107 @@
+# Valkyrie Profile scene 0x19 (-): 42 records, directory word 3635, package sectors 158119..158217 of VALKYRIE.BIN
+
+@@ 14
+<19:0000>Odin
+<3:05>「<18>Come osi <3:06>presentarti qui <3:05>davanti a me!!! <12:bf0b><17:7800>
+@@ 15
+<19:0100>Loki
+<3:04>「<18>Una volta soltanto<3:14>,<3:04> volevo <3:03>vedere<3:04>
+la lancia Gungnir<3:0f> <3:03>scatenare
+il suo vero<3:14> <3:04>potere<3:0c>・・・<12:c00b><17:7800>
+@@ 16
+<19:0100>Loki
+<3:03>「<18>Il nero <3:04>assorbe tutti<3:0f> <3:04>gli altri colori.<12:c10b><17:7800><page>
+<3:03><18>Si dice che la sua aura nera<3:04> come la pece<3:0f>
+<3:06>assorba<3:05> ogni potere<3:0f> <3:03>e che così la lancia
+<3:05>diventi<3:0a> <3:05>ancora più potente<3:0c>・・・<3:03><12:c20b><17:7800><page>
+<3:03><18>Ah, ah<3:28>,<3:04>
+è<3:0a> <3:04>proprio come te!!!<12:c30b><17:7800>
+@@ 17
+<19:0100>Loki
+<3:02>「<18>Dato che sei<3:0a> <3:02>uno dei <3:03>possessori<3:0f>
+<3:03>dei<3:04> Quattro Tesori<3:1e>,<3:04> dovresti sapere
+che <3:03>non<3:04> importa quanti ne possiedi.<12:c40b><17:7800>
+@@ 18
+<19:0000>Freya
+<3:03>「<18>Loki!!<3:28> <3:03>Hai<3:04> passato ogni limite!<3:32>
+<3:03>Credi davvero
+di poter essere perdonato?!<12:c50b><17:7800>
+@@ 19
+<19:0100>Loki
+<3:04>「<18>Forse<3:0f> <3:03>no.<12:c60b><17:7800>
+@@ 20
+<19:0000>Odin
+<3:03>「<18>Basta!!<12:c70b><17:7800>
+@@ 21
+<19:0000>Odin
+<3:03>「<18>Fatti da parte.<3:28>
+<3:04>Loki<3:14> <3:03>ha la Sfera<3:0c>・・・<17:7800>
+@@ 22
+<19:0000>Freya
+<3:03>「<18>Sommo Odino<3:28>,<3:03> fermatevi!!<12:d40b><17:7800>
+@@ 23
+<19:0100>Valkyrie
+「<3:0c>・・・・・・<3:04><18>Dov'è Loki?<12:d50b><17:7800>
+@@ 24
+<19:0000>Freya
+「<3:0c>・・・<3:02><18>Vuoi <3:03>anda<3:02>rgli <3:03>dietro?<12:d60b><17:7800>
+@@ 25
+<19:0100>Valkyrie
+<3:03>「<18>Sì.<12:d70b><17:7800>
+@@ 26
+<19:0000>Freya
+<3:03>「<18>No!!<3:32>
+<3:03>Prima<3:02> dob<3:03>biamo radunare gli <3:02>altri dei,<3:14>
+<3:02>non ti pare?!<12:d80b><17:7800>
+@@ 27
+<19:0100>Valkyrie
+「<3:03><18>Non devo più
+<3:04>prendere<3:0a> <3:03>ordini<3:04> da<3:03> te<3:0c>・・・<12:d90b><17:7800><page>
+<3:02><18>Il vero motivo di questa
+<3:03>battaglia finale
+è<3:19> <3:03>che Odino stesso<3:0c> <3:03>ha rubato<3:0f>
+<3:03>per primo <3:02>la Sfera<3:03>.<12:da0b><17:7800><page>
+<3:02><18>In altre parole<3:14>,<3:04>
+la gente soffre<3:0c>・・・<3:03>
+non possiamo riparare i torti???<12:db0b><17:7800>
+@@ 28
+<19:0000>Freya
+<3:03>「<18>Apri gli occhi, Lenneth!<3:14>
+<3:03>So cosa <3:02>hai<3:03> intenzione<3:02> di<3:03> fare.<12:dc0b><17:7800><page>
+<3:02><18>Ma la morte di una<3:03> persona
+è <3:02>solo un<3:03> attimo fugace.<12:dd0b><17:7800><page>
+<3:03><18>Ho sigillato i tuoi ricordi pensando
+che fosse il meglio per te<3:0c>・・・<3:03>!!<12:de0b><17:7800>
+@@ 29
+<19:0000>Freya
+<3:03>「<18>Gli uomini nascono,<3:1e>
+<3:03>e dopo la morte,<3:1e> <3:03>rinascono.<12:df0b><17:7800><page>
+<3:03><18>Il Ciclo della Vita gira in eterno<3:0c>・・・<3:0a>
+<3:03>è il corso della natura!!<12:e00b><17:7800><page>
+<18>Non devi lasciare che simili emozioni umane
+ti consumino!<3:1e>
+<3:03>Perderai tutto!!<12:e10b><17:7800>
+@@ 30
+<19:0100>Valkyrie
+<3:03>「<18>Che cos'è questo
+"tutto" di cui parli?<12:e20b><17:7800>
+@@ 31
+<19:0000>Freya
+<3:03>「<18>Come?<12:e30b><17:7800>
+@@ 32
+<19:0100>Valkyrie
+<3:03>「<18>Come sei<3:0a> <3:03>arrogante<3:08>・・・<3:04>
+"Emozioni umane"<3:03> dici?<12:e40b><17:7800>
+@@ 33
+<19:0100>Valkyrie
+<3:03>「<18>Provo pietà per tutti loro!!<3:32>
+<3:03>Voglio<3:0f> <3:03>salvarli!!<12:e50b><17:7800>
+@@ 34
+<19:0100>Valkyrie
+「<3:0c>・・・<3:04><18>Separarsi è davvero<3:14> <3:04>un dolore<3:0c>・・・<3:ff><12:e70b><17:7800>
+@@ 35
+<19:0100>Valkyrie
+<3:03><18>「Perché non puoi mostrare le stesse
+emozioni anche verso gli umani?<17:7800>
+@@ 36
+<5>Dov'è Loki<3:0c>・・・<3:ff>!<17:7800>

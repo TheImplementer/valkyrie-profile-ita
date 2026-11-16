@@ -1,0 +1,158 @@
+# Valkyrie Profile scene 0x16e (-): 51 records, directory word 3976, package sectors 196022..196187 of VALKYRIE.BIN
+
+@@ 14
+<19:0100>Valkyrie
+「<18><3:03>O celebre maga<3:0a>,<3:04> signora Lyseria<3:3c>.<3:03>
+Per decreto di Odino, signore
+degli dei, sono venuta a farti visita.<17:3c00>
+@@ 15
+<19:0000>Lyseria
+「<18><3:03>Voi siete Colei che sceglie i<3:04> Caduti<3:28>,<3:03>
+la Vergine della Battaglia<3:0c>・・・<3:1e> <3:04>
+signora Valkyrie!<17:3c00>
+@@ 16
+<19:0100>Valkyrie
+「<18><3:03>Proprio così<3:32>.<3:04>
+Il mio signore<3:03> ha bisogno del tuo potere<3:3c>.<3:03>
+Ti prego, <3:04>signora Lyseria, unisciti a me.<3:ff><17:3c00>
+@@ 17
+<19:0000>Lyseria
+「<18><3:04>Non riuscivo a controllare il mio potere<3:1e>,<3:03>
+ero disperata<3:0c>・・・ <3:03>Mi sono tolta la vita<3:14>,<3:04>
+e mi sono sigillata in queste rovine.<12:5a0a><17:7800><page>
+<3:03>N<18>on c'è posto per me
+<3:02>in questo mondo<3:3c>,<3:04> anzi<3:0f>,<3:03> in nessun mondo!<12:5b0a><3:3c> <3:ff>
+<18><3:04>Per tanto tempo<3:0a>,<3:03> ho sperato e pregato
+che qualcuno avesse la forza di <3:04>annientarmi.<12:5c0a><17:7800><page>
+<18><3:03>Signora <3:04>Valkyrie<3:14>,<3:03>
+sarete voi quella persona?<12:5d0a><3:3c> <3:ff>
+<18><3:03>Sarete voi a spegnere
+<3:04>il mio dolore e la mia tristezza?!<17:7800>
+@@ 18
+<19:0100>Celia
+「Grey!
+@@ 19
+<19:0100>Celia
+「Finalmente ti ho trovato<3:0c>・・・<3:ff>
+@@ 20
+<19:0000>Grey
+「<3:0c>・・・<3:ff>Celia.
+@@ 21
+<19:0100>Celia
+「Non posso perdonarti.
+@@ 22
+<19:0100>Celia
+「Sei tu il responsabile
+di tutto!
+@@ 23
+<19:0100>Celia
+「<3:04>Kashell<3:1e>, <3:04>Aelia<3:1e>・・・<3:ff>
+sono tutti morti<3:0c>・・・<3:ff>
+@@ 24
+<19:0100>Celia
+「Quel giorno è impazzito
+tutto・・・
+Il giorno<3:1e>・・・<3:ff>
+il giorno in cui Lemia è morta!
+@@ 25
+<19:0100>Celia
+「Non hai niente
+da dire!?
+@@ 26
+<19:0100>Celia
+「Ti prego<3:0c>・・・<3:ff>
+Di' qualcosa<3:0c>・・・<3:ff>
+@@ 27
+<19:0100>Celia
+「Dimmi che non hai ucciso
+Lemia!
+@@ 28
+<19:0100>Celia
+「Non posso ucciderti.
+@@ 29
+<19:0100>Celia
+「Perché<3:1e>・・・<3:ff>allora resterei
+davvero sola<3:0c>・・・<3:ff>
+@@ 30
+<19:0000>Grey
+「Perdonami<3:0c>・・・<3:ff>
+@@ 31
+<19:0100>Celia
+「Grey<3:3c>? <3:ff>No<3:0c>・・・<3:ff>
+Questo<3:0c>・・・<3:ff>
+non sta succedendo<3:0c>・・・<3:ff>
+@@ 32
+<19:0100>Celia
+「Noooooooooo!!
+@@ 33
+<19:ffff>Valkyrie
+「<18><3:03>Hai perso il corpo<3:1e>,<3:03>
+ed esisti solo grazie al rituale
+del <3:05>Trasferimento<3:04> d'Anima.<17:7800>
+@@ 34
+<19:ffff>Grey
+<18>「<3:03>Non sono <3:04>degno<3:03> di essere <3:04>scelto<3:03>
+da voi.<17:7800>
+@@ 35
+<19:ffff>Valkyrie
+「<18><3:04>Umano<3:32>.<3:03> Hai<3:0a> <3:03>davvero<3:0a> <3:03>profanato le anime<3:28>,<3:03>
+hai bestemmiato contro gli dei.<17:7800>
+@@ 36
+<19:ffff>Valkyrie
+「<18><3:03>Chi ha fatto da <3:04>sacrificio<3:0a> <3:03>per
+il trasferimento d'anima non può
+<3:02>essere<3:03> salvato allo stesso modo.<17:7800>
+@@ 37
+<19:ffff>Grey
+「<18><3:02>Allora non c'era nulla che potessi<3:03> fare<3:32>.<3:04>
+Non valgo niente.<17:7800>
+@@ 38
+<19:ffff>Grey
+「<18><3:04>Devo essere giudicato<3:0c>・・・<3:14>
+<3:04>Devo espiare.<17:7800>
+@@ 39
+<19:ffff>Valkyrie
+「<18><3:04>Diventa dunque una lama<3:19>
+<3:03>che gli dei<3:0f> <3:03>possano brandire.<17:7800>
+@@ 40
+<19:ffff>Valkyrie
+「<18><3:04>In ciò<3:14> <3:03>sta la tua via<3:0f> <3:03>verso la <3:04>salvezza.<17:7800>
+@@ 41
+<19:0100>Celia
+「Come?
+Come siamo arrivati a questo?
+@@ 42
+<19:0100>Celia
+「Che cosa<3:1e>・・・<3:ff> ha fatto lei?
+@@ 43
+<19:0100>Celia
+「Pensavo che fossimo tutti
+amici<3:0c>・・・<3:ff>
+Pensavo che il viaggio sarebbe finito,
+che saremmo stati tutti felici!
+@@ 44
+<5>Hai trovato Star Guard.
+@@ 45
+<5>Hai trovato Holy Wand 'Adventia'.
+@@ 46
+<5>Hai trovato Robe of Bryttain.
+@@ 47
+Valkyrie
+「Sei un servitore della regina Hel<3:28><3:ff>
+di Nifleheim, eh.<page>
+Non consegnerò l'anima della
+donna sigillata nel cristallo!!
+@@ 48
+Raver Lord
+「<3:0c>・・・<3:ff>Che insolenza<3:32>.<3:ff>
+Essere chiamato servo da te.
+Non sei altro che una bambina impaurita
+con le sue vuote vanterie!!
+@@ 49
+Valkyrie
+「Di' pure ciò che vuoi.<page>
+I miei poteri saranno scarsi rispetto
+ai Sovrani degli Dei<3:1e>, <3:ff>ma bastano
+comunque per vedermela con quelli come te!!
+@@ 50
+<5>Hai trovato Mighty Check.

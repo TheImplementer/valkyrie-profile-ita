@@ -7,3 +7,174 @@
 @@ 14
 Valkyrie
 「<3:04><18>Che nostalgia<3:0c>・・・<17:7800>
+@@ 15
+È assurdo<3:0c>...<3:1e>
+<3:ff>Valkyrie è Valkyrie.
+Non è Platina<3:0c>・・・<3:ff><17:9600>
+@@ 16
+Ma<3:0c>・・・<3:ff><17:7800>
+@@ 17
+<19:0000>Frei
+「Lucian<3:28>,<3:ff>
+che ci fai qui?
+@@ 18
+<19:0100>Lucian
+「Oh<3:28>, <3:ff>niente di speciale<3:0c>・・・<3:ff>
+@@ 19
+<19:0000>Frei
+「Suvvia!<3:28>!<3:ff>
+Qualcosa ti turba?<page>
+Lo capirei benissimo,
+se fosse così.
+@@ 20
+<19:0100>Lucian
+「Incredibile<3:0c>...
+Con te non si può nascondere niente.
+@@ 21
+<19:0100>Lucian
+「È vero, ne sono successe tante.
+Forse sono<3:0c>・・・<3:ff>
+Forse sono un po' confuso<3:0c>・・・<3:ff>
+@@ 22
+<19:0000>Frei
+「Sì? E poi?
+@@ 23
+<19:0100>Lucian
+「E<3:0c>・・・<3:32>
+<3:ff>La verità è<3:0c>・・・<3:ff>
+@@ 24
+<5><3:00>Domande ignote<17:7800>
+@@ 25
+<5><3:00>La morte?<17:5000>
+@@ 26
+<5><3:00>L'anima?<17:5000>
+@@ 27
+<5><3:00>Un eroe?<17:5000>
+@@ 28
+<5><3:00>Un dio?<17:5000>
+@@ 29
+<5><3:00>E <7:0b>-<7:01><17:7800>
+@@ 30
+<19:0000>Frei
+「Valkyrie?
+@@ 31
+<19:0000>Loki
+「È bella, vero<3:28>?<3:ff>
+Un po' fredda, però.
+Bene, addio.
+@@ 32
+<19:0100>Frei
+「Che stai dicendo?<page>
+Non puoi credere
+che tu e Lenneth possiate
+stare davvero insieme!
+@@ 33
+<19:0000>Loki
+「<3:0c>・・・<3:ff>Sì sì.
+@@ 34
+<19:0000>Frei
+「Be', va bene<3:0c>・・・<3:ff>
+Non c'è nulla da nascondere <7:0b>-<7:01>
+@@ 35
+<5>I fatti noti.<17:7800>
+@@ 36
+<5>Il suo vero nome<3:3c> <3:ff>
+<5>il compito che le è stato affidato<3:3c> <3:ff>
+<5>e la sua esistenza.<17:7800>
+@@ 37
+<5>Come un umano, rinascere dopo la morte<3:96>.<3:ff>
+<5>Come un dio, vivere in eterno<3:96>.<3:ff>
+<5>Come un non morto, sfuggire alla Ruota del Tempo.<17:9600>
+@@ 38
+<5>Valkyrie dorme in forma umana<3:64>.<3:ff>
+<5>Quando serve, torna come dea<3:64>,<3:ff>
+<5>per poi addormentarsi di nuovo.<17:7800>
+@@ 39
+<19:0100>Lucian
+「In forma<3:0c>..<3:32>.<3:ff>umana?!
+@@ 40
+<19:0000>Frei
+「Esatto<3:32>.<3:ff>
+Ma<3:0c>...<3:ff>
+@@ 41
+<19:0000>Frei
+「Lenneth<3:0c>・・・<3:ff>
+Non ha alcun ricordo, sai<3:0c>・・・<3:ff>
+@@ 43
+<19:0100>Lucian
+「Nessun ricordo?
+@@ 44
+<19:0000>Frei
+「Proprio così.<page>
+Cerco sempre di farla parlare della sua vita
+umana, ma pare che mia sorella Freya
+abbia sigillato i suoi ricordi.
+@@ 45
+<19:0100>Lucian
+「Ha sigillato i suoi ricordi<3:3c>?<3:ff>
+I suoi ricordi umani?
+@@ 46
+<19:0000>Frei
+「Il suo dovere di Valchiria ha la precedenza<3:0c>・・・<3:32>
+<3:ff>Se i suoi ricordi umani restassero,
+sarebbero solo un ostacolo.<page>
+Oh<3:1e>,<3:ff>
+mi sa che ho parlato troppo<3:0c>・・・<3:ff>
+@@ 47
+<5><3:03><18>Voglio solo scordare<3:0c>...<3:0a> <3:03>scordare<3:0c>...<3:14> <3:03>ogni<3:1e> <3:03>cosa<3:0c>...<3:ff><17:7800>
+@@ 48
+<19:0000>Frei
+「Lucian<3:0c>・・・<3:32>
+<3:ff>Che cosa c'è?
+@@ 49
+<19:0100>Lucian
+「No<3:1e>, <3:ff>non è niente.
+@@ 51
+<19:0100>Lucian
+「<3:0c>・・・<3:ff>Come posso restituirle
+i suoi ricordi?
+@@ 52
+<19:0000>Frei
+「Eh<3:32>?<3:ff> È impossibile<3:32>.<3:ff>
+È stata Freya in persona a
+sigillare i suoi ricordi.<page>
+Gli unici in grado di spezzare
+il sigillo sono Freya
+o il sommo Odino.
+@@ 53
+<19:0000>Loki
+「Hai parlato troppo,
+non è vero, Frei?<page>
+Inoltre,
+la signora Freya non ti ha
+mandata a chiamare?
+@@ 54
+<5>Platina è davvero Valkyrie<3:64>?<3:ff>
+<5>Non c'è un modo per restituirle i ricordi?!<17:7800>
+@@ 55
+<19:0000>Loki
+「Eh eh eh<3:0c>・・・<3:ff>
+@@ 56
+<19:0100>Lucian
+「<3:0c>・・・<3:ff>C'è qualcos'altro
+che vuoi da me?
+@@ 57
+<19:0000>Loki
+「Anche se forse non esiste
+una soluzione diretta,
+un'altra via c'è.
+@@ 58
+<19:0100>Lucian
+「Eh?
+@@ 59
+<19:0000>Loki
+「Ma, come puoi immaginare,
+rimuovere il sigillo dai suoi ricordi
+non è un'impresa facile.<page>
+Tuttavia<3:28>,<3:ff>
+credo che forse
+potresti almeno parlare con
+Valkyrie, se lo desideri<3:0c>・・・<3:ff>
+@@ 60
+<19:0000>Loki
+「Che cosa farai?

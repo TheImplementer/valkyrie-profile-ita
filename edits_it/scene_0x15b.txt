@@ -1,0 +1,26 @@
+# Valkyrie Profile scene 0x15b (-): 19 records, directory word 3957, package sectors 194208..194284 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Mystina
+「<18><3:04>Tutta questa torre emana
+energia magica<3:0c>・・・<3:ff>!<17:3c00>
+@@ 15
+<19:ffff>Mystina
+「<18><3:04>Hmm<3:26>?<3:03> Ci sono dei glifi di qualche
+tipo incisi sulle pareti.<3:ff><17:3c00>
+@@ 16
+<19:ffff>Mystina
+<18><3:05>「<3:03>Ma questi<3:0a>・・<3:1e>・<3:06>sono rune<3:28>?<3:03>
+Non può essere<3:2d>!<3:04> La 4a e la 14a runa<3:28>,
+<3:03>e persino la 22a!<3:28>!<3:03>
+Si credevano perdute per sempre<3:32>!<3:03>
+Che cosa significa?<17:5a00>
+@@ 17
+<19:ffff>Mystina
+「<18><3:06>Ah<3:1e>,<3:03> sono già state
+dissolte<3:0c>・・・<3:ff><17:3c00>
+@@ 18
+<19:ffff>Mystina
+「<18><3:04>Se è capace di spostare una torre
+così enorme in un'altra dimensione<3:28>,<3:04>
+quanto è potente<3:0c>・・・<3:ff>?<17:7800>

@@ -1,0 +1,49 @@
+# Valkyrie Profile scene 0x3b (Pleiades Shrine): 27 records, directory word 3669, package sectors 161704..161816 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Sacerdote shintoista
+「È ammirevole che tu venga
+qui ogni giorno a pregare.
+Ma per cosa<3:0c>・・・<3:ff>?
+@@ 15
+<19:ffff>Ai
+「Per il ritorno sano e salvo
+di mio fratello.
+@@ 16
+<19:ffff>Ai
+「È partito alla ricerca di una
+medicina per curare i miei occhi<3:0c>・・・
+@@ 17
+<19:ffff>Sacerdote shintoista
+「Capisco.
+@@ 18
+<19:ffff>Sacerdote shintoista
+「Poco fa è venuto un giovane.
+Sulle prime l'ho scambiato per te.
+@@ 19
+<19:ffff>Ai
+「Che sia lui<3:1e>?<3:ff>
+Deve essere stato mio fratello!!
+@@ 20
+<19:ffff>Ai
+「<3:0c>・・・<3:ff>Io e mio fratello siamo gemelli.
+@@ 21
+<19:ffff>Sacerdote shintoista
+「Ah, certo.
+@@ 22
+<19:ffff>Sacerdote shintoista
+「Ha detto di darti questo amuleto.
+L'ho tenuto io per te.
+@@ 23
+<19:ffff>Ai
+「Perché...qui?
+@@ 24
+<19:ffff>Sacerdote shintoista
+「<3:0c>Beh<3:14>,<3:ff>
+sapeva che saresti venuta qui,
+no?
+@@ 25
+<19:ffff>Sacerdote shintoista
+「Davvero, i gemelli sono una meraviglia.
+@@ 26
+<5>Santuario delle Pleiadi

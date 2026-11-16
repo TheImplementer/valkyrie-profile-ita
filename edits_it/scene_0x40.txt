@@ -1,0 +1,83 @@
+# Valkyrie Profile scene 0x40 (-): 31 records, directory word 3674, package sectors 162402..162455 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Padre
+「Signorina<3:1e>,<3:ff> ci hai chiesto di portarti
+in questa città,
+ ma ora dici di non avere
+un posto dove andare.<page>
+Scusa se insisto, ma
+posso chiederti perché volevi
+venire qui?
+@@ 15
+<19:ffff>Yumei
+「A dire il vero, non volevo
+nascondervi nulla<3:0c>...
+@@ 16
+<19:ffff>Yumei
+「Sono venuta qui<3:1e> <3:ff>per vedere mio padre.
+@@ 17
+<19:ffff>Padre
+「Tuo padre?
+@@ 18
+<19:ffff>Yumei
+「Esatto.
+@@ 19
+<19:ffff>Padre
+「Come si chiama?
+@@ 20
+<19:ffff>Yumei
+「Koh<3:0c>...<3:ff>Rijun Koh.
+@@ 21
+<19:ffff>Padre
+「Koh<3:28>? <3:ff>Non vorrai dire...
+lo shogun Koh!?
+@@ 22
+<19:ffff>Yumei
+「Lo conoscete?
+@@ 23
+<19:ffff>Padre
+「Tutti conoscono lo shogun Koh
+e la sua famiglia.
+@@ 24
+<19:ffff>Padre
+「Non vorrei essere scortese<3:32>,<3:ff>
+ma sei figlia di una delle sue
+amanti?
+@@ 25
+<19:ffff>Padre
+「Te lo chiedo perché...
+Beh, immagino che un familiare
+avrebbe saputo<3:0c>..<3:3c>.<3:ff>
+Che lo shogun Koh è morto<3:0c>.
+@@ 26
+<19:ffff>Padre
+「Conosci la guerra
+tra Hai-Lan e le sirene?
+È finita solo pochi anni fa.
+@@ 27
+<19:ffff>Padre
+「Lo shogun Koh comandava
+la flotta contro le sirene<3:28>.<3:ff>
+In piena battaglia,
+è caduto in mare.
+Non c'era tempo per salvarlo,
+e tutti hanno creduto che fosse annegato.
+@@ 28
+<19:ffff>Padre
+「Ma, per miracolo,
+le onde lo hanno riportato a riva sano e salvo.
+@@ 29
+<19:ffff>Padre
+「Da allora era un altro uomo.
+Lo shogun si è impegnato senza sosta per fare
+pace con le sirene e porre fine alla guerra.
+Da eroe di guerra è diventato un
+leggendario pacificatore.<page>
+Ma gli sforzi lo hanno logorato,
+e si è spento per una malattia
+pochi anni fa.
+@@ 30
+<19:ffff>Padre
+「L'intera nazione ha pianto la sua scomparsa<3:1e>.<3:ff>
+Era un grande uomo<3:0c>...
