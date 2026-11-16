@@ -1,0 +1,43 @@
+# Valkyrie Profile scene 0x5a (Tavern | Janus' house | Llewelyn's house | Capital City Crell Monferaigne): 27 records, directory word 3700, package sectors 164917..165153 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<5><3:06>Non sono fuggito dal mio dovere.<17:b400>
+@@ 15
+<19:ffff>Bambino
+「Oh<3:0c>・・・<3:ff>
+@@ 16
+<19:ffff>Bambino
+「Scusa<3:0c>・・・<3:ff>
+@@ 17
+<19:0100>Janus
+「<3:0c>・・・<3:ff>
+@@ 18
+<18><3:03>Ho sentito che voleva tornare a essere <3:06>cavaliere.<3:1e> <3:03>
+Ridicolo!<3:ff><17:4600>
+@@ 19
+<18><3:03>Ah!<3:1e> <3:03>Quel codardo<3:0a>・・・ <3:04>
+È scappato con la coda
+tra le gambe!<3:ff><17:4600>
+@@ 20
+<18><17:7800>
+@@ 21
+<5>Taverna
+@@ 22
+<5>Casa di Janus
+@@ 23
+<5>Casa di Llewelyn
+@@ 24
+<6:a00d><19:0100>Donna
+「Il fiore di loto
+è un simbolo delle speranze degli uomini.
+@@ 25
+<6:970d><19:0000>Uomo
+「Sì<3:0c>・・・<3:ff> I fiori e la speranza・・・
+appassiscono entrambi col tempo.
+<3:0c>・・・<3:ff>
+@@ 26
+<5>Capitale Crell Monferaigne

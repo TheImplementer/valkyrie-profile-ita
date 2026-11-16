@@ -1009,6 +1009,26 @@ monologue (D1 = 0x20, scene 0x76), the spectre in Asaka's room (0x28, 0x79), and
 the Soul Transfer (0x32, 0x7B). No line wraps, and the narration's timing follows the voice.
 Asaka's room in the past (0x77) and the road into town (0x7C) were checked by read-back only.
 
+## Llewelyn and Millia's storyline, and Crell Monferaigne
+
+**What is translated** (2026-11-16): storyline D0 = 4 (Llewelyn and Millia: the forest, the empty
+coffin, the Goddess Pendant) and everything else said in the capital, Crell Monferaigne: scenes
+0x58-0x61, 168 records. That includes three storylines that play in the same town: Janus and Bert
+(the stolen documents), Jayle, Fahn and Magnus with Genevieve, and Lezard's letter to Lorenta.
+Wording: `docs/GLOSSARY.md`.
+
+**Box sizes.** `--fit-boxes` grew 44 boxes; none runs off the screen. One box sits next to an
+actor: the knight's armour tips (0x5F #17, x 10), whose nine lines scroll through a 204 × 42 box in
+English. Growing it to 112 pixels high could take it off the screen, so the build now keeps the
+height of an actor box whose English already scrolled (`docs/MESSAGE_BOX.md`), and the lines were
+reworded to stay inside its width. All 168 records read back as written.
+
+![Llewelyn and Millia's storyline in Italian](notes/edit_proof/italian_llewelyn.png)
+
+**Seen in TinyPSX**, by jumping to each step (D0 = 4): the forest (D1 = 0x14, scene 0x61) and
+Valkyrie's talk with Llewelyn (0x2A, 0x60), voiced, with both pages of "La morte di una persona
+cara". No line wraps. The rest of the town was checked by read-back only.
+
 ## System messages: `system.txt`
 
 `docs/SYSTEM_MESSAGES.md` explains the system messages from the start, with every box.

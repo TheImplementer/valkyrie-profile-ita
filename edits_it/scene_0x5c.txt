@@ -1,0 +1,24 @@
+# Valkyrie Profile scene 0x5c (To outside): 19 records, directory word 3702, package sectors 165306..165360 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<18><3:05>Sono così fiero di<3:03> te, figlio mio!<3:04>
+Sei stato fatto cavaliere...
+entrato nella cerchia<3:03>
+ristretta del re...!<3:ff><17:b400>
+@@ 15
+Janus
+「Quando dissi addio
+ai cavalieri,
+la sigillai perché non
+fosse mai più usata<3:0c>... <3:ff>
+@@ 16
+<5><3:00>Ottieni Raven Slayer.
+@@ 17
+<5>Uscita
+@@ 18
+<6:ff0c><19:0100>Janus
+「<3:0c>...<3:ff>

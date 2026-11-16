@@ -34,6 +34,11 @@ here, so this file is never built into the disc.)
 | the Dark Lady | la Dama Oscura | Beliza, in the narration "I poteri di Beliza". |
 | Soul Transfer | Trasferimento d'Anima | "Il rituale del Trasferimento d'Anima". |
 | Slave Auction | Asta degli schiavi | Signpost and place; slave traders → mercanti di schiavi. |
+| Crell Monferaigne, Llewelyn, Millia, Janus, Bert, Ernest, Gunter, Max, Magnus, Genevieve, Leticia, Lorenta, Lezard Valeth | unchanged | Crell Monferaigne (scenes 0x58-0x61). |
+| Familiar | Famiglio | The cat that brings Lezard's letter. |
+| sea of trees | mare di alberi | Llewelyn and Millia's forest. |
+| Lady Goddess (Genevieve, mocking) | Mia signora Dea | |
+| Goddess of Love | Dea dell'Amore | "Non sono la Dea dell'Amore". |
 | Battle-Maiden | Vergine della Battaglia | "La Vergine della Battaglia, Valkyrie?" (scene 0x6E). |
 | Chief Councillor | Gran Consigliere | Lombert's title. |
 | Sir Arngrim | ser Arngrim | Used by Angela and the King. |
@@ -63,6 +68,9 @@ Soldato, Re, Capitano (Knight Captain), Donna, Giovane, Anziano / Anziana, Avven
 * **Belenus's storyline:** Asaka and Maria give Belenus *voi* ("signor Belenus", "signorino"); he
   uses *tu* with them and *voi* with his father, and *voi* with Valkyrie, a stranger. Valkyrie uses *tu*.
   Jayle gives her captain Fahn *voi* and slips into *tu* when she forgets herself ("Stupido!").
+* **Crell Monferaigne:** Bert gives his superior Ernest *voi*; Lezard's letter gives his old teacher Lorenta
+  *voi*; the priest prays to the Battle-Maiden with *tu*, as in a prayer. Llewelyn and Millia use *tu*;
+  Millia's "Perché non volete capire?!" is plural, to both parents. Genevieve and Magnus use *tu*.
 * **Badrach speaks colloquially** ("un sacco", "chi se ne frega", "Ci si vede!"), without dialect spellings.
 
 ## Title screen (`title_menu.txt`)

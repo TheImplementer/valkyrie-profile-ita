@@ -1,0 +1,288 @@
+# Valkyrie Profile scene 0x60 (-): 80 records, directory word 3706, package sectors 165607..165756 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:ffff>Bert
+「Signore, ci è giunta voce
+che Janus è stato visto in città
+l'altro giorno<7:0b>-<7:01>
+@@ 15
+<19:ffff>Ernest
+「Cosa?
+Perché mai dovrebbe
+tornare proprio ora?
+@@ 16
+<19:ffff>Bert
+「Forse...
+Cerca vendetta<3:14>
+<3:ff>contro di noi<3:0c>...<3:ff>?
+@@ 17
+<19:ffff>Bert
+「L'uomo che ha recuperato
+i documenti rubati.
+Ecco<7:0b>-<7:01>
+@@ 18
+<19:ffff>Ernest
+「Cosa?
+@@ 19
+<19:ffff>Ernest
+「Fallo entrare.
+@@ 20
+<19:ffff>Bert
+「Molto bene<7:0b>-<7:01>
+@@ 21
+<19:ffff>Ernest
+「Esatto<3:1e>. <3:ff>
+Gli errori non saranno perdonati.
+@@ 22
+<19:ffff>Bert
+「Janus.
+Hai fatto un buon lavoro.
+@@ 23
+<19:ffff>Bert
+「Se solo l'avessimo fatto
+fin dall'inizio<7:0b>-<7:01>
+@@ 24
+<19:ffff>Ernest
+「No<3:28>. <3:ff>Non potevamo ucciderlo finché
+il vecchio re era ancora vivo.
+@@ 25
+<19:ffff>Janus
+「<18><3:03>Volevo solo rendere
+<3:04>fiero mio padre.<3:36> <3:04>Per lui.<3:ff><17:3c00>
+@@ 26
+<19:ffff>Janus
+<18>「<3:04>Avrei eseguito qualunque
+ordine del re.<17:3c00>
+@@ 27
+<19:ffff>Valkyrie
+「<18><3:03>Anche se il lavoro è
+disonorevole?<17:3c00>
+@@ 28
+<19:ffff>Janus
+「<18><3:03>Fui privato del rango di
+cavaliere e cacciato dalla città.<17:3c00>
+@@ 29
+<19:ffff>Janus
+「<18><3:04>Dieci anni<3:24>.<3:03> Non sono tornato per
+<3:06>dieci anni.<3:2c> <3:04>Ero in pensiero per
+mio padre<3:0c>・・・<3:ff><17:3c00>
+@@ 30
+<19:ffff>Janus
+「<18><3:03>Ma lui<7:0b>-<7:01><17:3c00>
+@@ 31
+<19:ffff>Valkyrie
+「<18><3:03>Non conosci nemmeno una cosa<3:12> <3:03>
+semplice come il tuo posto?<17:3c00>
+@@ 32
+<19:ffff>Valkyrie
+「<18><3:03>Comunque, sei stato scelto<3:1e>.<3:03>
+Ora la tua<3:05> anima <3:04>appartiene agli
+dèi<3:0c>・・・<3:ff><17:3c00>
+@@ 33
+<19:ffff>Fahn
+「Cosa?!
+@@ 34
+<19:ffff>Jayle
+「Un muro invisibile
+ci blocca!!
+@@ 35
+<19:ffff>Magnus
+「Cosa<3:28>?<3:ff> Perché il mio incantesimo
+di seduzione non funziona?
+@@ 36
+<19:ffff>Jayle
+「Magnus<3:1e>!<3:ff> Tu<3:1e>! <3:ff>
+Che cosa gli hai fatto?
+@@ 37
+<19:ffff>Magnus
+「Tu sei uno dei sottoposti
+di Fahn<3:0c>・・・<3:ff>
+@@ 38
+<19:ffff>Magnus
+「Ih <3:08>ih <3:ff>ih <3:08>ih <3:ff>ih<3:32>.<3:ff>
+Capisco<3:1e>.<3:ff> Ecco perché.
+@@ 39
+<19:ffff>Magnus
+「Che significa<3:1e>?<3:ff>
+Come mai una donna è entrata
+nella "confraternita" dei cavalieri?
+@@ 40
+<19:ffff>Jayle
+「!!
+@@ 41
+<19:ffff>Magnus
+「Che astuzia diabolica, Fahn!
+Una donna travestita da uomo・・・
+Ti credevo uno stupido soldato.
+Ma ora, ora capisco.<page>
+Ungh<3:08>ggg<3:ff>hhh!
+@@ 42
+<19:ffff>Genevieve
+「Ooh<3:0a>~<3:ff>!
+Ma quanto sei carina!<page>
+Però<3:0c>・・・<3:ff><page>
+Sei una donna perfida.
+Usi gli uomini.
+@@ 43
+<19:ffff>Genevieve
+「Li usi<3:14>,<3:ff> ma è solo un modo per
+nascondere i tuoi veri sentimenti<3:0c>・・・<3:ff>
+Ah!<page>
+Povera ragazza.
+Non sai cosa c'è
+nel tuo stesso cuore.
+@@ 44
+<19:ffff>Jayle
+「Cosa・・・<3:0c><3:3c>!<3:ff>
+Taci<3:14>, <3:ff>mostro!
+@@ 45
+<19:ffff>Genevieve
+「Oh<3:1e>! <3:ff>"Mostro", dici<3:1e>!<3:ff>
+E io che cercavo solo di esprimere
+i tuoi veri sentimenti al posto tuo.
+Volevo farti da Cupido,
+per il tuo bene!
+@@ 46
+<19:ffff>Jayle
+「Tu<3:0c>・・・<3:ff> Lo giuro<3:0c>・・・<3:ff>
+Ti taglierò in due!
+@@ 47
+<19:ffff>Jayle
+「Co<3:1e>, <3:ff>cosa?!
+@@ 48
+<19:ffff>Magnus
+「Vergine della Battaglia<3:0c>・・・<3:ff>
+Valkyrie!
+@@ 49
+<19:ffff>Valkyrie
+「Ah! Che Cupido
+ripugnante saresti!
+@@ 50
+<19:ffff>Genevieve
+「<3:0c>・・・<3:ff>Ah<3:1e>, <3:ff>Valkyrie, quanto tempo.<page>
+Ma allora la tua armatura era
+celeste<3:28>?<3:ff>O era nera?
+Non credo fosse azzurro pallido <3:0c>・・・<3:ff>
+@@ 51
+<19:ffff>Genevieve
+「Beh<3:1e>, <3:ff>tanto è
+tutto uguale.
+@@ 52
+<19:0000>Valkyrie
+「Hai parlato abbastanza<3:0c>・・・<3:ff>
+I non morti dovrebbero restare
+sempre in silenzio!
+@@ 53
+<19:ffff>Valkyrie
+「Essere immondo. Torna nella
+tomba che ti ha generato!
+@@ 54
+<19:ffff>Genevieve
+「<3:0c>・・・<3:ff>Hmpf!<page>
+Credo che dovresti
+preoccuparti di più
+di ciò che accade alle tue spalle.
+@@ 55
+<19:ffff>Valkyrie
+「Ma cosa<3:0c>・・・<3:ff>?
+@@ 56
+<19:ffff>Jayle
+「<3:06>Fahn<3:0c>・・・<3:ff><3:06>Svegliati<3:28>, <3:06>
+ti prego, svegliati<3:0c>・・・<3:ff>
+@@ 57
+<19:ffff>Genevieve
+「Non hai il potere
+di controllarmi.
+@@ 58
+<19:ffff>Magnus
+「Iii<3:0c>・・・<3:ff>!!
+Iiiii<3:0c>・・・<3:ff>
+@@ 59
+<19:ffff>Genevieve
+「Porterai il peso di tutto questo
+sulle tue fragili spalle.
+@@ 60
+<19:ffff>Genevieve
+「Ci rivedremo<3:28>. <3:ff>
+Mia signora Dea.
+@@ 61
+<19:ffff>Valkyrie
+「Grrr!
+@@ 62
+<19:ffff>Fahn
+「<3:0c>・・・<3:ff>Ma cosa<3:1e>, <3:ff>come ho<3:0c>・・・<3:ff>
+Che succede<3:0c>・・・<3:ff>
+@@ 63
+<19:ffff>Fahn
+「Leticia! Resisti!
+@@ 64
+<19:ffff>Jayle
+「<3:0c>・・・<3:ff>Grazie al cielo.
+Stai bene<3:0c>・・・<3:ff>
+@@ 65
+<19:ffff>Jayle
+「<3:0a>Io<3:0c>・・・<3:06>io davvero<3:0c>・・・<3:ff>
+Quello che provo per te<3:0c>・・・<3:ff>
+@@ 66
+<19:ffff>Fahn
+「Non morire!
+Resisti!
+@@ 67
+<19:ffff>Jayle
+「<3:0a>Ti prego<3:0c>・・・<3:ff><3:0a>Ti prego<3:3c>,<3:06>
+voglio che tu<3:0c>・・・<3:08>vinca<3:0c>・・・<3:ff>
+@@ 68
+<19:ffff>Fahn
+「Leticia<3:0c>・・・<3:ff>
+@@ 69
+<19:ffff>Fahn
+「Magnus<3:0c>・・・<3:ff>
+TU!!!
+@@ 70
+<19:0100>Valkyrie
+「<18><3:03>Ne sei davvero
+sicuro?<17:8200>
+@@ 71
+<19:ffff>Llewelyn
+「<18><3:03>Cosa potrei mai dire<3:37>.<3:02>
+<3:03>Non ci sono parole<3:0c>・・・<3:ff><17:8200>
+@@ 72
+<19:0100>Valkyrie
+「<18><3:03>Se credi che non possiamo fare<3:03>
+nulla per voi umani<3:08>,<3:03>
+ti sbagli.<17:9600>
+@@ 73
+<19:ffff>Llewelyn
+<18>「<3:02>Eh?<3:ff><17:7800>
+@@ 74
+<19:0100>Valkyrie
+「<18><3:03>La morte di una persona cara<3:2c>.<3:03>
+<3:03>Per chi resta, le ferite si fanno
+<3:04>sempre <3:06>più <3:04>profonde・・・<17:8200><page>
+<18><3:03>Chi resta si fa sempre più debole<3:22>,<3:03>
+in un'agonia senza pari<3:0a>,<3:03> col cuore in catene.<17:8200>
+@@ 75
+<19:0100>Valkyrie
+「<18><3:03>Non lo vedi<3:1e>?
+<3:03>Lei ha smesso di vivere<3:1e>,<3:03>
+ferma nel tempo.<17:8200>
+@@ 76
+<19:0100>Valkyrie
+「<18><3:03>È come se l'avessi uccisa
+<3:03>con una delle tue frecce.<17:8200>
+@@ 77
+<19:ffff>Llewelyn
+「<18><3:03>Allora cosa dovrei<3:0c>・・・<17:7800>
+@@ 78
+<19:0100>Valkyrie
+「<18><3:03>Non serve fingere<3:14>.<3:03>
+Fa' semplicemente ciò che puoi.<17:7800>
+@@ 79
+Valkyrie
+<18><3:41>「<3:03>Questo non è compito mio<3:04>・・<3:32>・<3:04>
+Non sono la Dea
+dell'Amore・・・<17:7800>

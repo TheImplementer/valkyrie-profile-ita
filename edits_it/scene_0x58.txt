@@ -1,0 +1,32 @@
+# Valkyrie Profile scene 0x58 (-): 19 records, directory word 3698, package sectors 164588..164737 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:0100>Lorenta
+「Ah, finalmente a casa.
+@@ 15
+<19:0100>Lorenta
+「A quest'ora starà già
+dormendo...
+@@ 16
+<19:0000>Lorenta
+「Ti sei perso, piccolino?
+@@ 17
+<19:0100>Famiglio
+「<3:06>Oggi era il compleanno della mia
+carissima insegnante, non è vero?
+Desidererei tanto
+ricordare i vecchi tempi.
+Questo gatto vi mostrerà
+la strada, quindi venite, vi prego.
+E venite da sola. Vostro marito
+e io vi attenderemo
+con trepidazione.<3:ff>
+<7:0b>-<7:01>Lezard Valeth
+@@ 18
+<19:0000>Lorenta
+「Lezard<3:0c>..<3:3c>.<3:ff>
+Quel... ragazzo?!

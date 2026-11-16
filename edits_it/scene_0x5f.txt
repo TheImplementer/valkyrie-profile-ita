@@ -1,0 +1,36 @@
+# Valkyrie Profile scene 0x5f (-): 19 records, directory word 3705, package sectors 165453..165606 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:0000>Sacerdote
+「Vergine della Battaglia<3:1e>,<3:ff>
+illumina la nostra via, affinché
+possiamo percorrere il sentiero del coraggio!
+@@ 15
+<19:0000>Sacerdote
+「Quello spirito<3:28>,<3:ff>
+non sarà mai profanato!
+@@ 16
+<19:ffff>Cavaliere
+「Ti interessano le armature,
+anche se sei una ragazza?
+・Sì
+・No
+@@ 17
+<19:ffff>Cavaliere
+「Le armature non riducono soltanto
+i danni che subisci, sai.
+Prendi l'elmo, per esempio:
+rende più difficile svenire.
+Gli stivali aiutano a schivare.
+E i guanti aiutano
+a parare i colpi.<page>
+Anche se la loro difesa è bassa,
+non devi trascurare gli oggetti
+difensivi diversi dall'armatura.
+@@ 18
+<19:ffff>Cavaliere
+「Capisco<3:0c>・・・<3:ff>

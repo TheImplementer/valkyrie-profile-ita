@@ -1,0 +1,15 @@
+# Valkyrie Profile scene 0x59 (To the castle square | Millia's house): 18 records, directory word 3699, package sectors 164738..164916 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:ffff>Janus
+「Chi sei!!
+@@ 15
+<5>Sono questi gli scritti segreti?<17:b400>
+@@ 16
+<5>Piazza del castello
+@@ 17
+<5>Casa di Millia

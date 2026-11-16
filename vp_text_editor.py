@@ -350,13 +350,19 @@ def fit_boxes(scene, k, fit):
     notes = []
     for iw, ih, (x, y, w, h, _, _), func in calls:
         need_w, need_h = fitted(w, h, px, ph)
+        scrolls = ''
+        if 8 <= x <= 15 and need_h > h and measure(scene.orig_records[k], scene.font)[1] > h:
+            # next to an actor, where a taller box may leave the screen: the English scrolled
+            # this box too, so keep its height and let it scroll the same way
+            need_h = h; scrolls = '; height kept: it scrolls, as the English did'
         if (need_w, need_h) == (w, h):
-            notes.append(f'record {k}: {px} x {ph} px fits its box {w} x {h} ({BOX_FUNCS[func]} at word {iw + 4:#x})')
+            notes.append(f'record {k}: {px} x {ph} px fits its box {w} x {h} ({BOX_FUNCS[func]} at word {iw + 4:#x})'
+                         + scrolls)
             continue
         if fit:
             set_push(scene.block.script, iw, need_w); set_push(scene.block.script, ih, need_h)
             notes.append(f'record {k}: box {w} x {h} -> {need_w} x {need_h} for {px} x {ph} px'
-                         f' ({BOX_FUNCS[func]} at word {iw + 4:#x})'
+                         f' ({BOX_FUNCS[func]} at word {iw + 4:#x})' + scrolls
                          + (f'; note: x {x} places the box next to an actor, so whether it stays on the screen'
                             f' can only be checked in the game' if 8 <= x <= 15 else
                             f'; WARNING: x {x} + width {need_w} runs off the {SCREEN_W}-pixel screen' if x + need_w > SCREEN_W - 16 else ''))

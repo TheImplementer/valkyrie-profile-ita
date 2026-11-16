@@ -1,0 +1,113 @@
+# Valkyrie Profile scene 0x5b (To outside): 41 records, directory word 3701, package sectors 165154..165305 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<3:05>Che orrore.<3:ff><17:b400>
+@@ 15
+<3:05>Dicevano che era una guerra
+che non potevamo perdere.<3:ff><17:b400>
+@@ 16
+<19:ffff>Jayle
+「Vi prego<3:28>!<3:ff>
+Ve ne supplico, signore!
+@@ 17
+<19:ffff>Fahn
+「Ho sempre pensato che ci fosse
+qualcosa di diverso in te<3:0c>・・・<3:ff>
+Ma la tua straordinaria abilità
+con la spada mi aveva ingannato.
+@@ 18
+<19:ffff>Jayle
+「Vi prego<3:32>!<3:ff>
+Mantenete il segreto<3:0c>・・・<3:ff>
+@@ 19
+<19:ffff>Fahn
+「<3:0c>・・・<3:ff>
+@@ 20
+<19:ffff>Fahn
+「Allora, almeno,
+vorrei sapere il tuo vero nome
+e perché volevi entrare
+nell'ordine dei cavalieri.
+@@ 21
+<19:ffff>Jayle
+「Sì, signore<3:0c>・・・<3:ff>
+@@ 22
+<19:0100>Jayle
+「Non posso perdonare Magnus.
+@@ 23
+<19:0000>Fahn
+「Ma ci serve un
+pretesto qualsiasi.
+Di recente abbiamo fatto pulizia
+intorno a lui<3:0c>・・・<3:ff>
+@@ 24
+<19:0100>Jayle
+「È frustrante essergli così vicini
+e non poter fare<3:0c>・・・<3:ff>
+@@ 25
+<19:0000>Fahn
+「Per ora possiamo
+solo<3:0c>・・・<3:ff> aspettare.
+@@ 26
+<19:0100>Jayle
+「Ho la sensazione<3:0c>・・・<3:ff>di stare
+solo approfittando di voi.
+@@ 27
+<19:0000>Fahn
+「<3:0c>・・・<3:ff>
+@@ 28
+<19:0100>Jayle
+「Se non foste il
+capo dei cavalieri,
+non vi avrei degnato di uno sguardo<3:0c>・・・<3:ff>
+@@ 29
+<19:0100>Jayle
+「Mi riterrete
+una donna falsa.
+@@ 30
+<19:0000>Fahn
+「Va tutto bene<3:3c>.<3:ff>
+Voglio che tu resti con noi.
+@@ 31
+<19:0000>Fahn
+「Prima che la battaglia cominci,
+Magnus celebrerà un rito di
+benedizione per rinfrancare
+le truppe.
+Sarà la nostra unica occasione.
+@@ 32
+<19:0100>Jayle
+「<3:0c>・・・<3:ff>È vero che Magnus segue
+uno strano dio demoniaco?!
+@@ 33
+<19:0000>Fahn
+「Sì, è vero<3:1e>.<3:ff> Ma questa
+sarà la sua fine.
+@@ 34
+<5>Uscita
+@@ 35
+<6:880d><19:0000>Millia
+「Perché?
+Perché non volete capire?!
+@@ 36
+<6:880d><19:0000>Millia
+「<3:0c>・・・<3:ff>
+@@ 37
+<6:970d><19:0100>Padre di Millia
+「Quante volte
+devo ripetertelo?
+@@ 38
+<6:970d><19:0100>Padre di Millia
+「Lo sapevo.
+Sapevo che sarebbe finita così.
+@@ 39
+<6:a00d><19:0100>Madre di Millia
+「Millia,
+pensaci bene<3:0c>・・・<3:ff>
+@@ 40
+<6:a00d><19:0100>Madre di Millia
+「Millia<3:0c>・・・<3:ff>

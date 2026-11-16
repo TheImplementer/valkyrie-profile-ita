@@ -1,0 +1,133 @@
+# Valkyrie Profile scene 0x61 (-): 43 records, directory word 3707, package sectors 165757..165887 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:0100>Llewelyn
+「Scusa, Millia<3:1e>.<3:ff>
+Hai aspettato tanto?
+@@ 15
+<19:ffff>Millia
+「Non importa.
+ Adoro questo posto.
+@@ 16
+<19:ffff>Millia
+「Adoro starmene qui
+ad ascoltare il fruscio delle foglie.
+Quando il vento soffia nel modo giusto,
+sembra proprio il rumore delle onde
+sulla riva.
+@@ 17
+<19:ffff>Llewelyn
+「Non me n'ero mai
+accorto prima.
+Ora<3:14>、<3:ff>capisco cosa intendono <3:14>con<3:ff>
+"mare di alberi".
+@@ 18
+<19:ffff>Millia
+「Sì<3:1e>.<3:ff> Ecco perché
+volevo che venissi qui.
+@@ 19
+<19:ffff>Llewelyn
+「Perché?
+@@ 20
+<19:ffff>Millia
+「Stai per partire per mare, vero<3:1e>?<3:ff>
+Come soldato...<3:1e><3:ff>In guerra...
+@@ 21
+<19:ffff>Llewelyn
+「Quindi lo sapevi<3:0c>...<3:ff>
+@@ 22
+<19:ffff>Millia
+「Sì<3:1e>.<3:ff> Ed è per questo che
+mia madre mi ha detto di dimenticarti<3:0c>...<3:ff>
+@@ 23
+<19:ffff>Llewelyn
+「Forse dovresti
+ascoltarla, Millia.
+@@ 24
+<19:ffff>Millia
+「Non dirlo<3:28>!<3:ff>
+Io ti aspetterò<3:0c>...<3:ff>
+Quando vengo qui
+mi sembra
+di esserti più vicina.
+@@ 25
+<19:ffff>Millia
+「Ma non solo.
+È qualcosa di più.
+Mi sembra che tu sia davvero qui<3:1e>.<3:ff>
+Qui insieme a me<3:0c>・・・<3:ff>
+@@ 26
+<19:ffff>Llewelyn
+「Millia<3:0c>...<3:ff>
+@@ 27
+<19:ffff>Llewelyn
+「Ti prometto che non morirò.
+Aspettami.
+@@ 28
+<19:ffff>Millia
+「Ti aspetterò.
+@@ 29
+<19:ffff>Llewelyn
+「Quando tornerò,
+ci sposeremo.
+@@ 30
+<5><3:08>La leggenda dice che il fiore di loto
+<5>dona la vita eterna.<3:ff>
+<5><3:08>Regalare un fiore di loto<3:ff>
+<5><3:08>significa pregare
+<5>per la vita eterna di chi lo riceve.<3:ff>
+@@ 31
+<19:ffff>Millia
+「Llewelyn<3:1e>.<3:ff>
+Devo parlarti<3:14>.<3:ff>
+Mia madre vuole
+combinarmi un matrimonio.<page>
+Le ho detto di no, naturalmente<3:1e>.<3:ff>
+Le importa solo
+della sua posizione sociale.
+Sta solo perdendo tempo<3:1e>.<3:ff>
+Non sposerò mai nessun altro<3:0c>...
+@@ 32
+<19:ffff>Millia
+「No!
+Questo suono... è tutto sbagliato!
+@@ 33
+<19:ffff>Millia
+「Basta<3:28>!<3:ff>
+Qualcuno lo fermi<3:0c>...<3:ff>!
+@@ 34
+<19:ffff>Millia
+「Una bara vuota<3:0c>...<3:ff>
+Non riesco a credere che tu sia morto<3:0c>...
+@@ 35
+<19:ffff>Millia
+「Llewelyn!
+@@ 36
+<19:ffff>Llewelyn
+「Perdonami<3:28>.<3:ff>
+Veglierò sempre su di te<3:0b>...<3:ff>
+@@ 37
+<18><3:03>La morte di una persona cara<3:2a>.<3:03>
+<3:03>Per chi resta, le ferite si fanno
+<3:04>sempre <3:06>più <3:04>profonde・・<3:1e>・<3:03>
+<3:03>Chi resta si fa sempre più debole<3:23>,<3:03>
+<3:03>in un'agonia senza pari<3:02>, col cuore
+in catene.<17:8200>
+@@ 38
+<18><3:04>Chi è colui che resta?<17:5000>
+@@ 39
+<18><3:04>E chi è colui che se n'è andato?<17:5000>
+@@ 40
+<19:0100>Llewelyn
+「Cos'è questo<3:0c>...<3:ff>?
+@@ 41
+Valkyrie
+「È una collana.
+La portano le donne che pregano per
+il ritorno sano e salvo dei loro amati<3:0c>...<3:ff>
+@@ 42
+<5><3:00>Hai trovato Goddess Pendant.

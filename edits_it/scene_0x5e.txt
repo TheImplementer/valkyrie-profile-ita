@@ -1,0 +1,49 @@
+# Valkyrie Profile scene 0x5e (To outside): 26 records, directory word 3704, package sectors 165393..165452 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:ffff>Gunter
+「Ehi<3:14>,<3:ff> ma tu non sei...<3:1e>
+<3:ff>Janus?
+@@ 15
+<19:ffff>Janus
+「<3:0c>・・・
+@@ 16
+<19:ffff>Gunter
+「Ehi, quanto tempo, amico!
+Sei tornato, eh?
+@@ 17
+<19:ffff>Gunter
+「Ma dimmi un po'... che ci
+fai qui, poi?
+Questo posto è per guerrieri
+degni, no?
+Non è un posto per codardi!
+@@ 18
+<19:ffff>Gunter
+「Sparisci!
+@@ 19
+<5>Uscita
+@@ 20
+<6:5b0d><19:0100>Gunter
+「Io, io non ho fatto niente!
+@@ 21
+<6:5b0d><19:0100>Gunter
+「<3:0c>・・・<3:ff>Così ha detto lui.
+@@ 22
+<6:970d><19:0000>Max
+「Ehi, questa storia non mi piace.
+Andiamocene<3:0c>・・・<3:ff>
+@@ 23
+<6:970d><19:0000>Max
+「Ah ah, che sciocco che sono.
+@@ 24
+<6:720d><19:0000>Fahn
+「Sei tu?!
+@@ 25
+<6:000d><19:0000>Jayle
+「Mi è stato riferito che
+qui stava succedendo qualcosa.
