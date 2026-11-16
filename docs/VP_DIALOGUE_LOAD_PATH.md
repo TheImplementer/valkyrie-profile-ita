@@ -21,8 +21,8 @@ menu. `vp_scenes.py` says which scene is which, and `vp_flow.py` gives each scen
 
 ```
 VALKYRIE.BIN header, sectors 0-12 (encrypted, the same LFSR as sector 0 run on)
- ├─ words 0x009-0x1FF  the 503-entry file table (type + 24-bit sector)
- └─ words 0x200-0x12FB package directory: BCD disc positions MM SS FF 00
+ └─ words 1-0x13FF  the file table: one word per file, BCD disc position MM SS FF + size
+            (docs/VALKYRIE_BIN_TABLE.md)
       └─ scene id k → word 3610 + k; e.g. scene 0x16 → word 0xE30 = 35:06:63
          → LBA 157,863 = VALKYRIE.BIN sector 157,713
 scene package: one contiguous read (here 125 sectors)
@@ -153,7 +153,8 @@ and 23 are solid. The internal layouts of 0, 8, 13 and 16 are partly decoded.
 
 **Archive header.** Every word from 1 on is a file entry: BCD position in bytes 0-2, and the high byte
 of the size in sectors in byte 3. The size's low byte is in a second table at words `0x1400-0x18FF`,
-encrypted bytewise. The 4,472 non-empty entries are contiguous. The first entries:
+encrypted bytewise. The 4,472 files lie back to back on the disc in word order, with empty words
+between some of them. `docs/VALKYRIE_BIN_TABLE.md` explains the table in full. The first entries:
 
 | word | file |
 |---:|---|

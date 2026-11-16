@@ -16,6 +16,7 @@ BIN/CUE, the Redump dumps of the USA discs.
 |---|---|
 | [`edits_it/`](edits_it/) | The Italian text, one edit file per scene, menu or battle table. |
 | [`docs/GLOSSARY.md`](docs/GLOSSARY.md) | The names, terms and forms of address chosen, and why. |
+| [`docs/VALKYRIE_BIN_TABLE.md`](docs/VALKYRIE_BIN_TABLE.md) | How the encrypted table at the start of `VALKYRIE.BIN` lists the game's 4,472 files: where each one is on the disc and how big it is. |
 | [`docs/VP_DIALOGUE_LOAD_PATH.md`](docs/VP_DIALOGUE_LOAD_PATH.md) | The main write-up: how the game finds, decompresses, decodes and draws its text, from disc sector to message box, and everything learned while changing it. |
 | [`docs/VP_DIALOGUE_FORMAT.md`](docs/VP_DIALOGUE_FORMAT.md), [`docs/DIALOGUE_SEARCH.md`](docs/DIALOGUE_SEARCH.md) | The earlier notes: the archive, its encryption and compression, and the search for the dialogue. They mention exploration tools that aren't in this repository. |
 | [`docs/notes/`](docs/notes/) | Shorter notes (scene package parts, the script's built-in commands, voice clips, sound labels) and the screenshots taken to check each change in the game. |

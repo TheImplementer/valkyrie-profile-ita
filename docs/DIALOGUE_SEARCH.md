@@ -38,6 +38,8 @@ Find story/cutscene dialogue text in VALKYRIE.BIN (Valkyrie Profile, SLUS-01156)
 - Correct: `words = struct.unpack('<{N}I', raw); for w in words: out.append(w ^ key); key = lfsr_step(key)`
 - Key K0 = 0x64283921; step: `key ^= (key<<1)&MASK32; key = (~key)&MASK32; key ^= K0`
 - File table: 503 regular entries (types 0x02/0x03/0x04) covering sectors 2–29768
+- *Later corrected:* the "type" byte is the minutes of a BCD disc position, and the table has
+  4,472 files over 13 sectors. See `docs/VALKYRIE_BIN_TABLE.md`.
 
 ### Text File Format (confirmed)
 Decompressed SLZ data layout:
