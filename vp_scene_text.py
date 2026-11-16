@@ -7,7 +7,7 @@ Usage:
 
 OFFSET is the byte offset of a scene-text SLZ container (e.g. 0x13441A40, the Valhalla /
 "How nostalgic" scene). Everything here was traced live in TinyPSX and checked against the
-game's own RAM (see VP_DIALOGUE_LOAD_PATH.md):
+game's own RAM (see docs/VP_DIALOGUE_LOAD_PATH.md):
 
   container  = SLZ entry 0 (type 1): the scene block; SLZ entry 1 (type 2): the scene's font
   scene block: 7 x u32 header (offsets from +0x1C)

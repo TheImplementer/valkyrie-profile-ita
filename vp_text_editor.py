@@ -28,7 +28,7 @@ re-packed. The original image is only read. Records you delete from the file, or
 were, are kept byte for byte. `check` proves the round trip on the disc: every record parses back
 to itself, every scene block and container rebuilds, and re-compressed packages still fit.
 
-The whole path, all of it from VP_DIALOGUE_LOAD_PATH.md:
+The whole path, all of it from docs/VP_DIALOGUE_LOAD_PATH.md:
 
   cue/bin --ISO 9660--> VALKYRIE.BIN (Mode 2 Form 1 sectors; vp_disc.py reseals EDC/ECC)
   archive header (13 sectors, LFSR-encrypted) --> directory word 3610 + scene id --> package

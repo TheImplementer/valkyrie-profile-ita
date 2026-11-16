@@ -6,7 +6,7 @@ Usage:
     python3 vp_scenes.py VALKYRIE.BIN --json OUT      the same as JSON
     python3 vp_scenes.py VALKYRIE.BIN --scene 0x16    one scene's package parts
 
-How the game picks a scene (traced in TinyPSX, see VP_DIALOGUE_LOAD_PATH.md):
+How the game picks a scene (traced in TinyPSX, see docs/VP_DIALOGUE_LOAD_PATH.md):
   built-in 0x9E (select_scene) passes a scene id to 0x8006C270, which looks it up in a
   10-byte-per-scene table at 0x80080618 (field engine data, 1,118 ids: 0..0x45D). Field +0 of the
   entry is the directory word of the scene's package, and it is always 3610 + id; field +8 is a

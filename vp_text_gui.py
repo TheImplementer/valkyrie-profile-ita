@@ -14,7 +14,7 @@ the same format `vp_text_editor.py export` writes and `build` reads). "Build" wr
 cue/bin pair (default next to the original, vp_edit.cue); "Run in TinyPSX" opens it in the
 emulator window when the repository's release build and BIOS are there.
 
-The preview draws what the game would draw, from what the editor learned (VP_DIALOGUE_LOAD_PATH.md,
+The preview draws what the game would draw, from what the editor learned (docs/VP_DIALOGUE_LOAD_PATH.md,
 "Editing the dialogue" and "The message box"):
   * the record bytes are exactly what `build` writes (same encoder, glyphs added to the font
     included), drawn with the scene's own glyph bitmaps and widths;

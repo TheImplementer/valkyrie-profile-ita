@@ -4,20 +4,35 @@ An Italian fan translation of Valkyrie Profile (PlayStation, USA release, SLUS-0
 and the tools and notes that made it possible. *Traduzione amatoriale in italiano: i file di
 traduzione sono in `edits_it/`.*
 
-The translation is a work in progress: see [`edits_it/PROGRESS.md`](edits_it/PROGRESS.md).
-This repository holds no game data. To build or explore anything you need your own copy of the
-game as BIN/CUE, the Redump dumps of the USA discs.
+![The title menu in English (left) and Italian (right)](docs/notes/edit_proof/italian_title_screen.png)
+
+The translation is a work in progress: see [`docs/PROGRESS.md`](docs/PROGRESS.md).
+This repository holds no game data. To build anything you need your own copy of the game as
+BIN/CUE, the Redump dumps of the USA discs.
 
 ## What's here
 
 | Where | What |
 |---|---|
-| [`edits_it/`](edits_it/) | The Italian text, one edit file per scene, menu or battle table. [`GLOSSARY.md`](edits_it/GLOSSARY.md) records the names, terms and forms of address chosen, and why. |
-| [`VP_DIALOGUE_LOAD_PATH.md`](VP_DIALOGUE_LOAD_PATH.md) | The main write-up: how the game finds, decompresses, decodes and draws its text, from disc sector to message box, and everything learned while changing it. |
-| [`VP_DIALOGUE_FORMAT.md`](VP_DIALOGUE_FORMAT.md), [`DIALOGUE_SEARCH.md`](DIALOGUE_SEARCH.md) | The earlier notes: the archive, its encryption and compression, and the search for the dialogue. |
-| [`notes/`](notes/) | Shorter notes: the scene package parts, the script's built-in commands, voice clips, sound labels. |
-| `vp_text_editor.py` and the other `vp_*.py` | The tools (Python 3, no dependencies). |
-| [`CLAUDE.md`](CLAUDE.md) | A one-page list of every command. |
+| [`edits_it/`](edits_it/) | The Italian text, one edit file per scene, menu or battle table. |
+| [`docs/GLOSSARY.md`](docs/GLOSSARY.md) | The names, terms and forms of address chosen, and why. |
+| [`docs/VP_DIALOGUE_LOAD_PATH.md`](docs/VP_DIALOGUE_LOAD_PATH.md) | The main write-up: how the game finds, decompresses, decodes and draws its text, from disc sector to message box, and everything learned while changing it. |
+| [`docs/VP_DIALOGUE_FORMAT.md`](docs/VP_DIALOGUE_FORMAT.md), [`docs/DIALOGUE_SEARCH.md`](docs/DIALOGUE_SEARCH.md) | The earlier notes: the archive, its encryption and compression, and the search for the dialogue. They mention exploration tools that aren't in this repository. |
+| [`docs/notes/`](docs/notes/) | Shorter notes (scene package parts, the script's built-in commands, voice clips, sound labels) and the screenshots taken to check each change in the game. |
+| `vp_*.py` | The tools (Python 3, no dependencies). |
+
+The tools:
+
+| Script | Does |
+|---|---|
+| `vp_text_editor.py` | Exports text to edit files and builds edited discs. Everything else builds on it. |
+| `vp_text_gui.py` | A browser editor with a preview of each message box. |
+| `vp_release.py` | Makes the xdelta and PPF patches for both discs. |
+| `vp_progress.py` | Writes the progress table. |
+| `vp_scene_text.py`, `vp_scenes.py`, `vp_script.py`, `vp_slz.py`, `vp_disc.py` | Read the disc, the archive, its compression, the scene scripts and their text. |
+| `vp_menu_text.py`, `vp_battle_text.py`, `vp_worldmap_text.py`, `vp_title_menu.py` | The menu, battle, world-map and title-screen text. |
+| `vp_accents.py`, `vp_glyph_names.py` | The accented letters, and the table of the font's characters. |
+| `vp_box_skin.py` | Cuts the message-box artwork for the GUI's preview out of a screenshot. |
 
 ## Building the Italian discs
 
@@ -37,8 +52,8 @@ To build one disc directly:
 python3 vp_text_editor.py build DISC.cue edits_it/*.txt -o OUT.cue --fit-boxes
 ```
 
-The title-screen labels are drawn as pictures and are re-rendered with a small Swift program, so
-building `title_menu.txt` needs macOS with `swiftc`.
+The title-screen labels are drawn as pictures and are re-rendered with a small Swift program
+(`tools/render.swift`), so building `title_menu.txt` needs macOS with `swiftc`.
 
 ## Editing
 
@@ -52,21 +67,21 @@ python3 vp_text_gui.py DISC.cue --edits edits_it
 http://127.0.0.1:8766/ edits scenes and tables with a preview of each message box. It shows each
 scene's place names if `vp_scene_map.json` exists, made with
 `python3 vp_scenes.py VALKYRIE.BIN --json vp_scene_map.json` from the disc's `VALKYRIE.BIN`.
-`python3 vp_progress.py DISC1.cue --edits edits_it -o edits_it/PROGRESS.md` updates the progress
+`python3 vp_progress.py DISC1.cue --edits edits_it -o docs/PROGRESS.md` updates the progress
 table.
 
 ## What isn't here
 
-The game's executable, the disassembly, the text dumps, the disc images, the patched images and
-screenshots stay out, and so does the font. The tools find each character by its glyph bitmap,
-and `vp_glyph_names.json` keys that table by a hash of each bitmap, not by the bitmap itself.
+The game's executable, the disassembly, the text dumps, the disc images and the patched images
+stay out, and so does the font. The tools find each character by its glyph bitmap, and
+`vp_glyph_names.json` keys that table by a hash of each bitmap, not by the bitmap itself.
 
-The notes mention TinyPSX, the PlayStation emulator the game was traced in, and some files under
-`notes/edit_proof/`: neither is part of this repository.
+The notes mention TinyPSX, the PlayStation emulator the game was traced in. It isn't part of this
+repository.
 
 ## License
 
-* **The translation and the notes** (`edits_it/`, the `.md` files and `notes/`) are under
+* **The translation and the documents** (`edits_it/` and `docs/`) are under
   [CC BY-NC-SA 4.0](LICENSE-text): share and adapt them for non-commercial use, with credit, under
   the same license.
 * **Everything else** (the tools and the data files they read) is under the [MIT License](LICENSE).

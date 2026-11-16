@@ -9,7 +9,7 @@ Usage:
     python3 vp_script.py VALKYRIE.BIN --stats          coverage over all scenes
 
 The VM (field engine; interpreter loop at 0x800715B4, handler table at 0x800831D0) is described in
-VP_DIALOGUE_LOAD_PATH.md. In short: a 32-bit word per instruction, opcode = bits 31-24. Core
+docs/VP_DIALOGUE_LOAD_PATH.md. In short: a 32-bit word per instruction, opcode = bits 31-24. Core
 opcodes 0x01-0x4A have fixed lengths; built-ins (0x50+) take their arguments from the stack when
 bit 20 is set, otherwise from N inline words that follow (N per built-in, BUILTIN_ARGS).
 """

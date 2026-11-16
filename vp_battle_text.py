@@ -3,7 +3,7 @@
 
 The battle screens' English text is not in the menu tables (vp_menu_text.py) but in four string
 tables of the battle files, each paired with a font part in the same file
-(VP_DIALOGUE_LOAD_PATH.md, "Battle text"):
+(docs/VP_DIALOGUE_LOAD_PATH.md, "Battle text"):
 
   key      file / part (flags)          font part   text
   1500.7   1500 part 7 (0x00300900)     6           battle menu, elements, skill and attack names

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """How much of Valkyrie Profile's text a directory of edit files translates.
 
-  python3 vp_progress.py DISC1.cue [--edits edits_it] [-o edits_it/PROGRESS.md]
+  python3 vp_progress.py DISC1.cue [--edits edits_it] [-o docs/PROGRESS.md]
 
 It reads every piece of text the editor can change from the disc: the dialogue records of the
 1,118 scenes, the 13 menu tables, the 4 battle tables, the world map's text and the title-screen

@@ -1,5 +1,5 @@
-# Game data must never be committed: disc images, the executable, patches built from them,
-# screenshots and anything dumped from the disc.
+# Game data must never be committed: disc images, the executable, patches built from them
+# and anything dumped from the disc.
 *.bin
 *.BIN
 *.cue
@@ -7,7 +7,6 @@
 *.ppf
 *.xdelta
 *.zip
-*.png
 SLUS_*
 *.asm
 release/
