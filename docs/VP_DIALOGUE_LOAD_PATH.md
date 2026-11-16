@@ -630,8 +630,8 @@ zero-terminated strings.
 * `0x80`: new line.
 * `0x81 0x80 nn`: colour nn for what follows. Seen on screen: 07 the blue labels (LV, DME,
   Play time), 02 red ("Empty"), 01 orange ("Eval."), 03 black. 478 uses. *Corrected later:* 0x81
-  appears 568 times, but 85 of those are `81 01` at the end of skill help lines in table 2179, not a
-  colour (`docs/MENU_AND_BATTLE_TEXT.md`).
+  appears 568 times, but 85 of those are `81 01` at the end of skill help lines in table 2179: glyph
+  0x81 (a tall closing bracket in that font) and a space, not a colour (`docs/MENU_AND_BATTLE_TEXT.md`).
 * `0x60-0x7F`, `0x82-0x85`: extra glyphs (icons, rules, the strips in the skill help). The fonts
   have 100 glyphs (112 on the title screen), so what these show differs between modules.
 
@@ -1029,8 +1029,8 @@ neither xdelta nor PPF can shorten). The tightest scene, 0xD6, keeps 188 bytes f
 shown in the boxes above, in place of the scene's next ops: a debug script stops at the 0x8D handler
 (0x80078934) after frame 6000 of `vp_newgame.replay`, reads the script position at ctx+0xF0 (ctx =
 [0x8007F1EC]), and writes ops there. The first op there, 0xD8, takes 2 argument words, so a third
-word (0) is needed before the new ops. No line wraps. Records 9 and 10 were not reached; "Indietro"
-and "Avanti" are 38 and 33 px wide in 192-px boxes.
+word (0) is needed before the new ops. No line wraps. Records 9 and 10 were not reached. They're now
+"Verso il fondo" and "In primo piano", 72 px each (`docs/SYSTEM_MESSAGES.md` explains the 92-px limit).
 
 ## Title screen menu: `vp_title_menu.py`
 

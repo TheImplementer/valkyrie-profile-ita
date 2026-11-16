@@ -21,7 +21,7 @@ all 1,013 of disc 2.
 | 6 | You gained an Artifact. Evaluation Level -5. You earned N Event EXP. | by the field engine |
 | 7 | You can't hold any more items. | probably by the field engine |
 | 8 | You earned N Event EXP. | by the script library |
-| 9, 10 | To the rear / To the front | by the script library |
+| 9, 10 | To the rear / To the front | by the script library, when a door changes the dungeon room |
 | 11 | Exit to World Map? ・Yes ・No | by the script library |
 | 12 | Scenario Error 1 | by the script library, a debug message |
 | 13 | Battle | by the script library |
@@ -43,7 +43,7 @@ translated line has to fit the English box.
 | record | where | box |
 |---:|---|---|
 | 8 | `func_0029`, message op `92` with pushed values | 240 × 12 |
-| 9, 10 | `func_0059`, message op `98` with inline values | 192 × 14 each, at (32, 24) and (96, 52) |
+| 9, 10 | `func_0059`, caption op `98` | 192 × 14 |
 | 11 | `func_00AF`, choice op `93` | 140 × 46 |
 | 12 | message op `92` with inline values | 168 × 42 |
 | 13 | `func_03e2(4, 4, 96, 14, 13, 0)` | 96 × 14, centred on the screen |
@@ -63,6 +63,26 @@ Record 7 probably comes through the treasure code at `0x8005FAB4`, which shows "
 in a 280 × 12 box. A line wraps when it reaches its box's width, and a box with no room for another
 line scrolls, so a translation must keep each line narrower than these widths. A `<14>` number takes
 about 35 pixels.
+
+### "To the rear" and "To the front"
+
+These two are captions shown when the player moves from one room to another, mostly in dungeons.
+The scene script calls `func_0059` during the fade to the next room:
+
+* **`func_0059(1)`** shows "To the rear". All 219 such calls come right after a test of controller
+  bit `0x1000`.
+* **`func_0059(2)`** shows "To the front". All 209 come right after a test of bit `0x4000`.
+* **`func_0059(3)`** shows both at once, at (32, 24) and (96, 52). It's used 29 times, after either
+  test; what the double caption is for hasn't been seen.
+
+In Sony's standard controller layout, `0x1000` is Up and `0x4000` is Down on the D-pad. So "To the
+rear" means going into the background (pressing Up at a door), and "To the front" coming back toward
+the camera (pressing Down). A single caption goes at y 64, on the half of the screen the player isn't
+on (x 32 or 178).
+
+**A width limit.** The caption is centred (`<5>`) in its 192-pixel box. At x 178 that box runs past
+the 320-pixel screen, so centred text wider than 92 pixels would lose its last letters. The English
+captions are 57 and 61 pixels.
 
 ## Translating them: `system.txt`
 
@@ -87,10 +107,11 @@ original ones, adding any glyph a scene's font lacks (such as `è`). A scene edi
 one of these records wins for that scene.
 
 The Italian file translates records 2 to 11 and 13. It keeps "Scenario Error 1", a debug message, in
-English, and leaves records 0 and 1 alone. Two lines were shortened to fit their boxes:
-"Tornare alla mappa del mondo?" became "Tornare alla mappa?" (140 pixels), and "Indietro" and
-"Avanti" stand for "To the rear" and "To the front", whose context hasn't been seen in play yet
-(`docs/GLOSSARY.md`).
+English, and leaves records 0 and 1 alone. One line was shortened to fit its box:
+"Tornare alla mappa del mondo?" became "Tornare alla mappa?" (140 pixels). "To the rear" and "To the
+front" are "Verso il fondo" and "In primo piano", 72 pixels each. They replaced "Indietro" and
+"Avanti" ("back", "forward"), which were chosen before the context above was known. "Verso il primo
+piano" was too long: see the width limit above (`docs/GLOSSARY.md`).
 
 ## The cost: every scene changes
 
@@ -104,11 +125,12 @@ package's text has to be compressed again:
 
 **Checked in the emulator.** Records 2-8, 11 and 13 were shown in their boxes on an Italian disc,
 by having a script open each one in turn. No line wrapped. Records 9 and 10 weren't reached;
-"Indietro" (38 pixels) and "Avanti" (33) are far inside their 192-pixel boxes.
+"Verso il fondo" and "In primo piano" are 72 pixels each, inside the 92-pixel limit above.
 
 ## Not known yet
 
-* **Records 9 and 10:** where the game shows "To the rear" and "To the front".
+* **The door captions on screen:** the meaning above comes from the scripts. They haven't been seen
+  in the emulator, and neither has the double caption.
 * **Record 7:** which code shows it hasn't been confirmed.
 * **Records 0-7 in the library:** `func_0001` shows records 0 to 7 in 16 × 16 boxes, but nothing calls
   it. It may be left over from development.

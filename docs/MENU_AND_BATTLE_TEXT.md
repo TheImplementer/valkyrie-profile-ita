@@ -87,9 +87,11 @@ Menu text is one byte per character, close to ASCII:
 | `01`-`5F` | the ASCII characters `0x20`-`0x7E`: the byte plus `0x1F`. "Skill" is `34 4C 4A 4D 4D`. |
 | `80` | line break |
 | `81 80 nn` | colour `nn` for what follows: 07 the blue labels (LV, DME), 02 red ("Empty"), 01 orange, 03 black |
-| `60`-`7F`, `82`-`85` | extra glyphs: icons, rules and the strips in skill help. They differ between menus. |
+| `60`-`7F`, `81`-`85` | extra glyphs: icons, rules and the strips in skill help. They differ between menus. `81` is a glyph whenever the next byte isn't `80`. |
 
-The colour code appears 478 times, mostly as colour 7. The encoding was first misread as "Scheme A",
+The colour code appears 478 times, mostly as colour 7. The byte `81` also appears 85 times as a glyph: in the Use Item
+table's font, glyph `0x81` is a tall closing bracket, 6 pixels wide. Followed by a space (`01`), it ends
+the stat lines in skill help. The encoding was first misread as "Scheme A",
 which subtracted 1 above `0x40` and read lower case as upper case.
 
 ## Encoding: battle text
@@ -152,7 +154,5 @@ Abilità
 
 ## Not known yet
 
-* **`81 01`:** besides the colour code, `81 01` ends 85 skill help lines in the Use Item table. What
-  it draws hasn't been checked.
 * **The 1806 and 1988 tables on screen:** they were checked by reading the built disc back. The item
   list and the battle hints haven't been seen in the emulator yet.

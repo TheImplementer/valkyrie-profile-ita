@@ -136,6 +136,9 @@ Italian lines are often longer than the English. Because the six box values are 
   run off the screen.
 * **Unchecked boxes:** a call whose values aren't all plain numbers can't be checked. The build lists
   those records, and they're measured by hand.
+* **Boxes next to an actor:** for x 8 to 15 the build can't tell where the box will be, so it notes
+  that a grown box should be checked in the game. None of the current Italian lines is in one of
+  these 44 boxes.
 * **Fixed boxes:** system messages and boxes opened by the engine itself can't grow, so their lines
   are shortened instead (`docs/GLOSSARY.md`).
 

@@ -351,7 +351,9 @@ def fit_boxes(scene, k, fit):
             set_push(scene.block.script, iw, need_w); set_push(scene.block.script, ih, need_h)
             notes.append(f'record {k}: box {w} x {h} -> {need_w} x {need_h} for {px} x {ph} px'
                          f' ({BOX_FUNCS[func]} at word {iw + 4:#x})'
-                         + (f'; WARNING: x {x} + width {need_w} runs off the {SCREEN_W}-pixel screen' if x + need_w > SCREEN_W - 16 else ''))
+                         + (f'; note: x {x} places the box next to an actor, so whether it stays on the screen'
+                            f' can only be checked in the game' if 8 <= x <= 15 else
+                            f'; WARNING: x {x} + width {need_w} runs off the {SCREEN_W}-pixel screen' if x + need_w > SCREEN_W - 16 else ''))
         else:
             notes.append(f'record {k}: note: {px} x {ph} px is bigger than its box {w} x {h}'
                          f' ({BOX_FUNCS[func]} at word {iw + 4:#x}): the game will '

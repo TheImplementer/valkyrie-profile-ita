@@ -25,7 +25,7 @@ here, so this file is never built into the disc.)
 | Artifact | Artefatto | System messages (`system.txt`); capitalised as in the English. |
 | Evaluation Level | Valutazione | In messages; "Valut." in menus. |
 | Event EXP | punti esp. evento | "You earned N Event EXP." → "Hai ottenuto N punti esp. evento." |
-| To the rear / To the front | Indietro / Avanti | System records 9 and 10. Not yet seen in play, so the context is a guess. |
+| To the rear / To the front | Verso il fondo / In primo piano | System records 9 and 10: captions shown on a room change, going into the background (Up at a door) or back toward the camera (Down); see SYSTEM_MESSAGES.md. They replace "Indietro / Avanti", chosen before the context was known. |
 | Battle | Battaglia | The label at the top left (system record 13). |
 | Roland, Jelanda, Angela, Badrach, Lombert, Lawfer, Celia, Kashell, Villnore, Artolia, Yamato | unchanged | Arngrim's chapter (scenes 0x63-0x74, 0x0B). |
 | Battle-Maiden | Vergine della Battaglia | "La Vergine della Battaglia, Valkyrie?" (scene 0x6E). |
@@ -104,6 +104,7 @@ shortened until they fit on screen:
 | scene 0x11 #20 | dimenticare… Dimenticare… tutto… quanto… | dimenticare… tutto… |
 | scene 0x11 #14 | Non lo permetterò!! | Non voglio!! (kept no wider than the English) |
 | system record 11 | Tornare alla mappa del mondo? | Tornare alla mappa? (its box is 140 px) |
+| system record 10 | Verso il primo piano | In primo piano (a caption centred at x 178 is cut off past 92 px) |
 | Party menu (2182) | Modifica, Schiera | Forma |
 | Use Item | Equipaggiamento | Equip. |
 | Options | Velocità testo | Vel. testo |
