@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0xdf (-): 15 records, directory word 3833, package sectors 180206..180324 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Element Scepter.

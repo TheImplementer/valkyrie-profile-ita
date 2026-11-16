@@ -1,0 +1,14 @@
+# Valkyrie Profile scene 0x7 (To outside): 17 records, directory word 3617, package sectors 156016..156096 of VALKYRIE.BIN
+
+@@ 14
+<5>Uscita
+@@ 15
+<19:0100>Sindaco
+「Di questi tempi, per chi vive
+ancora qui, sopravvivere
+è un lavoro a tempo pieno.
+@@ 16
+<19:0000>Moglie
+「Oh<3:0c>, <3:ff>che bella signorina<3:28>!<3:ff>
+Siete una viaggiatrice<3:0c>?<3:ff>
+Dove sono i vostri accompagnatori?

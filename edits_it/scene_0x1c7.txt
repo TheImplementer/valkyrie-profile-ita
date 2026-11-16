@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x1c7 (Tombs of Amenti): 16 records, directory word 4065, package sectors 206960..207103 of VALKYRIE.BIN
+
+@@ 14
+<5>Tombe di Amenti
+@@ 15
+<5>Hai trovato Eye of Heaven.

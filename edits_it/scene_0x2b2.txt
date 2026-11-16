@@ -1,0 +1,39 @@
+# Valkyrie Profile scene 0x2b2 (-): 23 records, directory word 4300, package sectors 233995..234206 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Berserker Bow.
+@@ 15
+<5>Hai trovato Armor of Aleph.
+@@ 16
+<5>Hai trovato Harp of Atrasia.
+@@ 17
+Genevieve
+「Ah<3:32>!<3:ff>
+Mia giovane dea, finalmente sei venuta.
+Ti stavo aspettando.
+@@ 18
+Valkyrie
+「Essere immondo!
+Profanatrice della Vita!
+Sei sfuggita alla tua tomba eterna<3:0c>・・・<3:ff>
+@@ 19
+Genevieve
+「"Essere immondo", dici<3:32>!<3:ff>
+Come puoi dire questo
+di una simile bellezza!
+@@ 20
+Valkyrie
+「La bellezza non ha senso se <3:3c><3:ff>
+è comprata al prezzo di innumerevoli<3:28><3:ff>
+vite innocenti!!
+@@ 21
+Genevieve
+「Non cambi mai, Vergine della Battaglia.
+Sei rigida come una lancia.<page>
+Anche se il colore della tua armatura è cambiato,
+dentro sei sempre la stessa.
+@@ 22
+Valkyrie
+「Basta parlare<3:32>.<3:ff>
+Il tuo tempo è finito<3:1e>,<3:ff>
+narcisista amante della carne non morta!

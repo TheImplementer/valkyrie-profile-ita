@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x1c4 (-): 15 records, directory word 4062, package sectors 206576..206700 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Mystic Cross.

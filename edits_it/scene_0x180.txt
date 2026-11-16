@@ -1,0 +1,5 @@
+# Valkyrie Profile scene 0x180 (-): 15 records, directory word 3994, package sectors 198377..198436 of VALKYRIE.BIN
+
+@@ 14
+Le Fiamme del Purgatorio
+sono state spente.

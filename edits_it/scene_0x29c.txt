@@ -1,0 +1,9 @@
+# Valkyrie Profile scene 0x29c (-): 17 records, directory word 4278, package sectors 230900..231001 of VALKYRIE.BIN
+
+@@ 14
+<5>"O"
+<5>"IL MATTO"
+@@ 15
+<5>Hai trovato Guard Reinforce.
+@@ 16
+<5>Hai trovato Quartz Gem.

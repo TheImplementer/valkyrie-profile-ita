@@ -1,0 +1,7 @@
+# Valkyrie Profile scene 0x38d (-): 15 records, directory word 4519, package sectors 267326..267424 of VALKYRIE.BIN
+
+@@ 14
+Sul retro del libro c'è un interruttore.
+Vuoi premerlo?
+・Sì
+・No

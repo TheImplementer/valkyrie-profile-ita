@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0xc9 (-): 15 records, directory word 3811, package sectors 177392..177540 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Dancing Sword.

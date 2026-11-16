@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x2de (-): 15 records, directory word 4344, package sectors 240053..240238 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Lucerne Hammer.

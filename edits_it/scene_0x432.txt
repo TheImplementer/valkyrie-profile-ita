@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x432 (-): 15 records, directory word 4684, package sectors 286734..286772 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Scout Orb.

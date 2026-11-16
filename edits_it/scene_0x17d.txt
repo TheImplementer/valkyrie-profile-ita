@@ -1,0 +1,7 @@
+# Valkyrie Profile scene 0x17d (-): 16 records, directory word 3991, package sectors 198121..198181 of VALKYRIE.BIN
+
+@@ 14
+Le Fiamme del Purgatorio
+sono state spente.
+@@ 15
+<5>Hai trovato Noble Elixir.

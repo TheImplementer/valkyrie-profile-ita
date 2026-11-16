@@ -1,0 +1,10 @@
+# Valkyrie Profile scene 0x377 (To outside of room): 16 records, directory word 4497, package sectors 265149..265183 of VALKYRIE.BIN
+
+@@ 14
+<5>Fuori dalla stanza
+@@ 15
+<19:ffff>Donna
+「<3:0c>・・・<3:ff>Lavoro al castello,
+e ho sentito dire che da qualche parte
+c'è una stanza nascosta.
+Forse anche la Regina è là dentro<3:0c>・・・<3:ff>

@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0xae (-): 17 records, directory word 3784, package sectors 173758..173802 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Dragon Slayer.
+@@ 15
+<5>Hai trovato Sap Guard.
+@@ 16
+<5>Hai trovato Eye of Heaven.

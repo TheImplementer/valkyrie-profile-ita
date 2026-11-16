@@ -1,0 +1,7 @@
+# Valkyrie Profile scene 0x375 (-): 15 records, directory word 4495, package sectors 265083..265115 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Anziano
+「È terribile<3:0c>・・・<3:ff><page>
+Povero me<3:0c>・・・<3:ff>
+Che ne sarà mai di me?

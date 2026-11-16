@@ -1,0 +1,25 @@
+# Valkyrie Profile scene 0x2ee (-): 20 records, directory word 4360, package sectors 242645..242760 of VALKYRIE.BIN
+
+@@ 14
+C'è una capsula
+con dell'acido.<page>
+Hai trovato dell'acido forte.
+@@ 15
+Hai già
+dell'acido forte.
+@@ 16
+Come sale su
+una ferita aperta.
+@@ 17
+Ha reagito all'odore
+indebolendosi.
+@@ 18
+Ha reagito all'odore
+indebolendosi.<page>
+Sembra che si indebolirà ancora
+di più se uso dell'acido.
+・Usa acido forte
+・Non usare acido forte
+@@ 19
+Non c'è più
+acido forte.

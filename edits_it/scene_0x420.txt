@@ -1,0 +1,10 @@
+# Valkyrie Profile scene 0x420 (-): 16 records, directory word 4666, package sectors 284949..285075 of VALKYRIE.BIN
+
+@@ 14
+Credo che si possa usare
+la Flame Jewel.<page>
+Vuoi usare la Flame Jewel?
+・Sì
+・No
+@@ 15
+La porta è ben chiusa.

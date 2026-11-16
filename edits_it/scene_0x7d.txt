@@ -1,0 +1,468 @@
+# Valkyrie Profile scene 0x7d (Artolian Mountain Ruins): 83 records, directory word 3735, package sectors 168575..168681 of VALKYRIE.BIN
+
+@@ 14
+Avete capito?
+・Ancora una volta
+・Ho capito
+@@ 15
+<19:ffff>Spiritello
+「C'è un'altra cosa.
+Lenneth<3:1e>,<3:ff> vi era stato chiesto di far
+riparare l'Accursed Flame Gem, giusto?
+L'avete riparata e inviata ad Asgard<3:1e>?<3:ff>
+Se non l'avete ancora fatto,
+fareste bene a farlo presto.<page>
+Potete far riparare l'Accursed Flame Gem
+nella Foresta degli Spiriti.
+@@ 16
+<19:ffff>Spiritello
+「Ora è il momento della verità<3:1e>.<3:ff>
+Buona fortuna.
+@@ 17
+<19:ffff>Spiritello
+「Buona fortuna.
+@@ 18
+<4:01><5>Per sapere quante volte si può usare
+<5>quest'arma in un attacco normale,
+<5>premere il pulsante ○.<4:00>
+@@ 19
+<4:01><5>Per sapere quante volte si può usare
+<5>quest'arma in un attacco normale,
+<5>premere il pulsante ✕.<4:00>
+@@ 20
+<4:01><5>Per sapere quante volte si può usare
+<5>quest'arma in un attacco normale,
+<5>premere il pulsante △.<4:00>
+@@ 21
+<4:01><5>Per sapere quante volte si può usare
+<5>quest'arma in un attacco normale,
+<5>premere il pulsante □.<4:00>
+@@ 22
+<3:00>・Armi e attacchi normali
+・Gli attacchi speciali
+・Il CT
+・Gli attacchi combinati
+・L'ordine degli attacchi normali
+・La potenza degli attacchi speciali
+・Cristalli Magici e Gemme Viola
+・Overattack
+・Combo Guard
+・Aumento dell'indicatore speciale
+・Catena di attacchi speciali
+・Elenco dei metodi di combattimento
+@@ 23
+<5>Ogni personaggio ha capacità d'attacco diverse
+<5>a seconda delle armi che possiede.
+<5>Quasi tutte le armi permettono da 1 a 3 attacchi
+<5>normali, combinabili in molti modi.
+<5>Ad esempio: A da solo, A+C, B+C, ecc.<page>
+<5>Le armi si dividono in due tipi principali:
+<5>armi potenti e armi ad alta precisione.
+<5>Le armi potenti sono forti, ma
+<5>permettono solo pochi attacchi,
+<5>mentre quelle ad alta precisione
+<5>ne permettono molti.
+<5>Entrambi i tipi hanno pregi e difetti,
+<5>quindi conviene che i membri del gruppo
+<5>portino armi di entrambi i tipi.
+@@ 24
+<5>Guardate l'indicatore dell'attacco speciale
+<5>in basso a sinistra sullo schermo:
+<5>vedrete che sale ogni volta che
+<5>colpite il nemico.
+<5>Quando arriva al 100% potete lanciare
+<5>un attacco speciale.
+<5>In modalità attacco speciale
+<5>colpite in fretta!!
+<5>Il consiglio migliore che posso darvi ora è di
+<5><4:01>premere i pulsanti il più in fretta possibile!<4:00>
+@@ 25
+<5>Il valore dei turni di carica (CT) aumenta
+<5>quando si lancia un attacco speciale o una magia.
+<5><4:01>Il CT cala a ogni turno e quando arriva a 0
+<5>si può lanciare un altro attacco speciale
+<5>o una magia.<4:00>
+<5>Gli attacchi speciali e le magie sono potenti,
+<5>ma non si possono usare uno dopo l'altro.
+@@ 26
+<5>Un nemico ferito resta per un attimo indifeso.
+<5>Se lo attaccate in questo stato
+<5>il colpo andrà sempre a segno.
+<5>Una serie continua di HIT si chiama "Combo".
+<5>Se i compagni attaccano in combinazione
+<5>o se un solo personaggio continua con
+<5>attacchi normali, gli HIT salgono in fretta.
+<5>In altre parole, in stato di Combo,
+<5><4:01>dopo che il primo attacco va a segno,
+<5>tutti i successivi vanno a segno di sicuro.<4:00>
+<5>Gli attacchi distanziati si possono evitare,
+<5>ma i risultati di una Combo sono straordinari
+<5>perché è impossibile schivarla.
+@@ 27
+<5>Gli attacchi normali fanno salire l'indicatore
+<5>dell'attacco speciale, ma scende se
+<5>la Combo si interrompe.
+<5>Le Combo sono essenziali per gli attacchi speciali.<page>
+<5>Inoltre, se il nemico è ancora vivo alla
+<5>fine di un attacco speciale,
+<5>un altro personaggio può attaccare,
+<5>purché l'indicatore dell'attacco speciale
+<5>non abbia raggiunto il 100%.
+<5>Ricordatelo e ve ne sarete grati.
+@@ 28
+<5>Potete scegliere l'ordine in cui usare
+<5>i vostri attacchi normali.
+<5><4:01>Per decidere, andate al menu del Campo.<4:00>
+<5>Pensate a come volete condurre
+<5>un attacco combinato.
+<5>La cosa migliore è
+<5>stabilire in anticipo cosa fare.
+@@ 29
+<5>La potenza di un attacco speciale dipende
+<5>in linea di massima dall'ATT del personaggio,
+<5>ma aumenta anche in base
+<5>al numero di HIT.
+<5>Con 50 HIT a segno durante un attacco speciale,
+<5>la potenza aumenta del 50%.
+<5>Però in modalità attacco speciale la Combo
+<5>si interrompe dopo un certo tempo,
+<5>quindi fate attenzione.
+<5>Naturalmente, anche a Combo interrotta,
+<5>l'attacco speciale metterà a segno un HIT sicuro.
+@@ 30
+<5>Quando un attacco va a segno
+<5>possono apparire due tipi di gemme,
+<5>a seconda delle circostanze.
+<5>La prima è una gemma blu, il Cristallo Magico.
+<5><4:01>Se colpite il nemico a mezz'aria<4:00>,
+<5>ne riceverete uno e
+<5>i punti esp. aumenteranno.
+<5>Ognuno dà un bonus del 5%: sono ottimi!
+<5>Con 20 Cristalli i punti esp. raddoppiano!
+<5>La seconda gemma è viola
+<5>e si chiama Gemma Viola.
+<5>La ottenete<4:01> quando colpite
+<5>il nemico a terra.<4:00>
+<5>Questa gemma ripristina il CT una volta.
+<5>Di solito il CT si ripristina a ogni turno,
+<5>ma accumulando Gemme Viola potrete
+<5>lanciare attacchi speciali più in fretta.
+@@ 31
+<5>Guardando l'indicatore si vede sempre
+<5>quanta energia ha il nemico.
+<5>Forse dovrei parlare del frustare un cavallo morto(?)
+<5>Se continuate ad attaccare anche quando
+<5>l'energia del nemico è a 0,
+<5>sullo schermo compare l'avviso "OVER ATTACK".
+<5>In altre parole, state esagerando.
+<5><4:01>Continuare ad attaccare un nemico morto
+<5>è solo una perdita di tempo ed energie.<4:00>
+<5>Certo, attaccare anche con l'energia a 0
+<5>ha qualche vantaggio.
+@@ 32
+<5>Se il primo attacco viene contrastato,
+<5><4:01>anche il secondo verrà sempre contrastato
+<5>se cercate il tempismo della Combo.<4:00>
+<5>Questo si chiama "Combo Guard" e
+<5>sullo schermo compare l'avviso "Combo Guard".
+<5>Se ritardate la pressione del pulsante,
+<5>non avrete più HIT di Combo,
+<5>ma <4:01>la Combo Guard non scatterà.<4:00>
+<5>Chiaro?
+<5>È fondamentale che il primo colpo vada a segno.
+@@ 33
+<5>Al 100% dell'indicatore dell'attacco speciale
+<5>potete scatenare un potente attacco speciale.
+<5><4:01>L'aumento dell'indicatore per
+<5>ogni attacco è fisso<4:00>,
+<5>perciò la combinazione di personaggi nel gruppo
+<5>è estremamente importante.
+@@ 34
+<5>L'indicatore sale anche quando gli attacchi
+<5>speciali vanno a segno. Perciò, finito
+<5>un attacco speciale,
+<5>se l'indicatore segna 100%
+<5><4:01>potete iniziarne un altro!<4:00>
+<5>Questa si chiama catena di attacchi speciali.
+<5>Poiché il gruppo ha 4 membri, si possono
+<5>concatenare fino a 4 attacchi speciali.
+<5>Tuttavia, in modalità attacco speciale,
+<5>la barra verde continua a scendere
+<5>e quando arriva a 0
+<5>la modalità termina<3:0c>・・・<3:ff>.
+<5>In realtà questa barra verde corrisponde
+<5>ai valori dell'indicatore dell'attacco speciale.
+@@ 35
+<5>Questo significa che il valore dell'indicatore
+<5>alla fine di <4:01>una modalità attacco speciale
+<5>cambia a seconda che i pulsanti siano stati<4:00>
+<5>premuti in fretta o lentamente.
+<5>In teoria, con un tempismo perfetto,
+<5>l'indicatore sarebbe già al 100%
+<5>al lancio dell'attacco speciale.<page>
+<5>In realtà, anche con un tempismo perfetto,
+<5>non funziona così, perché i punti vengono
+<5>ridotti di una quantità prestabilita.
+<5>La perdita cresce a ogni concatenamento:
+<5>quella del secondo è maggiore di quella
+<5>del primo, e quella del terzo è ancora
+<5>maggiore.<page>
+<5>Il primo concatenamento fa perdere il 20%,
+<5>il secondo il 40% e il terzo il 60%.
+@@ 36
+<5>In altre parole,
+<5>se il tempismo è perfetto nel primo attacco speciale
+<5>l'indicatore dovrà essere a 20
+<5>per poter proseguire con un secondo attacco.<page>
+<5>Invece, per proseguire con un quarto attacco
+<5>l'indicatore dovrà essere a 60.
+<5>Quindi, nelle catene di attacchi speciali,
+<5><4:01>l'ordine degli attacchi speciali è importante.<4:00>
+@@ 37
+<5>Come vedete, esistono fondamentalmente
+<5>3 metodi d'attacco, a seconda dello scopo.
+<5>Si basano sugli elementi appena elencati.<page>
+<5>Il primo è combattere per sconfiggere il nemico.
+<5>L'attacco speciale è il fulcro dell'offensiva.
+<5>Dato che il danno di un attacco speciale
+<5>dipende dal numero di HIT, i personaggi
+<5>con un ATT elevato vanno collocati
+<5>alla fine della combinazione.
+<5>Potreste pensare che io esageri,
+<5>ma accanto al danno di un attacco speciale
+<5>quello di un attacco normale sembra
+<5>un errore di calcolo.
+@@ 38
+<5>Il secondo modo di combattere è accumulare
+<5>punti esp.
+<5>Se non usate la testa
+<5>non diventerete più abili.
+<5>Quindi conviene far salire gli HIT usando i
+<5>personaggi ad alta precisione, mettendo
+<5>a segno Combo a mezz'aria.
+<5>La questione diventa allora come
+<5>far salire in fretta il numero di HIT,
+<5>perché gli attacchi speciali non danno
+<5>Cristalli Magici né Gemme Viola.
+@@ 39
+<5>Il terzo modo di combattere è ripristinare il CT.
+<5>Anche se l'attacco dovrebbe mirare
+<5>a eliminare il nemico, non avete
+<5>notato che il tempismo è un po' difficile?
+<5>L'ideale sarebbe pensare di
+<5>distribuire le Gemme Viola
+<5>per ripristinare il CT proseguendo un attacco
+<5>speciale e poter usare l'attacco speciale sempre.
+<5>Ma se siete troppo rapidi, colpite
+<5>a mezz'aria e<3:0c>・・・<3:ff>
+@@ 40
+<19:ffff>Spiritello
+「Non sembra esserci nessuno con
+l'abilità necessaria.
+Se c'è qualcuno che ha almeno
+un po' di quell'abilità<3:0c>...<3:ff>
+Nessun problema.
+@@ 41
+<5><4:05>Valore eroico necessario 40<4:00>
+@@ 42
+<5><4:05>Valore eroico necessario 50<4:00>
+<5>Un guerriero dai colpi pesanti.
+<5>Un guerriero che ha acquisito Tactics.
+<5>Un guerriero che ha acquisito Leadership.
+<5>Un guerriero che ha acquisito Identify.
+@@ 43
+<5><4:05>Valore eroico necessario 65<4:00>
+<5>Arcieri.
+<5>Un guerriero che ha acquisito Find Trap.
+<5>Un guerriero che ha acquisito Survival.
+@@ 44
+<5><4:05>Valore eroico necessario 80<4:00>
+<5>Un Einherjar diplomatico.
+<5>Un guerriero che ha acquisito Trick.
+<5>Un guerriero che ha acquisito Demon Int.
+<5>Un guerriero che ha acquisito Hear Noise.
+@@ 45
+<5><4:05>Valore eroico necessario 90<4:00>
+<5>Un Einherjar molto agile.
+<5>Un Einherjar che ha acquisito Swimming.
+<5>Un guerriero che ha acquisito March.
+<5>Un guerriero che ha acquisito Attack Pow.
+<5>Un guerriero che ha acquisito Defend.
+<5>Un guerriero che ha acquisito Resist Damage.
+@@ 46
+<5><4:05>Valore eroico necessario 100<4:00>
+<5>Una maga.
+<5>Un'anima coraggiosa.
+<5>Un guerriero che ha acquisito Hit.
+<5>Un guerriero che ha acquisito Monster Int.
+@@ 47
+<5><4:05>Valore eroico necessario 110<4:00>
+<5>Una maga.
+<5>Un guerriero che ha acquisito Undead Int.
+<5>Un guerriero che ha acquisito Avoid.
+<5>Un guerriero che ha acquisito Resist Magic.
+@@ 48
+<5><4:05>Valore eroico necessario 120<4:00>
+<5>Un'anima molto coraggiosa.
+<5>Un guerriero che ha acquisito Fight.
+<5>Un guerriero che ha acquisito Counter.
+<5>Un guerriero che ha acquisito Leadership.
+<5>Un guerriero che ha acquisito March.
+<5>Un guerriero che ha acquisito Formation.
+@@ 49
+<19:ffff>Spiritello
+「Lenneth, dovete essere stanca<3:28>.<3:ff>
+Volete chiedermi qualcosa?
+@@ 50
+<19:ffff>Spiritello
+「Resterò qui<3:1e>.<3:ff>
+A presto<3:14>,<3:ff> Lenneth<3:28>.<3:ff>
+Come segno della mia stima<3:0c>...<3:ff><page>
+Le capacità degli Einherjar di Asgard
+non dipendono dalla sola forza.
+La personalità di un Einherjar
+influisce molto sul risultato.
+La sola forza fisica non basta.
+Ad Asgard dovete mandare solo
+guerrieri che abbiano compiuto
+una crescita personale.<page>
+Beh<3:0c>...<3:ff> certo,
+il punto è<3:0c>...<3:ff> quanto<3:0c>...<3:ff>?
+@@ 51
+<19:ffff>Spiritello
+「Anche l'attività di un Einherjar ad Asgard
+dipende dal suo armamento.
+Fa una grande differenza.<page>
+Nemmeno per errore mandate
+qualcuno armato alla leggera<3:1e>.<3:ff><page>
+Non pensate che, solo perché Asgard è
+il mondo degli dei,
+non servano armamenti.
+@@ 52
+<19:ffff>Spiritello
+「Mi avete capito<3:1e>?<3:ff>
+Bene, allora buona fortuna.
+@@ 53
+<19:ffff>Spiritello
+「Lenneth, dovete essere stanca<3:14>.<3:ff>
+Volete chiedermi qualcosa?
+@@ 54
+<3:00>・Qualità degli Einherjar richieste da Freya
+・La battaglia
+@@ 55
+<19:ffff>Valkyrie
+「Sento un nemico.
+@@ 56
+<19:ffff>Freya
+「Sì, ce n'è uno<3:1e>,<3:ff> un non morto!!
+@@ 57
+<19:ffff>Freya
+「Lenneth<3:0a>,<3:ff> sei pronta<3:1e>?<3:ff><page>
+Posso accompagnarti in queste rovine,
+ma quando lascerai questo luogo
+dovrò tornare ad Asgard.
+@@ 58
+<19:ffff>Valkyrie
+「Sì.
+@@ 59
+<19:ffff>Freya
+「Guarda questo<3:1e>,<3:ff> Lenneth<3:28>.<3:ff>
+Quello è il Campo della Memoria.
+@@ 60
+<3:00><5>Salvare la partita
+<5>Al Campo della Memoria, aprire il menu
+<5>del Campo e scegliere Dati.
+@@ 61
+<3:00><5>Nei dungeon è possibile creare oggetti
+<5>solo al Campo della Memoria.
+@@ 62
+<19:ffff>Freya
+「Credo che tu abbia capito, ma<3:1e>,<3:ff>
+divorare anime<3:0c>・・・<3:ff>è una
+profanazione dei defunti.
+Avere pietà dei non morti è inutile.
+Basta, andiamo.
+@@ 63
+<19:ffff>Freya
+「Ci sono molti altri non morti<3:1e> <3:ff>
+che profanano i defunti.
+@@ 64
+<19:ffff> Valkyrie
+「Non ci vedremo
+ per un po'.
+@@ 65
+<19:ffff>Freya
+「Un attimo.
+@@ 66
+<19:ffff>Freya
+「Quando gli Einherjar saranno addestrati
+verranno inviati ad Asgard.
+A quel punto
+avrai concluso il primo ciclo
+dei compiti che ti sono stati assegnati. 
+@@ 67
+<19:ffff>Valkyrie
+「Capisco.
+@@ 68
+<19:ffff>Freya
+「Il tempo che ti è concesso
+non è illimitato<3:14>,<3:ff> Lenneth.
+Come il tempo passa sulla terra,
+anche ad Asgard scorre implacabile.
+@@ 69
+<19:ffff>Freya
+「A intervalli regolari mi incaricherò di
+informarti degli eventi che
+accadono ad Asgard.
+@@ 70
+<19:ffff>Valkyrie
+「Grazie<3:1e>,<3:ff> ho capito.
+@@ 71
+<5>Il tempo di gioco è diviso
+<5>in Capitoli e Periodi.
+@@ 72
+<5>I Periodi sono il tempo trascorso
+<5>nelle città o nei dungeon.
+@@ 73
+<5>Il Capitolo termina dopo un numero
+<5>prestabilito di Periodi, e poi
+<5>ci sarà un rapporto di Freya.
+@@ 74
+<5>Il gioco si compone di 8 Capitoli.
+<5>La battaglia finale, "Ragnarok", inizierà quando
+<5>non resteranno più periodi prima
+<5>della fine del mondo.
+<5>Siete avvertiti.
+@@ 75
+<19:ffff>Freya
+「Ho ancora una cosa da dirti...
+Quel guerriero...
+Non credo sia adatto a
+diventare un eroe.
+@@ 76
+<19:ffff>Valkyrie
+「Intendi Arngrim?
+@@ 77
+<19:ffff>Freya
+「Sì<3:28>.<3:ff> Certo, la forza non gli manca<3:1e>,<3:ff>
+ma dentro ha la stoffa giusta?
+La stoffa di un Einherjar
+è molto più della sola forza.
+@@ 79
+<19:ffff>Freya
+「Buona fortuna<3:28>.<3:ff>
+Congedarsi dagli Einherjar
+è solo una misura temporanea.
+@@ 80
+<19:ffff>Freya
+「Ah, Lenneth,<page>
+Se non capisci il piano per
+l'addestramento degli Einherjar,
+o per la battaglia,
+fai le tue domande allo Spiritello.
+@@ 81
+<19:ffff>Freya
+「Bene, allora...
+Ci vedremo al Ragnarok!
+@@ 82
+<5>Rovine di Monte Artolia

@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x280 (-): 16 records, directory word 4250, package sectors 227573..227618 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Fire Storm.
+@@ 15
+<5>Hai trovato Lucerne Hammer.

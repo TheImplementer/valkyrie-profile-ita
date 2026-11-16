@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x90 (Gorhla Cult HQ): 15 records, directory word 3754, package sectors 170883..171018 of VALKYRIE.BIN
+
+@@ 14
+<5>Covo di Gorhla

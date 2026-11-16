@@ -1,0 +1,7 @@
+# Valkyrie Profile scene 0x274 (-): 15 records, directory word 4238, package sectors 225856..226075 of VALKYRIE.BIN
+
+@@ 14
+Statua di donna.
+C'è scritto qualcosa.<page>
+<5>"Prima i più giovani"
+<5>"Tranne i matti."

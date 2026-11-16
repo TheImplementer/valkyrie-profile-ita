@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x11c (-): 17 records, directory word 3894, package sectors 186781..186963 of VALKYRIE.BIN
+
+@@ 14
+<5>Al piano inferiore
+@@ 15
+<5>Hai trovato Nightshade.
+@@ 16
+<5>Hai trovato Combo Counter.

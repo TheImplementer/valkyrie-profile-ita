@@ -1,0 +1,10 @@
+# Valkyrie Profile scene 0x213 (-): 16 records, directory word 4141, package sectors 214768..214860 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Flame Jewel.
+@@ 15
+È una specie di
+pannello di controllo.<page>
+Vuoi azionarlo?
+・Sì
+・No

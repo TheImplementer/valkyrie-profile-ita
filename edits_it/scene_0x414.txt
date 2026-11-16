@@ -1,0 +1,28 @@
+# Valkyrie Profile scene 0x414 (-): 18 records, directory word 4654, package sectors 283763..283806 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Brahms
+「<3:0c>・・・<3:ff>Mentre questo gioco era in sviluppo,
+dissi gongolando a un altro membro
+del team che, finito il gioco,
+sarei passato a un'altra azienda
+che mi aveva fatto un'offerta.
+Capii che le mie parole l'avevano
+ferito nel profondo del cuore.
+@@ 15
+<19:ffff>Brahms
+「Il motivo per cui sono qui oggi
+è mostrare gratitudine e rammarico
+a quel brav'uomo.
+@@ 16
+<19:ffff>Brahms
+「Dimentica tutto.
+Prova a combattere contro di me!
+Sììì!!
+@@ 17
+<19:ffff>Brahms
+「Potrà sembrarti difficile da credere<3:1e>,<3:ff>
+Lenneth<3:28>,<3:ff> ma anche se ti ritieni
+sommamente potente, c'è molto che non sai.
+<3:0c>・・・<3:ff>Interessante. Seguirò con attenzione
+i tuoi progressi.

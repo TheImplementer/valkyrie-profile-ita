@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x237 (-): 15 records, directory word 4177, package sectors 218181..218338 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Flame Jewel.

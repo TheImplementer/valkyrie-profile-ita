@@ -1,0 +1,7 @@
+# Valkyrie Profile scene 0x28f (-): 16 records, directory word 4265, package sectors 229297..229348 of VALKYRIE.BIN
+
+@@ 14
+<5>"XXI"
+<5>"IL MONDO"
+@@ 15
+<5>Hai trovato Lapis Lazuli.

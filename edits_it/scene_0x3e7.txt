@@ -1,0 +1,33 @@
+# Valkyrie Profile scene 0x3e7 (-): 22 records, directory word 4609, package sectors 278702..278795 of VALKYRIE.BIN
+
+@@ 14
+Valkyrie
+「Spirito del Fuoco,
+quante anime umane sono state
+divorate dalle tue fiamme?
+@@ 15
+Fire Elemental
+「<3:0c>・・・<3:ff>Ah ah ah.
+Non solo anime umane, mia cara.
+Ho incenerito anche le anime
+dei figli degli dei.
+@@ 16
+Valkyrie
+「Mostro<3:0c>・・・<3:ff>!!
+@@ 17
+Fire Elemental
+「Non mi farò giudicare da una
+dea di basso rango con un patetico
+attaccamento ai mortali!
+Se desideri conversare con me,
+torna con Odino, Signore degli Dei!
+@@ 18
+Valkyrie
+「Non sopravvalutare il tuo valore,
+profanatore di anime!!
+@@ 19
+<5>Hai trovato Holy Water of Mithra.
+@@ 20
+<5>Hai trovato Infernas.
+@@ 21
+<5>Hai trovato Eternal Lamp.

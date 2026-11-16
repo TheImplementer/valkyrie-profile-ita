@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0xfd (-): 15 records, directory word 3863, package sectors 183708..183750 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Flare Baselard.

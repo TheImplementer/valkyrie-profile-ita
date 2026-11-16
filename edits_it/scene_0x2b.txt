@@ -1,0 +1,18 @@
+# Valkyrie Profile scene 0x2b (To outside): 19 records, directory word 3653, package sectors 160324..160358 of VALKYRIE.BIN
+
+@@ 14
+<5>Uscita
+@@ 15
+<6:a30d><19:0100>Anziano
+「Non avrei mai pensato che
+sarebbe successo<3:0c>・・・<3:ff>
+@@ 16
+<6:9f0d><19:0000>Anziana
+「Questo villaggio<3:0c>・・・<3:ff>
+siamo finiti.
+@@ 17
+<6:970d><19:0000>Uomo
+「<3:0c>・・・<3:ff>maledizione.
+@@ 18
+<6:990d><19:0000>Bambino
+「Mamma<3:0c>・・・<3:ff>

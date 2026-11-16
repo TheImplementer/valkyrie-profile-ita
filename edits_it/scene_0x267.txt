@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x267 (-): 17 records, directory word 4225, package sectors 224144..224294 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Broken Blade.
+@@ 15
+<5>Hai trovato Element Scepter.
+@@ 16
+<5>Hai trovato Mithril Ore.

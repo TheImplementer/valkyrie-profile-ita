@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x111 (-): 15 records, directory word 3883, package sectors 185974..186027 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Normalize.

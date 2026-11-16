@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x195 (-): 15 records, directory word 4015, package sectors 200992..201169 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Flare Crystal.

@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x234 (-): 16 records, directory word 4174, package sectors 217790..217983 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Footman's Axe.
+@@ 15
+<5>Hai trovato Ruin's Fate.

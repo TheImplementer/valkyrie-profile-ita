@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x43e (-): 17 records, directory word 4696, package sectors 287832..287871 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Golden Egg.
+@@ 15
+<5>Hai trovato Fire Storm.
+@@ 16
+<5>Hai trovato Sap Guard.

@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x44a (-): 15 records, directory word 4708, package sectors 289058..289100 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Golden Egg.

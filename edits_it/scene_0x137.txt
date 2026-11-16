@@ -1,0 +1,13 @@
+# Valkyrie Profile scene 0x137 (-): 18 records, directory word 3921, package sectors 190403..190476 of VALKYRIE.BIN
+
+@@ 14
+Questo è un dispositivo di trasferimento.<page>
+Vuoi trasferirti?
+・Sì
+・No
+@@ 15
+<5>Hai trovato Dancing Sword.
+@@ 16
+<5>Hai trovato Lapis Lazuli.
+@@ 17
+<5>Hai trovato Citrine.

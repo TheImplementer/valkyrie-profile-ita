@@ -1,0 +1,17 @@
+# Valkyrie Profile scene 0x372 (To outside): 17 records, directory word 4492, package sectors 264937..264974 of VALKYRIE.BIN
+
+@@ 14
+<5>Uscita
+@@ 15
+<19:ffff>Donna
+「Perché il re Barbarossa
+deve essere punito
+dagli dei?
+@@ 16
+<19:ffff>Gentiluomo
+「Chi stava dietro allo sviluppo
+della Macchina del Tempo
+era uno dei più fidati consiglieri
+del Re, Walther il Mago.<page>
+Non può essere stato re Barbarossa.
+Eppure loro<3:0c>・・・<3:ff>!!

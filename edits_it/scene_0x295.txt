@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x295 (-): 16 records, directory word 4271, package sectors 229862..230059 of VALKYRIE.BIN
+
+@@ 14
+La porta è ben chiusa.
+@@ 15
+<5>Porta

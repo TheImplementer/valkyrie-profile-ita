@@ -1,0 +1,5 @@
+# Valkyrie Profile scene 0x37b (-): 15 records, directory word 4501, package sectors 265507..265660 of VALKYRIE.BIN
+
+@@ 14
+Valkyrie
+「Il castello. È<3:0c>...<3:ff>

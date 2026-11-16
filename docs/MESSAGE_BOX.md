@@ -140,6 +140,10 @@ Italian lines are often longer than the English. Because the six box values are 
   that a grown box should be checked in the game. When the English text was already taller than
   such a box and scrolled, the build keeps the box's height, so it scrolls the same way instead of
   growing toward the screen's edge (the knight's armour tips, scene 0x5F #17).
+* **Boxes that would leave the screen:** the same rule applies to any box whose English scrolled
+  and whose grown height would end below y = 232 (`SCREEN_H - BOTTOM_MARGIN`). The Sprite's lesson
+  on gems in the Artolian Mountain Ruins (scene 0x7D #30) is 17 lines in a 98-pixel box at y = 4
+  in both languages: grown, it would end at y = 242, so it keeps its height and scrolls.
 * **Fixed boxes:** system messages and boxes opened by the engine itself can't grow, so their lines
   are shortened instead (`docs/GLOSSARY.md`).
 

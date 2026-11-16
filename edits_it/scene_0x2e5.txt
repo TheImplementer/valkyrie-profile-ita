@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x2e5 (-): 15 records, directory word 4351, package sectors 241274..241461 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Wassail-Rapier.

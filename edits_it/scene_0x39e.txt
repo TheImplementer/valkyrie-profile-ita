@@ -1,0 +1,48 @@
+# Valkyrie Profile scene 0x39e (-): 30 records, directory word 4536, package sectors 269511..269679 of VALKYRIE.BIN
+
+@@ 14
+Valkyrie
+「Questo<3:0c>・・・<3:ff>
+Questa è la Macchina del Tempo?
+@@ 15
+<3:05>Eh eh eh eh.<17:7800>
+@@ 16
+<3:05>Che c'è?<17:7800>
+@@ 17
+<3:05>Ho capito una cosa interessante.<17:7800>
+@@ 18
+<3:05>Una cosa interessante?<17:7800>
+@@ 19
+<3:05>Se riusciamo a farlo bene,
+potremo spedire quel cane ripugnante
+oltre i confini del tempo <7:08>-<7:01><17:7800>
+@@ 20
+<3:05>Capisco.<17:7800>
+@@ 21
+<3:05>Come sempre,
+i tuoi metodi sono sublimi.<17:7800>
+@@ 22
+<3:05>Ah<3:28>.<3:05>
+Ah ah ah oh oh!<17:7800>
+@@ 23
+Valkyrie
+「Che cosa<3:32>?<3:ff>
+Questo meccanismo è ancora attivo?!
+@@ 24
+Valkyrie
+「Questo non deve accadere!!<17:5a00>
+@@ 25
+<3:05>Sei ancora più stupida
+di quanto pensassi, donna.<17:7800>
+@@ 26
+<3:05>Dunque, in fin dei conti,
+è tutto ciò che sai fare.<17:7800>
+@@ 27
+<3:05>Se riesco a controllare il flusso del tempo,
+sconfiggere gli Asi sarà un gioco da ragazzi.<17:7800>
+@@ 28
+<3:05>Proprio così.<17:7800>
+@@ 29
+<3:05>Quelle creature non sono ancora
+abbastanza evolute da poter
+partecipare alla Provvidenza Divina.<17:7800>

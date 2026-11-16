@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x449 (-): 16 records, directory word 4707, package sectors 288937..289057 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Spell Reinforce.
+@@ 15
+<5>Hai trovato Golden Egg.

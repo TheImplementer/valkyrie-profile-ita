@@ -1,0 +1,15 @@
+# Valkyrie Profile scene 0x41a (-): 15 records, directory word 4660, package sectors 284312..284436 of VALKYRIE.BIN
+
+@@ 14
+Gabriel Celeste
+「<3:0c>・・・<3:ff>Un umano<3:1e>?<3:ff>
+No<3:28>,<3:ff> un corpo spirituale terrificante e potente<3:32>.<3:ff>
+E viene da un altro mondo <3:0c>...<3:ff>
+Ah<3:28>!<3:ff>
+Forse gli uomini, che chiamano
+"soprannaturale" tutto ciò che
+non capiscono, ti crederebbero una dea...
+Per me, però, sei una creatura qualunque..<3:28>.<3:ff>
+Ma mi interessi.
+Dunque, vuoi combattere contro di me<3:1e>?<3:ff>
+Anche se sarà uno scontro brevissimo!!

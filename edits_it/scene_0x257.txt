@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x257 (Cave of Oblivion): 15 records, directory word 4209, package sectors 221962..222009 of VALKYRIE.BIN
+
+@@ 14
+<5>Grotta dell'Oblio

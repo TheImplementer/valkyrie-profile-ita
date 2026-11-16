@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x18c (-): 16 records, directory word 4006, package sectors 200063..200193 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Freeze Check.
+@@ 15
+<5>Hai trovato Ether Scepter.

@@ -1,0 +1,10 @@
+# Valkyrie Profile scene 0x201 (-): 16 records, directory word 4123, package sectors 213193..213284 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Foul Slayer.
+@@ 15
+È una specie di
+pannello di controllo.<page>
+Vuoi azionarlo?
+・Sì
+・No

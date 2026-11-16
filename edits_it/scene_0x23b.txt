@@ -1,0 +1,30 @@
+# Valkyrie Profile scene 0x23b (-): 21 records, directory word 4181, package sectors 218711..218800 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Reflect Armor.
+@@ 15
+<5>Hai trovato Slashing sword "Farewell".
+@@ 16
+<5>Hai trovato Tear of the Cosmos.
+@@ 17
+Wraith
+「<3:0c>・・・<3:ff>Cinquantacinquemila giorni.
+È passato tutto questo tempo.
+Ho aspettato per tutto il tempo<3:0c>・・・<3:ff>!!
+@@ 18
+Valkyrie
+「Un non morto che conta il passare del tempo?
+Non farmi ridere!!
+Hai ancora tratti umani, creatura.
+@@ 19
+Wraith
+「Umano, dici<3:28>?<3:ff><page>
+Ho superato da tempo il regno
+di simili sciocchi dalla mente
+ristretta e dalla vita breve!!
+@@ 20
+Valkyrie
+「Pagherai per i peccati
+che hai commesso.
+In nome del sommo Odino,
+ti punirò!!

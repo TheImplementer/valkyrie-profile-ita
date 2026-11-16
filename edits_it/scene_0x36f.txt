@@ -1,0 +1,26 @@
+# Valkyrie Profile scene 0x36f (-): 22 records, directory word 4489, package sectors 264494..264560 of VALKYRIE.BIN
+
+@@ 14
+Valkyrie
+「Sono arrivata troppo tardi.
+@@ 15
+Valkyrie
+「Barbarossa<3:0c>・・・<3:ff>
+@@ 16
+Valkyrie
+「Co<3:1e>,<3:ff> Ma che,
+ci stanno trascinando indietro?!<17:7800>
+@@ 17
+Valkyrie
+「Incredibile<3:0c>・・・<3:ff>
+Torniamo al nostro tempo!!<17:7800>
+@@ 18
+Ma come può essere possibile
+una cosa simile!?<17:7800>
+@@ 19
+Forse perché ha un legame
+così forte con questo mondo?!<17:7800>
+@@ 20
+Con un dio di così basso rango?<17:7800>
+@@ 21
+Non può essere<3:0c>・・・<3:ff><17:7800>

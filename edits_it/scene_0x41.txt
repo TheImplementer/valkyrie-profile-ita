@@ -1,0 +1,7 @@
+# Valkyrie Profile scene 0x41 (-): 15 records, directory word 3675, package sectors 162456..162548 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Viaggiatore
+「Chissà se è vero che
+l'esercito dei demoni
+si avvicina a Hai-Lan.

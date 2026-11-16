@@ -1,0 +1,9 @@
+# Valkyrie Profile scene 0xcd (-): 15 records, directory word 3815, package sectors 178002..178161 of VALKYRIE.BIN
+
+@@ 14
+Valkyrie
+「Che ci fa uno zombie di drago
+qui!!
+<3:0c>・・・<3:ff>È difficile credere
+che abbia subito una ferita mortale
+in combattimento<3:0c>・・・<3:ff>

@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x2c2 (Forest of Spirits.): 16 records, directory word 4316, package sectors 235950..236022 of VALKYRIE.BIN
+
+@@ 14
+<5>Foresta degli Spiriti
+@@ 15
+<5>Hai trovato Eye of Heaven.

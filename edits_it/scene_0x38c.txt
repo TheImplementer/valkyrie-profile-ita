@@ -1,0 +1,44 @@
+# Valkyrie Profile scene 0x38c (-): 23 records, directory word 4518, package sectors 267270..267325 of VALKYRIE.BIN
+
+@@ 14
+Valkyrie
+「Chi c'è là?
+@@ 15
+Valkyrie
+「Non sono certo la persona adatta
+a criticare chi è stato costretto
+a nascondersi.
+@@ 16
+Malabeth
+「Voi<3:32>?<3:ff>
+Come siete arrivata fin qui?
+@@ 17
+Valkyrie
+「"Qui"?
+<3:0c>・・・<3:ff>Intendi questa
+stanza nascosta?
+@@ 19
+Malabeth
+「Sono Malabeth<3:32>.<3:ff>
+Moglie di Barbarossa, Re di questa terra.
+@@ 20
+Malabeth
+「Il Re è stato ingannato.<page>
+Ha dato ascolto alle lingue taglienti
+dei suoi tre maghi e quando se n'è
+accorto, non si poteva più tornare indietro.<page>
+E gli dei si sono adirati
+perché un essere umano
+aspirava all'eternità.
+@@ 21
+Malabeth
+「Vi prego,
+portate questa corona al Re<3:0c>・・・<3:ff><page>
+Ha sempre voluto essere Re
+fino all'ultimo<3:0c>・・・<3:ff>
+@@ 22
+Malabeth
+「Non so esattamente chi siate,
+ma siete una donna come me.
+Ed è per questo, con il cuore pesante,
+che vi rivolgo questa richiesta<3:0c>・・・<3:ff>

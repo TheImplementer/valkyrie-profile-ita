@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0xb0 (-): 16 records, directory word 3786, package sectors 173894..173931 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Trick Step.
+@@ 15
+<5>Hai trovato Warhammer

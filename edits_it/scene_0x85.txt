@@ -1,0 +1,70 @@
+# Valkyrie Profile scene 0x85 (-): 29 records, directory word 3743, package sectors 169357..169476 of VALKYRIE.BIN
+
+@@ 14
+<19:0100>Freya
+「Non arriveremo lassù saltando.
+Piantiamo dei cristalli nel muro
+per usarli come appoggi.
+@@ 15
+<3:00><5>Spara cristalli・・・tasto ○
+@@ 16
+<3:00><5>Spara cristalli・・・tasto ✕
+@@ 17
+<3:00><5>Spara cristalli・・・tasto △
+@@ 18
+<3:00><5>Spara cristalli・・・tasto □
+@@ 19
+<19:0000>Freya
+「Se spari i cristalli contro un nemico,
+puoi limitarne i movimenti per
+un certo periodo di tempo.
+I cristalli hanno molte altre caratteristiche;
+dovresti sperimentarle.
+@@ 20
+<19:0100>Freya
+「Quando ci sono dislivelli,
+come scale a pioli e scalinate,
+puoi scendere
+oppure saltare giù.
+Saltare è un modo pratico
+per spostarsi in fretta.
+@@ 21
+<3:00><5>Su/giù per le scale a pioli・・・tasto direzionale ↑↓
+<3:00><5>Saltare giù・・・tasto direzionale ↓+tasto ○
+<3:00><5>Su/giù per le scale・・・
+<5>tasto direzionale diagonale su *diagonale giù
+@@ 22
+<3:00><5>Su/giù per le scale a pioli・・・tasto direzionale ↑↓
+<3:00><5>Saltare giù・・・tasto direzionale ↓+tasto ✕
+<3:00><5>Su/giù per le scale・・・
+<5>tasto direzionale diagonale su *diagonale giù
+@@ 23
+<3:00><5>Su/giù per le scale a pioli・・・tasto direzionale ↑↓
+<3:00><5>Saltare giù・・・tasto direzionale ↓+tasto △
+<3:00><5>Su/giù per le scale・・・
+<5>tasto direzionale diagonale su *diagonale giù
+@@ 24
+<3:00><5>Su/giù per le scale a pioli・・・tasto direzionale ↑↓
+<3:00><5>Saltare giù・・・tasto direzionale ↓+tasto □
+<3:00><5>Su/giù per le scale・・・
+<5>tasto direzionale diagonale su *diagonale giù
+@@ 25
+<19:0000>Freya
+「Vedi quel forziere<3:28>,<3:ff>
+Riesci a prenderlo?
+@@ 26
+<19:0100>Freya
+「Quel forziere è stato munito di
+una trappola. Le trappole sono
+di tre tipi principali.
+Ognuna si evita in modo diverso.<page>
+Puoi saltare<3:28>,<3:ff> abbassarti<3:28>,
+<3:ff>oppure andartene, ma qual è
+il metodo migliore qui<3:0c>・・・<3:ff>?<page>
+Per il momento
+ti consiglio di andartene
+il più in fretta possibile.
+@@ 27
+<5>Hai trovato Vegetable Seed.
+@@ 28
+<5>Hai trovato Book of Everlasting Life.

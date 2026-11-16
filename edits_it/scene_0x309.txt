@@ -1,0 +1,16 @@
+# Valkyrie Profile scene 0x309 (-): 18 records, directory word 4387, package sectors 246185..246338 of VALKYRIE.BIN
+
+@@ 14
+Valkyrie
+「Questa creatura immonda è
+l'ultima creazione del padrone
+di questo luogo, eh.
+@@ 15
+Valkyrie
+「La sua ultima eredità.
+Non c'è<3:0c>・・・<3:ff>
+nessuna speranza per lui.
+@@ 16
+<5>Hai trovato Mirage Robe.
+@@ 17
+<5>Hai trovato Mirror of Pleiades.

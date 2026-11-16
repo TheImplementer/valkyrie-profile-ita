@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x26f (Cave of Oblivion): 16 records, directory word 4233, package sectors 225261..225308 of VALKYRIE.BIN
+
+@@ 14
+<5>Grotta dell'Oblio
+@@ 15
+<5>Hai trovato Golden Egg.

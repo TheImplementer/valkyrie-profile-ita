@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x418 (-): 16 records, directory word 4658, package sectors 284069..284190 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Bloody-Duster.
+@@ 15
+<5>Hai trovato Demon sword "Nefarious".

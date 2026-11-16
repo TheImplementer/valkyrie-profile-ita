@@ -1,0 +1,28 @@
+# Valkyrie Profile scene 0x20 (Town Center | Private Residence | Lucian's House | Dolce's House): 23 records, directory word 3642, package sectors 159086..159301 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Bambino
+「Che è successo?
+@@ 15
+<19:ffff>Lucian
+「Hmm<3:1e>?<3:ff> Oh, non è niente<3:14>.<3:ff>
+Stavo solo pensando.
+@@ 16
+<5><3:03><18>Ormai anche i bambini
+<5>si preoccupano per me<3:0f>.<3:03>
+<5>Che cosa mi succede <3:02>ultimamente<3:0c>?<17:d200>
+@@ 17
+<5>Centro città
+@@ 18
+<5>Casa privata
+@@ 19
+<5>Casa di Lucian
+@@ 20
+<5>Casa di Dolce
+@@ 21
+<19:ffff>Uomo
+「Una signorina come voi
+che va in giro da sola?
+Dovreste fare più attenzione.
+@@ 22
+<5>Gerabellum

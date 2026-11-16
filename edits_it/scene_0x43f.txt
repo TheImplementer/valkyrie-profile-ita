@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x43f (-): 17 records, directory word 4697, package sectors 287872..287992 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Golden Egg.
+@@ 15
+<5>Hai trovato Eternal Garb.
+@@ 16
+<5>Hai trovato Poison Blow.

@@ -1,0 +1,12 @@
+# Valkyrie Profile scene 0x2b1 (-): 19 records, directory word 4299, package sectors 233828..233994 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Reflect Sorcery.
+@@ 15
+<5>Hai trovato Ghoul Powder.
+@@ 16
+<5>Hai trovato Lucerne Hammer.
+@@ 17
+<5>Hai trovato Aqua Vitae.
+@@ 18
+<5>Hai trovato Concentration.

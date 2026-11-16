@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x3a5 (-): 15 records, directory word 4543, package sectors 270356..270405 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Burgundy Flask.

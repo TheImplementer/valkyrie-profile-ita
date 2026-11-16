@@ -1,0 +1,214 @@
+# Valkyrie Profile scene 0x10a (-): 61 records, directory word 3876, package sectors 185061..185251 of VALKYRIE.BIN
+
+@@ 14
+<19:0000>Valkyrie
+「Suppongo che tu sia
+pronto.
+@@ 15
+<19:0100>Brahms
+「Non sarai venuta<3:0c>・・・<3:ff>
+a chiudere i conti
+con me?
+@@ 16
+<19:0000>Valkyrie
+「Cosa<3:0c>・・・<3:ff>?
+@@ 17
+<19:0100>Brahms
+「Valkyrie.
+Che cosa ti è successo?
+Non ti ricordi di me<3:0c>・・・<3:ff>
+figuriamoci di tua sorella?
+@@ 18
+<19:0000>Valkyrie
+「<3:0c>・・・<3:ff>Che cosa stai dicendo?
+@@ 19
+<19:0100>Brahms
+「Che cosa avrà in mente Odino<3:0c>・・・<3:ff>
+Ti manovra come fa un<3:0c><3:ff>
+burattinaio con la sua marionetta<3:0c>・・・<3:ff>
+@@ 21
+<19:0100>Brahms
+「Non muoverti.
+@@ 22
+<19:0100>Brahms
+「Ho sempre creduto
+che saresti stata tu
+a riempire il mio cuore
+freddo e vuoto<3:0c>・・・<3:ff>
+@@ 23
+Che cosa fai?
+・Combatti comunque
+・Fermati a riflettere
+@@ 24
+<19:0000>Valkyrie
+「Silenzio<3:28>!<3:ff>
+Credi che io possa essere ingannata
+così facilmente dalle farneticazioni
+dei non morti?!
+@@ 25
+<19:0100>Brahms
+「La tua condizione è molto grave.
+Guarda lì. Anche vedendo questo,
+continui a non sentire nulla?
+@@ 27
+<19:0000>Valkyrie
+「Ho detto "silenzio!"
+@@ 28
+<19:0100>Brahms
+「Non hai la forza
+per sconfiggermi.
+Dovremo rimandare la nostra
+resa dei conti a un'altra volta.
+@@ 29
+<19:0000>Valkyrie
+「Che cos'è questa energia
+schiacciante<3:28>?<3:ff>
+È pari a quella del sommo
+Odino<3:0c>・・・<3:ff>
+@@ 30
+<19:0100>Brahms
+「Ma guarda. La situazione si fa
+sempre più strana.
+Lo scontro tra Hrist e me
+è scritto nel destino, ma che ci
+fate voi qui<3:0c>・・・<3:ff>?
+@@ 31
+<19:0000>Arngrim
+「Gli dei hanno gravato Valkyrie
+di un falso destino<3:0c>・・・<3:ff>
+Ed ecco il risultato!
+@@ 32
+<19:0000>Lezard
+「Se possibile, io preferisco
+forgiarmi da solo la mia strada,
+e chiamarla "destino" solo
+a giochi fatti<3:0c>・・・<3:ff>
+@@ 33
+<19:0000>Mystina
+「Esatto<3:1e>. <3:ff>Non permetteremo
+che l'esistenza di Valkyrie
+venga negata!!
+@@ 34
+<19:0100>Brahms
+「Ah, ora capisco<3:1e>. <3:ff>L'anima
+che abita questo recipiente... non è
+la vera Valkyrie.
+@@ 35
+<19:0100>Hrist
+「<3:0c>・・・<3:ff>Non te l'avevo già detto?
+Noi tre siamo una cosa sola.
+Quale di noi sia la Valkyrie
+"vera"<3:0c>・・・<3:ff>
+Non c'è davvero una risposta.
+@@ 36
+<19:0000>Mystina
+「"Vera"<3:28>?<3:ff> Non ci importa chi sia
+quella "vera"!!
+Hai chiuso fuori l'anima di
+Valkyrie・・・È tutto ciò
+che ci importa!
+@@ 37
+<19:0100>Hrist
+「Senti・・・la sua mancanza<3:1e>?<3:ff>
+Su questo i nostri punti di vista divergono・・・
+Se davvero Lenneth ha preso le parti
+di voi umani, la sua esistenza verrà
+di certo annientata dal sommo Odino.
+@@ 38
+<19:0100>Hrist
+「È tutto ciò che devi
+sapere<3:0c>・・・<3:ff>
+@@ 39
+<19:0000>Mystina
+「<3:0c>・・・<3:ff>
+Non lo permetteremo!
+@@ 40
+<19:0000>Lezard
+「Ci riprenderemo il suo corpo,
+se non vi dispiace.
+@@ 42
+<19:0000>Brahms
+「Questo è ciò che so.<page>
+Hrist, sorella maggiore delle tre
+dee del fato...
+Quel recipiente non può esprimere
+i tuoi veri poteri.
+È evidente che dormi ancora,
+e non ti sei destata del tutto.
+Forse era troppo presto
+per venire a farmi visita?
+@@ 44
+<19:0000>Brahms
+「Non c'è dubbio che il nostro
+scontro esiga una conclusione.
+Eppure hai così poco rispetto
+per esso da sfidarmi in queste
+condizioni, incompleta?!
+@@ 45
+<19:0100>Hrist
+「Questo è<3:0c>・・・<3:1e><3:ff>assurdo!<page>
+Con quale diritto parli così,
+tu che ti nascondi dietro Silmeria!
+Codardo!
+@@ 46
+<19:0000>Brahms
+「Arngrim.
+@@ 47
+<19:0000>Brahms
+「Il destino<3:0c>・・・<3:ff>è una cosa curiosa,
+non trovi?
+@@ 48
+<19:0000>Arngrim
+「Cosa?
+@@ 49
+<19:0000>Brahms
+「Che tu e io ci ritrovassimo
+alleati contro Hrist...
+Suvvia, rimettiamola a dormire
+ancora per un po'.<page>
+Nessuno di noi l'ha invitata<3:1e>.<3:ff>
+<3:0c>・・・<3:ff>Ti presto la mia forza!
+@@ 50
+<19:0000>Arngrim
+「Allora<3:0c>・・・<3:ff>
+grazie.
+@@ 51
+<19:0100>Brahms
+「Arngrim. Non c'è nulla
+che desideri chiedermi?
+@@ 52
+<19:0000>Arngrim
+「<3:0c>・・・<3:ff>Non mi interessa<3:1e>.<3:ff>
+Comunque non c'entra niente
+con quello che sono adesso.
+@@ 53
+<19:0100>Brahms
+「Heh<3:1e>. <3:ff>Capisco<3:0c>・・・<3:ff>hai ragione.
+Al momento hai altro
+di cui preoccuparti.
+@@ 54
+<19:0000>Arngrim
+「Si può dire così.
+@@ 55
+<19:0100>Brahms
+「Molto bene. Forse
+ci incontreremo ancora,
+come in passato<3:0c>・・・<3:ff>
+@@ 56
+<19:0000>Mystina
+「<3:0c>・・・<3:ff>Che mostro.
+@@ 57
+<19:ffff>Lezard
+「Be', è meglio sbrigarci.
+@@ 58
+<19:0000>Mystina
+「Giusto.
+@@ 59
+<19:0100>Lezard
+「Non dobbiamo lasciarla scongelare.
+Potrebbe andare a male. Ah ah ah.
+@@ 60
+<19:0000>Mystina
+「Bleah<3:28>! <3:ff>Sei un malato, Lezard<3:3c>.<3:ff>
+La signora Valkyrie non è un
+pesce!

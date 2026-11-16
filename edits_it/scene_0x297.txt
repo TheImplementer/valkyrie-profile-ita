@@ -1,0 +1,9 @@
+# Valkyrie Profile scene 0x297 (-): 16 records, directory word 4273, package sectors 230231..230284 of VALKYRIE.BIN
+
+@@ 14
+<5>"X"
+<5>"LA RUOTA DELLA FORTUNA"
+@@ 15
+<3:08>・・・<3:ff>C'è qualcosa dietro
+il quadro.<page>
+Hai trovato Eclipse Stone.

@@ -1,0 +1,12 @@
+# Valkyrie Profile scene 0x25 (To outside | Second Floor): 18 records, directory word 3647, package sectors 159690..159721 of VALKYRIE.BIN
+
+@@ 14
+<5>Uscita
+@@ 15
+<19:0100>Uomo
+「Hmpf.
+@@ 16
+<5>Primo piano
+@@ 17
+<19:ffff>Uomo
+「<3:0c>・・・<3:ff>

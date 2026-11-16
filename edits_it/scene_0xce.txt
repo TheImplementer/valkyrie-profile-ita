@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0xce (-): 16 records, directory word 3816, package sectors 178162..178226 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Bark of the Dryad.
+@@ 15
+<5>Hai trovato Inscribed Fragment.

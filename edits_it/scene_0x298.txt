@@ -1,0 +1,10 @@
+# Valkyrie Profile scene 0x298 (-): 16 records, directory word 4274, package sectors 230285..230510 of VALKYRIE.BIN
+
+@@ 14
+C'è uno strano
+macchinario.<page>
+Vuoi azionarlo?
+・Sì
+・No
+@@ 15
+<5>Hai trovato Eye of Heaven.

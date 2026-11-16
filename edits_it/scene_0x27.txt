@@ -1,0 +1,9 @@
+# Valkyrie Profile scene 0x27 (To outside): 16 records, directory word 3649, package sectors 159756..159791 of VALKYRIE.BIN
+
+@@ 14
+<5>Uscita
+@@ 15
+<19:0000>Uomo
+「Però, che vestiti eleganti<3:14>.<3:ff>
+Vi diverte venire a sbirciare
+noi gente comune<3:1e><3:ff>?

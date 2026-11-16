@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x27b (-): 15 records, directory word 4245, package sectors 226833..227043 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Frigid Damsel.

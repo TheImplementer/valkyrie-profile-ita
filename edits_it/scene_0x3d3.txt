@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x3d3 (-): 16 records, directory word 4589, package sectors 276056..276210 of VALKYRIE.BIN
+
+@@ 14
+Sembra un cuore.<page>
+Forse, se lo attacco,
+succederà qualcosa.
+@@ 15
+<5>Hai trovato Invisibility Potion.

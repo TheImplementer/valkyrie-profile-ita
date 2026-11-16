@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0xe (-): 15 records, directory word 3624, package sectors 156696..156842 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Valkyrie
+「Perché sono venuta
+in un posto simile?

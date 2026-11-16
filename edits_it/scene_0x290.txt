@@ -1,0 +1,9 @@
+# Valkyrie Profile scene 0x290 (-): 16 records, directory word 4266, package sectors 229349..229403 of VALKYRIE.BIN
+
+@@ 14
+<5>"VII"
+<5>"IL CARRO"
+@@ 15
+<3:08>・・・<3:ff>C'è qualcosa dietro
+il quadro.<page>
+Hai trovato Darkpath Stone.

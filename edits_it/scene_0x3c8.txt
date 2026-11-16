@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x3c8 (-): 15 records, directory word 4578, package sectors 274476..274618 of VALKYRIE.BIN
+
+@@ 14
+Sembra un cuore.<page>
+Forse, se lo attacco,
+succederà qualcosa.

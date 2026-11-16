@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x163 (Arkdain Ruins): 16 records, directory word 3965, package sectors 195182..195325 of VALKYRIE.BIN
+
+@@ 14
+<5>Rovine di Arkdain
+@@ 15
+<5>Hai trovato Raptor's Claw.

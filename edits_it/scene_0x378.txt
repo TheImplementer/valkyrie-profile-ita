@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x378 (-): 15 records, directory word 4498, package sectors 265184..265287 of VALKYRIE.BIN
+
+@@ 14
+Valkyrie
+「Il meccanismo di controllo
+è stato completamente distrutto.<page>
+Non posso tornare
+al mio tempo originale<3:0c>...<3:ff>

@@ -1,0 +1,27 @@
+# Valkyrie Profile scene 0x9f (-): 23 records, directory word 3769, package sectors 172369..172517 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Incense Burner of Darlis.
+@@ 15
+<5>Hai trovato Gargoyle Statue.
+@@ 16
+Vampiro nobile
+「Notevole.<page>
+Eh<3:1e>?<3:ff>
+Mi sembrate un po' stanca<3:3c>.<3:ff>
+Perché non vi riposate un poco?
+@@ 17
+Valkyrie
+「Il tempo dei giochi è finito<3:3c>.<3:ff>
+Ora combatti con me!!
+@@ 18
+Vampiro nobile
+「Che donna ostinata<3:0c>・・・<3:ff>
+@@ 19
+<5>Hai trovato Fairy Ring.
+@@ 20
+<5>Hai trovato Poison Check.
+@@ 21
+<5>Hai trovato Ether Scepter.
+@@ 22
+<5>Hai trovato Lapis Lazuli.

@@ -1,0 +1,14 @@
+# Valkyrie Profile scene 0x2c4 (-): 17 records, directory word 4318, package sectors 236178..236275 of VALKYRIE.BIN
+
+@@ 14
+<19:0100>Freya
+「<18><3:03>Mi dispiace, Lenneth, ma qualcosa
+è andato storto dentro di te,
+e non abbiamo tempo
+di riparare una macchina difettosa.<17:d200>
+@@ 15
+<19:0100>Freya
+「<18><3:03>Il minimo che io possa fare è darti
+il sonno divino con le mie stesse mani.<17:b400>
+@@ 16
+<5>Hai trovato "Charm Feather".

@@ -1072,6 +1072,45 @@ so it keeps its height and scrolls the same way. All 1,964 records in `edits_it/
 No line wraps or leaves its box. Odin's event stops after its first line, and the English disc stops
 at the same place, so the rest of 0x19 was checked by read-back only, like the other records.
 
+## The rest of the dialogue: towns, dungeons and events
+
+**What is translated** (2026-11-16): every scene text left on disc 1. That is 1,333 records in
+426 scenes:
+
+* the town scenes;
+* the dungeons, with their signs, puzzles, inscriptions, treasure messages and monster lines;
+* the Artolian Mountain Ruins, where the Sprite (Spiritello) teaches the controls;
+* events outside the storylines: Brahms (0x10A), King Barbarossa (0x39B), the Dark Lord (0x207),
+  the restored city of Dipan (0x36E-0x378) and the endings (0x458, 0x459).
+
+With them, all 542 scenes with dialogue have an edit file and `vp_progress.py` counts the dialogue
+as 100% done.
+
+The debug menu (scene 0x0) is listed unchanged on purpose. It holds Japanese developer text stored
+as raw glyph codes and is never shown in normal play.
+
+**Shared texts.** 126 texts appear in several scenes: treasure messages, door signs, the
+operating-panel and stone-puzzle prompts, and the tarot paintings. Each was translated once and
+written into every scene that has it, so they read the same everywhere. Across all of `edits_it/`,
+no English text has two Italian versions. Item, weapon and monster names stay in English, as
+elsewhere, including names with a type such as `Demon Sword "Levantine"`.
+
+**Package room and boxes.** Every package fits; the tightest have about 200 bytes left (0xB7 196,
+0x257 200, 0x1C8 216). `--fit-boxes` grew 155 boxes in these scenes. None runs off the screen and
+none next to an actor grew. Boxes whose English scrolled keep their height where growing would leave
+the screen (`docs/MESSAGE_BOX.md`). All 3,297 records in `edits_it/` read back as written.
+
+![The Artolian Mountain Ruins and the Dark Lord in Italian](notes/edit_proof/italian_dungeons.png)
+
+**Seen in TinyPSX**, by jumping to the scene with `STATE` 0xFF01:
+
+* The Artolian Mountain Ruins (0x7D): Freya, the Memory Camp and the save hints.
+* The Dark Lord (0x207): including the timed laugh.
+
+Most other events here need flags that a jump doesn't set: Brahms (0x10A), Barbarossa (0x39B),
+the restored city (0x371) and the vampire scenes. They load their room but don't start, so they were
+checked by read-back only, like the Sprite's lessons (0x7D #23-39).
+
 ## System messages: `system.txt`
 
 `docs/SYSTEM_MESSAGES.md` explains the system messages from the start, with every box.
@@ -1198,6 +1237,9 @@ CRC32, MD5 and SHA-1 of each original and patched `.bin`, and zips the patches a
 **Two discs.** Disc 2 has its own `VALKYRIE.BIN`, 650 MB against 635 MB:
 * 859 of its files differ from disc 1's, but every scene, menu and battle table the Italian edits
   touch has the same text.
+* It has 1,013 of disc 1's 1,118 scenes. Of the 542 edited scenes, 504 are on disc 2 with exactly
+  the same English records; the other 38 (0x3F8-0x457) are not on it. The script leaves out an
+  edited scene the disc lacks and names it in its log, instead of stopping.
 * Its title code and sheet (files 1 and 7) are identical once unpacked, but stored elsewhere.
 * Its directory has empty words, 0, right after files 1 and 7. So a file's end is now the next
   word with a *later* sector (`vp_scenes.file_end`), not simply the next word; on disc 1 this

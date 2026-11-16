@@ -1,0 +1,7 @@
+# Valkyrie Profile scene 0x28b (-): 15 records, directory word 4261, package sectors 228870..228921 of VALKYRIE.BIN
+
+@@ 14
+Statua di donna.
+C'è scritto qualcosa.<page>
+<5>"Il Guardiano addormentato"
+<5>"custodisce la chiave."

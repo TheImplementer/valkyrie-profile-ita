@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x1d0 (-): 15 records, directory word 4074, package sectors 207857..207968 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Invoke Feather.

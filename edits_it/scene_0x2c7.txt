@@ -1,0 +1,17 @@
+# Valkyrie Profile scene 0x2c7 (-): 18 records, directory word 4321, package sectors 236498..236612 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato "Polar Drops".
+@@ 15
+<5>Hai già "Polar Drops".
+@@ 16
+<6:570d><19:ffff>Elfo
+「Ora la fonte trabocca
+di acqua sacra.
+@@ 17
+<6:570d><19:ffff>Elfo
+「L'energia della fonte
+purifica lo spazio.
+Lo spazio purificato
+guarisce il cuore.
+Lo sapevate?

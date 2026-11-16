@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x252 (-): 17 records, directory word 4204, package sectors 221316..221463 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Iron Ore.
+@@ 15
+<5>Hai trovato Ebony Powder.
+@@ 16
+<5>Hai trovato Mighty Check.

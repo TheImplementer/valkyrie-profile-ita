@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x270 (Palace of the Dragon): 15 records, directory word 4234, package sectors 225309..225549 of VALKYRIE.BIN
+
+@@ 14
+Palazzo del Drago

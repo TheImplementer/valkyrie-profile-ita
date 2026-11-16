@@ -1,0 +1,28 @@
+# Valkyrie Profile scene 0x291 (-): 23 records, directory word 4267, package sectors 229404..229581 of VALKYRIE.BIN
+
+@@ 14
+<5>Quadro
+@@ 15
+<5>"XVI"
+<5>"LA TORRE"
+@@ 16
+<5>"XIII"
+<5>"LA MORTE"
+@@ 17
+<5>"IV"
+<5>"L'IMPERATORE"
+@@ 18
+<5>"XII"
+<5>"L'APPESO"
+@@ 19
+<5>"X"
+<5>"LA RUOTA DELLA FORTUNA"
+@@ 20
+<5>"XXI"
+<5>"IL MONDO"
+@@ 21
+<5>"VII"
+<5>"IL CARRO"
+@@ 22
+<5>"O"
+<5>"IL MATTO"

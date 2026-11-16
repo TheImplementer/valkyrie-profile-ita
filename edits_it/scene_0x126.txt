@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x126 (-): 15 records, directory word 3904, package sectors 188108..188252 of VALKYRIE.BIN
+
+@@ 14
+<5>Al tetto

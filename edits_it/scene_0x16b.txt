@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x16b (-): 15 records, directory word 3973, package sectors 195664..195767 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Ranseur.

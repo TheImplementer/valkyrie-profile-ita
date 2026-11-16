@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x1a2 (-): 16 records, directory word 4028, package sectors 202533..202702 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Foxglove.
+@@ 15
+<5>Hai trovato Freeze Check.

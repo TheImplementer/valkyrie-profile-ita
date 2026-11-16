@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x1f3 (-): 16 records, directory word 4109, package sectors 211990..212024 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Element Scepter.
+@@ 15
+<5>Hai trovato Foxglove.

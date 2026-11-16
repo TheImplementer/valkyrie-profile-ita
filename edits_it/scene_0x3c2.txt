@@ -1,0 +1,38 @@
+# Valkyrie Profile scene 0x3c2 (-): 23 records, directory word 4572, package sectors 273708..273790 of VALKYRIE.BIN
+
+@@ 14
+Dallas
+「Benvenuta<3:32>.<3:ff>
+Siamo onorati di ricevere
+persino una Dea degli Sciocchi.
+@@ 15
+Walther
+「È tutto ciò che sai dire<3:32>?<3:ff>
+Ebbene, ecco la mia risposta<7:0b>-<7:01>
+@@ 16
+Valkyrie
+「Silenzio!!
+@@ 17
+Gyne
+「<3:0c>・・・<3:ff>Con una cena così deliziosa in programma,
+non possiamo avere una conversazione
+più piacevole?
+@@ 18
+Valkyrie
+「Cena, dici<3:0c>・・・<3:ff>?!
+@@ 19
+Walther
+「Proprio così<3:28>.<3:ff>
+Questa sera abbiamo in programma di
+banchettare con l'anima di una certa
+Vergine della Battaglia!!
+@@ 20
+Valkyrie
+「Scellerati!<3:32>!<3:ff>
+I vostri peccati gravano su di voi,
+profanatori di anime.
+Morirete tutti e tre!!
+@@ 21
+<5>Hai trovato Dragoon Tyrant.
+@@ 22
+<5>Hai trovato Rust-Red Circlet.

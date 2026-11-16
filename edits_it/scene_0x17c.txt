@@ -1,0 +1,14 @@
+# Valkyrie Profile scene 0x17c (-): 18 records, directory word 3990, package sectors 198066..198120 of VALKYRIE.BIN
+
+@@ 14
+Le Fiamme del Purgatorio
+sono state spente.
+@@ 15
+Hai trovato le Fiamme
+del Purgatorio.
+@@ 16
+<3:08>・・・<3:ff>il fuoco sembra
+sul punto di spegnersi.
+@@ 17
+Hai già preso le
+Fiamme del Purgatorio.

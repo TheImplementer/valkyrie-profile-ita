@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x374 (To outside | To the 2nd floor): 16 records, directory word 4494, package sectors 265046..265082 of VALKYRIE.BIN
+
+@@ 14
+<5>Uscita
+@@ 15
+<5>Al primo piano

@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x2e4 (-): 16 records, directory word 4350, package sectors 241133..241273 of VALKYRIE.BIN
+
+@@ 14
+<6:570d><19:ffff>Elfo
+「Andando verso sud
+troverete il nido del Grande Ragno.
+@@ 15
+<5>Hai trovato Sacred Javelin.

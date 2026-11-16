@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x23c (Forest of Woe): 17 records, directory word 4182, package sectors 218801..218904 of VALKYRIE.BIN
+
+@@ 14
+<5>Uscita
+@@ 15
+<5>Foresta del Dolore
+@@ 16
+<5>Hai trovato Eye of Heaven.

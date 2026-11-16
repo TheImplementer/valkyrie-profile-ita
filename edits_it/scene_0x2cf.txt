@@ -1,0 +1,7 @@
+# Valkyrie Profile scene 0x2cf (-): 15 records, directory word 4329, package sectors 237742..237871 of VALKYRIE.BIN
+
+@@ 14
+<6:570d><19:ffff>Elfo
+「Da molte, moltissime ere
+nessuno all'infuori di noi
+mette piede in questa foresta.

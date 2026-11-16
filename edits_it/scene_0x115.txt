@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x115 (-): 15 records, directory word 3887, package sectors 186153..186207 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Beast Slayer.

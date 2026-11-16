@@ -1,0 +1,70 @@
+# Valkyrie Profile scene 0x9e (-): 28 records, directory word 3768, package sectors 172263..172368 of VALKYRIE.BIN
+
+@@ 14
+Sacerdote
+「Ma guarda<3:28>,<3:ff>
+che ospite insolito.<page>
+Per quale faccenda
+siete venuta in questo luogo oggi?
+@@ 15
+Valkyrie
+「Ma tu non sei umano!?
+Mostrati nella tua vera forma,
+essere maligno!!
+@@ 16
+Sacerdote
+「Avete intuito bene.
+@@ 17
+Valkyrie
+「Io vado in cerca
+delle anime degli uomini.
+Tu che cosa credi di ottenere?
+@@ 18
+Vampiro nobile
+「C'è bisogno che io risponda?<page>
+È ovvio che il vostro unico scopo
+è mettermi sottoterra<3:1e>,<3:ff>
+qualunque cosa io dica.
+@@ 19
+Valkyrie
+「<3:0c>・・・<3:ff>Dovrei distruggerti.
+Nutri rancore
+verso i vivi!
+@@ 20
+Vampiro nobile
+「Vi chiederei di
+desistere.
+@@ 21
+Vampiro nobile
+「Come immaginavo.<page>
+Ma, se possibile,
+tornate da dove siete venuta.
+Sarebbe nell'interesse di entrambi.
+@@ 22
+Valkyrie
+「Non posso farlo.
+@@ 23
+Vampiro nobile
+「Pensavo proprio di no.<page>
+Bene<3:1e>,<3:ff> vediamo se riusciamo
+a sfinirvi un poco prima
+che mi raggiungiate.
+@@ 24
+Vampiro nobile
+「Quei tipi sono negromanti: trasformano
+in non morti i cadaveri che hanno
+abbracciato i demoni.<page>
+Sono certo che li incontrerete<3:32>.<3:ff>
+Se non vi sbrigate,<page>
+le cataste di cadaveri in questo edificio,
+i morti e i tormentati,
+potrebbero avere nuova compagnia.
+@@ 25
+Valkyrie
+「Tu!!
+@@ 26
+Vampiro nobile
+「Vedo che vi date da fare<3:32>.<3:ff>
+Ah, ah, ah!!
+@@ 27
+<5>Hai trovato Mithril Ore.

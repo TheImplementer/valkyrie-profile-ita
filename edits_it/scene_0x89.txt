@@ -1,0 +1,36 @@
+# Valkyrie Profile scene 0x89 (-): 22 records, directory word 3747, package sectors 169851..169995 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Freya
+「Questo è il Libro degli Incantesimi.
+@@ 15
+<19:ffff>Valkyrie
+「Il Libro degli Incantesimi?
+@@ 16
+<19:ffff>Freya
+「Sì<3:1e>,<3:ff> è un libro scritto sulle ricerche
+condotte su certi incantesimi.
+Leggendolo puoi imparare
+nuovi incantesimi.
+@@ 17
+<19:ffff>Freya
+「In questo mondo si trovano molti libri
+che descrivono tecniche di combattimento
+e altro ancora, oltre a quelli di magia.<page>
+Da questi scritti puoi acquisire
+conoscenze su molte questioni
+che non potresti ricavare altrimenti
+dall'esperienza al fronte.
+@@ 18
+<3:00><5>Magie e abilità si ottengono
+<5>usando determinati oggetti.
+<5>Un'abilità è un singolo oggetto
+<5>che può essere acquisito da chiunque.
+<5>La magia, invece, è un singolo oggetto che può
+<5>essere acquisito da una sola persona.
+@@ 19
+<5>Hai trovato Fire Lance.
+@@ 20
+<5>Hai trovato Foxglove.
+@@ 21
+<5>Hai trovato Lapis Lazuli.

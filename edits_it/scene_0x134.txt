@@ -1,0 +1,7 @@
+# Valkyrie Profile scene 0x134 (-): 15 records, directory word 3918, package sectors 190186..190344 of VALKYRIE.BIN
+
+@@ 14
+Questo è un dispositivo di trasferimento.<page>
+Vuoi trasferirti?
+・Sì
+・No

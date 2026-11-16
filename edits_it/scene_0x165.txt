@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x165 (-): 15 records, directory word 3967, package sectors 195363..195400 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Dark.

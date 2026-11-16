@@ -1,0 +1,14 @@
+# Valkyrie Profile scene 0xeb (-): 17 records, directory word 3845, package sectors 181645..181856 of VALKYRIE.BIN
+
+@@ 14
+Valkyrie
+「Dunque questa è la paratoia
+che ha tenuto isolata l'acqua impura.
+Sembra che l'effetto del sigillo
+stia per esaurirsi.<page>
+Non si potrà sigillarla di nuovo
+finché il primo sigillo non sarà
+svanito del tutto.
+@@ 16
+Valkyrie
+「Cosa?!

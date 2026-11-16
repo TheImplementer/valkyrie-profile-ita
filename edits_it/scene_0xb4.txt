@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0xb4 (To outside | Oddrock Caves): 16 records, directory word 3790, package sectors 174312..174401 of VALKYRIE.BIN
+
+@@ 14
+<5>Uscita
+@@ 15
+<5>Grotte di Oddrock

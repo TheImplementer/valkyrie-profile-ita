@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x3ac (Dipan Castle): 16 records, directory word 4550, package sectors 270850..271026 of VALKYRIE.BIN
+
+@@ 14
+Valkyrie
+「I non morti sono stati evocati<3:0c>・・・<3:ff>!<3:32>!<3:ff>
+È il risultato dell'incuria!!
+@@ 15
+<5>Castello di Dipan

@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x1fd (-): 15 records, directory word 4119, package sectors 212819..212913 of VALKYRIE.BIN
+
+@@ 14
+È una specie di
+pannello di controllo.<page>
+Vuoi azionarlo?
+・Sì
+・No

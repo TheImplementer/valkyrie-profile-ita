@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x3ad (-): 15 records, directory word 4551, package sectors 271027..271089 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Dark Savior.

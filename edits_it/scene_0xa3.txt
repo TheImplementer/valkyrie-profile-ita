@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0xa3 (-): 15 records, directory word 3773, package sectors 172726..172765 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Sap Power.

@@ -63,6 +63,22 @@ here, so this file is never built into the disc.)
 | Pleiades Shrine; Shinto priest; ritual of ascension | Santuario delle Pleiadi; Sacerdote shintoista; rito dell'ascensione | Sacred Sword → Spada Sacra (Dragonbane stays English). Soul Stone → Pietra dell'Anima. |
 | Thieves' Guild | Gilda dei Ladri | Villnore Castle → Castello di Villnore; slavers → mercanti di schiavi. |
 | Madam Dolce; Auntie Dolce | signora Dolce; zia Dolce | Lucian gives Dolce *voi*. |
+| Sprite (the tutorial guide) | Spiritello | Artolian Mountain Ruins; gives Lenneth *voi*. Hints with no speaker use the infinitive ("premere il pulsante ○"). |
+| Memory Camp; Camp screen | Campo della Memoria; menu del Campo | "Dati" is the camp menu's Data. Experience Orb → Sfera dell'Esperienza (speech), Sfera esp. (hints). |
+| Magic Crystal; Purple Gem; Magic Gems | Cristallo Magico; Gemma Viola; Gemme Magiche | Battle pickups, not items, so translated. |
+| Special Attack Gauge; charge turn (CT); HIT | indicatore dell'attacco speciale; turni di carica (CT); HIT | Combo Guard and OVER ATTACK stay as on screen. |
+| Time Machine / Time Mechanism | Macchina del Tempo | One device, one name (Dipan). Divine Providence → Provvidenza Divina; Messengers of the Gods → Messaggeri degli Dei. |
+| Lord of Creation | Signora della Creazione | Valkyrie, at the ending (0x458). Promised Land → Terra Promessa; Wheel of Time → Ruota del Tempo. |
+| Goddess of Fools (Barbarossa's mages); Goddess Valkyrie (Lezard) | Dea degli Sciocchi; Dea Valkyrie | |
+| Vampire Brahms; Noble Vampire; Elder Vampire | il Vampiro Brahms; Vampiro nobile; Vampiro anziano | Brahms gives Valkyrie *tu* (he knew her). |
+| the tarot paintings | "IV" L'IMPERATORE, "O" IL MATTO, "VII" IL CARRO, "X" LA RUOTA DELLA FORTUNA, "XII" L'APPESO, "XIII" LA MORTE, "XVI" LA TORRE, "XXI" IL MONDO | |
+| Red / Green / Blue / Daisy Fire | Fuoco Rosso / Verde / Blu / Margherita | Puzzle flags, not items. The moon and eclipse stones are items and stay English. |
+| operating panel; transfer equipment; switch; Sluice Gate; Slab | pannello di controllo; dispositivo di trasferimento; interruttore; paratoia; Lastra | |
+| strong acid; the Fires of Purgatory | acido forte; le Fiamme del Purgatorio | |
+| Research Journal; Page N | Diario di ricerca; Pagina N | Its clues are kept so the plant puzzle can still be solved. |
+| You found / discovered / borrowed X | Hai trovato / Hai scoperto / Hai preso in prestito X | No article before the item name. |
+| floors: First Floor, Second Floor | Piano terra, Primo piano | Italian floor numbering; To the 1st floor → Al piano terra. |
+| Midtown; Living Room; Classroom; Graveyard | Quartiere centrale; Soggiorno; Aula; Cimitero | Street / Square → Strada / Piazza; Cave of Oblivion → Grotta dell'Oblio. |
 | Chief Councillor | Gran Consigliere | Lombert's title. |
 | Sir Arngrim | ser Arngrim | Used by Angela and the King. |
 | Lady Angela (Arngrim, mocking) | madamigella Angela | |
@@ -77,7 +93,9 @@ here, so this file is never built into the disc.)
 Speaker labels that are roles are translated: Agente, Ragazza, Cameriera, Capocuoco, Cavaliere (di Artolia),
 Soldato, Re, Capitano (Knight Captain), Donna, Giovane, Anziano / Anziana, Avventuriero, Uomo, Bambino,
 Guardia, Guerriero, Esploratore, Viaggiatore, Superiore, Cittadino, Locandiere, Moglie, Padre / Madre adottiva,
-Padre di Fuyuki, Marito di Lorenta, Assassino. Samurai stays. Monster names used as labels stay English (Raver Lord).
+Padre di Fuyuki, Marito di Lorenta, Assassino, Sindaco, Sacerdote, Fanatico, Demone, Servo demoniaco, Mago / Maga,
+Giovane arciere, Voce di donna, Spadaccina dall'elmo piumato. Samurai stays. Monster names used as labels stay English
+(Raver Lord, Dark Lord, Drow Shaman, Hel Servant, Lesser Dragon).
 
 ## Forms of address
 
@@ -176,6 +194,7 @@ shortened until they fit on screen:
 ## Conventions kept from the English text
 
 * The 「 opening bracket on spoken lines, and the game's ・・・ and ... ellipses as they were.
+* Laughs are Italian: "He he he" → "Eh eh eh", "Hee hee hee" → "Hi hi hi".
 * Every control code (`<3:..>` typing delays, `<12:..>` voice clips, `<17:..>` waits, `<18>`,
   `<19:..>`, `<7:..>` widths) stays where it was relative to the words it times.
 * A line with no words (only ・・・) is left out of the edit file, so it stays byte for byte as it was.
@@ -186,6 +205,7 @@ shortened until they fit on screen:
   * speaker labels in the battle hints (1988.2);
   * DME, Stereo, ON and OFF.
   * "Scenario Error 1" (system record 12, a debug message).
+  * The debug menu, scene 0x0 (Japanese developer text in raw glyph codes).
 
   Still left out, so they count as not done: "Iseria Queen" and "Wraith" in the name list (they may
   need translating), LV and CT, and the monster names.

@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x4 (Living Room): 15 records, directory word 3614, package sectors 155810..155842 of VALKYRIE.BIN
+
+@@ 14
+<5>Soggiorno

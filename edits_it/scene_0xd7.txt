@@ -1,0 +1,10 @@
+# Valkyrie Profile scene 0xd7 (-): 18 records, directory word 3825, package sectors 179171..179289 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Element Scepter.
+@@ 15
+<5>Hai trovato Eye of Heaven.
+@@ 16
+<5>Hai trovato Wait Reaction.
+@@ 17
+<5>Hai trovato Holy Crystal.

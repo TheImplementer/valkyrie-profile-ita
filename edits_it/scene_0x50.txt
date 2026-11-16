@@ -62,7 +62,7 @@ per forza torto<3:0c>...<3:ff><17:9600>
 <6:980d><19:ffff>Allievo
 「Pare che i mostri producano al loro
 interno una pietra speciale.<page>
-Le chiamiamo Magic Gem<3:0c>・・・<3:ff>
+Le chiamiamo Gemme Magiche<3:0c>・・・<3:ff>
 Queste pietre sono l'oggetto
 della mia ricerca.
 @@ 31
@@ -70,4 +70,4 @@ della mia ricerca.
 「Di recente ho scoperto che i
 mostri producono anche un
 altro tipo di gemma.
-La chiamiamo Purple Gem.
+La chiamiamo Gemma Viola.

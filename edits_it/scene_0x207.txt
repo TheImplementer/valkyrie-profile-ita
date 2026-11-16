@@ -1,0 +1,38 @@
+# Valkyrie Profile scene 0x207 (-): 24 records, directory word 4129, package sectors 213770..213860 of VALKYRIE.BIN
+
+@@ 14
+Valkyrie
+「Signore delle Tenebre<3:28>,<3:ff>
+questo è il mondo degli uomini.
+Qui non hai posto.
+@@ 15
+Dark Lord
+「Forse, ma<3:0c>・・・<3:ff>
+ho una sete che deve essere saziata.
+@@ 16
+Valkyrie
+「Di cosa hai sete?
+@@ 17
+Dark Lord
+「Non potrò mai dimenticare<3:0c>・・・<3:ff>
+@@ 18
+Dark Lord
+「<3:0a>Eh<3:00> <3:0a>eh<3:00> <3:0a>eh<3:00> <3:0a>eh<3:00> <3:0a>eh<3:00> <3:0a>eh<3:ff>.
+Com'è dolce・・・com'è gloriosamente dolce・・・
+il sapore dell'anima umana!
+@@ 19
+Valkyrie
+「Creatura immonda!!
+@@ 20
+Dark Lord
+「Non basta!!
+Ho ancora sete!!
+Forse l'anima di una dea
+basterebbe a
+soddisfarmi!
+@@ 21
+<5>Hai trovato Shadzard.
+@@ 22
+<5>Hai trovato Secrets of Zolon.
+@@ 23
+<5>Hai trovato Unicorn's Horn.

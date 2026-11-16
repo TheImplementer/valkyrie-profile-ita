@@ -1,0 +1,13 @@
+# Valkyrie Profile scene 0x1b5 (-): 17 records, directory word 4047, package sectors 204808..204981 of VALKYRIE.BIN
+
+@@ 14
+Rispondimi.<page>
+Quale animale cammina su 4 zampe
+al mattino, su 2 al pomeriggio
+e su 3 alla sera?<page>
+La risposta?
+・Gli umani
+・L'Uomo
+・Homo Sapiens
+@@ 15
+Esatto.

@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x30 (Midtown): 15 records, directory word 3658, package sectors 160657..160756 of VALKYRIE.BIN
+
+@@ 14
+<5>Quartiere centrale

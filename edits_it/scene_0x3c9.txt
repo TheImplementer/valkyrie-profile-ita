@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x3c9 (-): 15 records, directory word 4579, package sectors 274619..274744 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Hit.

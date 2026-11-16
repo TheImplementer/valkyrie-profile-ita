@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x112 (-): 15 records, directory word 3884, package sectors 186028..186064 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Vegetable Seed.

@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x117 (-): 17 records, directory word 3889, package sectors 186276..186356 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Mithril Ore.
+@@ 15
+<5>Hai trovato Lapis Lazuli.
+@@ 16
+<5>Hai trovato Warhammer

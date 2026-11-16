@@ -1,0 +1,11 @@
+# Valkyrie Profile scene 0x6 (To outside | Platina's Room): 17 records, directory word 3616, package sectors 155915..156015 of VALKYRIE.BIN
+
+@@ 14
+<5>Uscita
+@@ 15
+<5>Camera di Platina
+@@ 16
+<19:ffff>Madre
+「Chi diavolo siete?
+Fuori di qui,
+mi siete d'intralcio!

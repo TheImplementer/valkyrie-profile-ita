@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x1cb (-): 15 records, directory word 4069, package sectors 207417..207557 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Lucerne Hammer.

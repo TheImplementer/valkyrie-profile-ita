@@ -1,0 +1,23 @@
+# Valkyrie Profile scene 0x3db (-): 20 records, directory word 4597, package sectors 277406..277544 of VALKYRIE.BIN
+
+@@ 14
+Valkyrie
+「<3:0c>・・・<3:ff>Queste creature<3:28>,<3:ff>
+sono cacciatrici di anime,
+create dalla regina Hel di Nifleheim!!
+@@ 15
+Valkyrie
+「Dunque la mano di Hel arriva ormai
+fino a Midgard<3:0c>・・・<3:ff>
+@@ 16
+Hel Servant
+「Radunatevi tutti qui!<3:32>!<3:ff>
+Valkyrie è arrivata!<page>
+Informate la Regina!
+Sarà felicissima!
+@@ 17
+<5>Hai trovato Manual of Resurrection.
+@@ 18
+<5>Hai trovato Holy Sword "Seraphy".
+@@ 19
+<5>Hai trovato Spear "Basilisk".

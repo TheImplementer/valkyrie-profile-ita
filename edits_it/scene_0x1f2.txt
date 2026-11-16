@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x1f2 (-): 16 records, directory word 4108, package sectors 211904..211989 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Frigid Damsel.
+@@ 15
+<5>Hai trovato Short Spear.

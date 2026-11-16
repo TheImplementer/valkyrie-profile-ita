@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x8b (-): 15 records, directory word 3749, package sectors 170167..170320 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Element Scepter.

@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x161 (-): 17 records, directory word 3963, package sectors 194961..195068 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Resist Damage.
+@@ 15
+<5>Hai trovato Ether Scepter.
+@@ 16
+<5>Hai trovato Lapis Lazuli.

@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0xcb (-): 16 records, directory word 3813, package sectors 177723..177848 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Lightning Bolt.
+@@ 15
+<5>Hai trovato Eye of Heaven.

@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x285 (-): 15 records, directory word 4255, package sectors 228045..228218 of VALKYRIE.BIN
+
+@@ 14
+Statua di donna.
+C'è scritto qualcosa.<page>
+<5>"Non lasciarti trovare dal Guardiano."

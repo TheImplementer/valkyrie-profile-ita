@@ -1,0 +1,7 @@
+# Valkyrie Profile scene 0x131 (-): 15 records, directory word 3915, package sectors 189747..189902 of VALKYRIE.BIN
+
+@@ 14
+Questo è un dispositivo di trasferimento.<page>
+Vuoi trasferirti?
+・Sì
+・No

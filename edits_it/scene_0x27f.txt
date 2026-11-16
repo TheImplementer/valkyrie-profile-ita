@@ -1,0 +1,11 @@
+# Valkyrie Profile scene 0x27f (-): 17 records, directory word 4249, package sectors 227472..227572 of VALKYRIE.BIN
+
+@@ 14
+<5>"XIII"
+<5>"LA MORTE"
+@@ 15
+<3:08>・・・<3:ff>C'è qualcosa dietro
+il quadro.<page>
+Hai trovato Darkspot Stone.
+@@ 16
+<5>Hai trovato Burgundy Flask.

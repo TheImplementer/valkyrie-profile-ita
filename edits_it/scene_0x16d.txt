@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x16d (-): 16 records, directory word 3975, package sectors 195896..196021 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Combo Jewel.
+@@ 15
+<5>Hai trovato Daemon Slayer.

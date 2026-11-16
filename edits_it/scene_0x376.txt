@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x376 (To the 1st floor | To inside of room): 16 records, directory word 4496, package sectors 265116..265148 of VALKYRIE.BIN
+
+@@ 14
+<5>Al piano terra
+@@ 15
+<5>Dentro la stanza

@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x1c8 (-): 15 records, directory word 4066, package sectors 207104..207214 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Flame Jewel.

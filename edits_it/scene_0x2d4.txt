@@ -1,0 +1,13 @@
+# Valkyrie Profile scene 0x2d4 (-): 15 records, directory word 4334, package sectors 238475..238631 of VALKYRIE.BIN
+
+@@ 14
+<19:0100>Elfo
+「Benvenuta,
+Vergine della Battaglia Valkyrie.
+Desiderate qualcosa da me?
+È facile perdersi nella foresta
+che si estende oltre questo punto.
+Anche una come voi
+potrebbe smarrirsi.
+Venite,
+vi farò da guida.

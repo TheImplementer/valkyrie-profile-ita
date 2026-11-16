@@ -1,0 +1,16 @@
+# Valkyrie Profile scene 0x7e (-): 19 records, directory word 3736, package sectors 168682..168825 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Freya
+「Per combattere il nemico,
+affrontalo e sguaina la spada.
+Qualsiasi contatto è uno scontro,
+ma non si sa mai chi colpirà per primo. 
+@@ 15
+<3:00><5>Sguaina la spada・・・pulsante ○
+@@ 16
+<3:00><5>Sguaina la spada・・・pulsante ✕
+@@ 17
+<3:00><5>Sguaina la spada・・・pulsante △
+@@ 18
+<3:00><5>Sguaina la spada・・・pulsante □

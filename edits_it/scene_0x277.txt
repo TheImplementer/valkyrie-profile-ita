@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x277 (-): 15 records, directory word 4241, package sectors 226208..226358 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Ether Scepter.

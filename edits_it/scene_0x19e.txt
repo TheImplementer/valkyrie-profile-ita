@@ -1,0 +1,37 @@
+# Valkyrie Profile scene 0x19e (-): 29 records, directory word 4024, package sectors 202017..202187 of VALKYRIE.BIN
+
+@@ 14
+Il Fuoco Rosso
+è già stato preso.
+@@ 15
+Il Fuoco Verde
+è già stato preso.
+@@ 16
+Il Fuoco Blu
+è già stato preso.
+@@ 17
+Hai trovato il Fuoco Rosso.
+@@ 18
+Scotta, basta così.
+@@ 19
+Hai trovato il Fuoco Verde.
+@@ 20
+Hai trovato il Fuoco Blu.
+@@ 21
+Il Fuoco Margherita
+è già stato preso.
+@@ 22
+È un fuoco bianco scintillante.
+@@ 23
+Hai trovato il Fuoco Margherita.
+@@ 24
+Un fuoco color arancia.
+@@ 25
+È solo il Fuoco Rosso.
+@@ 26
+Un fuoco bianco latte,
+come una caramella.
+@@ 27
+È solo il Fuoco Blu.
+@@ 28
+È solo il Fuoco Verde.

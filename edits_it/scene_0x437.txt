@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x437 (-): 17 records, directory word 4689, package sectors 287180..287298 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Frigid Damsel.
+@@ 15
+<5>Hai trovato Mighty Check.
+@@ 16
+<5>Hai trovato Golden Egg.

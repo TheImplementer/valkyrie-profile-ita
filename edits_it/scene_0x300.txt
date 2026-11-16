@@ -1,0 +1,17 @@
+# Valkyrie Profile scene 0x300 (-): 17 records, directory word 4378, package sectors 244871..245028 of VALKYRIE.BIN
+
+@@ 14
+C'è una scritta sul muro.<page>
+Oltre questo punto c'è pericolo.
+Al minimo movimento la stanza ruota.
+La vita è un biglietto di sola andata.<page>
+Chi è saggio torni indietro.
+Solo gli stolti che non hanno bisogno
+della vita possono andare oltre.
+@@ 15
+Stolti, prendete questa pergamena.
+Se nemmeno con questa riuscite a proseguire,
+allora siete davvero degli stolti.
+@@ 16
+<3:00><5>Tasto SELECT・・・Apri pergamena
+<3:00><5>(Villa degli Ingranaggi. Solo nella stanza rotante)

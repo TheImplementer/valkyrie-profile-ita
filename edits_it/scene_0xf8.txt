@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0xf8 (-): 15 records, directory word 3858, package sectors 183228..183286 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Strike Edge.

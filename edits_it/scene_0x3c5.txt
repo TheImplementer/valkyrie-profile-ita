@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x3c5 (-): 15 records, directory word 4575, package sectors 274028..274153 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Poison Blow.

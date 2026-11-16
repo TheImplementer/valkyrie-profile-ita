@@ -1,0 +1,13 @@
+# Valkyrie Profile scene 0x26 (First Floor): 17 records, directory word 3648, package sectors 159722..159755 of VALKYRIE.BIN
+
+@@ 14
+<5>Piano terra
+@@ 15
+<19:ffff>Anziano
+「Siete una nobile<3:0c>...?<3:ff>
+Volete qualcosa dalla mia famiglia?
+È solo che...
+State spaventando i bambini<3:0c>...
+@@ 16
+<19:0100>Bambino
+「<3:0c>・・・<3:ff>Vattene!

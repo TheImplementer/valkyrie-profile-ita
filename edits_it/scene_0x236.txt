@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x236 (-): 15 records, directory word 4176, package sectors 218039..218180 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Charge.

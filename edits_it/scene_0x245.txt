@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x245 (-): 16 records, directory word 4191, package sectors 219611..219727 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Element Scepter.
+@@ 15
+<5>Hai trovato Element Scepter.

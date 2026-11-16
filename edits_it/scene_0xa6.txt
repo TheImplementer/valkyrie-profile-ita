@@ -1,0 +1,23 @@
+# Valkyrie Profile scene 0xa6 (-): 20 records, directory word 3776, package sectors 172892..173023 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Golden Fowl.
+@@ 15
+<5>Hai trovato Grand Sting.
+@@ 16
+Valkyrie
+「Dunque sei ancora vivo<3:32>.<3:ff>
+Credevo che quella donna ti avesse distrutto.
+@@ 17
+Servo demoniaco
+「Non posso essere sconfitto da un
+misero mortale.
+Né da una misera dea che si affida
+al potere degli umani perché
+combattano per lei.
+@@ 18
+Valkyrie
+「<3:0c>・・・<3:ff>Perché non mi metti alla prova?
+@@ 19
+Servo demoniaco
+「Credo proprio che lo farò.

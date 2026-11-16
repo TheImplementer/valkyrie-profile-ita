@@ -1,0 +1,15 @@
+# Valkyrie Profile scene 0xe5 (Slab): 18 records, directory word 3839, package sectors 180983..181103 of VALKYRIE.BIN
+
+@@ 14
+La porta è ben chiusa.
+@@ 15
+Su questa lastra è incisa una scritta.<page>
+"Distruggete tutti i Guardiani!"<page>
+"L'epoca dei Guardiani è finita.
+Trasformate i loro luoghi di riposo."<page>
+"Offriamo attrezzi da sepoltura
+ai defunti!"
+@@ 16
+<5>Lastra
+@@ 17
+<5>Hai trovato Short Bow.

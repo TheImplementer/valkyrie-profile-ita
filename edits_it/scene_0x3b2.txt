@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x3b2 (-): 17 records, directory word 4556, package sectors 271642..271691 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Ruin's Fate.
+@@ 15
+<5>Hai trovato Concentration.
+@@ 16
+<5>Hai trovato Mystic Cross.

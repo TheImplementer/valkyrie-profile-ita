@@ -1,0 +1,7 @@
+# Valkyrie Profile scene 0x2e3 (-): 15 records, directory word 4349, package sectors 240957..241132 of VALKYRIE.BIN
+
+@@ 14
+<6:570d><19:ffff>Elfo
+「A sud di qui c'è il nido
+del Cockatrice. Ma state attenti,
+Vergine della Battaglia.

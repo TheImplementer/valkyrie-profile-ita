@@ -1,0 +1,193 @@
+# Valkyrie Profile scene 0x39b (-): 51 records, directory word 4533, package sectors 269019..269197 of VALKYRIE.BIN
+
+@@ 14
+Barbarossa
+「Oh<3:0c>・・・<3:ff>!!<page>
+Dunque questi sono i frutti<3:28><3:ff>
+dell'amata terra che
+ho servito per tutti questi anni?!
+@@ 15
+Barbarossa
+「Che ne è stato del popolo
+che mi amava, che mi onorava?
+Che cosa è accaduto?
+@@ 16
+Barbarossa
+「Grr<3:28>!<3:ff>
+WAAAAAH!!!<page>
+Dallas<3:28>!<3:ff>
+Gyne!<3:28>!<3:ff>
+Walther!!!<page>
+Eravate i miei più fidati consiglieri!
+Dove siete ora?!
+@@ 17
+Barbarossa
+「Qualunque cosa io ottenga, se sono solo,
+non ha alcun senso!!<page>
+Che cosa devo<3:0c>・・・<3:ff>
+Che cosa devo fare?!
+@@ 18
+Barbarossa
+「Bah!<3:28>!<3:ff>
+Tu sei la serva di Satana,
+il Maligno, Valkyrie<3:0c>・・・<3:ff>!!<page>
+Quegli occhi crudeli, freddi come pietra,
+non li dimenticherò mai!<3:3c>!<3:ff>
+Sei tu che
+hai distrutto il nostro regno!!
+@@ 19
+Valkyrie
+「<3:0c>・・・<3:ff>Che cosa?!<page>
+Non voglio mancare di rispetto ai morti
+discutendo con loro, ma
+non intendo nemmeno scusarmi per
+qualcosa di cui non ho memoria!!
+@@ 20
+Barbarossa
+「Non cercare di ingannarmi.<3:3c>!<3:ff>
+In nome di coloro che hai massacrato,
+io ti abbatto!!
+@@ 21
+Barbarossa
+「Urgh<3:0c>・・・<3:ff>!<3:32>!<3:ff>
+Questo dolore non è nulla in confronto
+a quello provato dal popolo e dai maghi!!
+@@ 22
+Barbarossa
+「Non posso<3:28>・・・<3:ff>
+Non posso morire!!
+@@ 23
+Valkyrie
+「Barbarossa.
+@@ 24
+Valkyrie
+「Ho saputo tutto
+da tua moglie.
+@@ 25
+Barbarossa
+「Che cosa hai detto<3:28>?<3:ff>
+Non dire assurdità<3:0c>・・・<3:ff>
+@@ 26
+Valkyrie
+「Ho portato questo con me.
+@@ 27
+Barbarossa
+「<3:0c>・・・<3:ff>Quella<3:1e>, <3:ff>non può essere<3:1e>,<3:ff>
+l'avevo data alla mia Malabeth<3:0c>・・・<3:ff>!
+@@ 28
+Valkyrie
+「Esatto.
+@@ 29
+Barbarossa
+「Capisco<3:0c>・・・<3:ff>
+@@ 30
+Barbarossa
+「Ma la verità è che
+non importa se io sia stato
+ingannato o no.<page>
+Fu la mia folle ricerca
+dell'eternità
+a causare questa distruzione.<page>
+La responsabilità è tutta mia.
+I maghi non facevano che eseguire
+i miei ordini con tutta la lealtà
+di cui erano capaci.<page>
+Il mio cuore è colmo d'orgoglio per loro<3:32>.<3:ff>
+I miei maghi sono senza colpa in questo<3:32>.<3:ff>
+Non è forse vero?
+@@ 31
+Valkyrie
+「<3:0c>・・・<3:ff>Forse hai ragione.
+@@ 32
+Barbarossa
+「È un bene che io e te abbiamo potuto parlare.<page>
+Finalmente sento di poter
+lasciarmi alle spalle i miei affanni
+e passare oltre questo mondo.
+@@ 33
+Ti ringrazio<3:32>,<3:ff>
+Vergine della Battaglia, Valkyrie!
+@@ 34
+Valkyrie
+「Ora vediamo chi è il vero colpevole.<page>
+Mi ha inseguita oltre i confini
+del tempo, ma non faceva altro
+che scavarsi la fossa da solo.<page>
+Che follia! L'avete evocato in questo
+tempo, ma non avete considerato quanto
+siano saldi i legami tra il Re e la Regina.
+@@ 35
+Valkyrie
+「I pensieri superano i confini del tempo.
+@@ 36
+Valkyrie
+「Ho sentito tirare le catene
+della mia anima e sono tornata qui.<page>
+Lo sentite, non è vero<3:32>?<3:ff>
+Maghi immondi!!
+@@ 37
+Dallas
+「Bah! Chi saresti tu!
+Signora Valkyrie, Dea degli Sciocchi!
+@@ 38
+Walther
+「Per la seconda volta osi
+intrometterti nei nostri piani.
+@@ 39
+Dallas
+「Ci sono voluti molti anni per
+rimettere insieme i frammenti
+dell'anima del Re!!
+@@ 40
+Gyne
+「In ogni caso, era un uomo da poco<3:32>.<3:ff>
+Solo un povero sciocco illuso.
+@@ 41
+Walther
+「Eh eh eh<3:28>.<3:ff>
+Puoi ben dirlo!
+@@ 42
+Valkyrie
+「Osate farvi beffe di re Barbarossa!<3:3c>!<3:ff>
+Sciocchi. Proprio quelli che si
+offendono alle parole di un re saggio<3:0c>・・・<3:ff>
+@@ 43
+Dallas
+「Oh oh. Che spasso<3:28>.<3:ff>
+Una dea che difende un cadavere.
+@@ 44
+Walther
+「Se Odino lo sapesse,
+non credo ne sarebbe contento.
+@@ 45
+Valkyrie
+「<3:0c>・・・<3:ff>Dentro il castello<3:32>.<3:ff>
+Non ci vorrà molto<3:28>.<3:ff>
+Ridurrò questo castello in polvere.
+@@ 46
+Barbarossa
+「Impossibile<3:28>!<3:ff>
+Nessuno! Nessuno può distruggermi!!<page>
+Diverrò un'anima, senza ricompensa,
+e salverò le anime perdute del
+popolo e restituirò loro la loro gloria!!
+@@ 47
+Valkyrie
+「Ah, ora capisco<3:32>.<3:ff>
+Sono i tuoi pensieri di vendetta
+a legarti a questo luogo.
+Eppure ti dico che tutto è finito.
+@@ 48
+Barbarossa
+「La tua opinione!!
+Non voglio ascoltarla!!<page>
+Non è finita<3:32>!<3:ff>
+La ricerca della perfezione non ha fine!!
+@@ 49
+Valkyrie
+「Per salvarlo, dobbiamo spezzare le catene
+dell'attaccamento che lo legano qui<3:0c>・・・<3:ff>
+Ma la questione è come.
+@@ 50
+Valkyrie
+「È inutile.

@@ -18,6 +18,7 @@ import hashlib
 import importlib.util
 import os
 import shutil
+import struct
 import sys
 import zipfile
 import zlib
@@ -211,7 +212,17 @@ def build_disc(cue, edit_paths, out_cue, log):
     ed = _load('vp_text_editor')
     disc, arc, dirw, names = ed.open_disc(cue)
     f = ed.EditFiles(edit_paths)
-    ed.build_image(disc, arc, dirw, names, f.edits, out_cue, True, log, **f.build_args())
+    # Disc 2 has 1,013 of disc 1's 1,118 scenes (the same text where both have one): a scene edit
+    # for a scene this disc lacks is left out, not an error.
+    edits, absent = [], []
+    for e in f.edits:
+        try:
+            ed.Scene(arc, dirw, e[1], names)
+        except (SystemExit, AssertionError, struct.error):
+            absent.append(e[1]); continue
+        edits.append(e)
+    ed.build_image(disc, arc, dirw, names, edits, out_cue, True, log, **f.build_args())
+    return absent
 
 
 README = '''{name} {version}
@@ -247,7 +258,10 @@ def make_release(discs, edits_dir, name, version, out, notes='', log=print, requ
     for label, cue in discs:
         log(f'== {label}: building from {len(edit_paths)} edit files')
         built_cue = os.path.join(work, f'{label}.cue')
-        build_disc(cue, edit_paths, built_cue, lambda s: None)
+        absent = build_disc(cue, edit_paths, built_cue, lambda s: None)
+        if absent:
+            log(f'   {len(absent)} edited scene(s) are not on this disc and were left out: '
+                + ', '.join(f'{x:#x}' for x in absent))
         src = open(cue_bin(cue), 'rb').read()
         hs = hashes(src); ref = REDUMP.get(label, {})
         redump = bool(ref) and ref['SHA-1'] == hs['SHA-1']

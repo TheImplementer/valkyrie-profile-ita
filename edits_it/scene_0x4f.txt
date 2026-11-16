@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x4f (To academy | Mystina's Room | Classroom): 17 records, directory word 3689, package sectors 163690..163899 of VALKYRIE.BIN
+
+@@ 14
+<5>All'accademia
+@@ 15
+<5>Camera di Mystina
+@@ 16
+<5>Aula

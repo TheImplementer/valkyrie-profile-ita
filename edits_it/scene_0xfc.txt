@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0xfc (Cave of Thackus): 15 records, directory word 3862, package sectors 183630..183707 of VALKYRIE.BIN
+
+@@ 14
+<5>Grotta di Thackus

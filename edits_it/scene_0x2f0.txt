@@ -1,0 +1,18 @@
+# Valkyrie Profile scene 0x2f0 (-): 18 records, directory word 4362, package sectors 242893..243042 of VALKYRIE.BIN
+
+@@ 14
+Come sale su
+una ferita aperta.
+@@ 15
+Ha reagito all'odore
+indebolendosi.
+@@ 16
+Ha reagito all'odore
+indebolendosi.<page>
+Sembra che si indebolirà ancora
+di più se uso dell'acido.
+・Usa acido forte
+・Non usare acido forte
+@@ 17
+Non c'è più
+acido forte.

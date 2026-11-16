@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x86 (-): 17 records, directory word 3744, package sectors 169477..169578 of VALKYRIE.BIN
+
+@@ 14
+<5>Al piano inferiore
+@@ 15
+<5>Hai trovato Vegetable Seed.
+@@ 16
+<5>Hai trovato Treasure Search.

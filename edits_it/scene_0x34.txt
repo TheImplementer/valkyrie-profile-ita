@@ -1,0 +1,26 @@
+# Valkyrie Profile scene 0x34 (-): 19 records, directory word 3662, package sectors 161027..161066 of VALKYRIE.BIN
+
+@@ 14
+<5>Uscita
+@@ 15
+<19:ffff>Geena
+「Signorina<3:28>,<3:ff>
+non sarete qui per una camera, vero?<page>
+Chi alloggia qui è gente poco raccomandabile.
+Non vi fa bene stare in loro compagnia<3:0c>...<3:ff>
+@@ 16
+<19:ffff>Geena
+「Se si trovassero un lavoro onesto
+non morirebbero così giovani<3:0c>・・・<3:ff>
+Solo dannati idioti<3:1e> <3:ff>qui<3:0c>・・・<3:ff>
+@@ 17
+<19:ffff>Badrach
+「Ehi, signorina<3:28>,<3:ff>
+facciamo un po' di conoscenza, io e te.<page>
+Se ti va, magari domani potremmo
+pure fare colazione insieme, eh?
+@@ 18
+<19:ffff>Uomo
+「Se scoppia la guerra, ci faremo un po'
+di grana. Fino ad allora,
+toccherà stringere i denti.

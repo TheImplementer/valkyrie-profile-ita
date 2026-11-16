@@ -1,0 +1,10 @@
+# Valkyrie Profile scene 0x2d0 (-): 18 records, directory word 4330, package sectors 237872..238057 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Timer Ring.
+@@ 15
+<5>Hai trovato Dampen Magic.
+@@ 16
+<5>Hai trovato Golden Egg.
+@@ 17
+<5>Hai trovato Reflect Sorcery.

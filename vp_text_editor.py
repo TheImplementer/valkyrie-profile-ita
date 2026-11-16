@@ -281,6 +281,8 @@ class Block:
 BOX_FUNCS = {0x3E2: 'func_03e2', 0x33C: 'func_033c', 0x3F5: 'func_03f5', 0x408: 'func_0408'}
 LINE_PX = 14
 SCREEN_W = 320
+SCREEN_H = 240
+BOTTOM_MARGIN = 8           # a grown box must end above SCREEN_H - BOTTOM_MARGIN
 
 
 def measure(rec, font):
@@ -351,9 +353,12 @@ def fit_boxes(scene, k, fit):
     for iw, ih, (x, y, w, h, _, _), func in calls:
         need_w, need_h = fitted(w, h, px, ph)
         scrolls = ''
-        if 8 <= x <= 15 and need_h > h and measure(scene.orig_records[k], scene.font)[1] > h:
-            # next to an actor, where a taller box may leave the screen: the English scrolled
-            # this box too, so keep its height and let it scroll the same way
+        actor = 8 <= x <= 15
+        if need_h > h and (actor or y + need_h > SCREEN_H - BOTTOM_MARGIN) \
+                and measure(scene.orig_records[k], scene.font)[1] > h:
+            # next to an actor, where a taller box may leave the screen, or a box that would run
+            # past the bottom: the English scrolled this box too, so keep its height and let it
+            # scroll the same way
             need_h = h; scrolls = '; height kept: it scrolls, as the English did'
         if (need_w, need_h) == (w, h):
             notes.append(f'record {k}: {px} x {ph} px fits its box {w} x {h} ({BOX_FUNCS[func]} at word {iw + 4:#x})'

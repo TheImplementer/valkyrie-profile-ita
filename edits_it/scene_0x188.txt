@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x188 (-): 15 records, directory word 4002, package sectors 199483..199645 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Scarlet Edge.

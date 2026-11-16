@@ -1,0 +1,33 @@
+# Valkyrie Profile scene 0x2f6 (-): 23 records, directory word 4368, package sectors 243725..243898 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai ottenuto <14:05> punti esp. evento.
+@@ 15
+<5>Hai trovato Holy Grail.
+@@ 16
+<5>Hai trovato Faim Fenn.
+@@ 17
+<5>Hai trovato Tiara of the Holy Empress.
+@@ 18
+Valkyrie
+「Un'arpia,
+la megera volante, eh?<page>
+Muori, bestia!<3:32>!<3:ff>
+Abominio! Sei un insulto
+per ogni uccello naturale!!
+@@ 19
+Come sale su
+una ferita aperta.
+@@ 20
+Ha reagito all'odore
+indebolendosi.
+@@ 21
+Ha reagito all'odore
+indebolendosi.<page>
+Sembra che si indebolirà ancora
+di più se uso dell'acido.
+・Usa acido forte
+・Non usare acido forte
+@@ 22
+Non c'è più
+acido forte.

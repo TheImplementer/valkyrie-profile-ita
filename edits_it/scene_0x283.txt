@@ -1,0 +1,9 @@
+# Valkyrie Profile scene 0x283 (-): 16 records, directory word 4253, package sectors 227907..227998 of VALKYRIE.BIN
+
+@@ 14
+Statua di donna.
+C'è scritto qualcosa.<page>
+<5>"La via si apre"
+<5>"davanti al Guardiano."
+@@ 15
+<5>Hai trovato Shield Critical.

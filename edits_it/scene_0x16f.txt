@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x16f (-): 17 records, directory word 3977, package sectors 196188..196359 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Savory.
+@@ 15
+<5>Hai trovato Sap Power.
+@@ 16
+<5>Hai trovato Quartz Gem.

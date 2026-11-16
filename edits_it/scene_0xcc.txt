@@ -1,0 +1,60 @@
+# Valkyrie Profile scene 0xcc (-): 28 records, directory word 3814, package sectors 177849..178001 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Bewitching Statue.
+@@ 15
+<5>Hai trovato Fairy Bottle.
+@@ 16
+Fanatico
+「La Vergine della Battaglia, Valkyrie!?
+Siete venuta per me<3:32>?<3:ff>
+Io che ho giurato fedeltà
+al sommo Odino?
+@@ 17
+Valkyrie
+「Non cercare di prenderti gioco di me<3:32>,<3:ff>
+profanatore di anime.
+@@ 18
+Fanatico
+「Io non profano le anime!<page>
+Ho ucciso delle persone e le ho sepolte
+nei muri perché era la volontà<3:1e><3:ff>
+del sommo Odino!
+Dunque<3:28>, <3:ff>mandatemi ad Asgard!
+@@ 19
+Valkyrie
+「Mortale folle<3:0c>・・・<3:32><3:ff>
+Credi davvero che il Signore degli Dei
+desiderasse una cosa simile!!
+@@ 20
+Fanatico
+「Ma・・・<3:28>!<3:ff>
+questo messaggero degli dei<3:0c>・・・<3:ff>
+@@ 21
+Valkyrie
+「"Messaggero degli Dei"・・・?
+Intendi quel demone?
+@@ 22
+Fanatico
+「Demone, dite<3:32>?<3:ff>
+Che cosa intendete<7:0a>-<7:01>?!
+@@ 23
+Valkyrie
+「Sei stato ingannato.
+@@ 24
+Fanatico
+「M<3:1e>, <3:ff>ma io<3:0c>・・・<3:ff>
+@@ 25
+Demone
+「<3:0c>・・・<3:ff>Hmph<3:28>,<3:ff>
+Era uno strumento utile<3:0c>・・・<3:ff>
+Che peccato sprecarlo così<3:0c>・・・<3:ff>
+@@ 26
+Demone
+「Pazienza<3:32>.<3:ff>
+Ne troverò un altro non appena
+avrò sconfitto te, Vergine della Battaglia.
+@@ 27
+Valkyrie
+「Vattene!<3:28>!<3:ff>
+Profanatore di anime!!

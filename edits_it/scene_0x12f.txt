@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x12f (-): 16 records, directory word 3913, package sectors 189441..189600 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Frigid Damsel.
+@@ 15
+<5>Hai trovato Nightshade.

@@ -1,0 +1,18 @@
+# Valkyrie Profile scene 0x370 (Private House): 18 records, directory word 4490, package sectors 264561..264762 of VALKYRIE.BIN
+
+@@ 14
+<5>Casa privata
+@@ 15
+<19:ffff>Giovane
+「Massacrati tutti<3:0c>・・・<3:32> <3:ff>
+Gli dei non sono altro che demoni!!
+@@ 16
+<19:ffff>Giovane
+「Non ho mai visto niente di simile<3:3c>.<3:ff>
+Quell'uomo ha abbattuto da solo
+decine di soldati<3:0c>・・・<3:ff>
+@@ 17
+<19:ffff>Vecchio servitore
+「Hanno portato via il Re,
+e nessuno sa dove sia la Regina<3:0c>・・・<3:ff>
+Che ne sarà mai di questa città<3:0c>・・・<3:ff>

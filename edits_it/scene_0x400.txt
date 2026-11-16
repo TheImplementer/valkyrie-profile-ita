@@ -1,0 +1,29 @@
+# Valkyrie Profile scene 0x400 (-): 25 records, directory word 4634, package sectors 281729..281856 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Tri-Emblem.
+@@ 15
+<5>Hai scoperto Book of Riddles 1.
+@@ 16
+<5>Hai scoperto Book of Riddles 2.
+@@ 17
+<5>Hai scoperto Book of Riddles 3.
+@@ 18
+<5>Hai scoperto Book of Riddles 4.
+@@ 19
+<5>Hai scoperto Book of Riddles 5.
+@@ 20
+<5>Hai scoperto Book of Riddles 6.
+@@ 21
+<5>Hai scoperto Book of Riddles 7.
+@@ 22
+<5>Hai scoperto Book of Riddles 8.
+@@ 23
+<5>Hai scoperto Angel Slayer.
+@@ 24
+Iseria Queen
+「È vero che la persona
+che ha sconfitto Gabriel Celeste
+è venuta qui<3:0c>・・・<3:ff>?
+Va bene, va bene<3:1e>.<3:ff>
+Lasciate che sia io ad affrontarla!!

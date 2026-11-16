@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0xb7 (Black Dream Tower): 15 records, directory word 3793, package sectors 174480..174706 of VALKYRIE.BIN
+
+@@ 14
+<5>Torre del Sogno Nero

@@ -1,0 +1,11 @@
+# Valkyrie Profile scene 0x2c6 (-): 16 records, directory word 4320, package sectors 236399..236497 of VALKYRIE.BIN
+
+@@ 14
+<6:570d><19:ffff>Elfo
+「Questa è la Fonte Polare.<page>
+Col passare del Tempo l'acqua si rinnova,
+col passare del Tempo la fonte si secca.
+È un luogo di mistero.
+@@ 15
+<6:570d><19:ffff>Elfo
+「Ora la fonte è asciutta.

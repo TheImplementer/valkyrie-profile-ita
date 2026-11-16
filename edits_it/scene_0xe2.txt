@@ -1,0 +1,27 @@
+# Valkyrie Profile scene 0xe2 (-): 22 records, directory word 3836, package sectors 180566..180724 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Emerald Necklace.
+@@ 15
+<5>Hai trovato Crown of Felmar.
+@@ 16
+<5>Hai trovato Secret of Damascus.
+@@ 17
+Valkyrie
+「Miserabile<3:0c>・・・<3:32><3:ff>
+Osi turbare il sonno dei defunti!!
+@@ 18
+Drow Shaman
+「Ah ah ah!<3:3c>!<3:ff>
+Che spasso!
+Pare che il nostro comportamento
+non ti piaccia<3:0c>・・・<3:ff>
+Forse dovresti lasciare il tuo lavoro
+di dea e fare la custode di tombe!!
+@@ 19
+Valkyrie
+「Taci, verme!!
+@@ 20
+<5>Hai trovato Magic Pow.
+@@ 21
+<5>Hai trovato Frigid Damsel.

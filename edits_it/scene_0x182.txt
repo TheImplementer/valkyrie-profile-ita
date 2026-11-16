@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x182 (-): 15 records, directory word 3996, package sectors 198595..198754 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Flare Crystal.

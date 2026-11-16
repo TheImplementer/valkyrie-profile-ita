@@ -1,0 +1,21 @@
+# Valkyrie Profile scene 0x80 (-): 20 records, directory word 3738, package sectors 168909..168942 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Freya
+「Diamo un'occhiata al contenuto di quella borsa<3:28>.<3:ff>
+Potrebbe esserci qualcosa
+di utilizzabile all'interno.
+@@ 15
+<3:00><5>Apri il forziere・・・
+<5>Davanti al forziere, tasto direzionale ↓+tasto ○
+@@ 16
+<3:00><5>Apri il forziere・・・
+<5>Davanti al forziere, tasto direzionale ↓+tasto ✕
+@@ 17
+<3:00><5>Apri il forziere・・・
+<5>Davanti al forziere, tasto direzionale ↓+tasto △
+@@ 18
+<3:00><5>Apri il forziere・・・
+<5>Davanti al forziere, tasto direzionale ↓+tasto □
+@@ 19
+<5>Hai trovato Eye of Heaven.

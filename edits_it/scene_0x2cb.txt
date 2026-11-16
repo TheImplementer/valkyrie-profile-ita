@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x2cb (-): 15 records, directory word 4325, package sectors 237149..237324 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Mystic Cross.

@@ -1,0 +1,18 @@
+# Valkyrie Profile scene 0x7f (-): 20 records, directory word 3737, package sectors 168826..168908 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Freya
+「Lenneth<3:1e>,<3:ff> credo che qui
+potrai usare quella chiave<3:1e>.<3:ff>
+Dai un'occhiata a quelle sbarre di ferro.
+@@ 15
+<3:00><5>Esamina, Parla・・・pulsante ○
+@@ 16
+<3:00><5>Esamina, Parla・・・pulsante ✕
+@@ 17
+<3:00><5>Esamina, Parla・・・pulsante △
+@@ 18
+<3:00><5>Esamina, Parla・・・pulsante □
+@@ 19
+Le sbarre di ferro sono
+ben serrate.

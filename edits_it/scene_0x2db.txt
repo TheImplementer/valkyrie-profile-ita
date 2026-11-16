@@ -1,0 +1,13 @@
+# Valkyrie Profile scene 0x2db (-): 16 records, directory word 4341, package sectors 239516..239704 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato "Golden Candlestick".
+@@ 15
+<6:570d><19:ffff>Elfo
+「Questa zona è la dimora
+degli uomini scimmia.<page>
+Sono bestie
+poco intelligenti,
+ma molto potenti.
+Anche loro ci hanno causato
+non pochi guai.

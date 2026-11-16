@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x3dc (-): 15 records, directory word 4598, package sectors 277545..277700 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Lightning Bolt.

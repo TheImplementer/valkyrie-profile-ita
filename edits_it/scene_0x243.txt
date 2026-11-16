@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x243 (-): 15 records, directory word 4189, package sectors 219437..219525 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Lapis Lazuli.

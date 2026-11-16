@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x278 (-): 16 records, directory word 4242, package sectors 226359..226593 of VALKYRIE.BIN
+
+@@ 14
+La porta è ben chiusa.
+@@ 15
+<5>Porta

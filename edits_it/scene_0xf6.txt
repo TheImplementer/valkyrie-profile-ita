@@ -1,0 +1,22 @@
+# Valkyrie Profile scene 0xf6 (-): 17 records, directory word 3856, package sectors 182999..183098 of VALKYRIE.BIN
+
+@@ 14
+Valkyrie
+「Mi sembri il<3:0c>・・・<3:ff>
+mago di Flenceburg.
+Sei venuto a risigillare la paratoia?
+Eh<3:0c>...<3:28>?<3:ff>
+Questo è lo strumento per risigillarla.
+<3:0c>・・・<3:ff>Al resto penso io.
+@@ 15
+Mago
+「Presto,
+risigillate la paratoia, presto!
+Il sigillo sta per rompersi.
+Non c'è un attimo da perdere<3:1e>.<3:ff>
+Se non si fa nulla,
+l'intera costa verrà inquinata.
+@@ 16
+Mago
+「Il sigillo è stato ripristinato.
+Ho fatto del mio meglio<7:0b>-<7:01>

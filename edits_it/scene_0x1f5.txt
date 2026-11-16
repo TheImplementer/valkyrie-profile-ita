@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x1f5 (-): 16 records, directory word 4111, package sectors 212060..212096 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Fire Storm.
+@@ 15
+<5>Hai trovato Lapis Lazuli.

@@ -1,0 +1,10 @@
+# Valkyrie Profile scene 0x296 (-): 18 records, directory word 4272, package sectors 230060..230230 of VALKYRIE.BIN
+
+@@ 14
+È rivolta a destra.
+@@ 15
+È rivolta a sinistra.
+@@ 16
+È rivolta verso il fondo.
+@@ 17
+È rivolta verso il davanti.

@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x1a4 (-): 15 records, directory word 4030, package sectors 202789..202834 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Mental Reaction.

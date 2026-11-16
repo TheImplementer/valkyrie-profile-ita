@@ -1,0 +1,20 @@
+# Valkyrie Profile scene 0x2ed (-): 19 records, directory word 4359, package sectors 242511..242644 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Slanting Rain.
+@@ 15
+Come sale su
+una ferita aperta.
+@@ 16
+Ha reagito all'odore
+indebolendosi.
+@@ 17
+Ha reagito all'odore
+indebolendosi.<page>
+Sembra che si indebolirà ancora
+di più se uso dell'acido.
+・Usa acido forte
+・Non usare acido forte
+@@ 18
+Non c'è più
+acido forte.

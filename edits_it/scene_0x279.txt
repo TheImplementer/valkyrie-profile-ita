@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x279 (-): 15 records, directory word 4243, package sectors 226594..226786 of VALKYRIE.BIN
+
+@@ 14
+Statua di uomo.<page>
+Non si può spingere,
+ma si può girare.

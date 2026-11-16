@@ -1,0 +1,38 @@
+# Valkyrie Profile scene 0x82 (-): 23 records, directory word 3740, package sectors 169083..169200 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai scoperto Jewelled Blade "Grimrist".
+@@ 15
+<5>Hai scoperto Sealed Box.
+@@ 16
+Valkyrie
+「<3:0c>・・・<3:ff>Eccoli!!
+@@ 17
+Vampiro anziano
+「Perché mi disturbate?
+@@ 18
+Valkyrie
+「È mio compito dare la caccia
+a quelle creature che si avventano
+sui vivi.<page>
+Abominio!<3:28>!<3:ff>
+Non hai posto in questo mondo!
+@@ 19
+Vampiro anziano
+「"Dare la caccia", dite<3:28>?<3:ff>
+<3:0c>・・・<3:ff>Mi divertite.
+Molto bene<3:28>.<3:ff><page>
+Vediamo se avete una forza
+all'altezza delle
+vostre spacconate.
+@@ 20
+Freya
+「Non parteciperò alla battaglia<3:3c>.<3:ff>
+Lenneth<3:28>,<3:ff> fammi vedere il tuo potere.
+@@ 21
+Freya
+「Usa questa spada<3:32>.<3:ff>
+Ti permetterà di eseguire
+un Attacco Combo Triplo.
+@@ 22
+<5>Hai preso in prestito Reiter Pallasch.

@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x3a9 (-): 15 records, directory word 4547, package sectors 270567..270658 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Triple Distress.

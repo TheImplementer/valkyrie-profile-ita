@@ -1,0 +1,10 @@
+# Valkyrie Profile scene 0x8d (-): 18 records, directory word 3751, package sectors 170482..170611 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Nightshade.
+@@ 15
+<5>Hai trovato Quartz Gem.
+@@ 16
+<5>Hai trovato Savory.
+@@ 17
+<5>Hai trovato Angel Curio.

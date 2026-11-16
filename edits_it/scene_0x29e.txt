@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x29e (-): 15 records, directory word 4280, package sectors 231047..231126 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Eye of Heaven.

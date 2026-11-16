@@ -1,0 +1,34 @@
+# Valkyrie Profile scene 0x458 (-): 24 records, directory word 4722, package sectors 290375..290433 of VALKYRIE.BIN
+
+@@ 14
+<18><3:0a>Dunque<3:2c> <3:04>la Ruota del Tempo
+è andata avanti.<12:270c><17:7800>
+@@ 15
+<18><3:03>Odino è caduto<3:1e>,<3:03> e Valkyrie è
+diventata la Signora della Creazione<3:44>.<3:04>
+La Terra Promessa è nata.<12:280c><17:b400>
+@@ 16
+<18><3:04>Il mondo rinasce ancora una volta<3:2c>,<3:04>
+e tutti i Frutti della Creazione
+sono maturi di nuova vita.<12:290c><17:b400>
+@@ 17
+<18><3:03>E così<3:23>,<3:04> le forze del Caos
+che governano <3:08>tutto<3:18> <3:04>sono di nuovo
+in movimento.<12:2a0c><17:b400>
+@@ 18
+<18><3:06>Eh eh eh eh eh.<12:2b0c><17:7800>
+@@ 19
+<18><3:03>Tengo una metà
+della Signora della Creazione
+nel <3:04>palmo della mia mano.<12:2c0c><17:7800>
+@@ 20
+<18><3:03>Ma la Signora di Nifleheim<3:18>,<3:03> Hel<3:19>,<3:04>
+non resterà in silenzio.<12:2d0c><17:7800>
+@@ 21
+<18><3:03>E quell'uomo di Midgard<3:28>...<3:05>
+Mi preoccupa.<12:2e0c><17:7800>
+@@ 22
+<18><3:03>Molto bene<3:14>,
+<3:03>andiamo<3:2c> <3:04>nell'oscuro<3:06> abisso.<12:2f0c><17:7800>
+@@ 23
+<18><3:06>Eh<3:18>,<3:03> Silmeria?<17:7800>

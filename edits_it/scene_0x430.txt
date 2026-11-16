@@ -1,0 +1,24 @@
+# Valkyrie Profile scene 0x430 (-): 17 records, directory word 4682, package sectors 286569..286608 of VALKYRIE.BIN
+
+@@ 14
+<19:ffff>Freya
+「Innanzitutto<3:0c>...<3:32><3:ff>
+chiedo scusa a chi pensava
+che mi sarei unita a te.
+Non posso; era già deciso
+fin dall'inizio.<page>
+<3:0c>・・・<3:ff>Comunque<3:28>.<3:ff>
+Lenneth<3:1e>,<3:ff> voglio
+che tu mi mostri le tue capacità.
+@@ 15
+<19:ffff>Freya
+「Perché non c'è motivo
+di seguire qualcuno più debole
+di sé!!
+@@ 16
+<19:ffff>Freya
+「Hai superato da tempo
+la mia stessa forza.
+Bene<3:28>,<3:ff> ci servirà quella forza<3:28>.<3:ff>
+È tanto che non combattiamo fianco a fianco<3:28>.<3:ff>
+Ah<3:1e>.<3:ff> Mi fa rimpiangere i vecchi tempi.

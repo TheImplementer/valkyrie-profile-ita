@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x153 (-): 17 records, directory word 3949, package sectors 193611..193707 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Ether Scepter.
+@@ 15
+<5>Hai trovato Timer Ring.
+@@ 16
+<5>Hai trovato Creation Gem.

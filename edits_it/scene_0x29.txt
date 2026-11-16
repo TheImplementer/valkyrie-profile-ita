@@ -1,0 +1,65 @@
+# Valkyrie Profile scene 0x29 (Private Residence | Graveyard): 30 records, directory word 3651, package sectors 159907..160098 of VALKYRIE.BIN
+
+@@ 14
+<19:0000>Celia
+「È terribile<3:0c>...<3:ff>
+@@ 15
+<19:0100>Kashell
+「Non è per niente
+come aveva detto Ward!
+Questa è... una tragedia.
+@@ 16
+<19:0000>Celia
+「Un basilisco<3:14>?<3:ff> Una cocatrice<3:14>?<3:ff>
+O... una gorgone<3:0c>?<3:ff>
+Mi sembra un po' troppo grosso
+per una qualunque di quelle bestie...
+@@ 17
+<19:0100>Kashell
+「<3:0c>...<3:ff>Sono state pietrificate solo le persone<3:1e>,<3:ff>
+nient'altro. E non ce n'è una sola
+che non sia stata ridotta in frantumi.
+È la prova che chiunque l'abbia fatto
+non era una semplice bestia...
+aveva un cervello!
+@@ 18
+<19:0000>Celia
+「Medusa<3:0c>...<3:ff>!
+@@ 19
+<19:0100>Kashell
+「Probabilmente.
+@@ 20
+<19:0000>Celia
+「Brutta storia<3:0c>...<3:ff>
+@@ 21
+<19:0100>Kashell
+「Comunque,
+cerchiamo dei sopravvissuti.
+@@ 22
+<19:0000>Celia
+「D'accordo.
+@@ 23
+<19:0100>Kashell
+「Quel bastardo ha sempre detto che
+chiunque sia ancora vivo
+vale mille Oath!<17:a000>
+@@ 24
+<5>Casa privata
+@@ 25
+<5>Cimitero
+@@ 26
+<6:9f0d><19:ffff>Anziana
+「Se solo avessimo potuto
+vivere in pace e tranquillità.
+@@ 27
+<6:970d><19:ffff>Uomo
+「Questo villaggio è stato
+rovinato dalla guerra.
+Eppure, fino a oggi,
+non ci siamo mai arresi.
+@@ 28
+<6:a00d><19:ffff>Donna
+「<3:0c>・・・<3:ff>Avete visto una bambina
+di circa 10 anni?
+@@ 29
+<5>Villaggio di Camille

@@ -1,0 +1,37 @@
+# Valkyrie Profile scene 0x447 (Seraphic Gate): 20 records, directory word 4705, package sectors 288785..288827 of VALKYRIE.BIN
+
+@@ 14
+Tornare alla schermata del titolo?
+・Sì
+・No
+@@ 15
+Va bene non salvare?
+・Sì
+・No
+@@ 16
+<5><4:02>▼<4:00>Attenzione!!<4:02>▼<4:00>
+<5>Se usi qui il punto di salvataggio
+<5>per sovrascrivere il salvataggio, non potrai
+<5>tornare allo scenario del gioco principale.
+@@ 17
+<5>Benvenuto nelle caverne della Porta Serafica
+<5>dove vivono gli dei dell'altro mondo!!
+<5>Possono accedervi solo coloro che hanno
+<5>ottenuto 8 sfere nel gioco principale.
+<5>Questa è la tua ultima prova, e affronterai
+<5>i nemici più spietati.
+<5>Quanto bene hai addestrato i tuoi personaggi?
+<5>Saranno all'altezza di questa prova?
+<5>Prego che combattano con coraggio.
+@@ 18
+<5><4:02>▼<4:00>Attenzione!!<4:02>▼<4:00>
+<5>Se usi questo punto di salvataggio per
+<5>sovrascrivere il salvataggio, non potrai
+<5>tornare allo scenario del gioco principale.<page>
+<5>Avvertenza.
+<5>Questo dungeon non ha alcun legame
+<5>con il gioco principale, quindi se pensi
+<5>che possa rovinarti il divertimento,
+<5>ti consigliamo di non giocarci.
+@@ 19
+<5>Porta Serafica

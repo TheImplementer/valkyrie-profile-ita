@@ -1,0 +1,71 @@
+# Valkyrie Profile scene 0x2f3 (-): 26 records, directory word 4365, package sectors 243377..243458 of VALKYRIE.BIN
+
+@@ 14
+C'è un
+Diario di ricerca.
+@@ 15
+Quale pagina
+vuoi leggere?
+<3:00>・Pagina 1
+・Pagina 2
+・Pagina 3
+・Pagina 4
+・Pagina 5
+・Pagina 6
+・Non leggere.
+@@ 16
+Pagina 1
+「Oggi ho finito di lavorare
+alla mia pianta che reagisce
+a certi odori particolari.
+Reagisce contraendosi
+quando percepisce un certo odore.
+Finalmente i lunghi anni di ricerca
+hanno dato i loro frutti.
+@@ 17
+Non riesci a leggere niente
+di ciò che è scritto
+a pagina 2.
+@@ 18
+Pagina 3
+「Sembra che le piante dai fiori blu
+reagiscano agli odori gradevoli,
+come quello del profumo.
+@@ 19
+Pagina 4
+「Oggi ho provato vari odori.
+Mescolandoli,
+ne ho ottenuto uno che non so descrivere.
+Chissà se esiste una pianta
+che reagisca a questo odore?
+Sarà divertente sperimentare.
+@@ 20
+Pagina 5
+「C'era una pianta che
+reagiva ai cattivi odori, simili
+a quello dell'acqua marcia.
+@@ 21
+Pagina 6
+「I risultati dei test mostrano che
+dopo essere state spruzzate di acido forte
+le piante non tornano
+alla forma originale
+per un certo periodo di tempo.
+Domani proseguirò
+le mie ricerche in merito.
+@@ 22
+Come sale su
+una ferita aperta.
+@@ 23
+Ha reagito all'odore
+indebolendosi.
+@@ 24
+Ha reagito all'odore
+indebolendosi.<page>
+Sembra che si indebolirà ancora
+di più se uso dell'acido.
+・Usa acido forte
+・Non usare acido forte
+@@ 25
+Non c'è più
+acido forte.

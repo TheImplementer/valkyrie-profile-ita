@@ -1,0 +1,28 @@
+# Valkyrie Profile scene 0x4d (Flenceburg): 19 records, directory word 3687, package sectors 163433..163561 of VALKYRIE.BIN
+
+@@ 14
+<6:980d><19:0100>Uomo
+「Secondo la leggenda, esiste
+una bacchetta che accresce
+i poteri magici.
+Se l'avessi io, chissà se riuscirei
+anch'io a lanciare incantesimi.
+@@ 15
+<6:a10d><19:0000>Donna
+「Mica può trasformare uno "0"
+in "100", no?
+@@ 16
+<6:a20d><19:0100>Allievo
+「Un ex allievo, e uno che tutti
+chiamavano un genio<3:0c>・・・<3:ff>
+Chissà che cosa avrà fatto
+per essere cacciato
+dall'accademia.
+@@ 17
+<6:980d><19:0000>Allievo
+「Mmh,
+beh, per me non è difficile da credere.
+La preside è una donna
+molto severa.
+@@ 18
+<5>Flenceburg

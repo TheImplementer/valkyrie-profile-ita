@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x169 (-): 17 records, directory word 3971, package sectors 195516..195554 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Darkness Arrow.
+@@ 15
+<5>Hai trovato Estoc.
+@@ 16
+<5>Hai trovato Vegetable Seed.

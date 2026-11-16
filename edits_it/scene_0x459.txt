@@ -1,0 +1,59 @@
+# Valkyrie Profile scene 0x459 (-): 34 records, directory word 4723, package sectors 290434..290508 of VALKYRIE.BIN
+
+@@ 14
+<18><3:03>Se non avessi sacrificato<3:03> la Pietra Filosofale,
+<3:04>sarei<3:04> stato<3:04> consumato<3:04> nella<3:05> Fiamma<3:04> Finale
+della Sfera.<12:1b0c><17:b400>
+@@ 15
+<18><3:04>Ho pagato un prezzo alto<3:2b>,<3:04>
+ma la vita può costare davvero cara.<12:1c0c><17:7800>
+@@ 16
+<18><3:05>Ma,<3:04>
+è stato<3:06> davvero<3:04> interessante!<12:1d0c><17:7800>
+@@ 17
+<18><3:04>La trasformazione<3:05> di Valkyrie<3:04>
+<3:03>mi<3:04> ha<3:03> insegnato<3:04> tutto.<12:1e0c><17:7800>
+@@ 18
+<18><3:04>Ora ho la sicurezza<3:04> di <3:04>realizzare
+<3:04>i<3:04> miei<3:04> più grandi<3:04> sogni e ambizioni!<12:1f0c><17:b400>
+@@ 19
+<18><3:04>Sì!<12:200c><17:3c00>
+@@ 20
+<18><3:06>La mia<3:03> è l'unica
+<3:05>anima non<3:04> controllata
+<3:05>da<3:04> Valkyrie!<12:210c><17:7800>
+@@ 21
+<18><3:04>Ah!<12:220c><17:3c00>
+@@ 22
+<18><3:04>Anche se, <3:06>lei<3:04> ha catturato
+<3:07>la mia<3:04> anima<3:06> in un <3:03>altro modo.<12:230c><17:7800>
+@@ 23
+<18><3:05>Ah ah ah ah <3:04>hi hi hi hi!!<12:240c><17:3c00>
+@@ 24
+<18><3:04>Il potere supremo<3:0a> 
+<3:05>sarà mio!
+Lo giuro!<12:250c><17:7800>
+@@ 25
+<18><3:04>Con le mie stesse mani,
+lo<3:03> farò<3:08> mio<3:03>!!<17:7800>
+@@ 26
+<5><3:0a>Quando le porte ben sigillate del cuore
+<5>sono toccate da tristezza e dolore dell'uomo,
+<5>a volte scricchiolano e gemono
+<5>in segno di protesta.<17:9001>
+@@ 27
+<5><3:0a>Sei dal lato interno di quella porta,<17:0401>
+@@ 28
+<5><3:0a>o<17:6400>
+@@ 29
+<5><3:0a>dal lato esterno?<17:f000>
+@@ 30
+<5><3:0a>Vorrei<17:6400>
+@@ 31
+<5><3:0a>che una guida del Fato
+<5>venisse un giorno
+<5>ad aprire la porta.<17:2c01>
+@@ 32
+<5><3:0a>Niente<17:6400>
+@@ 33
+<5><3:0a>è ancora finito.<17:f000>

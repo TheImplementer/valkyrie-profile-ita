@@ -1,0 +1,13 @@
+# Valkyrie Profile scene 0x272 (-): 16 records, directory word 4236, package sectors 225764..225809 of VALKYRIE.BIN
+
+@@ 14
+<5>"XVI"
+<5>"LA TORRE"<page>
+<5>"Un cristallo che contiene"
+<5>"il potere delle stelle."
+<5>"Trascende il potere dello spazio"
+<5>"e apre una via verso un nuovo luogo."
+@@ 15
+<3:08>・・・<3:ff>C'è qualcosa dietro
+il quadro.<page>
+Hai trovato Full Moon Stone.

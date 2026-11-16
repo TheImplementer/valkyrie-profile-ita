@@ -1,0 +1,6 @@
+# Valkyrie Profile scene 0x193 (-): 16 records, directory word 4013, package sectors 200737..200905 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Vegetable Seed.
+@@ 15
+<5>Hai trovato Noble Elixir.

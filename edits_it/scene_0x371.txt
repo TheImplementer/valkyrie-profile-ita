@@ -1,0 +1,81 @@
+# Valkyrie Profile scene 0x371 (Square | Private House): 32 records, directory word 4491, package sectors 264763..264936 of VALKYRIE.BIN
+
+@@ 14
+<5>Piazza
+@@ 15
+<5>Casa privata
+@@ 16
+Valkyrie
+「Cos'è<3:28>?<3:ff>
+Tutta questa zona<3:0c>...<3:ff><page>
+Gli edifici distrutti<3:0c>...<3:ff>
+Sono stati ripristinati.
+Ma come?
+@@ 17
+Valkyrie
+「Segni di presenza umana!
+@@ 18
+Voce di donna
+「Nessuna pietà
+per chi resiste.
+@@ 19
+Voce d'uomo
+「Sì!
+@@ 20
+Spadaccina dall'elmo piumato
+「Che ne è stato di Barbarossa?
+@@ 21
+Maga
+「Sembra che Arngrim
+abbia ultimato i preparativi
+per l'esecuzione pubblica.
+@@ 22
+Giovane arciere
+「Sì, ma ancora non sappiamo
+dove si trovino
+i tre maghi.
+@@ 23
+Maga
+「Ho saputo che il
+castello ha una stanza nascosta.
+@@ 24
+Spadaccina dall'elmo piumato
+「Lascia perdere.<page>
+Per il momento abbiamo bloccato
+il Re e il meccanismo<3:3c>.<3:ff>
+Non possono fare nulla.
+@@ 25
+Spadaccina dall'elmo piumato
+「Andate avanti.
+@@ 26
+Maga
+「Sì.
+@@ 27
+Spadaccina dall'elmo piumato
+「Quest'ondata di potere<3:1e>,<3:ff>
+Lenneth<3:0c>...<3:ff>?
+@@ 28
+Spadaccina dall'elmo piumato
+「Non può essere<3:0c>・・・<3:32> <3:ff>
+Sarà solo la mia immaginazione.
+@@ 29
+Valkyrie
+「Quella era<3:28><3:ff> Hrist<3:0c>・・・<3:32> <3:ff>
+Questo posto<3:1e>, <3:ff>non può essere<3:0c>・・・<3:ff>
+Il Mondo del Passato?<page>
+La Macchina del Tempo
+mi ha mandata nel passato?
+@@ 30
+<19:ffff>Giovane donna
+「La Regina<3:0c>・・・<3:ff><page>
+La nostra cara, amata Regina<3:0c>・・・<3:ff>
+Forse perduta per sempre.
+Non voglio nemmeno pensarci<3:0c>・・・<3:ff>
+@@ 31
+<19:ffff>Anziano
+「Quella Vergine della Battaglia
+in armatura nera<3:0c>・・・<3:ff>
+I suoi occhi erano così crudeli<3:0c>・・・<3:ff><page>
+Le budella degli uomini si scioglievano
+al primo sguardo in quegli occhi.
+Non lo dimenticherò mai<3:0c>・・・<3:ff>

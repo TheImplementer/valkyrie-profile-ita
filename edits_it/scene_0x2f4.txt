@@ -1,0 +1,20 @@
+# Valkyrie Profile scene 0x2f4 (-): 19 records, directory word 4366, package sectors 243459..243548 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Element Scepter.
+@@ 15
+Come sale su
+una ferita aperta.
+@@ 16
+Ha reagito all'odore
+indebolendosi.
+@@ 17
+Ha reagito all'odore
+indebolendosi.<page>
+Sembra che si indebolirà ancora
+di più se uso dell'acido.
+・Usa acido forte
+・Non usare acido forte
+@@ 18
+Non c'è più
+acido forte.

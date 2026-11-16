@@ -1,0 +1,8 @@
+# Valkyrie Profile scene 0x203 (-): 15 records, directory word 4125, package sectors 213386..213479 of VALKYRIE.BIN
+
+@@ 14
+È una specie di
+pannello di controllo.<page>
+Vuoi azionarlo?
+・Sì
+・No

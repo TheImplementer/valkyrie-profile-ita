@@ -1,0 +1,17 @@
+# Valkyrie Profile scene 0x427 (-): 18 records, directory word 4673, package sectors 285619..285752 of VALKYRIE.BIN
+
+@@ 14
+Credo che si possa usare
+la Flame Jewel.<page>
+Vuoi usare la Flame Jewel?
+・Sì
+・No
+@@ 15
+La porta è ben chiusa.
+@@ 16
+La porta è ben chiusa.<page>
+Sembra che l'interruttore sul
+pavimento alle tue spalle
+possa aprirla.
+@@ 17
+<5>Hai trovato Icicle Edge.

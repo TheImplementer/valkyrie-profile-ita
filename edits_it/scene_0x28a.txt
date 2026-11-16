@@ -1,0 +1,15 @@
+# Valkyrie Profile scene 0x28a (-): 19 records, directory word 4260, package sectors 228684..228869 of VALKYRIE.BIN
+
+@@ 14
+Statua di donna.
+C'è scritto qualcosa.<page>
+<5>"Occorre il sonno,"
+<5>"quando il Guardiano si stanca."
+@@ 15
+Hai trovato Blood-Red Stone.
+@@ 16
+<3:08>・・・<3:ff>Sembra stanco.
+@@ 17
+<5>Hai trovato Might Reinforce.
+@@ 18
+<5>Hai trovato Spell Reinforce.

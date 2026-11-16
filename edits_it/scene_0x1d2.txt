@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x1d2 (-): 15 records, directory word 4076, package sectors 208109..208248 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Reflect Sorcery.

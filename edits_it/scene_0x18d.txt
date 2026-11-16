@@ -1,0 +1,7 @@
+# Valkyrie Profile scene 0x18d (Jotunheim Palace): 16 records, directory word 4007, package sectors 200194..200311 of VALKYRIE.BIN
+
+@@ 14
+L'ultima battaglia...
+e non si torna indietro
+@@ 15
+<5>Palazzo di Jotunheim

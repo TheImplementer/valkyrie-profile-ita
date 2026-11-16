@@ -1,0 +1,26 @@
+# Valkyrie Profile scene 0x246 (-): 20 records, directory word 4192, package sectors 219728..219861 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Phoenix Feather.
+@@ 15
+<5>Hai trovato Extreme Guard.
+@@ 16
+Valkyrie
+「Le bestie selvatiche sono state
+contagiate dal male e sono diventate
+feroci. Non ho scelta.
+@@ 17
+Valkyrie
+「Gli hanno succhiato
+il sangue dal corpo.
+Questo è opera di un non morto.
+@@ 18
+Valkyrie
+「Sento una forza potente qui vicino<3:32>.<3:ff>
+Dunque è questo a causare
+tutta questa neve.
+@@ 19
+Valkyrie
+「Ecco cosa succede quando creature
+mortali si immischiano con forze
+al di là della loro comprensione<7:0b>-<7:01>

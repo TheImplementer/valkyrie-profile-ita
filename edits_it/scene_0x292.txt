@@ -1,0 +1,25 @@
+# Valkyrie Profile scene 0x292 (-): 24 records, directory word 4268, package sectors 229582..229645 of VALKYRIE.BIN
+
+@@ 14
+Statua di donna.
+Una pietra sembra poter entrare
+nella cornice. C'è un foro.
+@@ 15
+<3:00>Quale pietra vuoi inserire?
+@@ 16
+・Eclipse Stone
+@@ 17
+・Darkspot Stone
+@@ 18
+・Darkpath Stone
+@@ 19
+・Blood-Red Stone
+@@ 20
+・Full Moon Stone
+@@ 21
+・Crescent Moon Stone
+@@ 22
+・New Moon Stone
+@@ 23
+Non hai nessuna pietra
+adatta.

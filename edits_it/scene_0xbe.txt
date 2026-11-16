@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0xbe (-): 15 records, directory word 3800, package sectors 175717..175852 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Warhammer.

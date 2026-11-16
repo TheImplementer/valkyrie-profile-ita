@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x44d (-): 15 records, directory word 4711, package sectors 289262..289386 of VALKYRIE.BIN
+
+@@ 14
+<5>Hai trovato Fire Lance.

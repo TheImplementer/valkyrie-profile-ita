@@ -1,0 +1,4 @@
+# Valkyrie Profile scene 0x3ca (Dark Tower of Xervah): 15 records, directory word 4580, package sectors 274745..274861 of VALKYRIE.BIN
+
+@@ 14
+<5>Torre Oscura di Xervah

@@ -1,0 +1,29 @@
+# Valkyrie Profile scene 0x2ec (-): 21 records, directory word 4358, package sectors 242336..242510 of VALKYRIE.BIN
+
+@@ 14
+Il cadavere di una donna.<page>
+Hai trovato del profumo.
+・Usa
+・Non usare
+@@ 15
+<3:0c>..<3:3c>.<3:ff>Ha un odore
+che non so descrivere.
+@@ 16
+Hai già addosso
+il profumo.
+@@ 17
+Come sale su
+una ferita aperta.
+@@ 18
+Ha reagito all'odore
+indebolendosi.
+@@ 19
+Ha reagito all'odore
+indebolendosi.<page>
+Sembra che si indebolirà ancora
+di più se uso dell'acido.
+・Usa acido forte
+・Non usare acido forte
+@@ 20
+Non c'è più
+acido forte.

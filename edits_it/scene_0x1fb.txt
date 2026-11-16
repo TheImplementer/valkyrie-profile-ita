@@ -1,0 +1,23 @@
+# Valkyrie Profile scene 0x1fb (Arianrod Labyrinth): 20 records, directory word 4117, package sectors 212677..212769 of VALKYRIE.BIN
+
+@@ 14
+<5>Uscita
+@@ 15
+<19:ffff>Valkyrie
+「Questo è<3:0c>・・・<3:ff>
+Un dispositivo di trasferimento?
+@@ 16
+<19:ffff>Valkyrie
+「Questi numeri sembrano indicare
+la destinazione del trasferimento<3:1e>.<3:ff>
+Quella sfera pare il pannello di controllo<3:0c>...<3:ff>
+@@ 17
+<5>Labirinto di Arianrod
+@@ 18
+<5>Hai trovato Eye of Heaven.
+@@ 19
+È una specie di
+pannello di controllo.<page>
+Vuoi azionarlo?
+・Sì
+・No
