@@ -1154,6 +1154,8 @@ mismatch an error instead.
 
 ## The message box: how a line is laid out and drawn
 
+`docs/MESSAGE_BOX.md` explains the message box from the start, with counts over every box call.
+
 I traced this to make the GUI's preview match the game. Each point was checked against TinyPSX
 screenshots.
 
