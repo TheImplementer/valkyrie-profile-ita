@@ -1,4 +1,4 @@
 # Valkyrie Profile scene 0xe7 (-): 15 records, directory word 3841, package sectors 181166..181304 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Attack Pow.
+<5>Hai trovato Attacco.

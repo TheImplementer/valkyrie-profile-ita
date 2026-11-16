@@ -5,4 +5,4 @@
 @@ 15
 <5>Hai trovato Belladonna.
 @@ 16
-<5>Hai trovato Combo Counter.
+<5>Hai trovato Contrattacco Combo.

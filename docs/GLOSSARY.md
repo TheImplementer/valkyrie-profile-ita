@@ -180,7 +180,7 @@ materials and kept every weapon name in English (Final Fantasy IX mixed the two)
 * **English:** every weapon, generic ones too (Long Sword, Short Bow, Crossbow), and the named swords,
   spears, bows and wands; Freya's and Brahms' named gear (Dragoon Faith, Ether Freeze, Eternal Shine,
   Brisingal, Ether Laser, Bloody-Knuckle, Bloody-Duster); the spell scrolls, whose names are the
-  spells'. The skill books keep their skill's name until the skills are named.
+  spells'. A skill book carries its skill's name (see Skills and abilities).
 * **Dialogue follows the menus:** "Hai trovato Long Sword." but "Hai trovato Occhio del Cielo.".
 
 | English | Italian | Note |
@@ -225,6 +225,50 @@ Help-line wording:
 | ether coating; level goes up | rivestimento d'etere; sale di livello | |
 | HP; 100,000 | HP; 100.000 | HP only in Soul Slayer's help. |
 | a mistake in the English | translated by meaning | Ice Coffin's help says "light" (copied from Radiance Sword) and Ether Mail's battle line is Ether Freeze's: the Italian describes the item. |
+
+## Skills and abilities
+
+The item rule carried over: a skill that names what it does is translated, a named technique is not.
+
+* **Italian:** the utility and stat skills, the traits, every help line and move description, and the
+  Skill and Ability screens.
+* **English:** the techniques (Adept Illusion, Dancing Sword, Last Trial, Splash, Reverie, Noise Arrow,
+  Triple Distress, Scarlet Edge, Charge, Strike Edge, Dark, Trick Step, Slanting Rain, Darkness Arrow,
+  False Arrow), every attack in the Ability menu (Bolt Slash, High Wind, Nibelung Valesti), the spells
+  and Great Magic. The mages' "Magic" entry among the battle attacks is "Magia".
+* **Skill books** carry their skill's name, so 17 of them are Italian now ("Hai trovato Grinta.").
+
+| English | Italian | Note |
+|---|---|---|
+| First Aid, Auto Item, Throw, Cure Condition, Guts | Pronto Soccorso, Auto-Oggetto, Lancio, Cura Stato, Grinta | Throwing Dagger's help: "Inutile senza la tecnica "Lancio"". |
+| Combo Counter, Counter | Contrattacco Combo, Contrattacco | |
+| Steal Magic, Stun Magic, Concentration | Ruba Magia, Magia Stordente, Concentrazione | |
+| Mental Reaction, Wait Reaction | Reazione Mentale, Reazione d'Attesa | |
+| Tactics, Hear Noise, Find Trap, Survival, Identify, Leadership | Tattica, Orecchio Fino, Trova Trappole, Sopravvivenza, Identifica, Comando | The battle table spells it "Leader Ship". |
+| Fight, Trick, March, Formation | Combattività, Astuzia, Marcia, Formazione | |
+| Attack Pow, Defend, Avoid, Hit, Resist Damage, Magic Pow, Resist Magic | Attacco, Difesa, Evasione, Precisione, Riduzione Danni, Potere Magico, Resistenza Magica | |
+| Monster / Undead / Demon Int | Conosc. Mostri / Non Morti / Demoni | |
+| Learn, Set Up, Traits; Rank, Adjust, Total, Needed, Level | Impara, Imposta, Tratti; Grado, Modifica, Totale, Costo, Liv. | "Richiesti" and "Livello" ran into the next column. |
+| A. Reaction / B. Support / C. Attack / D. Status Skill | A. Reazione / B. Supporto / C. Attacco / D. Stato | "A. Tecniche di reazione" reached the panel edge (large italic). |
+| Character's Hero Value is | Valore eroico: | On two lines; "del personaggio" ran out of the panel. |
+| Normal / Counter / Special Attack; Chant, Setup | Attacco normale / Contrattacco / Attacco speciale; Lancia, Imposta | Ability menu. |
+| Skill Level; [Skill LV x 30] | livello della tecnica; [LV tecnica x 30] | Help lines. Familiar → famiglio; Down Effect → effetto atterramento; Energy Drain → Assorbi Energia. |
+| DATA, 1Hit / 2Hits, About, Energy | DATI, 1 colpo / 2 colpi, Circa, Energia | The strip under a move's description; its {..} codes stay where they are. |
+
+**Traits** are nouns, so they fit women and men alike: Brave → Coraggio, Lucky → Fortuna, Tenacious
+→ Tenacia. A few are verb phrases: Gets lost → Si perde, Drinker / Nondrinker → Beve / Non beve, Hates
+hot → Odia il caldo. The Traits tab leaves 68 pixels before the rank column ("Avventatezza" is 68), so
+these were shortened:
+
+| English | Longer version | Used |
+|---|---|---|
+| Coolheaded | Sangue freddo (73 px, it touched the rank) | Calma |
+| Focused | Concentrazione | Attenzione |
+| Swimmer / Can't swim | Sa nuotare / Non sa nuotare | Nuota / Non nuota |
+| Likes men / Hates men / Hates girls | Ama gli uomini / Odia gli uomini / Odia le ragazze | Ama uomini / Misandria / Misoginia |
+| Loves Sis / Dad / Bro / Mom | Ama la sorella / il padre / il fratello / la madre | Ama sorella / papà / fratello / mamma, colloquial like the English |
+| Maternal; Hates kids; Hates cold | Istinto materno; Odia i bambini; Odia il freddo | Maternità; Odia i bimbi; Odia il gelo |
+| Stubborn; Romantic; Outgoing; Flashy; Egotistical | Testardaggine; Romanticismo; Estroversione; Esibizionismo; Egocentrismo | Ostinazione; Idealismo (beside Realismo); Socievolezza; Vistosità; Egotismo |
 
 ## Lines shortened to fit a fixed box
 

@@ -794,6 +794,70 @@ Anello del Sapere
 Sfera Esploratrice
 @@ 0x09d0
 Anello dei Nibelunghi
+@@ 0x09d1
+Auto-Oggetto
+@@ 0x09d2
+Lancio
+@@ 0x09d3
+Cura Stato
+@@ 0x09d4
+Grinta
+@@ 0x09d5
+Adept Illusion
+@@ 0x09d6
+Dancing Sword
+@@ 0x09d7
+Last Trial
+@@ 0x09d8
+Splash
+@@ 0x09d9
+Reverie
+@@ 0x09da
+Contrattacco Combo
+@@ 0x09db
+Noise Arrow
+@@ 0x09dc
+Triple Distress
+@@ 0x09dd
+Ruba Magia
+@@ 0x09de
+Magia Stordente
+@@ 0x09df
+Concentrazione
+@@ 0x09e0
+Scarlet Edge
+@@ 0x09e1
+Charge
+@@ 0x09e2
+Strike Edge
+@@ 0x09e3
+Dark
+@@ 0x09e4
+Trick Step
+@@ 0x09e5
+Reazione Mentale
+@@ 0x09e6
+Reazione d'Attesa
+@@ 0x09e7
+Slanting Rain
+@@ 0x09e8
+Darkness Arrow
+@@ 0x09e9
+False Arrow
+@@ 0x09ea
+Attacco
+@@ 0x09eb
+Difesa
+@@ 0x09ec
+Evasione
+@@ 0x09ed
+Precisione
+@@ 0x09ee
+Riduzione Danni
+@@ 0x09ef
+Potere Magico
+@@ 0x09f0
+Resistenza Magica
 @@ 0x09f1
 Fire Lance
 @@ 0x09f2
@@ -1003,7 +1067,7 @@ Prima di attaccare, lancia 2 pugnali magici. Precisione: 60%.
 
 Particolarmente efficace sui non morti, con alta probabilità
 
-di causare svenimento. Inutile senza la tecnica "Throw".
+di causare svenimento. Inutile senza la tecnica "Lancio".
 @@ 0x0be9
 Gioiello che aumenta del 30% la RID (riduzione danni) di base.
 @@ 0x0c01

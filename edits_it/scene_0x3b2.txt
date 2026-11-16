@@ -3,6 +3,6 @@
 @@ 14
 <5>Hai trovato Ruin's Fate.
 @@ 15
-<5>Hai trovato Concentration.
+<5>Hai trovato Concentrazione.
 @@ 16
 <5>Hai trovato Mystic Cross.

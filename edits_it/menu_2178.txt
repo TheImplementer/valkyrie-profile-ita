@@ -1,0 +1,590 @@
+# Valkyrie Profile menu text 2178 (camp menu: Ability): 232 messages, package sectors 84558..84562 of VALKYRIE.BIN
+# Edit the text under any "@@ 0x.." line (a message id); delete the entries you do not change.
+# A line break is a new line (0x80). {xx ...} are raw bytes: {81 80 07} and the like are
+# commands, {60}-{7f} and {82}-{85} extra glyphs; { and } themselves are {5c} and {5e}.
+# Printable ASCII is in the menu font; accented letters (à è é ì ò ù È ...) are drawn over
+# the { } \ ^ _ ` | @ < > glyphs, up to 10 per table. `build` also changes every other menu table
+# (and the battle item table 1806.1) that has the same id with the same original text
+# (an item name is in several), unless --no-link is given. A "# no-link" line up here
+# keeps this file's edits to this table, and they win over a linked copy.
+
+@@ 0x0093
+per impostare
+@@ 0x01d6
+per sostituire
+@@ 0x01d7
+per impostare
+@@ 0x01d8
+{81 80 07}Cambia attacco normale
+@@ 0x01d9
+{81 80 07}Menu magie
+@@ 0x01da
+Lancia
+@@ 0x01db
+Imposta
+@@ 0x01dc
+{81 80 07}Magia scelta
+@@ 0x01dd
+Cambia l'ordine d'attacco 
+@@ 0x01de
+Scegli cosa cambiare.
+@@ 0x01df
+{81 80 07}Imposta contrattacco
+@@ 0x01e0
+Scegli l'attacco per il contrattacco
+@@ 0x01e1
+{81 80 07}Magia da lanciare
+@@ 0x01e2
+Scegli la magia da lanciare.
+@@ 0x01e3
+{81 80 07}Imposta magie
+@@ 0x01e4
+Scegli la magia da impostare.
+@@ 0x119e
+Bolt Slash
+@@ 0x119f
+Fendente dall'alto.
+
+{62}DATI{63} 1 colpo{64 65 64}Energia{66}25{67}
+@@ 0x11a0
+Moment Slide
+@@ 0x11a1
+Spazzata di gamba in scivolata.
+
+{62}DATI{63} 1 colpo{64 68 64}Energia{66}15{67}
+@@ 0x11a2
+Vertical Raid
+@@ 0x11a3
+Attacco di taglio dall'alto.
+
+{62}DATI{63} 2 colpi{64 68 68 64}Energia{66}24{67}
+@@ 0x11a4
+Nibelung Valesti
+@@ 0x11a5
+Danza folle. La mossa cambia con l'arma.
+
+{62}DATI{63} 9 colpi{64 69 64}Energia{66}60{67}{81 80 01}{62}CT{66}4{67}
+@@ 0x11a8
+Critical Flare
+@@ 0x11a9
+Vampata che si apre a ventaglio in avanti.
+
+{62}DATI{63} 6 colpi{64 65 64}Energia{66}24{67}
+@@ 0x11aa
+Aerial Burst
+@@ 0x11ab
+Un'esplosione di energia dall'aria.
+
+{62}DATI{63} 3 colpi{64 6a 64}Energia{66}21{67}
+@@ 0x11ac
+Thunder Sword
+@@ 0x11ad
+Scaglia un'ondata di potere in avanti.
+
+{62}DATI{63} 5 colpi{64 65 64}Energia{66}50{67}
+@@ 0x11ae
+Ether Strike
+@@ 0x11af
+Scaglia un'onda di potere dal corpo.
+
+{62}DATI{63} 1 colpo{64 69 64}Energia{66}10{67}{81 80 01}{62}CT{66}5{67}
+@@ 0x11b2
+Spinning Back-Knuckle
+@@ 0x11b3
+Contrattacco con la manopola.
+
+{62}DATI{63} 1 colpo{64 65 64}Energia{66}15{67}
+@@ 0x11b4
+High Wind
+@@ 0x11b5
+Attacco di taglio dall'alto.
+
+{62}DATI{63} 1 colpo{64 6a 64}Energia{66}30{67}
+@@ 0x11b6
+Wrenching Swing
+@@ 0x11b7
+Un potente fendente orizzontale.
+
+{62}DATI{63} 1 colpo{64 65 64}Energia{66}25{67}
+@@ 0x11b8
+Final Blast
+@@ 0x11b9
+Una potente esplosione in avanti.
+
+{62}DATI{63} 8 colpi{64 69 64}Energia{66}80{67}{81 80 01}{62}CT{66}6{67}
+@@ 0x11c6
+Smash Axe
+@@ 0x11c7
+Un fendente orizzontale.
+
+{62}DATI{63} 1 colpo{64 65 64}Energia{66}24{67}
+@@ 0x11c8
+Prisoner Fang
+@@ 0x11c9
+Afferra il nemico con le unghie e lo tira a sé.
+
+{62}DATI{63} 1 colpo{64 6b 64}Energia{66}30{67}
+@@ 0x11ca
+Triple Thrust
+@@ 0x11cb
+3 rapide stoccate.
+
+{62}DATI{63} 3 colpi{64 65 65 68 64}Energia{66}30{67}
+@@ 0x11cc
+Justice Stream
+@@ 0x11cd
+Crea un tornado gigantesco che investe i nemici.
+
+{62}DATI{63}10 colpi{64 69 64}Energia{66}25{67}{81 80 01}{62}CT{66}2{67}
+@@ 0x11d0
+First Slash
+@@ 0x11d1
+Fendente diagonale dall'alto.
+
+{62}DATI{63} 1 colpo{64 6a 64}Energia{66}15{67}
+@@ 0x11d2
+Rising Slash
+@@ 0x11d3
+Fendente verso l'alto.
+
+{62}DATI{63} 2 colpi{64 68 68 64}Energia{66}24{67}
+@@ 0x11d4
+Piercing Crusade
+@@ 0x11d5
+Affondo perforante in avanti.
+
+{62}DATI{63} 2 colpi{64 65 68 64}Energia{66}20{67}
+@@ 0x11d6
+Extreme Void
+@@ 0x11d7
+Sigilla il nemico nel vuoto e lo colpisce con una spada.
+
+{62}DATI{63} 2 colpi{64 69 64}Energia{66}30{67}{81 80 01}{62}CT{66}3{67}
+@@ 0x11da
+First Shot
+@@ 0x11db
+Un singolo attacco al nemico.
+
+{62}DATI{63} 1 colpo{64 69 64}Energia{66}5{67}
+@@ 0x11dc
+Twin Shot
+@@ 0x11dd
+Scocca 2 frecce.
+
+{62}DATI{63} 2 colpi{64 69 64}Energia{66}10{67}
+@@ 0x11de
+Aiming Wisp
+@@ 0x11df
+Scaglia un raggio di luce.
+
+{62}DATI{63} 2 colpi{64 69 64}Energia{66}10{67}
+@@ 0x11e0
+Layer Storm
+@@ 0x11e1
+Scocca frecce all'impazzata.
+
+{62}DATI{63} Circa 7 colpi{64 69 64}Energia{66}35{67}{81 80 01}{62}CT{66}2{67}
+@@ 0x11e4
+Low Swing
+@@ 0x11e5
+Fendente dal basso.
+
+{62}DATI{63} 1 colpo{64 68 64}Energia{66}10{67}
+@@ 0x11e6
+Beast Tackle
+@@ 0x11e7
+Colpo di corpo seguito da un fendente.
+
+{62}DATI{63} 2 colpi{64 65 6a 64}Energia{66}30{67}
+@@ 0x11e8
+Air Pressure
+@@ 0x11e9
+Attacco di spada che sfrutta una forza verso il basso.
+
+{62}DATI{63} 1 colpo{64 6a 64}Energia{66}15{67}
+@@ 0x11ea
+Flashing Blade
+@@ 0x11eb
+Attacco di taglio esplosivo.
+
+{62}DATI{63} 3 colpi{64 69 64}Energia{66}69{67}{81 80 01}{62}CT{66}5{67}
+@@ 0x11ee
+Diseased Needle
+@@ 0x11ef
+Doppio attacco con effetto veleno.
+
+{62}DATI{63} 2 colpi{64 69 64}Energia{66}2{67}
+@@ 0x11f0
+Tri-Stinger
+@@ 0x11f1
+Scocca 3 frecce.
+
+{62}DATI{63} 3 colpi{64 69 64}Energia{66}3{67}
+@@ 0x11f2
+Restrain Flame
+@@ 0x11f3
+Singolo attacco infuocato.
+
+{62}DATI{63} 1 colpo{64 68 64}Energia{66}50{67}
+@@ 0x11f4
+Guilty Break
+@@ 0x11f5
+Attacco consecutivo di Restrain Flame.
+
+{62}DATI{63} 9 colpi{64 69 64}Energia{66}72{67}{81 80 01}{62}CT{66}2{67}
+@@ 0x120c
+Roundkick
+@@ 0x120d
+Attacco multiplo dall'alto.
+
+{62}DATI{63} 2 colpi{64 65 68 64}Energia{66}6{67}
+@@ 0x120e
+Sonic Edge
+@@ 0x120f
+Onda d'urto accompagnata da una lancia scagliata.
+
+{62}DATI{63} 1 colpo{64 65 64}Energia{66}15{67}
+@@ 0x1210
+Spinning Edge
+@@ 0x1211
+Affondo rotante.
+
+{62}DATI{63} 3 colpi{64 65 64}Energia{66}24{67}
+@@ 0x1212
+Dreaded Dragon
+@@ 0x1213
+Si trasforma in un drago.
+
+{62}DATI{63} 1 colpo{64 69 64}Energia{66}45{67}{81 80 01}{62}CT{66}3{67}
+@@ 0x1216
+Senko-Zan
+@@ 0x1217
+Fendente a croce.
+
+{62}DATI{63} 2 colpi{64 65 68 64}Energia{66}10{67}
+@@ 0x1218
+Koei-Zan
+@@ 0x1219
+Colpisce il nemico alle spalle.
+
+{62}DATI{63} 1 colpo{64 6b 64}Energia{66}5{67}
+@@ 0x121a
+So-Enbu
+@@ 0x121b
+Due giri su se stessi e un fendente.
+
+{62}DATI{63} 2 colpi{64 65 65 64}Energia{66}24{67}
+@@ 0x121c
+Senko-jin
+@@ 0x121d
+Attacco con fendenti multipli.
+
+{62}DATI{63} 15 colpi{64 69 64}Energia{66}30{67}{81 80 01}{62}CT{66}2{67}
+@@ 0x122a
+Flare Shot
+@@ 0x122b
+Il colpo causa un'esplosione.
+
+{62}DATI{63} 1 colpo{64 68 64}Energia{66}15{67}
+@@ 0x122c
+Fifth Way
+@@ 0x122d
+Scaglia un'esplosione a ventaglio.
+
+{62}DATI{63} Circa 5 colpi{64 69 64}Energia{66}5{67}
+@@ 0x122e
+Lunatic Shot
+@@ 0x122f
+Scaglia un colpo violento contro il nemico.
+
+{62}DATI{63} Circa 7 colpi{64 69 64}Energia{66}7{67}
+@@ 0x1230
+Sphere Strike
+@@ 0x1231
+Lancia al nemico piccoli ordigni che esplodono.
+
+{62}DATI{63} 1 colpo{64 69 64}Energia{66}30{67}{81 80 01}{62}CT{66}2{67}
+@@ 0x1234
+Razor Edge
+@@ 0x1235
+Fendente verso il basso e onda d'urto.
+
+{62}DATI{63} 1 colpo{64 65 64}Energia{66}15{67}
+@@ 0x1236
+Mortal Razor
+@@ 0x1237
+Fendente verso il basso dall'alto.
+
+{62}DATI{63} 1 colpo{64 68 64}Energia{66}25{67}
+@@ 0x1238
+Energy Cannon
+@@ 0x1239
+Affondo accompagnato da un attacco di energia.
+
+{62}DATI{63} 3 colpi{64 65 64}Energia{66}15{67}
+@@ 0x123a
+Icicle Disaster
+@@ 0x123b
+Imprigiona i nemici nel ghiaccio.
+
+{62}DATI{63} 8 colpi{64 69 64}Energia{66}58{67}{81 80 01}{62}CT{66}2{67}
+@@ 0x125c
+Gleam Charge
+@@ 0x125d
+Affondo frontale.
+
+{62}DATI{63} 1 colpo{64 65 64}Energia{66}25{67}
+@@ 0x125e
+Round Dance
+@@ 0x125f
+Fendente rotante.
+
+{62}DATI{63} 1 colpo{64 68 64}Energia{66}15{67}
+@@ 0x1260
+Hind Edge
+@@ 0x1261
+Fendente verso l'alto da dietro.
+
+{62}DATI{63} 1 colpo{64 6b 64}Energia{66}10{67}
+@@ 0x1262
+Eternal Raid
+@@ 0x1263
+Attacco di affondi consecutivi.
+
+{62}DATI{63} 7 colpi{64 65 64}Energia{66}56{67}{81 80 01}{62}CT{66}2{67}
+@@ 0x1266
+Shisen
+@@ 0x1267
+Fendente orizzontale.
+
+{62}DATI{63} 1 colpo{64 65 64}Energia{66}25{67}
+@@ 0x1268
+Hyo-Reppa
+@@ 0x1269
+Scaglia un'onda d'urto.
+
+{62}DATI{63} 1 colpo{64 65 64}Energia{66}10{67}
+@@ 0x126a
+Yasha-Uchi
+@@ 0x126b
+Aggira il nemico e lo trafigge alle spalle.
+
+{62}DATI{63} 2 colpi{64 6b 6b 64}Energia{66}16{67}
+@@ 0x126c
+Hyoso-Hojin
+@@ 0x126d
+Una lancia di ghiaccio gigante sbuca dal suolo e trafigge.
+
+{62}DATI{63} 6 colpi{64 65 64}Energia{66}48{67}{81 80 01}{62}CT{66}3{67}
+@@ 0x127a
+Air Slash
+@@ 0x127b
+Fendente verso l'alto.
+
+{62}DATI{63} 1 colpo{64 68 64}Energia{66}25{67}
+@@ 0x127c
+Slanting Blow
+@@ 0x127d
+Fendente verso l'alto.
+
+{62}DATI{63} 1 colpo{64 65 64}Energia{66}15{67}
+@@ 0x127e
+Shining Bolt
+@@ 0x127f
+Un singolo colpo di fulmine.
+
+{62}DATI{63} 12 colpi{64 68 64}Energia{66}36{67}
+@@ 0x1280
+Round Rip Saber
+@@ 0x1281
+Fendente verso l'alto, poi un colpo verso il basso.
+
+{62}DATI{63} 5 colpi{64 69 64}Energia{66}40{67}{81 80 01}{62}CT{66}3{67}
+@@ 0x128e
+Bloody Knuckle
+@@ 0x128f
+Un pugno devastante dall'alto.
+
+{62}DATI{63} 1 colpo{64 65 64}Energia{66}30{67}
+@@ 0x1290
+Deadly Raid
+@@ 0x1291
+Montante in salto.
+
+{62}DATI{63} 2 colpi{64 68 68 64}Energia{66}30{67}
+@@ 0x1292
+Immortal Blow
+@@ 0x1293
+Colpo verso il basso seguito da un colpo verso l'alto.
+
+{62}DATI{63} 3 colpi{64 65 68 68 64}Energia{66}30{67}
+@@ 0x1294
+Bloody Curse
+@@ 0x1295
+Combo di colpi multipli e onda d'urto.
+
+{62}DATI{63}17 colpi{64 69 64}Energia{66}42{67}{81 80 01}{62}CT{66}2{67}
+@@ 0x1298
+Spread Shot
+@@ 0x1299
+Un singolo attacco esplosivo.
+
+{62}DATI{63} 2 colpi{64 68 64}Energia{66}20{67}
+@@ 0x129a
+Tri-Blast
+@@ 0x129b
+Scocca frecce in 3 direzioni.
+
+{62}DATI{63} 3 colpi{64 69 64}Energia{66}9{67}
+@@ 0x129c
+Infinity Blast
+@@ 0x129d
+Scaglia un'esplosione di energia.
+
+{62}DATI{63} 4 colpi{64 69 64}Energia{66}24{67}
+@@ 0x129e
+Nibelung Valesti
+@@ 0x129f
+Attacco a frecce multiple. La mossa cambia con l'arma.
+
+{62}DATI{63} 12 colpi{64 69 64}Energia{66}85{67}{81 80 01}{62}CT{66}4{67}
+@@ 0x1770
+Fire Lance
+@@ 0x1771
+Fire Storm
+@@ 0x1772
+Icicle Edge
+@@ 0x1773
+Frigid Damsel
+@@ 0x1774
+Lightning Bolt
+@@ 0x1775
+Prismatic Missile
+@@ 0x1776
+Shadow Servant
+@@ 0x1777
+Dark Savior
+@@ 0x1778
+Poison Blow
+@@ 0x1779
+Stone Torch
+@@ 0x177a
+Mystic Cross
+@@ 0x177b
+Sacred Javelin
+@@ 0x177c
+Invoke Feather
+@@ 0x177d
+Heal
+@@ 0x177e
+Normalize
+@@ 0x177f
+Enchanted Weapon
+@@ 0x1780
+Might Reinforce
+@@ 0x1781
+Guard Reinforce
+@@ 0x1782
+Spell Reinforce
+@@ 0x1783
+Sap Power
+@@ 0x1784
+Sap Guard
+@@ 0x1785
+Dampen Magic
+@@ 0x1786
+Reflect Sorcery
+@@ 0x1787
+Shield Critical
+@@ 0x1838
+Incantesimo che lancia un dardo di fiamme
+
+ardenti sul nemico.
+@@ 0x1839
+Incantesimo che crea un'esplosione di fuoco
+
+che scaglia i nemici in aria.
+@@ 0x183a
+Ghiaccioli affilati come rasoi piombano sul nemico.
+
+Ogni ghiacciolo ha 1 probabilità su 8 di congelarlo.
+@@ 0x183b
+Evoca uno Spirito di Ghiaccio che attacca il nemico.
+
+Ogni colpo ha 1 probabilità su 8 di congelarlo.
+@@ 0x183c
+Incantesimo che lancia un fulmine sfrigolante sul nemico.
+@@ 0x183d
+Questo incantesimo crea una luce che danneggia
+
+e causa vari stati alterati.
+@@ 0x183e
+Incantesimo che evoca una creatura dell'oscurità
+
+che combatte per te.
+@@ 0x183f
+Questo incantesimo fa materializzare una spada enorme
+
+che colpisce i nemici.
+@@ 0x1840
+Crea una nube di veleno che toglie al nemico il 10%
+
+della sua forza vitale a ogni turno.
+@@ 0x1841
+Incantesimo che può trasformare il nemico in pietra.
+@@ 0x1842
+Croci sacre si materializzano e sono scagliate sul nemico.
+@@ 0x1843
+Crea una lancia che arde di fiamma sacra
+
+e si abbatte sui nemici.
+@@ 0x1844
+Rianima i personaggi privi di sensi (DME=0).
+
+I personaggi rianimati tornano con l'80% dei DME massimi.
+@@ 0x1845
+Incantesimo che ripristina i DME di un alleato.
+
+Ripristina l'80% dei DME massimi dell'alleato.
+@@ 0x1846
+Incantesimo che cura gli stati di veleno, paralisi, pietra,
+
+gelo e silenzio.
+@@ 0x1848
+Incantesimo che moltiplica per 1,5 l'ATT di un alleato.
+
+Si può lanciare una sola volta per battaglia. Dura 10 turni.
+@@ 0x1849
+Incantesimo che moltiplica per 1,5 la RID di un alleato.
+
+Si può lanciare una sola volta per battaglia. Dura 10 turni.
+@@ 0x184a
+Incantesimo che moltiplica per 1,5 i danni magici
+
+di un alleato.
+
+Si può lanciare una sola volta per battaglia. Dura 10 turni.
+@@ 0x184b
+Incantesimo che riduce l'ATT del nemico. La riduzione
+
+dipende dalla resistenza del nemico. Dura 5 turni.
+@@ 0x184c
+Incantesimo che riduce la RID del nemico. La riduzione
+
+dipende dalla resistenza del nemico. Dura 5 turni.
+@@ 0x184d
+Incantesimo che sigilla la magia del nemico. La probabilità
+
+di successo dipende dalla resistenza del nemico.
+
+Dura 5 turni.
+@@ 0x184e
+Incantesimo che fa rimbalzare gli incantesimi del nemico
+
+contro di lui. Dura 3 turni.
+@@ 0x184f
+Incantesimo che sigilla l'attacco speciale del nemico.
+
+La probabilità di successo dipende dalla resistenza
+
+del nemico. Dura 3 turni.

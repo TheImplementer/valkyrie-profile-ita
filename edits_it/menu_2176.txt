@@ -1,0 +1,620 @@
+# Valkyrie Profile menu text 2176 (camp menu: Skill): 1506 messages, package sectors 84526..84548 of VALKYRIE.BIN
+# Edit the text under any "@@ 0x.." line (a message id); delete the entries you do not change.
+# A line break is a new line (0x80). {xx ...} are raw bytes: {81 80 07} and the like are
+# commands, {60}-{7f} and {82}-{85} extra glyphs; { and } themselves are {5c} and {5e}.
+# Printable ASCII is in the menu font; accented letters (à è é ì ò ù È ...) are drawn over
+# the { } \ ^ _ ` | @ < > glyphs, up to 10 per table. `build` also changes every other menu table
+# (and the battle item table 1806.1) that has the same id with the same original text
+# (an item name is in several), unless --no-link is given. A "# no-link" line up here
+# keeps this file's edits to this table, and they win over a linked copy.
+
+@@ 0x0020
+Impara
+@@ 0x0021
+Imposta
+@@ 0x0022
+Tratti
+@@ 0x0023
+{81 80 07}Capacità
+@@ 0x0024
+{81 80 07}Nome tecnica
+@@ 0x0025
+{81 80 07}CP
+@@ 0x0026
+{81 80 07}Grado
+@@ 0x0027
+{81 80 07}Modifica
+@@ 0x0028
+{81 80 07}Totale
+@@ 0x0029
+{81 80 07}Costo
+@@ 0x002a
+{81 80 07}Liv.
+@@ 0x002b
+{81 80 07}Valore
+
+eroico:
+@@ 0x002d
+{81 80 07}Tratti
+@@ 0x002e
+Capacità insufficiente.
+@@ 0x002f
+Aumentare il livello?
+@@ 0x0030
+{81 80 07}Livello attuale
+@@ 0x0031
+Il livello non può salire oltre.
+@@ 0x0033
+Tratto positivo: il grado salirà.
+
+Aumentare il grado?
+@@ 0x0034
+Tratto negativo: il grado scenderà.
+
+Diminuire il grado?
+@@ 0x0035
+Il grado non può salire oltre.
+@@ 0x0036
+Il grado non può scendere oltre.
+@@ 0x0038
+I vampiri non hanno tratti umani.
+@@ 0x0039
+Gli dei non hanno tratti umani.
+@@ 0x003a
+LV
+@@ 0x003b
+{81 80 07}A
+@@ 0x003c
+{81 80 07}B
+@@ 0x003d
+{81 80 07}C
+@@ 0x003e
+{81 80 07}D
+@@ 0x003f
+per Auto-Oggetto
+
+Imposta priorità
+@@ 0x01f4
+Max
+@@ 0x01f5
+{81 80 07}Priorità Auto-Oggetto
+@@ 0x01f6
+{81 80 07}Punti priorità
+@@ 0x01f7
+{81 80 07}Priorità
+@@ 0x01f8
+di 10 in 10
+@@ 0x01f9
+per impostare
+@@ 0x01fa
+per confermare
+@@ 0x01fb
+{81 80 04}A. Reazione
+@@ 0x01fc
+{81 80 04}B. Supporto
+@@ 0x01fd
+{81 80 04}C. Attacco
+@@ 0x01fe
+{81 80 04}D. Stato
+@@ 0x01ff
+{81 80 07}Imposta tecniche
+@@ 0x0200
+Imposta
+@@ 0x0201
+Togli
+@@ 0x0202
+{81 80 07}Impostazioni tecniche
+@@ 0x0203
+{81 80 07}Togli tecnica
+@@ 0x0204
+per annullare
+@@ 0x0400
+Pronto Soccorso
+@@ 0x0401
+Auto-Oggetto
+@@ 0x0402
+Lancio
+@@ 0x0403
+Cura Stato
+@@ 0x0404
+Grinta
+@@ 0x0405
+Adept Illusion
+@@ 0x0406
+Dancing Sword
+@@ 0x0407
+Last Trial
+@@ 0x0408
+Splash
+@@ 0x0409
+Reverie
+@@ 0x040a
+Contrattacco Combo
+@@ 0x040b
+Noise Arrow
+@@ 0x040c
+Triple Distress
+@@ 0x040d
+Ruba Magia
+@@ 0x040e
+Magia Stordente
+@@ 0x040f
+Concentrazione
+@@ 0x0410
+Scarlet Edge
+@@ 0x0411
+Charge
+@@ 0x0412
+Strike Edge
+@@ 0x0413
+Dark
+@@ 0x0414
+Trick Step
+@@ 0x0415
+Reazione Mentale
+@@ 0x0416
+Reazione d'Attesa
+@@ 0x0417
+Slanting Rain
+@@ 0x0418
+Darkness Arrow
+@@ 0x0419
+False Arrow
+@@ 0x041a
+Tattica
+@@ 0x041b
+Orecchio Fino
+@@ 0x041c
+Trova Trappole
+@@ 0x041d
+Sopravvivenza
+@@ 0x041e
+Identifica
+@@ 0x041f
+Comando
+@@ 0x0420
+Combattività
+@@ 0x0421
+Astuzia
+@@ 0x0422
+Marcia
+@@ 0x0423
+Formazione
+@@ 0x0424
+Attacco
+@@ 0x0425
+Difesa
+@@ 0x0426
+Evasione
+@@ 0x0427
+Precisione
+@@ 0x0428
+Riduzione Danni
+@@ 0x0429
+Potere Magico
+@@ 0x042a
+Resistenza Magica
+@@ 0x042b
+Conosc. Mostri
+@@ 0x042c
+Conosc. Non Morti
+@@ 0x042d
+Conosc. Demoni
+@@ 0x042e
+Contrattacco
+@@ 0x044c
+15% di probabilità di ripristinare i DME quando si è feriti.
+
+La quantità ripristinata dipende dal livello della tecnica.
+
+Non può curare chi la usa.
+@@ 0x044d
+Usa gli oggetti automaticamente in base alla situazione.
+
+Imposta la priorità di ogni oggetto nel menu Imposta tecniche.
+
+In realtà vengono divisi [LV tecnica x 40%].
+@@ 0x044e
+Permette di scagliare una lama magica contro il nemico.
+
+La precisione è solo discreta, quindi non conviene fidarsi troppo.
+@@ 0x044f
+Cura gli stati alterati: più è alto il livello, più ne cura.
+
+[LV1=Veleno/3=Gelo/4=Paralisi/5=Silenzio/
+
+6=Maledizione/8=Pietra]
+@@ 0x0450
+Anche dopo una ferita mortale, i DME restano a un certo livello.
+
+La probabilità aumenta con il livello della tecnica.
+@@ 0x0451
+Permette di creare un'illusione per evitare gli attacchi.
+
+La probabilità aumenta con il livello della tecnica.
+@@ 0x0452
+Se il personaggio evita o para un attacco, 2 spade si
+
+materializzano in aria e contrattaccano.
+
+La probabilità aumenta con il livello della tecnica.
+@@ 0x0453
+Quando viene abbattuto, il personaggio maledice il nemico.
+
+La probabilità aumenta con il livello della tecnica.
+@@ 0x0454
+Permette un attacco extra con un'onda d'urto.
+
+L'onda d'urto segue la direzione dell'attacco, ma non
+
+contribuisce al numero di colpi.
+@@ 0x0455
+Il doppio del personaggio aggiunge un attacco al nemico.
+
+Se attaccato può scomparire, ma combatte di nuovo dalla
+
+battaglia dopo. Il suo attacco conta nel numero di colpi.
+@@ 0x0456
+Dopo un contrattacco si può ripetere l'attacco normale.
+
+Tuttavia l'ordine degli attacchi normali ripetuti è fisso.
+@@ 0x0457
+Impedisce al nemico di lanciare magie.
+
+La probabilità di successo aumenta con il livello della tecnica.
+@@ 0x0458
+Riduce la capacità di evasione, difesa e contrattacco del nemico.
+
+La probabilità di successo aumenta con il livello della tecnica.
+@@ 0x0459
+Permette di usare Assorbi Energia. I DME dei nemici sconfitti
+
+con la magia si sommano ai propri. La probabilità di successo
+
+dipende dalla potenza del nemico e dal livello della tecnica.
+@@ 0x045a
+Aggiunge la capacità di far svenire con un attacco magico.
+
+La probabilità di svenimento aumenta con il livello della tecnica.
+@@ 0x045b
+Ogni volta che si esegue un attacco speciale magico,
+
+scambia DME per ridurre i CT a 2.
+
+I DME necessari cambiano con il livello della tecnica.
+@@ 0x045c
+Aggiunge l'effetto atterramento all'attacco normale.
+
+Premere ripetutamente il tasto per eseguirla.
+
+Usa il 5% dei DME massimi del personaggio.
+@@ 0x045d
+Scaglia un'esplosione che causa danni pari a 1,5 x l'ATT.
+
+Premere ripetutamente il tasto per eseguirla.
+
+Usa il 5% dei DME massimi del personaggio.
+@@ 0x045e
+50% di probabilità di causare svenimento.
+
+Premere ripetutamente il tasto per eseguirla.
+
+Usa il 5% dei DME massimi del personaggio.
+@@ 0x045f
+Permette di attaccare alle spalle. Riduce del 50% la probabilità
+
+di guardia perfetta del nemico. Per eseguirla, premere il tasto
+
+direzionale a sinistra prima dell'attacco.
+@@ 0x0460
+Un passo indietro appena prima di attaccare induce il nemico
+
+a contrattaccare e a mancare. Premere il tasto direzionale a
+
+sinistra prima dell'attacco. L'effetto cresce con i contrattacchi.
+@@ 0x0461
+Il personaggio scambia DME per ripristinare i turni di carica.
+
+Per ripristinarli, premere il tasto del personaggio. I DME
+
+necessari dipendono dai DME massimi e dal livello della tecnica.
+@@ 0x0462
+Il personaggio può attaccare con il famiglio anche durante
+
+i turni di carica. Si esegue premendo il tasto del personaggio.
+
+La potenza d'attacco del famiglio dipende dal livello della tecnica.
+@@ 0x0463
+Attacca tutti i nemici con una raffica di frecce.
+
+Tuttavia gli attacchi combinati non sono più utilizzabili.
+
+Per eseguirla, premere il tasto e poi sinistra sul tasto direzionale.
+@@ 0x0464
+Attacca tutti i nemici con frecce che riducono la % di evasione.
+
+Tuttavia gli attacchi combinati non sono più utilizzabili.
+
+Per eseguirla, premere il tasto e poi sinistra sul tasto direzionale.
+@@ 0x0465
+Scocca 3 frecce per far alzare di proposito la guardia al nemico.
+
+Per eseguirla, premere il tasto e poi sinistra sul
+
+tasto direzionale.
+@@ 0x0466
+Conoscenza dell'arte della guerra.
+
+Aumenta l'INT di [LV tecnica x 1].
+@@ 0x0467
+Percezione affinata.
+
+Aumenta l'AGI di [LV tecnica x 1].
+@@ 0x0468
+Capacità di individuare le trappole.
+@@ 0x0469
+Capacità di sopravvivenza.
+
+Aumenta i DME massimi di [LV tecnica x 200].
+@@ 0x046a
+Capacità di valutare gli oggetti.
+@@ 0x046b
+Capacità di comando.
+@@ 0x046c
+Spirito combattivo.
+
+Aumenta FOR, INT, AGI e DES di [LV tecnica x 2].
+@@ 0x046d
+Conoscenza delle strategie.
+
+Aumenta l'INT di [LV tecnica x 2].
+@@ 0x046e
+Conoscenza di marce e ordini.
+
+Aumenta l'INT di [LV tecnica x 1].
+@@ 0x046f
+Conoscenza delle formazioni militari.
+
+Aumenta l'INT di [LV tecnica x 1].
+@@ 0x0470
+Abilità negli attacchi.
+
+Aumenta la FOR di [LV tecnica x 30].
+@@ 0x0471
+Abilità in difesa.
+
+Aumenta la RID di [LV tecnica x 10].
+@@ 0x0472
+Abilità nell'evasione.
+
+Aumenta l'AGI di [LV tecnica x 3].
+@@ 0x0473
+Abilità nella precisione.
+
+Aumenta la DES di [LV tecnica x 3].
+@@ 0x0474
+Abilità nella riduzione dei danni.
+
+Aumenta la RID di [LV tecnica x 20].
+@@ 0x0475
+Abilità negli attacchi magici.
+
+Aumenta l'INT di [LV tecnica x 30].
+@@ 0x0476
+Abilità nella resistenza magica.
+
+Aumenta la RES di [LV tecnica x 5].
+@@ 0x0477
+Conoscenza dei mostri.
+@@ 0x0478
+Conoscenza dei non morti.
+@@ 0x0479
+Conoscenza dei demoni.
+@@ 0x047a
+Abilità nei contrattacchi.
+
+Premere il tasto durante l'evasione per contrattaccare.
+@@ 0x0514
+Coraggio
+@@ 0x0515
+Codardia
+@@ 0x0516
+Fortuna
+@@ 0x0517
+Sfortuna
+@@ 0x0518
+Precisione
+@@ 0x0519
+Sbadataggine
+@@ 0x051a
+Saggezza
+@@ 0x051b
+Emotività
+@@ 0x051c
+Moralismo
+@@ 0x051d
+Sregolatezza
+@@ 0x051e
+Tenacia
+@@ 0x051f
+Indecisione
+@@ 0x0520
+Abnegazione
+@@ 0x0521
+Egotismo
+@@ 0x0522
+Generosità
+@@ 0x0523
+Egoismo
+@@ 0x0524
+Eloquenza
+@@ 0x0525
+Impaccio
+@@ 0x0526
+Altruismo
+@@ 0x0527
+Cupidigia
+@@ 0x0528
+Attenzione
+@@ 0x0529
+Distrazione
+@@ 0x052a
+Ama uomini
+@@ 0x052b
+Misandria
+@@ 0x052c
+Socievolezza
+@@ 0x052d
+Introversione
+@@ 0x052e
+Perspicacia
+@@ 0x052f
+Ottusità
+@@ 0x0530
+Nuota
+@@ 0x0531
+Non nuota
+@@ 0x0532
+Agilità
+@@ 0x0533
+Lentezza
+@@ 0x0534
+Salute
+@@ 0x0535
+Gracilità
+@@ 0x0536
+Bellezza
+@@ 0x0537
+Bruttezza
+@@ 0x0538
+Narcisismo
+@@ 0x0539
+Empatia
+@@ 0x053a
+Calma
+@@ 0x053b
+Serietà
+@@ 0x053c
+Frivolezza
+@@ 0x053d
+Accortezza
+@@ 0x053e
+Insensibilità
+@@ 0x053f
+Ottimismo
+@@ 0x0540
+Apprensione
+@@ 0x0541
+Non si perde
+@@ 0x0542
+Si perde
+@@ 0x0543
+Neutralità
+@@ 0x0544
+Ostinazione
+@@ 0x0545
+Prudenza
+@@ 0x0546
+Avventatezza
+@@ 0x0547
+Orgoglio
+@@ 0x0548
+Civetteria
+@@ 0x0549
+Eleganza
+@@ 0x054a
+Volgarità
+@@ 0x054b
+Idealismo
+@@ 0x054c
+Realismo
+@@ 0x054d
+Lussuria
+@@ 0x054e
+Misoginia
+@@ 0x054f
+Vistosità
+@@ 0x0550
+Riservatezza
+@@ 0x0551
+Buon udito
+@@ 0x0552
+Udito scarso
+@@ 0x0553
+Beve
+@@ 0x0554
+Non beve
+@@ 0x0555
+Odia il caldo
+@@ 0x0556
+Odia il gelo
+@@ 0x0557
+Sicurezza
+@@ 0x0558
+Timidezza
+@@ 0x0559
+Sensualità
+@@ 0x055a
+Dolcezza
+@@ 0x055b
+Disinteresse
+@@ 0x055c
+Avidità
+@@ 0x055d
+Modestia
+@@ 0x055e
+Grazia
+@@ 0x055f
+Fascino
+@@ 0x0560
+Pessimismo
+@@ 0x0561
+Temerarietà
+@@ 0x0562
+Cecità
+@@ 0x0563
+Struggimento
+@@ 0x0564
+Maternità
+@@ 0x0565
+Odia i bimbi
+@@ 0x0566
+Vigore
+@@ 0x0567
+Fragilità
+@@ 0x0568
+Timore
+@@ 0x0569
+Robustezza
+@@ 0x056a
+Devozione
+@@ 0x056b
+Snobismo
+@@ 0x056c
+Ama sorella
+@@ 0x056d
+Ama papà
+@@ 0x056e
+Ama fratello
+@@ 0x056f
+Ama mamma
+@@ 0x0570
+Superficialità
+@@ 0x0571
+Ingenuità
+@@ 0x19c8
+Condizione:
+@@ 0x19c9
+{73 74 75} meno di {76 77 78}
+@@ 0x19ca
+Veleno, Svenimento, Gelo, Paralisi
+@@ 0x19cb
+Perdita dei sensi
+@@ 0x19cc
+{73 74 75} meno di {79 77 78}
+@@ 0x19cd
+Pietrificato o maledetto
+@@ 0x19ce
+{73 74 75} di tutti meno di {7a 77 78}
+@@ 0x19cf
+2 o più con stati alterati.

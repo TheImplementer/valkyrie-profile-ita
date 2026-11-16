@@ -50,3 +50,127 @@ Rimedio Primo
 Elisir Nobile
 @@ 0x0133
 Rimedio Nobile
+@@ 0x0200
+Nibelung Valesti
+@@ 0x0201
+Ether Strike
+@@ 0x0202
+Final Blast
+@@ 0x0203
+Magia
+@@ 0x0204
+Justice Stream
+@@ 0x0205
+Extreme Void
+@@ 0x0206
+Layer Storm
+@@ 0x0207
+Flashing Blade
+@@ 0x0208
+Guilty Break
+@@ 0x0209
+Magia
+@@ 0x020a
+Magia
+@@ 0x020b
+Dreaded Dragon
+@@ 0x020c
+Senko-Jin
+@@ 0x020d
+Magia
+@@ 0x020e
+Sphere Strike
+@@ 0x020f
+Icicle Disaster
+@@ 0x0210
+Magia
+@@ 0x0211
+Magia
+@@ 0x0212
+Magia
+@@ 0x0213
+Eternal Raid
+@@ 0x0214
+Hyoso-Hojin
+@@ 0x0215
+Magia
+@@ 0x0216
+Round-Rip Saber
+@@ 0x0217
+Magia
+@@ 0x0218
+Bloody Curse
+@@ 0x0384
+Fire Lance
+@@ 0x0385
+Fire Storm
+@@ 0x0386
+Icicle Edge
+@@ 0x0387
+Frigid Damsel
+@@ 0x0388
+Lightning Bolt
+@@ 0x0389
+Prismatic Missile
+@@ 0x038a
+Shadow Servant
+@@ 0x038b
+Dark Savior
+@@ 0x038c
+Poison Blow
+@@ 0x038d
+Stone Torch
+@@ 0x038e
+Mystic Cross
+@@ 0x038f
+Sacred Javelin
+@@ 0x0390
+Invoke Feather
+@@ 0x0391
+Heal
+@@ 0x0392
+Normalize
+@@ 0x0393
+Enchanted Weapon
+@@ 0x0394
+Might Reinforce
+@@ 0x0395
+Guard Reinforce
+@@ 0x0396
+Spell Reinforce
+@@ 0x0397
+Sap Power
+@@ 0x0398
+Sap Guard
+@@ 0x0399
+Dampen Magic
+@@ 0x039a
+Reflect Sorcery
+@@ 0x039b
+Shield Critical
+@@ 0x03b6
+Calamity Blast
+@@ 0x03b7
+Ifrit Caress
+@@ 0x03b8
+Crystal Strike
+@@ 0x03b9
+Absolute Zero
+@@ 0x03ba
+Dragon Bolt
+@@ 0x03bb
+Gravity Blessing
+@@ 0x03bc
+Meteor Swarm
+@@ 0x03bd
+Cosmic Spear
+@@ 0x03be
+Petro Disruption
+@@ 0x03bf
+Carnage Anthem
+@@ 0x03c0
+Celestial Star
+@@ 0x03c1
+Seraphic Law
+@@ 0x041f
+Comando

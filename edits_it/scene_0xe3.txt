@@ -1,4 +1,4 @@
 # Valkyrie Profile scene 0xe3 (-): 15 records, directory word 3837, package sectors 180725..180861 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Avoid.
+<5>Hai trovato Evasione.

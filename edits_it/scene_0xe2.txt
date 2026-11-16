@@ -22,6 +22,6 @@ di dea e fare la custode di tombe!!
 Valkyrie
 「Taci, verme!!
 @@ 20
-<5>Hai trovato Magic Pow.
+<5>Hai trovato Potere Magico.
 @@ 21
 <5>Hai trovato Frigid Damsel.

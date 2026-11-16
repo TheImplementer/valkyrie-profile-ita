@@ -9,4 +9,4 @@
 @@ 17
 <5>Hai trovato Acquavite.
 @@ 18
-<5>Hai trovato Concentration.
+<5>Hai trovato Concentrazione.

@@ -140,19 +140,19 @@ Prima di attaccare, lancia 2 pugnali magici.
 
 Precisione: 60%.
 
-Inutile senza la tecnica "Throw".
+Inutile senza la tecnica "Lancio".
 @@ 0x0be2
 Prima di attaccare, lancia 2 pugnali magici. Precisione: 60%.
 
 Particolarmente efficace sui non morti, con alta probabilità
 
-di causare svenimento. Inutile senza la tecnica "Throw".
+di causare svenimento. Inutile senza la tecnica "Lancio".
 @@ 0x0be4
 2 pugnali magici che volano ad arco e inseguono
 
 automaticamente il nemico. Precisione: 80%.
 
-Inutile senza la tecnica "Throw".
+Inutile senza la tecnica "Lancio".
 @@ 0x0be5
 Orecchino che riduce di 1 i CT (turni di carica).
 
@@ -1388,15 +1388,15 @@ fiducia. Se viene tolto, la valutazione di Valkyrie
 
 diminuisce. Potrebbe avere altri poteri (contropartite?).
 @@ 0x0db9
-Permette ai personaggi di imparare la tecnica "Auto Item".
+Permette ai personaggi di imparare la tecnica "Auto-Oggetto".
 @@ 0x0dba
-Permette ai personaggi di imparare la tecnica "Throw".
+Permette ai personaggi di imparare la tecnica "Lancio".
 @@ 0x0dbb
 Permette ai personaggi di imparare
 
-la tecnica "Cure Condition".
+la tecnica "Cura Stato".
 @@ 0x0dbc
-Permette ai personaggi di imparare la tecnica "Guts".
+Permette ai personaggi di imparare la tecnica "Grinta".
 @@ 0x0dbd
 Permette ai personaggi di imparare la tecnica "Adept Illusion".
 @@ 0x0dbe
@@ -1412,7 +1412,7 @@ Permette ai personaggi di imparare la tecnica "Reverie".
 @@ 0x0dc2
 Permette ai personaggi di imparare
 
-la tecnica "Combo Counter".
+la tecnica "Contrattacco Combo".
 @@ 0x0dc3
 Permette ai personaggi di imparare la tecnica "Noise Arrow".
 @@ 0x0dc4
@@ -1420,11 +1420,11 @@ Permette ai personaggi di imparare
 
 la tecnica "Triple Distress".
 @@ 0x0dc5
-Permette ai personaggi di imparare la tecnica "Steal Magic".
+Permette ai personaggi di imparare la tecnica "Ruba Magia".
 @@ 0x0dc6
-Permette ai personaggi di imparare la tecnica "Stun Magic".
+Permette ai personaggi di imparare la tecnica "Magia Stordente".
 @@ 0x0dc7
-Permette ai personaggi di imparare la tecnica "Concentration".
+Permette ai personaggi di imparare la tecnica "Concentrazione".
 @@ 0x0dc8
 Permette ai personaggi di imparare la tecnica "Scarlet Edge".
 @@ 0x0dc9
@@ -1438,9 +1438,9 @@ Permette ai personaggi di imparare la tecnica "Trick Step".
 @@ 0x0dcd
 Permette ai personaggi di imparare
 
-la tecnica "Mental Reaction".
+la tecnica "Reazione Mentale".
 @@ 0x0dce
-Permette ai personaggi di imparare la tecnica "Wait Reaction".
+Permette ai personaggi di imparare la tecnica "Reazione d'Attesa".
 @@ 0x0dcf
 Permette ai personaggi di imparare la tecnica "Slanting Rain".
 @@ 0x0dd0
@@ -1450,21 +1450,21 @@ la tecnica "Darkness Arrow".
 @@ 0x0dd1
 Permette ai personaggi di imparare la tecnica "False Arrow".
 @@ 0x0dd2
-Permette ai personaggi di imparare la tecnica "Attack Pow".
+Permette ai personaggi di imparare la tecnica "Attacco".
 @@ 0x0dd3
-Permette ai personaggi di imparare la tecnica "Defend".
+Permette ai personaggi di imparare la tecnica "Difesa".
 @@ 0x0dd4
-Permette ai personaggi di imparare la tecnica "Avoid".
+Permette ai personaggi di imparare la tecnica "Evasione".
 @@ 0x0dd5
-Permette ai personaggi di imparare la tecnica "Hit".
+Permette ai personaggi di imparare la tecnica "Precisione".
 @@ 0x0dd6
 Permette ai personaggi di imparare
 
-la tecnica "Resist Damage".
+la tecnica "Riduzione Danni".
 @@ 0x0dd7
-Permette ai personaggi di imparare la tecnica "Magic Pow".
+Permette ai personaggi di imparare la tecnica "Potere Magico".
 @@ 0x0dd8
-Permette ai personaggi di imparare la tecnica "Resist Magic".
+Permette ai personaggi di imparare la tecnica "Resistenza Magica".
 @@ 0x0dd9
 Pergamena che permette di memorizzare "Fire Lance".
 @@ 0x0dda

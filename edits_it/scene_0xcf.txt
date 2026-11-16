@@ -7,6 +7,6 @@
 @@ 16
 <5>Hai trovato Gemma di Quarzo.
 @@ 17
-<5>Hai trovato Cure Condition.
+<5>Hai trovato Cura Stato.
 @@ 18
 <5>Hai trovato Flare Baselard.

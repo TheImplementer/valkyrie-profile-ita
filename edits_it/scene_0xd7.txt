@@ -5,6 +5,6 @@
 @@ 15
 <5>Hai trovato Occhio del Cielo.
 @@ 16
-<5>Hai trovato Wait Reaction.
+<5>Hai trovato Reazione d'Attesa.
 @@ 17
 <5>Hai trovato Cristallo Sacro.

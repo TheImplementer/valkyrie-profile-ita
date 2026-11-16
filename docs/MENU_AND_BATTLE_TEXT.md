@@ -234,8 +234,8 @@ hasn't been seen.
 
 The policy follows the official Italian Final Fantasy VIII: everything you use up, craft with, wear or
 carry gets an Italian name, and every weapon keeps its English name (`docs/GLOSSARY.md`, "Item
-names"). 258 names are Italian, 196 stay English, and the 32 skill books keep their skill's name
-until the skills are named. All 612 camp help lines and the battle ones are Italian.
+names"). 258 names are Italian and 196 stay English; the 32 skill books carry their skill's name,
+Italian for 17 of them (next section). All 612 camp help lines and the battle ones are Italian.
 
 ![Item names and help lines in the camp menu](notes/edit_proof/italian_item_names.png)
 
@@ -258,6 +258,32 @@ message `2000 + n` and its help line at `3000 + n`:
 * **Not used:** Use Item and Divine Item (2179, 2180) also hold a second list of short names,
   `0x1A8E` on (`Prime-Elixir`, `Silver-Sallet`, `Conversion-Gem` …). No camp program loads a message
   id near it: the code only adds item numbers to `0x7D0` and `0xBB8`. It is left in English.
+
+## Skills and abilities
+
+The same rule as for items (`docs/GLOSSARY.md`, "Skills and abilities"): skills that say what they do
+are Italian, named techniques, attacks and spells stay English.
+
+![The Skill and Ability menus in Italian](notes/edit_proof/italian_skills.png)
+
+Left to right: Arngrim's Learn tab (Pronto Soccorso), his Traits tab, Valkyrie's Set Up tab and
+Arngrim's Ability menu with the description of High Wind and its DATA strip.
+
+* **Skill names,** `0x400`-`0x42E`: in the Skill table and, by the link, in Transfer, Use Item, Status,
+  Party and battle table 1500.7. The battle copy of Leadership is spelled "Leader Ship", so
+  `battle_1500.7.txt` lists it.
+* **Skill help lines,** `0x44C`-`0x47A`, and the **traits,** `0x514`-`0x571`: only in the Skill table.
+  Battle table 1500.7 uses `0x514` on for enemy attacks, a different text, so no link reaches it.
+* **Ability table 2178:** each attack is a pair of messages, its name (even id) and a description
+  (odd id) whose second line is the DATA strip, drawn with the table's own glyphs `{62}`-`{6B}`.
+  The spell names (`0x1770` on) and help lines (`0x1838` on) are also in Use Item.
+* **Battle table 1500.7:** the characters' special attacks (`0x200`-`0x218`), the spells (`0x384`) and
+  Great Magic (`0x3B6`) are listed unchanged, so they count as done; the enemy attacks (`0x514` on)
+  wait for the monster names.
+* **Seeing a recruit's screens:** a new game has only Valkyrie, a goddess with no traits. For the
+  check above, Arngrim was put in the party by script: the roster (the pointer at `0x8007F1E4`,
+  25 records of 236 bytes, Arngrim the third) marks a member in an active slot with byte +217 = 2, and
+  the party slots are the bytes at ctx + `0x39C` (`0x801F6278`), each a roster index + 1.
 
 ## Not known yet
 

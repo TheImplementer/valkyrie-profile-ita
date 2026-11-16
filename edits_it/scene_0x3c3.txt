@@ -1,7 +1,7 @@
 # Valkyrie Profile scene 0x3c3 (-): 17 records, directory word 4573, package sectors 273791..273841 of VALKYRIE.BIN
 
 @@ 14
-<5>Hai trovato Auto Item.
+<5>Hai trovato Auto-Oggetto.
 @@ 15
 <5>Hai trovato Warhammer.
 @@ 16
