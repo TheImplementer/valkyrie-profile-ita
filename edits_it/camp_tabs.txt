@@ -1,0 +1,12 @@
+# Valkyrie Profile camp menu tabs (file 2174): the boxes above the item lists
+# Each tab is a box with a button icon and a label (a camp menu message, translated in the
+# menu edit files). The label is drawn in a large italic, about 1.8 times its width in the
+# menu font, starting at the x below. Set a box's width in pixels to fit a longer label;
+# the frame, background and shadows follow it (16 to 160).
+
+@@ 0xd5 Topic (Triangle, label at x 40)
+width 96
+# Ordina needs about 108 px. In Equipment the Sort tab starts 110 px left of the Info tab, so at
+# 111 the two tabs share one border line; any wider and they overlap.
+@@ 0x32 Sort (Start, label at x 48)
+width 111

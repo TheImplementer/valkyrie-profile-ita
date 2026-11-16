@@ -8,7 +8,7 @@
 # (an item name is in several), unless --no-link is given.
 
 @@ 0x0032
-Ord.
+Ordina
 @@ 0x0033
 {81 80 07}Ordina per
 @@ 0x0034

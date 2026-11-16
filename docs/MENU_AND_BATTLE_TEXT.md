@@ -164,12 +164,51 @@ The camp menu's Use Item screen, on the Italian disc, with eight items granted b
 `E6`). Triangle ("Topic") shows each item's help line. The item names, the headers and all eight help
 lines are Italian, and none runs out of its box.
 
-![The Info and Ord. tabs, and the Sort menu](notes/edit_proof/italian_camp_sort.png)
+![The widened Ordina tab in Use Item and Equipment, and the Sort menu](notes/edit_proof/italian_camp_sort.png)
 
-The tabs above the list are "Info" (Topic, string `0xD5`) and "Ord." (Sort, `0x32`, on Start). The tab
-draws its label in a large italic, about 1.8 times the font's width, so "Ordina" ran past the tab's
-right edge, though `build` only measures 12 pixels more than "Sort". Start opens the Sort menu,
-strings `0x33` to `0x37`.
+The tabs above the list are "Info" (Topic, string `0xD5`) and "Ordina" (Sort, `0x32`, on Start). Start
+opens the Sort menu, strings `0x33` to `0x37`. Top to bottom: Use Item, Equipment, and the Sort menu.
+
+## The camp menu's tabs
+
+A tab draws its label in a large italic, about 1.8 times the label's width in the menu font. So
+"Ordina" ran past the right edge of the Sort tab, though `build` measured it only 12 pixels wider
+than "Sort". The tab can be made wider instead.
+
+**Layout records.** The camp menu program (file 2174, one SLZ block loaded at `0x8002F824`) draws
+some of its screen from lists of 20-byte records, each list ended by a record starting with `FF`:
+
+| bytes | meaning |
+|---|---|
+| 0 | type: 2 text, 5 button icon, 7 box (then `08 00 00`) |
+| 4-7 | the text's message id, or the icon number |
+| 12-15 | x and y, relative to where the screen places the list |
+| 16-19 | width and height (a box) |
+
+Each of the two tabs is one such list:
+
+| tab | label | icon | box |
+|---|---|---|---|
+| Topic | message `0xD5` at x 40 | 8 (Triangle) at x 9 | 96 × 12 |
+| Sort | message `0x32` at x 48 | 4 (Start) at x 9 | 96 × 12 |
+
+The box function (`0x8004081C`) draws the outline, the background and both shadows from the box's
+width, so changing that one number widens the whole tab. The screen chooses where the list goes:
+Use Item puts the Sort tab at (336, 37) with an arrow at x 465, and Equipment puts it at x 42, just
+left of the Info tab at x 152.
+
+**`camp_tabs.txt`.** `vp_text_editor.py export DISC.cue --camp-tabs` writes the two widths, and
+`build` writes a changed width into file 2174 and compresses it again in place:
+
+```
+@@ 0x32 Sort (Start, label at x 48)
+width 111
+```
+
+At 111 pixels the Sort tab's right edge falls on the Info tab's left edge in Equipment, so the two
+share one border line. "Ordina" needs about 108. Any wider and the tabs overlap. Divine Item also shows a Sort tab, presumably from the same
+record, since the program has only one. It couldn't be opened this early in a test game, so it
+hasn't been seen.
 
 ## Not known yet
 

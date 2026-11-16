@@ -81,7 +81,7 @@ Seen in TinyPSX: `docs/notes/edit_proof/italian_title_screens.png`.
 | Skills / Abilities | Tecniche / Abilità | |
 | Equip / Equipment | Equipaggia / Equip. | "Equipaggiamento" was cut off in its column. |
 | Topic (camp menus, Triangle) | Info | Shows the selected item's help line. On the world map the same word is "Notizie" (news). |
-| Sort, Sort Menu | Ord., Ordina per | "Ordina" ran past its tab. The choices: Per tipo, Ordine alfabetico, Prima i più recenti, Per capitolo. |
+| Sort, Sort Menu | Ordina, Ordina per | The Sort tab is widened to 111 px for it (`camp_tabs.txt`). The choices: Per tipo, Ordine alfabetico, Prima i più recenti, Per capitolo. |
 | Text Speed | Vel. testo | "Velocità testo" touched its value. |
 | Materialize Points | Punti materia | |
 | Evaluation | Valut. | |
@@ -109,7 +109,6 @@ shortened until they fit on screen:
 | system record 11 | Tornare alla mappa del mondo? | Tornare alla mappa? (its box is 140 px) |
 | Party menu (2182) | Modifica, Schiera | Forma |
 | Use Item | Equipaggiamento | Equip. |
-| Use Item, Divine Item, Equipment (Sort tab) | Ordina | Ord. |
 | Options | Velocità testo | Vel. testo |
 | Options | the Dash help line | shortened to fit its box |
 

@@ -80,6 +80,7 @@ class Workspace:
         self.title = None                             # title-menu labels (vp_title_menu), if a file has them
         self.worldmap = {}                            # world-map text (vp_worldmap_text): built as it is
         self.system = {}                              # system messages (records 0-13 of every scene): likewise
+        self.camp_tabs = {}                           # camp menu tab widths (vp_camp_tabs): likewise
         for f in sorted(os.listdir(edits_dir)):
             if f.endswith('.txt'):
                 path = os.path.join(edits_dir, f)
@@ -89,6 +90,9 @@ class Workspace:
                         continue
                     if ed.vwm.is_edit_file(path):
                         self.worldmap.update(ed.vwm.read_edit_file(path))   # likewise
+                        continue
+                    if ed.vtabs.is_edit_file(path):
+                        self.camp_tabs.update(ed.vtabs.read_edit_file(path))  # likewise
                         continue
                     if ed.is_system_edit_file(path):
                         self.system.update(ed.read_system_edit_file(path))  # likewise
@@ -245,7 +249,7 @@ class Workspace:
             with self.lock:
                 ed.build_image(self.disc, self.arc, self.dirw, self.names, edits, output, fit, log.append,
                                table_edits=menu_edits, link=link, title=self.title,
-                               worldmap=self.worldmap, system=self.system)
+                               worldmap=self.worldmap, system=self.system, camp_tabs=self.camp_tabs)
         except (ValueError, SystemExit) as e:
             log.append(f'ERROR: {e}'); return {'ok': False, 'log': '\n'.join(log)}
         return {'ok': True, 'log': '\n'.join(log), 'output': output}

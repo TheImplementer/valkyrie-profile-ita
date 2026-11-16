@@ -5,6 +5,7 @@ Usage:
     python3 vp_text_editor.py export DISC.cue --scene 0x16 [-o scene_016.txt]
     python3 vp_text_editor.py export DISC.cue --menu 2176 [-o menu_2176.txt]
     python3 vp_text_editor.py export DISC.cue --battle 1806.1 [-o battle_1806.1.txt]
+    python3 vp_text_editor.py export DISC.cue --camp-tabs [-o camp_tabs.txt]
     python3 vp_text_editor.py menus  DISC.cue
     python3 vp_text_editor.py find   DISC.cue "How nostalgic"
     python3 vp_text_editor.py build  DISC.cue EDIT.txt [EDIT.txt ...] -o OUT.cue [--no-link]
@@ -21,6 +22,10 @@ help lines in battle, Lenneth's battle hints and boss lines) is in 4 more string
 files, with glyph numbers into their own fonts: see vp_battle_text.py. `export --battle 1806.1` and
 the like write them as edit files of the same kind; `menus` lists all 17 tables. Battle item names
 are linked with the camp-menu tables the same way.
+
+The camp menu's Topic and Sort tabs are boxes of a fixed width in the camp menu program (file 2174),
+drawn from a layout record: `export --camp-tabs` writes their widths, and `build` widens a box for a
+longer label (vp_camp_tabs.py).
 
 `export` writes a scene's text records to an editable file; change the text of any record and pass
 the file to `build`, which writes OUT.cue + OUT.bin: a copy of the image with the edited scenes
@@ -86,6 +91,7 @@ vtitle = _load('vp_title_menu')
 vmenu = _load('vp_menu_text')
 vbattle = _load('vp_battle_text')
 vwm = _load('vp_worldmap_text')
+vtabs = _load('vp_camp_tabs')
 
 SECTOR = 2048
 ARG_BYTES = vst.ARG_BYTES
@@ -588,6 +594,15 @@ def cmd_export(a):
         else:
             sys.stdout.write(out)
         return
+    if a.camp_tabs:
+        f = vtitle.TitleFile(types.SimpleNamespace(**globals()), arc, dirw, vtabs.WORD)
+        t = menu_tables(arc, dirw)[2179]
+        out = vtabs.edit_file_text(f.data, {m: re.sub(r'\{[^}]*\}', '', t.text(m)) for m in t.ids()})
+        if a.output:
+            open(a.output, 'w', encoding='utf-8').write(out); print(f'wrote {a.output}')
+        else:
+            sys.stdout.write(out)
+        return
     if a.worldmap:
         out = vwm.edit_file_text(vwm.WorldMapText(types.SimpleNamespace(**globals()), arc, dirw, names))
         if a.output:
@@ -596,7 +611,7 @@ def cmd_export(a):
             sys.stdout.write(out)
         return
     if a.scene is None:
-        raise SystemExit('export needs --scene, --menu, --battle, --worldmap, --system or --title')
+        raise SystemExit('export needs --scene, --menu, --battle, --worldmap, --system, --title or --camp-tabs')
     s = Scene(arc, dirw, a.scene, names)
     out = edit_file_text(a.scene, place_of(a.scene), {k: s.text(k) for k in range(len(s.orig_records))},
                          f': {len(s.orig_records)} records, directory word {s.word}, '
@@ -717,11 +732,14 @@ class EditFiles:
 
     def __init__(self, paths):
         self.edits = []; self.table_edits = []; self.title = None; self.worldmap = {}; self.system = {}
+        self.camp_tabs = {}
         for path in paths:
             if vtitle.is_title_edit_file(path):
                 self.title = vtitle.read_edit_file(path)
             elif vwm.is_edit_file(path):
                 self.worldmap.update(vwm.read_edit_file(path))
+            elif vtabs.is_edit_file(path):
+                self.camp_tabs.update(vtabs.read_edit_file(path))
             elif is_system_edit_file(path):
                 self.system.update(read_system_edit_file(path))
             elif vmenu.is_menu_edit_file(path):
@@ -735,7 +753,8 @@ class EditFiles:
                 self.edits.append((path, scene, recs))
 
     def build_args(self):
-        return dict(table_edits=self.table_edits, title=self.title, worldmap=self.worldmap, system=self.system)
+        return dict(table_edits=self.table_edits, title=self.title, worldmap=self.worldmap, system=self.system,
+                    camp_tabs=self.camp_tabs)
 
 
 def apply_edits(s, recs, db_get, origin=''):
@@ -847,10 +866,10 @@ def build_tables(arc, dirw, table_edits, link, patches, log=print):
 
 
 def build_image(disc, arc, dirw, names, edits, output, fit=False, log=print, table_edits=(), link=True,
-                title=None, worldmap=None, system=None):
+                title=None, worldmap=None, system=None, camp_tabs=None):
     """edits: [(origin label, scene id, {record: text})]; table_edits: [(origin label, menu or battle
     table key ('2175', '1806.1'), {message id: text})]; system: {record 0-13: text}, written into
-    every scene. Writes output (.cue + .bin)."""
+    every scene; camp_tabs: {tab label message id: box width}. Writes output (.cue + .bin)."""
     db = []
     db_get = lambda: db[0] if db else db.append(glyph_db(arc, dirw, names)) or db[0]
     patches = {}; total = 0
@@ -895,6 +914,12 @@ def build_image(disc, arc, dirw, names, edits, output, fit=False, log=print, tab
     if title:
         log('title menu (files 7 and 1):')
         for f, packed, room in vtitle.build_files(types.SimpleNamespace(**globals()), arc, dirw, title, log):
+            _patch_sectors(arc, f.first, f.end, packed, room, patches)
+    if camp_tabs:
+        log(f'camp menu tabs (file {vtabs.WORD}):')
+        done = vtabs.build_file(types.SimpleNamespace(**globals()), arc, dirw, camp_tabs, log)
+        if done:
+            f, packed, room = done
             _patch_sectors(arc, f.first, f.end, packed, room, patches)
     if not patches:
         raise ValueError('nothing to write: no record differs from the disc')
@@ -1042,6 +1067,7 @@ def main():
     p.add_argument('--title', action='store_true', help='the title-screen menu labels (pictures, re-rendered)')
     p.add_argument('--worldmap', action='store_true', help="the world map's own text (Freya's lessons, region notes)")
     p.add_argument('--system', action='store_true', help='the system messages (records 0-13, the same in every scene)')
+    p.add_argument('--camp-tabs', action='store_true', help="the camp menu's Topic and Sort tabs (box widths)")
     p.add_argument('-o', '--output')
     p = sub.add_parser('menus'); p.add_argument('disc')
     p = sub.add_parser('find'); p.add_argument('disc'); p.add_argument('text')
