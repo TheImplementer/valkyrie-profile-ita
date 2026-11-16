@@ -186,8 +186,11 @@ saw one stream end and a new one begin, and called the data "multi-stream". Ther
 
 ## Not known yet
 
-* **Who made the game's compressor:** its output is 1.5% to 1.7% bigger than an optimal parse, so
-  it doesn't parse optimally. Whether it's a known tool hasn't been checked.
+* **Which tool compressed the original data:** the game only decodes. Its streams were made once,
+  during development, by a tool that isn't on the disc. Our `vp_slz.py` makes smaller output from the
+  same data, 1.5% to 1.7% smaller, so that tool didn't find the smallest encoding. Whether it's a
+  known compressor hasn't been checked. Knowing it would only help to rebuild the original bytes
+  exactly: the game accepts any stream that decodes correctly, so the translation doesn't need it.
 * **Type 0 in the game's code:** the tools read type 0 as stored data, and the sizes agree. The
   game's handling of type 0 hasn't been traced.
 * **Copies before the start:** no stream on the disc has one, so what the game would do with one is
