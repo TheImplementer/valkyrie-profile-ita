@@ -4,9 +4,363 @@
 # <N> / <N:hex> the other commands (2 waits for a button), {xx} a raw glyph code. A character the
 # font lacks (an accented letter too) is added to it.
 
+@@ 0x0001
+Start Flag
+@@ 0x0002
+End Flag
+@@ 0x0003
+OFF
+@@ 0x0004
+ON
+@@ 0x0005
+Next event
+@@ 0x0006
+La dea Freya ti ha convocata.
+ Questo Capitolo è concluso.
+      Inizia la Fase Sacra.
 @@ 0x0007
 Premi START per avviare
 la concentrazione spirituale.
+@@ 0x0008
+Delete flag
+@@ 0x0009
+Servono almeno 2 Periodi
+per la concentrazione spirituale.
+@@ 0x000a
+Servono almeno 2 Periodi
+per entrare in un dungeon.
+@@ 0x000b
+La battaglia finale per Asgard è iniziata.
+  I tuoi compiti su Midgard sono finiti.
+           Ora dirigiti al Valhalla.
+@@ 0x0064
+Nashi.
+@@ 0x0065
+Questo villaggio isolato sui monti di Villnore
+ha pochi contatti con il mondo esterno,
+ma di recente è visitato spesso
+da mercanti di schiavi.
+@@ 0x0066
+Questo regno del continente sudoccidentale
+è sconvolto da una crisi economica.
+Il divario tra ricchi e poveri cresce, mentre
+un'ondata di profughi minaccia di peggiorare le cose.
+@@ 0x0067
+Città di mercanti nella regione di Gerabellum,
+dove prospera il commercio di schiavi.
+In città si radunano truppe per la minaccia
+di un'invasione da parte di Villnore.
+@@ 0x0068
+Legata ad Artolia, Camille è
+nel caos. Sempre coinvolta nelle guerre
+dei vicini, la sua storia racconta
+quante volte è stata calpestata.
+@@ 0x0069
+Regime militare che domina il continente a nordovest.
+Malfamata persino nella Gilda dei Ladri,
+Villnore vuole conquistare il continente con
+un'arma segreta scavata nell'estremo nord.
+@@ 0x006a
+Isola appartata al largo della costa sudoccidentale,
+Hai-Lan ha sviluppato una cultura tutta sua.
+È piena di flora e fauna insolite,
+oltre che di esseri magici meno naturali.
+@@ 0x006b
+Flenceburg è una monarchia del sudest
+che ospita l'Accademia di Stregoneria.
+I suoi maestri sono molto coinvolti nella politica,
+ed è un paradiso per chi ama la ricerca pura.
+@@ 0x006c
+Questo regno domina gran parte del continente orientale.
+I suoi cittadini, plagiati, conducono
+una presuntuosa guerra santa contro i vicini.
+
+@@ 0x006d
+Artolia è un paese piccolo e debole al centro del
+continente. Stretta tra vicini più grandi,
+la sua gente vive nella paura costante.
+È diventata un grande centro di mercenari.
+@@ 0x006e
+Le rovine di Artolia sorgono sulle colline del nord.
+Le enormi opere in pietra, erose dagli anni,
+affiorano sinistre da una fitta coltre di nebbia.
+Ora vi arde un falò e ogni notte
+si sentono urla agghiaccianti.
+@@ 0x006f
+A Crell Monferaigne nevica di rado, ma di recente
+terribili bufere l'hanno coperta di neve.
+Le tormente stanno decimando piante e animali
+della foresta, e il fetore dei loro corpi in
+decomposizione impregna questa foresta di morte.
+@@ 0x0070
+Qui risiede Brahms, signore dei non morti.
+Nessun raggio di sole illumina questo castello
+delle tenebre, che appare misteriosamente al tramonto
+e scompare ogni mattina al sorgere del sole.
+
+@@ 0x0071
+I viaggiatori giunti qui trovarono solo
+catacombe abbandonate. Posero un ankh sul
+cancello per placare gli spiriti dei morti, ma da allora
+è stato rimosso. Forse opera dei non morti...
+Di certo nelle viscere delle catacombe si celano nemici.
+@@ 0x0072
+Grotte naturali nel sottosuolo della terra di Yamato.
+Si dice che siano un santuario del male
+e una dimora di demoni.
+Un luogo dove persino gli angeli temono di entrare,
+da evitare per chi non ha un cuore saldo.
+@@ 0x0073
+Incluso nello scenario di Camille.
+@@ 0x0074
+Un orribile fetore pervade la Palude di Nethov.
+Esalazioni nocive sgorgano dal terreno e
+richiamano i non morti a nutrirsi della carne dei vivi.
+Un potere nascosto deve trovarsi lì e causare
+questo turbamento innaturale.
+@@ 0x0075
+Tempio dei cultisti di Gorhla, adoratori di demoni.
+Dal suo cuore emana una presenza sinistra.
+Sembra che abbiano evocato un grande demone
+che cerca vendetta sull'intera umanità.
+Bisogna agire in fretta.
+@@ 0x0076
+L'acqua inquinata da esperimenti magici ha scavato
+queste grotte, e le sue esalazioni hanno richiamato
+i non morti. Una paratoia fu installata per bloccare
+l'acqua, ma col tempo si è erosa e ora minaccia
+di cedere del tutto, liberando gli abomini
+che vi dimorano.
+@@ 0x0079
+Così mostruosa che lo sguardo si distoglie da solo,
+persino avvicinarsi può essere fatale.
+Questa sinistra creazione non può essere umana.
+Un essere malvagio e innaturale deve
+dimorarvi.
+@@ 0x007a
+Il primo proprietario di questa villa in stile Yamato
+fu un orologiaio che amava sperimentare sui vivi.
+Da quando fu giustiziato, la villa è rimasta a lungo
+deserta. Perché allora ogni notte si sente provenire
+dall'interno il suono sinistro di ingranaggi
+che girano?
+@@ 0x007b
+La torre di Lezard Valeth, potente alchimista e
+negromante. Le sue ricerche nelle arti oscure sono
+costate la vita a molte vittime innocenti.
+Ancora oggi dalla torre echeggiano i lamenti
+terrificanti delle cavie dei suoi esperimenti.
+@@ 0x007c
+Si dice che in queste rovine siano sigillati
+enormi cristalli magici. Eppure, dei molti che
+hanno cercato il loro potere,
+nessuno è tornato indietro con esso.
+Che quelle pietre siano solo un mito?
+@@ 0x007e
+Un tempo uno stregone di Flenceburg condusse qui
+esperimenti di magia nera sulle piante. Lo stregone
+se n'è andato da tempo e gli impianti sono in rovina,
+ma la zona è minacciata dalle piante create.
+Sembra che vi si stiano radunando forze malvage.
+@@ 0x007f
+Ciò che resta di un regno un tempo grande e prospero.
+Un senso palpabile di perdita e rimpianto pervade
+questa città, distrutta da un aggressore
+sconosciuto. Quell'energia negativa ha richiamato
+i non morti: le loro anime vanno liberate presto.
+@@ 0x0080
+Una grande fenditura nella parete di un burrone,
+aperta da un'enorme ondata di magia negativa.
+Come una porta verso un luogo strano, quasi nessuno
+sa che esista. Ma racchiude un grande potere,
+e difficilmente resterà a lungo sconosciuta.
+@@ 0x0081
+Un'isola vulcanica a sudovest di Flenceburg.
+Al centro, tra fiotti di lava rossa, sorge il celebre
+vulcano Surt, dal nome del signore di Muspelheim.
+Non si sa se le grotte che si estendono sotto
+il vulcano siano naturali o opera dell'uomo.
+@@ 0x0082
+L'unico luogo di Midgard dove esistono ancora spiriti.
+Vi abitano anche gli elfi, che si dice siano molto
+esperti nell'arte di creare oggetti magici.
+Qui si troverà di certo chi può riparare
+artefatti danneggiati o rotti.
+@@ 0x0083
+Santuario in riva a un lago della regione di Villnore.
+Il fetore di carne putrefatta pervade il santuario,
+e gli spruzzi di una vasca artificiale inzuppano
+ogni cosa intorno. Al di là della vasca è di certo
+all'opera un potente non morto.
+@@ 0x0084
+Luogo di sepoltura degli antichi re di Amenti.
+Per un patto magico stretto in vita,
+uno dei re è risorto dalla tomba come
+potente non morto. L'anima di questa povera
+creatura maledetta va liberata e lasciata riposare.
+@@ 0x0085
+La porta della torre brilla nella notte come
+una lucciola e invita ogni viandante a entrare.
+Ma il suo aspetto invitante è un'illusione crudele
+che attira gli incauti tra le braccia dei non morti
+che la abitano, perché ne divorino le anime.
+@@ 0x0086
+In questo palazzo sacro si trova uno dei 4 Gioielli che
+stabilizzano il mondo, la {3a}Sfera del Drago{3a}.
+Ma ultimamente le consuete emanazioni della {3a}Sfera{3a}
+non si avvertono più nel santuario.
+Che cosa significa?
+@@ 0x0087
+Castello della strega, sigillato dalla Vergine
+della Battaglia. Secondo la leggenda, castello e strega
+sprofondarono in fondo al mare.
+Se il castello è apparso nel cielo, può solo significare
+che la strega è tornata in questo mondo.
+@@ 0x0088
+I Gigli del Pianto punteggiano questa gola,
+ma il loro dolce profumo è veleno.
+Belli e letali: gli abitanti dei villaggi sanno
+bene di non fermarsi ad annusarli.
+@@ 0x0089
+Si dice che i gioielli e i mostri che compaiono
+nella grotta cambino a ogni visita.
+Una meraviglia naturale, sogno degli avventurieri.
+Ma qui bisogna stare in guardia: i mostri e gli
+altri esseri magici possono essere potentissimi.
+@@ 0x00c8
+Nashi
+@@ 0x00c9
+Arngrim (Artolia)
+@@ 0x00ca
+Lawfer (Artolia)
+@@ 0x00cb
+Berenus (Lassen)
+@@ 0x00cc
+Llewelynn (Crell Monferaigne)
+@@ 0x00cd
+Kashel (Camille Village)
+@@ 0x00ce
+Jeyk Linus (Crell Monferaigne)
+@@ 0x00cf
+Nanami (Yamato)
+@@ 0x00d0
+Yumeru (Yamato)
+@@ 0x00d1
+Eymi (Villnore)
+@@ 0x00d2
+Jun (Yamato)
+@@ 0x00d3
+Lyseria (Arkdain Ruins)
+@@ 0x00d4
+Badrach (Villnore)
+@@ 0x00d5
+Grey (Arkdain Ruins)
+@@ 0x00d6
+Rolenta (Flenceburg)
+@@ 0x00d7
+Mystina (Flenceburg)
+@@ 0x00d8
+Shiho (Yamato)
+@@ 0x00d9
+Jaiyle (Crell Monferaigne)
+@@ 0x00da
+Suo (Yamato)
+@@ 0x00db
+Ganossa (Palace of the Dragon)
+@@ 0x00dc
+Valkyrie (Weeping Lily Meadow)
+@@ 0x00dd
+Lucian 1 (Gerabellum)
+@@ 0x00de
+Lucian 2 (Gerabellum)
+@@ 0x00df
+Lucian 3 (Coriander)
+@@ 0x00e0
+Lucian tricked (Valhalla)
+@@ 0x00e1
+Lucian death (Valhalla)
+@@ 0x00e2
+Hrist awakens (Weeping Lily Meadow)
+@@ 0x00e3
+Hrist conquest (Castle of Brahms)
+@@ 0x00e4
+Brahms (Castle of Brahms)
+@@ 0x00e5
+Jotunheim
+@@ 0x00e6
+Loki's Castle
+@@ 0x00e7
+Cave of Oblivion 0
+@@ 0x00e8
+Cave of Oblivion 1
+@@ 0x00e9
+Cave of Oblivion 2
+@@ 0x00ea
+Cave of Oblivion 3
+@@ 0x00eb
+Cave of Oblivion 4
+@@ 0x00ec
+Cave of Oblivion 5
+@@ 0x00ed
+Cave of Oblivion 6
+@@ 0x00ee
+Cave of Oblivion 7
+@@ 0x00ef
+Cave of Oblivion 8
+@@ 0x00f0
+Cave of Oblivion 9
+@@ 0x00f1
+Artolian Mountain Ruins
+@@ 0x00f2
+Forest of Woe
+@@ 0x00f3
+Brahms Castle
+@@ 0x00f4
+Solde Catacombs
+@@ 0x00f5
+Dragoncastle Caverns
+@@ 0x00f6
+Oddrock Caves
+@@ 0x00f7
+Nethov Swamp
+@@ 0x00f8
+Gorhla Cult HQ
+@@ 0x00f9
+Cave of Thackus
+@@ 0x00fa
+Name undetermined (Puzzle)
+@@ 0x00fb
+Name undetermined (Weather)
+@@ 0x00fc
+Black Dream Tower
+@@ 0x00fd
+Clockwork Mansion
+@@ 0x00fe
+Tower of Lezard Valeth
+@@ 0x00ff
+Arkdain Ruins
+@@ 0x0100
+Anthill
+@@ 0x0101
+Salerno Academy
+@@ 0x0102
+Lost City of Dipan
+@@ 0x0103
+Arianrod Labyrinth
+@@ 0x0104
+Citadel of Flame
+@@ 0x0105
+Forest of Spirits
+@@ 0x0106
+Sunken Shrine
+@@ 0x0107
+Tombs of Amenti
+@@ 0x0108
+Dark Tower of Xervah
+@@ 0x0109
+Palace of the Dragon
+@@ 0x010a
+Celestial Castle
 @@ 0x012c
 Freya
 「Senti qualcosa?<2>
@@ -90,3 +444,22 @@ Valkyrie
 @@ 0x0155
 Freya
 「Andiamo a vedere!<2>
+@@ 0x015e
+<7:99>Freya
+「<8:40><7:9a>Che cosa significa questo?<2><page>
+<8:40><7:9b>Lenneth.
+<3:10><3:01>Se intendi sfidare il volere di Odino,
+<3:1a><3:01>sei pronta ad affrontare la sua ira?<2><page>
+<8:40>Non lo ripeterò.
+<3:1a><3:01>Il tuo compito è trovare anime degne di
+combattere nel Valhalla come guerrieri.
+<3:36><3:01>Non sprecare il tempo che ti resta!<2>
+@@ 0x0168
+Valkyrie
+「<3:02>・・・Signora Freya・・・・・・<2>
+@@ 0x0169
+Freya
+「Credo che ora tu abbia capito.<2>
+@@ 0x016a
+Valkyrie
+「<3:02>・・・・・・<2>

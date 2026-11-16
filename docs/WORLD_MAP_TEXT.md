@@ -101,13 +101,24 @@ Freya
 * **Rebuilding:** it rewrites streams 38 and 39 in their own SLZ types and rebuilds the offset table,
   keeping the group numbers. With no edits, the file rebuilds byte for byte.
 
-The Italian translation changes 20 of these messages so far: the START prompt and Freya's first
-lessons. The lessons up to `0x149` were checked in the emulator: the boxes size themselves to the
-text, and no line wraps. The later ones play after Arngrim's chapter, and were checked by reading the
-built disc back.
+The Italian translation covers all 136 messages:
+
+* **Translated:** the four player messages (the START prompt, the end of a Chapter, the "2 Periods"
+  warnings, the final battle), the 34 place descriptions, and all of Freya's lessons and her warning.
+  The two centred messages are centred with spaces again, worked out in pixels (a space is 4).
+* **Kept in English, listed unchanged:** the six debug labels (Start Flag, OFF, Next event…), the
+  "Nashi" placeholders and the whole name list `0xC8`-`0x10A`, which reads like a development event
+  list ("Lucian tricked (Valhalla)", "Name undetermined (Puzzle)").
+
+The lessons up to `0x149` were checked in the emulator: the boxes size themselves to the text, and no
+line wraps. The rest was checked by reading the built disc back and by measuring: no description line
+is wider than the widest English one (293 pixels), and each keeps its number of lines. The file grew
+from 386,557 to 386,229 bytes of its 387,072 (the font from 76 to 86 glyphs).
 
 ## Not known yet
 
 * **Streams 40-66:** what groups 3 to 10 hold.
 * **The name list:** where the game shows the list of characters and places (`0xC8`-`0x10A`).
+* **The place descriptions on screen:** they show on the world map, which a test can't reach from a
+  script yet. The script library's `func_00AF` only asks "Exit to World Map?"; its caller does the exit.
 * **Command 2:** what the world map's text code does with it, exactly.

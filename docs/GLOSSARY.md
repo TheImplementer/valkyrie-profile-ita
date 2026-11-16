@@ -270,6 +270,19 @@ these were shortened:
 | Maternal; Hates kids; Hates cold | Istinto materno; Odia i bambini; Odia il freddo | Maternità; Odia i bimbi; Odia il gelo |
 | Stubborn; Romantic; Outgoing; Flashy; Egotistical | Testardaggine; Romanticismo; Estroversione; Esibizionismo; Egocentrismo | Ostinazione; Idealismo (beside Realismo); Socievolezza; Vistosità; Egotismo |
 
+## World map (`worldmap.txt`)
+
+| English | Italian | Note |
+|---|---|---|
+| Sacred Phase; This Chapter is concluded | Fase Sacra; Questo Capitolo è concluso | Capitalised as in the English. |
+| 2 Periods or more are necessary | Servono almeno 2 Periodi | |
+| dungeon | dungeon | As in the dialogue's hints. |
+| Sorcery Collegium (Flenceburg) | Accademia di Stregoneria | |
+| the 4 Jewels which stabilize the World | i 4 Gioielli che stabilizzano il mondo | The Dragon Orb is one (Sfera del Drago). |
+| robber's guild | Gilda dei Ladri | |
+| My lady, Freya | Signora Freya | Valkyrie, after Freya's warning. |
+| the name list (`0xC8`-`0x10A`) | unchanged | A development event list. |
+
 ## Lines shortened to fit a fixed box
 
 Menu labels are drawn at fixed places, and some dialogue boxes have a fixed width that the build
