@@ -221,8 +221,8 @@ worked example.
          hdr[0] = text index offset = size of the event script in bytes
          hdr[1] = 0
          hdr[2] = the scene's main function, a word index into the script (always opcode 0x18,
-                  preceded by 0x17). It comes last: the scene's other functions sit between
-                  the library (words 0..0xA50) and main.
+                  preceded by 0x17). It comes after the library (words 0..0xA50): first of the
+                  scene's functions in 833 scenes, last in 66, in between in 219.
          hdr[3] = number of text records
          hdr[4] = total bytes of the records (all 1,118 scenes; not in the word-2294 file)
          hdr[5], hdr[6] = library entry points (word indexes; 0x1EC/0x230/… and 0x848)
@@ -326,6 +326,8 @@ the rest are names (Lezard, Arngrim, Mystina…) and inflections.
 
 ## The event script VM
 
+`docs/EVENT_SCRIPT.md` explains the script from the start, with a worked example.
+
 **Interpreter:** field engine `func_800714DC`, loop at `0x800715B4`.
 * While the script context's wait counter (`ctx+0x310`) is 0: `ins = *ip++` (`ip` = `ctx+0xF0`),
   then call `table[ins >> 24](ins)`, with the table at `0x800831D0` (256 entries, 188 distinct
@@ -396,8 +398,8 @@ movie handlers. The families:
 | movies | C4 open, C5 play, C6 stop, C7 wait_end, C8 status, CA frame |
 
 **How a line is reached:** the scene code pushes the arguments and calls a library wrapper:
-`push 0x78, 0x30, 0x80, 0x1C, 0x0E, 0x28; call 0x3E2`, where `0x80/0x1C` is the box position and
-`0x0E` is record 14. The wrapper pops them into locals (`0x01`) and runs `0x92` in stack form.
+`push 0x78, 0x30, 0x80, 0x1C, 0x0E, 0x28; call 0x3E2`: x 120, y 48, a 128 × 28 box, record 14 and a
+40-frame wait (see "The message box"; `docs/EVENT_SCRIPT.md` walks through this example). The wrapper pops them into locals (`0x01`) and runs `0x92` in stack form.
 `vp_script.py` follows argument values through wrappers (summarising which argument reaches a record)
 and resolves each record at the instruction where it is a literal.
 

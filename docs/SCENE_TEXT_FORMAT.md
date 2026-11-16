@@ -42,7 +42,7 @@ in `0x8007F1AC`, and the font to one kept in `0x8007F1D8`.
 * **The script** is a list of 32-bit instructions, with the opcode in the top byte. Its first 10,564
   bytes (`0xA51` instructions) are a **shared library**, the same in every scene. The scene's own code
   follows. The script shows a line by pushing its record number and calling a library function.
-  `VP_DIALOGUE_LOAD_PATH.md` covers the script.
+  `docs/EVENT_SCRIPT.md` explains the script.
 * **The index** has one 16-bit offset per record, counted from the end of the index. The first offset
   is always 0, and each record starts right where the previous one ends.
 
