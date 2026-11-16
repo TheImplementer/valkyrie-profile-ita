@@ -197,6 +197,8 @@ Sound-engine labels fixed from this trace:
 
 ## SLZ type 2: the game's decoder (EXE `0x80012874`)
 
+`docs/SLZ_COMPRESSION.md` explains both SLZ types from the start, with worked examples.
+
 Same flag/literal/back-reference scheme as type 1, but:
 
 * **Length code 15 is a run-length fill, not a copy.** If the 12-bit offset is below 256, the next byte
