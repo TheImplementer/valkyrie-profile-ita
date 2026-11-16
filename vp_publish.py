@@ -84,7 +84,7 @@ def main():
         os.makedirs(os.path.join(dest, os.path.dirname(f)), exist_ok=True)
         shutil.copy2(os.path.join(HERE, f), os.path.join(dest, f))
     print(f'copied {len(todo)} files to {dest}')
-    keep = set(todo) | {'README.md', '.gitignore', 'LICENSE'}
+    keep = set(todo) | {'README.md', '.gitignore', 'LICENSE', 'LICENSE-text'}
     stale = [p for p in os.popen(f'git -C "{dest}" ls-files').read().split('\n') if p and p not in keep]
     for p in stale:
         print(f'not published any more (remove it with git rm if so): {p}')

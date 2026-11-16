@@ -63,3 +63,13 @@ and `vp_glyph_names.json` keys that table by a hash of each bitmap, not by the b
 
 The notes mention TinyPSX, the PlayStation emulator the game was traced in, and some files under
 `notes/edit_proof/`: neither is part of this repository.
+
+## License
+
+* **The translation and the notes** (`edits_it/`, the `.md` files and `notes/`) are under
+  [CC BY-NC-SA 4.0](LICENSE-text): share and adapt them for non-commercial use, with credit, under
+  the same license.
+* **Everything else** (the tools and the data files they read) is under the [MIT License](LICENSE).
+
+Valkyrie Profile, its text, names and characters belong to their rights holders. Neither license
+covers them.
