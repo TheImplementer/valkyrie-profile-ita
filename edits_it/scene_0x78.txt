@@ -1,0 +1,12 @@
+# Valkyrie Profile scene 0x78 (-): 15 records, directory word 3730, package sectors 168307..168337 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:ffff>Belenus
+「Chi siete?<page>
+Asaka!<3:1e>!<3:ff>
+Ti avevo detto di non
+far entrare estranei!

@@ -1,0 +1,51 @@
+# Valkyrie Profile scene 0x7b (-): 25 records, directory word 3733, package sectors 168410..168458 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+Vampiro anziano
+「È vostra, signora Beliza<3:28>!<3:ff>
+Questo è l'ultimo sacrificio;
+il nostro patto è ora compiuto.
+@@ 15
+<19:ffff>Belenus
+「Asaka<3:14>, <3:ff>Asaka!
+@@ 16
+<19:ffff>Belenus
+「Vi prego<3:1e>!<3:ff>
+Non potete salvarla!?
+@@ 17
+<19:ffff>Valkyrie
+「Ormai è troppo tardi<3:1e>.<3:ff>
+Nessuno può sfidare
+il proprio destino.
+@@ 18
+<19:ffff>Belenus
+「Parlate di destino?<page>
+Come se parole simili
+potessero darmi pace!?
+@@ 19
+<19:ffff>Belenus
+「Io l'amavo<7:0b>-<7:01>
+@@ 20
+<19:ffff>Valkyrie
+「C'è ancora un modo<3:0c>・・・
+@@ 21
+<19:ffff>Belenus
+「Farò qualunque cosa!<3:14>!<3:ff>
+Ditemelo!
+@@ 22
+<19:ffff>Valkyrie
+「Il rituale del Trasferimento d'Anima・・・<3:28><3:ff>
+Se lo desideri davvero,
+puoi prendere il suo posto<3:14>...<3:ff>
+Ma dovresti morire
+al posto suo.
+@@ 23
+<19:ffff>Belenus
+「Ero schiavo delle circostanze<3:1e>.<3:ff>
+Non potevo dire nulla.
+@@ 24
+<5><3:04><18>Andiamo.<17:b400>

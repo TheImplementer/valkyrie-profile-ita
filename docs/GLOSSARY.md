@@ -28,6 +28,12 @@ here, so this file is never built into the disc.)
 | To the rear / To the front | Verso il fondo / In primo piano | System records 9 and 10: hints shown while standing at a door, for going into the background (Up) or back toward the camera (Down); see SYSTEM_MESSAGES.md. They replace "Indietro / Avanti", chosen before the context was known. |
 | Battle | Battaglia | The label at the top left (system record 13). |
 | Roland, Jelanda, Angela, Badrach, Lombert, Lawfer, Celia, Kashell, Villnore, Artolia, Yamato | unchanged | Arngrim's chapter (scenes 0x63-0x74, 0x0B). |
+| Belenus, Asaka, Maria, Beliza, Lassen, Suo, Jayle, Fahn | unchanged | Belenus's storyline (scenes 0x75-0x7C). |
+| Lord Belenus (Asaka) / young lord (Maria) | signor Belenus / signorino | Servants use *voi* with him. |
+| Lady Beliza | signora Beliza | The Elder Vampire (Vampiro anziano). |
+| the Dark Lady | la Dama Oscura | Beliza, in the narration "I poteri di Beliza". |
+| Soul Transfer | Trasferimento d'Anima | "Il rituale del Trasferimento d'Anima". |
+| Slave Auction | Asta degli schiavi | Signpost and place; slave traders → mercanti di schiavi. |
 | Battle-Maiden | Vergine della Battaglia | "La Vergine della Battaglia, Valkyrie?" (scene 0x6E). |
 | Chief Councillor | Gran Consigliere | Lombert's title. |
 | Sir Arngrim | ser Arngrim | Used by Angela and the King. |
@@ -54,6 +60,9 @@ Soldato, Re, Capitano (Knight Captain), Donna, Giovane, Anziano / Anziana, Avven
   Angela an ironic *voi* until she is unmasked, then calls her *piccola* with *tu*. He mocks the King
   with *voi*. Jelanda uses *tu* downward (waitress, Lombert, Arngrim), and Lawfer uses *voi* with his
   father, the Knight Captain.
+* **Belenus's storyline:** Asaka and Maria give Belenus *voi* ("signor Belenus", "signorino"); he
+  uses *tu* with them and *voi* with his father, and *voi* with Valkyrie, a stranger. Valkyrie uses *tu*.
+  Jayle gives her captain Fahn *voi* and slips into *tu* when she forgets herself ("Stupido!").
 * **Badrach speaks colloquially** ("un sacco", "chi se ne frega", "Ci si vede!"), without dialect spellings.
 
 ## Title screen (`title_menu.txt`)

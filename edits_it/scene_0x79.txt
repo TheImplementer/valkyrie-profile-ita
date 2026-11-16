@@ -1,0 +1,67 @@
+# Valkyrie Profile scene 0x79 (-): 28 records, directory word 3731, package sectors 168338..168379 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:ffff>Belenus
+「Uno spettro!?
+@@ 15
+<19:ffff>Belenus
+「Che razza di essere siete<3:28>?
+<3:0c>No, <3:ff>non può essere!
+@@ 16
+<19:ffff>Valkyrie
+「<3:0c>・・・<3:ff>La tua casa・・・
+È caduta sotto la maledizione
+di un vampiro<3:3c>.<3:ff>
+La ragazza è in pericolo.
+@@ 17
+<19:ffff>Belenus
+「Asaka?!
+@@ 18
+<19:ffff>Valkyrie
+「Il comò del padrone<3:0c>...<3:ff>
+Questo<3:0c>...<3:ff>?
+@@ 19
+<19:ffff>Valkyrie
+「Questo per me non è niente.
+@@ 20
+<5> <3:00><7:0b>-<7:01>I poteri di Beliza<7:0b>-<7:01><3:28> 
+<5><3:05>Il sangue umano è il catalizzatore
+<5><3:05>dei loro poteri, semplici ma rovinosi<3:78>.<3:0a>
+<5><3:05>Lussuria, passione e gelosia sono il
+<5><3:05>dominio della Dama Oscura<3:5a>,
+<5><3:05>Beliza<17:9001>
+@@ 21
+<19:ffff>Valkyrie
+「<18><3:03>Perché non hai combattuto?<17:7800>
+@@ 22
+<19:ffff>Suo
+「<3:0c>・・・<3:ff><18><3:04>Stavo pensando.<17:7800>
+@@ 23
+<19:ffff>Valkyrie
+「<18><3:03>Pensando?<17:3c00>
+@@ 24
+<19:ffff>Suo
+「<18><3:04>Cercavo di capire come si fosse
+arrivati a questo.<17:7800>
+@@ 25
+<19:ffff>Suo
+「<18><3:04>Alzare le spade
+contro donne e bambini...<17:9600>
+<18>Diciamo che è giusto,
+perché il nostro scopo è giusto.<17:b400>
+@@ 26
+<19:ffff>Suo
+「<18><3:03>Ma quanti innocenti indifesi
+sono stati massacrati?<17:7800>
+@@ 27
+<19:ffff>Suo
+「<18><3:04>Tutto ciò che volevo
+era proteggere <3:03>proprio coloro
+che ho abbattuto!<17:7800>
+<18><3:04>Tutto ciò che volevo era <3:03>proteggere
+chi non poteva proteggere
+se stesso<3:0c>・・・!<17:7800>

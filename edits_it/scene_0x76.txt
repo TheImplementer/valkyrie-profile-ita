@@ -1,0 +1,83 @@
+# Valkyrie Profile scene 0x76 (Slave Auction): 35 records, directory word 3728, package sectors 168063..168212 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:ffff>Asaka
+「Che bel fiore<3:28>. <3:ff>
+Sapete come si chiama?
+@@ 15
+<19:ffff>Belenus
+「Asaka<3:14>,<3:ff>
+hai così tanta voglia di non venire?
+@@ 16
+<19:ffff>Asaka
+「<3:0c>・・・
+@@ 17
+<19:ffff>Asaka
+「Signor Belenus,
+ridatemelo!
+@@ 18
+<19:ffff>Asaka
+「Non mi piacciono le aste di schiavi<3:1e>!<3:ff>
+Non costringetemi a guardare!
+@@ 19
+<19:ffff>Belenus
+「Dobbiamo farlo, Asaka<3:1e>.<3:ff>
+Mia moglie e Maria non ci sono più.
+Non puoi badare alla villa
+da sola.
+@@ 20
+<19:ffff>Asaka
+「Chi comprerete sarà trattato bene<3:28>.<3:ff>
+Ma quando penso
+alla sorte degli altri<3:0c>...
+@@ 21
+<19:ffff>Asaka
+「Non voglio venire.
+@@ 22
+<19:ffff>Belenus
+「Ma ho bisogno che tu venga, Asaka.<page>
+Non parlo la loro lingua,
+e mi serve il tuo aiuto
+per scegliere bene<7:0b>-<7:01>
+@@ 23
+<19:ffff>Asaka
+「Non ci riesco!<3:1e>! <3:ff>
+Avere un simile potere
+sulla vita di qualcuno<3:0c>...
+@@ 24
+<19:ffff>Belenus
+「Eppure cogliere un fiore ti sta bene?
+@@ 25
+<19:ffff>Asaka
+「<3:0c>Ah...
+@@ 26
+<19:ffff>Belenus
+「Che differenza c'è tra scegliere un servo<3:1e><3:ff>
+e cogliere un fiore?
+@@ 27
+<19:ffff>Belenus
+「Essere colto era il destino di questo fiore.
+@@ 28
+<19:ffff>Asaka
+「<3:0a>Il destino?
+@@ 29
+<19:ffff>Belenus
+「<3:ff>Il destino è la via scelta per noi
+dagli dèi<7:0b>-<7:01>
+@@ 30
+<5><18><3:05>Il destino<3:2b>? <3:04>È stato il destino a uccidere
+<5><3:03>mia moglie e Maria?<17:b400>
+@@ 31
+<5><18><3:04>È stato il destino a mandare i miei amici
+<5>e mio padre a morire <3:03>in una guerra lontana?<17:b400>
+@@ 32
+<5><18><3:04>È per questo che
+<5><3:03>ora sono qui?<17:b400>
+@@ 33
+<5><18><3:04>Il motivo per cui ho incontrato Asaka<7:0b>-<7:01>?!<17:7800>
+@@ 34
+<5>Asta degli schiavi

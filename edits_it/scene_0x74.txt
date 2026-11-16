@@ -53,3 +53,47 @@ di<3:05> quanto si creda.<17:7800>
 「Oh oh<3:1e>.<3:ff>
 Devi essere un uomo appagato,
 se la pensi così.
+@@ 25
+<19:0000>Fahn
+「Ultimamente<3:28>,<3:ff>
+sono stupito
+dai tuoi progressi, Jayle.
+@@ 26
+<19:0100>Jayle
+「Grazie, signore.
+@@ 27
+<19:0000>Fahn
+「Sei molto più abile
+di tutti quegli uomini <7:0b>-<7:01>
+@@ 28
+<19:0100>Jayle
+「Signore, avevate promesso di non farlo!
+@@ 29
+<19:0000>Fahn
+「Ops<3:1e>,<3:ff> scusa.
+@@ 30
+<19:0100>Jayle
+「L'hai fatto apposta! Stupido!
+@@ 31
+<19:0100>Jayle
+「・・・Chiedo scusa, signore.
+@@ 32
+<19:0000>Fahn
+「<3:0c>・・・<3:ff>Che succede?
+@@ 33
+<19:0100>Jayle
+「Siete il mio capitano<3:28>.<3:ff>
+Non è giusto da parte mia
+essere così confidenziale.
+@@ 34
+<19:0000>Fahn
+「Già<3:28>,<3:ff> dovremmo essere più seri.
+@@ 35
+<19:0100>Jayle
+「Uffa<3:1e>,<3:ff>
+ora mi state solo prendendo in giro!
+Ih ih ih.
+@@ 36
+<19:0000>Fahn
+「Ti sta bene<3:3c>.<3:ff>
+Ah ah ah.

@@ -961,7 +961,8 @@ file. `build` and the GUI both honour it, and the GUI keeps the line when it sav
 (Arngrim II, Lawfer), found from `story/event_order.txt`: scenes 0x63-0x74 and 0x0B #14-32, plus the
 Artolia townsfolk and signposts in those scenes. Lines in the same scenes that belong to later
 storylines are left for their chapters: Badrach's slaver story (0x6E #69-73), Suo (0x6F #33-45),
-Jayle and Fahn (0x74 #25-36) and Kashell's group (0x0B #33-38).
+Jayle and Fahn (0x74 #25-36) and Kashell's group (0x0B #33-38). The last two were translated with
+Belenus's storyline (below), so 0x74 and 0x0B are complete.
 
 **Box sizes.** Most lines go through literal `func_03e2` calls, which `--fit-boxes` grows; the widest
 grown portrait box is 232 px (0x70 #16), and the game's own go up to 256 (x = 0) and 266 (x = 1).
@@ -986,6 +987,27 @@ four ops. About 300 frames later the target scene plays its event for that (D0, 
 are the bracketed steps in `story/event_order.txt` (restaurant: D0 = 1, D1 = 9 → `0x901`, scene
 0x6C). Press CROSS about every 90 frames to advance. Flags the event also tests are not set, so
 an event gated on a flag may not start this way.
+
+## Belenus's storyline
+
+**What is translated** (2026-11-16): storyline D0 = 3 (Belenus, Asaka and Maria: the slave auction
+in Lassen and the vampire's curse on Belenus's mansion), scenes 0x75-0x7C, 87 records. The same
+scenes hold lines of later storylines, translated with them: Suo's monologue (0x79 #21-27) and the
+start of Badrach's slaver story (0x7C #19-25), which continues in 0x6E #69-73 (still English).
+Wording: `docs/GLOSSARY.md`.
+
+**Box sizes.** `--fit-boxes` grew 22 boxes. Lines that would have made a box much wider than any
+English one were broken by hand, as the English breaks them: Valkyrie's warning in 0x79 #16 would
+have needed 334 px, past the screen, and is now four lines in its own 164-px width. 0x78 #14 sits
+next to an actor (x 8) and was reworded to keep its 152-px box, since the build can't see where an
+actor box lands. All 127 records of the ten scenes read back as written.
+
+![Belenus's storyline in Italian](notes/edit_proof/italian_belenus.png)
+
+**Seen in TinyPSX**, by jumping to each step (D0 = 3): the slave auction and Belenus's narrated
+monologue (D1 = 0x20, scene 0x76), the spectre in Asaka's room (0x28, 0x79), and the sacrifice and
+the Soul Transfer (0x32, 0x7B). No line wraps, and the narration's timing follows the voice.
+Asaka's room in the past (0x77) and the road into town (0x7C) were checked by read-back only.
 
 ## System messages: `system.txt`
 

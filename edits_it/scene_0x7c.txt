@@ -1,0 +1,49 @@
+# Valkyrie Profile scene 0x7c (Road into Town | Slave Auction): 28 records, directory word 3734, package sectors 168459..168574 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:ffff>Asaka
+「Oggi non ce ne sono.
+@@ 15
+<19:ffff>Belenus
+「<3:0c>・・・
+@@ 16
+<19:ffff>Asaka
+「Signor Belenus?
+@@ 17
+<19:ffff>Belenus
+「<3:0c>・・・<3:ff>Sto bene<3:1e>. <3:ff>
+Bene, torniamo a casa.
+@@ 18
+<19:ffff>Asaka
+「Sì, signor Belenus.
+@@ 19
+<5><18><3:04>Dev'essere stato<3:0c>...<3:03>Vediamo...
+<5>Tre, quattro anni fa<3:14>.
+<5><3:03>Non mi ricordo tanto bene<3:19>,
+<5><3:03>ma credo di sì.<17:f000>
+@@ 20
+<5><3:03><18>Lavoravo a Villnore.<17:7800>
+@@ 21
+<5><18><3:03>Aspetta<3:14>, <3:03>non mettermi fretta<3:0c>...<17:7800>
+@@ 22
+<5><18><3:03>Cosa facevo?<3:0f>
+<5><3:03>Ah, niente di così brutto.<3:0f>.
+<5><3:03>Lavoravo... ehm... nella sicurezza<3:1e>.
+<5><3:03>Tipo scorta, hai presente?<17:f000>
+@@ 23
+<18><3:03><5>Per chi, dici?<17:3c00>
+@@ 24
+<5><18><3:03>Erano,<3:0a> ehm...<3:0a>,<3:03>mercanti di schiavi<3:1e>.
+<5><3:03>Dai, non guardarmi così!<17:b400>
+@@ 25
+<5><18><3:03>Poi migliora, ok?<3:1e> <3:03>Ascoltami<3:14>.
+<5><3:04>Sì,<3:0a> <3:03>adesso mi torna tutto in mente<3:1e>.
+<5><3:03>È una storia un po' imbarazzante, a dire il vero.<17:b400>
+@@ 26
+<5>Strada per la città
+@@ 27
+<5>Asta degli schiavi

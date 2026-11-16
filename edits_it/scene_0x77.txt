@@ -1,0 +1,57 @@
+# Valkyrie Profile scene 0x77 (Asaka's Room): 27 records, directory word 3729, package sectors 168213..168306 of VALKYRIE.BIN
+# Edit the text under any "@@ N" line; delete records you do not change (or leave them).
+# A line break is command 0; <page> is command 1. Other commands: <N> / <N:hex args>:
+#   3 typing delay, 4 colour, 5 centre line, 6 queue portrait, 7 width scale, 8 height scale, 12 voice clip, 14 insert value, 17 auto-advance frames, 18 start voice clip, 19 show portrait (0100 left, 0000 right)
+# {xx} is a raw glyph code. Records 0-13 are the shared system strings.
+
+@@ 14
+<19:ffff>Maria
+「Vi prego<3:1e>, <3:ff>vi prego, perdonatemi<3:1e>.<3:ff>
+Mi faceva così pena...
+La manterrò io con la mia paga,
+quindi vi prego, lasciate che resti.
+@@ 15
+<19:ffff>Belenus
+「Vi prego, padre. Ve lo prometto<3:1e>,<3:ff>
+io e Maria ci prenderemo
+buona cura di lei.
+@@ 16
+<19:ffff>Padre
+「Molto bene<3:1e>.<3:ff>
+È una tua responsabilità, Maria. Educala.
+@@ 17
+<19:ffff>Belenus
+「Sei sicura che sia stata
+una buona idea, Maria?
+@@ 18
+<19:ffff>Maria
+「Mi dispiace<3:1e>,<3:ff> signorino.
+@@ 19
+<19:ffff>Belenus
+「Non fa niente<3:1e>.<3:ff>
+Sai
+come si chiama?
+@@ 20
+<19:ffff>Maria
+「Si chiama Asaka.
+@@ 21
+<19:ffff>Belenus
+「Asaka<3:3c>?<3:ff>
+È un nome di Yamato<3:0c>・・・
+@@ 22
+<19:ffff>Maria
+「Sì.
+@@ 23
+<19:ffff>Asaka
+「Ah...
+@@ 24
+<19:ffff>Belenus
+「Finalmente possiamo vedere il tuo viso.
+L'uomo cattivo se n'è andato,
+quindi non piangere più<7:0a>-<7:01>
+@@ 25
+<5>Stanza di Asaka
+@@ 26
+<19:ffff>Asaka
+「Salve,
+come posso servirvi?

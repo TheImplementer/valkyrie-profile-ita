@@ -77,3 +77,26 @@ E così<7:0b>-<7:01>
 deve essersi sentito<7:0b>-<7:01>
 @@ 32
 <18><5><3:04>Non scapperò.<17:7800>
+@@ 17
+<19:ffff>Lawfer
+「<3:0c>・・・
+@@ 30
+<19:ffff>Celia
+「<3:0c>・・・
+@@ 33
+<3:03><18>Non si torna più indietro,
+vero?<17:7800>
+@@ 34
+<18><3:03>Sei arrivata fin qui
+e ora vuoi tornare a casa?<17:b400>
+@@ 35
+<18><3:03>Non è questo<3:0c>...<17:7800>
+@@ 36
+<18><3:03>Lo so che non possiamo<3:0c>...<17:7800>
+@@ 37
+<18><3:04>Già,<3:1e> <3:03>beh, io ho perso ogni speranza
+<3:04>tanto tempo fa.<17:b400>
+@@ 38
+<19:ffff>Celia
+「Kashell<3:1e>, <3:ff>Bartos<3:1e>,<3:ff>
+Rolf<3:1e>, <3:ff>Aelia<3:0c>...
