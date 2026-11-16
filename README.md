@@ -10,6 +10,19 @@ The translation is a work in progress: see [`docs/PROGRESS.md`](docs/PROGRESS.md
 This repository holds no game data. To build anything you need your own copy of the game as
 BIN/CUE, the Redump dumps of the USA discs.
 
+## Made with AI
+
+This project relies heavily on AI. The reverse engineering, the tools, the documents and the
+Italian text were largely written by Claude, Anthropic's AI model, working in Claude Code under the
+maintainer's direction: the maintainer chose what to work on and the rules the translation follows.
+Each change was checked by reading the built disc back and, where a test could reach it, by
+screenshots in an emulator ([`docs/notes/edit_proof/`](docs/notes/edit_proof/)). Even so, expect
+the mistakes AI can make: unnatural phrasing, a missed nuance, a wrong term or a wrong guess about
+how the game works. Corrections are welcome.
+
+*Il progetto è stato realizzato in gran parte con l'IA (Claude di Anthropic): segnalazioni e
+correzioni sono benvenute.*
+
 ## What's here
 
 | Where | What |
