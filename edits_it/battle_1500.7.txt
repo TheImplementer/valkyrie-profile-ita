@@ -20,6 +20,8 @@ Magia
 Riordina
 @@ 0x000f
 Fuga
+@@ 0x0010
+Debug function
 @@ 0x0014
 Fuoco
 @@ 0x0015
@@ -36,6 +38,158 @@ Oscurità
 Nessuno
 @@ 0x001c
 Punti esp.
+@@ 0x0028
+Dme Change
+@@ 0x0029
+Status Change
+@@ 0x002a
+Insensitive Mode
+@@ 0x002b
+Revenge Mode
+@@ 0x002c
+Skill Level Change
+@@ 0x002d
+Skill Setup
+@@ 0x002e
+None Function
+@@ 0x002f
+Hit Data Display
+@@ 0x0030
+Wall Data Display
+@@ 0x0031
+Camera Data Display
+@@ 0x0032
+Use Magic Change
+@@ 0x0033
+None Function
+@@ 0x0034
+None Function
+@@ 0x0035
+None Function
+@@ 0x0036
+Sound Mode
+@@ 0x003c
+Singolo
+@@ 0x003d
+Tutti
+@@ 0x003e
+Area
+@@ 0x0050
+Dme Change
+@@ 0x0051
+Dme 100%
+@@ 0x0052
+Dme 50%
+@@ 0x0053
+Dme 25%
+@@ 0x0054
+Dme = 100
+@@ 0x0055
+Enemy(All) Hp 30%
+@@ 0x0056
+Enemy(All) Hp = 100
+@@ 0x0057
+Enemy Annihilate
+@@ 0x005a
+Status Change
+@@ 0x005b
+Status Refesh
+@@ 0x005c
+Poison
+@@ 0x005d
+Paralysis
+@@ 0x005e
+Stoned
+@@ 0x005f
+Curse
+@@ 0x0060
+Faint
+@@ 0x0061
+Freeze
+@@ 0x0062
+Silent
+@@ 0x0064
+Select On/Off
+@@ 0x0065
+On
+@@ 0x0066
+Off
+@@ 0x0067
+Cambia equip.
+@@ 0x0068
+Sì
+@@ 0x0069
+No
+@@ 0x006e
+Chi lo usa?
+@@ 0x006f
+Su chi usarlo?
+@@ 0x0070
+Su tutti gli alleati
+@@ 0x0071
+Chi cambia?
+@@ 0x0072
+Con chi cambiare?
+@@ 0x0073
+Su tutti i nemici
+@@ 0x0074
+Chi?
+@@ 0x0075
+Dove?
+@@ 0x0078
+Cambia tecnica
+@@ 0x0082
+Sound Mode
+@@ 0x0083
+Se No.
+@@ 0x0084
+Trance Pause
+@@ 0x0085
+Pitch
+@@ 0x0086
+Play
+@@ 0x0087
+Stop
+@@ 0x0088
+Volume
+@@ 0x0089
+Pan
+@@ 0x008a
+Default
+@@ 0x008c
+Insensitive Mode
+@@ 0x008d
+Valkyrie Side
+@@ 0x008e
+Enemy Side
+@@ 0x008f
+All Member
+@@ 0x0090
+Reset
+@@ 0x0096
+Revenge Mode
+@@ 0x0097
+Valkyrie Side
+@@ 0x0098
+Enemy Side
+@@ 0x0099
+All Member
+@@ 0x009a
+Reset
+@@ 0x00a0
+Great Magic Setup
+@@ 0x00a1
+Magic No
+@@ 0x00c8
+annientati…
+@@ 0x00c9
+Fuga riuscita!
+@@ 0x00ca
+Impossibile fuggire!
+@@ 0x00d2
+Ripristino
+@@ 0x00d3
+Possessione
 @@ 0x012d
 Elisir
 @@ 0x012e
@@ -172,6 +326,36 @@ Carnage Anthem
 Celestial Star
 @@ 0x03c1
 Seraphic Law
+@@ 0x0405
+Adept Illusion
+@@ 0x0406
+Dancing Sword
+@@ 0x0407
+Last Trial
+@@ 0x0408
+Splash
+@@ 0x0409
+Reverie
+@@ 0x040b
+Noise Arrow
+@@ 0x040c
+Triple Distress
+@@ 0x0410
+Scarlet Edge
+@@ 0x0411
+Charge
+@@ 0x0412
+Strike Edge
+@@ 0x0413
+Dark
+@@ 0x0414
+Trick Step
+@@ 0x0417
+Slanting Rain
+@@ 0x0418
+Darkness Arrow
+@@ 0x0419
+False Arrow
 @@ 0x041f
 Comando
 @@ 0x0514

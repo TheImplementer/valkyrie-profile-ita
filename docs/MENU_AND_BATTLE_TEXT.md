@@ -321,6 +321,17 @@ Arngrim's Ability menu with the description of High Wind and its DATA strip.
 ![An enemy attack banner in Italian, and the width test](notes/edit_proof/italian_enemy_attacks.png)
 
 Top: the Dragon Zombie's Inferno Breath in fight `0x416`, "Soffio infernale". Bottom: the width test.
+
+* **Battle prompts, 1500.7** (`0x3C`-`0xD3`): the Use Item and Reorder questions, the flee results
+  and the defeat line are Italian (`docs/GLOSSARY.md`, "Battle prompts"). Their boxes are sized to
+  the text. The table also holds a developer debug menu (`0x10`, `0x28`-`0x36`, `0x50`-`0x66`,
+  `0x82`-`0xA1`), which is listed unchanged.
+
+![Battle prompts in Italian](notes/edit_proof/italian_battle_prompts.png)
+
+Fight `0x3FF` with three items granted: "Chi lo usa?", then "Su chi usarlo?" after picking the
+Elisir, and "Fuga riuscita!" after Fuga. The list's "Item Name" and "Number" headers are pictures,
+still English.
 * **Monster names, battle table 1500.9** (`0x64`-`0x2DA`): Italian, or kept where they are proper
   names or have no Italian form (`docs/GLOSSARY.md`, "Monster names"). The TARGET label's panel grows
   with the name, so a name may be as wide as the widest English one, 111 pixels. That was checked by

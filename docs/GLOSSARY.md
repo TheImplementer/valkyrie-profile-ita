@@ -354,6 +354,17 @@ widest English name, "Dragon-Tooth Warrior" at 111 pixels.
 | Name Unknown | Nome ignoto | |
 | Wraith (name list, menu 6 `0xFBF`) | Spettro | Iseria Queen there stays. |
 
+## Battle prompts (`battle_1500.7.txt`)
+
+| English | Italian | Note |
+|---|---|---|
+| Who will use?; Use on whom?; Use on all allies / enemies | Chi lo usa?; Su chi usarlo?; Su tutti gli alleati / i nemici | Use Item. |
+| Who will change?; Change with whom?; Who?; Where? | Chi cambia?; Con chi cambiare?; Chi?; Dove? | Reorder. |
+| You fled!; Can't flee!; wiped out… | Fuga riuscita!; Impossibile fuggire!; annientati… | |
+| Single Unit; All Units; Range | Singolo; Tutti; Area | A spell's targets. |
+| Change Equip; Do; Don't Do | Cambia equip.; Sì; No | |
+| Skill Change; Restore; Possess | Cambia tecnica; Ripristino; Possessione | Not seen on screen. |
+
 ## Enemy attacks (`battle_1500.7.txt`, `0x514`-`0x597`)
 
 The banner shown when an enemy acts. It grows with the text, so its width doesn't limit a name.
@@ -423,5 +434,11 @@ shortened until they fit on screen:
   * DME, Stereo, ON and OFF.
   * "Scenario Error 1" (system record 12, a debug message).
   * The debug menu, scene 0x0 (Japanese developer text in raw glyph codes).
+  * The battle debug menu in 1500.7: `0x10` ("Debug function"), `0x28`-`0x36`, `0x50`-`0x66` and
+    `0x82`-`0xA1` ("Hit Data Display", "Dme Change", "Enemy Annihilate", the sound test). Players
+    never see it, and translating it would only take room in the battle font.
+  * The skills `0x405`-`0x419` in 1500.7 that stay English as named techniques (Adept Illusion,
+    Dancing Sword …).
 
-  Still left out, so they count as not done: LV and CT.
+  Still left out, so they count as not done: LV and CT, and "WeaknessWeak" (1500.7 `0x1A`). That one
+  looks like two words packed into one string, and the code that splits it isn't known yet.
