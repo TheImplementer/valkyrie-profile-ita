@@ -53,6 +53,8 @@ Punti esp.
 Oggetti
 @@ 0x00a2
 Durata capitoli 
+@@ 0x00a3
+Dungeon
 @@ 0x00a4
 Personaggi
 @@ 0x00a5
@@ -81,20 +83,278 @@ Tutti al LV1
 Capitolo
 @@ 0x00ca
 Periodo
+@@ 0x0112
+{68}avviso{69}
+
+Ci sono dati
+
+di un'altra versione.
 @@ 0x0121
 Facile
 @@ 0x0122
 Normale
 @@ 0x0123
 Difficile
+@@ 0x012d
+HZ55
+@@ 0x0132
+1.8k
+@@ 0x0133
+Tempo
+@@ 0x0134
+Loop/
+@@ 0x0135
+{81 80 07}Modo
+@@ 0x0136
+Singolo
+@@ 0x0137
+Continuo
+@@ 0x0138
+Casuale
+@@ 0x0139
+{81 80 07}BGM
+@@ 0x013a
+{81 80 07}SE
+@@ 0x013b
+Durata
+@@ 0x013c
+{81 80 07}Uscita
+@@ 0x013d
+Stato~
+@@ 0x013f
+{81 80 07}Ripetizioni
+@@ 0x0145
+{81 80 07}Trasposiz.
+@@ 0x0146
+{81 80 07}Analisi spettro
+@@ 0x0147
+{81 80 07}Titolo
+@@ 0x0148
+{81 80 07}BGM Vol.
+@@ 0x0149
+{81 80 07}SE Vol.
+@@ 0x014a
+Surround
 @@ 0x014b
 Stereo
+@@ 0x014c
+Mono
+@@ 0x014d
+Stop
+@@ 0x014e
+{81 80 02}Play
+@@ 0x014f
+{81 80 05}Pausa
+@@ 0x0150
+Intro
+@@ 0x0151
+{81 80 07}Pitchbend
+@@ 0x0152
+Pausa, ripeti brano
+@@ 0x0153
+Ferma
+@@ 0x0154
+Avvia brano
+@@ 0x0155
+{81 80 07}BGM {81 80 00}cursore su
+
+
+@@ 0x0156
+o
+@@ 0x0157
+Cursore a scelta
+@@ 0x0158
+Scegli.
+@@ 0x0159
+Chiudi info
+@@ 0x015a
+{81 80 07}VOICE Vol.
+@@ 0x015b
+{81 80 07}Raccolta voci
+@@ 0x015c
+Ascolta
+@@ 0x015d
+{81 80 07}Menu ascolto suoni
+@@ 0x015e
+Ascolta 
+
+suoni
+@@ 0x015f
+Torna alla 
+
+scelta del personaggio.
+@@ 0x0160
+{81 80 07}Liv. raggiunto
+@@ 0x0161
+Controllo MEMORY CARD...
+@@ 0x0168
+Dal caos
+@@ 0x0169
+In principio era la luce?
+@@ 0x016a
+Incubo nero e accecante
+@@ 0x016b
+Antiche fantasie eterne
+@@ 0x016c
+Eterne ansie d'idrogeno
+@@ 0x016d
+Racconti malvagi e obblighi 
+@@ 0x016e
+Pensieri innocenti
+@@ 0x016f
+Raggio di tenebra, raggio di luce
+@@ 0x0170
+Distorsioni nel vuoto disperato
+@@ 0x0171
+Risolutezza disperata
+@@ 0x0172
+Dura reazione a catena
+@@ 0x0173
+Legami magici luminosi
+@@ 0x0174
+Riflessi d'inganno
+@@ 0x0175
+La gioia dell'oblio
+@@ 0x0176
+Fine della spirale
+@@ 0x0177
+Elevarsi sul mondo
+@@ 0x0178
+Equilibrio instabile 
+@@ 0x0179
+Epitaffio
+@@ 0x017a
+Nuvole di spruzzi
+@@ 0x017b
+Il nome del suo popolo è paura
+@@ 0x017c
+Brividi ricorrenti
+@@ 0x017d
+Estremi deliranti
+@@ 0x017e
+Illusione del tronco encefalico
+@@ 0x017f
+Tutto è crepuscolo 
+@@ 0x0180
+Il prezzo della prosperità: introduzione
+@@ 0x0181
+Presto vedremo ombra e luce
+@@ 0x0182
+Nell'acqua, nell'aria e nella luce
+@@ 0x0183
+La via della gloria e della prosperità
+@@ 0x0184
+Quando una persona cambia
+@@ 0x0185
+Domani
+@@ 0x0186
+Gigli in lacrime
+@@ 0x0187
+Contro gli dei oscuri
+@@ 0x0188
+La chiave per cantare la vittoria
+@@ 0x0189
+Testa magia, croce maledizione
+@@ 0x018a
+Radici negative
+@@ 0x018b
+Fantasia e realtà intrecciate
+@@ 0x018c
+Artefatto
+@@ 0x018d
+Eterno motore di massacro linguistico
+@@ 0x018e
+Gira la bambola a molla
+@@ 0x018f
+Sorgono gli spiriti eterni
+@@ 0x0190
+Fiducia nel dominio
+@@ 0x0191
+Verso la terra sconsacrata
 @@ 0x0192
 Valhalla
+@@ 0x0193
+Poema epico per una morte sacra
+@@ 0x0194
+La porta del cielo
+@@ 0x0195
+Requiem per un dilemma
+@@ 0x0196
+Il falso io
+@@ 0x0197
+L'Es che si sgretola
+@@ 0x0198
+Attraverso una nebbia sottile
+@@ 0x0199
+Turbamento
+@@ 0x019a
+Voltare pagina
+@@ 0x019b
+Voltare pagina (vers. ritmica)
+@@ 0x019c
+Agire senza ragione
+@@ 0x019d
+Sogno vestigiale
+@@ 0x019e
+Nemico sistematico
+@@ 0x019f
+Prendere il volo
+@@ 0x01a0
+Laggiù
+@@ 0x01a1
+Un cuore vuoto
+@@ 0x01a2
+Un'atmosfera tesa
+@@ 0x01a3
+Scontro di personalità
+@@ 0x01a4
+Una camera del cuore
+@@ 0x01a5
+Fino all'ultima goccia di sangue
+@@ 0x01a6
+Verità per scherzo
+@@ 0x01a7
+Il primo unisono
+@@ 0x01a8
+Crollo
+@@ 0x01a9
+L'eterno ciclo della reincarnazione
+@@ 0x01aa
+La vera natura di tutto
+@@ 0x01ab
+Essere felici
+@@ 0x01ac
+Missione nello spazio profondo
+@@ 0x01ad
+L'incarnazione del diavolo
+@@ 0x01ae
+Colpo possente
+@@ 0x01af
+Il culmine della torre
+@@ 0x01b0
+Brivido
+@@ 0x01b1
+Bestia predatrice
+@@ 0x01b2
+Desiderio malinconico
+@@ 0x025d
+Cammina{6a}Doppio tocco direzionale: corri
+@@ 0x025e
+Corri{6a}Doppio tocco direzionale: cammina
+@@ 0x0470
+Premi il tasto{6a 6a 6a 6a}fissa,{6a 6a 6a 6a}fine
 @@ 0x0475
 ON
 @@ 0x0476
 OFF
+@@ 0x047a
+o{6a 6a 6a 6a}per scegliere
+@@ 0x047c
+Premi il tasto{6a 6a 6a}per finire
+@@ 0x047d
+scegli{6a 6a 6a}conferma
+@@ 0x047e
+o{6a 6a 6a 6a 6a 6a 6a}per scegliere
 @@ 0x0fa0
 Valkyrie
 @@ 0x0fa1

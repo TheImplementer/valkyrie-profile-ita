@@ -367,6 +367,17 @@ A 00 is accepted only there.
 
 ![The practice warning and the Change member help, in Italian](notes/edit_proof/italian_camp_party.png)
 
+## Sound Mode
+
+![Sound Mode and its Info help in Italian](notes/edit_proof/italian_sound_mode.png)
+
+The title menu's Sound Mode (table 6): its labels, the Info help (Triangle) and the 73 track titles
+are Italian (`docs/GLOSSARY.md`, "Title screen"). The help's first line is one of the hidden tails
+above: "BGM" goes on to "cursore su". To reach the screen headless: no replay, START at frames 2500
+and 3600 (skips the intro), then at frame 5800 DOWN three times and CROSS. L1 and R1 change the
+track. The labels' small italic font can't show accented letters here, so "Modalità" became "Modo".
+The hand cursor covers the first letter of the label next to it, as in the English.
+
 ## Battle hints
 
 ![Battle hints and boss lines in Italian](notes/edit_proof/italian_battle_hints.png)

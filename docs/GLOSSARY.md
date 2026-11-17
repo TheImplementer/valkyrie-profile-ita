@@ -143,6 +143,21 @@ at the top of the New Game, Continue, Configuration and Sound Mode screens. Thos
 partita", "Configurazione" and "Modalità audio" and were aligned with the title labels.
 Seen in TinyPSX: `docs/notes/edit_proof/italian_title_screens.png`.
 
+**Sound Mode (table 6, `0x12D`-`0x1B2`).** Its labels use the title program's small italic font,
+which has no accented letters (the camp program's copy gets them drawn in, this one doesn't), so a
+label there must avoid them: Play Mode is "Modo", not "Modalità". The technical labels stay as on
+the English screen: HZ55, 1.8k, Tempo, Loop/, BGM, SE, BGM / SE / VOICE Vol., Surround, Stop, Play,
+Intro, Pitchbend.
+
+| English | Italian | Note |
+|---|---|---|
+| Play Mode: Single / Continue / Shuffle; Output Mode; Monaural | Modo: Singolo / Continuo / Casuale; Uscita; Mono | |
+| Play Time, Loop Count, Transpose, Spectrum Analyzer, Title | Durata, Ripetizioni, Trasposiz., Analisi spettro, Titolo | |
+| Voice Collection; Open voice; Preview Sound Menu | Raccolta voci; Ascolta; Menu ascolto suoni | |
+| Start / End music; Pause, repeat music; Close topic | Avvia brano / Ferma; Pausa, ripeti brano; Chiudi info | The Info help. |
+| the 73 track titles | translated | Poetic titles, kept close to the English: "Dal caos", "L'eterno ciclo della reincarnazione", "Testa magia, croce maledizione". |
+| Walk / Dash (button help) | Cammina / Corri | As in the camp's Opzioni (2184). |
+
 ## Menus and battle
 
 | English | Italian | Note |
