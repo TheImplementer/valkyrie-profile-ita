@@ -1671,3 +1671,377 @@ A volte, nella fiamma, si può vedere un angelo.
 Orologio che permette di tornare indietro nel tempo in battaglia.
 
 Gli oggetti già usati, però, non vengono restituiti.
+@@ 0x119f
+Fendente dall'alto.
+
+{7c}DATI{7d} 1 colpo{7e 7f 7e}Energia
+ 25{81 01}
+@@ 0x11a1
+Spazzata di gamba in scivolata.
+
+{7c}DATI{7d} 1 colpo{7e 82} {7e}Energia
+ 15{81 01}
+@@ 0x11a3
+Attacco di taglio dall'alto.
+
+{7c}DATI{7d} 2 colpi{7e 82} {82} {7e}Energia
+ 24{81 01}
+@@ 0x11a5
+Danza folle. La mossa cambia con l'arma.
+
+{7c}DATI{7d} 9 colpi{7e 83} {7e}Energia
+ 60{81 01 81}
+ {7c}CT
+ 4{81 01}
+@@ 0x11a9
+Vampata che si apre a ventaglio in avanti.
+
+{7c}DATI{7d} 6 colpi{7e 7f 7e}Energia
+ 24{81 01}
+@@ 0x11ab
+Un'esplosione di energia dall'aria.
+
+{7c}DATI{7d} 3 colpi{7e 84} {7e}Energia
+ 21{81 01}
+@@ 0x11ad
+Scaglia un'ondata di potere in avanti.
+
+{7c}DATI{7d} 5 colpi{7e 7f 7e}Energia
+ 50{81 01}
+@@ 0x11af
+Scaglia un'onda di potere dal corpo.
+
+{7c}DATI{7d} 1 colpo{7e 83} {7e}Energia
+ 10{81 01 81}
+ {7c}CT
+ 5{81 01}
+@@ 0x11b3
+Contrattacco con la manopola.
+
+{7c}DATI{7d} 1 colpo{7e 7f 7e}Energia
+ 15{81 01}
+@@ 0x11b5
+Attacco di taglio dall'alto.
+
+{7c}DATI{7d} 1 colpo{7e 84} {7e}Energia
+ 30{81 01}
+@@ 0x11b7
+Un potente fendente orizzontale.
+
+{7c}DATI{7d} 1 colpo{7e 7f 7e}Energia
+ 25{81 01}
+@@ 0x11b9
+Una potente esplosione in avanti.
+
+{7c}DATI{7d} 8 colpi{7e 83} {7e}Energia
+ 80{81 01 81}
+ {7c}CT
+ 6{81 01}
+@@ 0x11c7
+Un fendente orizzontale.
+
+{7c}DATI{7d} 1 colpo{7e 7f 7e}Energia
+ 24{81 01}
+@@ 0x11c9
+Afferra il nemico con le unghie e lo tira a sé.
+
+{7c}DATI{7d} 1 colpo{7e 85} {7e}Energia
+ 30{81 01}
+@@ 0x11cb
+3 rapide stoccate.
+
+{7c}DATI{7d} 3 colpi{7e 7f 7f 82} {7e}Energia
+ 30{81 01}
+@@ 0x11cd
+Crea un tornado gigantesco che investe i nemici.
+
+{7c}DATI{7d}10 colpi{7e 83} {7e}Energia
+ 25{81 01 81}
+ {7c}CT
+ 2{81 01}
+@@ 0x11d1
+Fendente diagonale dall'alto.
+
+{7c}DATI{7d} 1 colpo{7e 84} {7e}Energia
+ 15{81 01}
+@@ 0x11d3
+Fendente verso l'alto.
+
+{7c}DATI{7d} 2 colpi{7e 82} {82} {7e}Energia
+ 24{81 01}
+@@ 0x11d5
+Affondo perforante in avanti.
+
+{7c}DATI{7d} 2 colpi{7e 7f 82} {7e}Energia
+ 20{81 01}
+@@ 0x11d7
+Sigilla il nemico nel vuoto e lo colpisce con una spada.
+
+{7c}DATI{7d} 2 colpi{7e 83} {7e}Energia
+ 30{81 01 81}
+ {7c}CT
+ 3{81 01}
+@@ 0x11db
+Un singolo attacco al nemico.
+
+{7c}DATI{7d} 1 colpo{7e 83} {7e}Energia
+ 5{81 01}
+@@ 0x11dd
+Scocca 2 frecce.
+
+{7c}DATI{7d} 2 colpi{7e 83} {7e}Energia
+ 10{81 01}
+@@ 0x11df
+Scaglia un raggio di luce.
+
+{7c}DATI{7d} 2 colpi{7e 83} {7e}Energia
+ 10{81 01}
+@@ 0x11e1
+Scocca frecce all'impazzata.
+
+{7c}DATI{7d} Circa 7 colpi{7e 83} {7e}Energia
+ 35{81 01 81}
+ {7c}CT
+ 2{81 01}
+@@ 0x11e5
+Fendente dal basso.
+
+{7c}DATI{7d} 1 colpo{7e 82} {7e}Energia
+ 10{81 01}
+@@ 0x11e7
+Colpo di corpo seguito da un fendente.
+
+{7c}DATI{7d} 2 colpi{7e 7f 84} {7e}Energia
+ 30{81 01}
+@@ 0x11e9
+Attacco di spada che sfrutta una forza verso il basso.
+
+{7c}DATI{7d} 1 colpo{7e 84} {7e}Energia
+ 15{81 01}
+@@ 0x11eb
+Attacco di taglio esplosivo.
+
+{7c}DATI{7d} 3 colpi{7e 83} {7e}Energia
+ 69{81 01 81}
+ {7c}CT
+ 5{81 01}
+@@ 0x11ef
+Doppio attacco con effetto veleno.
+
+{7c}DATI{7d} 2 colpi{7e 83} {7e}Energia
+ 2{81 01}
+@@ 0x11f1
+Scocca 3 frecce.
+
+{7c}DATI{7d} 3 colpi{7e 83} {7e}Energia
+ 3{81 01}
+@@ 0x11f3
+Singolo attacco infuocato.
+
+{7c}DATI{7d} 1 colpo{7e 82} {7e}Energia
+ 50{81 01}
+@@ 0x11f5
+Attacco consecutivo di Restrain Flame.
+
+{7c}DATI{7d} 9 colpi{7e 83} {7e}Energia
+ 72{81 01 81}
+ {7c}CT
+ 2{81 01}
+@@ 0x120d
+Attacco multiplo dall'alto.
+
+{7c}DATI{7d} 2 colpi{7e 7f 82} {7e}Energia
+ 6{81 01}
+@@ 0x120f
+Onda d'urto accompagnata da una lancia scagliata.
+
+{7c}DATI{7d} 1 colpo{7e 7f 7e}Energia
+ 15{81 01}
+@@ 0x1211
+Affondo rotante.
+
+{7c}DATI{7d} 3 colpi{7e 7f 7e}Energia
+ 24{81 01}
+@@ 0x1213
+Si trasforma in un drago.
+
+{7c}DATI{7d} 1 colpo{7e 83} {7e}Energia
+ 45{81 01 81}
+ {7c}CT
+ 3{81 01}
+@@ 0x1217
+Fendente a croce.
+
+{7c}DATI{7d} 2 colpi{7e 7f 82} {7e}Energia
+ 10{81 01}
+@@ 0x1219
+Colpisce il nemico alle spalle.
+
+{7c}DATI{7d} 1 colpo{7e 85} {7e}Energia
+ 5{81 01}
+@@ 0x121b
+Due giri su se stessi e un fendente.
+
+{7c}DATI{7d} 2 colpi{7e 7f 7f 7e}Energia
+ 24{81 01}
+@@ 0x121d
+Attacco con fendenti multipli.
+
+{7c}DATI{7d} 15 colpi{7e 83} {7e}Energia
+ 30{81 01 81}
+ {7c}CT
+ 2{81 01}
+@@ 0x122b
+Il colpo causa un'esplosione.
+
+{7c}DATI{7d} 1 colpo{7e 82} {7e}Energia
+ 15{81 01}
+@@ 0x122d
+Scaglia un'esplosione a ventaglio.
+
+{7c}DATI{7d} Circa 5 colpi{7e 83} {7e}Energia
+ 5{81 01}
+@@ 0x122f
+Scaglia un colpo violento contro il nemico.
+
+{7c}DATI{7d} Circa 7 colpi{7e 83} {7e}Energia
+ 7{81 01}
+@@ 0x1231
+Lancia al nemico piccoli ordigni che esplodono.
+
+{7c}DATI{7d} 1 colpo{7e 83} {7e}Energia
+ 30{81 01 81}
+ {7c}CT
+ 2{81 01}
+@@ 0x1235
+Fendente verso il basso e onda d'urto.
+
+{7c}DATI{7d} 1 colpo{7e 7f 7e}Energia
+ 15{81 01}
+@@ 0x1237
+Fendente verso il basso dall'alto.
+
+{7c}DATI{7d} 1 colpo{7e 82} {7e}Energia
+ 25{81 01}
+@@ 0x1239
+Affondo accompagnato da un attacco di energia.
+
+{7c}DATI{7d} 3 colpi{7e 7f 7e}Energia
+ 15{81 01}
+@@ 0x123b
+Imprigiona i nemici nel ghiaccio.
+
+{7c}DATI{7d} 8 colpi{7e 83} {7e}Energia
+ 58{81 01 81}
+ {7c}CT
+ 2{81 01}
+@@ 0x125d
+Affondo frontale.
+
+{7c}DATI{7d} 1 colpo{7e 7f 7e}Energia
+ 25{81 01}
+@@ 0x125f
+Fendente rotante.
+
+{7c}DATI{7d} 1 colpo{7e 82} {7e}Energia
+ 15{81 01}
+@@ 0x1261
+Fendente verso l'alto da dietro.
+
+{7c}DATI{7d} 1 colpo{7e 85} {7e}Energia
+ 10{81 01}
+@@ 0x1263
+Attacco di affondi consecutivi.
+
+{7c}DATI{7d} 7 colpi{7e 7f 7e}Energia
+ 56{81 01 81}
+ {7c}CT
+ 2{81 01}
+@@ 0x1267
+Fendente orizzontale.
+
+{7c}DATI{7d} 1 colpo{7e 7f 7e}Energia
+ 25{81 01}
+@@ 0x1269
+Scaglia un'onda d'urto.
+
+{7c}DATI{7d} 1 colpo{7e 7f 7e}Energia
+ 10{81 01}
+@@ 0x126b
+Aggira il nemico e lo trafigge alle spalle.
+
+{7c}DATI{7d} 2 colpi{7e 85} {85} {7e}Energia
+ 16{81 01}
+@@ 0x126d
+Una lancia di ghiaccio gigante sbuca dal suolo e trafigge.
+
+{7c}DATI{7d} 6 colpi{7e 7f 7e}Energia
+ 48{81 01 81}
+ {7c}CT
+ 3{81 01}
+@@ 0x127b
+Fendente verso l'alto.
+
+{7c}DATI{7d} 1 colpo{7e 82} {7e}Energia
+ 25{81 01}
+@@ 0x127d
+Fendente verso l'alto.
+
+{7c}DATI{7d} 1 colpo{7e 7f 7e}Energia
+ 15{81 01}
+@@ 0x127f
+Un singolo colpo di fulmine.
+
+{7c}DATI{7d} 12 colpi{7e 82} {7e}Energia
+ 36{81 01}
+@@ 0x1281
+Fendente verso l'alto, poi un colpo verso il basso.
+
+{7c}DATI{7d} 5 colpi{7e 83} {7e}Energia
+ 40{81 01 81}
+ {7c}CT
+ 3{81 01}
+@@ 0x128f
+Un pugno devastante dall'alto.
+
+{7c}DATI{7d} 1 colpo{7e 7f 7e}Energia
+ 30{81 01}
+@@ 0x1291
+Montante in salto.
+
+{7c}DATI{7d} 2 colpi{7e 82} {82} {7e}Energia
+ 30{81 01}
+@@ 0x1293
+Colpo verso il basso seguito da un colpo verso l'alto.
+
+{7c}DATI{7d} 3 colpi{7e 7f 82} {82} {7e}Energia
+ 30{81 01}
+@@ 0x1295
+Combo di colpi multipli e onda d'urto.
+
+{7c}DATI{7d}17 colpi{7e 83} {7e}Energia
+ 42{81 01 81}
+ {7c}CT
+ 2{81 01}
+@@ 0x1299
+Un singolo attacco esplosivo.
+
+{7c}DATI{7d} 2 colpi{7e 82} {7e}Energia
+ 20{81 01}
+@@ 0x129b
+Scocca frecce in 3 direzioni.
+
+{7c}DATI{7d} 3 colpi{7e 83} {7e}Energia
+ 9{81 01}
+@@ 0x129d
+Scaglia un'esplosione di energia.
+
+{7c}DATI{7d} 4 colpi{7e 83} {7e}Energia
+ 24{81 01}
+@@ 0x129f
+Attacco a frecce multiple. La mossa cambia con l'arma.
+
+{7c}DATI{7d} 12 colpi{7e 83} {7e}Energia
+ 85{81 01 81}
+ {7c}CT
+ 4{81 01 01}

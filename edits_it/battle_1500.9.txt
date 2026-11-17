@@ -56,3 +56,595 @@ Lucian
 Lezard
 @@ 0x0019
 Brahms
+@@ 0x0064
+Carcassa non morta
+@@ 0x0065
+Gatto infernale
+@@ 0x0066
+Cadavere strisciante
+@@ 0x0067
+Carnivoro
+@@ 0x0068
+Cadavere maledetto
+@@ 0x0069
+Cadavere folle
+@@ 0x006e
+Nebbia tombale
+@@ 0x006f
+Anima piangente
+@@ 0x0070
+Vapore senza vita
+@@ 0x0071
+Seminapericoli
+@@ 0x0072
+Cara delle acque
+@@ 0x0073
+Anima piangente
+@@ 0x0074
+Volto negativo
+@@ 0x0078
+Ghast
+@@ 0x0079
+Morto insepolto
+@@ 0x007a
+Squartatore
+@@ 0x007b
+Mukuro
+@@ 0x007c
+Fantasma grigio
+@@ 0x007d
+Teschio folle
+@@ 0x0082
+Cavaliere demone
+@@ 0x0083
+Razziacostole
+@@ 0x0084
+Mirmidone infero
+@@ 0x0085
+Spada incosciente
+@@ 0x0086
+Indomabile
+@@ 0x0087
+Canaglia criptica
+@@ 0x008c
+Taumaturgo 
+@@ 0x008d
+Necrofilo
+@@ 0x008e
+Signore dei maghi
+@@ 0x008f
+Lycurgus
+@@ 0x0090
+Dallas
+@@ 0x0091
+Gyne
+@@ 0x0092
+Signore dei maghi
+@@ 0x0096
+Banshee
+@@ 0x0097
+Terrore empio
+@@ 0x0098
+Venere eterea
+@@ 0x0099
+Morso del gelo
+@@ 0x009a
+Rancore profondo
+@@ 0x009b
+Vergine crepuscolare
+@@ 0x00a0
+Fuoco fatuo
+@@ 0x00a1
+Lucciola mostruosa
+@@ 0x00a2
+Bagliore fatale
+@@ 0x00a3
+Muschio luminoso
+@@ 0x00a4
+Luce pallida
+@@ 0x00a5
+Fotone errante
+@@ 0x00aa
+Necrophidius
+@@ 0x00ab
+Necrocentopiede
+@@ 0x00ac
+Larve
+@@ 0x00ad
+Strisciacarogne
+@@ 0x00b4
+Spettatore
+@@ 0x00b5
+Lume della vittima
+@@ 0x00b6
+Palmo di vetro
+@@ 0x00b7
+Occhio orrendo
+@@ 0x00b8
+Artiglio oculare
+@@ 0x00b9
+Palmo nocivo
+@@ 0x00be
+Vampiro minore
+@@ 0x00bf
+Vampiro minore
+@@ 0x00c0
+Vampiro minore
+@@ 0x00c1
+Vampiro minore
+@@ 0x00c2
+Vampiro minore
+@@ 0x00c3
+Vampiro minore
+@@ 0x00c8
+Vampiro anziano
+@@ 0x00c9
+Vampiro nobile
+@@ 0x00ca
+Barone demoniaco
+@@ 0x00cb
+Signore dei vampiri
+@@ 0x00cc
+Vampiro anziano
+@@ 0x00cd
+Vampiro anziano
+@@ 0x00d2
+Schiavo non morto
+@@ 0x00d3
+Mummia
+@@ 0x00d4
+Signore bendato
+@@ 0x00d5
+Vittima essiccata
+@@ 0x00d6
+Maestro d'agguato
+@@ 0x00dc
+Dente di Drago
+@@ 0x00dd
+Dente di Drago
+@@ 0x00de
+Spadaccino a 2 lame
+@@ 0x00df
+Ossa grigie
+@@ 0x00e0
+Guardiano ariete
+@@ 0x00e1
+Accusato
+@@ 0x00e6
+Sciamano drow 
+@@ 0x00e7
+Negromante
+@@ 0x00e8
+Goeta
+@@ 0x00e9
+Invocatore
+@@ 0x00ea
+Evocatore
+@@ 0x00eb
+Magus
+@@ 0x00f0
+Signore furioso 
+@@ 0x00f1
+Vittoria
+@@ 0x00f2
+Cavaliere d'argento
+@@ 0x00f3
+Soldato schivo
+@@ 0x00f4
+Adepto
+@@ 0x00f5
+Dragone strano
+@@ 0x00fa
+Grimlock
+@@ 0x00fb
+Nano delle caverne
+@@ 0x00fc
+Pungitore pigmeo
+@@ 0x00fd
+Bambola diabolica
+@@ 0x00fe
+Uomo dei rivi
+@@ 0x00ff
+Vagabondo astuto
+@@ 0x0104
+Succhiasangue
+@@ 0x0105
+Ladro di vita
+@@ 0x0106
+Cercamiserie
+@@ 0x0107
+Assassino zelante
+@@ 0x0108
+Ladro d'essenza
+@@ 0x0109
+Succhiavigore
+@@ 0x010e
+Pongo
+@@ 0x010f
+Pongo Robustus
+@@ 0x0110
+Yeti folle
+@@ 0x0111
+Sivapithecus
+@@ 0x0112
+Ramapithicus
+@@ 0x0113
+Mostro stritolatore
+@@ 0x0118
+Uomo lucertola
+@@ 0x0119
+Sovrano lucertola
+@@ 0x011a
+Yuan-Ti
+@@ 0x011b
+Umanoide rettile
+@@ 0x011c
+Salamandra
+@@ 0x0122
+Strisciapalude
+@@ 0x0123
+Melma salmastra
+@@ 0x0124
+Melma gelatinosa
+@@ 0x0125
+Grumo viscoso
+@@ 0x0126
+Budino oscuro
+@@ 0x0127
+Far
+@@ 0x012c
+Pianta trappola
+@@ 0x012d
+Rampicante corrosivo
+@@ 0x012e
+Pianta immonda
+@@ 0x012f
+Mescal
+@@ 0x0130
+Predatore verde
+@@ 0x0131
+Edera 
+@@ 0x0136
+Mandragola
+@@ 0x0137
+Orchidea succulenta
+@@ 0x0138
+Fiore d'ombra
+@@ 0x0139
+Ninfea
+@@ 0x013a
+Fiore della tortura
+@@ 0x013b
+Narciso del caos
+@@ 0x0140
+Vipera mostruosa
+@@ 0x0141
+Serpente costrittore
+@@ 0x0142
+Anfisbena
+@@ 0x0143
+Cobra reale
+@@ 0x014a
+Parassita
+@@ 0x014b
+Pettirosso ladro
+@@ 0x014c
+Parassita mostruoso
+@@ 0x0154
+Scarabeo gigante
+@@ 0x0155
+Scarabeo corsaro
+@@ 0x0156
+Scarabeo rinoceronte
+@@ 0x0157
+Cervo volante
+@@ 0x0158
+Scarabeo corazzato
+@@ 0x0159
+Scarabeo sacro
+@@ 0x015e
+Ragno velenoso
+@@ 0x015f
+Termite gigante
+@@ 0x0160
+Ragno tossico
+@@ 0x0161
+Ragno vedova
+@@ 0x0162
+Formica gigante
+@@ 0x0168
+Pesce delle correnti
+@@ 0x0169
+Orata gigante
+@@ 0x016a
+Carpa cornuta
+@@ 0x016b
+Finto alligatore
+@@ 0x016c
+Pinna contorta
+@@ 0x016d
+Lampreda serpe
+@@ 0x0172
+Uomo-branchia
+@@ 0x0173
+Capo uomo-branchia
+@@ 0x0174
+Anfibio
+@@ 0x0175
+Lanciere di bismuto
+@@ 0x0176
+Gelo maledetto
+@@ 0x017c
+Granchio gigante
+@@ 0x017d
+Aragosta rossa
+@@ 0x017e
+Mostro crostaceo
+@@ 0x017f
+Schivatore
+@@ 0x0180
+Granchio di terra
+@@ 0x0181
+Chiglia corazzata
+@@ 0x0186
+Roper
+@@ 0x0187
+Anemone
+@@ 0x0188
+Otyugh
+@@ 0x0189
+Tentacolo spinoso
+@@ 0x0190
+Arpia
+@@ 0x0191
+Arpia
+@@ 0x0192
+Arpia
+@@ 0x0193
+Arpia
+@@ 0x0194
+Arpia
+@@ 0x0195
+Arpia minore
+@@ 0x019a
+Golem di mithril
+@@ 0x019b
+Golem di ferro
+@@ 0x019c
+Golem d'argento
+@@ 0x019d
+Golem antico
+@@ 0x019e
+Orco
+@@ 0x019f
+Gigante del gelo
+@@ 0x01a4
+Kraken
+@@ 0x01a5
+Calamaro gigante
+@@ 0x01a6
+Re Kraken
+@@ 0x01a7
+Re calamaro
+@@ 0x01a8
+Nome ignoto
+@@ 0x01a9
+Grell
+@@ 0x01ae
+Coccatrice
+@@ 0x01b8
+Basilisco
+@@ 0x01b9
+Re basilisco
+@@ 0x01ba
+Nome ignoto
+@@ 0x01bb
+Nome ignoto
+@@ 0x01bc
+Nome ignoto
+@@ 0x01c2
+Servitore del Drago
+@@ 0x01c3
+Uomo lucertola
+@@ 0x01c4
+Dragonide
+@@ 0x01c5
+Servitore del Drago
+@@ 0x01cc
+Drago verdeggiante
+@@ 0x01cd
+Drago cremisi
+@@ 0x01ce
+Drago luminoso
+@@ 0x01cf
+Drago
+@@ 0x01d0
+Drago
+@@ 0x01d1
+Drago
+@@ 0x01d6
+Drago zombie
+@@ 0x01d7
+Drago zombie
+@@ 0x01d8
+Drago minore
+@@ 0x01d9
+Drago zombie
+@@ 0x01da
+Drago orbitale
+@@ 0x01db
+Veleno
+@@ 0x01e0
+Succube
+@@ 0x01e1
+Strega oscura
+@@ 0x01e2
+Schernitore
+@@ 0x01e3
+Imperatrice avida
+@@ 0x01ea
+Servo demoniaco
+@@ 0x01eb
+Demone minore
+@@ 0x01ec
+Inferiore
+@@ 0x01ed
+Beffadiavolo
+@@ 0x01ee
+Presagio di sventura
+@@ 0x01ef
+Cavaliere bestiale
+@@ 0x01f4
+Demone superiore
+@@ 0x01f5
+Demone "Vallan"
+@@ 0x01f6
+Demone "Wiead"
+@@ 0x01f7
+Ghoul
+@@ 0x01f8
+Demone "Zorkreyl"
+@@ 0x01fe
+Servo di Hel
+@@ 0x01ff
+Occhio inferiore
+@@ 0x0200
+Malocchio
+@@ 0x0201
+Sguardo infernale
+@@ 0x0202
+Mind Flayer
+@@ 0x0203
+Sguardo brutale
+@@ 0x0204
+Occhio del disastro
+@@ 0x0208
+Chimera
+@@ 0x0209
+Manticora
+@@ 0x020a
+Chimera eterna
+@@ 0x020b
+Razziatore
+@@ 0x0212
+Stregone saggio
+@@ 0x0213
+Stregone saggio
+@@ 0x0214
+Stregone saggio
+@@ 0x0215
+Stregone saggio
+@@ 0x0216
+Stregone saggio
+@@ 0x0217
+Lombert
+@@ 0x0218
+Stregone saggio
+@@ 0x0219
+Stregone saggio
+@@ 0x021a
+Stregone saggio
+@@ 0x021b
+Stregone saggio
+@@ 0x021c
+Signore oscuro
+@@ 0x021d
+Signore fantasma
+@@ 0x021e
+Abisso
+@@ 0x0226
+Bloodbane
+@@ 0x0227
+Drago tiranno
+@@ 0x0230
+Barbarossa
+@@ 0x0231
+Dullahan
+@@ 0x0232
+Signore Dullahan
+@@ 0x023a
+Genevieve
+@@ 0x023b
+Genevieve
+@@ 0x023c
+Lich
+@@ 0x0244
+Akhetamen
+@@ 0x0245
+Setkhefre
+@@ 0x024e
+Spettro
+@@ 0x024f
+Presenza
+@@ 0x0250
+Signore spettro
+@@ 0x0251
+Caronte
+@@ 0x0252
+Terrore empio
+@@ 0x0253
+Walther
+@@ 0x0258
+Surt
+@@ 0x0259
+Signore dei giganti
+@@ 0x0262
+Loki
+@@ 0x0263
+Ombra di Loki
+@@ 0x026c
+Fenrir
+@@ 0x026d
+Bestia del massacro
+@@ 0x0276
+Illusione
+@@ 0x0277
+Illusione
+@@ 0x0278
+Elementale del fuoco
+@@ 0x0279
+Elementale del fuoco
+@@ 0x027a
+Elementale del fuoco
+@@ 0x027b
+Elementale del fuoco
+@@ 0x0280
+Hrist
+@@ 0x0281
+Valchiria oscura
+@@ 0x028a
+Brahms
+@@ 0x028b
+Brahms
+@@ 0x0294
+Lezard Valeth
+@@ 0x0295
+Lezard Valeth
+@@ 0x029e
+Vanir
+@@ 0x029f
+Vanir
+@@ 0x02a0
+Vanir
+@@ 0x02a1
+Vanir
+@@ 0x02a8
+Gabriel Celeste
+@@ 0x02a9
+Iseria Queen
+@@ 0x02b2
+Criceto
+@@ 0x02b3
+Criceto zombie
+@@ 0x02b4
+Criceto di metallo
+@@ 0x02bc
+Freya
+@@ 0x02bd
+Freya
+@@ 0x02c6
+Lyseria
+@@ 0x02d0
+Gandar
+@@ 0x02da
+Regina formica 

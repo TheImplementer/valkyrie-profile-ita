@@ -145,6 +145,8 @@ Lucian
 Lezard Valeth
 @@ 0x0fb8
 Brahms
+@@ 0x0fb9
+Iseria Queen
 @@ 0x0fba
 Gabriel Celeste
 @@ 0x0fbb
@@ -155,6 +157,8 @@ Barbarossa
 Genevieve
 @@ 0x0fbe
 Bloodbane
+@@ 0x0fbf
+Spettro
 @@ 0x0fc0
 Surt
 @@ 0x0fc1

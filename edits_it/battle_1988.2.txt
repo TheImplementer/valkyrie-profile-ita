@@ -43,7 +43,7 @@ Oltre alla spada, Valkyrie
 @@ 0x07eb
 può equipaggiare anche l'arco.
 @@ 0x07ec
-Si può anche dividere con la Formazione.
+Si può dividere anche dalla Formazione.
 @@ 0x07ee
 Valkyrie
 @@ 0x07ef
@@ -84,23 +84,153 @@ Usando un oggetto d'attacco sui loro punti
 deboli, batteremo anche i più forti…
 @@ 0x080c
 Valkyrie
+@@ 0x080d
+「Un'arpia…
+@@ 0x080e
+Ostica da affrontare con la spada,
+@@ 0x080f
+ma facile da colpire e abbattere
+@@ 0x0810
+dalla distanza…
+@@ 0x0811
+Tecniche varie
+@@ 0x0812
+Si può attaccare a distanza con magie e archi,
+@@ 0x0813
+e tecniche come "Reazione d'Attesa" dei maghi.
+@@ 0x0814
+Per i guerrieri c'è anche "Lancio".
 @@ 0x0820
 Valkyrie
+@@ 0x0821
+「Sono abili a schivare gli attacchi.
+@@ 0x0822
+E contrattaccano sempre.
+@@ 0x0823
+…Quindi o una magia seguita
+@@ 0x0824
+da un attacco combinato, oppure
+@@ 0x0825
+sfruttiamo la loro scarsa precisione,
+@@ 0x0826
+attendiamo il contrattacco, poi colpiamo…
+@@ 0x0827
+Schivata e contrattacco
+@@ 0x0828
+Se l'attacco di un personaggio è schivato,
+@@ 0x0829
+la sua azione per quel turno finisce.
+@@ 0x082a
+Con la tecnica "Contrattacco",
+@@ 0x082b
+un alleato che schiva può contrattaccare.
+@@ 0x082c
+Non si può schivare due volte di fila.
 @@ 0x0848
 Valkyrie
+@@ 0x0849
+「Comanda i fuochi fatui, eh?
+@@ 0x084a
+Se esplodono sono un problema,
+@@ 0x084b
+meglio un solo attacco speciale…
+@@ 0x084c
+Quando i fuochi fatui esplodono,
+@@ 0x084d
+causano gravi danni.
+@@ 0x084e
+Esplodono quando hanno pochi HP.
 @@ 0x085c
 Valkyrie
+@@ 0x085d
+「Temevo che ne uscisse qualcosa,
+@@ 0x085e
+ma questo…
+@@ 0x085f
+Del resto, da acque putride…
+@@ 0x0860
+non nascono che bestie immonde!
+@@ 0x0861
+Caratteristiche delle armi
+@@ 0x0862
+I parametri più importanti di un'arma
+@@ 0x0863
+sono ATT# e ATT (potenza d'attacco).
+@@ 0x0864
+Il danno totale è lo stesso per le armi
+@@ 0x0865
+con "ATT 100·ATT# 3" e
+@@ 0x0866
+"ATT 300·ATT# 1", ma per la RID del nemico
+@@ 0x0867
+(riduzione danni), l'arma con il
+@@ 0x0868
+maggior numero di attacchi finirà
+@@ 0x0869
+per causare meno danni.
+@@ 0x086a
+Inoltre il danno dell'attacco speciale dipende
+@@ 0x086b
+dall'ATT dell'arma, quindi la seconda arma
+@@ 0x086c
+causerebbe il triplo dei danni.
+@@ 0x086d
+Tuttavia, anche un gran numero di attacchi
+@@ 0x086e
+ha i suoi vantaggi.
 @@ 0x0870
 Valkyrie
+@@ 0x0871
+「Ne ero certa: questo mostro
+@@ 0x0872
+ha il potere di tornare in vita…
 @@ 0x0884
 Valkyrie
+@@ 0x0885
+「Un Guerriero Dente di Drago, eh.
+@@ 0x0886
+Ma dentro c'è l'anima maledetta di un
+@@ 0x0887
+bambino impaurito. Va ucciso con cura,
+@@ 0x0888
+o potremmo commettere
+@@ 0x0889
+qualcosa di irreparabile…
 @@ 0x0898
 Lezard
+@@ 0x0899
+「Si aprano le porte di Nifleheim!
+@@ 0x089a
+Altre anime attendono!
 @@ 0x08ac
 Surt
+@@ 0x08ad
+「Sciocchi…!
+@@ 0x08ae
+Vi siete fatti ingannare dal vile
+@@ 0x08af
+tradimento di Odino...
+@@ 0x08b0
+Non vedete che ora sono io a percorrere
+@@ 0x08b1
+la via della giustizia?!
+@@ 0x08b2
+Il vostro sommo Odino non è altro
+@@ 0x08b3
+che un maestro di inganni e menzogne.
 @@ 0x08c0
 Valkyrie
+@@ 0x08c1
+「Non perdonerò…
 @@ 0x08c2
 Loki
+@@ 0x08c3
+「Perché mi odi tanto?
 @@ 0x08c4
 Valkyrie
+@@ 0x08c5
+「Per Lucian!…
+@@ 0x08c6
+Ma no, chi non riesco a perdonare…
+@@ 0x08c7
+sono io!

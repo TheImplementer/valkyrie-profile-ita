@@ -186,8 +186,26 @@ The Status screen (table 2181): 55 interface strings, with the stat abbreviation
 change on the Equipment and Party screens. Its labels and explanations use the small italic font
 (`docs/FONTS_AND_GLYPHS.md`), which had no accented letters until the build drew them in. The
 profile fields (Classe, Razza, Età, Rimpianti …) only show for recruited heroes, and were checked
-by reading the disc back. The characters' biographies (Triangle) and the skill names are still in
-English.
+by reading the disc back.
+
+![Four character biographies in Italian](notes/edit_proof/italian_bios.png)
+
+The characters' biographies (Triangle on the Status screen, messages `0x1130`-`0x1148`, one per
+character in roster order) are in Italian. They are drawn in the menu font in a box that grows
+upward with the line count, so length is not the limit: 7 lines fit. A line can be about 321 pixels
+wide before it runs under the character's sprite at the right. The Italian is at most 5 lines and
+288 pixels. Shown: Valkyrie, Kashell, Nanami and Lorenta, in a camp with three heroes put in the
+party by script (`docs/GLOSSARY.md` has the terms).
+
+![Profiles, skills and spells pages in Italian](notes/edit_proof/italian_profiles.png)
+
+The profile page (DOWN once on the Status screen) is Italian too. It shows class, race and birthplace
+(`0x1004`-`0x10E4`), with class and race agreeing with each hero's gender. The values are drawn
+over the portrait from x 80 and have room for the longest class, "Cavaliere pesante/Avventuriero"
+(163 px). Three labels used to run into their values: Luogo di nascita, Attacco speciale and Magie
+impostate. They are now Origine, Att. speciale and Magia attiva. Shown: Valkyrie's and Kashell's
+profiles, Kashell's skills page and Lorenta's spells page. The class names are also in the Transfer
+and Use Item tables (2177, 2179), whose screens that show them were not checked.
 
 ## The camp menu's tabs
 
@@ -259,6 +277,16 @@ message `2000 + n` and its help line at `3000 + n`:
   `0x1A8E` on (`Prime-Elixir`, `Silver-Sallet`, `Conversion-Gem` …). No camp program loads a message
   id near it: the code only adds item numbers to `0x7D0` and `0xBB8`. It is left in English.
 
+![Use Item in a battle, in Italian](notes/edit_proof/italian_battle_items.png)
+
+The battle's own copy of the list, in a fight started by script (encounter `0x3FF`, items 1-3
+granted): Elisir, Rimedio and Piuma dell'Unione with their table 1806.1 help lines. Rimedio's second
+line is the longest of the three and just fits the box. Still English on this screen: the prompt
+before the list, "Who will use?" (`0x6E` in table 1500.7), and the "Item Name" and "Number"
+headers, which no text table holds (they look like pictures, like the DME gauge). Until TinyPSX's
+fix D-058 the emulator froze when Use Item was chosen, so these lines were first checked only by
+reading the disc back.
+
 ## Skills and abilities
 
 The same rule as for items (`docs/GLOSSARY.md`, "Skills and abilities"): skills that say what they do
@@ -277,19 +305,64 @@ Arngrim's Ability menu with the description of High Wind and its DATA strip.
 * **Ability table 2178:** each attack is a pair of messages, its name (even id) and a description
   (odd id) whose second line is the DATA strip, drawn with the table's own glyphs `{62}`-`{6B}`.
   The spell names (`0x1770` on) and help lines (`0x1838` on) are also in Use Item.
+* **The other copies of the descriptions** (`0x119F`-`0x129F`, 68 of them) are in Transfer, Use Item,
+  Status and Party (2177, 2179, 2181, 2182), each with its own glyph codes. Use Item also lays out
+  the DATA strip on several lines. The link can't reach them, because their English differs from the
+  Ability table's in those codes, so each table's edit file lists them. They carry the Ability table's
+  Italian word for word, with each text piece put back between that table's own codes and line breaks.
+  The widest line is 293 pixels, as in the Ability menu, against 295 for the English. No screen was
+  found that shows these copies: the Status screen's Triangle shows the biography instead. They were
+  checked by reading the built disc back.
 * **Battle table 1500.7:** the characters' special attacks (`0x200`-`0x218`), the spells (`0x384`) and
-  Great Magic (`0x3B6`) are listed unchanged, so they count as done; the enemy attacks (`0x514` on)
-  wait for the monster names.
+  Great Magic (`0x3B6`) are listed unchanged, so they count as done. The enemy attacks (`0x514`-`0x597`)
+  are Italian (`docs/GLOSSARY.md`, "Enemy attacks"). Their banner is sized to the text: a test build
+  gave the Harpy's Reflect Sorcery (`0x39A`) a 200-pixel string, and the banner grew to fit it.
+
+![An enemy attack banner in Italian, and the width test](notes/edit_proof/italian_enemy_attacks.png)
+
+Top: the Dragon Zombie's Inferno Breath in fight `0x416`, "Soffio infernale". Bottom: the width test.
+* **Monster names, battle table 1500.9** (`0x64`-`0x2DA`): Italian, or kept where they are proper
+  names or have no Italian form (`docs/GLOSSARY.md`, "Monster names"). The TARGET label's panel grows
+  with the name, so a name may be as wide as the widest English one, 111 pixels. That was checked by
+  putting the widest Italian name, Cadavere strisciante, and Dragon-Tooth Warrior on the Insane Yeti
+  of fight `0x415` in two test builds. The six monster names that are also speaker labels in scenes
+  (Raver Lord, Dark Lord, Drow Shaman, Hel Servant, Lesser Dragon, Wraith; 11 records) were changed
+  to match, and the scene build reports the same box notes as before.
+
+![Monster names in the battle's TARGET label](notes/edit_proof/italian_monster_names.png)
+
+Fights started by script: Arpia (`0x42C`), Drago zombie (`0x416`), Yeti folle (`0x415`), Pongo,
+Vampiro minore (`0x401`, `0x405`), and the test build with Cadavere strisciante.
 * **Seeing a recruit's screens:** a new game has only Valkyrie, a goddess with no traits. For the
   check above, Arngrim was put in the party by script: the roster (the pointer at `0x8007F1E4`,
   25 records of 236 bytes, Arngrim the third) marks a member in an active slot with byte +217 = 2, and
   the party slots are the bytes at ctx + `0x39C` (`0x801F6278`), each a roster index + 1.
 
+## Battle hints
+
+![Battle hints and boss lines in Italian](notes/edit_proof/italian_battle_hints.png)
+
+File 1988 holds Valkyrie's hints at the start of some fights and three bosses' lines. Its text is
+table 1988.2. Part 0 is the program that shows it: code, then from offset `0x1360` (decompressed) a list of
+10-byte records, an op and four halfwords. Op `1` opens a box (x, y, width, height), op `2` prints
+one message id as one line, and op `0x63` ends a hint. Op `7` names a voice clip. A hint has a speech
+box at x 20 (200 to 230 wide) and then a tutorial box with a title (208 to 272 wide). Lezard,
+Surt and Loki have their own boxes, 140 to 228 wide.
+
+* **The box doesn't grow:** a line wider than its box is cut at the edge. The English reaches the
+  box width minus 10 pixels, so that's the limit for a line. Each id is one line, so a hint can't
+  gain lines. Eleven Italian lines were shortened to fit (`docs/GLOSSARY.md`, "Battle hints").
+* **Which fights load it:** the story battles pushed before `func_09e7` in scene scripts. Started by
+  script (the `run.py` recipe, reading Setloc 18:13:36 with `--trace-cdrom`), these load file 1988:
+  `0x3FE` (Dragon Servants), `0x415` (beasts), `0x416` (Dragon Zombie), `0x42C` (Harpy), `0x43B`
+  (foul water), `0x44B` (a monster that revives), `0x44C` (Dragontooth Warrior), `0x44D` (Lezard),
+  `0x45A` (Surt) and `0x45B` (Loki). The hints about sorcerers (`0x7E4`), dodging (`0x820`) and
+  Will-O'-Wisps (`0x848`) belong to fights not found among the scenes' battles. They were only
+  measured against their boxes.
+* **Shown:** Guard Crush, Various Skills, the weapons lesson, the Item command, Surt and Lezard.
+  The Loki fight stops at an empty box after Valkyrie's first line, on the English disc too, so its
+  other three lines weren't seen.
+
 ## Not known yet
 
-* **The battle item list on screen:** in the TinyPSX emulator, choosing Use Item in a battle started
-  by a script freezes the game, on the English disc as well. So the battle versions of the item
-  names and help lines were only checked by reading the disc back. The camp menu shows the same item
-  names, and its own help lines, on screen (`notes/edit_proof/italian_camp_items.png`).
-* **What triggers a battle hint:** the hints (table 1988) are loaded only when a battle needs one.
-  None of the encounters `0x3FF` to `0x40F`, the battle tutorial's, loads it.
+* **The three missing hint fights:** which battles show the hints `0x7E4`, `0x820` and `0x848`.

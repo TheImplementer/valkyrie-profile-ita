@@ -94,8 +94,8 @@ Speaker labels that are roles are translated: Agente, Ragazza, Cameriera, Capocu
 Soldato, Re, Capitano (Knight Captain), Donna, Giovane, Anziano / Anziana, Avventuriero, Uomo, Bambino,
 Guardia, Guerriero, Esploratore, Viaggiatore, Superiore, Cittadino, Locandiere, Moglie, Padre / Madre adottiva,
 Padre di Fuyuki, Marito di Lorenta, Assassino, Sindaco, Sacerdote, Fanatico, Demone, Servo demoniaco, Mago / Maga,
-Giovane arciere, Voce di donna, Spadaccina dall'elmo piumato. Samurai stays. Monster names used as labels stay English
-(Raver Lord, Dark Lord, Drow Shaman, Hel Servant, Lesser Dragon).
+Giovane arciere, Voce di donna, Spadaccina dall'elmo piumato. Samurai stays. Monster names used as labels follow
+the battle names (see "Monster names"): Signore furioso, Signore oscuro, Sciamano drow, Servo di Hel, Drago minore, Spettro.
 
 ## Forms of address
 
@@ -270,6 +270,109 @@ these were shortened:
 | Maternal; Hates kids; Hates cold | Istinto materno; Odia i bambini; Odia il freddo | Maternità; Odia i bimbi; Odia il gelo |
 | Stubborn; Romantic; Outgoing; Flashy; Egotistical | Testardaggine; Romanticismo; Estroversione; Esibizionismo; Egocentrismo | Ostinazione; Idealismo (beside Realismo); Socievolezza; Vistosità; Egotismo |
 
+## Character biographies (`menu_2181.txt`, `0x1130`-`0x1148`)
+
+The Status screen's Triangle box, one per character in roster order (Valkyrie, Freya, Arngrim …
+Brahms). Written in the third person, in the past or present as the English is. A line may be up to
+321 pixels (the widest English line; past it the text runs under the character's sprite) and the box
+grows upward, so up to 7 lines fit; the Italian uses at most 5, 288 pixels wide.
+
+| English | Italian | Note |
+|---|---|---|
+| One of 3 Goddesses of Fate; a mid-level goddess of the 6th rank | una delle tre dee del fato; dea di medio livello, del sesto grado | As in scene 0x1C. |
+| Goddess of Fertility | Dea della Fertilità | Freya. Odin → Odino in a sentence. |
+| Dragon Gem; Necromancy | Gemma del Drago; negromanzia | Aelia, Lezard. |
+| the warrior troupe "100 Demons" | la compagnia di guerrieri "Cento Demoni" | Suo. No-Dachi, a weapon, stays English. |
+| Flenceburg Sorcery Academy; Head Mistress | Accademia di Stregoneria di Flenceburg; Preside | Lorenta, Mystina. |
+| King of the Vampires and Lord of the Undead | Re dei Vampiri e Signore dei Non Morti | Brahms. |
+| a maiden of the Mermaid people | fanciulla del popolo delle sirene | Yumei. |
+
+## Character profiles (`menu_2181.txt`, `0x1004`-`0x10E4`)
+
+The Status screen's second page: class (`0x1004`+i), race (`0x10CC`+i) and birthplace (`0x1068`+i),
+one entry per character in the same roster order as the biographies. Since each entry belongs to one
+character, class and race agree with that character's gender. Place names and the `{6b}Name{6c}` entries
+are listed unchanged.
+
+| English | Italian | Note |
+|---|---|---|
+| Chooser of the Slain; Giver of Life | Colei che sceglie i caduti; Colei che dona la vita | Valkyrie, Freya. |
+| Heavy Knight; Swordsman; Spearman; Archer | Cavaliere pesante; Spadaccino / Spadaccina; Lanciere / Lanciera; Arciere | The battle class, before the slash. |
+| Sorceress; Sorcerer; Wizard; Samurai | Maga; Mago; Stregone; Samurai | Wizard is Gandar, a "stregone" in his biography. |
+| Merc, Princess, Knight, Head Guard, Soldier, Adventurer | Mercenario, Principessa, Cavaliere, Capo delle guardie, Soldato, Avventuriero / Avventuriera | Jayle stays "Cavaliere". |
+| Maiden (Nanami), Seeress, Thief, Teacher, Researcher, Song-Maiden | Sacerdotessa, Veggente, Ladro, Insegnante, Ricercatrice, Fanciulla del canto | |
+| Officer; Necromancer; Leader of the Undead | Ufficiale; Negromante; Signore dei Non Morti | As in Brahms' biography. |
+| Aesir; Human; Mermaid; Dragonian; Vampire | Asi; Umano / Umana; Sirena; Draconiana; Vampiro | Asi as in the dialogue (gli Asi). |
+| unknown (birthplace) | sconosciuta | Agrees with the label, Origine. |
+
+Three labels on these pages were shortened because their value starts at a fixed place: Birthplace
+`0xB5` Luogo di nascita → **Origine**, Special Attack `0xD9` Attacco speciale → **Att. speciale**,
+Magic Setup `0xCE` Magie impostate → **Magia attiva**. The labels are drawn in the small italic font,
+about 1.2 times as wide as the menu font `build` measures with, so keep them no wider than the English.
+
+## Battle hints and boss lines (`battle_1988.2.txt`)
+
+Valkyrie's hint at the start of some fights (a speech box), followed by a tutorial box with a title, and
+the boss lines of Lezard, Surt and Loki. Valkyrie uses *noi* for the party. A tutorial uses *tu* or an
+impersonal *si*, as the earlier hints do. Surt gives the party *voi*. Each line is one message, and
+every box has a fixed width (see `docs/MENU_AND_BATTLE_TEXT.md`), so a line may be at most
+the box's width minus 10 pixels, which the English also reaches.
+
+| English | Italian | Note |
+|---|---|---|
+| Harpy; Will-O'-Wisps; Dragontooth Warrior | un'arpia; i fuochi fatui; Guerriero Dente di Drago | Monster names said in speech are translated, like Servitori del Drago. The target label says Arpia, Fuoco fatuo, Dente di Drago. |
+| Various Skills; Dodge and counter-attack; Weapons Characteristics | Tecniche varie; Schivata e contrattacco; Caratteristiche delle armi | Tutorial titles. |
+| "Wait Reaction", "Throw", "Counter" | "Reazione d'Attesa", "Lancio", "Contrattacco" | The Skill menu's Italian names. |
+| ATK#, ATK, RDM; "ATK 100·ATK# 3" | ATT#, ATT, RID; "ATT 100·ATT# 3" | As the stat abbreviations. |
+| Open the gates of Nifleheim! | Si aprano le porte di Nifleheim! | Lezard. |
+| Your Lord Odin | Il vostro sommo Odino | Surt. |
+
+## Monster names (`battle_1500.9.txt`, `0x64`-`0x2DA`)
+
+The name in the battle's TARGET label. The label's panel grows with the name, so the limit is the
+widest English name, "Dragon-Tooth Warrior" at 111 pixels.
+
+* **Italian:** descriptive names, adjective after the noun (Vampiro minore, Cadavere strisciante,
+  Scarabeo corazzato). Where Italian has its own word, it's used: Arpia, Basilisco, Coccatrice,
+  Manticora, Chimera, Salamandra, Mandragola, Succube, Orco (Ogre), Spettro (Wraith), Mummia,
+  Fuoco fatuo, Malocchio (Evil Eye), Cervo volante (Stag Beetle), Ninfea, Caronte (Charon).
+* **Unchanged:** proper names (Surt, Loki, Fenrir, Hrist, Brahms, Lezard Valeth, Barbarossa,
+  Genevieve, Akhetamen, Setkhefre, Walther, Lycurgus, Dallas, Gyne, Bloodbane, Iseria Queen, Gabriel
+  Celeste, Lombert, Freya, Lyseria, Gandar); the creatures with no Italian name, mostly from D&D
+  (Otyugh, Grell, Grimlock, Roper, Yuan-Ti, Mind Flayer, Necrophidius, Ghast, Ghoul, Lich, Banshee,
+  Dullahan, Kraken, Mukuro, Mescal, Far); the ape genera (Pongo, Pongo Robustus, Sivapithecus,
+  Ramapithicus); Magus; Vanir (the race is "i Vani", but one enemy can't be "Vano").
+
+| English | Italian | Note |
+|---|---|---|
+| Lesser / Elder / Noble Vampire; Vampire Lord | Vampiro minore / anziano / nobile; Signore dei vampiri | As in the dialogue. |
+| Dragon Servant; Demon Servant; Hel Servant | Servitore del Drago; Servo demoniaco; Servo di Hel | |
+| Dragon-Tooth Warrior; Two-Sword Fencer; Vantage Master | Dente di Drago; Spadaccino a 2 lame; Maestro d'agguato | Shortened: the full forms ran past 111 px. |
+| Necromancer, Goetic, Evoker, Conjurer, Thaumaturgist | Negromante, Goeta, Invocatore, Evocatore, Taumaturgo | |
+| Demon "Vallan" | Demone "Vallan" | Also Wiead, Zorkreyl. |
+| Dark Lord; Raver Lord; Wraith Lord; Phantom Lord | Signore oscuro; Signore furioso; Signore spettro; Signore fantasma | |
+| Name Unknown | Nome ignoto | |
+| Wraith (name list, menu 6 `0xFBF`) | Spettro | Iseria Queen there stays. |
+
+## Enemy attacks (`battle_1500.7.txt`, `0x514`-`0x597`)
+
+The banner shown when an enemy acts. It grows with the text, so its width doesn't limit a name.
+Unlike the player's named techniques and spells, which stay English, enemy attacks are translated like
+the monster names. The exception is an attack that shares a player spell's name: Poison Blow stays.
+
+| English | Italian | Note |
+|---|---|---|
+| Inferno Breath; Death Fire; Hellfire | Soffio infernale; Fuoco mortale; Fuoco infernale | |
+| Poison / Paralyze / Stone / Cursed / Drain Shock | Shock velenoso / paralizzante / di pietra / maledetto / assorbente | |
+| Double / Triple Slash; Critical Slash; Moon Slash | Doppio / Triplo fendente; Fendente critico; Fendente lunare | |
+| Double / Random Crunch | Doppio morso / Morso casuale | |
+| Guard Cancel; Equipment Break | Annulla guardia; Spezza armi | Guard Crush (hint) is Sfonda Guardia. |
+| Help Me!! | Aiuto!! | |
+| Dragon Orb | Sfera del Drago | As the item. |
+| Extension; Extension Force | Estensione; Forza estesa | `0x596` and `0x597` keep their extra glyph codes after the name. |
+| Whisp | Fiammella | The Will-O'-Wisp's attack; the monster is Fuoco fatuo. |
+| Poison Blow | unchanged | A player spell. |
+
 ## World map (`worldmap.txt`)
 
 | English | Italian | Note |
@@ -321,5 +424,4 @@ shortened until they fit on screen:
   * "Scenario Error 1" (system record 12, a debug message).
   * The debug menu, scene 0x0 (Japanese developer text in raw glyph codes).
 
-  Still left out, so they count as not done: "Iseria Queen" and "Wraith" in the name list (they may
-  need translating), LV and CT, and the monster names.
+  Still left out, so they count as not done: LV and CT.

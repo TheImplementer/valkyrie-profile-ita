@@ -61,7 +61,7 @@ Valore eroico
 @@ 0x00b4
 {81 80 07}Sesso
 @@ 0x00b5
-{81 80 07}Luogo di nascita
+{81 80 07}Origine
 @@ 0x00b6
 {81 80 01}Rimpianti
 @@ 0x00b7
@@ -81,7 +81,7 @@ Maledizione
 @@ 0x00cd
 {81 80 07}Tecniche impostate
 @@ 0x00ce
-{81 80 07}Magie impostate 
+{81 80 07}Magia attiva
 @@ 0x00cf
 {81 80 06}(Turni di carica)
 @@ 0x00d0
@@ -120,3 +120,663 @@ magie
 {81 80 07}PRE
 @@ 0x016c
 {81 80 07}RES
+@@ 0x1130
+Una delle tre dee del fato, il cui compito è decidere
+
+il destino delle persone dopo la morte.
+
+Dea di medio livello, del sesto grado,
+
+il suo vero nome è Lenneth Valkyrie.
+@@ 0x1131
+Venerata come Dea della Fertilità, Freya appare come
+
+una giovane e bella donna bionda. Ma per vero potere
+
+è seconda solo a Odino, e comanda tanto sulla Vita
+
+quanto sulla Morte.
+@@ 0x1132
+Un mercenario della regione di Artolia.
+
+Dotato della vera abilità di un guerriero e di una
+
+buona dose di fortuna, con la spada non ha rivali.
+
+In battaglia combatte come un demone, e abbatte
+
+i nemici come una falce nel grano maturo.
+@@ 0x1133
+Prima principessa di Artolia.
+
+Dietro la sua immagine pura e dolce si nasconde una
+
+principessa viziata, dal cuore d'acciaio e dalla
+
+lingua tagliente come un rasoio.
+@@ 0x1134
+Un giovane soldato di Artolia che segue le orme del
+
+padre cavaliere. Di nobile stirpe, Lawfer ha dovuto
+
+lottare contro le aspettative riposte in lui e insieme
+
+misurarsi con il più abile Arngrim.
+@@ 0x1135
+Un nobile che ricopre un'alta carica a Gerabellum.
+
+Con le sue doti di comando si è guadagnato la lealtà
+
+di cavalieri e popolani. Difende l'equità e la giustizia
+
+in un regno corrotto e decadente.
+@@ 0x1136
+Un giovane gentile di Crell Monferaigne, costretto al
+
+servizio militare dal suo paese fanatico e ipocrita.
+
+È una tragedia che un animo così pacifico venga
+
+mandato a morire sui campi di battaglia.
+@@ 0x1137
+Sdegnando ogni profitto e guadagno personale, viaggia
+
+per il mondo in cerca di avventura. Brandisce una spada
+
+enorme per prepararsi all'incontro con una certa
+
+persona. Non disprezza chi combatte per i propri ideali.
+@@ 0x1138
+Cavaliere di Crell Monferaigne, fu scelto per la sua
+
+abilità per compiere un assassinio. Quando la cosa
+
+divenne pubblica, si sacrificò piuttosto che tradire
+
+il suo paese, ma il suo sacrificio fu accolto con
+
+disprezzo dai suoi compatrioti.
+@@ 0x1139
+Morti entrambi i genitori, fu adottata da un sacerdote
+
+shintoista e scelta per ereditare i doveri del santuario.
+
+L'educazione ricevuta l'ha resa onesta e pronta al
+
+sacrificio, ma anche fatalista e rassegnata ai capricci
+
+del destino.
+@@ 0x113a
+Fanciulla del popolo delle sirene, può assumere forma
+
+umana quando lo desidera. È cresciuta diffidando
+
+della gente, ma cerca sempre di mostrarsi allegra.
+
+La sua è una vita piuttosto triste e tragica.
+@@ 0x113b
+Non si sa se per scelta o per destino, ma grazie al
+
+potere della Gemma del Drago può trasformarsi in
+
+drago. Però non si è ancora accorta che il suo mutare
+
+forma, una sorta di negromanzia, la sta privando
+
+della sua stessa identità.
+@@ 0x113c
+Giovane della terra di Yamato, combatte con due
+
+spade in uno stile tutto suo. Il suo scopo è trovare
+
+una medicina miracolosa che guarisca dalla cecità
+
+l'amata sorella Ai. Vive soltanto per lei, a cui
+
+tiene più di ogni altra cosa.
+@@ 0x113d
+Una donna nata con il dono della profezia.
+
+Si dice che discenda da Mimir, dea dei Vani.
+
+Disprezza il proprio potere e lo ha sigillato
+
+dentro di sé.
+@@ 0x113e
+Un ladro che lavora da solo, avendo rifiutato di
+
+entrare nella Gilda dei Ladri. La sua abilità è
+
+indiscutibile, ma il suo singolare talento nel farsi
+
+nemici lo rende impopolare. Ha un noto debole
+
+per le donne e per il vino.
+@@ 0x113f
+Di quest'uomo misterioso non si sa nulla.
+
+Salvato da Lemia con il rituale del Trasferimento
+
+d'Anima, cercò di salvarla con la stessa legge, ma
+
+le sue preghiere restarono inascoltate e la sua anima
+
+fu liberata.
+@@ 0x1140
+Preside dell'Accademia di Stregoneria di Flenceburg.
+
+Tanto intelligente e raffinata quanto amata, ebbe però
+
+per qualche motivo problemi con i suoi allievi, come
+
+dimostra il fatto che uno di loro la uccise per
+
+ragioni sconosciute.
+@@ 0x1141
+Diplomatasi prima del suo corso all'Accademia di
+
+Stregoneria di Flenceburg, vi ha lavorato come
+
+ricercatrice. È una perfezionista che odia perdere e
+
+ammette di essere un'egocentrica narcisista con
+
+scarse capacità di autocritica.
+@@ 0x1142
+Cresciuta fin da piccola per essere una fanciulla del
+
+canto, il cui compito era infondere coraggio ai
+
+guerrieri in battaglia, aveva perso ogni emozione
+
+umana. Ma le grida e le sofferenze della gente
+
+l'hanno cambiata.
+@@ 0x1143
+Per entrare nell'ordine dei cavalieri, si travestì
+
+da uomo. Ma quale terribile segreto potrebbe spingere
+
+una donna gentile a un gesto simile? Forse cerca
+
+vendetta contro qualcuno tra i cavalieri?
+@@ 0x1144
+Giovane membro della compagnia di guerrieri
+
+"Cento Demoni". Un tempo era solo un assassino
+
+crudele e spietato, che brandiva il suo enorme
+
+No-Dachi per la propria giustizia. Ma nel gruppo
+
+ha trovato un senso più profondo della giustizia.
+@@ 0x1145
+Uno stregone al servizio dell'esercito di Villnore.
+
+Astuto e ambizioso, la sua via verso il potere è
+
+lastricata di cadaveri. È un cattivo classico sotto
+
+ogni aspetto, ma il suo potere non ha rivali.
+
+Si vanta di non aver mai perso una battaglia.
+@@ 0x1146
+Un giovane di un villaggio povero nella regione di
+
+Villnore. Tormentato per anni dalla tragica morte
+
+della sua amica d'infanzia, rivede in Valkyrie le
+
+tracce di lei. Forte in battaglia, ma privo del vero
+
+spirito di un eroe.
+@@ 0x1147
+Abile alchimista e cultore dell'arte oscura della
+
+negromanzia. Dietro la sua placida facciata si cela
+
+un genio folle, per cui tutti gli altri sono semplici
+
+pedine da muovere sulla scacchiera che si è
+
+costruito da sé.
+@@ 0x1148
+Re dei Vampiri e Signore dei Non Morti, ha combattuto
+
+molte battaglie contro Odino. Ha preso lo spirito di
+
+Silmeria, una delle tre dee del fato, ma il suo senso
+
+dell'onore gli impedisce di fare del male a un ostaggio.
+@@ 0x1004
+Colei che sceglie i caduti
+@@ 0x1005
+Colei che dona la vita
+@@ 0x1006
+Cavaliere pesante/Mercenario
+@@ 0x1007
+Maga/Principessa
+@@ 0x1008
+Lanciere/Cavaliere
+@@ 0x1009
+Spadaccino/Capo delle guardie
+@@ 0x100a
+Arciere/Soldato
+@@ 0x100b
+Cavaliere pesante/Avventuriero
+@@ 0x100c
+Arciere/---
+@@ 0x100d
+Maga/Sacerdotessa
+@@ 0x100e
+Maga/---
+@@ 0x100f
+Lanciera/Avventuriera
+@@ 0x1010
+Samurai/---
+@@ 0x1011
+Maga/Veggente
+@@ 0x1012
+Arciere/Ladro
+@@ 0x1013
+Cavaliere pesante/Avventuriero
+@@ 0x1014
+Maga/Insegnante
+@@ 0x1015
+Maga/Ricercatrice
+@@ 0x1016
+Maga/Fanciulla del canto
+@@ 0x1017
+Spadaccina/Cavaliere
+@@ 0x1018
+Samurai/---
+@@ 0x1019
+Stregone/Ufficiale
+@@ 0x101a
+Spadaccino/---
+@@ 0x101b
+Mago/Negromante
+@@ 0x101c
+Signore dei Non Morti
+@@ 0x1040
+{6b}Nanami{6c}
+@@ 0x1041
+{6b}Yumeru{6c}
+@@ 0x1043
+{6b}Jun{6c}
+@@ 0x1049
+{6b}Shiho{6c}
+@@ 0x104b
+{6b}Suo{6c}
+@@ 0x1068
+Valhalla
+@@ 0x1069
+Valhalla
+@@ 0x106a
+Artolia
+@@ 0x106b
+Artolia
+@@ 0x106c
+Artolia
+@@ 0x106d
+Gerabellum
+@@ 0x106e
+Crell Monferaigne
+@@ 0x106f
+Gerabellum 
+@@ 0x1070
+Crell Monferaigne
+@@ 0x1071
+Yamato
+@@ 0x1072
+Yamato
+@@ 0x1073
+Gerabellum 
+@@ 0x1074
+Yamato
+@@ 0x1075
+sconosciuta
+@@ 0x1076
+Villnore
+@@ 0x1077
+sconosciuta
+@@ 0x1078
+Flenceburg
+@@ 0x1079
+Flenceburg
+@@ 0x107a
+Yamato
+@@ 0x107b
+Gerabellum 
+@@ 0x107c
+Yamato
+@@ 0x107d
+Villnore
+@@ 0x107e
+Villnore
+@@ 0x107f
+Flenceburg
+@@ 0x1080
+sconosciuta
+@@ 0x10cc
+Asi
+@@ 0x10cd
+Asi
+@@ 0x10ce
+Umano
+@@ 0x10cf
+Umana
+@@ 0x10d0
+Umano
+@@ 0x10d1
+Umano
+@@ 0x10d2
+Umano
+@@ 0x10d3
+Umano
+@@ 0x10d4
+Umano
+@@ 0x10d5
+Umana
+@@ 0x10d6
+Sirena
+@@ 0x10d7
+Draconiana
+@@ 0x10d8
+Umano
+@@ 0x10d9
+Umana
+@@ 0x10da
+Umano
+@@ 0x10db
+Umano
+@@ 0x10dc
+Umana
+@@ 0x10dd
+Umana
+@@ 0x10de
+Umana
+@@ 0x10df
+Umana
+@@ 0x10e0
+Umano
+@@ 0x10e1
+Umano
+@@ 0x10e2
+Umano
+@@ 0x10e3
+Umano
+@@ 0x10e4
+Vampiro
+@@ 0x119f
+Fendente dall'alto.
+
+{6d}DATI{6e} 1 colpo{6f 70 6f}Energia{71}25{72}
+@@ 0x11a1
+Spazzata di gamba in scivolata.
+
+{6d}DATI{6e} 1 colpo{6f 73 6f}Energia{71}15{72}
+@@ 0x11a3
+Attacco di taglio dall'alto.
+
+{6d}DATI{6e} 2 colpi{6f 73 73 6f}Energia{71}24{72}
+@@ 0x11a5
+Danza folle. La mossa cambia con l'arma.
+
+{6d}DATI{6e} 9 colpi{6f 74 6f}Energia{71}60{72}{81 80 01}{6d}CT{71}4{72}
+@@ 0x11a9
+Vampata che si apre a ventaglio in avanti.
+
+{6d}DATI{6e} 6 colpi{6f 70 6f}Energia{71}24{72}
+@@ 0x11ab
+Un'esplosione di energia dall'aria.
+
+{6d}DATI{6e} 3 colpi{6f 75 6f}Energia{71}21{72}
+@@ 0x11ad
+Scaglia un'ondata di potere in avanti.
+
+{6d}DATI{6e} 5 colpi{6f 70 6f}Energia{71}50{72}
+@@ 0x11af
+Scaglia un'onda di potere dal corpo.
+
+{6d}DATI{6e} 1 colpo{6f 74 6f}Energia{71}10{72}{81 80 01}{6d}CT{71}5{72}
+@@ 0x11b3
+Contrattacco con la manopola.
+
+{6d}DATI{6e} 1 colpo{6f 70 6f}Energia{71}15{72}
+@@ 0x11b5
+Attacco di taglio dall'alto.
+
+{6d}DATI{6e} 1 colpo{6f 75 6f}Energia{71}30{72}
+@@ 0x11b7
+Un potente fendente orizzontale.
+
+{6d}DATI{6e} 1 colpo{6f 70 6f}Energia{71}25{72}
+@@ 0x11b9
+Una potente esplosione in avanti.
+
+{6d}DATI{6e} 8 colpi{6f 74 6f}Energia{71}80{72}{81 80 01}{6d}CT{71}6{72}
+@@ 0x11c7
+Un fendente orizzontale.
+
+{6d}DATI{6e} 1 colpo{6f 70 6f}Energia{71}24{72}
+@@ 0x11c9
+Afferra il nemico con le unghie e lo tira a sé.
+
+{6d}DATI{6e} 1 colpo{6f 76 6f}Energia{71}30{72}
+@@ 0x11cb
+3 rapide stoccate.
+
+{6d}DATI{6e} 3 colpi{6f 70 70 73 6f}Energia{71}30{72}
+@@ 0x11cd
+Crea un tornado gigantesco che investe i nemici.
+
+{6d}DATI{6e}10 colpi{6f 74 6f}Energia{71}25{72}{81 80 01}{6d}CT{71}2{72}
+@@ 0x11d1
+Fendente diagonale dall'alto.
+
+{6d}DATI{6e} 1 colpo{6f 75 6f}Energia{71}15{72}
+@@ 0x11d3
+Fendente verso l'alto.
+
+{6d}DATI{6e} 2 colpi{6f 73 73 6f}Energia{71}24{72}
+@@ 0x11d5
+Affondo perforante in avanti.
+
+{6d}DATI{6e} 2 colpi{6f 70 73 6f}Energia{71}20{72}
+@@ 0x11d7
+Sigilla il nemico nel vuoto e lo colpisce con una spada.
+
+{6d}DATI{6e} 2 colpi{6f 74 6f}Energia{71}30{72}{81 80 01}{6d}CT{71}3{72}
+@@ 0x11db
+Un singolo attacco al nemico.
+
+{6d}DATI{6e} 1 colpo{6f 74 6f}Energia{71}5{72}
+@@ 0x11dd
+Scocca 2 frecce.
+
+{6d}DATI{6e} 2 colpi{6f 74 6f}Energia{71}10{72}
+@@ 0x11df
+Scaglia un raggio di luce.
+
+{6d}DATI{6e} 2 colpi{6f 74 6f}Energia{71}10{72}
+@@ 0x11e1
+Scocca frecce all'impazzata.
+
+{6d}DATI{6e} Circa 7 colpi{6f 74 6f}Energia{71}35{72}{81 80 01}{6d}CT{71}2{72}
+@@ 0x11e5
+Fendente dal basso.
+
+{6d}DATI{6e} 1 colpo{6f 73 6f}Energia{71}10{72}
+@@ 0x11e7
+Colpo di corpo seguito da un fendente.
+
+{6d}DATI{6e} 2 colpi{6f 70 75 6f}Energia{71}30{72}
+@@ 0x11e9
+Attacco di spada che sfrutta una forza verso il basso.
+
+{6d}DATI{6e} 1 colpo{6f 75 6f}Energia{71}15{72}
+@@ 0x11eb
+Attacco di taglio esplosivo.
+
+{6d}DATI{6e} 3 colpi{6f 74 6f}Energia{71}69{72}{81 80 01}{6d}CT{71}5{72}
+@@ 0x11ef
+Doppio attacco con effetto veleno.
+
+{6d}DATI{6e} 2 colpi{6f 74 6f}Energia{71}2{72}
+@@ 0x11f1
+Scocca 3 frecce.
+
+{6d}DATI{6e} 3 colpi{6f 74 6f}Energia{71}3{72}
+@@ 0x11f3
+Singolo attacco infuocato.
+
+{6d}DATI{6e} 1 colpo{6f 73 6f}Energia{71}50{72}
+@@ 0x11f5
+Attacco consecutivo di Restrain Flame.
+
+{6d}DATI{6e} 9 colpi{6f 74 6f}Energia{71}72{72}{81 80 01}{6d}CT{71}2{72}
+@@ 0x120d
+Attacco multiplo dall'alto.
+
+{6d}DATI{6e} 2 colpi{6f 70 73 6f}Energia{71}6{72}
+@@ 0x120f
+Onda d'urto accompagnata da una lancia scagliata.
+
+{6d}DATI{6e} 1 colpo{6f 70 6f}Energia{71}15{72}
+@@ 0x1211
+Affondo rotante.
+
+{6d}DATI{6e} 3 colpi{6f 70 6f}Energia{71}24{72}
+@@ 0x1213
+Si trasforma in un drago.
+
+{6d}DATI{6e} 1 colpo{6f 74 6f}Energia{71}45{72}{81 80 01}{6d}CT{71}3{72}
+@@ 0x1217
+Fendente a croce.
+
+{6d}DATI{6e} 2 colpi{6f 70 73 6f}Energia{71}10{72}
+@@ 0x1219
+Colpisce il nemico alle spalle.
+
+{6d}DATI{6e} 1 colpo{6f 76 6f}Energia{71}5{72}
+@@ 0x121b
+Due giri su se stessi e un fendente.
+
+{6d}DATI{6e} 2 colpi{6f 70 70 6f}Energia{71}24{72}
+@@ 0x121d
+Attacco con fendenti multipli.
+
+{6d}DATI{6e} 15 colpi{6f 74 6f}Energia{71}30{72}{81 80 01}{6d}CT{71}2{72}
+@@ 0x122b
+Il colpo causa un'esplosione.
+
+{6d}DATI{6e} 1 colpo{6f 73 6f}Energia{71}15{72}
+@@ 0x122d
+Scaglia un'esplosione a ventaglio.
+
+{6d}DATI{6e} Circa 5 colpi{6f 74 6f}Energia{71}5{72}
+@@ 0x122f
+Scaglia un colpo violento contro il nemico.
+
+{6d}DATI{6e} Circa 7 colpi{6f 74 6f}Energia{71}7{72}
+@@ 0x1231
+Lancia al nemico piccoli ordigni che esplodono.
+
+{6d}DATI{6e} 1 colpo{6f 74 6f}Energia{71}30{72}{81 80 01}{6d}CT{71}2{72}
+@@ 0x1235
+Fendente verso il basso e onda d'urto.
+
+{6d}DATI{6e} 1 colpo{6f 70 6f}Energia{71}15{72}
+@@ 0x1237
+Fendente verso il basso dall'alto.
+
+{6d}DATI{6e} 1 colpo{6f 73 6f}Energia{71}25{72}
+@@ 0x1239
+Affondo accompagnato da un attacco di energia.
+
+{6d}DATI{6e} 3 colpi{6f 70 6f}Energia{71}15{72}
+@@ 0x123b
+Imprigiona i nemici nel ghiaccio.
+
+{6d}DATI{6e} 8 colpi{6f 74 6f}Energia{71}58{72}{81 80 01}{6d}CT{71}2{72}
+@@ 0x125d
+Affondo frontale.
+
+{6d}DATI{6e} 1 colpo{6f 70 6f}Energia{71}25{72}
+@@ 0x125f
+Fendente rotante.
+
+{6d}DATI{6e} 1 colpo{6f 73 6f}Energia{71}15{72}
+@@ 0x1261
+Fendente verso l'alto da dietro.
+
+{6d}DATI{6e} 1 colpo{6f 76 6f}Energia{71}10{72}
+@@ 0x1263
+Attacco di affondi consecutivi.
+
+{6d}DATI{6e} 7 colpi{6f 70 6f}Energia{71}56{72}{81 80 01}{6d}CT{71}2{72}
+@@ 0x1267
+Fendente orizzontale.
+
+{6d}DATI{6e} 1 colpo{6f 70 6f}Energia{71}25{72}
+@@ 0x1269
+Scaglia un'onda d'urto.
+
+{6d}DATI{6e} 1 colpo{6f 70 6f}Energia{71}10{72}
+@@ 0x126b
+Aggira il nemico e lo trafigge alle spalle.
+
+{6d}DATI{6e} 2 colpi{6f 76 76 6f}Energia{71}16{72}
+@@ 0x126d
+Una lancia di ghiaccio gigante sbuca dal suolo e trafigge.
+
+{6d}DATI{6e} 6 colpi{6f 70 6f}Energia{71}48{72}{81 80 01}{6d}CT{71}3{72}
+@@ 0x127b
+Fendente verso l'alto.
+
+{6d}DATI{6e} 1 colpo{6f 73 6f}Energia{71}25{72}
+@@ 0x127d
+Fendente verso l'alto.
+
+{6d}DATI{6e} 1 colpo{6f 70 6f}Energia{71}15{72}
+@@ 0x127f
+Un singolo colpo di fulmine.
+
+{6d}DATI{6e} 12 colpi{6f 73 6f}Energia{71}36{72}
+@@ 0x1281
+Fendente verso l'alto, poi un colpo verso il basso.
+
+{6d}DATI{6e} 5 colpi{6f 74 6f}Energia{71}40{72}{81 80 01}{6d}CT{71}3{72}
+@@ 0x128f
+Un pugno devastante dall'alto.
+
+{6d}DATI{6e} 1 colpo{6f 70 6f}Energia{71}30{72}
+@@ 0x1291
+Montante in salto.
+
+{6d}DATI{6e} 2 colpi{6f 73 73 6f}Energia{71}30{72}
+@@ 0x1293
+Colpo verso il basso seguito da un colpo verso l'alto.
+
+{6d}DATI{6e} 3 colpi{6f 70 73 73 6f}Energia{71}30{72}
+@@ 0x1295
+Combo di colpi multipli e onda d'urto.
+
+{6d}DATI{6e}17 colpi{6f 74 6f}Energia{71}42{72}{81 80 01}{6d}CT{71}2{72}
+@@ 0x1299
+Un singolo attacco esplosivo.
+
+{6d}DATI{6e} 2 colpi{6f 73 6f}Energia{71}20{72}
+@@ 0x129b
+Scocca frecce in 3 direzioni.
+
+{6d}DATI{6e} 3 colpi{6f 74 6f}Energia{71}9{72}
+@@ 0x129d
+Scaglia un'esplosione di energia.
+
+{6d}DATI{6e} 4 colpi{6f 74 6f}Energia{71}24{72}
+@@ 0x129f
+Attacco a frecce multiple. La mossa cambia con l'arma.
+
+{6d}DATI{6e} 12 colpi{6f 74 6f}Energia{71}85{72}{81 80 01}{6d}CT{71}4{72} 

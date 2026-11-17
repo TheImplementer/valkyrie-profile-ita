@@ -731,6 +731,8 @@ early work called the 1806 table "binary data, not readable text".
   the character's name from 1500/9 over the DME gauge and the selected command's label from 1500/7
   in a box at the bottom right. The 1806 and 1988 text was not seen: the item list did not open in
   this fight (the new-game party may have no items), and the hints only come with their monsters.
+  With items granted by the script the list opens and shows the 1806 names and help lines
+  (`MENU_AND_BATTLE_TEXT.md`; it needs TinyPSX's fix D-058, before which the emulator froze there).
 
 **Other battle text.**
 * **The 1638 strings:** it holds plain ASCII ("HP %7d/%7d", "Weakness", "Exp. Pts.", "Item Name",

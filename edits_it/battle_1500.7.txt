@@ -174,3 +174,253 @@ Celestial Star
 Seraphic Law
 @@ 0x041f
 Comando
+@@ 0x0514
+Sottrai benedizione
+@@ 0x0515
+Conduzione letale
+@@ 0x0516
+Forma fossile
+@@ 0x0517
+Forma maledetta
+@@ 0x0518
+Distruzione d'anima
+@@ 0x0519
+Destino maledetto
+@@ 0x051a
+Estensione
+@@ 0x051b
+Riflesso
+@@ 0x051c
+Forma mimetica
+@@ 0x051d
+Illusione
+@@ 0x051e
+Esplosione
+@@ 0x051f
+Doppio morso
+@@ 0x0520
+Morso casuale
+@@ 0x0521
+Biodardo
+@@ 0x0522
+Raffica gelida
+@@ 0x0523
+Dardo inseguitore
+@@ 0x0524
+Idrofobia
+@@ 0x0525
+Immagine riflessa
+@@ 0x0526
+Artiglio tiranno
+@@ 0x0527
+Danza del terrore
+@@ 0x0528
+Pugni storditori
+@@ 0x0529
+Corteo funebre
+@@ 0x052a
+Fendente critico
+@@ 0x052b
+Spada avanzata X
+@@ 0x052c
+Danza infinita
+@@ 0x052d
+Magia in serie
+@@ 0x052e
+Lama del caos
+@@ 0x052f
+Atto proibito
+@@ 0x0530
+Aiuto!!
+@@ 0x0531
+Furto di sangue
+@@ 0x0532
+Martello letale
+@@ 0x0533
+Fendente lunare
+@@ 0x0534
+Annulla guardia
+@@ 0x0535
+Spezza armi
+@@ 0x0536
+Lancia rizoma
+@@ 0x0537
+Invito infernale
+@@ 0x0538
+Urlo di morte
+@@ 0x0539
+Esca velenosa
+@@ 0x053a
+Doppio morso
+@@ 0x053b
+Becco aguzzo
+@@ 0x053c
+Colpo di pioggia
+@@ 0x053d
+Lanciere funesto
+@@ 0x053e
+Assalto funesto
+@@ 0x053f
+Zanna velenosa
+@@ 0x0540
+Trasporta nemici
+@@ 0x0541
+Genera prole
+@@ 0x0542
+Balletto di trippa
+@@ 0x0543
+Plasma di bolle
+@@ 0x0544
+Disturba vista
+@@ 0x0545
+Fiume di vomito
+@@ 0x0546
+Prigione di bolle
+@@ 0x0547
+Schizzo ampio
+@@ 0x0548
+Arma trappola
+@@ 0x0549
+Shock velenoso
+@@ 0x054a
+Shock paralizzante
+@@ 0x054b
+Shock di pietra
+@@ 0x054c
+Shock maledetto
+@@ 0x054d
+Shock assorbente
+@@ 0x054e
+Colpo di tuono
+@@ 0x054f
+Picchiata del terrore
+@@ 0x0550
+Terremoto
+@@ 0x0551
+Battipalo
+@@ 0x0552
+Fasce assassine
+@@ 0x0553
+Inchiostro velenoso
+@@ 0x0554
+Becco di pietra
+@@ 0x0555
+Becco a piccone
+@@ 0x0556
+Aculeo critico
+@@ 0x0557
+Aculeo devastante
+@@ 0x0558
+Forma di pietra
+@@ 0x0559
+Danza di fiamme
+@@ 0x055a
+Annulla guardia
+@@ 0x055b
+Soffio disgregante
+@@ 0x055c
+Sentenza di morte
+@@ 0x055d
+Rigenerazione
+@@ 0x055e
+Soffio infernale
+@@ 0x055f
+Fuoco mortale
+@@ 0x0560
+Affondo di lama
+@@ 0x0561
+Voce stridula
+@@ 0x0562
+Lancia d'aura
+@@ 0x0563
+Sequenza demoniaca
+@@ 0x0564
+Dardo del disastro
+@@ 0x0565
+Desiderio di morte
+@@ 0x0566
+Ultimo desiderio
+@@ 0x0567
+Cubo di cristallo
+@@ 0x0568
+Triplo strato
+@@ 0x0569
+Ondulazione
+@@ 0x056a
+Forma diabolica
+@@ 0x056b
+Impulso pallido
+@@ 0x056c
+Colpo di follia
+@@ 0x056d
+Tempesta morbosa
+@@ 0x056e
+Furia della dignità
+@@ 0x056f
+Rancore maligno
+@@ 0x0570
+Fuoco infernale
+@@ 0x0578
+Esplosione maligna
+@@ 0x0579
+Urlo furioso
+@@ 0x057a
+Elettrotocco
+@@ 0x057b
+Fiammella
+@@ 0x057c
+Nebbia digestiva
+@@ 0x057d
+Colpo velenoso
+@@ 0x057e
+Morso casuale
+@@ 0x057f
+Dolore morboso
+@@ 0x0580
+Frusta tentacolare
+@@ 0x0581
+Estensione
+@@ 0x0582
+Bacio confusionale
+@@ 0x0583
+Energia contaminante
+@@ 0x0584
+Indiscriminato
+@@ 0x0585
+Doppio fendente
+@@ 0x0586
+Triplo fendente
+@@ 0x0587
+Colpo mortale
+@@ 0x0588
+Stendardo di fiamme
+@@ 0x0589
+Esca di gelo
+@@ 0x058a
+Ululato funesto
+@@ 0x058b
+Colpo di fiamma
+@@ 0x058c
+Tempesta di fiamme
+@@ 0x058d
+Poison Blow
+@@ 0x058e
+Massacro imperiale
+@@ 0x058f
+Ora del terrore
+@@ 0x0590
+Forza estesa
+@@ 0x0591
+Sfera del Drago
+@@ 0x0592
+Forza estesa
+@@ 0x0593
+Attacco stizzito
+@@ 0x0594
+Seme assassino
+@@ 0x0595
+Peloso
+@@ 0x0596
+Forza estesa{45 46 47 48 49 4a 4b 49 4c 4d 4e 47}
+@@ 0x0597
+Sfera del Drago{4f 50 51 49 52 4e 53} 
