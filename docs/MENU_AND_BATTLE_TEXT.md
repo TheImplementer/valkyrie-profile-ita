@@ -201,8 +201,9 @@ party by script (`docs/GLOSSARY.md` has the terms).
 
 The profile page (DOWN once on the Status screen) is Italian too. It shows class, race and birthplace
 (`0x1004`-`0x10E4`), with class and race agreeing with each hero's gender. The values are drawn
-over the portrait from x 80 and have room for the longest class, "Cavaliere pesante/Avventuriero"
-(163 px). Three labels used to run into their values: Luogo di nascita, Attacco speciale and Magie
+over the portrait from x 80. The Party screen shows the class too, in a narrower panel that
+spaces the letters out (about 1.36 times the measured width) and cuts it at about 128 measured pixels,
+so the classes were kept under that: the longest is "Corazzato/Avventuriero" at 121. Three labels used to run into their values: Luogo di nascita, Attacco speciale and Magie
 impostate. They are now Origine, Att. speciale and Magia attiva. Shown: Valkyrie's and Kashell's
 profiles, Kashell's skills page and Lorenta's spells page. The class names are also in the Transfer
 and Use Item tables (2177, 2179), whose screens that show them were not checked.
@@ -348,6 +349,23 @@ Vampiro minore (`0x401`, `0x405`), and the test build with Cadavere strisciante.
   check above, Arngrim was put in the party by script: the roster (the pointer at `0x8007F1E4`,
   25 records of 236 bytes, Arngrim the third) marks a member in an active slot with byte +217 = 2, and
   the party slots are the bytes at ctx + `0x39C` (`0x801F6278`), each a roster index + 1.
+
+## Hidden tails
+
+Five menu strings end in an `81 80` command that is missing its argument: the game takes the string's
+00 as that argument and reads on into bytes that no entry points at. In 2182, "Change member" goes on
+to "Select member to exchange."; "Caution!!" goes on to its closing ▼. The others are 2182 `0x170`,
+2179 `0x147` (the Hourglass of the Gods question) and title table 6 `0x155`. Earlier builds wrote back
+only the strings, so the game read the next string instead: "Cambia membro" was followed by "Togli
+membro" and "Valkyrie non può uscire", and the practice warning ran into its first line.
+
+`vp_menu_text.py` now keeps the bytes between each string and the next (`MenuText.tails`) and writes
+them back after the string, so a table rebuilt from its own strings is byte for byte the original.
+The export shows such a tail after `{81 80 00}`. An edit can write its own tail the same way, which
+replaces the original one: `{81 80 07}Cambia membro\n\n{81 80 00}Scegli il membro\n\nda scambiare.`
+A 00 is accepted only there.
+
+![The practice warning and the Change member help, in Italian](notes/edit_proof/italian_camp_party.png)
 
 ## Battle hints
 

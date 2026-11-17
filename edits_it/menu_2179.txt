@@ -7,6 +7,14 @@
 # (and the battle item table 1806.1) that has the same id with the same original text
 # (an item name is in several), unless --no-link is given.
 
+@@ 0x0020
+{81 80 07}CP
+@@ 0x0021
+Tecnica
+@@ 0x0022
+imparata
+@@ 0x0023
+Tecnica già imparata.
 @@ 0x0032
 Ordina
 @@ 0x0033
@@ -19,24 +27,216 @@ Ordine alfabetico
 Prima i più recenti
 @@ 0x0037
 Per capitolo
+@@ 0x0040
+{81 80 07}Armi
 @@ 0x0041
 {81 80 07}Oggetti usabili
+@@ 0x0042
+{81 80 07}Protezioni
 @@ 0x0043
 {81 80 07}Nome oggetto
+@@ 0x0044
+{81 80 07}PM
+@@ 0x0045
+{81 80 07}Costo
+@@ 0x0046
+{81 80 07}Crea
+@@ 0x0047
+{81 80 07}Hai
 @@ 0x0048
 {81 80 07}Numero
+@@ 0x0049
+{81 80 07}/MAX
+@@ 0x004a
+{81 80 07}Menu Reliquie
+@@ 0x004b
+{81 80 07}Quanti
+@@ 0x004c
+{81 80 07}Max
+@@ 0x004d
+{81 80 07}Usati
+@@ 0x004e
+per il n.
+@@ 0x004f
+di 10 in 10
+@@ 0x0050
+{81 80 07}totale
+@@ 0x0051
+{81 80 07}Accessori/Possessi  
 @@ 0x0052
 {81 80 07}Equip.
+@@ 0x0053
+{81 80 07}Artefatti
+@@ 0x0054
+{81 80 07}Massimo
+@@ 0x0055
+{81 80 07}(Dentro)
 @@ 0x0056
 Usa
+@@ 0x0057
+Trasmuta
 @@ 0x0058
 Converti MP
+@@ 0x0059
+{81 80 07}Valut. Valkyrie
+@@ 0x005a
+Memorizza
+@@ 0x005b
+Chi memorizza la magia?
+@@ 0x005c
+{81 80 07}Ogg.
+@@ 0x005d
+{81 80 07}Magia
+@@ 0x005e
+Hai
+@@ 0x0070
+Mostra le zone
+
+del dungeon attuale
+
+non ancora visitate.
+@@ 0x0071
+Mostra le zone
+
+del dungeon attuale
+
+non ancora visitate.
+@@ 0x0072
+Non usabile qui
+@@ 0x0073
+Indietro nel passato
+
+di 5 Periodi
+@@ 0x0074
+Non puoi tornare più
+
+indietro nel passato.
+@@ 0x0075
+{81 80 07}Periodo attuale
+@@ 0x0076
+I Periodi non possono avanzare oltre:
+
+non puoi usare l'Incensiere di Darlis.
+@@ 0x0077
+Punti materia
+
+aumentati di 200
+@@ 0x0078
+Nessuno può
+
+memorizzare la magia.
+@@ 0x0079
+{81 80 07}Menu cambio magia
+@@ 0x007a
+Scegli la magia
+@@ 0x00b7
+{81 80 01}Sigillo
+@@ 0x00ce
+{81 80 07}Magie scelte
 @@ 0x00d5
 Info
+@@ 0x00d9
+{81 80 07} Att. speciale
+@@ 0x00db
+{81 80 07}Lista magie
+@@ 0x0103
+No
+@@ 0x0111
+Offri
+@@ 0x0113
+Valut. +1
+@@ 0x0115
+Offri
+@@ 0x0116
+a Odino, Padre di tutti?
+@@ 0x012c
+Chi lo usa?
+@@ 0x012e
+Prova attacco
+@@ 0x012f
+Chi prova l'attacco?
+@@ 0x0130
+Attacco
+@@ 0x0131
+Scegli cosa trasmutare
+
+{81 80 02}Costa 5 PM 
+@@ 0x0132
+{81 80 07}Oggetto ottenuto
+@@ 0x0133
+{81 80 07}Menu di trasmutazione
+@@ 0x0134
+{81 80 07}Da trasmutare
+@@ 0x0135
+{81 80 07}Rimanenti
+@@ 0x0136
+{81 80 07}Creati
+@@ 0x0137
+scegli n.,
+@@ 0x0138
+{81 80 07}Totale trasmutati
+@@ 0x0139
+Oggetto da 
+
+convertire in PM.
+
+
+@@ 0x013a
+{81 80 07}Conversione in punti materia 
+@@ 0x013b
+{81 80 07}PM convertiti
+@@ 0x013c
+{81 80 07}Totale PM convertiti
+@@ 0x013d
+{81 80 07}Punti materia
+
+per oggetto:
+
+
+@@ 0x013e
+{81 80 07}PM attuali
+@@ 0x013f
+Impara att. speciale
+@@ 0x0140
+Chi impara l'attacco speciale?
 @@ 0x0141
 Attacco speciale
+@@ 0x0142
+PM insufficienti
+@@ 0x0143
+{81 80 07}Trasm. normale
+@@ 0x0144
+{81 80 07}Trasm. speciale
+@@ 0x0145
+{81 80 07}Trasm. superiore
+@@ 0x0146
+Troppi oggetti trasmutati.
+
+Impossibile trasmutare.
+@@ 0x0147
+{81 80 05}Usa {81 80 00}Clessidra degli Dei:
+
+tornare indietro di 5 Periodi?
+@@ 0x0148
+Hai
+@@ 0x0149
+memorizza
+@@ 0x014b
+Confermi?
 @@ 0x0161
 {81 80 07}Nome
+@@ 0x0208
+dopo
+@@ 0x08c7
+Enchanted sword "Murasame"
+@@ 0x08cb
+Magic blade "Cromrea"
+@@ 0x08cc
+Slashing sword "Farewell"
+@@ 0x08ce
+Holy sword "Seraphy"
+@@ 0x08e0
+Holy wand "Adventia"
 @@ 0x0bb9
 Pozione che ripristina i DME (energia divina).
 
@@ -869,6 +1069,8 @@ la forza vitale. Aumenta di 300 i DME quando chi lo
 indossa sale di livello.
 @@ 0x0cf5
 Corteccia di un albero abitato dalle driadi.
+@@ 0x0cf6
+Missing number{74 75}
 @@ 0x0cf7
 Statua di una donna bellissima e seducente.
 @@ 0x0cf8
@@ -2045,3 +2247,685 @@ Attacco a frecce multiple. La mossa cambia con l'arma.
  85{81 01 81}
  {7c}CT
  4{81 01 01}
+@@ 0x1a91
+Elixir
+@@ 0x1a92
+Banish
+@@ 0x1a93
+Union-Plume
+@@ 0x1a94
+Prime-Elixir
+@@ 0x1a95
+Prime-Banish
+@@ 0x1a96
+Noble-Elixir
+@@ 0x1a97
+Noble-Banish
+@@ 0x1a98
+Spectacles
+@@ 0x1a99
+Conversion-Gem
+@@ 0x1a9a
+Conversion-Gem 
+@@ 0x1aa2
+Might-Potion
+@@ 0x1aa3
+Liqueur-Potion
+@@ 0x1aa4
+Secure-Potion
+@@ 0x1aa5
+Lucid-Potion
+@@ 0x1aaf
+Charge-Break
+@@ 0x1ab0
+Combo-Potion
+@@ 0x1ab1
+Angel-Curio
+@@ 0x1ab2
+Protect-Charm
+@@ 0x1ab3
+Magic-Charm
+@@ 0x1ab4
+Resist-Charm
+@@ 0x1ab8
+Throwing-Dagger
+@@ 0x1aba
+Silver-Dagger
+@@ 0x1abc
+Cross-Dagger
+@@ 0x1abd
+Fairy-Earring
+@@ 0x1abe
+Fairy-Ring
+@@ 0x1abf
+Power-Bangle
+@@ 0x1ac0
+Magic-Bangle
+@@ 0x1ac1
+Protect-Jewel
+@@ 0x1ac2
+Resist-Jewel
+@@ 0x1ac3
+Combo-Jewel
+@@ 0x1ac4
+Material-Earring
+@@ 0x1ac5
+Material-Gem
+@@ 0x1ac6
+Magic-Mist
+@@ 0x1ac7
+Poison-Check
+@@ 0x1ac8
+Paralyze-Check
+@@ 0x1ac9
+Stone-Check
+@@ 0x1aca
+Freeze-Check
+@@ 0x1acb
+Curse-Check
+@@ 0x1acc
+Stun-Check
+@@ 0x1acd
+Mighty-Check
+@@ 0x1ad9
+Antler-Sword
+@@ 0x1ada
+Viking-Sword
+@@ 0x1adb
+Walloon-Sword
+@@ 0x1adc
+Colichemarde
+@@ 0x1add
+Sinclair-Saber
+@@ 0x1ade
+Pallasch
+@@ 0x1adf
+Reiter-Pallasch
+@@ 0x1ae0
+Schweizer-Sword
+@@ 0x1ae9
+Two-Handed-Sword
+@@ 0x1aea
+Hack-Blade
+@@ 0x1aeb
+Zweihander
+@@ 0x1aec
+Striking-Sword
+@@ 0x1aed
+Claymore
+@@ 0x1aee
+Flamberge
+@@ 0x1aef
+Brandish-Sword
+@@ 0x1af0
+Brutish-Edge
+@@ 0x1af1
+Awl-Pike
+@@ 0x1af2
+Winged-Spear
+@@ 0x1af3
+Boarding-Pike
+@@ 0x1af4
+Corsesca
+@@ 0x1af5
+Halberd
+@@ 0x1af6
+Pole-Axe
+@@ 0x1af7
+Ahlspiess
+@@ 0x1af8
+Saber-Halberd
+@@ 0x1b01
+Crossbow
+@@ 0x1b02
+Bolt-Crossbow
+@@ 0x1b03
+Rapid-Crossbow
+@@ 0x1b04
+Windlass-Crossbow
+@@ 0x1b05
+Fire-Crossbow
+@@ 0x1b06
+Arbalest
+@@ 0x1b07
+Serstine-lock-Gun
+@@ 0x1b08
+Bolt-Aqqar
+@@ 0x1b11
+Ruby-Mace
+@@ 0x1b12
+Formula-Wand
+@@ 0x1b13
+Crystal-Wand
+@@ 0x1b14
+Silver-Mace
+@@ 0x1b15
+Alchemy-Wand
+@@ 0x1b16
+Warship-Mace
+@@ 0x1b17
+Deluge-Scepter
+@@ 0x1b18
+Shining-Scepter
+@@ 0x1b19
+Lightning-Edge
+@@ 0x1b1a
+Radiance-Sword
+@@ 0x1b1b
+Ice-Coffin
+@@ 0x1b1c
+Scarlet-Forge
+@@ 0x1b21
+Elemental-Edge
+@@ 0x1b22
+Ignite-Sword
+@@ 0x1b23
+Bahamut-Tear
+@@ 0x1b24
+Violet-Forge
+@@ 0x1b25
+Spinning-Spear
+@@ 0x1b26
+Hart-Pears
+@@ 0x1b27
+Arc-Wind
+@@ 0x1b28
+St.Halberd
+@@ 0x1b2d
+Supreme-Crossbow
+@@ 0x1b2e
+Crescent-Arrow
+@@ 0x1b2f
+Last-Avenger
+@@ 0x1b30
+Shiny-Rupture
+@@ 0x1b35
+Holy-Prayer
+@@ 0x1b36
+Accepter-Rod
+@@ 0x1b37
+Noble-Desire
+@@ 0x1b38
+Absolute-Force
+@@ 0x1b39
+Valkyrie-Favor
+@@ 0x1b3a
+Sallet
+@@ 0x1b3b
+Silver-Sallet
+@@ 0x1b3c
+Duel-Helm
+@@ 0x1b3d
+Valor-Helm
+@@ 0x1b3e
+Valiant-Helm
+@@ 0x1b3f
+Tiara
+@@ 0x1b40
+Silver-Tiara
+@@ 0x1b41
+Anoint-Tiara
+@@ 0x1b42
+Anoint-Garland
+@@ 0x1b43
+Supreme-Garland
+@@ 0x1b44
+Cuirass
+@@ 0x1b45
+Silver-Cuirass
+@@ 0x1b46
+Duel-Armor
+@@ 0x1b47
+Valor-Armor
+@@ 0x1b48
+Valiant-Armor
+@@ 0x1b49
+Cloak
+@@ 0x1b4a
+Silver-Cloak
+@@ 0x1b4b
+Anoint-Cloak
+@@ 0x1b4c
+Anoint-Garb
+@@ 0x1b4d
+Supreme-Garb
+@@ 0x1b4e
+Gauntlet
+@@ 0x1b4f
+Silver-Gauntlet
+@@ 0x1b50
+Duel-Garder
+@@ 0x1b51
+Valor-Gauntlet
+@@ 0x1b52
+Valiant-Garder
+@@ 0x1b53
+Greaves
+@@ 0x1b54
+Silver-Greaves
+@@ 0x1b55
+Duel-Greaves
+@@ 0x1b56
+Valor-Greaves
+@@ 0x1b57
+Valiant-Greaves
+@@ 0x1b5b
+Leather-Boots
+@@ 0x1b5c
+Suede-Boots
+@@ 0x1b5d
+Elven-Boots
+@@ 0x1b86
+Ambrosia
+@@ 0x1b8a
+Silvans
+@@ 0x1b8b
+Cromrea
+@@ 0x1b8c
+Farewell
+@@ 0x1b8d
+Grand-Sting
+@@ 0x1b8e
+Lost-Seraphy
+@@ 0x1b8f
+Fame-Feign
+@@ 0x1b90
+Levantine
+@@ 0x1b91
+Basilisk
+@@ 0x1b92
+**No-Data**
+@@ 0x1b94
+Dragoon-Tyrant
+@@ 0x1b95
+Sylvan-Bow
+@@ 0x1b96
+Elven-Bow
+@@ 0x1b97
+Fowl-Slayer
+@@ 0x1b98
+Berserk-Arrow
+@@ 0x1b99
+Infernas
+@@ 0x1b9a
+Arectaris
+@@ 0x1b9b
+Shadzard
+@@ 0x1b9e
+Dinosaur
+@@ 0x1b9f
+Crimson-Edge
+@@ 0x1ba0
+Adventia
+@@ 0x1ba1
+Eternal-Fault
+@@ 0x1ba9
+Unicorn's-Horn
+@@ 0x1baa
+Apocalypse
+@@ 0x1bab
+Million-Teller
+@@ 0x1bac
+Luminiferous
+@@ 0x1bad
+Reflex
+@@ 0x1bae
+Aleph-Strain
+@@ 0x1bb1
+Britannia-Garb
+@@ 0x1bb2
+Sylph-Red
+@@ 0x1bb3
+Starred-Shine
+@@ 0x1bb4
+Mirage-Robe
+@@ 0x1bb5
+Dragoon-Face
+@@ 0x1bba
+Felmar
+@@ 0x1bbf
+Ether-Frozen
+@@ 0x1bc0
+Empress-Garland
+@@ 0x1bc1
+Eternal-Shine
+@@ 0x1bc2
+Brisingal
+@@ 0x1bc3
+Orihalcon-Boots
+@@ 0x1bc4
+Ether-Chain
+@@ 0x1bc8
+Star-Guard
+@@ 0x1bcb
+Extreme-Guard
+@@ 0x1bd3
+Orihalcon
+@@ 0x1be0
+Richebourg
+@@ 0x1bf0
+Feathered-Tiara
+@@ 0x1bf1
+Feathered-Helm
+@@ 0x1bf2
+Winged-Helm
+@@ 0x1bf3
+Aerial-Garland
+@@ 0x1bf4
+Seraphic-Garland
+@@ 0x1bf5
+Azure-Garb
+@@ 0x1bf6
+Heraldic-Garb
+@@ 0x1bf7
+Radiance-Garb
+@@ 0x1bf8
+Divinely-Garb
+@@ 0x1bf9
+Seraphic-Garb
+@@ 0x1bfa
+Glance-Reviver
+@@ 0x1bfb
+Grim-Gaudy
+@@ 0x1bfc
+Actor-Nefarious
+@@ 0x1bfe
+Ethereal-Divide
+@@ 0x1bff
+Razor-Foretell
+@@ 0x1c00
+Mystic-Wiser
+@@ 0x1c09
+Foxglove
+@@ 0x1c0a
+Aconite
+@@ 0x1c0b
+Nightshade
+@@ 0x1c0c
+Ghoul-Powder
+@@ 0x1c0d
+Savory
+@@ 0x1c0e
+Mandrake
+@@ 0x1c10
+Orichalcum
+@@ 0x1c15
+Mithril
+@@ 0x1c25
+Flare-Gem
+@@ 0x1c26
+Ice-Gem
+@@ 0x1c27
+Thunder-Gem
+@@ 0x1c28
+Poison-Gem
+@@ 0x1c29
+Holy-Gem
+@@ 0x1c2a
+Shadow-Gem
+@@ 0x1c2b
+Explode
+@@ 0x1c2c
+Blizzard
+@@ 0x1c2d
+Voltaic
+@@ 0x1c2e
+Corrosion
+@@ 0x1c2f
+Indignation
+@@ 0x1c30
+Void
+@@ 0x1c36
+Long-Sword
+@@ 0x1c37
+Broad-Sword
+@@ 0x1c38
+Bastard-Sword
+@@ 0x1c39
+Falchion
+@@ 0x1c3a
+Estoc
+@@ 0x1c3b
+Flamberg
+@@ 0x1c3c
+Wassail-Rapier
+@@ 0x1c3d
+Damascus-Sword
+@@ 0x1c3e
+Short-Spear
+@@ 0x1c3f
+Glaive
+@@ 0x1c40
+War-Hammer
+@@ 0x1c41
+Long-Flail
+@@ 0x1c42
+Ranseur
+@@ 0x1c43
+Footman's-Axe
+@@ 0x1c44
+Lucerne-Hammer
+@@ 0x1c45
+Fine-Halberd
+@@ 0x1c46
+Short-Bow
+@@ 0x1c47
+Long-Bow
+@@ 0x1c48
+Rapid-Bow
+@@ 0x1c49
+Composite-Bow
+@@ 0x1c4a
+Cranequin-Crossbow
+@@ 0x1c4e
+Dragon-Slayer
+@@ 0x1c4f
+Demon-Slayer
+@@ 0x1c50
+Beast-Slayer
+@@ 0x1c51
+Mage-Slayer
+@@ 0x1c52
+Raven-Slayer
+@@ 0x1c53
+Soul-Slayer
+@@ 0x1c5e
+Vain-Slay
+@@ 0x1c5f
+Moon-Falx
+@@ 0x1c60
+Ruin's-Fate
+@@ 0x1c61
+Flare-Baselard
+@@ 0x1c63
+Leather-Armor
+@@ 0x1c64
+Chain-Mail
+@@ 0x1c65
+Lamellar
+@@ 0x1c66
+Breast-Plate
+@@ 0x1c67
+Silver-Chain
+@@ 0x1c68
+Full-Plate
+@@ 0x1c69
+Silver-Plate
+@@ 0x1c6a
+Mithril-Plate
+@@ 0x1c75
+Mind-Potion
+@@ 0x1c76
+Skill-Potion
+@@ 0x1c77
+Material-Potion
+@@ 0x1c78
+Haste-Ring
+@@ 0x1c79
+Energy-Ring
+@@ 0x1c7a
+Crack-Ring
+@@ 0x1c7c
+Blaze-Guard
+@@ 0x1c7d
+Icicle-Guard
+@@ 0x1c7e
+Glare-Guard
+@@ 0x1c84
+Icicle-Sword
+@@ 0x1c85
+Glare-Sword
+@@ 0x1c89
+Heal-Earring
+@@ 0x1c8a
+Heal-Ring
+@@ 0x1c8b
+Learning-Ring
+@@ 0x1c8c
+Scout-Orb
+@@ 0x1c90
+Nibelungen-Ring
+@@ 0x1c91
+Auto-Item
+@@ 0x1c92
+Throw
+@@ 0x1c93
+Cure-Condition
+@@ 0x1c94
+Guts
+@@ 0x1c95
+Adept-Illusion
+@@ 0x1c96
+Dancing-Sword
+@@ 0x1c97
+Last-Trial
+@@ 0x1c98
+Splash
+@@ 0x1c99
+Reverie
+@@ 0x1c9a
+Combo-Counter
+@@ 0x1c9b
+Noise-Arrow
+@@ 0x1c9c
+Triple-Distress
+@@ 0x1c9d
+Steal-Magic
+@@ 0x1c9e
+Stun-Magic
+@@ 0x1c9f
+Concentration
+@@ 0x1ca0
+Scarlet-Edge
+@@ 0x1ca1
+Charge
+@@ 0x1ca2
+Strike-Edge
+@@ 0x1ca3
+Dark
+@@ 0x1ca4
+Trick-Step
+@@ 0x1ca5
+Mental-Reaction
+@@ 0x1ca6
+Wait-Reaction
+@@ 0x1ca7
+Slanting-Rain
+@@ 0x1ca8
+Darkness-Arrow
+@@ 0x1ca9
+False-Arrow
+@@ 0x1caa
+Attack-Pow
+@@ 0x1cab
+Defend
+@@ 0x1cac
+Avoid
+@@ 0x1cad
+Hit
+@@ 0x1cae
+Resist-Damage
+@@ 0x1caf
+Magic-Pow
+@@ 0x1cb0
+Resist-Magic
+@@ 0x1cb1
+Fire-Lance
+@@ 0x1cb2
+Burn-Storm
+@@ 0x1cb3
+Icicle-Edge
+@@ 0x1cb4
+Cool-Damsel
+@@ 0x1cb5
+Lightning-Bolt
+@@ 0x1cb6
+Prismic-Missile
+@@ 0x1cb7
+Shadow-Servant
+@@ 0x1cb8
+Dark-Savior
+@@ 0x1cb9
+Poison-Blow
+@@ 0x1cba
+Stone-Torch
+@@ 0x1cbb
+Cross-Airraid
+@@ 0x1cbc
+Ignite-Javelin
+@@ 0x1cbd
+Evoke-Feather
+@@ 0x1cbe
+Cure-Plumes
+@@ 0x1cbf
+Ordinary-Shape
+@@ 0x1cc0
+Enchanted-Weapon
+@@ 0x1cc1
+Might-Reinforce
+@@ 0x1cc2
+Guard-Reinforce
+@@ 0x1cc3
+Spell-Reinforce
+@@ 0x1cc4
+Reduce-Power
+@@ 0x1cc5
+Reduce-Guard
+@@ 0x1cc6
+Prevent-Sorcery
+@@ 0x1cc7
+Reflect-Sorcery
+@@ 0x1cc8
+Sealed-Critical
+@@ 0x1cca
+Timer-Ring
+@@ 0x1ccb
+Dimension-Slip
+@@ 0x1ccc
+Malice-Search
+@@ 0x1ccd
+Enemy-Search
+@@ 0x1cce
+Treasure-Search
+@@ 0x1ccf
+Trap-Search
+@@ 0x1cd8
+Tri-Emblem
+@@ 0x1ce1
+Gram
+@@ 0x1ce2
+Dainslef
+@@ 0x1ce3
+Etarnaly-Garb
+@@ 0x1ce4
+Bloody-Knuckle
+@@ 0x1ce5
+Bloody-Duster
+@@ 0x1ce6
+Ether-Laser
+@@ 0x1ce8
+Element-Scepter 
+@@ 0x1ce9
+Ether-Scepter 
+@@ 0x1cee
+Infinity-Rod

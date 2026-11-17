@@ -120,6 +120,176 @@ magie
 {81 80 07}PRE
 @@ 0x016c
 {81 80 07}RES
+@@ 0x08c7
+Enchanted sword "Murasame"
+@@ 0x08cb
+Magic blade "Cromrea"
+@@ 0x08cc
+Slashing sword "Farewell"
+@@ 0x08ce
+Holy sword "Seraphy"
+@@ 0x08e0
+Holy wand "Adventia"
+@@ 0x1004
+Sceglitrice dei caduti
+@@ 0x1005
+Colei che dona la vita
+@@ 0x1006
+Corazzato/Mercenario
+@@ 0x1007
+Maga/Principessa
+@@ 0x1008
+Lanciere/Cavaliere
+@@ 0x1009
+Spadaccino/Capitano
+@@ 0x100a
+Arciere/Soldato
+@@ 0x100b
+Corazzato/Avventuriero
+@@ 0x100c
+Arciere/---
+@@ 0x100d
+Maga/Sacerdotessa
+@@ 0x100e
+Maga/---
+@@ 0x100f
+Lanciera/Avventuriera
+@@ 0x1010
+Samurai/---
+@@ 0x1011
+Maga/Veggente
+@@ 0x1012
+Arciere/Ladro
+@@ 0x1013
+Corazzato/Avventuriero
+@@ 0x1014
+Maga/Insegnante
+@@ 0x1015
+Maga/Ricercatrice
+@@ 0x1016
+Maga/Cantatrice
+@@ 0x1017
+Spadaccina/Cavaliere
+@@ 0x1018
+Samurai/---
+@@ 0x1019
+Stregone/Ufficiale
+@@ 0x101a
+Spadaccino/---
+@@ 0x101b
+Mago/Negromante
+@@ 0x101c
+Signore dei Non Morti
+@@ 0x1040
+{6b}Nanami{6c}
+@@ 0x1041
+{6b}Yumeru{6c}
+@@ 0x1043
+{6b}Jun{6c}
+@@ 0x1049
+{6b}Shiho{6c}
+@@ 0x104b
+{6b}Suo{6c}
+@@ 0x1068
+Valhalla
+@@ 0x1069
+Valhalla
+@@ 0x106a
+Artolia
+@@ 0x106b
+Artolia
+@@ 0x106c
+Artolia
+@@ 0x106d
+Gerabellum
+@@ 0x106e
+Crell Monferaigne
+@@ 0x106f
+Gerabellum 
+@@ 0x1070
+Crell Monferaigne
+@@ 0x1071
+Yamato
+@@ 0x1072
+Yamato
+@@ 0x1073
+Gerabellum 
+@@ 0x1074
+Yamato
+@@ 0x1075
+sconosciuta
+@@ 0x1076
+Villnore
+@@ 0x1077
+sconosciuta
+@@ 0x1078
+Flenceburg
+@@ 0x1079
+Flenceburg
+@@ 0x107a
+Yamato
+@@ 0x107b
+Gerabellum 
+@@ 0x107c
+Yamato
+@@ 0x107d
+Villnore
+@@ 0x107e
+Villnore
+@@ 0x107f
+Flenceburg
+@@ 0x1080
+sconosciuta
+@@ 0x10cc
+Asi
+@@ 0x10cd
+Asi
+@@ 0x10ce
+Umano
+@@ 0x10cf
+Umana
+@@ 0x10d0
+Umano
+@@ 0x10d1
+Umano
+@@ 0x10d2
+Umano
+@@ 0x10d3
+Umano
+@@ 0x10d4
+Umano
+@@ 0x10d5
+Umana
+@@ 0x10d6
+Sirena
+@@ 0x10d7
+Draconiana
+@@ 0x10d8
+Umano
+@@ 0x10d9
+Umana
+@@ 0x10da
+Umano
+@@ 0x10db
+Umano
+@@ 0x10dc
+Umana
+@@ 0x10dd
+Umana
+@@ 0x10de
+Umana
+@@ 0x10df
+Umana
+@@ 0x10e0
+Umano
+@@ 0x10e1
+Umano
+@@ 0x10e2
+Umano
+@@ 0x10e3
+Umano
+@@ 0x10e4
+Vampiro
 @@ 0x1130
 Una delle tre dee del fato, il cui compito è decidere
 
@@ -348,166 +518,6 @@ molte battaglie contro Odino. Ha preso lo spirito di
 Silmeria, una delle tre dee del fato, ma il suo senso
 
 dell'onore gli impedisce di fare del male a un ostaggio.
-@@ 0x1004
-Colei che sceglie i caduti
-@@ 0x1005
-Colei che dona la vita
-@@ 0x1006
-Cavaliere pesante/Mercenario
-@@ 0x1007
-Maga/Principessa
-@@ 0x1008
-Lanciere/Cavaliere
-@@ 0x1009
-Spadaccino/Capo delle guardie
-@@ 0x100a
-Arciere/Soldato
-@@ 0x100b
-Cavaliere pesante/Avventuriero
-@@ 0x100c
-Arciere/---
-@@ 0x100d
-Maga/Sacerdotessa
-@@ 0x100e
-Maga/---
-@@ 0x100f
-Lanciera/Avventuriera
-@@ 0x1010
-Samurai/---
-@@ 0x1011
-Maga/Veggente
-@@ 0x1012
-Arciere/Ladro
-@@ 0x1013
-Cavaliere pesante/Avventuriero
-@@ 0x1014
-Maga/Insegnante
-@@ 0x1015
-Maga/Ricercatrice
-@@ 0x1016
-Maga/Fanciulla del canto
-@@ 0x1017
-Spadaccina/Cavaliere
-@@ 0x1018
-Samurai/---
-@@ 0x1019
-Stregone/Ufficiale
-@@ 0x101a
-Spadaccino/---
-@@ 0x101b
-Mago/Negromante
-@@ 0x101c
-Signore dei Non Morti
-@@ 0x1040
-{6b}Nanami{6c}
-@@ 0x1041
-{6b}Yumeru{6c}
-@@ 0x1043
-{6b}Jun{6c}
-@@ 0x1049
-{6b}Shiho{6c}
-@@ 0x104b
-{6b}Suo{6c}
-@@ 0x1068
-Valhalla
-@@ 0x1069
-Valhalla
-@@ 0x106a
-Artolia
-@@ 0x106b
-Artolia
-@@ 0x106c
-Artolia
-@@ 0x106d
-Gerabellum
-@@ 0x106e
-Crell Monferaigne
-@@ 0x106f
-Gerabellum 
-@@ 0x1070
-Crell Monferaigne
-@@ 0x1071
-Yamato
-@@ 0x1072
-Yamato
-@@ 0x1073
-Gerabellum 
-@@ 0x1074
-Yamato
-@@ 0x1075
-sconosciuta
-@@ 0x1076
-Villnore
-@@ 0x1077
-sconosciuta
-@@ 0x1078
-Flenceburg
-@@ 0x1079
-Flenceburg
-@@ 0x107a
-Yamato
-@@ 0x107b
-Gerabellum 
-@@ 0x107c
-Yamato
-@@ 0x107d
-Villnore
-@@ 0x107e
-Villnore
-@@ 0x107f
-Flenceburg
-@@ 0x1080
-sconosciuta
-@@ 0x10cc
-Asi
-@@ 0x10cd
-Asi
-@@ 0x10ce
-Umano
-@@ 0x10cf
-Umana
-@@ 0x10d0
-Umano
-@@ 0x10d1
-Umano
-@@ 0x10d2
-Umano
-@@ 0x10d3
-Umano
-@@ 0x10d4
-Umano
-@@ 0x10d5
-Umana
-@@ 0x10d6
-Sirena
-@@ 0x10d7
-Draconiana
-@@ 0x10d8
-Umano
-@@ 0x10d9
-Umana
-@@ 0x10da
-Umano
-@@ 0x10db
-Umano
-@@ 0x10dc
-Umana
-@@ 0x10dd
-Umana
-@@ 0x10de
-Umana
-@@ 0x10df
-Umana
-@@ 0x10e0
-Umano
-@@ 0x10e1
-Umano
-@@ 0x10e2
-Umano
-@@ 0x10e3
-Umano
-@@ 0x10e4
-Vampiro
 @@ 0x119f
 Fendente dall'alto.
 

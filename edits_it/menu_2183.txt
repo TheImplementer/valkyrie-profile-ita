@@ -156,3 +156,15 @@ ottimizzare.
 Il personaggio è maledetto.
 
 Impossibile cambiare equip.
+@@ 0x08c7
+Enchanted sword "Murasame"
+@@ 0x08cb
+Magic blade "Cromrea"
+@@ 0x08cc
+Slashing sword "Farewell"
+@@ 0x08ce
+Holy sword "Seraphy"
+@@ 0x08e0
+Holy wand "Adventia"
+@@ 0x0cf6
+Missing number{68 69}

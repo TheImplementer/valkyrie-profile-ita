@@ -296,11 +296,11 @@ are listed unchanged.
 
 | English | Italian | Note |
 |---|---|---|
-| Chooser of the Slain; Giver of Life | Colei che sceglie i caduti; Colei che dona la vita | Valkyrie, Freya. |
-| Heavy Knight; Swordsman; Spearman; Archer | Cavaliere pesante; Spadaccino / Spadaccina; Lanciere / Lanciera; Arciere | The battle class, before the slash. |
+| Chooser of the Slain; Giver of Life | Sceglitrice dei caduti; Colei che dona la vita | Valkyrie, Freya. The dialogue's "Colei che sceglie i Caduti" ran past the Party panel, and the 125 px forms ("Colei che sceglie i morti") sat on its border. |
+| Heavy Knight; Swordsman; Spearman; Archer | Corazzato; Spadaccino / Spadaccina; Lanciere / Lanciera; Arciere | The battle class, before the slash. "Cavaliere pesante" ran past the Party panel. |
 | Sorceress; Sorcerer; Wizard; Samurai | Maga; Mago; Stregone; Samurai | Wizard is Gandar, a "stregone" in his biography. |
-| Merc, Princess, Knight, Head Guard, Soldier, Adventurer | Mercenario, Principessa, Cavaliere, Capo delle guardie, Soldato, Avventuriero / Avventuriera | Jayle stays "Cavaliere". |
-| Maiden (Nanami), Seeress, Thief, Teacher, Researcher, Song-Maiden | Sacerdotessa, Veggente, Ladro, Insegnante, Ricercatrice, Fanciulla del canto | |
+| Merc, Princess, Knight, Head Guard, Soldier, Adventurer | Mercenario, Principessa, Cavaliere, Capitano, Soldato, Avventuriero / Avventuriera | Jayle stays "Cavaliere". |
+| Maiden (Nanami), Seeress, Thief, Teacher, Researcher, Song-Maiden | Sacerdotessa, Veggente, Ladro, Insegnante, Ricercatrice, Cantatrice | Song-Maiden is "fanciulla del canto" in the text, too long for the Party panel. |
 | Officer; Necromancer; Leader of the Undead | Ufficiale; Negromante; Signore dei Non Morti | As in Brahms' biography. |
 | Aesir; Human; Mermaid; Dragonian; Vampire | Asi; Umano / Umana; Sirena; Draconiana; Vampiro | Asi as in the dialogue (gli Asi). |
 | unknown (birthplace) | sconosciuta | Agrees with the label, Origine. |
@@ -353,6 +353,22 @@ widest English name, "Dragon-Tooth Warrior" at 111 pixels.
 | Dark Lord; Raver Lord; Wraith Lord; Phantom Lord | Signore oscuro; Signore furioso; Signore spettro; Signore fantasma | |
 | Name Unknown | Nome ignoto | |
 | Wraith (name list, menu 6 `0xFBF`) | Spettro | Iseria Queen there stays. |
+
+## Camp menu screens (Transfer, Use Item, Divine Item, Party, Data)
+
+| English | Italian | Note |
+|---|---|---|
+| MP (Materialize Points) | PM | "Punti materia" where there's room. |
+| Transmute; Normal / Special / High-level Transmute | Trasmuta; Trasm. normale / speciale / superiore | Divine Item. Shortened to fit the list. |
+| Divine Item Menu; Weapons; Defensive Equipment; Artifacts | Menu Reliquie; Armi; Protezioni; Artefatti | |
+| Send character to Asgard; Hero Value insufficient | Mandare ad Asgard?; Valore eroico basso | Transfer. |
+| Offer … to Odin the All-Father? | Offri … a Odino, Padre di tutti? | |
+| Combination Practice Menu; Caution!!; Heavy / Normal / Floating enemy | Menu prova combinazioni; Attenzione!; Pesante / Normale / Volante | Party. |
+| Party Edit Menu; Change / Remove member | Modifica gruppo; Cambia / Togli membro | |
+| Exp. Division Menu; Exp. left | Divisione esp.; Esp. rim. | |
+| MEMORY CARD slot 1 | Slot MEMORY CARD 1 | |
+| CP, /MAX, Back Console, "Missing number" | unchanged | |
+| the second item list (2179/2180 `0x1A8E` on, "Union-Plume" …) | unchanged | No program reads it. |
 
 ## Battle prompts (`battle_1500.7.txt`)
 

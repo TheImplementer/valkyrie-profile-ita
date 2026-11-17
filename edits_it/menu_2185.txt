@@ -37,6 +37,10 @@ con due blocchi liberi.
 MEMORY CARD non formattata 
 
 Formattarla?
+@@ 0x00fa
+Slot MEMORY CARD 1
+@@ 0x00fb
+Slot MEMORY CARD 2
 @@ 0x00fd
 Nessun dato
 @@ 0x00fe
@@ -49,6 +53,8 @@ MEMORY CARD non inserita.
 
 @@ 0x0102
 Sì
+@@ 0x0103
+No
 @@ 0x0108
 Dati 1
 @@ 0x0109
@@ -73,6 +79,12 @@ Errore durante l'accesso
 ai dati della MEMORY CARD.
 
 Operazione interrotta.
+@@ 0x0112
+{61}avviso{62}
+
+Ci sono dati
+
+di un'altra versione.
 @@ 0x0113
 Caricamento...
 @@ 0x0114

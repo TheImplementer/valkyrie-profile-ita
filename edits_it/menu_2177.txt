@@ -8,6 +8,44 @@
 # (an item name is in several), unless --no-link is given. A "# no-link" line up here
 # keeps this file's edits to this table, and they win over a linked copy.
 
+@@ 0x00b7
+{81 80 01}Sigillo
+@@ 0x00ce
+{81 80 07}Magia attiva
+@@ 0x00db
+{81 80 07}Magie
+@@ 0x0103
+No
+@@ 0x0209
+ancora inviabili
+@@ 0x020a
+Non inviabile
+@@ 0x020b
+Nessun altro eroe inviabile.
+@@ 0x020c
+Mandare
+
+ad Asgard?
+
+Confermi?
+@@ 0x020e
+Inviare davvero
+
+questo eroe?
+@@ 0x020f
+Trasferimento rifiutato.
+@@ 0x0210
+Valore eroico basso
+@@ 0x08c7
+Enchanted sword "Murasame"
+@@ 0x08cb
+Magic blade "Cromrea"
+@@ 0x08cc
+Slashing sword "Farewell"
+@@ 0x08ce
+Holy sword "Seraphy"
+@@ 0x08e0
+Holy wand "Adventia"
 @@ 0x119f
 Fendente dall'alto.
 

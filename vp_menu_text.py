@@ -151,8 +151,13 @@ def encode(text, slots=None):
                 vals = bytes(int(h, 16) for h in text[i + 1:j].split())
             except ValueError:
                 raise ValueError(f'bad raw codes {text[i:j + 1]!r} (hex bytes separated by spaces)')
-            if not vals or 0 in vals:
-                raise ValueError(f'{text[i:j + 1]!r}: empty, or contains 00 (the string terminator)')
+            # 00 ends a string; it may only be the argument of an 81 80 command, which is how a
+            # string reaches its hidden tail (MenuText.tails): the game reads 81 80 00 and goes on
+            seq = out + vals
+            if not vals or any(seq[len(out) + p - 2:len(out) + p] != b'\x81\x80'
+                               for p, v in enumerate(vals) if v == 0):
+                raise ValueError(f'{text[i:j + 1]!r}: empty, or contains 00 (the string terminator) '
+                                 'other than as {81 80 00}, before a hidden tail')
             out += vals; i = j + 1; continue
         if c == '}':
             raise ValueError('a "}" outside a raw code; write {5e} for the character')
@@ -201,6 +206,15 @@ class MenuText:
         self.pairs = [list(struct.unpack_from('<2I', self.raw, 4 + 8 * i)) for i in range((to - 4) // 8)]
         self.orig = [self._string(o) for _, o in self.pairs]
         self.strings = list(self.orig)
+        # The bytes between a string's 00 and the next string, which no entry points at: mostly a
+        # lone 00, but five strings end in an 81 80 command whose argument is that 00, and the game
+        # reads on into the text after it ("Change member" + "Select member to exchange.").
+        # build() writes each tail back after its string, unless an edit gives the string its own.
+        self.tails = []
+        for k, (_, o) in enumerate(self.pairs):
+            end = self.text_offset + o + len(self.orig[k]) + 1
+            nxt = self.text_offset + self.pairs[k + 1][1] if k + 1 < len(self.pairs) else end
+            self.tails.append(self.raw[end:nxt] if nxt > end else b'')
         self.orig_parts = [bytes(d) for _, d in self.pkg.parts]
         self.font_at = None             # ('ent', i) or ('part', i): where the font is
         self.font = self._font()
@@ -370,7 +384,7 @@ class MenuText:
         out = bytearray(self.raw[:self.text_offset + first])
         for k, ((mid, _), s) in enumerate(zip(self.pairs, self.strings)):
             struct.pack_into('<2I', out, 4 + 8 * k, mid, len(out) - self.text_offset)
-            out += s + b'\0'
+            out += s + b'\0' + (b'' if b'\0' in s else self.tails[k])
         out += bytes(-len(out) % 4)
         return bytes(out)
 
@@ -476,6 +490,10 @@ def edit_file_text(mt, entries=None):
     for mid in ids:
         lines.append(f'@@ {mid:#06x}')
         lines.append(mt.text(mid) if entries is None else entries[mid])
+        tail = mt.tails[mt.index(mid)] if entries is None else b''
+        if entries is None and mt.orig[mt.index(mid)].endswith(b'\x81\x80') and tail.rstrip(b'\0'):
+            # the hidden text the game reads after this string: shown so it can be translated
+            lines[-1] = lines[-1][:-len('{81 80}')] + '{81 80 00}' + mt.decode(tail[:-1])
     return '\n'.join(lines) + '\n'
 
 

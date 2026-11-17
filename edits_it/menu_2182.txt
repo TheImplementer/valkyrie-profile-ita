@@ -7,20 +7,116 @@
 # (and the battle item table 1806.1) that has the same id with the same original text
 # (an item name is in several), unless --no-link is given.
 
-@@ 0x015e
-Forma
-@@ 0x0160
-Prova
-@@ 0x0162
-{81 80 07}Livello
-@@ 0x0175
-Sfera esp.
+@@ 0x00b7
+{81 80 01}Sigillo
+@@ 0x00ce
+{81 80 07}Magia attiva
 @@ 0x00d7
 {81 80 07}Attacco normale
 @@ 0x00d8
 {81 80 07}Contrattacco
 @@ 0x00d9
 {81 80 07}Att. speciale
+@@ 0x00db
+{81 80 07}Lista magie
+@@ 0x0103
+No
+@@ 0x0111
+Qui niente prove
+
+di combinazione.
+@@ 0x0112
+{81 80 07}Menu prova combinazioni
+@@ 0x0113
+{61} {81 80 02}Attenzione! {81 80 00}{61}
+@@ 0x0114
+Durante la prova nessuno subisce danni.
+
+Non ci sono stati alterati né morti.
+
+Niente oggetti né cambi di arma.
+
+Anche le tecniche sono disattivate.
+
+Alla fine scegli "Fuga".
+@@ 0x0115
+Iniziare la prova?
+@@ 0x0116
+Pesante
+@@ 0x0117
+Normale
+@@ 0x0118
+Volante
+@@ 0x0119
+{81 80 07}Scelta del nemico
+@@ 0x011a
+Quale nemico affronterai?
+@@ 0x011b
+Livello già al massimo.
+@@ 0x015e
+Forma
+@@ 0x0160
+Prova
+@@ 0x0162
+{81 80 07}Livello
+@@ 0x016d
+Cambia 
+@@ 0x016f
+{81 80 07}Cambia membro
+
+{81 80 00}Scegli il membro
+
+da scambiare.
+@@ 0x0170
+{81 80 07}Togli membro
+
+{81 80 00}Scegli il membro
+
+da togliere.
+@@ 0x0171
+Valkyrie non può uscire
+@@ 0x0172
+{81 80 07}Modifica gruppo
+@@ 0x0173
+Serve almeno 1 membro.
+@@ 0x0175
+Sfera esp.
+@@ 0x0176
+{81 80 07}Esp.
+@@ 0x0177
+{81 80 07}Esp. rim. 
+@@ 0x0178
+{81 80 07}Sfera esp.{62}Divisione esp.
+@@ 0x0179
+scegli,{62 62 62 62 62 62 62}cambia n.
+@@ 0x017b
+Dividere l'esperienza?
+
+Confermi?
+@@ 0x017c
+Dividi
+@@ 0x017d
+Da capo
+@@ 0x017e
+Annulla
+@@ 0x017f
+ sale di {81 80 01}livello.
+@@ 0x0180
+{81 80 07}Esp. per il prossimo livello
+@@ 0x0181
+ottiene
+@@ 0x0182
+Punti esperienza
+@@ 0x08c7
+Enchanted sword "Murasame"
+@@ 0x08cb
+Magic blade "Cromrea"
+@@ 0x08cc
+Slashing sword "Farewell"
+@@ 0x08ce
+Holy sword "Seraphy"
+@@ 0x08e0
+Holy wand "Adventia"
 @@ 0x119f
 Fendente dall'alto.
 
