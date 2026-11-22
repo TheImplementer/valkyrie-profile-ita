@@ -34,7 +34,7 @@ Sbrigati a prendere il secchio!<17:d200>
 <3:03>Noi due<3:0c>... <17:7800>
 @@ 21
 <19:ffff>Lucian
-「<18><3:03>La mia migliore amica<3:14>.
+「<18><3:03>La mia amica d'infanzia<3:14>.
 <3:03>Questa era casa sua<3:0c>...<17:7800>
 @@ 22
 <19:ffff>Lucian
@@ -86,8 +86,8 @@ a nessun altro modo<3:0c>・・・<17:d200>
 @@ 36
 <5><18><3:03>Beh, in posti come quelli<3:19>,<3:03>
 <5>soprattutto a Villnore<3:1e>,<3:03>
-<5>a volte la gente deve vendere
-<5><3:03>le proprie figlie solo per mangiare.<17:b400>
+<5>è normale che la gente venda
+<5><3:03>le proprie figlie per una bocca in meno.<17:b400>
 @@ 37
 <5><18><3:03>Comunque<3:28>,<3:04> mi hanno assunto per scortare
 <5><3:03>un gruppo di mercanti di schiavi
@@ -97,8 +97,8 @@ a nessun altro modo<3:0c>・・・<17:d200>
 <5><18><3:04>Una tipica mocciosa di paese<3:28>,<3:03>
 <5>come se ne vedono ovunque<3:1e>.<3:03>
 <5>Il nome non me lo ricordo<3:1e>.
-<5><3:03>Comunque<3:1e>,<3:03> per qualche motivo,
-<5>si era affezionata a me.<17:f000>
+<5><3:03>Comunque<3:1e>,<3:03> ignara di tutto,
+<5>si era affezionata proprio a me.<17:f000>
 @@ 39
 <5>Casa di Platina
 @@ 40
@@ -116,10 +116,10 @@ a nessun altro modo<3:0c>・・・<17:d200>
 perché sei così triste?
 @@ 45
 <19:ffff>Aelia
-「Qui non c'è dove alloggiare,
-e non ho visto bei posti per accamparsi<3:1e>.<3:ff>
+「Qui non c'è dove alloggiare:
+è come dormire all'aperto<3:1e>.<3:ff>
 Sono abituata ad arrangiarmi, ma...
-<3:0c>・・・<3:ff>Senti, viaggi anche tu<3:14>?<3:ff>
+<3:0c>・・・<3:ff>Neanche tu sei in viaggio, vero<3:14>?<3:ff>
 Noi ragazze dobbiamo restare unite!
 @@ 46
 <5>Villaggio di Coriander

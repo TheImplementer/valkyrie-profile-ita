@@ -40,12 +40,12 @@ per litigare tra amici?
 I suoi ricordi, la sua personalità...
 Non posso garantire
 che cosa ne sarà.
-Anzi, l'anima è così incompleta
-che temo dovremo agire subito.
+Una cosa così incompleta
+non mi servirebbe a nulla.
 @@ 23
 <19:0100>Mystina
-「Ma<3:0c>...<3:ff> non
-mi dire...
+「Mah<3:0c>...<3:ff> sarà
+vero?...
 @@ 24
 <19:0100>Arngrim
 「È chiaro che ha bisogno
@@ -74,9 +74,9 @@ separare il corpo
 dall'anima in ogni momento...
 @@ 29
 <19:0100>Mystina
-「<3:0c>...<3:ff>Sì, ho capito. E non
-credere che sia la tua
-serva o roba del genere...
+「<3:0c>...<3:ff>Sì, ho capito. Ma non
+chiamarmi con tanta
+confidenza...
 @@ 30
 <19:0000>Lezard
 「Allora cominciamo.
@@ -104,7 +104,7 @@ io <3:0a>ti infondo<3:03> il pensiero.<17:b400>
 e soffio la vita nel vuoto!<17:7800>
 @@ 36
 <19:0100>Mystina
-「<3:0c>・・・<3:ff>Non possiamo farci niente.
+「<3:0c>・・・<3:ff>Tutto sotto il ghiaccio.
 Mi fa proprio arrabbiare.
 @@ 37
 <19:0100>Mystina

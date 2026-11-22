@@ -53,8 +53,8 @@ mi diverte.
 Proprio come te, no!?
 @@ 27
 <19:0100>Arngrim
-「Non me ne frega niente di
-"esprimere me stesso" e roba simile.
+「Della roba che dura nel tempo
+non me ne frega niente!!
 @@ 28
 <19:0100>Arngrim
 「Dimmi, Roland<3:28>,<3:ff>
@@ -71,8 +71,8 @@ di questo mio corpo fragile.
 @@ 32
 <19:0000>Roland
 「Scusami, fratello<3:28>.<3:ff>
-So che combatti anche
-per mantenere me <7:0b>-<7:01>
+So che combatti
+per me, eppure <7:0b>-<7:01>
 @@ 33
 <19:0100>Arngrim
 「Ti lascio qui i soldi.
@@ -92,16 +92,16 @@ gente in battaglia.
 「Ti <3:1e><3:ff>serve qualcosa?
 @@ 38
 <19:0000>Ragazza
-「Voi non siete<3:0c>・・・<3:ff>
-cioè<3:1e>, <3:ff>non sarete per caso ser Arngrim?
+「Sei tu ser Arngrim<3:0c>・・・<3:ff>
+cioè<3:1e>, <3:ff>siete voi ser Arngrim?
 @@ 39
 <19:0100>Arngrim
 「Sì<3:1e>,<3:ff>
 sono io・・・
 @@ 40
 <19:0000>Ragazza
-「Io sono<3:0c>・・・<3:ff>cioè<3:28>,
-<3:ff>il mio nome è<3:0c>・・・<3:ff>
+「Noi siamo<3:0c>・・・<3:ff>cioè<3:28>,
+<3:ff>io sono<3:0c>・・・<3:ff>
 Ehm<3:0c>・・・<3:ff>Jela<3:0c>・・・<3:ff>
 @@ 41
 <19:0100>Arngrim
@@ -185,4 +185,4 @@ per far giustiziare i servitori <7:0b>-<7:01>
 「Già.
 @@ 67
 <19:ffff>Roland
-「Che chiacchierone<3:0c>・・・<3:ff>
+「Hai la testa altrove<3:0c>・・・<3:ff>

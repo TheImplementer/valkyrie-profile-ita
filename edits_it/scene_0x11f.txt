@@ -33,12 +33,12 @@ allora perché?!
 @@ 20
 <19:ffff>Lezard
 「Avevo pensato a una coppia più giovane,
-ma forse non avrebbe ancora conosciuto il
-vero amore. In ogni caso, le coppie
-anziane come voi non hanno futuro.<page>
+ma non avrebbe accumulato abbastanza
+amore. E una coppia di anziani
+non ha futuro.<page>
 Voi due avete alle spalle
 una vita intera d'amore, non è così?<page>
-E ancora adesso<3:0c>...<3:ff>
+E vi amerete ancora<3:0c>...<3:ff>
 @@ 21
 <19:ffff>Lorenta
 「Che<3:0c>...<3:ff> che cosa stai
@@ -89,12 +89,12 @@ succedendo?!
 「Sto<7:0b>-<7:01>
 @@ 32
 <19:ffff>Lorenta
-「Dei, perdonatemi<3:0c>...<3:3c> <3:ff>
-Non c'è nulla
+「Perdonami<3:0c>...<3:3c> <3:ff>
+Non c'è più nulla
 che io possa fare per te...
-Per quanto i miei allievi mi
-credano potente, non posso
-aiutarti<3:0c>...<3:ff>
+Anche se sono la migliore
+dell'Accademia, non posso
+salvarti<3:0c>...<3:ff>
 @@ 33
 <19:ffff>Lorenta
 「Perdonami<3:0c>...<3:ff>

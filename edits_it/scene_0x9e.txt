@@ -16,9 +16,9 @@ Sacerdote
 「Avete intuito bene.
 @@ 17
 Valkyrie
-「Io vado in cerca
-delle anime degli uomini.
-Tu che cosa credi di ottenere?
+「Tu dai la caccia
+alle anime degli uomini.
+Che cosa intendi ottenere?
 @@ 18
 Vampiro nobile
 「C'è bisogno che io risponda?<page>
@@ -27,9 +27,9 @@ Vampiro nobile
 qualunque cosa io dica.
 @@ 19
 Valkyrie
-「<3:0c>・・・<3:ff>Dovrei distruggerti.
-Nutri rancore
-verso i vivi!
+「<3:0c>・・・<3:ff>Perisci dunque,
+creatura nemica
+dei vivi!
 @@ 20
 Vampiro nobile
 「Vi chiederei di
@@ -51,14 +51,14 @@ a sfinirvi un poco prima
 che mi raggiungiate.
 @@ 24
 Vampiro nobile
-「Quei tipi sono negromanti: trasformano
-in non morti i cadaveri che hanno
-abbracciato i demoni.<page>
-Sono certo che li incontrerete<3:32>.<3:ff>
+「Sono spiriti che possiedono
+i cadaveri e li tramutano
+in non morti.<page>
+Avrete visto i cadaveri ammassati qui<3:32>.<3:ff>
 Se non vi sbrigate,<page>
-le cataste di cadaveri in questo edificio,
-i morti e i tormentati,
-potrebbero avere nuova compagnia.
+coloro che soffrono
+anche dopo la morte
+aumenteranno di numero.
 @@ 25
 Valkyrie
 「Tu!!

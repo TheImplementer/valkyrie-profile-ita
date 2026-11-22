@@ -63,8 +63,8 @@ ordine del re.<17:3c00>
 disonorevole?<17:3c00>
 @@ 28
 <19:ffff>Janus
-「<18><3:03>Fui privato del rango di
-cavaliere e cacciato dalla città.<17:3c00>
+「<18><3:03>Fui privato del rango di cavaliere,
+e le calunnie mi cacciarono di città.<17:3c00>
 @@ 29
 <19:ffff>Janus
 「<18><3:04>Dieci anni<3:24>.<3:03> Non sono tornato per
@@ -75,13 +75,13 @@ mio padre<3:0c>・・・<3:ff><17:3c00>
 「<18><3:03>Ma lui<7:0b>-<7:01><17:3c00>
 @@ 31
 <19:ffff>Valkyrie
-「<18><3:03>Non conosci nemmeno una cosa<3:12> <3:03>
-semplice come il tuo posto?<17:3c00>
+「<18><3:03>Trovare qualcuno<3:12> <3:03>
+per me è cosa semplice.<17:3c00>
 @@ 32
 <19:ffff>Valkyrie
-「<18><3:03>Comunque, sei stato scelto<3:1e>.<3:03>
-Ora la tua<3:05> anima <3:04>appartiene agli
-dei<3:0c>・・・<3:ff><17:3c00>
+「<18><3:03>Tu sei stato scelto<3:1e>.<3:03>
+E in un certo senso<3:05> da <3:04>coloro che
+ti hanno tradito<3:0c>・・・<3:ff><17:3c00>
 @@ 33
 <19:ffff>Fahn
 「Cosa?!
@@ -115,11 +115,11 @@ nella "confraternita" dei cavalieri?
 「!!
 @@ 41
 <19:ffff>Magnus
-「Che astuzia diabolica, Fahn!
-Una donna travestita da uomo・・・
-Ti credevo uno stupido soldato.
+「Così Fahn si teneva un'amante
+travestita da uomo・・・
+Lo credevo tutto d'un pezzo.
 Ma ora, ora capisco.<page>
-Ungh<3:08>ggg<3:ff>hhh!
+Ih<3:08> ih<3:ff> ih!
 @@ 42
 <19:ffff>Genevieve
 「Ooh<3:0a>~<3:ff>!
@@ -132,9 +132,9 @@ Usi gli uomini.
 「Li usi<3:14>,<3:ff> ma è solo un modo per
 nascondere i tuoi veri sentimenti<3:0c>・・・<3:ff>
 Ah!<page>
-Povera ragazza.
-Non sai cosa c'è
-nel tuo stesso cuore.
+Che delizia, il cuore
+di una donna che non sa
+essere sincera!
 @@ 44
 <19:ffff>Jayle
 「Cosa・・・<3:0c><3:3c>!<3:ff>
@@ -261,10 +261,10 @@ ti sbagli.<17:9600>
 @@ 74
 <19:0100>Valkyrie
 「<18><3:03>La morte di una persona cara<3:2c>.<3:03>
-<3:03>Per chi resta, le ferite si fanno
-<3:04>sempre <3:06>più <3:04>profonde・・・<17:8200><page>
-<18><3:03>Chi resta si fa sempre più debole<3:22>,<3:03>
-in un'agonia senza pari<3:0a>,<3:03> col cuore in catene.<17:8200>
+<3:03>Più è forte il legame con chi resta,
+<3:04>più <3:06>fa <3:04>male・・・<17:8200><page>
+<18><3:03>e più debole è chi resta<3:22>,<3:03>
+più dolorosamente<3:0a> <3:03>gli incatena il cuore.<17:8200>
 @@ 75
 <19:0100>Valkyrie
 「<18><3:03>Non lo vedi<3:1e>?

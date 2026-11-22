@@ -6,19 +6,19 @@
 
 @@ 14
 <19:0100>Frei
-<3:04>「<18>Bentornata nel Valhalla!<12:5109><17:7800>
+<3:04>「<18>Benvenuta nel Valhalla!<12:5109><17:7800>
 @@ 15
 Valkyrie
-<3:04>「<18>Sembra <3:03>che tu
-stia aspettando qualcuno.<12:5209><17:7800>
+<3:04>「<18>Mi accogli <3:03>come se
+fossi un'ospite.<12:5209><17:7800>
 @@ 16
 <19:0100>Frei
 <3:03>「<18>Certo!<3:3c> <3:03>Ti stavo aspettando,<3:1e><3:03>
-Lenneth!<3:1e> <3:03>Ti aspetto da quando mia
-sorella <3:04>Freya<3:0f> <3:03>mi ha detto<3:0a> <3:03>che saresti<3:02> tornata!<12:5309><17:7800>
+sorella Lenneth!<3:1e> <3:03>Mia sorella <3:04>Freya<3:0f>
+<3:03>mi ha detto<3:0a> <3:03>che saresti<3:02> tornata!<12:5309><17:7800>
 @@ 17
 Valkyrie
-<3:03>「<18>È passato così tanto<3:0c>...<3:03>?
+<3:03>「<18>Quanto tempo<3:0c>...<3:03>
 Stai bene?<12:5409><17:7800>
 @@ 18
 <19:0100>Frei

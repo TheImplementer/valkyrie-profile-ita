@@ -16,8 +16,8 @@ Va bene non salvare?
 @@ 17
 <5>Benvenuto nelle caverne della Porta Serafica
 <5>dove vivono gli dei dell'altro mondo!!
-<5>Possono accedervi solo coloro che hanno
-<5>ottenuto 8 sfere nel gioco principale.
+<5>Potrà completare questo dungeon solo chi
+<5>ha raccolto le 8 sfere del gioco principale.
 <5>Questa è la tua ultima prova, e affronterai
 <5>i nemici più spietati.
 <5>Quanto bene hai addestrato i tuoi personaggi?

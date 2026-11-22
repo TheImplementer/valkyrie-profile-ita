@@ -13,9 +13,9 @@ Non ti servirà a nulla
 fare scompiglio qui, giovanotto.
 @@ 15
 <19:0100>Arngrim
-「Forse no, ma<3:1e>!<3:ff>
-Mi "servirà" eccome
-a spaccarti la faccia!!
+「Taci<3:1e>!<3:ff>
+Non sopporto che sia tu
+a guadagnarci!!
 @@ 16
 <19:0000> Lombert
 「Capisco<3:0c>・・・<3:ff><page>
@@ -94,9 +94,9 @@ Senti chi parla, dea della morte!!
 @@ 34
 ???
 「Sciocco impudente!<3:28>!<3:ff>
-Valkyrie non è una dea delle tenebre.<page>
-Parole simili ti porteranno
-a morte certa!!
+Valkyrie non è una dea della morte.<page>
+Per parole simili, diecimila morti
+non ti basterebbero!!
 @@ 35
 <19:0100>Arngrim
 「A<3:0c>・・・<3:ff>Angela<3:0c>・・・<3:ff>?

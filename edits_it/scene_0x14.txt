@@ -7,10 +7,10 @@ che ha messo radici così a fondo nella tua anima<3:0a>,<3:03>
 da tormentarti ancora?<17:f000>
 @@ 16
 <19:ffff>Valkyrie
-「<18><3:03>Se non desideri rispondere, ti lascerò in pace<3:14>.
-<3:03>Tuttavia devo ricordarti che non puoi
-accettare la tua morte<3:0a>
-<3:03>finché non avrai lasciato i tuoi affanni terreni.<17:d200>
+「<18><3:03>Se non desideri rispondere, non ti costringerò<3:14>.
+<3:03>Ma non dimenticare che nel regno degli dei
+un cuore esitante<3:0a>
+<3:03>può portarti alla morte.<17:d200>
 @@ 17
 <19:ffff>Valkyrie
 「<18><3:03>Allora, <3:04>Lucian?

@@ -23,8 +23,8 @@ La situazione è chiara.
 「Cerca di capire.
 @@ 18
 <19:0000>Lawfer
-<18><3:03>「Ti prego, fermiamoci<3:0f>,<3:03> Arngrim<3:1e>.<3:04>
-Non sono un genio come te.<12:bd09><17:7800>
+<18><3:03>「Non paragonarmi a te<3:0f>,<3:03> Arngrim<3:1e>.<3:04>
+Io non sono un genio.<12:bd09><17:7800>
 @@ 19
 <19:0100>Arngrim
 <18><3:04>「"Genio"<12:be09><3:32>?<3:03>
@@ -82,18 +82,18 @@ di tutti quegli uomini <7:0b>-<7:01>
 「<3:0c>・・・<3:ff>Che succede?
 @@ 33
 <19:0100>Jayle
-「Siete il mio capitano<3:28>.<3:ff>
-Non è giusto da parte mia
-essere così confidenziale.
+「Sono una vostra sottoposta<3:28>!<3:ff>
+Dovreste tenere
+un contegno più deciso.
 @@ 34
 <19:0000>Fahn
-「Già<3:28>,<3:ff> dovremmo essere più seri.
+「Ah<3:28>,<3:ff> scusa, scusa.
 @@ 35
 <19:0100>Jayle
-「Uffa<3:1e>,<3:ff>
-ora mi state solo prendendo in giro!
+「Ecco<3:1e>,<3:ff>
+vi siete scusato di nuovo!
 Ih ih ih.
 @@ 36
 <19:0000>Fahn
-「Ti sta bene<3:3c>.<3:ff>
+「Ah, è vero<3:3c>.<3:ff>
 Ah ah ah.

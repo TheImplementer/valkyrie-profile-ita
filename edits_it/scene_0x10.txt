@@ -40,7 +40,7 @@ il loro <3:02>veleno ci ucciderà!<17:7800>
 @@ 25
 <19:0000>Platina
 「<18><3:04>Se mi addormentassi qui<3:0a>,<3:04>
-potrei semplicemente<3:08>...<3:04>svanire?<17:7800>
+potrei morire<3:08>...<3:04>senza soffrire?<17:7800>
 @@ 26
 <19:ffff>Valkyrie
 「Questo luogo<3:0c>...
@@ -81,11 +81,11 @@ in un posto come questo<3:0c>・・・
 Come ho fatto a<3:0c>...
 @@ 38
 <19:ffff>Valkyrie
-「Come ha fatto questo orecchino<3:0c>・・・<3:ff>?<page>
-Comunque sia, il suo scintillio
-si offuscherà senza dubbio presto,
-prima di essere di nuovo
-insanguinato<3:0c>・・・
+「Perché proprio un orecchino<3:0c>・・・<3:ff>?<page>
+Tanto, anche questo scintillio
+finirà presto offuscato
+dal sangue dei nemici
+che abbatterò<3:0c>・・・
 @@ 39
 <5><3:0c>Lucian<3:0c>...<17:5a00>
 @@ 40
@@ -115,4 +115,4 @@ Cosa posso fare<3:28>?<3:ff>
 Non posso rimediare<3:0c>・・・<3:1e><3:ff>
 Non posso riportarlo tra i vivi<3:0c>・・・<3:ff>!!
 @@ 47
-<5><18><3:04>Lo detesto...<17:1e00>
+<5><18><3:04>No... non così...<17:1e00>

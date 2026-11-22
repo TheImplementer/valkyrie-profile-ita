@@ -28,7 +28,7 @@ Ti manovra come fa un<3:0c><3:ff>
 burattinaio con la sua marionetta<3:0c>・・・<3:ff>
 @@ 21
 <19:0100>Brahms
-「Non muoverti.
+「Non puoi muoverti.
 @@ 22
 <19:0100>Brahms
 「Ho sempre creduto
@@ -85,9 +85,9 @@ e chiamarla "destino" solo
 a giochi fatti<3:0c>・・・<3:ff>
 @@ 33
 <19:0000>Mystina
-「Esatto<3:1e>. <3:ff>Non permetteremo
-che l'esistenza di Valkyrie
-venga negata!!
+「Esatto<3:1e>. <3:ff>Ed è per questo
+che l'esistenza di costei
+va negata!!
 @@ 34
 <19:0100>Brahms
 「Ah, ora capisco<3:1e>. <3:ff>L'anima
@@ -102,11 +102,10 @@ Quale di noi sia la Valkyrie
 Non c'è davvero una risposta.
 @@ 36
 <19:0000>Mystina
-「"Vera"<3:28>?<3:ff> Non ci importa chi sia
-quella "vera"!!
-Hai chiuso fuori l'anima di
-Valkyrie・・・È tutto ciò
-che ci importa!
+「"Vera"<3:28>?<3:ff> Che importa
+quale sia quella "vera"!!
+Tu hai calpestato
+il cuore di Valkyrie!!
 @@ 37
 <19:0100>Hrist
 「Senti・・・la sua mancanza<3:1e>?<3:ff>
@@ -116,8 +115,8 @@ di voi umani, la sua esistenza verrà
 di certo annientata dal sommo Odino.
 @@ 38
 <19:0100>Hrist
-「È tutto ciò che devi
-sapere<3:0c>・・・<3:ff>
+「Allora saprete che cosa
+sia la verità<3:0c>・・・<3:ff>
 @@ 39
 <19:0000>Mystina
 「<3:0c>・・・<3:ff>
@@ -183,9 +182,9 @@ Comunque non c'entra niente
 con quello che sono adesso.
 @@ 53
 <19:0100>Brahms
-「Heh<3:1e>. <3:ff>Capisco<3:0c>・・・<3:ff>hai ragione.
-Al momento hai altro
-di cui preoccuparti.
+「Heh<3:1e>. <3:ff>Già<3:0c>・・・<3:ff>hai ragione.
+Per te, ciò che sei adesso
+deve essere tutto.
 @@ 54
 <19:0000>Arngrim
 「Si può dire così.
@@ -196,7 +195,7 @@ ci incontreremo ancora,
 come in passato<3:0c>・・・<3:ff>
 @@ 56
 <19:0000>Mystina
-「<3:0c>・・・<3:ff>Che mostro.
+「<3:0c>・・・<3:ff>Che tipo strambo.
 @@ 57
 <19:ffff>Lezard
 「Be', è meglio sbrigarci.
@@ -209,6 +208,6 @@ come in passato<3:0c>・・・<3:ff>
 Potrebbe andare a male. Ah ah ah.
 @@ 60
 <19:0000>Mystina
-「Bleah<3:28>! <3:ff>Sei un malato, Lezard<3:3c>.<3:ff>
-La signora Valkyrie non è un
+「Ma sei scemo<3:28>? <3:ff>Che schifo, Lezard<3:3c>.<3:ff>
+Valkyrie non è mica un
 pesce!

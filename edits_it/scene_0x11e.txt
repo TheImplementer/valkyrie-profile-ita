@@ -46,7 +46,7 @@ Eh eh<3:1e>,<3:ff> che sfortuna per te.
 Forse sei ancora più impertinente
 di quanto pensassi.
 Hai usato il tuo incantesimo sperando
-in un po' di... azione?
+che ti saltasse addosso?
 @@ 25
 <19:0000>Elfa
 「Co<3:1e>...<3:ff> come osi!!<3:ff>
@@ -117,8 +117,8 @@ non è altro che un inganno<3:1e>, <3:ff>disse.<page>
 Eppure, la mia ricerca della Pietra
 è valsa davvero la pena.<page>
 Diventerai un sacrificio,
-un sacrificio per appagare
-tutti i miei desideri!
+un sacrificio che colmerà
+il mio cuore!
 @@ 38
 Lezard
 「<18><3:03>Se uso un elfo come catalizzatore<3:32>,<3:03>

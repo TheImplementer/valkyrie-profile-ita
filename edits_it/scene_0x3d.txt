@@ -57,7 +57,7 @@ Neanche quando è morta l'ha pianta nessuno<3:28>.<3:ff>
 Ogni volta che volevo piangere,
 tutti mi guardavano con quegli
 occhi gelidi<3:0c>...e non ci riuscivo<3:28>.<3:ff>
-Ma non era solo questo<3:0c>...
+Eppure non avrei dovuto badarci<3:0c>...
 @@ 28
 <19:ffff>Yumei
 「Non sorridevo quando ero felice.
@@ -74,12 +74,12 @@ avevo rinunciato del tutto a vivere.
 @@ 32
 <19:ffff>Yumei
 「Almeno,
-volevo far piangere mio padre.
+volevo che mio padre la piangesse.
 @@ 33
 <19:ffff>Yumei
 「Il mio desiderio sarebbe stato<3:14>...<3:ff>
-che mio padre, mia madre e io potessimo
-vivere insieme come una famiglia<3:0c>...
+che mio padre non avesse smesso
+di amare mia madre<3:0c>...
 @@ 34
 <19:ffff>Yumei
 「Ma non è giusto...
@@ -99,7 +99,7 @@ Mi dispiace averti mentito.
 Ogni volta che volevo piangere,
 tutti mi guardavano con odio...
 e non ci riuscivo.
-Ma non era solo questo<3:0c>...
+Eppure non avrei dovuto badarci<3:0c>...
 @@ 38
 <19:ffff>Yumei
 「Ero proprio una sciocca.
@@ -111,10 +111,10 @@ Perché non l'ho fermata<3:0c>?
 <19:ffff>Fuyuki
 「Che<3:14>...<3:ff>Che cos'è<3:0c>!?
 @@ 41
-<5><3:04>Quando una gemma cerulea è nel palmo di un giovane<3:78>
-<5><3:04>Quando due sconosciuti si aprono il cuore<3:3c>
-<5><3:04>E quando due cuori si uniscono in uno<3:3c>
-<5><3:04>Allora la leggenda è davvero rinata<3:b4>
+<5><3:04>Nel palmo del giovane c'era una piccola gemma cerulea<3:78>
+<5><3:04>Quando i loro sentimenti si incontrarono<3:3c>
+<5><3:04>Quando un cuore toccò l'altro<3:3c>
+<5><3:04>Allora, di certo, nacque la leggenda<3:b4>
 <5><3:04>  La Leggenda del Lapislazzuli Ceruleo<7:0b>-<7:01>
 @@ 42
 <5><3:14><3:00><18><12:290a>Fuyuki, se trovassi il Lapislazzuli Ceruleo
@@ -152,6 +152,6 @@ di nuovo con i suoi genitori<7:0b>-<7:01><17:7800>
 「Fuyuki, mi dispiace<3:0c>...
 @@ 49
 <19:ffff>Yumei
-「Chi<3:0c>...?
+「Cos'è<3:0c>...?
 @@ 50
 <5><3:00>Hai trovato Frammento di Lapislazzuli.

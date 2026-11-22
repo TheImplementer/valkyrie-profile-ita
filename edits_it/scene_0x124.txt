@@ -30,9 +30,9 @@ v'insegnerò io a conoscermi!<3:32>!<3:08><3:08><12:b00a><17:3c00>
 vostra stessa anima.<3:28> <3:05>Lezard Valeth!!<12:b10a><17:3c00>
 @@ 21
 <19:0000>Lezard
-<18><3:0a>「<3:03>Se accetterete il marchio di
-Hel su di voi,<3:14> <3:04>le vostre sanzioni
-saranno a loro volta ridotte.<12:b20a><17:3c00>
+<18><3:0a>「<3:03>Quel nome diverrà il marchio
+di Hel,<3:14> <3:04>e su di voi
+pronuncerà la sua sentenza.<12:b20a><17:3c00>
 @@ 22
 <19:0000>Lezard
 「<18><3:03>...vi concederò la
@@ -62,7 +62,7 @@ Aelia
 un salice.<17:7800>
 @@ 29
 Kashell
-「<18><3:08>Ah!<3:0a> Figurati!<17:4600>
+「<18><3:08>Bah!<3:0a> Chi te l'ha chiesto?<17:4600>
 @@ 30
 <19:0100>Celia
 「Riuscirò a sconfiggere
@@ -72,18 +72,18 @@ Grey da sola<3:0c>...<3:ff>?
 「Proprio così.<17:6400>
 @@ 32
 <19:ffff>Mystina
-「Cosa...? Non può essere!<17:a000>
+「Ma allora è impossibile!<17:a000>
 @@ 33
 <19:ffff>Lezard
-「Oh<3:28>, <3:ff>davvero?<17:9600>
+「Sì<3:28>, <3:ff>di norma.<17:9600>
 @@ 34
 <19:ffff>Mystina
-「<3:0c>Argh, <3:ff>quegli elfi mi fanno incazzare<3:1e>!<3:ff>
+「<3:0c>Argh, <3:ff>quegli elfi mi danno sui nervi<3:1e>!<3:ff>
 Ma chi si credono di essere<3:14>,<3:ff> poi?<17:c800><page>
-Non escono mai da quella maledetta foresta<3:14>,<3:ff>
-e se ne stanno sempre per conto loro<3:28>.<3:ff>
-Vorrei che tutti quanti<3:14>...<3:ff>
-andassero a strisciare in un buco a crepare!<17:1801>
+Non mettono mai piede fuori dalla foresta<3:14>,<3:ff>
+e non vogliono avere a che fare con nessuno<3:28>.<3:ff>
+Vorrei che sparissero tutti quanti<3:14>...<3:ff>
+quegli idioti!<17:1801>
 @@ 35
 <19:ffff>Lezard
 「Oh cielo, sarebbe

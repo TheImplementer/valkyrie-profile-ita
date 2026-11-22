@@ -54,8 +54,8 @@ compiere atti di bene avvolti
 nel male?
 @@ 27
 <19:ffff>Celia
-「Nascondere le tue vere intenzioni
-ti rende solo ancora più odioso!!
+「Nascondere la verità
+non cambierà nulla!!
 @@ 28
 <19:ffff>Kashell
 「Ah<3:0c>・・・<3:ff><17:7800>
@@ -74,15 +74,15 @@ una Valchiria?<17:3200>
 @@ 32
 <19:ffff>Kashell
 「<18><3:03>Non saprei<3:09>・・・<3:04>
-ne ero così ossessionato.<17:3200>
+ho agito senza pensare.<17:3200>
 @@ 33
 <19:ffff>Kashell
 「<18><3:03>Posso solo dire<3:1e> <3:03>
 che credo fosse<3:04>・・・<3:ff><17:3c00>
 @@ 34
 <19:ffff>Valkyrie
-「<18><3:03>Ti sei guadagnato
-il diritto di vivere.<17:3200>
+「<18><3:03>Tu hai il diritto
+di vivere.<17:3200>
 @@ 35
 <19:ffff>Kashell
 「<18><3:03>Di vivere?<17:3c00>

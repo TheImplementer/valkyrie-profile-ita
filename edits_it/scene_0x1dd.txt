@@ -1,9 +1,9 @@
 # Valkyrie Profile scene 0x1dd (-): 19 records, directory word 4087, package sectors 209308..209416 of VALKYRIE.BIN
 
 @@ 14
-<18><3:03>Il rito dell'ascensione richiede
-che io sia una discendente diretta
-per ereditare il potere...<17:f000>
+<18><3:03>Sapevo che il rito dell'ascensione
+avrebbe provato di nuovo che io
+e i miei genitori siamo estranei...<17:f000>
 @@ 15
 <18><3:04>Ma il sangue è davvero così importante?<17:b400>
 @@ 16

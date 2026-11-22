@@ -72,8 +72,8 @@ Cosa vuoi fare di me!
 「Ah<3:0c>・・・<3:ff>
 @@ 33
 <19:0000>Ragazza
-「<3:0c>・・・<3:ff>Siete il
-cappellano?
+「<3:0c>・・・<3:ff>Siete venuto
+a pregare?
 @@ 34
 <19:0100>Badrach
 「Beh<3:1e>, <3:ff>ecco, vedi<3:0c>・・・<3:ff>
@@ -87,15 +87,15 @@ Ehm<3:0c>・・・<3:1e>, <3:ff>io, ecco<3:1e>, <3:ff>
 Posso darvi questo?
 @@ 38
 <19:0100>Badrach
-「<3:0c>・・・<3:ff>Tu, tu・・・
-ti sei ricordata di me.
+「<3:0c>・・・<3:ff>Si è ricordata
+di me, accidenti.
 @@ 39
 Valkyrie
 「Capisco.
 @@ 40
 <19:0100>Badrach
-「Nemmeno tu sei una persona, ma
-la gente è cattiva, vero?
+「Non sarai umana, ma
+che tiro mancino mi hai giocato!
 @@ 41
 <5><3:00>Hai trovato Bandana Fatta a Mano.
 @@ 42
@@ -104,8 +104,8 @@ la gente è cattiva, vero?
 <5><7:03>-<7:01>VIETATO ENTRARE<7:03>-<7:01>
 @@ 44
 <6:650d><19:0100>Bambino
-「Questa ragazza,
-cosa le succede?
+「Cosa ci sarà
+qui dentro?
 @@ 45
 <6:a10d><19:0000>Bambino
 「Smettila.

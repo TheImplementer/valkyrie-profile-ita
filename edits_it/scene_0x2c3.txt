@@ -52,7 +52,7 @@ Cosa vi porta qui,
 Vergine della Battaglia?
 @@ 24
 <19:0000>Valkyrie
-「Ho un ordine di Odino.
+「Ordine del sommo Odino.
 Ti chiedo di riparare
 un Artefatto rotto.
 @@ 25
@@ -90,9 +90,9 @@ necessari per ripararla.
 「Eh?
 @@ 34
 <19:0100>Elfo
-「La "Gemma Fiamma Maledetta"
-ha ricevuto i suoi poteri da Fafnir,
-il possente Drago di Fuoco.
+「La "Gemma Fiamma Maledetta" è
+il potere del Drago di Fuoco Fafnir,
+cristallizzato con un rito speciale.
 Per ora
 il cristallo ha solo una crepa.<page>
 Non sarebbe possibile ricreare
@@ -131,9 +131,9 @@ Il "Candeliere d'Oro" è stato rubato
 dalla scimmia gigante che vive
 nel profondo della foresta.
 Procurarsi questi oggetti
-sarà certo facile
+sarà piuttosto facile
 per una come voi,
-Vergine della Battaglia<3:0c>...<3:ff>
+Vergine della Battaglia, ma<3:0c>...<3:ff>
 @@ 39
 <19:0000>Valkyrie
 「Che c'è?

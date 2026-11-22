@@ -31,8 +31,8 @@ Non ho mai visto questo mondo.
 「Dove?
 @@ 21
 <19:ffff>Freya
-「È tempo che io ti insegni chi sei
-e qual è il tuo compito.
+「Ora ti spiegherò che cosa
+hai fatto fino a oggi.
 @@ 22
 <19:ffff>Arngrim
 「<18><3:04>Sei solo un filo d'erba
@@ -47,8 +47,8 @@ che si piega<3:03> al vento?<17:b400>
 <18><5><3:05>Ahh<3:0c>...<3:05>Aaarghhh<3:0c>...<17:3c00>
 @@ 27
 <19:ffff>Valkyrie
-「Hmmm<3:14>.
-<3:ff>Tutti questi bambini<3:0c>...
+「Ah, già<3:14>.
+<3:ff>Quel giovane, forse<3:0c>...
 @@ 28
 <19:ffff>Lucian
 「<18><3:04>Chi sei?<17:3c00>
@@ -65,8 +65,8 @@ Ma...<3:04>Sei identica a<3:0c>...<17:7800>
 con me?<17:3c00>
 @@ 32
 <19:ffff>Valkyrie
-「<18><3:04>Ti sei guadagnato il diritto
-<3:03>di unirti agli Einherjar.<17:7800>
+「<18><3:04>Tu hai il diritto
+<3:03>di vivere.<17:7800>
 @@ 33
 <19:ffff>Lucian
 「<18><3:04>Ma<3:0c>...<3:03> E Claire<3:0a>?<3:03>

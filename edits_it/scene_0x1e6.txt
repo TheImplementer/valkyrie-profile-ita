@@ -52,8 +52,8 @@ di quelle di chiunque altro・・・
 「No, non è così!!
 @@ 28
 <19:ffff>Nanami
-「È che la sua angoscia mi addolora
-ancora più di quanto addolori lei.
+「È che ho capito ciò che prova lei
+fino a sentirne il dolore.
 @@ 29
 <19:ffff>Nanami
 「Davvero<3:28>,<3:ff> è tutto ciò che posso fare..<3:0c>.
@@ -69,6 +69,6 @@ Grazie.
 @@ 32
 <18><3:04>Esiste più di una strada.<17:7800>
 @@ 33
-<5><3:04><18>Andiamo.<17:b400>
+<5><3:04><18>Viviamo insieme.<17:b400>
 @@ 34
 <5>Hai trovato Occhio del Cielo.

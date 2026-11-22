@@ -5,10 +5,10 @@ La porta è ben chiusa.
 @@ 15
 Su questa lastra è incisa una scritta.<page>
 "Distruggete tutti i Guardiani!"<page>
-"L'epoca dei Guardiani è finita.
-Trasformate i loro luoghi di riposo."<page>
-"Offriamo attrezzi da sepoltura
-ai defunti!"
+"Quando i Guardiani saranno distrutti,
+la tomba mostrerà un nuovo aspetto."<page>
+"Offrite ai defunti un corredo
+funebre degno di loro."
 @@ 16
 <5>Lastra
 @@ 17

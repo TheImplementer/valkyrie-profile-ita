@@ -22,10 +22,10 @@ che ci fai qui?
 「Oh<3:28>, <3:ff>niente di speciale<3:0c>・・・<3:ff>
 @@ 19
 <19:0000>Frei
-「Suvvia!<3:28>!<3:ff>
-Qualcosa ti turba?<page>
-Lo capirei benissimo,
-se fosse così.
+「Bugiardo!<3:28>!<3:ff>
+Sei in difficoltà, vero?<page>
+Lo sento benissimo,
+il tuo cuore vacilla.
 @@ 20
 <19:0100>Lucian
 「Incredibile<3:0c>...
@@ -60,14 +60,14 @@ Forse sono un po' confuso<3:0c>・・・<3:ff>
 @@ 31
 <19:0000>Loki
 「È bella, vero<3:28>?<3:ff>
-Un po' fredda, però.
-Bene, addio.
+E quell'aria fredda
+ha il suo fascino.
 @@ 32
 <19:0100>Frei
 「Che stai dicendo?<page>
-Non puoi credere
-che tu e Lenneth possiate
-stare davvero insieme!
+Non pensare nemmeno
+che sorella Lenneth possa
+dar retta a uno come te!
 @@ 33
 <19:0000>Loki
 「<3:0c>・・・<3:ff>Sì sì.
@@ -98,7 +98,7 @@ Non c'è nulla da nascondere <7:0b>-<7:01>
 Ma<3:0c>...<3:ff>
 @@ 41
 <19:0000>Frei
-「Lenneth<3:0c>・・・<3:ff>
+「Sorella Lenneth<3:0c>・・・<3:ff>
 Non ha alcun ricordo, sai<3:0c>・・・<3:ff>
 @@ 43
 <19:0100>Lucian
@@ -106,7 +106,7 @@ Non ha alcun ricordo, sai<3:0c>・・・<3:ff>
 @@ 44
 <19:0000>Frei
 「Proprio così.<page>
-Cerco sempre di farla parlare della sua vita
+Le altre volte mi parlava della sua vita
 umana, ma pare che mia sorella Freya
 abbia sigillato i suoi ricordi.
 @@ 45
@@ -115,7 +115,7 @@ abbia sigillato i suoi ricordi.
 I suoi ricordi umani?
 @@ 46
 <19:0000>Frei
-「Il suo dovere di Valchiria ha la precedenza<3:0c>・・・<3:32>
+「Pare che stavolta la missione sia speciale<3:0c>・・・<3:32>
 <3:ff>Se i suoi ricordi umani restassero,
 sarebbero solo un ostacolo.<page>
 Oh<3:1e>,<3:ff>

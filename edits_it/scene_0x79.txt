@@ -22,7 +22,7 @@ La ragazza è in pericolo.
 「Asaka?!
 @@ 18
 <19:ffff>Valkyrie
-「Il comò del padrone<3:0c>...<3:ff>
+「L'armadio della signora<3:0c>...<3:ff>
 Questo<3:0c>...<3:ff>?
 @@ 19
 <19:ffff>Valkyrie
@@ -49,10 +49,10 @@ Questo<3:0c>...<3:ff>?
 arrivati a questo.<17:7800>
 @@ 25
 <19:ffff>Suo
-「<18><3:04>Alzare le spade
-contro donne e bambini...<17:9600>
-<18>Diciamo che è giusto,
-perché il nostro scopo è giusto.<17:b400>
+「<18><3:04>Nessuna pietà per chi ci punta
+contro la spada, donna o bambino...<17:9600>
+<18>Spietato, sì, ma finché c'era
+un ideale chiaro, andava bene.<17:b400>
 @@ 26
 <19:ffff>Suo
 「<18><3:03>Ma quanti innocenti indifesi
@@ -62,6 +62,6 @@ sono stati massacrati?<17:7800>
 「<18><3:04>Tutto ciò che volevo
 era proteggere <3:03>proprio coloro
 che ho abbattuto!<17:7800>
-<18><3:04>Tutto ciò che volevo era <3:03>proteggere
-chi non poteva proteggere
-se stesso<3:0c>・・・!<17:7800>
+<18><3:04>Non volevo certo <3:03>proteggere
+una cosa senza forma
+come l'autorità<3:0c>・・・!<17:7800>

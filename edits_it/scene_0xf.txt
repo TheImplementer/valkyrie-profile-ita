@@ -7,8 +7,8 @@
 @@ 15
 <19:ffff>Lucian
 「<18><3:03>È stata colpa mia<3:05>...
-<3:03>Se non l'avessi portata
-con me<3:0c>・・・<17:b400>
+<3:03>Se non l'avessi trascinata
+via con me<3:0c>・・・<17:b400>
 @@ 16
 <18><5><3:03>E poi<3:1e>,<3:03> siamo capitati in questo posto.<17:b400>
 @@ 17
@@ -44,7 +44,7 @@ a un'altra.<17:d200>
 「<18><3:03>Ma non è cambiato nulla.<17:7800>
 @@ 25
 <19:ffff>Lucian
-「<18><3:06>La amo ancora.<17:7800>
+「<18><3:06>Ma quello che provo non cambia.<17:7800>
 @@ 26
 <5><3:02><18>Non era davvero l'orecchino<3:07>
 <5><3:02>che volevo darti<3:0c>・・・
@@ -64,4 +64,4 @@ cosa dovrai fare<3:1e>?
 <3:03>Ricorda come ti sentivi.<3:28>
 <3:03>Ricorda quello che volevi<7:09>-<7:01><17:6400>
 @@ 29
-<5><18><3:03>Questo è<3:0c>・・・<18><3:03>Questo è<3:14>・・・<3:04>imperdonabile!!<17:2800>
+<5><18><3:03>Per una<3:0c>・・・<18><3:03>per una<3:14>・・・<3:04>sciocchezza!!<17:2800>

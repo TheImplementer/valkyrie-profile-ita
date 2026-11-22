@@ -53,8 +53,8 @@ mentre mangiamo?
 chiama il padrone!!
 @@ 29
 <19:0000>Arngrim
-「Non fate la<3:0c>・・・<3:ff>
-principessina viziata<3:0c>・・・<3:ff>
+「Ma che modi<3:0c>・・・<3:ff>
+neanche foste una regina<3:0c>・・・<3:ff>
 @@ 30
 <19:0100>Capocuoco
 「Qualcosa non è di vostro gradimento?

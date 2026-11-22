@@ -6,10 +6,10 @@
 
 @@ 14
 <19:ffff>Lawfer
-「Non c'è nessun altro che possa
-fare questo lavoro.
+「Non c'è nessun altro a cui
+potrei chiedere una cosa simile.
 Ti prego, abbi cura di Roland.<page>
-A più tardi.
+Allora, vado.
 @@ 15
 <19:ffff>Celia
 「Fermati lì.
@@ -92,7 +92,7 @@ e ora vuoi tornare a casa?<17:b400>
 @@ 35
 <18><3:03>Non è questo<3:0c>...<17:7800>
 @@ 36
-<18><3:03>Lo so che non possiamo<3:0c>...<17:7800>
+<18><3:03>Lo sai benissimo<3:0c>...<17:7800>
 @@ 37
 <18><3:04>Già,<3:1e> <3:03>beh, io ho perso ogni speranza
 <3:04>tanto tempo fa.<17:b400>

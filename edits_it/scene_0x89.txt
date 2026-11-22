@@ -22,12 +22,12 @@ conoscenze su molte questioni
 che non potresti ricavare altrimenti
 dall'esperienza al fronte.
 @@ 18
-<3:00><5>Magie e abilità si ottengono
+<3:00><5>Magie e tecniche si imparano
 <5>usando determinati oggetti.
-<5>Un'abilità è un singolo oggetto
-<5>che può essere acquisito da chiunque.
-<5>La magia, invece, è un singolo oggetto che può
-<5>essere acquisito da una sola persona.
+<5>Ma con un solo oggetto, una tecnica
+<5>può essere imparata da tutti,
+<5>mentre una magia può essere imparata
+<5>da una sola persona.
 @@ 19
 <5>Hai trovato Fire Lance.
 @@ 20

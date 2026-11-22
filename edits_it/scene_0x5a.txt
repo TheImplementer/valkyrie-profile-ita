@@ -16,8 +16,8 @@
 <19:0100>Janus
 「<3:0c>・・・<3:ff>
 @@ 18
-<18><3:03>Ho sentito che voleva tornare a essere <3:06>cavaliere.<3:1e> <3:03>
-Ridicolo!<3:ff><17:4600>
+<18><3:03>Voleva vendicarsi per il titolo di <3:06>cavaliere perduto.<3:1e> <3:03>
+Ma gli si è ritorto contro, pare!<3:ff><17:4600>
 @@ 19
 <18><3:03>Ah!<3:1e> <3:03>Quel codardo<3:0a>・・・ <3:04>
 È scappato con la coda

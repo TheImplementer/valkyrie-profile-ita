@@ -3,8 +3,8 @@
 @@ 14
 <19:ffff>Lezard
 <18><3:05>「<3:04>Gli umani sono esseri incompleti<3:26>.<3:04>
-Gli dei allora possono essere <3:03>considerati
-l'evoluzione finale dell'uomo.<12:ee0a><17:7800>
+Gli dei, invece, sono <3:03>esseri
+completi per natura.<12:ee0a><17:7800>
 @@ 15
 <19:ffff>Lezard
 「<3:04><18>In altre parole<3:0f>,<3:04> gli dei non crescono,

@@ -88,10 +88,10 @@ Ora che<3:02> l'hai fatto,<3:03>
 hai <3:04>idea<3:0f> <3:03>delle conseguenze?<12:890b><17:7800>
 @@ 36
 <19:0000>Valkyrie
-<3:03>「<18>Questo è<3:0c>・・・<12:8a0b><3:3c>
-<3:06><3:03><18>Questo è<3:0c>・・・<12:8b0b><17:2800>
+<3:03>「<18>Per una<3:0c>・・・<12:8a0b><3:3c>
+<3:06><3:03><18>per una<3:0c>・・・<12:8b0b><17:2800>
 @@ 37
-<5><3:00><18>Imperdonabile!!<17:7800><12:8d0b>
+<5><3:00><18>sciocchezza!!<17:7800><12:8d0b>
 @@ 38
 <19:0000>Lucian
 <3:03>「<18>Perché<3:0c>・・・<3:03>
@@ -185,8 +185,8 @@ Perciò<3:0c>・・・<3:ff>
 「Perciò?
 @@ 60
 <19:0100>Odin
-「Per il momento,
-lasciamo stare Loki.
+「Lasciamo agire Loki,
+e teniamolo d'occhio.
 @@ 61
 <19:0100>Odin
 「Ma se si scoprirà che mente<3:28>,<3:ff>

@@ -3,14 +3,14 @@
 @@ 14
 <19:ffff>Freya
 「Per combattere il nemico,
-affrontalo e sguaina la spada.
+affrontalo e colpiscilo con la spada.
 Qualsiasi contatto è uno scontro,
 ma non si sa mai chi colpirà per primo. 
 @@ 15
-<3:00><5>Sguaina la spada・・・pulsante ○
+<3:00><5>Colpo di spada・・・pulsante ○
 @@ 16
-<3:00><5>Sguaina la spada・・・pulsante ✕
+<3:00><5>Colpo di spada・・・pulsante ✕
 @@ 17
-<3:00><5>Sguaina la spada・・・pulsante △
+<3:00><5>Colpo di spada・・・pulsante △
 @@ 18
-<3:00><5>Sguaina la spada・・・pulsante □
+<3:00><5>Colpo di spada・・・pulsante □

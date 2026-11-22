@@ -9,7 +9,7 @@
 <3:00><18><5>Il tuo canto rende gli uomini guerrieri
 <5>che non temono la morte.<17:0f27>
 @@ 17
-<3:00><18><5>E porta grande onore alla nostra nazione.<17:0f27>
+<3:00><18><5>E porta così prosperità alla nostra nazione.<17:0f27>
 @@ 18
 <5><3:00><18>Quindi ti prego, non lasciare che le parole
 <5>di quella donna sciocca ti turbino.<17:0f27>
@@ -20,7 +20,7 @@ Il melodioso pulsare dei
 sacri ritmi della vita!
 @@ 20
 <19:ffff>Guerriero
-「Non ti ho detto di smettere di cantare?!
+「Chi ti ha detto di smettere di cantare?!
 Canta!!
 @@ 21
 <19:ffff>Guerriero
@@ -44,10 +44,10 @@ sono destinata alla vita di
 fanciulla del canto.
 Gli dei, però,
 non mi hanno donato la luce. <page>
-Forse si sono stancati
-di donarla.
-Eppure, è così terribile
-desiderarla?
+Stanca di dare,
+vorrei ricevere a mia volta.
+Sono forse una donna
+meschina, per questo?
 @@ 26
 <19:ffff>Suo
 「Se rinunciassi al canto,

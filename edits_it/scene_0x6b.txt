@@ -15,8 +15,8 @@
 cos'hai da offrirmi stavolta?
 @@ 17
 <19:0000>Agente
-「Il preavviso è breve, ma devi
-aiutare un altro uomo a consegnare.
+「In breve: un carico da portare
+a Villnore, in coppia con un altro.
 @@ 18
 <19:0100>Badrach
 「Cosa<3:1e>? <3:ff>Ma fammi il piacere<3:3c>!<3:ff>

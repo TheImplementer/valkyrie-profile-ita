@@ -7,8 +7,8 @@ E il tuo lavoro?!
 @@ 15
 <19:0000>Badrach
 「Lavoro<3:28>?<3:ff>
-Credi che non sappia
-quello che faccio?
+Lo sai benissimo
+che lavoro faccio, no?
 Non svegliarmi mai più a quest'ora<3:0c>・・・<3:ff>
 da cani.
 @@ 16
@@ -28,11 +28,11 @@ Vecchia guastafeste!
 neanche che ci sia una guerra in corso.
 @@ 19
 <19:0100>Geena
-「<3:0c>・・・ <3:ff>Non so
-di cosa tu stia parlando.<page>
+「<3:0c>・・・ <3:ff>Ma senti
+cosa dici.<page>
 Ehi, tu,
-hai visto il fiore che
-cresce davanti a casa?
+non hai visto i fiori
+alle porte delle case?
 @@ 20
 <19:0000>Badrach
 「Fiore<3:32>?<3:ff>
@@ -50,7 +50,8 @@ Non credo che succederà mai.
 「Eh<3:1e>? <3:ff>Cactus?
 @@ 23
 <19:0100>Geena
-「Fiorisce solo una notte al mese,
+「Fiorisce una sola volta,
+in una notte di luna,
 e solo per poche ore.
 @@ 25
 <19:0100>Geena
@@ -73,7 +74,7 @@ di questo rottame, eh.
 @@ 29
 <19:0100>Geena
 「Sciocco<3:32>!<3:ff>
-Io prego che questa orribile guerra
+Qui tutti pregano che la guerra
 finisca presto.
 @@ 30
 <5><3:00>Che branco di sciocchi.<17:a000>

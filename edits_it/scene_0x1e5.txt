@@ -8,11 +8,11 @@
 「No!<3:32> <3:ff>NOOO!!!
 @@ 16
 <19:ffff>Orco
-「E cosa proietterà la tua anima
+「E cosa proietterà il tuo cuore
 su questa buia caverna?
 @@ 17
 <19:ffff>Valkyrie
-「L'anima?
+「Il cuore?
 @@ 18
 <19:ffff>Valkyrie
 「Io non possiedo una cosa simile.
@@ -64,8 +64,8 @@ che non ti stanchi mai
 di vederlo?
 @@ 30
 <19:ffff>Orco
-「<3:0c>・・・<3:04>È tipico di un'anima umana.
-<3:03>E ora è l'anima di un demone.
+「<3:0c>・・・<3:04>È tipico di un cuore umano.
+<3:03>E ora è il cuore di un demone.
 @@ 31
 <19:ffff>Orco
 「Io e te siamo una cosa sola!!
@@ -81,22 +81,22 @@ l'Orco<3:0c>・・・?
 <19:ffff>Valkyrie
 「Qui non ci sono demoni<3:28>.<3:ff>
 Stavi solo affrontando
-la tua stessa anima.
+il tuo stesso cuore.
 @@ 35
 <19:ffff>Jun
-「L'Orco era la mia stessa anima?
+「L'Orco era il mio stesso cuore?
 @@ 36
 <19:ffff>Valkyrie
 「La verità spesso inganna gli uomini<3:32>.<3:ff>
 Questa caverna è uno specchio oscuro,
-dove si deve affrontare la propria anima.
+dove si deve affrontare il proprio cuore.
 Capisco come ti senti, umano<3:3c>.<3:ff>
-Ma devi capire cosa ha fatto
-la tua anima distorta.
+Ma che cosa speri di ottenere
+con un cuore distorto?
 @@ 37
 <19:ffff>Valkyrie
-「Essendo gemelli, la tua vita e quella
-di tua sorella sono legate per sempre.
+「Per natura, i gemelli condividono
+la stessa anima.
 Non potete fare a meno di influenzare
 l'esistenza l'uno dell'altra.
 @@ 38
@@ -105,10 +105,10 @@ l'esistenza l'uno dell'altra.
 a essersi offuscati<3:0c>...
 @@ 39
 <19:ffff>Valkyrie
-「O è la tua stessa anima?
+「O è il tuo stesso cuore?
 @@ 40
 <19:ffff>Jun
-「La mia<3:32> <3:ff>anima...?
+「Il mio<3:32> <3:ff>cuore...?
 @@ 41
 <19:ffff>Jun
 「Sono stato io<3:0c>...<3:28>

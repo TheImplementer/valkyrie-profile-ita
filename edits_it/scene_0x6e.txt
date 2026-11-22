@@ -12,8 +12,8 @@ di cosa c'è dentro?<17:b800>
 Eh, signor guardia del corpo?<17:b800>
 @@ 16
 <19:0100>Badrach
-「Grrr<3:14>,<3:ff>
-Quel Lombert<3:0c>・・・<3:ff><17:b800>
+「Eh eh<3:14>,<3:ff>
+viva Lombert<3:0c>・・・<3:ff><17:b800>
 @@ 17
 <19:0000>Arngrim
 「Lombert<3:28>?<3:ff>
@@ -103,7 +103,7 @@ la principessa!?
 <3:03><5><18>L'<3:06>effetto<3:0f> <3:03>della medicina, lo vedi da te.<12:9609><17:7800>
 @@ 40
 <3:03><5><18>La principessa divenne un mostro<3:1e>,<3:03>
-<5>e poi <3:04>morirono tutti.<12:9709><17:7800>
+<5>e <3:04>i testimoni morirono tutti.<12:9709><17:7800>
 @@ 41
 <3:03><5><18>Forse<3:1e> <3:03>anche la principessa<3:0c>...<3:ff><17:7800>
 @@ 42
@@ -134,7 +134,7 @@ Vuoi dire Jelanda?
 Ma di che parli?
 @@ 48
 <19:0000>Badrach
-「È ora di tornare ad Artolia<3:3c>.<3:ff>
+「Ad Artolia non si torna più<3:3c>.<3:ff>
 Io me ne vado<3:28>.<3:ff> Ci si vede!
 @@ 49
 <3:02><5><18>Forse la sua fu la scelta giusta<3:28>,<3:04> non so.<12:9909><3:5a>
@@ -181,8 +181,8 @@ Valkyrie?
 <5>che mi sentivo forte.<12:a509><17:7800>
 @@ 62
 <3:03><5><18>Proprio così<12:a609><3:0c>・・・<3:46>
-<3:04><5><18>Anch'io ero un uomo senza morale<12:a709><3:5a>.<3:03>
-<5><18>Chi ero <3:14>io<3:03> per giudicare gli altri?<12:a809><17:7800>
+<3:04><5><18>Non avevo valori assoluti<12:a709><3:5a>.<3:03>
+<5><18>Sapevo <3:14>misurarmi<3:03> solo sugli altri.<12:a809><17:7800>
 @@ 63
 <3:03><5><18>Chi ero <3:14>io<3:03> per disprezzarli<12:a909><3:3c>?<3:06>
 <5><18>Ingiustizia.<12:aa09><17:7800>
@@ -206,7 +206,7 @@ Io<3:0c>・・<3:1e>・<3:08> Io<3:0c>・・・<17:7800>
 <3:03>「<18>Lasciandolo vivere ancora<3:28>?<3:03>
 O venendo <3:05>scelto<3:04> da me?<17:7800>
 @@ 69
-<3:0c>・・・<3:04><18>È una storia triste<3:46>.<3:02>
+<3:0c>・・・<3:04><18>Che imbarazzo<3:46>.<3:02>
 Sai dove va a finire, vero<12:780a><3:5a>?<3:03>
 <18>No<3:55>?<3:03> Devo dirtelo io?<17:c800>
 @@ 70

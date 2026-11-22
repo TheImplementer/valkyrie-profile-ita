@@ -45,11 +45,11 @@ Ma resistere fino a questo punto<3:0c>・・・<3:ff>
 È solo folklore!
 @@ 23
 <19:0100>Gandar
-「Non sei d'accordo con me?
-Hai già scoperto qualcosa da sola?<page>
-Il vero piacere sta nella ricerca,
-non nella scoperta, vero?
-Non sei d'accordo?
+「E tu l'hai mai verificato
+di persona?<page>
+Non trovi che anche la ricerca
+della verità sia un piacere
+difficile da descrivere?
 @@ 24
 <19:0000>Aelia
 「<3:0c>・・・<3:05>
@@ -70,8 +70,8 @@ dove<3:03> si trovava<3:0c>・・・<3:ff><17:7800>
 「<3:0c>・・・<3:ff>Viscida feccia!
 @@ 29
 <19:0100>Gandar
-「Se ne vuoi ancora,
-ne ho in abbondanza!
+「Posso sostituirti
+quando voglio!
 @@ 30
 <19:0000>Aelia
 「<18><3:03>Ti sei presa<3:03> tanto <3:02>disturbo<3:03> per me, ma<3:0c>...<3:0a>

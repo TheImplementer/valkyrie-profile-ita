@@ -2,8 +2,8 @@
 
 @@ 14
 <19:ffff>Claire
-「Nessuno di questi sfigati
-vale nemmeno la fatica.
+「Oggi solo polli
+da spennare.
 @@ 15
 <19:ffff>Claire
 「Basta, lasciamo perdere.
@@ -27,8 +27,8 @@ Valkyrie
 「Ahi!
 @@ 22
 <18><3:03>Ma che sto facendo<3:05>!?
-<3:03>Non mi metterò a fare la gelosa
-per una perfetta sconosciuta<3:0c>.
+<3:03>Eccomi qui, gelosa
+di una perfetta sconosciuta<3:0c>.
 <3:03>Che patetica!<17:d200>
 @@ 23
 <5>Via maestra

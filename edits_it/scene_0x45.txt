@@ -37,9 +37,9 @@ di preoccuparvi, onorato padre.
 <19:ffff>Madre adottiva
 「Perché l'hai lasciata andare?!<page>
 Non avrai dimenticato
-quale sventura la colpirà
-se porterà a termine
-il rito dell'ascensione!
+le sventure che l'hanno colpita
+una dopo l'altra da quando
+è iniziato il rito dell'ascensione!
 @@ 23
 <19:ffff>Madre adottiva
 「Sarà un disastro<3:28>.<3:ff>

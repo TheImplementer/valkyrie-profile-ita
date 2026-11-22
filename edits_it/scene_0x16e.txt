@@ -4,7 +4,7 @@
 <19:0100>Valkyrie
 「<18><3:03>O celebre maga<3:0a>,<3:04> signora Lyseria<3:3c>.<3:03>
 Per decreto di Odino, signore
-degli dei, sono venuta a farti visita.<17:3c00>
+degli dei, sono venuta a prendervi.<17:3c00>
 @@ 15
 <19:0000>Lyseria
 「<18><3:03>Voi siete Colei che sceglie i<3:04> Caduti<3:28>,<3:03>
@@ -13,8 +13,8 @@ signora Valkyrie!<17:3c00>
 @@ 16
 <19:0100>Valkyrie
 「<18><3:03>Proprio così<3:32>.<3:04>
-Il mio signore<3:03> ha bisogno del tuo potere<3:3c>.<3:03>
-Ti prego, <3:04>signora Lyseria, unisciti a me.<3:ff><17:3c00>
+Al mio signore<3:03> serve il vostro potere<3:3c>.<3:03>
+Vi prego, <3:04>signora Lyseria, unitevi a me.<3:ff><17:3c00>
 @@ 17
 <19:0000>Lyseria
 「<18><3:04>Non riuscivo a controllare il mio potere<3:1e>,<3:03>
@@ -23,7 +23,7 @@ e mi sono sigillata in queste rovine.<12:5a0a><17:7800><page>
 <3:03>N<18>on c'è posto per me
 <3:02>in questo mondo<3:3c>,<3:04> anzi<3:0f>,<3:03> in nessun mondo!<12:5b0a><3:3c> <3:ff>
 <18><3:04>Per tanto tempo<3:0a>,<3:03> ho sperato e pregato
-che qualcuno avesse la forza di <3:04>annientarmi.<12:5c0a><17:7800><page>
+che qualcuno avesse la forza di <3:04>fermarmi.<12:5c0a><17:7800><page>
 <18><3:03>Signora <3:04>Valkyrie<3:14>,<3:03>
 sarete voi quella persona?<12:5d0a><3:3c> <3:ff>
 <18><3:03>Sarete voi a spegnere
@@ -39,7 +39,7 @@ sarete voi quella persona?<12:5d0a><3:3c> <3:ff>
 「<3:0c>・・・<3:ff>Celia.
 @@ 21
 <19:0100>Celia
-「Non posso perdonarti.
+「Non ti perdonerò.
 @@ 22
 <19:0100>Celia
 「Sei tu il responsabile
@@ -152,7 +152,7 @@ con le sue vuote vanterie!!
 Valkyrie
 「Di' pure ciò che vuoi.<page>
 I miei poteri saranno scarsi rispetto
-ai Sovrani degli Dei<3:1e>, <3:ff>ma bastano
-comunque per vedermela con quelli come te!!
+a quelli del sommo Odino<3:1e>, <3:ff>ma purificare
+un demone come te non mi costa nulla!!
 @@ 50
 <5>Hai trovato Talismano Totale.

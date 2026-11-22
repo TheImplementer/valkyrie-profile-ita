@@ -37,8 +37,8 @@ in questo momento<3:0c>...<17:7800>
 non mi hanno detto niente.<17:7800>
 @@ 21
 <19:0000>Platina
-「<18><3:05>Cosa?<3:1e> <3:03>Ma tutti dicevano<3:14>
-<3:03>che si era ammalata...<17:7800>
+「<18><3:05>Cosa?<3:1e> <3:03>Ma mi hanno detto<3:14>
+<3:03>che è morta di malattia...<17:7800>
 @@ 22
 <19:0100>Lucian
 「<18><3:05>Ah sì?<3:28> <3:03>Hai mai sentito di una malattia che fa sparire?<17:3c00>

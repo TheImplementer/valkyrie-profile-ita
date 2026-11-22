@@ -12,6 +12,6 @@ mortale<3:10>,<3:03> può crescere<3:18>,<3:04>
 proprio come noi <3:05>umani.<12:f10a><17:7800>
 @@ 16
 <19:ffff>Lezard
-「<18><3:04>Unendo i tratti migliori
-di tutti gli esseri<3:14>,<3:04> Odino riuscì infine
-a conquistare il trono.<17:7800>
+「<18><3:04>Per questo, alla fine,
+poté superare tutti gli esseri<3:14>,<3:04> e salire
+sul trono.<17:7800>

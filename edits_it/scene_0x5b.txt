@@ -42,8 +42,8 @@ nell'ordine dei cavalieri.
 <19:0000>Fahn
 「Ma ci serve un
 pretesto qualsiasi.
-Di recente abbiamo fatto pulizia
-intorno a lui<3:0c>・・・<3:ff>
+Di recente ho fatto indagare
+su chi gli sta intorno<3:0c>・・・<3:ff>
 @@ 24
 <19:0100>Jayle
 「È frustrante essergli così vicini
@@ -70,8 +70,8 @@ non vi avrei degnato di uno sguardo<3:0c>・・・<3:ff>
 una donna falsa.
 @@ 30
 <19:0000>Fahn
-「Va tutto bene<3:3c>.<3:ff>
-Voglio che tu resti con noi.
+「Va bene lo stesso<3:3c>.<3:ff>
+Perciò, resta con me.
 @@ 31
 <19:0000>Fahn
 「Prima che la battaglia cominci,

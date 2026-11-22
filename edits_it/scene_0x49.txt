@@ -16,8 +16,8 @@ del canto nemica.
 @@ 18
 <19:ffff>Suo
 「Perché<3:28>!<3:ff> Persino i suoi compagni
-hanno abbandonato il suo spirito combattivo
-e tutto il resto<7:0b>-<7:01>!!
+l'hanno abbandonata, e ormai
+non ha più voglia di combattere<7:0b>-<7:01>!!
 @@ 19
 <19:ffff>Superiore
 「Suo<3:32>.<3:ff>

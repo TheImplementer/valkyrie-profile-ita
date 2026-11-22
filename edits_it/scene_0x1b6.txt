@@ -18,14 +18,13 @@ Tuttavia!<3:28>!<3:ff> Oggi, qui, ricostruiremo il regno!! Gli
 ridaremo l'abbagliante splendore d'un tempo!!
 @@ 20
 Valkyrie
-「Ma puoi concederti il lusso
-delle decine di migliaia di cittadini
-che servirebbero per ricostruire
-quelle mura in rovina?
+「Miserabile! Per riavere quel regno
+corrotto hai offerto in sacrificio
+decine di migliaia di sudditi?
 @@ 21
 Akhetamen
-「Che maleducazione parlare di lusso!<3:32>!<3:ff>
-Il re e il popolo lavorano l'uno per l'altro.
+「Sacrifici? Che insolenza!<3:32>!<3:ff>
+Il re vive per il popolo, e il popolo per il re.
 La mia morte da re eleverà le nobili anime
 dei cittadini e le guiderà in paradiso.<page>
 E il paradiso è...
@@ -34,10 +33,10 @@ Non li senti<3:32>?!<3:ff>
 Le voci gioiose del popolo.
 @@ 22
 Valkyrie
-「Io sento le urla dei defunti!
-Stai affogando nella felicità?!!
-I non morti devono essere<3:0c>・・・<3:32> <3:ff>
-distrutti!!
+「Le urla dei defunti
+ti riempiono di piacere?!!
+Maledetto non morto<3:0c>・・・<3:32> <3:ff>
+perisci!!
 @@ 23
 Vuoi inserire la gemma?
 ・Sì

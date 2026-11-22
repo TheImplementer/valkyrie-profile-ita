@@ -58,7 +58,7 @@ sia nella foresta dell'Albero del Mondo.
 @@ 26
 <19:0100>Lezard
 「<18><3:04>Gli dei usano i recipienti che
-chiamiamo elfi per attraversare Midgard<3:0a>,<3:03>
+chiamiamo elfi per restare a Midgard<3:0a>,<3:03>
 e proteggere<3:08> l'Albero<3:05> del Mondo.<12:f40a><17:3c00>
 @@ 27
 <19:0000>Mystina

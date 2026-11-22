@@ -45,15 +45,14 @@ Come soldato...<3:1e><3:ff>In guerra...
 mia madre mi ha detto di dimenticarti<3:0c>...<3:ff>
 @@ 23
 <19:ffff>Llewelyn
-「Forse dovresti
-ascoltarla, Millia.
+「Non posso darle
+torto, Millia.
 @@ 24
 <19:ffff>Millia
 「Non dirlo<3:28>!<3:ff>
 Io ti aspetterò<3:0c>...<3:ff>
-Quando vengo qui
-mi sembra
-di esserti più vicina.
+Quando vengo qui posso
+sentire dove ti trovi.
 @@ 25
 <19:ffff>Millia
 「Ma non solo.
@@ -94,7 +93,7 @@ Non sposerò mai nessun altro<3:0c>...
 @@ 32
 <19:ffff>Millia
 「No!
-Questo suono... è tutto sbagliato!
+Non voglio sentire questo suono!
 @@ 33
 <19:ffff>Millia
 「Basta<3:28>!<3:ff>
@@ -112,11 +111,11 @@ Non riesco a credere che tu sia morto<3:0c>...
 Veglierò sempre su di te<3:0b>...<3:ff>
 @@ 37
 <18><3:03>La morte di una persona cara<3:2a>.<3:03>
-<3:03>Per chi resta, le ferite si fanno
-<3:04>sempre <3:06>più <3:04>profonde・・<3:1e>・<3:03>
-<3:03>Chi resta si fa sempre più debole<3:23>,<3:03>
-<3:03>in un'agonia senza pari<3:02>, col cuore
-in catene.<17:8200>
+<3:03>Più è forte il legame con chi resta,
+<3:04>più <3:06>fa <3:04>male・・<3:1e>・<3:03>
+<3:03>e più debole è chi resta<3:23>,<3:03>
+<3:03>più dolorosamente<3:02> gli incatena
+il cuore.<17:8200>
 @@ 38
 <18><3:04>Chi è colui che resta?<17:5000>
 @@ 39

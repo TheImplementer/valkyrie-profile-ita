@@ -9,15 +9,15 @@
 「Che succede?
 @@ 15
 <19:0000>Arngrim
-「Beh,<page>
-so che è venuta qui travestita
-per offrirmi un lavoro.
+「Chi lo sa.<page>
+Perché travestirsi, poi,
+per offrirmi un lavoro?
 @@ 16
 <19:0100>Angela
 「Mmmmhhh<3:0c>・・・<3:ff>
 @@ 17
 <19:0000>Arngrim
-「È molto orgogliosa.
+「Dorme beata, lei.
 @@ 18
 <19:0100>Angela
 「Pa<3:0c>・・・<3:ff>
@@ -27,7 +27,7 @@ per offrirmi un lavoro.
 Parla nel sonno.
 @@ 21
 <19:0100>Angela
-「<3:05>Infame spergiuro<3:0c>・・・<3:ff>!<page>
+「<3:05>Insolente Arngrim<3:0c>・・・<3:ff>!<page>
 <3:05>Diecimila morti<3:14>
 <3:05>non ti basterebbero!!
 @@ 22
@@ -44,8 +44,9 @@ ora capisco.
 @@ 25
 <19:0100>Angela
 「Devo andare!<page>
-Oh<3:1e>! <3:ff>Posso tornare domani
-a farvi la mia offerta?
+Oh<3:1e>! <3:ff>Per l'offerta,
+domani ti va bene?
+Cioè, vi va bene?
 @@ 26
 <19:0000>Arngrim
 「Sì, certo.
@@ -57,6 +58,6 @@ che ho fatto a suo padre<3:0c>・・・<3:ff>
 @@ 28
 <19:0000>Arngrim
 「Quando verrà domani,
-le chiederò scusa.
+forse le chiederò scusa.
 @@ 29
 <5><3:03><18>Jelanda<3:0c>・・・<3:ff><17:f401>

@@ -20,7 +20,7 @@ il suo vero<3:14> <3:04>potere<3:0c>・・・<12:c00b><17:7800>
 <19:0100>Loki
 <3:02>「<18>Dato che sei<3:0a> <3:02>uno dei <3:03>possessori<3:0f>
 <3:03>dei<3:04> Quattro Tesori<3:1e>,<3:04> dovresti sapere
-che <3:03>non<3:04> importa quanti ne possiedi.<12:c40b><17:7800>
+che <3:03>ormai<3:04> il numero non conta più.<12:c40b><17:7800>
 @@ 18
 <19:0000>Freya
 <3:03>「<18>Loki!!<3:28> <3:03>Hai<3:04> passato ogni limite!<3:32>
@@ -28,7 +28,7 @@ che <3:03>non<3:04> importa quanti ne possiedi.<12:c40b><17:7800>
 di poter essere perdonato?!<12:c50b><17:7800>
 @@ 19
 <19:0100>Loki
-<3:04>「<18>Forse<3:0f> <3:03>no.<12:c60b><17:7800>
+<3:04>「<18>Certo<3:0f> <3:03>che no.<12:c60b><17:7800>
 @@ 20
 <19:0000>Odin
 <3:03>「<18>Basta!!<12:c70b><17:7800>
@@ -38,7 +38,7 @@ di poter essere perdonato?!<12:c50b><17:7800>
 <3:04>Loki<3:14> <3:03>ha la Sfera<3:0c>・・・<17:7800>
 @@ 22
 <19:0000>Freya
-<3:03>「<18>Sommo Odino<3:28>,<3:03> fermatevi!!<12:d40b><17:7800>
+<3:03>「<18>Sommo Odino<3:28>,<3:03> resistete!!<12:d40b><17:7800>
 @@ 23
 <19:0100>Valkyrie
 「<3:0c>・・・・・・<3:04><18>Dov'è Loki?<12:d50b><17:7800>
@@ -56,14 +56,14 @@ di poter essere perdonato?!<12:c50b><17:7800>
 @@ 27
 <19:0100>Valkyrie
 「<3:03><18>Non devo più
-<3:04>prendere<3:0a> <3:03>ordini<3:04> da<3:03> te<3:0c>・・・<12:d90b><17:7800><page>
+<3:04>prendere<3:0a> <3:03>ordini<3:04> da<3:03> voi<3:0c>・・・<12:d90b><17:7800><page>
 <3:02><18>Il vero motivo di questa
 <3:03>battaglia finale
 è<3:19> <3:03>che Odino stesso<3:0c> <3:03>ha rubato<3:0f>
 <3:03>per primo <3:02>la Sfera<3:03>.<12:da0b><17:7800><page>
 <3:02><18>In altre parole<3:14>,<3:04>
-la gente soffre<3:0c>・・・<3:03>
-non possiamo riparare i torti???<12:db0b><17:7800>
+se ora la gente soffre<3:0c>・・・<3:03>
+in fondo, la colpa è di...<12:db0b><17:7800>
 @@ 28
 <19:0000>Freya
 <3:03>「<18>Apri gli occhi, Lenneth!<3:14>
@@ -90,8 +90,9 @@ ti consumino!<3:1e>
 <3:03>「<18>Come?<12:e30b><17:7800>
 @@ 32
 <19:0100>Valkyrie
-<3:03>「<18>Come sei<3:0a> <3:03>arrogante<3:08>・・・<3:04>
-"Emozioni umane"<3:03> dici?<12:e40b><17:7800>
+<3:03>「<18>Che<3:0a> <3:03>arroganza<3:08>・・・<3:04>
+Un attimo? L'eternità?<3:03>
+Il tempo non conta!!<12:e40b><17:7800>
 @@ 33
 <19:0100>Valkyrie
 <3:03>「<18>Provo pietà per tutti loro!!<3:32>

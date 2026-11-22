@@ -12,8 +12,8 @@ Questa è... una tragedia.
 <19:0000>Celia
 「Un basilisco<3:14>?<3:ff> Una cocatrice<3:14>?<3:ff>
 O... una gorgone<3:0c>?<3:ff>
-Mi sembra un po' troppo grosso
-per una qualunque di quelle bestie...
+In ogni caso, è un lavoro
+troppo grosso per noi...
 @@ 17
 <19:0100>Kashell
 「<3:0c>...<3:ff>Sono state pietrificate solo le persone<3:1e>,<3:ff>
@@ -40,9 +40,9 @@ cerchiamo dei sopravvissuti.
 「D'accordo.
 @@ 23
 <19:0100>Kashell
-「Quel bastardo ha sempre detto che
-chiunque sia ancora vivo
-vale mille Oath!<17:a000>
+「Mille Oath per ogni sopravvissuto,
+diceva! Facile a dirsi,
+quel bastardo!<17:a000>
 @@ 24
 <5>Casa privata
 @@ 25

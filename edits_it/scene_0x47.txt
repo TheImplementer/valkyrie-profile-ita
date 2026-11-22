@@ -60,7 +60,7 @@ Significa "sogno".
 @@ 30
 <19:ffff>Padre di Fuyuki
 「Fuyuki<3:1e>,<3:ff>
-perché sei così silenzioso?
+perché te ne stai lì imbambolato?
 @@ 31
 <19:ffff>Fuyuki
 「Eh<3:28>?<3:ff> Io<3:0c>...<3:ff> ecco<3:0c>...

@@ -39,8 +39,8 @@ Sappiamo dove trovarla!
 @@ 21
 <19:0000>Lezard
 「Il castello di Brahms<3:14>,<3:ff>
-re dei vampiri...<3:3c>?<3:ff>
-Molto bene<3:0c>...<3:ff>
+re dei non morti...<3:3c>?<3:ff>
+Che seccatura<3:0c>...<3:ff>
 @@ 22
 <19:ffff>Lezard
 「Bene, dunque, il metodo è

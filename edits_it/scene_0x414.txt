@@ -2,18 +2,17 @@
 
 @@ 14
 <19:ffff>Brahms
-「<3:0c>・・・<3:ff>Mentre questo gioco era in sviluppo,
-dissi gongolando a un altro membro
-del team che, finito il gioco,
-sarei passato a un'altra azienda
-che mi aveva fatto un'offerta.
-Capii che le mie parole l'avevano
-ferito nel profondo del cuore.
+「<3:0c>・・・<3:ff>Durante lo sviluppo del gioco,
+alcuni in azienda dicevano, felici,
+che una volta uscito mi avrebbero
+preso nel gruppo per farmi crescere.
+Si dice che un uomo, a sentirli,
+ne avesse il cuore stretto.
 @@ 15
 <19:ffff>Brahms
-「Il motivo per cui sono qui oggi
-è mostrare gratitudine e rammarico
-a quel brav'uomo.
+「Se oggi sono qui, è in un certo senso
+per fare ammenda
+verso quell'uomo.
 @@ 16
 <19:ffff>Brahms
 「Dimentica tutto.
@@ -22,7 +21,7 @@ Sììì!!
 @@ 17
 <19:ffff>Brahms
 「Potrà sembrarti difficile da credere<3:1e>,<3:ff>
-Lenneth<3:28>,<3:ff> ma anche se ti ritieni
-sommamente potente, c'è molto che non sai.
+Lenneth<3:28>,<3:ff> ma per quanto il tuo potere sembri
+giunto al culmine, resta ancora un'incognita.
 <3:0c>・・・<3:ff>Interessante. Seguirò con attenzione
 i tuoi progressi.

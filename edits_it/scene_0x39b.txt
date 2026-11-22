@@ -38,10 +38,10 @@ hai distrutto il nostro regno!!
 @@ 19
 Valkyrie
 「<3:0c>・・・<3:ff>Che cosa?!<page>
-Non voglio mancare di rispetto ai morti
-discutendo con loro, ma
-non intendo nemmeno scusarmi per
-qualcosa di cui non ho memoria!!
+Non intendo mettermi a discutere
+con chi è caduto tra i non morti, ma
+non merito il tuo rancore per
+qualcosa di cui non so nulla!!
 @@ 20
 Barbarossa
 「Non cercare di ingannarmi.<3:3c>!<3:ff>
@@ -109,10 +109,10 @@ Ti ringrazio<3:32>,<3:ff>
 Vergine della Battaglia, Valkyrie!
 @@ 34
 Valkyrie
-「Ora vediamo chi è il vero colpevole.<page>
-Mi ha inseguita oltre i confini
-del tempo, ma non faceva altro
-che scavarsi la fossa da solo.<page>
+「So già chi c'è dietro a tutto questo.<page>
+Vi sarete compiaciuti di avermi spedita
+oltre i confini del tempo, ma non avete
+fatto che scavarvi la fossa da soli.<page>
 Che follia! L'avete evocato in questo
 tempo, ma non avete considerato quanto
 siano saldi i legami tra il Re e la Regina.
@@ -149,8 +149,8 @@ Puoi ben dirlo!
 @@ 42
 Valkyrie
 「Osate farvi beffe di re Barbarossa!<3:3c>!<3:ff>
-Sciocchi. Proprio quelli che si
-offendono alle parole di un re saggio<3:0c>・・・<3:ff>
+È lui, più di chiunque, a meritare
+il titolo di Re saggio<3:0c>・・・<3:ff>
 @@ 43
 Dallas
 「Oh oh. Che spasso<3:28>.<3:ff>
@@ -168,9 +168,9 @@ Ridurrò questo castello in polvere.
 Barbarossa
 「Impossibile<3:28>!<3:ff>
 Nessuno! Nessuno può distruggermi!!<page>
-Diverrò un'anima, senza ricompensa,
-e salverò le anime perdute del
-popolo e restituirò loro la loro gloria!!
+Salverò il mio popolo, che vaga
+come anime mai ricompensate,
+e gli renderò la gloria di un tempo!!
 @@ 47
 Valkyrie
 「Ah, ora capisco<3:32>.<3:ff>

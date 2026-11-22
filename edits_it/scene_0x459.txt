@@ -6,7 +6,7 @@
 della Sfera.<12:1b0c><17:b400>
 @@ 15
 <18><3:04>Ho pagato un prezzo alto<3:2b>,<3:04>
-ma la vita può costare davvero cara.<12:1c0c><17:7800>
+ma nulla vale quanto la vita.<12:1c0c><17:7800>
 @@ 16
 <18><3:05>Ma,<3:04>
 è stato<3:06> davvero<3:04> interessante!<12:1d0c><17:7800>
@@ -38,9 +38,9 @@ Lo giuro!<12:250c><17:7800>
 lo<3:03> farò<3:08> mio<3:03>!!<17:7800>
 @@ 26
 <5><3:0a>Quando le porte ben sigillate del cuore
-<5>sono toccate da tristezza e dolore dell'uomo,
-<5>a volte scricchiolano e gemono
-<5>in segno di protesta.<17:9001>
+<5>sono sfiorate dal dolore degli uomini,
+<5>scricchiolano con un lamento
+<5>simile a quello stesso dolore.<17:9001>
 @@ 27
 <5><3:0a>Sei dal lato interno di quella porta,<17:0401>
 @@ 28
@@ -50,9 +50,9 @@ lo<3:03> farò<3:08> mio<3:03>!!<17:7800>
 @@ 30
 <5><3:0a>Vorrei<17:6400>
 @@ 31
-<5><3:0a>che una guida del Fato
-<5>venisse un giorno
-<5>ad aprire la porta.<17:2c01>
+<5><3:0a>che tu, guida del Fato,
+<5>un giorno, senza fallo,
+<5>la spalancassi.<17:2c01>
 @@ 32
 <5><3:0a>Niente<17:6400>
 @@ 33

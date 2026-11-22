@@ -7,11 +7,11 @@ per esserti spinto in queste lande gelate<3:0c>...<3:ff>
 @@ 15
 <19:0100>Loki
 「Mio re<3:1e>,<3:ff>
-ho sentito dire che tieni
+ho sentito dire che tenete
 molto alla giustizia.
-Se credi di poter vincere questa
+Se credete di poter vincere questa
 guerra con la sola forza del numero,
-la tua sconfitta è inevitabile.
+la vostra sconfitta è inevitabile.
 @@ 16
 <19:0000>Guardia
 「Cosa avete detto<3:0c>...<3:ff>!?
@@ -21,9 +21,9 @@ la tua sconfitta è inevitabile.
 e la Sfera del Drago.<page>
 Tre dei Quattro Tesori sono
 già nelle mani di Odino.<page>
-Se credi ancora di poter vincere
+Se credete ancora di poter vincere
 <3:3c><3:ff>contro un simile svantaggio, allora
-non sei un vero re, ma uno stolto?
+non siete un vero re, ma uno stolto?
 @@ 18
 <19:0100>Loki
 「Credo che la prossima era
@@ -41,10 +41,10 @@ serve la forza<3:0c>・・・<3:ff>
 Tuttavia, per la mia sicurezza,
 non la cederò così facilmente.
 Prima mi occorre qualche garanzia.
-Se me lo permetti<3:0c>...
+Se me lo permettete<3:0c>...
 @@ 21
 <19:0000>Surt
-「Fa' come vuoi.
+「Che cosa devo fare?
 @@ 22
 <19:0100>Loki
 「Molto bene, allora<3:0c>・・・<3:ff>
@@ -52,7 +52,7 @@ Se me lo permetti<3:0c>...
 <19:0100>Loki
 「Devo ammettere che simili
 trattative mi mettono un po' in ansia.<page>
-Permettimi di avere accanto
+Permettetemi di avere accanto
 questi due compagni.
 @@ 24
 <19:0000>Surt
@@ -64,12 +64,12 @@ E quel drago<3:28>,<3:ff> possibile che sia<3:0c>・・・<3:ff>?
 Il drago Bloodbane<3:28>,<3:ff> che secondo le leggende
 ha inghiottito l'ultimo dei Quattro Tesori<3:0c>・・・<3:ff>
 la Spada Demoniaca, Levantine.<page>
-Come puoi rifiutare?
-Ti offro due Tesori
+Come potete rifiutare?
+Vi offro due Tesori
 e altrettante bestie.
 @@ 26
 <19:0000>Surt
-「Sei assai generoso.
+「Sei insondabile.
 @@ 27
 <19:0000>Surt
 「Tuttavia<3:28>,<3:ff> non siamo caduti così in basso
@@ -77,16 +77,15 @@ da impugnare le armi insieme
 a immonde bestie e demoni.
 @@ 28
 <19:0100>Loki
-「Vuoi dire che non hai
+「Volete dire che non avete
 bisogno del mio aiuto?
 @@ 29
 <19:0000>Surt
 「È precisamente ciò che dico.
 @@ 30
 <19:0100>Loki
-「Molto bene, allora<3:3c>.<3:ff>
-Ma sei davvero nella posizione di
-fare scelte così affrettate?
+「Capisco<3:3c>.<3:ff>
+Ma tu non hai scelta.
 @@ 31
 <19:0100>Loki
 「Quando il corso del fiume si ferma<3:1e>,<3:ff>
@@ -100,13 +99,13 @@ nel regno del non essere!
 @@ 33
 <3:00><7:0b>-<7:01> Ragnarok <7:0b>-<7:01><17:7800>
 @@ 34
-<5><3:05>Una parola ignota a tutti, tranne agli dei<3:3c>
+<5><3:05>Una parola ignota persino agli dei<3:3c>
 <3:05><5>Una parola tramandata da tempi immemorabili<3:3c>
 <3:05><5>Una parola che evoca una rovina inevitabile<3:3c>
 <3:05><5>Una parola che significa "Crepuscolo degli Dei".<17:c800>
 @@ 35
 <5><3:05>Eppure, nessun augure
-<5>avrebbe potuto prevedere ciò che seguì.<17:7800>
+<5>ne rivela l'artefice.<17:7800>
 @@ 36
 <3:00>[ Odin ]<3:3c>
 <3:04> Metà mortale, metà divino, nelle sue vene
@@ -122,9 +121,9 @@ nel regno del non essere!
  che detesta ogni creatura.<17:f000>
 @@ 38
 <3:00>[ Valkyrie ]<3:3c>
-<3:04> Si trova sul bordo di una gola
- che separa i ricordi mortali da quelli divini<3:3c>.<3:04>
- Composta da tre psiche,
+<3:04> Dea sospesa tra i ricordi umani
+ e quelli divini<3:3c>.<3:04>
+ Ha tre psiche e rinasce ora dea, ora umana;
  i suoi veri poteri restano ignoti.<17:f000>
 @@ 39
 <5><3:00>A ben pensarci・・・<3:78>
@@ -140,9 +139,9 @@ nel regno del non essere!
 nel nulla dell'abisso!
 @@ 42
 <19:0100>Valkyrie
-「Non aspetteremo che il sommo Odino
-ci degni della sua attenzione divina.
-Io ho il potere di imporre la sua volontà.
+「Il sommo Odino non ha bisogno
+di occuparsi di te di persona.
+Sarò io a eseguire la sua sentenza.
 Ora, come s'addice a un re<3:0c>・・・<3:ff>
 Sguaina la spada.
 Sguainala e muori!!

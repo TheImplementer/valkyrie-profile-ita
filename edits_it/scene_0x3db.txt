@@ -12,9 +12,9 @@ fino a Midgard<3:0c>・・・<3:ff>
 @@ 16
 Servo di Hel
 「Radunatevi tutti qui!<3:32>!<3:ff>
-Valkyrie è arrivata!<page>
-Informate la Regina!
-Sarà felicissima!
+È arrivata la vittima!<page>
+Anche la Regina
+ne sarà felicissima!
 @@ 17
 <5>Hai trovato Manuale di Resurrezione.
 @@ 18

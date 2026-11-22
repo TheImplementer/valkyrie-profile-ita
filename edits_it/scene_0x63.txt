@@ -32,11 +32,11 @@ locale raffinato?
 di più raffinato ci sia ad Artolia.
 @@ 23
 <3:05>[- Giardino Nan-Lou -<3:46>]<3:04>
- L'unico ristorante di alta cucina
+ Il più rinomato ristorante di cucina
  Yamato di tutta Artolia<3:46>.<3:04>
- Promette ai cittadini del Continente
- un'esperienza di gusto che molti
- occidentali trovano alquanto bizzarra <7:0b>-<7:01>
+ Piatti strani e bizzarri per la gente
+ del Continente, ma dal gusto raffinato.
+ Eppure<7:0b>-<7:01>
 @@ 24
 <19:0100>Badrach
 「Ehi, questa sì che è una

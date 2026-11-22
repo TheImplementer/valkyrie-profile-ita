@@ -72,8 +72,8 @@ quello vero?
 <19:0100>Hrist
 「Esatto.<page>
 Sono una delle tre dee del fato.
-Io e le mie sorelle governiamo
-la trasmigrazione delle anime.
+Condividiamo un solo corpo astrale
+e rinasciamo, ora umane ora dee.
 Odino scelse mia sorella Lenneth
 per occuparsi di questo regno・・・<page>
 Ma ora l'ha giudicata inadatta
@@ -153,9 +153,9 @@ di congelare le quattro dimensioni dello spazio!!
 「<3:06>Notevole.<17:b400>
 @@ 46
 <19:ffff>Mystina
-「Lezard<3:1e>!<3:ff> Che cosa vuoi!?
-Fatti vedere<3:1e>!<3:ff>
-Facciamola finita!!
+「Lezard<3:1e>!<3:ff> Era ora!
+Potevi sbrigarti<3:1e>!<3:ff>
+Che diavolo stavi facendo!!
 @@ 47
 <19:ffff>Lezard
 「Le antiche magie sono difficili
@@ -196,5 +196,5 @@ quindi me ne sono sbarazzato.
 Proprio come te.
 @@ 54
 <19:ffff>Mystina
-「Non mi sono fatta uccidere apposta!
-Sei pazzo<7:0b>-<7:01>!!
+「Non sono finita così per scelta!
+È colpa tua<7:0b>-<7:01>!!

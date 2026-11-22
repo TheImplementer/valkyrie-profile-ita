@@ -53,8 +53,8 @@ Quello è una spia di Villnore, sai.
 「Cosa?!
 @@ 27
 <19:0100>Badrach
-「Nessuno doveva sapere cosa c'era
-in quel coso, amico!<page>
+「Sapendo cos'era il carico,
+è tutto chiaro, amico!<page>
 Con la principessa in mano loro,
 Villnore avrebbe avuto
 Artolia in pugno.
@@ -76,7 +76,7 @@ Uomo
 <19:0100>Badrach
 「Che<3:0c>・・・<3:ff>?
 @@ 33
-<5><3:04><18>In guerra,<3:14> <3:03>ci sono sia<3:04> purezza che sozzura.<12:1b0b><17:7800>
+<5><3:04><18>In guerra,<3:14> <3:03>non esiste<3:04> pulito o sporco!<12:1b0b><17:7800>
 @@ 34
 <5><3:03><18>Quell'armatura<3:0c>・・・<3:03>deve rendere difficile
 <5>vedere il sangue che hai addosso.<12:1c0b><17:7800>
@@ -106,15 +106,15 @@ di questa missione, ma<3:0c>・・・<3:ff>
 <19:0100>Samurai
 「Non pensarci troppo.
 È semplice.<page>
-Siamo qui per indagare su
-un villaggio che si dice pieno di
+Dobbiamo solo agire in base alle
+voci su un villaggio pieno di
 guerrieri travestiti da civili.
 @@ 43
 <19:0000>Suo
 「Ma<3:0c>・・・<3:ff>!
 @@ 44
 <19:0100>Samurai
-「Le nostre informazioni sono esatte.
+「Che sia vero o no, non importa.
 @@ 45
 <5><3:03><18>Shiho<3:0c>・・・<3:14>
 <3:03><5>Che<3:0c>・・・<3:14> <3:03>che devo fare?<17:7800>

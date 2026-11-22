@@ -2,8 +2,8 @@
 
 @@ 14
 <19:ffff>Claire
-「Che t'importa
-perché l'ho fatto!?
+「Vuoi proprio
+sentirmelo dire!?
 @@ 15
 <19:ffff>Claire
 「E va bene!
@@ -21,10 +21,10 @@ dei suoi capelli argentati!
 「Claire<3:0c>...
 @@ 19
 <19:ffff>Claire
-「Non sai
-come mi fa sentire?
-Dover dividerti con
-il suo fantasma<7:0b>-<7:01>
+「Lo sai cosa provo
+per te, no?
+Ma nel tuo cuore
+c'è ancora lei<7:0b>-<7:01>
 @@ 20
 <19:ffff>Claire
 「Siete in ritardo<3:1e>, <3:ff>ragazzi.
@@ -64,7 +64,7 @@ Uccidono la gente a destra e a manca<3:1e>.<3:ff>
 <19:ffff>Claire
 「Cosa facciamo<3:1e>?<3:ff>
 E Rusty?
-È appena uscito!
+È uscito e non è più tornato!
 @@ 29
 <19:ffff>Cittadino
 「Se è ancora vivo<3:1e>,<3:ff>
@@ -95,4 +95,4 @@ Ti prego, vai!
 「Ma i bambini si fidano di più di me!
 @@ 36
 <19:ffff>Lucian
-「Non possiamo farci niente, ormai.
+「E va bene, come vuoi.

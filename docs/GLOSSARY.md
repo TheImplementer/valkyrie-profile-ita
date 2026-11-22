@@ -83,7 +83,7 @@ here, so this file is never built into the disc.)
 | Sir Arngrim | ser Arngrim | Used by Angela and the King. |
 | Lady Angela (Arngrim, mocking) | madamigella Angela | |
 | Ghoul Powder / Ghoul | Polvere di Ghoul / ghoul | Necromancer → negromante. |
-| 10,000 deaths are not enough for you!! | Diecimila morti non ti (vi) basterebbero!! | Jelanda's catchphrase, four times: keep it identical. |
+| 10,000 deaths are not enough for you!! | Diecimila morti non ti (vi) basterebbero!! | Jelanda's catchphrase, four times: keep it identical. A fifth use, in scene 0x71 #34, was dropped by the English and restored from the Japanese; there it follows "Per parole simili," and is split over two lines. |
 | little one (Arngrim to Jelanda) | piccola | |
 | "Law" in Lawfer's name | "Law", la legge | Scene 0x73: the pun is explained, not translated. |
 | To outside (door sign) | Uscita | Signposts are drawn in a 192-pixel box (op 0x98). Chapel → Cappella, Tavern → Taverna, Private Residence → Casa privata, Main Street → Via maestra. |
@@ -97,10 +97,26 @@ Padre di Fuyuki, Marito di Lorenta, Assassino, Sindaco, Sacerdote, Fanatico, Dem
 Giovane arciere, Voce di donna, Spadaccina dall'elmo piumato. Samurai stays. Monster names used as labels follow
 the battle names (see "Monster names"): Signore furioso, Signore oscuro, Sciamano drow, Servo di Hel, Drago minore, Spettro.
 
+## Choices from the Japanese script
+
+The Italian was checked against the Japanese original in November 2026 (local tools in `jp/`). Where the
+English had changed the meaning, the Italian follows the Japanese; the forms of address below and these
+terms come from it too:
+
+| English | Italian | Note |
+|---|---|---|
+| Old Servant (scene 0x370) | Anziana | The Japanese label is 老婆, an old woman. |
+| soul (scene 0x1E5, the mirror cave) | cuore | The Japanese is 心 (heart); "the Soul Stone" and the twins' shared soul (魂) stay *anima*. |
+| I still love her. (Lucian, 0xF #25) | Ma quello che provo non cambia. | The Japanese does not say whom he loves: kept open. |
+
+Names whose Japanese reading differs (Freya/Frei swapped, Hrist, Janus, Jelanda, Aelia) keep the English
+release's forms, like voiced lines whose English was invented: their Italian follows the English audio.
+
 ## Forms of address
 
 * **Odin is addressed formally:** *voi*, "mio signore", "al vostro servizio".
-* **Valkyrie, Freya and Frei use *tu*** with each other.
+* **Valkyrie, Freya and Frei use *tu*** with each other. Frei calls Valkyrie "sorella Lenneth", for the
+  Japanese レナスお姉様 ("honoured big sister"; the English has the plain name): scenes 0x16, 0x18, 0x1B.
 * **Platina addresses Madre Laia's guest formally:** "I vostri vestiti…", "Perdonatemi…".
 * **Platina and Lucian call her parents *mamma* and *papà*:** "Mother and Father" becomes "Mamma e papà".
 * **Arngrim's chapter:** brothers, mercenaries, Lombert to Arngrim and Valkyrie to humans use *tu*.
@@ -114,15 +130,17 @@ the battle names (see "Monster names"): Signore furioso, Signore oscuro, Sciaman
 * **Crell Monferaigne:** Bert gives his superior Ernest *voi*; Lezard's letter gives his old teacher Lorenta
   *voi*; the priest prays to the Battle-Maiden with *tu*, as in a prayer. Llewelyn and Millia use *tu*;
   Millia's "Perché non volete capire?!" is plural, to both parents. Genevieve and Magnus use *tu*.
-* **The gods:** everyone gives Odin *voi* ("Sommo Odino, fermatevi!!") and he uses *tu*. Freya uses *tu*
-  with Valkyrie, Frei and Loki. Loki uses *tu* with Valkyrie, Freya and Surt, and with Odin once he
-  defies him openly (scene 0x19). Valkyrie uses *tu* with everyone except Odin.
+* **The gods:** everyone gives Odin *voi* ("Sommo Odino, resistete!!", scene 0x19 #22) and he uses *tu*. Freya uses *tu*
+  with Valkyrie, Frei and Loki. Loki uses *tu* with Valkyrie and Freya, and with Odin once he
+  defies him openly (scene 0x19). With Surt he uses a falsely deferential *voi*, for the Japanese
+  keigo, and drops to *tu* when he betrays him (scene 0x172 #30). Valkyrie uses *tu* with everyone except Odin.
 * **Lezard** gives Valkyrie and his old teacher Lorenta a courtly *voi*; he uses *tu* with Mystina
   ("Mysty"), Lucian, Arngrim, Bellion and the elf. Mystina uses *tu* with everyone, sarcastically;
   Arngrim too. Servants and students give their master *voi* ("maestro Lezard").
 * **Strangers:** adults meeting for the first time use *voi* (Dolce, Lyseria, Grey and Gandar to
   Valkyrie); Valkyrie answers with *tu*. Exceptions by character: Aelia and Badrach use *tu*
-  with Valkyrie from the start.
+  with Valkyrie from the start. Valkyrie greets Lyseria with *voi* (scenes 0x15C and 0x16E #14 and #16,
+  polite in the Japanese) and turns to *tu* once she addresses her as a lost soul.
 * **Nanami** gives her foster parents and Valkyrie *voi*; Lucian gives Dolce *voi* ("signora Dolce").
 * **Badrach speaks colloquially** ("un sacco", "chi se ne frega", "Ci si vede!"), without dialect spellings.
 

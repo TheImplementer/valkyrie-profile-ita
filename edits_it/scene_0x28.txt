@@ -10,7 +10,7 @@ Hanno mandato mezzo esercito!
 「Non voglio morire<3:0c>...
 @@ 16
 <19:ffff>Lucian
-「Non potete uccidermi<3:0c>・・・
+「Non ti lascerò morire<3:0c>・・・
 @@ 17
 <19:ffff>Claire
 「Lu<7:0b>-<7:01>!!
@@ -19,8 +19,8 @@ Hanno mandato mezzo esercito!
 「Dannazione!!
 @@ 19
 <19:ffff>Lucian
-「<3:06>Ce l'ho fatta fin qui.
-Non bastava?
+「<3:06>Fin qui dovremmo
+essere al sicuro, no?
 @@ 20
 <19:ffff>Claire
 「Perché<3:0c>... <3:ff>Perché...?
@@ -41,8 +41,8 @@ Lei è morta per prima, lasciandomi solo.
 Se succedesse di nuovo<3:0c>...
 @@ 24
 <19:ffff>Claire
-「Te l'ho detto,
-non ti lascio!
+「E allora tu
+non lasciarmi!!
 @@ 25
 <19:ffff>Lucian
 「<3:07>Mi dispiace<3:0c>...

@@ -160,8 +160,8 @@ Buona fortuna.
 <5>Certo, attaccare anche con l'energia a 0
 <5>ha qualche vantaggio.
 @@ 32
-<5>Se il primo attacco viene contrastato,
-<5><4:01>anche il secondo verrà sempre contrastato
+<5>Se il primo attacco viene parato,
+<5><4:01>anche il secondo verrà sempre parato
 <5>se cercate il tempismo della Combo.<4:00>
 <5>Questo si chiama "Combo Guard" e
 <5>sullo schermo compare l'avviso "Combo Guard".
@@ -246,21 +246,21 @@ Buona fortuna.
 <5>Cristalli Magici né Gemme Viola.
 @@ 39
 <5>Il terzo modo di combattere è ripristinare il CT.
-<5>Anche se l'attacco dovrebbe mirare
-<5>a eliminare il nemico, non avete
+<5>Basta atterrare il nemico e colpirlo
+<5>mentre è a terra, ma non avete
 <5>notato che il tempismo è un po' difficile?
-<5>L'ideale sarebbe pensare di
-<5>distribuire le Gemme Viola
-<5>per ripristinare il CT proseguendo un attacco
-<5>speciale e poter usare l'attacco speciale sempre.
+<5>L'ideale sarebbe far apparire le Gemme Viola,
+<5>che ripristinano il CT, mentre lanciate
+<5>gli attacchi speciali: così potreste
+<5>usarli sempre.
 <5>Ma se siete troppo rapidi, colpite
 <5>a mezz'aria e<3:0c>・・・<3:ff>
 @@ 40
 <19:ffff>Spiritello
-「Non sembra esserci nessuno con
-l'abilità necessaria.
-Se c'è qualcuno che ha almeno
-un po' di quell'abilità<3:0c>...<3:ff>
+「Per ora non sembra richiesta
+nessuna abilità particolare.
+Chi ha una forza adeguata
+andrà bene<3:0c>...<3:ff>
 Nessun problema.
 @@ 41
 <5><4:05>Valore eroico necessario 40<4:00>
@@ -284,7 +284,7 @@ Nessun problema.
 @@ 45
 <5><4:05>Valore eroico necessario 90<4:00>
 <5>Un Einherjar molto agile.
-<5>Un Einherjar che ha acquisito Swimming.
+<5>Un Einherjar che sa nuotare.
 <5>Un guerriero che ha acquisito March.
 <5>Un guerriero che ha acquisito Attack Pow.
 <5>Un guerriero che ha acquisito Defend.
@@ -315,7 +315,7 @@ Nessun problema.
 Volete chiedermi qualcosa?
 @@ 50
 <19:ffff>Spiritello
-「Resterò qui<3:1e>.<3:ff>
+「Sarò sempre qui<3:1e>.<3:ff>
 A presto<3:14>,<3:ff> Lenneth<3:28>.<3:ff>
 Come segno della mia stima<3:0c>...<3:ff><page>
 Le capacità degli Einherjar di Asgard
@@ -326,8 +326,8 @@ La sola forza fisica non basta.
 Ad Asgard dovete mandare solo
 guerrieri che abbiano compiuto
 una crescita personale.<page>
-Beh<3:0c>...<3:ff> certo,
-il punto è<3:0c>...<3:ff> quanto<3:0c>...<3:ff>?
+Beh<3:0c>...<3:ff> anche così,
+c'è sempre<3:0c>...<3:ff> un limite<3:0c>...<3:ff>.
 @@ 51
 <19:ffff>Spiritello
 「Anche l'attività di un Einherjar ad Asgard
@@ -377,11 +377,11 @@ Quello è il Campo della Memoria.
 <5>solo al Campo della Memoria.
 @@ 62
 <19:ffff>Freya
-「Credo che tu abbia capito, ma<3:1e>,<3:ff>
-divorare anime<3:0c>・・・<3:ff>è una
-profanazione dei defunti.
-Avere pietà dei non morti è inutile.
-Basta, andiamo.
+「Credo che tu lo sappia, ma<3:1e>,<3:ff>
+con chi divora le anime<3:0c>・・・<3:ff>con i
+non morti che profanano i defunti,
+la pietà è inutile.
+Su, andiamo.
 @@ 63
 <19:ffff>Freya
 「Ci sono molti altri non morti<3:1e> <3:ff>
@@ -392,7 +392,7 @@ che profanano i defunti.
  per un po'.
 @@ 65
 <19:ffff>Freya
-「Un attimo.
+「Solo per poco.
 @@ 66
 <19:ffff>Freya
 「Quando gli Einherjar saranno addestrati

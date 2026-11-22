@@ -6,9 +6,9 @@
 
 @@ 14
 Vampiro anziano
-「È vostra, signora Beliza<3:28>!<3:ff>
-Questo è l'ultimo sacrificio;
-il nostro patto è ora compiuto.
+「Tutto a voi, signora Beliza<3:28>!<3:ff>
+Vittima e contraente, entrambi.
+Il nostro patto è ora compiuto.
 @@ 15
 <19:ffff>Belenus
 「Asaka<3:14>, <3:ff>Asaka!
@@ -28,7 +28,7 @@ Come se parole simili
 potessero darmi pace!?
 @@ 19
 <19:ffff>Belenus
-「Io l'amavo<7:0b>-<7:01>
+「Io la amo<7:0b>-<7:01>
 @@ 20
 <19:ffff>Valkyrie
 「C'è ancora un modo<3:0c>・・・
@@ -45,7 +45,7 @@ Ma dovresti morire
 al posto suo.
 @@ 23
 <19:ffff>Belenus
-「Ero schiavo delle circostanze<3:1e>.<3:ff>
-Non potevo dire nulla.
+「Prigioniero del mio rango<3:1e>,<3:ff>
+non ho potuto dirle nulla.
 @@ 24
-<5><3:04><18>Andiamo.<17:b400>
+<5><3:04><18>Viviamo, insieme.<17:b400>

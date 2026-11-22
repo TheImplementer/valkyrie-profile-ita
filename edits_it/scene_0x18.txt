@@ -14,10 +14,10 @@
 <3:03>「<18>Sì<3:1e>.<3:03> La Sfera del Drago<3:0a> <3:03>che <3:04>il sommo Odino<3:03>
 ha portato via da Midgard per prepararsi
 all'arrivo del Ragnarok.<3:28>
-<3:03>Ci ha <3:04>traditi!<17:7800>
+<3:03>Loki gliel'ha <3:04>ritorta contro!<17:7800>
 @@ 19
 <19:0000>Frei
-<3:04>「<18>Devi andare da Odino<3:3c>.<3:04>
+<3:04>「<18>Corri dal sommo Odino<3:3c>.<3:04>
 La guerra non va bene<3:3c>.<3:04>
 Freya è già là.<17:7800>
 @@ 20
@@ -45,14 +45,14 @@ due piccioni <3:02>con<3:03> una fava.<12:cf0b><17:7800><page>
 Midgard cadrà nel Caos.<3:28>
 <3:03>E questo renderebbe anche
 il tuo compito più facile,
-Lenneth<3:0c>...<12:d00b><17:7800>
+sorella Lenneth<3:0c>...<12:d00b><17:7800>
 @@ 25
 <19:0100>Valkyrie
 「<3:0c>・・・<3:04><18>Smettila!<12:d10b><17:7800>
 @@ 26
 <19:0000>Frei
 「<3:0c>・・・<3:28>?<3:03>
-<18>Perché dici così, Lenneth?<12:d20b><17:7800>
+<18>Perché dici così, sorella Lenneth?<12:d20b><17:7800>
 @@ 27
 <19:0100>Valkyrie
 「<3:0c>・・・<3:04><18>Niente<3:32>,<3:03> lascia perdere.<17:7800>
