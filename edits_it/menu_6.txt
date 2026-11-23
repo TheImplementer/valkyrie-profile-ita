@@ -350,7 +350,7 @@ OFF
 @@ 0x047a
 o{6a 6a 6a 6a}per scegliere
 @@ 0x047c
-Premi il tasto{6a 6a 6a}per finire
+Premi il tasto{6a 6a 6a 6a}per finire
 @@ 0x047d
 scegli{6a 6a 6a}conferma
 @@ 0x047e

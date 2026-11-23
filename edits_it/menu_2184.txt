@@ -68,7 +68,7 @@ o{61 61 61 61}per scegliere
 @@ 0x047b
 per impostare
 @@ 0x047c
-Premi il tasto{61 61 61}per finire
+Premi il tasto{61 61 61 61}per finire
 @@ 0x047d
 scegli{61 61 61}conferma
 @@ 0x047e

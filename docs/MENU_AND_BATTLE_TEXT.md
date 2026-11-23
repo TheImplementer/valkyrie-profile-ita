@@ -249,6 +249,41 @@ share one border line. "Ordina" needs about 108. Any wider and the tabs overlap.
 record, since the program has only one. It couldn't be opened this early in a test game, so it
 hasn't been seen.
 
+## The Configure hints
+
+![Configure's hints in English (left) and Italian (right)](notes/edit_proof/italian_config_hints.png)
+
+The Configure screen shows a hint in a box at the top right ("[pad] or [pad] to pick"). Its program
+is part 0 of package 2184, the package that also holds its string table, loaded at `0x80059EE0`. It
+uses the same kind of layout lists as the camp tabs (at `0x2820` in the program), except that a text
+record is type 1. There are six:
+
+| message | English | box (x, width) | icons |
+|---|---|---|---|
+| `0x47A` | or [pad] to pick | 302, 154 | pad before, pad in the text |
+| `0x47B` | to set | 364, 92 | pad before |
+| `0x47C` | Press desired button [pad] to end | 204, 252 | pad in the text |
+| `0x47D` | to pick [X] decide | 242, 214 | two pads before, one in the text |
+| `0x47E` | or [L1][R1] to pick | 250, 206 | two pads before, two in the text |
+| `0x470` | Press desired button [Start] seal, [pad] end | 156, 300 | two in the text |
+
+Every box ends at x 456, left of the scrollbar. An icon inside a hint is not part of the string: it
+is drawn at its own x, over a run of blank glyphs (`{61}`) that the text leaves for it. A glyph is
+drawn 2 pixels wider than its font width. So a translation moves the gaps but not the icons, and a
+longer one runs out of its box: "per scegliere" and "per impostare" did. The English has a flaw of
+its own: the pad icon in `0x47C` sits 16 pixels into a gap 30 wide, and covers "to".
+
+**`build` fits them.** Whenever table 2184 changes, `vp_config_hints.py` moves each icon to its gap in
+the new text (centred, if its English place would run past the gap), and sizes each box to its text,
+moving the whole hint with it: wider to the left when the text is longer, narrower when it is
+shorter, always with 8 pixels of space on screen after the last letter (`MARGIN` 6 plus the glyph's
+own spacing), as on the left. The English widens its longer hints the same way, so they cover the
+end of the screen's "Original Default" labels; the narrower Italian boxes cover less of them. A hint
+whose text is unchanged keeps its English box.
+The build log lists each change (`Configure hint 0x47a: box 154 -> 188 px wide; icon x 362 -> 356`).
+"Premi il tasto" got a fourth blank, so the 30-pixel pad fits between the words. `0x47D` wasn't
+found on screen.
+
 ## Item names
 
 The policy follows the official Italian Final Fantasy VIII: everything you use up, craft with, wear or

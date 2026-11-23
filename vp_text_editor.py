@@ -92,6 +92,7 @@ vmenu = _load('vp_menu_text')
 vbattle = _load('vp_battle_text')
 vwm = _load('vp_worldmap_text')
 vtabs = _load('vp_camp_tabs')
+vhints = _load('vp_config_hints')
 
 SECTOR = 2048
 ARG_BYTES = vst.ARG_BYTES
@@ -862,6 +863,8 @@ def build_tables(arc, dirw, table_edits, link, patches, log=print):
         elif t.kind == 'menu' and t.added:
             grown = '; ' + t.glyph_note()
         log(f'{table_title(t)}: messages {shown} changed{linked}{grown}')
+        if t.kind == 'menu' and t.word == vhints.WORD:
+            vhints.patch(types.SimpleNamespace(**globals()), t, log)     # the Configure hint boxes
         t.write()
         units += [u for u in t.units if u not in units]
     for u in units:
